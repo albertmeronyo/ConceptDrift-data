@@ -1,0 +1,242 @@
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#boundingBox> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b1 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+_:f57abab16ce074dd7a085b4976792ac97b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f57abab16ce074dd7a085b4976792ac97b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+_:f57abab16ce074dd7a085b4976792ac97b1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_Primitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+_:f57abab16ce074dd7a085b4976792ac97b3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableCurve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b4 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometric position"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Surface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f57abab16ce074dd7a085b4976792ac97b4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientablePrimitive> <http://www.w3.org/2004/02/skos/core#notation> "GM_OrientablePrimitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://purl.org/dc/elements/1.1/creator> "Simon Jonathan David COX\nCSIRO"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f57abab16ce074dd7a085b4976792ac97b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://purl.org/dc/elements/1.1/description> "geometric complex\r\nset of disjoint geometric primitives such that the boundary of each primitive can be represented as the union of other geometric primitives within the complex\r\n\r\nNOTE:  The geometric primitives in the set are mutually exclusive in the sense that no point is interior to more than one primitive.  The set is closed under boundary operations, meaning that for each element in the complex, there is a collection (also a complex) of geometric primitives that represents the boundary of that element."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b23 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> .
+_:f57abab16ce074dd7a085b4976792ac97b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+_:f57abab16ce074dd7a085b4976792ac97b7 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> .
+_:f57abab16ce074dd7a085b4976792ac97b2 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#coordinates> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableSurface> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orientable Surface"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> <http://www.w3.org/2004/02/skos/core#notation> "GM_Aggregate"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientablePrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> .
+_:f57abab16ce074dd7a085b4976792ac97b17 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+_:f57abab16ce074dd7a085b4976792ac97b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#coordinates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+_:f57abab16ce074dd7a085b4976792ac97b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b2 .
+_:f57abab16ce074dd7a085b4976792ac97b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f57abab16ce074dd7a085b4976792ac97b26 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b7 .
+_:f57abab16ce074dd7a085b4976792ac97b6 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#upperCorner> .
+_:f57abab16ce074dd7a085b4976792ac97b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f57abab16ce074dd7a085b4976792ac97b6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_Complex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientablePrimitive> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_OrientablePrimitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#boundingBox> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+_:f57abab16ce074dd7a085b4976792ac97b19 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#isAbstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> <http://www.w3.org/2000/01/rdf-schema#domain> _:f57abab16ce074dd7a085b4976792ac97b9 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> <http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#isAbstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> <http://www.w3.org/2004/02/skos/core#prefLabel> "Curve"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solid"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#position> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+_:f57abab16ce074dd7a085b4976792ac97b2 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f57abab16ce074dd7a085b4976792ac97b20 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#lowerCorner> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#position> <http://www.w3.org/2000/01/rdf-schema#domain> _:f57abab16ce074dd7a085b4976792ac97b28 .
+_:f57abab16ce074dd7a085b4976792ac97b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f57abab16ce074dd7a085b4976792ac97b27 .
+_:f57abab16ce074dd7a085b4976792ac97b24 <http://www.w3.org/2002/07/owl#unionOf> _:f57abab16ce074dd7a085b4976792ac97b25 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableSurface> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orientable surface"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Surface> <http://www.w3.org/2004/02/skos/core#prefLabel> "Surface"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometry object"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#isAbstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Surface> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_Surface"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometric Complex"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f57abab16ce074dd7a085b4976792ac97b11 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201210/ISOTC211/HM/geometry.rdf> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b8 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2004/02/skos/core#notation> "GM_Point"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+_:f57abab16ce074dd7a085b4976792ac97b5 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#lowerCorner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableCurve> .
+_:f57abab16ce074dd7a085b4976792ac97b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientablePrimitive> <http://www.w3.org/2000/01/rdf-schema#label> "Orientable primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2004/02/skos/core#prefLabel> "Envelope"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#lowerCorner> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://spinrdf.org/spin#imports> <http://topbraid.org/spin/owlrl-all> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2000/01/rdf-schema#label> "Geometry"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b3 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_Object"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2004/02/skos/core#notation> "GM_Envelope"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableSurface> <http://www.w3.org/2004/02/skos/core#notation> "GM_OrientableSurface"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2004/02/skos/core#notation> "GM_Object"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#position> <http://www.w3.org/2000/01/rdf-schema#domain> _:f57abab16ce074dd7a085b4976792ac97b13 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b5 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> <http://www.w3.org/2004/02/skos/core#prefLabel> "Curve"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> <http://www.w3.org/2000/01/rdf-schema#label> "Curve"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#upperCorner> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+_:f57abab16ce074dd7a085b4976792ac97b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b6 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableCurve> <http://www.w3.org/2000/01/rdf-schema#label> "Orientable Curve"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_Curve"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_Solid"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+_:f57abab16ce074dd7a085b4976792ac97b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b23 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b16 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://purl.org/dc/terms/created> "2010-10-27"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> <http://www.w3.org/2004/02/skos/core#notation> "DirectPosition"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+_:f57abab16ce074dd7a085b4976792ac97b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f57abab16ce074dd7a085b4976792ac97b19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometric primitive"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#upperCorner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableSurface> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://purl.org/dc/elements/1.1/description> "GM_Object (Figure 6) is the root class of the geometric object taxonomy and supports interfaces common to all geographically referenced geometric objects. GM_Object instances are sets of direct positions in a particular coordinate reference system. A GM_Object can be regarded as an infinite set of points that satisfies the set operation interfaces for a set of direct positions, TransfiniteSet<DirectPosition>. Since an infinite collection class cannot be implemented directly, a Boolean test for inclusion shall be provided by the GM_Object interface. This international standard concentrates on vector geometry classes, but future work may use GM_Object as a root class without modification.\r\nNOTE As a type, GM_Object does not have a well-defined default state or value representation as a data type. Instantiated subclasses of GM_Object will."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Surface> <http://www.w3.org/2000/01/rdf-schema#label> "Surface"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> <http://www.w3.org/2004/02/skos/core#notation> "GM_Curve"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+_:f57abab16ce074dd7a085b4976792ac97b8 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://purl.org/dc/elements/1.1/description> "An OWL representation of part of the model for geometry and space from ISO 19107:2003 Geographic Information - Spatial Schema"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableSurface> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_OrientableSurface"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#coordinates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://purl.org/dc/terms/modified> "2012-07-24"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientablePrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableCurve> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orientable curve"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b19 .
+_:f57abab16ce074dd7a085b4976792ac97b18 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://www.w3.org/2000/01/rdf-schema#label> "Geometric Complex"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b28 <http://www.w3.org/2002/07/owl#unionOf> _:f57abab16ce074dd7a085b4976792ac97b29 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b21 .
+_:f57abab16ce074dd7a085b4976792ac97b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientablePrimitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://purl.org/dc/elements/1.1/date> "2012-05-25"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b16 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f57abab16ce074dd7a085b4976792ac97b4 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#position> .
+_:f57abab16ce074dd7a085b4976792ac97b21 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#upperCorner> .
+_:f57abab16ce074dd7a085b4976792ac97b1 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> .
+_:f57abab16ce074dd7a085b4976792ac97b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2000/01/rdf-schema#label> "Point"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> .
+_:f57abab16ce074dd7a085b4976792ac97b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f57abab16ce074dd7a085b4976792ac97b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f57abab16ce074dd7a085b4976792ac97b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f57abab16ce074dd7a085b4976792ac97b15 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://www.w3.org/2004/02/skos/core#notation> "GM_Complex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/2000/01/rdf-schema#label> "Geometric Primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometric Primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableCurve> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_OrientableCurve"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometry aggregate"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b22 .
+_:f57abab16ce074dd7a085b4976792ac97b13 <http://www.w3.org/2002/07/owl#unionOf> _:f57abab16ce074dd7a085b4976792ac97b14 .
+_:f57abab16ce074dd7a085b4976792ac97b8 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> .
+_:f57abab16ce074dd7a085b4976792ac97b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/2004/02/skos/core#notation> "GM_Primitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometry complex"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> <http://purl.org/dc/elements/1.1/description> "DirectPosition object data types (Figure 14) hold the coordinates for a position within some coordinate reference system. The coordinate reference system is described in ISO 19111. Since DirectPositions, as data types, will often be included in larger objects (such as GM_Objects) that have references to ISO19111::SC_CRS, the DirectPosition::cordinateReferenceSystem may be left NULL if this particular DirectPosition is included in a larger object with such a reference to a SC_CRS. In this case, the DirectPosition::coordinateReferenceSystem is implicitly assumed to take on the value of the containing object's SC_CRS."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2004/02/skos/core#prefLabel> "Point"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientablePrimitive> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orientable primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b3 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_Aggregate"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Surface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+_:f57abab16ce074dd7a085b4976792ac97b7 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f57abab16ce074dd7a085b4976792ac97b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> <http://www.w3.org/2004/02/skos/core#notation> "GM_Solid"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#upperCorner> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#boundingBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientablePrimitive> <http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#isAbstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solid"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#position> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://purl.org/dc/elements/1.1/description> "GM_Envelope is often referred to as a minimum bounding box or rectangle. Regardless of dimension, a GM_Envelope can be represented without ambiguity as two direct positions (coordinate points). To encode a GM_Envelope, it is sufficient to encode these two points. This is consistent with all of the data types in this standard, their state is represented by their publicly accessible attributes."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+_:f57abab16ce074dd7a085b4976792ac97b21 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> <http://www.w3.org/2000/01/rdf-schema#label> "Geometric Aggregate"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://purl.org/dc/elements/1.1/description> "GM_Primitive (Figure 8) is the abstract root class of the geometric primitives. Its main purpose is to define the basic \"boundary\" operation that ties the primitives in each dimension together. A geometric primitive (GM_Primitive) is a geometric object that is not decomposed further into other primitives in the system. This includes curves and surfaces, even though they are composed of curve segments and surface patches, respectively. This composition is a strong aggregation: curve segments and surface patches cannot exist outside the context of a primitive.\nNOTE Most geometric primitives are decomposable infinitely many times. Adding a centre point to a line may split that line into two separate lines. A new curve drawn across a surface may divide that surface into two parts, each of which is a surface. This is the reason that the normal definition of primitive as \"non-decomposable\" is not plausible in a geometry model - the only non-decomposable object in geometry is a point.\nAny geometric object that is used to describe a feature is a collection of geometric primitives. A collection of geometric primitives may or may not be a geometric complex. Geometric complexes have additional properties such as closure by boundary operations and mutually exclusive component parts.\nGM_Primitive and GM_Complex share most semantics, in the meaning of operations, attributes and associations. There is an exception in that a GM_Primitive shall not contain its boundary (except in the trivial case of GM_Point where the boundary is empty), while a GM_Complex shall contain its boundary in all cases. This means that if an instantiated object implements GM_Object operations both as GM_Primitive and as a GM_Complex, the semantics of each set theoretic operation is determined by the its name resolution. Specifically, for a particular object such as GM_CompositeCurve, GM_Primitive::contains (returns FALSE for end points) is different from GM_Complex::contains (returns TRUE for end points). Further, if that object is cast as a GM_Primitive value and as a GM_Complex value, then the two values need not be equal as GM_Objects."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f57abab16ce074dd7a085b4976792ac97b12 .
+_:f57abab16ce074dd7a085b4976792ac97b21 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b20 .
+_:f57abab16ce074dd7a085b4976792ac97b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+_:f57abab16ce074dd7a085b4976792ac97b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f57abab16ce074dd7a085b4976792ac97b30 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometric Aggregate"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> <http://www.w3.org/2000/01/rdf-schema#label> "Solid"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f57abab16ce074dd7a085b4976792ac97b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> <http://www.w3.org/2000/01/rdf-schema#domain> _:f57abab16ce074dd7a085b4976792ac97b24 .
+_:f57abab16ce074dd7a085b4976792ac97b5 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#lowerCorner> .
+_:f57abab16ce074dd7a085b4976792ac97b16 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+_:f57abab16ce074dd7a085b4976792ac97b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f57abab16ce074dd7a085b4976792ac97b6 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+_:f57abab16ce074dd7a085b4976792ac97b20 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometry"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Aggregate> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#coordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#lowerCorner> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Complex> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Primitive> .
+_:f57abab16ce074dd7a085b4976792ac97b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableCurve> <http://www.w3.org/2004/02/skos/core#notation> "GM_OrientableCurve"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+_:f57abab16ce074dd7a085b4976792ac97b22 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f57abab16ce074dd7a085b4976792ac97b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#lowerCorner> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableCurve> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orientable Curve"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+_:f57abab16ce074dd7a085b4976792ac97b18 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+_:f57abab16ce074dd7a085b4976792ac97b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> .
+_:f57abab16ce074dd7a085b4976792ac97b20 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#upperCorner> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Envelope> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/ISOTC211/HM/geometry.rdf> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Surface> <http://www.w3.org/2004/02/skos/core#notation> "GM_Surface"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+_:f57abab16ce074dd7a085b4976792ac97b9 <http://www.w3.org/2002/07/owl#unionOf> _:f57abab16ce074dd7a085b4976792ac97b10 .
+_:f57abab16ce074dd7a085b4976792ac97b22 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#srs> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geometric point"@en .
+_:f57abab16ce074dd7a085b4976792ac97b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f57abab16ce074dd7a085b4976792ac97b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Orientable Surface"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f57abab16ce074dd7a085b4976792ac97b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> <http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#isAbstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f57abab16ce074dd7a085b4976792ac97b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2004/02/skos/core#altLabel> "GM_Point"^^<http://def.seegrid.csiro.au/isotc211/iso19150/2012/hm2owl#ISOClassName> .
+_:f57abab16ce074dd7a085b4976792ac97b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b18 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientablePrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f57abab16ce074dd7a085b4976792ac97b17 .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#OrientableSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f57abab16ce074dd7a085b4976792ac97b17 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#coordinates> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#boundingBox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+_:f57abab16ce074dd7a085b4976792ac97b23 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> <http://purl.org/dc/elements/1.1/source> "ISO 19107:2003"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f57abab16ce074dd7a085b4976792ac97b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+

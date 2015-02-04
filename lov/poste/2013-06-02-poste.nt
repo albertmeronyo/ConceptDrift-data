@@ -1,0 +1,102 @@
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/raphael-troncy> .
+<http://data.lirmm.fr/ontologies/poste#distributeur> <http://www.w3.org/2000/01/rdf-schema#comment> "Pr\u00E9sence ou non d'un distributeur automatique de billets (DAB)." .
+<http://data.lirmm.fr/ontologies/poste#ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticDistribution> .
+<http://data.lirmm.fr/ontologies/poste#rechargeMoneo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste#ghislain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.lirmm.fr/ontologies/poste#rechargeMoneo> <http://www.w3.org/2000/01/rdf-schema#label> "Recharge moneo" .
+<http://data.lirmm.fr/ontologies/poste#rdf> <http://www.w3.org/ns/adms#accessURL> "http://data.lirmm.fr/ontologies/poste.rdf" .
+<http://data.semanticweb.org/organization/eurecom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+<http://data.lirmm.fr/ontologies/poste#affranchissementLibreService> <http://www.w3.org/2000/01/rdf-schema#label> "Affranchissement libre service" .
+<http://data.lirmm.fr/ontologies/poste#photocopieur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/poste#BureauPoste> <http://www.w3.org/2000/01/rdf-schema#label> "Bureau de poste" .
+<http://data.lirmm.fr/ontologies/poste#complementAdresse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste#photocopieur> <http://www.w3.org/2000/01/rdf-schema#comment> "Pr\u00E9sence ou non d'un photocopieur accessible au public." .
+<http://data.lirmm.fr/ontologies/poste#distributeur> <http://www.w3.org/2000/01/rdf-schema#label> "Distributeur de billets automatique" .
+<http://data.lirmm.fr/ontologies/poste#photocopieur> <http://www.w3.org/2000/01/rdf-schema#label> "Photocopieur" .
+<http://data.lirmm.fr/ontologies/poste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://data.lirmm.fr/ontologies/poste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticAsset> .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/dc/terms/title> "Ontologie de la Poste" .
+<http://data.lirmm.fr/ontologies/poste#complementAdresse> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication de precisant la structure d'accueil de l'agence, MAIRIE, HOTEL, TABAC" .
+<http://data.lirmm.fr/ontologies/poste#AgencePostaleCommunale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/poste#codePostal> <http://www.w3.org/2000/01/rdf-schema#comment> "code postal du point de contact" .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/modified> "2013-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/poste#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.lirmm.fr/ontologies/poste.html> .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/creator> <http://www.eurecom.fr/~atemezin> .
+<http://data.lirmm.fr/ontologies/poste#BureauPoste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/poste#rdf> <http://www.w3.org/ns/adms#status> <http://purl.org/adms/status/Completed> .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/Ontology> .
+<http://data.lirmm.fr/ontologies/poste#changeurMonnaie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.data.gouv.fr/donnees/view/Liste-des-points-de-contact-du-r%C3%A9seau-postal-fran%C3%A7ais-551640?xtmc=paris&xtcr=7> .
+<http://data.lirmm.fr/ontologies/poste#distributeur> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste#distributeur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.semanticweb.org/person/raphael-troncy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.lirmm.fr/ontologies/poste#rdf> <http://purl.org/dc/terms/FileFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+<http://data.lirmm.fr/ontologies/poste> <http://xmlns.com/foaf/0.1/homepage> <http://data.lirmm.fr/ontologies/poste.html> .
+<http://data.lirmm.fr/ontologies/poste#changeurMonnaie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/poste#monnaieParis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/dc/terms/modified> "2013-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/poste#BureauPoste> <http://www.w3.org/2000/01/rdf-schema#comment> "Site repr\u00E9sentant un bureau de poste" .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/vocab/vann/preferredNamespacePrefix> "poste" .
+<http://data.semanticweb.org/organization/eurecom> <http://xmlns.com/foaf/0.1/name> "EURECOM" .
+<http://www.eurecom.fr/~atemezin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.lirmm.fr/ontologies/poste#AgencePostaleCommunale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/created> "2012-09-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/dc/terms/status> <http://purl.org/adms/status/UnderDevelopment> .
+<http://data.lirmm.fr/ontologies/poste#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.data.gouv.fr/var/download/fbd8ad620e37a6cf8165e5619a687ccd.pdf> .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/license> <http://www.opendatacommons.org/licenses/pddl/1.0/> .
+<http://data.lirmm.fr/ontologies/poste#PosteOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/poste#affranchissementLibreService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/poste#changeurMonnaie> <http://www.w3.org/2000/01/rdf-schema#comment> "changeur de monnaie" .
+<http://data.lirmm.fr/ontologies/poste#> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologie de la Poste"@fr .
+<http://data.lirmm.fr/ontologies/poste#PosteOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation de la poste" .
+<http://data.lirmm.fr/ontologies/poste#ttl> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by-sa/3.0/> .
+<http://data.lirmm.fr/ontologies/poste#affranchissementLibreService> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste#RelaisCommercant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://data.lirmm.fr/ontologies/poste#" .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/modified> "2012-09-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/modified> "2013-05-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/poste#> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulaire d\u00E9crivant la r\u00E9partition des points de contact du r\u00E9seau postal en France m\u00E9tropolitaine, Guadeloupe, Guyane, La R\u00E9union, Martinique, Mayotte, Monaco, Monte-Carlo et Saint-Pierre et Miquelon"@fr .
+<http://data.lirmm.fr/ontologies/poste#ghislain> <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+<http://data.lirmm.fr/ontologies/poste#ttl> <http://www.w3.org/ns/adms#status> <http://purl.org/adms/status/Completed> .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/dc/elements/1.1/license> "http://creativecommons.org/licenses/by-sa/3.0/" .
+<http://data.lirmm.fr/ontologies/poste#ghislain> <http://xmlns.com/foaf/0.1/nick> "ghislain" .
+<http://data.lirmm.fr/ontologies/poste#PosteOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/poste#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://data.lirmm.fr/ontologies/poste#RelaisCommercant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/poste#monnaieParis> <http://www.w3.org/2000/01/rdf-schema#label> "Monnaie Paris" .
+<http://data.lirmm.fr/ontologies/poste#photocopieur> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste#ttl> <http://www.w3.org/ns/adms#accessURL> "http://data.lirmm.fr/ontologies/poste.ttl" .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/dc/terms/description> "Vocabulaire d\u00E9crivant la r\u00E9partition des points de contact du r\u00E9seau postal en France m\u00E9tropolitaine, Guadeloupe, Guyane, La R\u00E9union, Martinique, Mayotte, Monaco, Monte-Carlo et Saint-Pierre et Miquelon." .
+<http://data.lirmm.fr/ontologies/poste#PosteOrganisation> <http://www.w3.org/2000/01/rdf-schema#comment> "Organisation de la poste en France" .
+<http://data.lirmm.fr/ontologies/poste#AgencePostaleCommunale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/dc/elements/1.1/creator> <http://data.lirmm.fr/ontologies/poste#ghislain> .
+<http://data.lirmm.fr/ontologies/poste#RelaisCommercant> <http://www.w3.org/2000/01/rdf-schema#comment> "Site repr\u00E9sentant un relais poste commer\u00E7ant" .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/publisher> <http://data.semanticweb.org/organization/eurecom> .
+<http://www.eurecom.fr/~atemezin> <http://xmlns.com/foaf/0.1/name> "Ghislain Auguste Atemezing" .
+<http://data.semanticweb.org/person/raphael-troncy> <http://xmlns.com/foaf/0.1/name> "Raphael Troncy" .
+<http://data.lirmm.fr/ontologies/poste#ttl> <http://purl.org/dc/terms/FileFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/modified> "2012-09-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/poste#monnaieParis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/poste#codePostal> <http://www.w3.org/2000/01/rdf-schema#label> "Code postal" .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/modified> "2013-05-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/poste#codePostal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/poste#changeurMonnaie> <http://www.w3.org/2000/01/rdf-schema#label> "changeur monnaie" .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/dc/terms/created> "2012-09-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/poste#BureauPoste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/poste#RelaisCommercant> <http://www.w3.org/2000/01/rdf-schema#label> "Relais commer\u00E7ant" .
+<http://data.lirmm.fr/ontologies/poste#rechargeMoneo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/poste#> <http://purl.org/dc/terms/modified> "2012-09-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/poste#rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticDistribution> .
+<http://data.lirmm.fr/ontologies/poste#complementAdresse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/poste#AgencePostaleCommunale> <http://www.w3.org/2000/01/rdf-schema#comment> "Site repr\u00E9sentant une agence communale" .
+<http://data.lirmm.fr/ontologies/poste#complementAdresse> <http://www.w3.org/2000/01/rdf-schema#label> "Complement Adresse" .
+<http://data.lirmm.fr/ontologies/poste#AgencePostaleCommunale> <http://www.w3.org/2000/01/rdf-schema#label> "Agence postale communale" .
+<http://data.lirmm.fr/ontologies/poste#rechargeMoneo> <http://www.w3.org/2000/01/rdf-schema#comment> "Pr\u00E9sence ou non de chargeurs de monnaie. Ils permettent aux clients de s'approvisionner en monnaie." .
+<http://data.lirmm.fr/ontologies/poste#affranchissementLibreService> <http://www.w3.org/2000/01/rdf-schema#comment> "Pr\u00E9sence ou non d'un automate d'affranchissement libre service." .
+<http://data.lirmm.fr/ontologies/poste#BureauPoste> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+<http://data.lirmm.fr/ontologies/poste#> <http://www.w3.org/2002/07/owl#versionInfo> "0.2" .
+<http://data.lirmm.fr/ontologies/poste#RelaisCommercant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/poste> <http://purl.org/dc/terms/partOf> <http://data.lirmm.fr/ontologies> .
+<http://data.lirmm.fr/ontologies/poste#rdf> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by-sa/3.0/> .
+<http://data.lirmm.fr/ontologies/poste#codePostal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/poste#PosteOrganisation> .
+

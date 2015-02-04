@@ -1,0 +1,135 @@
+_:f9eff0a114488421fa1be16f15b31b1b3b5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Event> .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9eff0a114488421fa1be16f15b31b1b3b5 .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9eff0a114488421fa1be16f15b31b1b3b1 .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9eff0a114488421fa1be16f15b31b1b3b6 .
+_:f9eff0a114488421fa1be16f15b31b1b3b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/pso/resultsInAssigning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f9eff0a114488421fa1be16f15b31b1b3b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/pso/holds> <http://www.w3.org/2000/01/rdf-schema#label> "holds"@en .
+<http://purl.org/spar/pso> <http://purl.org/dc/elements/1.1/description> "An ontology for the characterization of the status of a document and other bibliographic entities at various stages in the publication process (e.g.  submitted manuscript, rejected manuscript, accepted manuscript, proof, Version of Record, catalogued book).\u00A0"@en .
+<http://purl.org/spar/pso/isHeldBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/pso/holds> .
+<http://purl.org/vocab/frbr/core#isDismissedAfter> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> .
+<http://purl.org/spar/pso/resultsInAssigning> <http://www.w3.org/2000/01/rdf-schema#comment> "An event that results in assigning a particular status to a document."@en .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9eff0a114488421fa1be16f15b31b1b3b2 .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular situation that describe a state or condition some documents may have at a particular time as consequece of one or more events."@en .
+<http://purl.org/spar/pso/hasEndingTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate> .
+<http://purl.org/spar/pso/hasStartingTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/spar/pso/isHeldBy> <http://www.w3.org/2000/01/rdf-schema#label> "is held by"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Event> <http://www.w3.org/2000/01/rdf-schema#label> "event"@en .
+<http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/pso/resultsInAssigning> <http://www.w3.org/2000/01/rdf-schema#label> "results in assigning"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/pso/Agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Object> .
+<http://purl.org/vocab/frbr/core#isDismissedAfter> <http://www.w3.org/2000/01/rdf-schema#label> "is dismissed after"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "time interval"@en .
+<http://purl.org/spar/pso/isHeldBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/pso/holds> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> .
+<http://purl.org/vocab/frbr/core#resultsInDismissing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f9eff0a114488421fa1be16f15b31b1b3b1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/vocab/frbr/core#isDismissedAfter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Event> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:f9eff0a114488421fa1be16f15b31b1b3b4 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/spar/pso/Status> .
+_:f9eff0a114488421fa1be16f15b31b1b3b6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f9eff0a114488421fa1be16f15b31b1b3b6 <http://www.w3.org/2002/07/owl#onClass> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> .
+<http://purl.org/spar/pso/isStatusIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/pso/withStatus> .
+<http://purl.org/spar/pso/Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/pso/hasEndingTime> <http://www.w3.org/2000/01/rdf-schema#label> "has ending time"@en .
+<http://purl.org/spar/pso/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/pso> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/pso/hasStartingTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract class defining any kinds of publishing work."@en .
+<http://purl.org/spar/pso> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
+<http://purl.org/spar/pso/isAssignedAfter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Event> .
+<http://purl.org/spar/pso/withStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/pso/Agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Agent> .
+_:f9eff0a114488421fa1be16f15b31b1b3b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/pso> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/pso/holds> <http://www.w3.org/2000/01/rdf-schema#comment> "The action of having a status associated."@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/spar/pso/isAssignedAfter> <http://www.w3.org/2000/01/rdf-schema#label> "is assigned after"@en .
+<http://purl.org/spar/pso/hasEndingTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A precise moment in time that defines the ending point of an time interval."@en .
+<http://purl.org/spar/pso/hasEndingTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/spar/pso/withStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The status that will be considered during a particular time."@en .
+<http://purl.org/spar/pso/hasStartingTime> <http://www.w3.org/2000/01/rdf-schema#label> "has starting time"@en .
+<http://purl.org/spar/pso/isAssignedAfter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/pso/StatusInTime> .
+<http://purl.org/spar/pso> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/participation.owl> .
+_:f9eff0a114488421fa1be16f15b31b1b3b3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/pso/Status> <http://www.w3.org/2000/01/rdf-schema#label> "status"@en .
+_:f9eff0a114488421fa1be16f15b31b1b3b3 <http://www.w3.org/2002/07/owl#onClass> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> .
+<http://purl.org/spar/pso/isHeldBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document> .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9eff0a114488421fa1be16f15b31b1b3b4 .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f9eff0a114488421fa1be16f15b31b1b3b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Two (starting and ending) points in time that define a particular period of time."@en .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/2000/01/rdf-schema#label> "document"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/vocab/frbr/core#isDismissedAfter> <http://www.w3.org/2000/01/rdf-schema#comment> "A status dismissed from a document as consequence of a particular event."@en .
+<http://purl.org/spar/pso/isStatusIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/pso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/vocab/frbr/core#resultsInDismissing> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> .
+<http://purl.org/vocab/frbr/core#resultsInDismissing> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/vocab/frbr/core#isDismissedAfter> .
+<http://purl.org/spar/pso/Status> <http://www.w3.org/2000/01/rdf-schema#comment> "A state or condition some documents may have."@en .
+<http://purl.org/spar/pso/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity, such as a person, a group, an organization, a software agent, involved in one or more events."@en .
+<http://purl.org/spar/pso/isStatusIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> .
+<http://purl.org/spar/pso/hasStartingTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A precise moment in time that defines the starting point of an time interval."@en .
+<http://purl.org/spar/pso> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by/3.0/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/spar/pso/isHeldBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A status is hold by a document during a particular time."@en .
+<http://purl.org/spar/pso/withStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/pso/Status> .
+<http://purl.org/spar/pso/hasEndingTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/spar/pso/isAssignedAfter> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f9eff0a114488421fa1be16f15b31b1b3b1 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/pso/withStatus> .
+_:f9eff0a114488421fa1be16f15b31b1b3b4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/pso/resultsInAssigning> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/pso/isAssignedAfter> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/pso> <http://purl.org/dc/elements/1.1/date> "2010-10-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/spar/pso/withStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/pso/isHeldBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/pso/StatusInTime> .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:f9eff0a114488421fa1be16f15b31b1b3b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A time interval during which a status is held by a document."@en .
+_:f9eff0a114488421fa1be16f15b31b1b3b6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#label> "at time"@en .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:f9eff0a114488421fa1be16f15b31b1b3b3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> .
+<http://purl.org/vocab/frbr/core#resultsInDismissing> <http://www.w3.org/2000/01/rdf-schema#label> "results in dismissing"@en .
+<http://purl.org/spar/pso/withStatus> <http://www.w3.org/2000/01/rdf-schema#label> "with status"@en .
+<http://purl.org/spar/pso/withStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/pso/StatusInTime> .
+_:f9eff0a114488421fa1be16f15b31b1b3b2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/pso/isAssignedAfter> .
+<http://purl.org/spar/pso/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "agent"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "A thing that may happen during a publishing process, such as writing a draft, sending a preprint, publishing a paper, etc."@en .
+<http://purl.org/vocab/frbr/core#resultsInDismissing> <http://www.w3.org/2000/01/rdf-schema#comment> "An event that results in dismissing a particular status from a document."@en .
+<http://purl.org/vocab/frbr/core#isDismissedAfter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f9eff0a114488421fa1be16f15b31b1b3b5 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/pso/isAssignedAfter> .
+_:f9eff0a114488421fa1be16f15b31b1b3b4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/pso/withStatus> .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/2000/01/rdf-schema#label> "status in time"@en .
+<http://purl.org/vocab/frbr/core#isDismissedAfter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/pso/StatusInTime> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/pso/isStatusIn> <http://www.w3.org/2000/01/rdf-schema#label> "is status for"@en .
+<http://purl.org/spar/pso/StatusInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9eff0a114488421fa1be16f15b31b1b3b3 .
+<http://purl.org/spar/pso/resultsInAssigning> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> .
+<http://purl.org/spar/pso> <http://purl.org/dc/elements/1.1/title> "Publishing Status Ontology"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f9eff0a114488421fa1be16f15b31b1b3b2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.ontologydesignpatterns.org/cp/owl/participation.owl#Event> .
+_:f9eff0a114488421fa1be16f15b31b1b3b1 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/spar/pso/Status> .
+<http://purl.org/spar/pso/holds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/pso> <http://www.w3.org/2002/07/owl#imports> <http://swan.mindinformatics.org/ontologies/1.2/foaf-essential.owl> .
+<http://purl.org/spar/pso/isAssignedAfter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/pso/hasStartingTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate> .
+<http://purl.org/spar/pso/isStatusIn> <http://www.w3.org/2000/01/rdf-schema#comment> "A status held by a particular document at a certain time."@en .
+<http://purl.org/spar/pso/isHeldBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> .
+<http://purl.org/spar/pso> <http://purl.org/dc/elements/1.1/creator> "David Shotton"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/pso/isAssignedAfter> <http://www.w3.org/2000/01/rdf-schema#comment> "A status assigned to a document as consequence of a particular event."@en .
+<http://purl.org/spar/pso/withStatus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> .
+_:f9eff0a114488421fa1be16f15b31b1b3b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+

@@ -1,0 +1,53 @@
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> "To represent time intervals."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub29bL47C27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub29bL51C27 .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> "We can represent time intervals as objects.\nHowever, the dates of the time interval are not part of the domain of discourse, they are datatype values. If there is the need of reasoning about dates, this CP should be used in composition with the region CP."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub29bL47C27 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate> <http://www.w3.org/2000/01/rdf-schema#label> "interval has end date"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.w3.org/2002/07/owl#versionInfo> "1.1 added rdfs:isDefinedBy for all named entities"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> "It is a component of time-indexed person role, time indexed part of, and can be composed with other CPs when temporal aspects need to be represented."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate> <http://www.w3.org/2000/01/rdf-schema#label> "interval has start date"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalDate> <http://www.w3.org/2000/01/rdf-schema#label> "has interval date"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Any Region in a dimensional space that aims at representing time.\nIt should be used when you want to talk about time as an object having some characteristics."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:ub29bL51C27 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalDate> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ub29bL51C27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom> "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+_:ub29bL51C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalDate> <http://www.w3.org/2000/01/rdf-schema#label> "intervallo ha data"@it .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.w3.org/2002/07/owl#versionInfo> "Created by Valentina Presutti"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub29bL47C27 .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalDate> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The start date of a time interval." .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalEndDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The end date of a time interval." .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Intervallo di tempo"@it .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Time interval"@en .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "The time interval pattern. \nThis pattern is extracted from DOLCE-UltraLite by partial clone of elements and expansion. Two datatype properties have been added which allow to express the boundaries of the time interval.\nRanges of datatype properties are not indicated, because otherwise specializing them with different xsd datatypes would lead to inconsistencies."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+_:ub29bL47C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> "What is the end time of this interval? What is the starting time of this interval? What is the date of this time interval?"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> "The time inter val \u201CJanuary 2008\u201D starts at 2008 \u2212 01 \u2212 0 and ends at 2008 \u2212 01 \u2212 31."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalDate> <http://www.w3.org/2000/01/rdf-schema#comment> "A datatype property that encodes values from xsd:date (or any other date-related xsd datatype) for a TimeInterval; a same TimeInterval can have more than one date value: begin date, end date, date at which the interval holds, as well as dates expressed in different formats: xsd:gYear, xsd:dateTime, etc." .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#hasIntervalStartDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+

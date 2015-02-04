@@ -1,0 +1,864 @@
+<http://data.semanticweb.org/ns/swc/ontology#Tutor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#DemoPresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#TalkEvent\">TalkEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Paper> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/organization/deri-nui-galway> <http://xmlns.com/foaf/0.1/member> <http://kantenwerk.org/metadata/foaf.rdf#me> .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A tutorial is a special session at a conference or workshop, somewhat like a long lecture on a specific topic.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Reviewer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#DemosChair> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Deprecating this, just use <a href=\"#TrackChair\">TrackChair</a> instead.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#isLocationFor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDescription> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/person/sean-bechhofer> <http://xmlns.com/foaf/0.1/homepage> <http://www.cs.man.ac.uk/~seanb/> .
+<http://data.semanticweb.org/ns/swc/ontology#AccommodationPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Accommodation Place" .
+<http://data.semanticweb.org/ns/swc/ontology#PosterPresentation> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForDemos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://data.semanticweb.org/ns/swc/ontology#TalkEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A speaker giving a talk. This could be the presentation of a paper, but also keynote speech or any other kind of talk.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#SlideSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Artefact> .
+<http://data.semanticweb.org/ns/swc/ontology#01_introduction> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				The Semantic Web Conference ontology (SWC) is an ontology for describing academic conferences. \n				It was initially designed to support the European Semantic Web Conference,\n				ESWC2007, and later extended for both the following conferences in the ESWC series,\n				as well as in the ISWC series.\n				Historically, the SWC ontology also draws heavily on ontologies developed for\n				ESWC2006 and ISWC2006.\n			</p>\n			<p>\n				SWC is mainly a convention of how to use classes and properties from other ontologies, most prominently \n				<a href=\"http://xmlns.com/foaf/0.1\">FOAF</a> (for people) and <a href=\"http://ontoware.org/projects/swrc/\">SWRC</a> \n				(their BibTeX elements, for the papers). We are also throwing in some <a href=\"http://sioc-project.org/\">SIOC</a>, \n				<a href=\"http://dublincore.org/documents/dc-rdf/index.shtml\">Dublin Core</a> and \n				<a href=\"http://www.w3.org/TR/rdfcal/\">iCal/RDF Calendar</a>. Our own \n				<a href=\"http://data.semanticweb.org/ns/swc/ontology\">swc namespace</a> provides the glue for all this, as well as \n				specialised classes for things that have to do with conferences.\n			</p>\n			<p>\n				This version of SWC has been slimmed down significantly (hence the revision name). A total of 59 classes and 19 properties have been deprecated (deprecated terms can be found at the bottom of this document). This was mostly done with the intention to remove the countless sub-classes of generic classes such as <a href=\"#Chair\">Chair</a> or <a href=\"#SessionEvent\">SessionEvent</a>, which were deemed to be too specific for a general-purpose conference ontology such as SWC. Elsewhere, classes and properties which had never been used and seemed to fall under the heading of \"over-engineering\" were removed. Finally, all CfP related terms were removed. Instead, we suggest to use a dedicated ontology such as the <a href=\"http://sw.deri.org/2005/08/conf/cfp\">CfP ontology</a>.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTrack> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#Reviewer> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Deprecating this, just use <a href=\"#ProgrammeCommitteeMember\">ProgrammeCommitteeMember</a> instead.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Role> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Role is the super-class of all the different roles performed at a conference or workshop. Examples are the various conference chairs, the delegates, presenters, PC members, etc. The intended use of this class is that an instance of Role will be related to the event at which it is performed, and to the person which performs it.\n			</p>\n			<p>\n				Since the set of roles is slightly different for each event, and since it would therefore be impossible to provide sub-classes for all needs and circumstances, the SWC ontology only contains a very basic set of Role classes. Rather than diversifying the set of Role classes to cater for all needs, users should instead instantiate the small set of different Role classes and cover the roles at a specific event in this way. E.g., instead of sub-classing the Chair role with MainChair, WorkshopChair, TutorialChair, etc., the different kinds of chairs should simply be instances of the generic Chair class and be labelled appropriately.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#memberOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialsChair> <http://www.w3.org/2000/01/rdf-schema#label> "Tutorials Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceOpeningEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Opening Event" .
+<http://data.semanticweb.org/ns/swc/ontology#SWChallengeChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#Call> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#Poster> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#isPartOf> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				A generic property to model part-of relationships. In SWC this property is used to relate papers or articles to the <a href=\"#Proceedings\">proceedings document</a> in which they are contained.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#BreakEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> .
+<http://data.semanticweb.org/ns/swc/ontology#PublicityChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+_:f217edc17796f47c8b5d9be72698d886cb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f217edc17796f47c8b5d9be72698d886cb3 .
+<http://data.semanticweb.org/ns/swc/ontology#AdditionalReviewer> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#Artefact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#PrintedProceedingsChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasMenu> <http://www.w3.org/2000/01/rdf-schema#label> "has menu" .
+<http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#BreakEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Break Event" .
+<http://data.semanticweb.org/ns/swc/ontology#Programme> <http://www.w3.org/2000/01/rdf-schema#label> "Programme" .
+<http://data.semanticweb.org/ns/swc/ontology#isPartOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#Presenter> <http://www.w3.org/2000/01/rdf-schema#label> "Presenter" .
+<http://data.semanticweb.org/ns/swc/ontology#attendeeAt> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#SessionEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://kantenwerk.org/metadata/foaf.rdf#me> <http://xmlns.com/foaf/0.1/surname> "M\u00F6ller" .
+<http://www.w3.org/2002/12/cal/ical#prodid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact> <http://www.w3.org/2000/01/rdf-schema#label> "has related artefact" .
+<http://data.semanticweb.org/ns/swc/ontology#DemoSession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#LocalOrganiser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTalk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#TalkEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Programme> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#PhDSymposiumChair> <http://www.w3.org/2000/01/rdf-schema#label> "PhD Symposium or Doctoral Consortium Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#DemosChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCameraReadyDeadline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Workshop Event" .
+<http://data.semanticweb.org/ns/swc/ontology#Sponsorship> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Sponsorship> .
+<http://data.semanticweb.org/ns/swc/ontology#Chair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#SWChallengeChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#Call> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Call> .
+<http://data.semanticweb.org/ns/swc/ontology#isRoleAt> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#hasMenu> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#PanelEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Panel Event" .
+<http://xmlns.com/foaf/0.1/maker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/12/cal/ical#duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#ResearchTrack> <http://www.w3.org/2000/01/rdf-schema#label> "Research Track" .
+<http://data.semanticweb.org/ns/swc/ontology#TrackChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#hasAttendee> <http://www.w3.org/2000/01/rdf-schema#label> "has attendee" .
+<http://xmlns.com/wordnet/1.6/Sponsorship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#Place> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#MealEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://kantenwerk.org/metadata/foaf.rdf#me> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://kantenwerk.org/metadata/foaf.rdf> .
+<http://data.semanticweb.org/ns/swc/ontology#Reception> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#SocialEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#PostersChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialPresenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#forEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Delegate> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> .
+<http://data.semanticweb.org/ns/swc/ontology#CommunalPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#03_roles> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				One of the basic design choices in SWC is to use role modelling for describing the different functions at a conference, such as chairs, reviewers, etc. For any particular role at a given conference, the <code>swc:Role</code> class or a sub-class will be instantiated. This role instance stands in relation to a person (who plays the role) and an event. The figure below gives an example showing how to model the role of the metadata chair (or \"dog food tsar\") at ISWC+ASWC2007, which was held by Knud M\u00F6ller (together with Tom Heath, not shown in the figure).\n			</p>\n			<p>\n				Note that the metadata chair role is not modelled with its own dedicated class (although it could have been). Instead, an instance of the generic <a href=\"#Chair\">Chair</a> class is used and labelled accordingly.\n			</p>\n			<div align=\"center\">\n				<a href=\"documentation/20090510-Roles_new.pdf\"><img src=\"documentation/20090510-Roles_new.png\" /></a>\n			</div>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#MealEvent> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#Call> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Announcement> .
+<http://data.semanticweb.org/organization/talis-information-limited> <http://xmlns.com/foaf/0.1/homepage> <http://www.talis.com/> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceOpeningEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceOpeningEvent> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is provided by" .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> .
+<http://data.semanticweb.org/ns/swc/swrc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://data.semanticweb.org/organization/university-of-manchester-uk> <http://xmlns.com/foaf/0.1/name> "University of Manchester" .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember> <http://www.w3.org/2000/01/rdf-schema#label> "Programme Committee Member" .
+<http://www.w3.org/2002/12/cal/ical#component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#Proceedings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> <http://www.w3.org/2000/01/rdf-schema#label> "related to Event" .
+<http://data.semanticweb.org/ns/swc/ontology#hasProgramme> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#holdsRole> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#heldBy> .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionInstructions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#FreeTimeBreak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#TrackChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#uuid> <http://www.w3.org/2000/01/rdf-schema#label> "uuid" .
+<http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/organization/university-of-manchester-uk> <http://xmlns.com/foaf/0.1/homepage> <http://www.manchester.ac.uk/> .
+<http://data.semanticweb.org/organization/university-of-manchester-uk> <http://xmlns.com/foaf/0.1/member> <http://data.semanticweb.org/person/sean-bechhofer> .
+<http://data.semanticweb.org/ns/swc/ontology#SocialEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Social Event" .
+<http://data.semanticweb.org/ns/swc/ontology#hasCall> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://data.semanticweb.org/ns/swc/ontology#AccommodationPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<http://data.semanticweb.org/ns/swc/ontology#Poster> <http://www.w3.org/2000/01/rdf-schema#label> "Poster" .
+<http://data.semanticweb.org/ns/swc/ontology#Reception> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> .
+<http://data.semanticweb.org/ns/swc/ontology#MeetingRoomPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#hasLocation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#hasRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#isLocationFor> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Relates a location to a conference or sub-event thereof which takes place at it.\n			</p>\n			\n		" .
+<http://tomheath.com/id/me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCameraReadyDeadline> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDemonstration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#license_doc> <http://www.w3.org/2000/01/rdf-schema#label> "License Statement" .
+<http://data.semanticweb.org/ns/swc/ontology#SessionChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForProposals> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Proposals" .
+<http://data.semanticweb.org/ns/swc/ontology#Chair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#EatingPlace> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Place> .
+_:f217edc17796f47c8b5d9be72698d886cb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.semanticweb.org/ns/swc/ontology#02_describing_papers> .
+<http://data.semanticweb.org/ns/swc/ontology#heldBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.semanticweb.org/ns/swc/ontology#WelcomeTalk> <http://www.w3.org/2000/01/rdf-schema#label> "Welcome Talk" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://xmlns.com/foaf/0.1/maker> <http://data.semanticweb.org/person/sean-bechhofer> .
+<http://data.semanticweb.org/ns/swc/ontology> <http://xmlns.com/foaf/0.1/logo> <http://data.semanticweb.org/images/bones_256.png> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForDemos> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Call> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Excursion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#SocialEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#biblioReference> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://xmlns.com/wordnet/1.6/Role-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTrack> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#Programme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#LocalOrganiser> <http://www.w3.org/2000/01/rdf-schema#label> "Local Organiser" .
+<http://data.semanticweb.org/ns/swc/ontology#Role> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#plansToAttend> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialsChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostAmount> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#PaperSession> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#Reviewer> <http://www.w3.org/2000/01/rdf-schema#label> "Reviewer" .
+<http://data.semanticweb.org/ns/swc/ontology#hasCall> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceDinner> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just use <a href=\"#SocialEvent\">SocialEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#ResearchTrack> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCall> <http://www.w3.org/2000/01/rdf-schema#label> "has call" .
+<http://data.semanticweb.org/ns/swc/ontology#attendeeAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#SponsorshipChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasCameraReadyDeadline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Sponsorship> .
+<http://data.semanticweb.org/ns/swc/ontology#Paper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#PaperPresentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#TalkEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#MeetingRoomPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Meeting Room Place" .
+<http://data.semanticweb.org/ns/swc/ontology#DrinkingPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Drinking Place" .
+<http://data.semanticweb.org/ns/swc/ontology#hasNotificationDeadline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology> <http://usefulinc.com/ns/doap#revision> "\n			$Revision: 895 $ - <i>Slim Version</i>\n			" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionInstructions> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#isProviderOf> .
+<http://data.semanticweb.org/ns/swc/ontology#AdditionalReviewer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://kantenwerk.org/metadata/foaf.rdf#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTrack> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial Track" .
+<http://data.semanticweb.org/ns/swc/ontology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Relates an event such as a conference or any sub-event thereof to a location where it takes place. \n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#SlideSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> .
+<http://data.semanticweb.org/ns/swc/ontology#PrintedProceedingsChair> <http://www.w3.org/2000/01/rdf-schema#label> "(Printed) Proceedings Chair" .
+<http://data.semanticweb.org/person/sean-bechhofer> <http://xmlns.com/foaf/0.1/surname> "Bechhofer" .
+<http://www.w3.org/2002/12/cal/ical#dtstamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#isProviderOf> <http://www.w3.org/2000/01/rdf-schema#label> "is provider of" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://rdfs.org/sioc/ns#earlier_version> <http://data.semanticweb.org/ns/swc/swc_2009-03-02.rdf> .
+<http://data.semanticweb.org/ns/swc/ontology#Tutor> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#isProviderOf> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated because it has never been used and in order to reduce the inflation of ontology terms.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPosters> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Call> .
+<http://data.semanticweb.org/ns/swc/ontology#MealEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f217edc17796f47c8b5d9be72698d886cb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://kantenwerk.org/metadata/foaf.rdf#me> .
+<http://data.semanticweb.org/ns/swc/ontology#CommunalPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A location at the <a href=\"#ConferenceVenuePlace\">conference venue</a> (or elsewhere), which is not a meeting room. \n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#heldBy> <http://www.w3.org/2000/01/rdf-schema#label> "held by" .
+<http://data.semanticweb.org/ns/swc/ontology#hasProgramme> <http://www.w3.org/2000/01/rdf-schema#label> "has programme" .
+<http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#Tutor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#LocalOrganiser> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasAttendee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#TalkEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#TrackChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForParticipation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://data.semanticweb.org/ns/swc/ontology#EatingPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Place> .
+<http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <http://www.w3.org/2000/01/rdf-schema#label> "is sub-event of" .
+<http://www.w3.org/2002/12/cal/ical#sequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#Chair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#Poster> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>A scientific poster at a conference or workshop.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceVenuePlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceVenuePlace> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				The location of a conference or conference-like event. Ideally, this would be more specific than just the city. Instead it should  be the hotel, convention centre, university or similar place where the event is held.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForDemos> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>A call for demonstrations of software at a conference or workshop. Submissions are usually in the form of extended abstracts (~2 page) discussing the research questions addressed by the software and outlining the content of the demonstration.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#PosterSession> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#SessionEvent\">SessionEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSponsorship> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated because it has never been used and in order to reduce the inflation of ontology terms.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasCall> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#forEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> .
+<http://data.semanticweb.org/ns/swc/ontology#AdditionalReviewer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTalk> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				A generic property to model part-of relationships. In SWC this property is used to relate a <a href=\"#Proceedings\">proceedings document</a> to the papers and articles contained in it.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasTopic> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>An event in time and space which is planned and organised, as opposed to something which 'just happens', such as a car accident or sunset.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasMenu> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/wordnet/1.6/Menu> .
+<http://data.semanticweb.org/ns/swc/ontology#Presenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#PosterSession> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://www.w3.org/2002/07/owl#imports> <http://data.semanticweb.org/ns/swc/swrc> .
+<http://data.semanticweb.org/ns/swc/ontology#FreeTimeBreak> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasPart> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://dbpedia.org/resource/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event, other" .
+<http://data.semanticweb.org/ns/swc/ontology#TrackChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#Proceedings> <http://www.w3.org/2000/01/rdf-schema#label> "Proceedings" .
+<http://data.semanticweb.org/ns/swc/ontology#KeynoteTalk> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#DemoSession> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#SessionEvent\">SessionEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#SessionEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Session Event" .
+<http://data.semanticweb.org/ns/swc/ontology#Role> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://xmlns.com/foaf/0.1/maker> <http://tomheath.com/id/me> .
+<http://data.semanticweb.org/ns/swc/ontology#03_roles> <http://www.w3.org/2000/01/rdf-schema#label> "Roles" .
+<http://data.semanticweb.org/ns/swc/ontology#PosterPresentation> <http://www.w3.org/2000/01/rdf-schema#label> "Poster Presentation" .
+<http://data.semanticweb.org/ns/swc/ontology#ResearchTrack> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#CoffeeBreak> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A scientific workshop. Workshops are often co-located with <a href=\"#ConferenceEvent\">ConferenceEvent</a>s.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#AccommodationPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#SocialEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#DogfoodTsar> <http://www.w3.org/2000/01/rdf-schema#label> "Dogfood Tsar" .
+<http://data.semanticweb.org/ns/swc/ontology#InvitedPaper> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>As opposed to a peer-reviewed paper. This class has been deprecated in order to reduce the inflation of classes.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#SessionEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A session dedicated to a specific topic at a conference. This could be a session with talks, or also a poster session, a demo session, or any other kind of session.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#02_describing_papers> <http://www.w3.org/2000/01/rdf-schema#label> "Describing Papers" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPapers> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Call> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#SlideSet> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>A set of slides used for a presentation of e.g. a paper at a conference.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#EatingPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated to reduce inflation of terms.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#TrackChair> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				The chair of a particular track of a conference, responsible for all submissions and actions regarding this track.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDemonstration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Paper> .
+<http://data.semanticweb.org/ns/swc/ontology#MealBreak> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just use <a href=\"#BreakEvent\">BreakEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasProgramme> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#Artefact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#SWChallengeChair> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Deprecating this, just use <a href=\"#TrackChair\">TrackChair</a> instead.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForParticipation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#isRoleAt> <http://www.w3.org/2000/01/rdf-schema#label> "is role at" .
+<http://data.semanticweb.org/ns/swc/ontology#IndustryChair> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Deprecating this, just use <a href=\"#TrackChair\">TrackChair</a> instead.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionInstructions> <http://www.w3.org/2000/01/rdf-schema#label> "has submission instructions" .
+<http://data.semanticweb.org/ns/swc/ontology#SocialEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				Examples for social events are parties or excursions.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Webmaster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#Delegate> <http://www.w3.org/2000/01/rdf-schema#label> "Delegate" .
+<http://data.semanticweb.org/ns/swc/ontology#PostersChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#Excursion> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just use <a href=\"#SocialEvent\">SocialEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#SessionChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#MealBreak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#TrackEvent> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Events can be sub-events of other events. E.g., a talk can be a sub-event of a session, which in turn can be a sub-event of a conference. The relation is transitive - the talk is also a sub-event of the conference." .
+<http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/12/cal/ical#Vevent> .
+<http://data.semanticweb.org/ns/swc/ontology#SubmissionsChair> <http://www.w3.org/2000/01/rdf-schema#label> "Submissions Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopsChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+_:f217edc17796f47c8b5d9be72698d886cb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://data.semanticweb.org/person/sean-bechhofer> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCameraReadyDeadline> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>The call classes have been deprecated in SWC. Instead, we suggest to use the <a href=\"http://sw.deri.org/2005/08/conf/cfp\">CfP ontology</a>.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Treasurer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasNotificationDeadline> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<http://data.semanticweb.org/ns/swc/ontology#Treasurer> <http://www.w3.org/2000/01/rdf-schema#label> "Treasurer" .
+<http://data.semanticweb.org/ns/swc/ontology#affiliation> <http://www.w3.org/2000/01/rdf-schema#label> "affiliation" .
+<http://data.semanticweb.org/ns/swc/ontology#memberOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://xmlns.com/foaf/0.1/member> .
+_:f217edc17796f47c8b5d9be72698d886cb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f217edc17796f47c8b5d9be72698d886cb4 .
+<http://data.semanticweb.org/ns/swc/ontology#MealEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Meal Event" .
+<http://data.semanticweb.org/ns/swc/ontology#Presenter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#Paper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Artefact> .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#DemosChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#Programme> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>A document containing the programme of an event such as a conference or workshop. Typically, the programme would list the times and dates for the individual sub-events, e.g., talks, dinners, panel discussions, etc.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Web Conference Ontology" .
+<http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#isRoleAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#Administrator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://xmlns.com/foaf/0.1/family_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#isProviderOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Organisation> .
+<http://www.w3.org/2002/12/cal/ical#tzid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swrc.ontoware.org/ontology#InProceedings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#PanelEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisingCommitteeMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#attendeeAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#isProviderOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#PublicityChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#holdsRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/12/cal/ical#Vevent> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceVenuePlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xmlns.com/foaf/0.1/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForProposals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRole> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#plansToAttend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/organization/talis-information-limited> <http://xmlns.com/foaf/0.1/name> "Talis Information Limited" .
+<http://data.semanticweb.org/ns/swc/ontology#CommunalPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<http://data.semanticweb.org/ns/swc/ontology#PrintedProceedingsChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#heldBy> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Part of the <a href=\"#Role\">role</a> modelling machinery of SWC. This property relates a role at an event (e.g. a conference chair) to the person who actually holds the role.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#DrinkingPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Place> .
+<http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://data.semanticweb.org/ns/swc/ontology> <http://xmlns.com/foaf/0.1/maker> <http://kantenwerk.org/metadata/foaf.rdf#me> .
+<http://data.semanticweb.org/ns/swc/ontology#Artefact> <http://www.w3.org/2000/01/rdf-schema#label> "Artefact" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPapers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialPresenter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#isProviderOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#Sponsorship> .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialPresenter> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Deprecating this, just use <a href=\"#Presenter\">Presenter</a> instead.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#uuid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#Presenter> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				A presenter is someone who presents matter in front of an audience. Examples of events to which this role applies are paper presentations, tutorials, or talks. A keynote speaker could also be modelled as an instance of this class.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ExhibitionChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#KeynoteTalk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#TalkEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#SocialEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#ResearchTrack> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#TrackEvent\">TrackEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Artefact> .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Role-1> .
+<http://data.semanticweb.org/ns/swc/ontology#PublicityChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#SessionChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#KeynoteTalk> <http://www.w3.org/2000/01/rdf-schema#label> "Keynote Talk" .
+<http://data.semanticweb.org/ns/swc/ontology#PrintedProceedingsChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#WelcomeTalk> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Paper> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#Proceedings> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#InvitedPaper> <http://www.w3.org/2000/01/rdf-schema#label> "Invited Paper" .
+<http://data.semanticweb.org/ns/swc/ontology#DemosChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#hasSponsorship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://xmlns.com/wordnet/1.6/Menu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRole> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Part of the <a href=\"#Role\">role</a> modelling machinery of SWC. This property relates an event (e.g. a conference) to a role at the event (e.g. a conference chair).\n			</p>\n			\n		" .
+<http://swrc.ontoware.org/ontology#doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology> <http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#authorList> _:f217edc17796f47c8b5d9be72698d886cb1 .
+<http://data.semanticweb.org/ns/swc/ontology> <http://purl.org/dc/terms/created> "2007/05/31" .
+<http://data.semanticweb.org/ns/swc/ontology#CoffeeBreak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceDinner> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				In the context of SWC, a non-academic event is any kind or <a href=\"#OrganisedEvent\">organised event</a> which does not concern the topic or theme of the conference as such. Examples are breaks, dinners, parties, etc.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Proceedings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Artefact> .
+<http://data.semanticweb.org/ns/swc/ontology#PaperSession> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#SessionEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostAmount> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated because it has never been used and in order to reduce the inflation of ontology terms.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialsChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#Reviewer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTalk> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#TalkEvent\">TalkEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Call> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#SWChallengeChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPapers> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>A <emph>call for papers</emph> or <emph>CfP</emph> encourages authors to submit papers for peer-review for a conference or workshop, or a journal or book.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForParticipation> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Call> .
+<http://data.semanticweb.org/ns/swc/ontology#Paper> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>A scientific/scholarly paper, e.g., an article in a scientific journal, or a paper at a conference or workshop. A paper could also be unpublished formally, as long as it has the form of a scientific paper (introduction, conclusion, related work, etc.).</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Delegate> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#Call> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>The call classes have been deprecated in SWC. Instead, we suggest to use the <a href=\"http://sw.deri.org/2005/08/conf/cfp\">CfP ontology</a>.</p>\n			<p>A <emph>call</emph> is a public announcement, asking for contribution of some kind to events such as conferences or workshops, or to a publication such as a journal or book.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#PosterSession> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#heldBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#Administrator> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceClosingEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://xmlns.com/wordnet/1.6/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "is part of" .
+<http://data.semanticweb.org/ns/swc/ontology#Presenter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#CoffeeBreak> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just use <a href=\"#BreakEvent\">BreakEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasCall> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://tomheath.com/id/me> <http://xmlns.com/foaf/0.1/homepage> <http://tomheath.com/home/html> .
+<http://data.semanticweb.org/ns/swc/ontology#MealEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A lunch, dinner or similar event at a conference or conference-like event.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#CoffeeBreak> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#isRoleAt> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#hasRole> .
+<http://data.semanticweb.org/ns/swc/ontology#AccommodationPlace> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Place> .
+<http://data.semanticweb.org/ns/swc/ontology#hasPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/12/cal/ical#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#biblioReference> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic reference" .
+<http://xmlns.com/foaf/0.1/mbox_sha1sum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#Sponsorship> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated because it has never been used and in order to reduce the inflation of ontology terms.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Webmaster> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Relates an <a href=\"#AcademicEvent\">event</a> such as a conference, workshop, etc. to a physical <a href=\"#Artefact\">artefact</a>.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#02_describing_papers> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>For the basic use case of describing papers, the figure below shows how the main kinds of resources are connected: the paper itself, the authors and their affiliations, and the talk where the paper was presented.\n			</p>\n			<div align=\"center\">\n				<a href=\"documentation/20070921-ISWC+ASWC2007PublicationGraph.pdf\"><img src=\"documentation/20070921-ISWC+ASWC2007PublicationGraph.png\" /></a>\n			</div>\n			<p>\n				The next figure shows in more detail the kinds of things that can be said about each of the four main entities surrounding a paper.\n			</p>\n			<div align=\"center\">\n				<a href=\"documentation/20071002-Properties.pdf\"><img src=\"documentation/20071002-Properties.png\" /></a>\n			</div>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#attendeeAt> <http://www.w3.org/2000/01/rdf-schema#label> "attendee at" .
+<http://data.semanticweb.org/ns/swc/ontology#ExhibitionChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#PaperPresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostCurrency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Sponsorship> .
+<http://data.semanticweb.org/ns/swc/ontology> <http://purl.org/dc/terms/hasVersion> <http://data.semanticweb.org/ns/swc/swc_2009-02-27.rdf> .
+<http://data.semanticweb.org/ns/swc/ontology#Presenter> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#Reception> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just use <a href=\"#SocialEvent\">SocialEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/person/sean-bechhofer> <http://xmlns.com/foaf/0.1/name> "Sean Bechhofer" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSponsorship> <http://www.w3.org/2000/01/rdf-schema#label> "has sponsorship" .
+<http://data.semanticweb.org/ns/swc/ontology#hasAttendee> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.semanticweb.org/organization/talis-information-limited> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://data.semanticweb.org/ns/swc/ontology#CommunalPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Communal Place" .
+<http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> <http://www.w3.org/2000/01/rdf-schema#label> "is the super-event of" .
+<http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#TrackEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasProgramme> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Relates an event such as a conference to its <a href=\"#Programme\">Programme</a>. \n			</p>\n			\n		" .
+<http://dbpedia.org/resource/Call> <http://www.w3.org/2000/01/rdf-schema#label> "Call" .
+<http://data.semanticweb.org/ns/swc/ontology#DogfoodTsar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+_:f217edc17796f47c8b5d9be72698d886cb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.semanticweb.org/ns/swc/ontology#Webmaster> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#Artefact> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPapers> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://purl.org/dc/terms/creator> <http://kantenwerk.org/metadata/foaf.rdf#me> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopOrganiser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#Chair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionDeadline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopsChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#KeynoteTalk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+_:f217edc17796f47c8b5d9be72698d886cb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://tomheath.com/id/me> .
+<http://data.semanticweb.org/organization/university-of-manchester-uk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://data.semanticweb.org/ns/swc/ontology#hasAttendee> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#attendeeAt> .
+<http://data.semanticweb.org/ns/swc/ontology#heldBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#CommunalPlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>Academic events are e.g. conferences and conference-like events, and all the sub-events of those which are about the topic or theme of the conference, such as talks or panels.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceDinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#MealEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPapers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#SponsorshipChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#AccommodationPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A hotel, hostel, BnB or similar. \n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionDeadline> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.semanticweb.org/ns/swc/ontology#isLocationFor> <http://www.w3.org/2000/01/rdf-schema#label> "is location of" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPapers> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Papers" .
+<http://data.semanticweb.org/organization/talis-information-limited> <http://xmlns.com/foaf/0.1/member> <http://tomheath.com/id/me> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Academic Event" .
+<http://data.semanticweb.org/ns/swc/ontology#CoffeeBreak> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#BreakEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#SponsorshipChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#Paper> <http://www.w3.org/2000/01/rdf-schema#label> "Paper" .
+<http://dbpedia.org/resource/Document> <http://www.w3.org/2000/01/rdf-schema#label> "Document" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#DemoSession> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#TalkEvent> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Artefact> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p><emph>Artefact</emph> here means a document which can have a physical manifestation, like a paper or the proceedings of a conference.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Proceedings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#PublicityChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#holdsRole> <http://www.w3.org/2000/01/rdf-schema#label> "holds role" .
+<http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/12/cal/ical#Vevent> .
+<http://tomheath.com/id/me> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://tomheath.com/home/rdf> .
+<http://data.semanticweb.org/ns/swc/ontology#WelcomeTalk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#SubmissionsChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#FreeTimeBreak> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#BreakEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Programme> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#PanelEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceDinner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#SocialEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceOpeningEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#forEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#affiliation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#PrintedProceedingsChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#holdsRole> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Part of the <a href=\"#Role\">role</a> modelling machinery of SWC. This property relates a person to the role (e.g. a conference chair) it holds at an event.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Proceedings> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>The proceedings of a conference or workshop, which contain the papers presented there.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasMenu> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated because it has never been used and in order to reduce the inflation of ontology terms.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#PaperPresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#TalkEvent\">TalkEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#SponsorshipChair> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsorship Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#isPartOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/12/cal/ical#dtend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Relates an <a href=\"#AcademicEvent\">event</a> such as a conference, workshop, etc. to a <a href=\"#ArgumentativeDocument\">document</a>.\n			</p>\n			\n		" .
+_:f217edc17796f47c8b5d9be72698d886cb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.semanticweb.org/ns/swc/ontology#01_introduction> .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Paper> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPosters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://swrc.ontoware.org/ontology#ResearchTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#MealBreak> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#Treasurer> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#Treasurer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTalk> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial Talk" .
+<http://data.semanticweb.org/ns/swc/ontology#DemoPresentation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#Sponsorship> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsorship" .
+<http://dbpedia.org/resource/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role" .
+<http://data.semanticweb.org/ns/swc/ontology#EatingPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://xmlns.com/wordnet/1.6/Event-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#PaperSession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#hasAttendee> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustryChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#hasPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#hasMenu> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#MealEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#DemoPresentation> <http://www.w3.org/2000/01/rdf-schema#label> "Demo Presentation" .
+<http://data.semanticweb.org/ns/swc/ontology#Webmaster> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#Place> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				Deprecated: no real need to have an internal super-class for locations, we can just use the <a href=\"&geo;SpatialThing\">SpatialThing</a>.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Non-academic Event" .
+<http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> <http://www.w3.org/2000/01/rdf-schema#label> "is super-event of" .
+<http://data.semanticweb.org/ns/swc/ontology#plansToAttend> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostAmount> <http://www.w3.org/2000/01/rdf-schema#label> "has cost amount" .
+<http://data.semanticweb.org/ns/swc/ontology#isProviderOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://www.w3.org/2002/12/cal/ical#url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#SessionEvent> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasSponsorship> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#Sponsorship> .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDescription> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForProposals> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Call> .
+<http://data.semanticweb.org/ns/swc/ontology#PaperSession> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#SessionEvent\">SessionEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceClosingEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceChair> <http://www.w3.org/2000/01/rdf-schema#label> "Conference Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#DemosChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPosters> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Posters" .
+<http://data.semanticweb.org/ns/swc/ontology#DogfoodTsar> <http://www.w3.org/2000/01/rdf-schema#comment> "A role that is only relevant in relation to the topic of the conference e.g. Semantic \n			Web Technologies Coordinator at a Semantic Web Conference.\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#plansToAttend> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				A person might plan to attend a talk or session at a conference or similar event. This property could be used to prepare a delegate's conference experience with respect to who they want to meet, etc.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://purl.org/dc/terms/hasVersion> <http://data.semanticweb.org/ns/swc/swc_2009-03-02.rdf> .
+<http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/Text_types> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopsChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://xmlns.com/foaf/0.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#SessionChair> <http://www.w3.org/2000/01/rdf-schema#label> "Session Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Event-1> .
+<http://data.semanticweb.org/ns/swc/ontology#SocialEvent> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#Poster> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#BreakEvent> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopEvent> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#ExhibitionChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDemonstration> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#DogfoodTsar> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#isLocationFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<http://tomheath.com/id/me> <http://xmlns.com/foaf/0.1/name> "Tom Heath" .
+<http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Relates a <a href=\"#ArgumentativeDocument\">document</a> to an <a href=\"#AcademicEvent\">event</a> such as a conference, workshop, etc.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostAmount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>An argumentative document is a document which uses analytical reasoning and evidence in order to argue for a point of view. Typical examples are scientific papers or political pamphlets. Negative examples are novels or plays (even though a novel might also try to sway the reader to a certain point of view).</p>\n			<p>According to <a href=\"http://en.wikipedia.org/wiki/Text_types\">Text Types</a>, an argumentative document is based \"on the evaluation and the subsequent subjective judgement in answer to a problem. It refers to the reasons advanced for or against a matter\".</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Excursion> <http://www.w3.org/2000/01/rdf-schema#label> "Excursion" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Conference Event" .
+<http://data.semanticweb.org/ns/swc/ontology#hasRole> <http://www.w3.org/2000/01/rdf-schema#label> "has role" .
+<http://data.semanticweb.org/ns/swc/ontology#InvitedPaper> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceDinner> <http://www.w3.org/2000/01/rdf-schema#label> "Conference Dinner" .
+<http://data.semanticweb.org/ns/swc/ontology#TrackEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A track groups all those sessions or events at a conference or workshop that belong to a common, overall theme. Depending on the conference, tracks can be quite generic, such as \"Research\" or \"Industrial\", but can also be more specific, such as \"Semantic Web\" or \"Numismatics\". SWC does not define any specific tracks, since conferences often differ so much with respect to how they structure their tracks, that it would be pointless to try and find a set of tracks that would suit all conferences.\n			</p>\n			<p>Sub-classes of TrackEvent which were defined in previous versions of the SWC ontology are now deprecated.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#MeetingRoomPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A particular room at the <a href=\"#ConferenceVenuePlace\">conference venue</a> (or elsewhere). E.g., the room where a particular <a href=\"#SessionEvent\">SessionEvent</a> takes place. \n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceVenuePlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#SlideSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#memberOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Group> .
+<http://kantenwerk.org/metadata/foaf.rdf#me> <http://xmlns.com/foaf/0.1/name> "Knud M\u00F6ller" .
+<http://data.semanticweb.org/ns/swc/ontology#Programme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Artefact> .
+<http://data.semanticweb.org/ns/swc/ontology#CoffeeBreak> <http://www.w3.org/2000/01/rdf-schema#label> "Coffee Break" .
+<http://data.semanticweb.org/ns/swc/ontology#FreeTimeBreak> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just use <a href=\"#BreakEvent\">BreakEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Webmaster> <http://www.w3.org/2000/01/rdf-schema#label> "Webmaster" .
+<http://data.semanticweb.org/ns/swc/ontology#hasTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Instead of this property, use <a href=\"http://xmlns.com/foaf/0.1/topic\">foaf:topic</a>.</p>\n			\n		" .
+<http://data.semanticweb.org/organization/deri-nui-galway> <http://xmlns.com/foaf/0.1/homepage> <http://www.deri.ie> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostCurrency> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated because it has never been used and in order to reduce the inflation of ontology terms.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceVenuePlace> <http://www.w3.org/2000/01/rdf-schema#label> "Conference Venue Place" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				A scientific conference.\n			</p>\n			<p>\n				TODO: Maybe this should be opened up - why only scientific conferences?\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTalk> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Place> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Place> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> <http://www.w3.org/2000/01/rdf-schema#label> "has related document" .
+<http://data.semanticweb.org/ns/swc/ontology#memberOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#PanelEvent> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#DogfoodTsar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopOrganiser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForProposals> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>A call which asks for contributions in the form of e.g. workshop or tutorial proposals.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#forEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>The call classes have been deprecated in SWC. Instead, we suggest to use the <a href=\"http://sw.deri.org/2005/08/conf/cfp\">CfP ontology</a>.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#PhDSymposiumChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://dbpedia.org/resource/Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place" .
+<http://data.semanticweb.org/ns/swc/ontology#Delegate> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				A delegate is someone who attends a conference or conference-like event.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://purl.org/dc/terms/title> "Semantic Web Conference Ontology" .
+<http://data.semanticweb.org/ns/swc/ontology#BreakEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://purl.org/dc/terms/modified> "$Date: 2009-05-11 17:50:14 +0100 (Mon, 11 May 2009) $" .
+<http://data.semanticweb.org/ns/swc/ontology#Sponsorship> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForParticipation> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation" .
+<http://data.semanticweb.org/ns/swc/ontology#license_doc> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<!-- Creative Commons License -->\n			<p class=\"copyright\">\n				Copyright &copy; 2007-2009 Knud M\u00F6ller, Sean Bechhofer and Tom Heath.<br/>\n				<br/>\n				<a href=\"http://creativecommons.org/licenses/by/3.0/\"><img alt=\"Creative Commons License\" style=\"border: 0; float: right; padding: 10px;\" src=\"somerights.gif\" /></a>\n				This work is licensed under a <a href=\"http://creativecommons.org/licenses/by/3.0/\">Creative Commons Attribution License</a>. \n				This copyright applies to the <em>Semantic Web Conference Ontology (SWC) Specification</em> and accompanying documentation in RDF.\n				Regarding underlying technology, SWC uses W3C's <a href=\"http://www.w3.org/RDF/\">RDF</a> technology, an\n				open Web standard that can be freely used by anyone.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Artefact> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#TrackEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Track Event" .
+<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#PosterPresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#TalkEvent\">TalkEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisingCommitteeMember> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#isRoleAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#memberOf> <http://www.w3.org/2000/01/rdf-schema#label> "member of" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceOpeningEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#CommunalPlace> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Place> .
+<http://data.semanticweb.org/ns/swc/ontology#Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+_:f217edc17796f47c8b5d9be72698d886cb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.semanticweb.org/ns/swc/ontology#03_roles> .
+<http://data.semanticweb.org/ns/swc/ontology#PhDSymposiumChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://swrc.ontoware.org/ontology#Proceedings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#Tutor> <http://www.w3.org/2000/01/rdf-schema#label> "Tutor" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2002/12/cal/ical#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustryChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTrack> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#forEvent> <http://www.w3.org/2000/01/rdf-schema#label> "for event" .
+<http://data.semanticweb.org/ns/swc/ontology#isLocationFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#hasSponsorship> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionInstructions> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>The call classes have been deprecated in SWC. Instead, we suggest to use the <a href=\"http://sw.deri.org/2005/08/conf/cfp\">CfP ontology</a>.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#isRoleAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopsChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#Reception> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceClosingEvent> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#PostersChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#holdsRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#PosterSession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForDemos> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#WelcomeTalk> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopOrganiser> <http://www.w3.org/2000/01/rdf-schema#label> "Workshop Organiser" .
+<http://data.semanticweb.org/ns/swc/ontology#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/sean-bechhofer> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostCurrency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#PosterSession> <http://www.w3.org/2000/01/rdf-schema#label> "Poster Session" .
+<http://data.semanticweb.org/ns/swc/ontology#InvitedPaper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#Delegate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/based_near> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#hasMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#ExhibitionChair> <http://www.w3.org/2000/01/rdf-schema#label> "Exhibition Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#Administrator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#PosterPresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#DrinkingPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated to reduce inflation of terms.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialsChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#SocialEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#isTopicOf> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated, instead using terms from FOAF.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#IndustryChair> <http://www.w3.org/2000/01/rdf-schema#label> "Industry Chair or In-Use Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#PhDSymposiumChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#DemoPresentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#TalkEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#MeetingRoomPlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/organization/deri-nui-galway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://data.semanticweb.org/ns/swc/ontology#DrinkingPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostAmount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#PostersChair> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Deprecating this, just use <a href=\"#TrackChair\">TrackChair</a> instead.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceDinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#DrinkingPlace> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Place> .
+<http://data.semanticweb.org/ns/swc/ontology#hasTopic> <http://www.w3.org/2000/01/rdf-schema#label> "has topic" .
+<http://data.semanticweb.org/ns/swc/ontology#TrackEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialPresenter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#Sponsorship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#biblioReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Artefact> .
+<http://data.semanticweb.org/ns/swc/ontology#hasNotificationDeadline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://data.semanticweb.org/ns/swc/ontology#attendeeAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.semanticweb.org/ns/swc/ontology#Reception> <http://www.w3.org/2000/01/rdf-schema#label> "Reception" .
+<http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#Excursion> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#Reviewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#Chair> <http://www.w3.org/2000/01/rdf-schema#label> "Chair" .
+<http://data.semanticweb.org/ns/swc/swrc-topics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForParticipation> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>This kind of call usually calls for potential delegates to attend an event such as a conference or a workshop.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#Tutor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#DogfoodTsar> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostCurrency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.semanticweb.org/ns/swc/ontology#01_introduction> <http://www.w3.org/2000/01/rdf-schema#label> "Introduction" .
+<http://data.semanticweb.org/ns/swc/ontology#hasNotificationDeadline> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>The call classes have been deprecated in SWC. Instead, we suggest to use the <a href=\"http://sw.deri.org/2005/08/conf/cfp\">CfP ontology</a>.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#isTopicOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#PanelEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustryChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#Poster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2002/12/cal/ical#Vcalendar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2002/12/cal/ical#dateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#SponsorshipChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceVenuePlace> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Place> .
+<http://data.semanticweb.org/ns/swc/ontology#PaperSession> <http://www.w3.org/2000/01/rdf-schema#label> "Paper Session" .
+<http://data.semanticweb.org/ns/swc/ontology#holdsRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#memberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>FOAF does not define an inverse of <code>foaf:member</code>, so SWC does it.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#SlideSet> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://xmlns.com/wordnet/1.6/Announcement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology> <http://purl.org/dc/terms/creator> <http://tomheath.com/id/me> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceClosingEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#isTopicOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://swrc.ontoware.org/ontology#ResearchTopic> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCall> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>The call classes have been deprecated in SWC. Instead, we suggest to use the <a href=\"http://sw.deri.org/2005/08/conf/cfp\">CfP ontology</a>.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#WelcomeTalk> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#TalkEvent\">TalkEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#PanelEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>A panel discussion at a conference or conference-like event, usually involving several speakers.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#FreeTimeBreak> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#DemoSession> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#SessionEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Reception> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisingCommitteeMember> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#PaperSession> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Events can be super-events of other events. E.g., a conference can be the super-event of a session, which in turn can be the super-event of a talk. The relation is transitive - the conference is also the super-event of the talk." .
+<http://data.semanticweb.org/ns/swc/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/2002/12/cal/ical#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionDeadline> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#isPartOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDescription> <http://www.w3.org/2000/01/rdf-schema#label> "System Description" .
+<http://data.semanticweb.org/ns/swc/ontology#forEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#Paper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostCurrency> <http://www.w3.org/2000/01/rdf-schema#label> "has cost currency" .
+<http://www.w3.org/2002/12/cal/ical#version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#heldBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#holdsRole> .
+<http://data.semanticweb.org/ns/swc/ontology#PosterPresentation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				This role is played by the members of the programme committee of a conference or conference-like event. We found this role to be so significant that it justifies to be represented by its own class.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForDemos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://xmlns.com/foaf/0.1/surname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swrc.ontoware.org/ontology#InProceedings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Paper> .
+<http://data.semanticweb.org/ns/swc/ontology#PaperPresentation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#isLocationFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#hasProgramme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#isTopicOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#plansToAttend> <http://www.w3.org/2000/01/rdf-schema#label> "plans to attend" .
+<http://data.semanticweb.org/ns/swc/ontology#PosterSession> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#SessionEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#SessionEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForDemos> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Demos" .
+<http://data.semanticweb.org/ns/swc/ontology#WelcomeTalk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#TalkEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Reviewer> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#PhDSymposiumChair> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Deprecating this, just use <a href=\"#TrackChair\">TrackChair</a> instead.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#PostersChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#PaperPresentation> <http://www.w3.org/2000/01/rdf-schema#label> "Paper Presentation" .
+<http://data.semanticweb.org/ns/swc/ontology#SessionEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role" .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisingCommitteeMember> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#SubmissionsChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#LocalOrganiser> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#hasAttendee> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Instead of this property, use the <a href=\"#Delegate\">Delegate</a> role.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#MeetingRoomPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<http://data.semanticweb.org/ns/swc/ontology#DemoPresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopOrganiser> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDemonstration> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#Programme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2002/12/cal/ical#calscale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForProposals> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasTopic> <http://www.w3.org/2000/01/rdf-schema#range> <http://swrc.ontoware.org/ontology#ResearchTopic> .
+<http://data.semanticweb.org/ns/swc/ontology#EatingPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Eating Place" .
+<http://data.semanticweb.org/ns/swc/ontology#Administrator> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology> <http://www.w3.org/2002/07/owl#imports> <http://data.semanticweb.org/ns/swc/swrc-topics> .
+<http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Event> .
+<http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Tutorial Event" .
+<http://data.semanticweb.org/ns/swc/ontology#BreakEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			<p>\n				Any kind of break at the super-event, such as a coffee break.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#TalkEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#uuid> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSponsorship> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#attendeeAt> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Instead of this property, use the <a href=\"#Delegate\">Delegate</a> role.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "has part" .
+<http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated because it has never been used and in order to reduce the inflation of ontology terms.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeChair> <http://www.w3.org/2000/01/rdf-schema#label> "Programme Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> <http://www.w3.org/2000/01/rdf-schema#label> "is a sub-event of" .
+<http://data.semanticweb.org/ns/swc/ontology#heldBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#Administrator> <http://www.w3.org/2000/01/rdf-schema#label> "Administrator" .
+<http://data.semanticweb.org/ns/swc/ontology#SubmissionsChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#KeynoteTalk> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/12/cal/ical#Vevent> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#PublicityChair> <http://www.w3.org/2000/01/rdf-schema#label> "Publicity Chair" .
+<http://data.semanticweb.org/organization/deri-nui-galway> <http://xmlns.com/foaf/0.1/name> "DERI" .
+<http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> <http://www.w3.org/2000/01/rdf-schema#label> "related to event" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceClosingEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just use <a href=\"#TalkEvent\">TalkEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ArgumentativeDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Argumentative Document" .
+<http://data.semanticweb.org/ns/swc/ontology> <http://www.w3.org/2003/06/sw-vocab-status/ns#userdocs> _:f217edc17796f47c8b5d9be72698d886cb2 .
+<http://data.semanticweb.org/ns/swc/ontology#InvitedPaper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://swrc.ontoware.org/ontology#InProceedings> .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisingCommitteeMember> <http://www.w3.org/2000/01/rdf-schema#label> "Organising Committee Member" .
+<http://data.semanticweb.org/ns/swc/ontology#biblioReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDemonstration> <http://www.w3.org/2000/01/rdf-schema#label> "System Demonstration" .
+<http://data.semanticweb.org/ns/swc/ontology#Treasurer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Organised Event" .
+<http://data.semanticweb.org/ns/swc/ontology#hasProgramme> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#Programme> .
+<http://data.semanticweb.org/ns/swc/ontology#MealBreak> <http://www.w3.org/2000/01/rdf-schema#label> "Meal Break" .
+<http://data.semanticweb.org/ns/swc/ontology#TalkEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#Excursion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#AccommodationPlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#Proceedings> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#TrackEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionDeadline> <http://www.w3.org/2000/01/rdf-schema#label> "has submission deadline" .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostCurrency> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#plansToAttend> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.semanticweb.org/ns/swc/ontology#Delegate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#MealBreak> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#DemosChair> <http://www.w3.org/2000/01/rdf-schema#label> "Demos Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDemonstration> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>A type of paper which accompanies the demonstration of software, also known as an extended abstract or demo description. This class has been deprecated in order to reduce the inflation of classes; it is too specific for CS conferences.</p>\n			\n		" .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#IndustryChair> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#AdditionalReviewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#LocalOrganiser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRole> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#isRoleAt> .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionDeadline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPosters> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#PostersChair> <http://www.w3.org/2000/01/rdf-schema#label> "Posters Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#Call> <http://www.w3.org/2000/01/rdf-schema#label> "Call" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceDinner> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#PaperPresentation> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#Chair> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				A sub-class of Role for various kinds of chair functions. Examples are the main chair of a conference, the tutorials chair, the proceedings chair, etc. Instead of introducing a large amount of sub-classes of Chair, we suggest to model all the different chair functions as instances of Chair with appropriate labels.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialPresenter> <http://www.w3.org/2000/01/rdf-schema#label> "Tutorial Presenter" .
+<http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Organisation> .
+<http://data.semanticweb.org/ns/swc/ontology#PosterPresentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#TalkEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#BreakEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.semanticweb.org/ns/swc/ontology#SubmissionsChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.semanticweb.org/ns/swc/ontology#Artefact> .
+<http://data.semanticweb.org/ns/swc/ontology#InvitedPaper> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#hasAttendee> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#ResearchTrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceOpeningEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just use <a href=\"#TalkEvent\">TalkEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceClosingEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Closing Event" .
+<http://data.semanticweb.org/ns/swc/ontology#hasCostAmount> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Sponsorship> .
+<http://data.semanticweb.org/ns/swc/ontology#TalkEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Talk Event" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForParticipation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#isRoleAt> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Part of the <a href=\"#Role\">role</a> modelling machinery of SWC. This property relates a role at an event (e.g. a conference chair) to the event (e.g. a conference).\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#TrackChair> <http://www.w3.org/2000/01/rdf-schema#label> "Track Chair" .
+<http://swrc.ontoware.org/ontology#url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#MeetingRoomPlace> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Place> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#hasNotificationDeadline> <http://www.w3.org/2000/01/rdf-schema#label> "has notification deadline" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionDeadline> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>The call classes have been deprecated in SWC. Instead, we suggest to use the <a href=\"http://sw.deri.org/2005/08/conf/cfp\">CfP ontology</a>.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#EatingPlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#SWChallengeChair> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Web Challenge Chair" .
+<http://data.semanticweb.org/person/sean-bechhofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPosters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#forEvent> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#hasCall> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCameraReadyDeadline> <http://www.w3.org/2000/01/rdf-schema#label> "has camera-ready deadline" .
+<http://data.semanticweb.org/ns/swc/ontology#SessionChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#MealBreak> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#BreakEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#isTopicOf> <http://www.w3.org/2000/01/rdf-schema#label> "is topic of" .
+<http://data.semanticweb.org/ns/swc/ontology#ExhibitionChair> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				Deprecating this, just use <a href=\"#TrackChair\">TrackChair</a> instead.\n			</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTrack> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#TrackEvent\">TrackEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#attendeeAt> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#hasAttendee> .
+<http://data.semanticweb.org/ns/swc/ontology#DrinkingPlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#KeynoteTalk> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			\n			Deprecating this - we can just as well use <a href=\"#TalkEvent\">TalkEvent</a>.\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#biblioReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#SystemDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>\n				A type of paper which is mainly describes the properties, implementation or architecture of an system (such as a software system).\n			</p>\n			<p>\n				Deprecating this: it's too specific for, not generic enough to apply for most conferences.\n			\n		" .
+<http://tomheath.com/id/me> <http://xmlns.com/foaf/0.1/surname> "Heath" .
+<http://data.semanticweb.org/ns/swc/ontology#Poster> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Artefact> .
+<http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/12/cal/ical#Vevent> .
+<http://data.semanticweb.org/ns/swc/ontology#CallForProposals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://kantenwerk.org/metadata/foaf.rdf#me> <http://xmlns.com/foaf/0.1/homepage> <http://kantenwerk.org> .
+<http://data.semanticweb.org/ns/swc/ontology#ProgrammeChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#DemoSession> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#IndustrialTalk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#FreeTimeBreak> <http://www.w3.org/2000/01/rdf-schema#label> "Free Time Break" .
+<http://data.semanticweb.org/ns/swc/ontology#holdsRole> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialPresenter> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place" .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionInstructions> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#PhDSymposiumChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#biblioReference> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>Deprecated because it has never been used and in order to reduce the inflation of ontology terms.</p>\n			\n		" .
+<http://www.w3.org/2002/12/cal/ical#dtstart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#ResearchTrack> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> .
+<http://data.semanticweb.org/ns/swc/ontology> <http://data.semanticweb.org/ns/misc#licenseDoc> <http://data.semanticweb.org/ns/swc/ontology#license_doc> .
+<http://data.semanticweb.org/ns/swc/ontology#forEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.semanticweb.org/ns/swc/ontology#Call> .
+<http://data.semanticweb.org/ns/swc/ontology#SlideSet> <http://www.w3.org/2000/01/rdf-schema#label> "Slide Set" .
+<http://data.semanticweb.org/ns/swc/ontology#hasNotificationDeadline> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#isProviderOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> .
+<http://data.semanticweb.org/ns/swc/ontology#SlideSet> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Document> .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopsChair> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops Chair" .
+<http://data.semanticweb.org/ns/swc/ontology#MealEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#NonAcademicEvent> .
+<http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+<http://www.w3.org/2002/12/cal/ical#Vevent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://swrc.ontoware.org/ontology#Proceedings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Proceedings> .
+<http://data.semanticweb.org/ns/swc/ontology#DemoSession> <http://www.w3.org/2000/01/rdf-schema#label> "Demo Session" .
+<http://data.semanticweb.org/ns/swc/ontology#CallForPosters> <http://www.w3.org/2000/01/rdf-schema#comment> "\n			<p>A call for scientific posters at a conference or workshop. Submissions are usually in the form of extended abstracts (~2 page) discussing the research presented on the poster.</p>\n			\n		" .
+<http://data.semanticweb.org/ns/swc/ontology#affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedProperty> .
+<http://data.semanticweb.org/ns/swc/ontology#Excursion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#Poster> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://data.semanticweb.org/ns/swc/ontology#TutorialsChair> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Chairman> .
+<http://data.semanticweb.org/ns/swc/ontology#SWChallengeChair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.semanticweb.org/ns/swc/ontology#Role> .
+<http://data.semanticweb.org/ns/swc/ontology#hasSubmissionInstructions> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.semanticweb.org/ns/swc/ontology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "has location" .
+<http://data.semanticweb.org/ns/swc/ontology#AdditionalReviewer> <http://www.w3.org/2000/01/rdf-schema#label> "Additional Reviewer" .
+<http://data.semanticweb.org/ns/swc/ontology#WorkshopOrganiser> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Role> .
+<http://data.semanticweb.org/ns/swc/ontology#hasCameraReadyDeadline> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://data.semanticweb.org/ns/swc/ontology#ExhibitionChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://data.semanticweb.org/ns/swc/ontology#DemoPresentation> <http://purl.org/dc/terms/subject> <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> .
+

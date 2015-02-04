@@ -1,0 +1,257 @@
+<http://purl.org/ontology/cco/core#ExplicitMining> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#appear_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#expertise> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/cco/core#competence> .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> <http://foaf.me/zazi#me> .
+<http://purl.org/ontology/cco/core#statistical_item> <http://www.w3.org/2000/01/rdf-schema#label> "has statistical item"@en .
+<http://purl.org/ontology/cco/core#longest_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#not_interested_in> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#activity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/2000/01/rdf-schema#label> "has overall weight"@en .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> <http://tobyinkster.co.uk/#i> .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/scovo#dimension> .
+<http://purl.org/ontology/cco/core#CognitiveCharacteristic> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+_:f461543737d774d66a62f0a7e73a861f3b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#topic> .
+<http://purl.org/ontology/cco/core#competence> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f461543737d774d66a62f0a7e73a861f3b4 .
+<http://purl.org/ontology/cco/core#setting> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/cco/core#cognitive_characteristic> .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f461543737d774d66a62f0a7e73a861f3b12 .
+<http://purl.org/ontology/cco/core#expertise> <http://www.w3.org/2000/01/rdf-schema#label> "has expertise"@en .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/ontology/wo/core> .
+<http://purl.org/ontology/cco/core#activity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#setting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#ultimative_duration> <http://www.w3.org/2000/01/rdf-schema#comment> "The overall duration of attention for a cognitive pattern, e.g. for an interest, if it appears in the following years: 1990, 1991, 1995, 1996, 1997, 1998, 2001, then the longest duration is 7 years."@en .
+<http://purl.org/ontology/cco/core#CognitiveCharacteristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#ExplicitMining> <http://purl.org/dc/elements/1.1/description> "An explicitly mined cognitive pattern"@en .
+<http://purl.org/ontology/cco/core#ultimative_duration> <http://www.w3.org/2000/01/rdf-schema#label> "has ultimative duration"@en .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#setting> <http://www.w3.org/2000/01/rdf-schema#label> "has setting"@en .
+<http://purl.org/ontology/cco/core#characteristic_dynamics> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/cco/core#CharacteristicDynamics> .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the super property to describe cognitive characteristics of the user of the cognitive pattern dimension, e.g. interests, skills, or expertise."@en .
+<http://purl.org/ontology/cco/core#characteristic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#competence> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#interest> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/cco/core#cognitive_characteristic> .
+_:f461543737d774d66a62f0a7e73a861f3b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/cco/core#expertise> <http://www.w3.org/2000/01/rdf-schema#comment> "The knowledge or expertise in a certain domain or specific topic, e.g. football, programming languages or music."@en .
+<http://purl.org/ontology/cco/core#evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> "Danica Damljanovic"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/cco/core#evidence> <http://www.w3.org/2000/01/rdf-schema#domain> _:f461543737d774d66a62f0a7e73a861f3b14 .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> <http://swordfish.rdfweb.org/people/libby/rdfweb/webwho.xrdf#me> .
+<http://purl.org/ontology/cco/core#longest_duration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+_:f461543737d774d66a62f0a7e73a861f3b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/cco/core#interest> <http://www.w3.org/2000/01/rdf-schema#comment> "This property relates a certain area of interest or preference to an agent. That means this agent likes this topic somehow."@en .
+<http://purl.org/ontology/cco/core#statistical_item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#topic> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> <http://sw.deri.org/~sheila/foaf.rdf#me> .
+_:f461543737d774d66a62f0a7e73a861f3b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/cco/core#belief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#ultimative_duration> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/title> "Cognitive Characteristics Ontology"@en .
+<http://purl.org/ontology/cco/core#characteristic_dynamics> <http://www.w3.org/2000/01/rdf-schema#comment> "To relate a cognitive characteristic to its temporal dynamics."@en .
+<http://purl.org/ontology/cco/core#CharacteristicDynamics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/cco/core#longest_duration> <http://www.w3.org/2000/01/rdf-schema#label> "has longest duration"@en .
+<http://purl.org/ontology/cco/core#not_interested_in> <http://www.w3.org/2000/01/rdf-schema#comment> "A link between an agent and a topic of no interest to them"@en .
+_:f461543737d774d66a62f0a7e73a861f3b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/cco/core#interest> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f461543737d774d66a62f0a7e73a861f3b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/ontology/cco/core#agent> <http://www.w3.org/2000/01/rdf-schema#label> "has agent"@en .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#habit> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "has cognitive characteristic"@en .
+<http://purl.org/ontology/cco/core#longest_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/NET/scovo> .
+<http://purl.org/ontology/cco/core#skill> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#CognitiveCharacteristic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/scovo#Item> .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#time> .
+<http://purl.org/ontology/cco/core#topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/cco/core#CognitiveCharacteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "A cognitive characteristic object, which also can have weightings and characteristic dynamics etc. for describing a cognitive pattern."@en .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> <http://www.johnbreslin.com/foaf/foaf.rdf#me> .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/description> "A vocabulary for describing cognitive pattern within contexts, their temporal dynamics and their origins"@en .
+<http://purl.org/ontology/cco/core#statistical_item> <http://www.w3.org/2000/01/rdf-schema#comment> "A link from a cognitive characteristic to statistics about itself"@en .
+<http://purl.org/ontology/cco/core#agent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+_:f461543737d774d66a62f0a7e73a861f3b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/NET/c4dm/event.owl> .
+_:f461543737d774d66a62f0a7e73a861f3b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#CharacteristicDynamics> .
+_:f461543737d774d66a62f0a7e73a861f3b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f461543737d774d66a62f0a7e73a861f3b5 .
+<http://purl.org/ontology/cco/core#characteristic_dynamics> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#setting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#CognitiveCharacteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/ontology/cco/core#agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#belief> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/cco/core#competence> .
+<http://purl.org/ontology/cco/core#topic> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/cco/core#characteristic_dynamics> <http://www.w3.org/2000/01/rdf-schema#label> "has characteristic dynamics"@en .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#characteristic_dynamics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#ImplicitMining> <http://purl.org/dc/elements/1.1/description> "An implicitly mined cognitive pattern"@en .
+<http://purl.org/ontology/cco/core#evidence> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#habit> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/cco/core#activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#competence> <http://www.w3.org/2000/01/rdf-schema#comment> "The competence to (be able to) do or know something. That means abilities, skills, knowledge, expertise, beliefs etc."@en .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/ontology/cco/core#" .
+<http://purl.org/ontology/cco/core#ImplicitMining> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+_:f461543737d774d66a62f0a7e73a861f3b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#CharacteristicDynamics> .
+_:f461543737d774d66a62f0a7e73a861f3b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f461543737d774d66a62f0a7e73a861f3b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#topic> .
+<http://purl.org/ontology/cco/core#ultimative_duration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#topic> <http://www.w3.org/2000/01/rdf-schema#label> "has topic"@en .
+<http://purl.org/ontology/cco/core#characteristic_dynamics> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#sub_event> .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2003/06/sw-vocab-status/ns> .
+<http://purl.org/ontology/cco/core#topic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/cco/core#activity> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity, which is related to a topic of a cognitive charateristic description, e.g. if the topic is football a related activity can be playing or watching."@en .
+<http://purl.org/ontology/cco/core#appear_time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time> .
+_:f461543737d774d66a62f0a7e73a861f3b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f461543737d774d66a62f0a7e73a861f3b8 .
+<http://purl.org/ontology/cco/core#CognitiveCharacteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/cco/core#characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "has characteristic"@en .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#evidence> <http://www.w3.org/2000/01/rdf-schema#label> "has evidence"@en .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/2000/01/rdf-schema#comment> "An interval of attention for a cognitive pattern."@en .
+<http://purl.org/ontology/cco/core#competence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/cco/core#topic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#topic> <http://www.w3.org/2000/01/rdf-schema#comment> "A topic of the cognitive characteristic."@en .
+<http://purl.org/ontology/cco/core#evidence> <http://www.w3.org/2000/01/rdf-schema#comment> "A link between a context and evidence supporting the interpretation of habits in a context"@en .
+<http://purl.org/ontology/cco/core#setting> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#statistical_item> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#appear_time> <http://www.w3.org/2000/01/rdf-schema#label> "has appear time"@en .
+<http://purl.org/ontology/cco/core#setting> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#not_interested_in> <http://www.w3.org/2000/01/rdf-schema#label> "is not interested in"@en .
+<http://purl.org/ontology/cco/core#competence> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/cco/core#cognitive_characteristic> .
+<http://purl.org/ontology/cco/core#not_interested_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/2000/01/rdf-schema#comment> "This weight reflects the overall interest in a topic and should be different from the actual weight of a cognitive characteristic."@en .
+<http://purl.org/ontology/cco/core#belief> <http://www.w3.org/2000/01/rdf-schema#comment> "An uncertain relation for competence representation. That means beliefs, persuasions or opinions, which can also be misconceptions."@en .
+<http://purl.org/ontology/cco/core#appear_time> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#time> .
+<http://purl.org/ontology/cco/core#belief> <http://www.w3.org/2000/01/rdf-schema#label> "has belief"@en .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#characteristic_dynamics> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#CharacteristicDynamics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/ontology/cco/core#not_interested_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> "Zhisheng Huang"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/cco/core#not_interested_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/cco/core#setting> <http://www.w3.org/2000/01/rdf-schema#comment> "A certain setting or preference. Often re. a specific environment, e.g. an application."@en .
+<http://purl.org/ontology/cco/core#skill> <http://www.w3.org/2000/01/rdf-schema#label> "has skill"@en .
+<http://purl.org/ontology/cco/core#interest> <http://www.w3.org/2000/01/rdf-schema#label> "has interest"@en .
+<http://purl.org/ontology/cco/core#statistical_item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#competence> <http://www.w3.org/2000/01/rdf-schema#label> "has competence"@en .
+<http://purl.org/ontology/cco/core#interest> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://xmlns.com/foaf/0.1/topic_interest> .
+<http://purl.org/ontology/cco/core#longest_duration> <http://www.w3.org/2000/01/rdf-schema#comment> "The longest continuous interval of attention for a cognitive pattern, e.g. for an interest, if it appears in the following years: 1990, 1991, 1995, 1996, 1997, 1998, 2001, then the longest duration is 4 years."@en .
+_:f461543737d774d66a62f0a7e73a861f3b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+_:f461543737d774d66a62f0a7e73a861f3b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f461543737d774d66a62f0a7e73a861f3b11 .
+<http://purl.org/ontology/cco/core#evidence> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
+<http://purl.org/ontology/cco/core#characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/terms/> .
+<http://purl.org/ontology/cco/core#skill> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+_:f461543737d774d66a62f0a7e73a861f3b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/cco/core#ultimative_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#appear_time> <http://www.w3.org/2000/01/rdf-schema#domain> _:f461543737d774d66a62f0a7e73a861f3b9 .
+<http://purl.org/ontology/cco/core#expertise> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#appear_time> <http://www.w3.org/2000/01/rdf-schema#comment> "The time when the cognitive pattern appears in a certain kind of scenario."@en .
+<http://purl.org/ontology/cco/core#appear_time> <http://www.w3.org/2000/01/rdf-schema#domain> _:f461543737d774d66a62f0a7e73a861f3b1 .
+<http://purl.org/ontology/cco/core#ImplicitMining> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#appear_time> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "cco" .
+<http://purl.org/ontology/cco/core#activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/2000/01/rdf-schema#label> "has attention duration"@en .
+<http://purl.org/ontology/cco/core#skill> <http://www.w3.org/2000/01/rdf-schema#comment> "The ability or skill to (be able to) do something, e.g. to walk, to play the piano or to work in a team."@en .
+<http://purl.org/ontology/cco/core#topic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#longest_duration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/cco/core#attention_duration> .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+_:f461543737d774d66a62f0a7e73a861f3b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/cco/core#interest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#belief> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#longest_duration> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#versionInfo> "0.2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://purl.org/ontology/cco/core#CharacteristicDynamics> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#activity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#CharacteristicDynamics> <http://www.w3.org/2000/01/rdf-schema#label> "Characteristic Dynamics"@en .
+<http://purl.org/ontology/cco/core#ImplicitMining> <http://purl.org/dc/elements/1.1/title> "Implicit Mining"@en .
+<http://purl.org/ontology/cco/core#agent> <http://www.w3.org/2000/01/rdf-schema#comment> "A link from a mined cognitive characteristic to the related person"@en .
+<http://purl.org/ontology/cco/core#characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/cco/core#habit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#interest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#skill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#characteristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#not_interested_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+_:f461543737d774d66a62f0a7e73a861f3b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#habit> .
+<http://purl.org/ontology/cco/core#agent> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/cco/core#habit> .
+_:f461543737d774d66a62f0a7e73a861f3b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f461543737d774d66a62f0a7e73a861f3b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f461543737d774d66a62f0a7e73a861f3b16 .
+<http://purl.org/ontology/cco/core#characteristic> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#habit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#not_interested_in> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+_:f461543737d774d66a62f0a7e73a861f3b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f461543737d774d66a62f0a7e73a861f3b3 .
+_:f461543737d774d66a62f0a7e73a861f3b9 <http://www.w3.org/2002/07/owl#unionOf> _:f461543737d774d66a62f0a7e73a861f3b10 .
+<http://purl.org/ontology/cco/core#appear_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#CharacteristicDynamics> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/wo/core#weight> .
+<http://purl.org/ontology/cco/core#habit> <http://www.w3.org/2000/01/rdf-schema#label> "has habit"@en .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/ontology/ao/core> .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> "Yi Zeng"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/cco/core#characteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates to the applied cognitive characteristic (property), e.g. competence, belief, expertise, skill, interest or setting."@en .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#expertise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/vocab/vann/> .
+_:f461543737d774d66a62f0a7e73a861f3b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#competence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#characteristic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#overall_weight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/scovo#dimension> .
+<http://purl.org/ontology/cco/core#agent> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/cco/core#ImplicitMining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/NET/scovo#Dimension> .
+<http://purl.org/ontology/cco/core#ultimative_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#statistical_item> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#ExplicitMining> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#CharacteristicDynamics> <http://www.w3.org/2000/01/rdf-schema#comment> "An event concept for describing dynamics of characteristics, e.g. weight changes, periods of interest."@en .
+<http://purl.org/ontology/cco/core#ultimative_duration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/cco/core#attention_duration> .
+<http://purl.org/ontology/cco/core#belief> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+_:f461543737d774d66a62f0a7e73a861f3b6 <http://www.w3.org/2002/07/owl#unionOf> _:f461543737d774d66a62f0a7e73a861f3b7 .
+<http://purl.org/ontology/cco/core#> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
+_:f461543737d774d66a62f0a7e73a861f3b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#CharacteristicDynamics> .
+<http://purl.org/ontology/cco/core#expertise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#skill> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/cco/core#competence> .
+<http://purl.org/ontology/cco/core#characteristic_dynamics> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#ExplicitMining> <http://purl.org/dc/elements/1.1/title> "Explicit Mining"@en .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> <http://danbri.org/foaf.rdf#danbri> .
+<http://purl.org/ontology/cco/core#habit> <http://www.w3.org/2000/01/rdf-schema#comment> "A link between an agent and a cognitive characteristic description"@en .
+<http://purl.org/ontology/cco/core#CognitiveCharacteristic> <http://www.w3.org/2000/01/rdf-schema#label> "Cognitive Characteristic"@en .
+<http://purl.org/ontology/cco/core#agent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+_:f461543737d774d66a62f0a7e73a861f3b14 <http://www.w3.org/2002/07/owl#unionOf> _:f461543737d774d66a62f0a7e73a861f3b15 .
+<http://purl.org/ontology/cco/core#habit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#characteristic_dynamics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#ExplicitMining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/NET/scovo#Dimension> .
+_:f461543737d774d66a62f0a7e73a861f3b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f461543737d774d66a62f0a7e73a861f3b13 .
+_:f461543737d774d66a62f0a7e73a861f3b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#habit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/cco/core#belief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/date> "2010-09-26T12:16:52+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/ontology/cco/core#agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#cognitive_characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#Interval> .
+<http://purl.org/ontology/cco/core#expertise> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+<http://purl.org/ontology/cco/core#activity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/ao/core#activity> .
+<http://purl.org/ontology/cco/core#CharacteristicDynamics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/wo/core#Weight> .
+<http://purl.org/ontology/cco/core#evidence> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/cco/core#activity> <http://www.w3.org/2000/01/rdf-schema#label> "has activity"@en .
+<http://purl.org/ontology/cco/core#attention_duration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/cco/core#> .
+_:f461543737d774d66a62f0a7e73a861f3b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+<http://purl.org/ontology/cco/core#skill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/cco/core#statistical_item> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#evidence> <http://www.w3.org/2000/01/rdf-schema#domain> _:f461543737d774d66a62f0a7e73a861f3b6 .
+<http://purl.org/ontology/cco/core#activity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/cco/core#CognitiveCharacteristic> .
+_:f461543737d774d66a62f0a7e73a861f3b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#CharacteristicDynamics> .
+<http://purl.org/ontology/cco/core#statistical_item> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/NET/scovo#Item> .
+_:f461543737d774d66a62f0a7e73a861f3b1 <http://www.w3.org/2002/07/owl#unionOf> _:f461543737d774d66a62f0a7e73a861f3b2 .
+<http://purl.org/ontology/cco/core#interest> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/cco/core#> <http://purl.org/dc/elements/1.1/creator> "Yan Wang"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f461543737d774d66a62f0a7e73a861f3b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/cco/core#habit> .
+

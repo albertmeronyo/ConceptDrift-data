@@ -1,0 +1,71 @@
+<http://www.w3.org/2008/http-methods#Method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/creator> <http://vitvar.com/> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/modified> "2011-12-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#AuthenticationCredential> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasComment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#comment> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://www.w3.org/2002/07/owl#imports> <http://iserve.kmi.open.ac.uk/ns/msm> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#producesContentType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://www.w3.org/2008/http-methods#Method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iserve.kmi.open.ac.uk/ns/hrests#Method> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/issued> "2010-03-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#automaticallyExtractedDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#OutputFormatParameter> <http://www.w3.org/2000/01/rdf-schema#label> "Output Format Parameter"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasAddress> <http://www.w3.org/2000/01/rdf-schema#description> "the address of the operation or service (expected to be used on msm:Service or msm:Operation)"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/description> "This is a description of the Web API Grounding Model, a simple model for capturing Web API details relevant for invocation support"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#URITemplate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasAddress> <http://www.w3.org/2000/01/rdf-schema#label> "has Address"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#acceptsContentType> <http://www.w3.org/2000/01/rdf-schema#description> "the content type accepted by the operation"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#acceptsContentType> <http://www.w3.org/2000/01/rdf-schema#label> "accepts Content Type"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#isGroundedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#MessagePart> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/creator> <http://jacek.cz/#me> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#MediaType> <http://www.w3.org/2000/01/rdf-schema#description> "a data type for literals that specify media types"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#MediaType> <http://www.w3.org/2000/01/rdf-schema#label> "Media Type"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#Operation> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#URITemplate> <http://www.w3.org/2000/01/rdf-schema#description> "URI template for use as a service address, possibly with parameters"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/created> "2010-03-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://www.w3.org/2002/07/owl#versionInfo> "2013-05-08" .
+<http://iserve.kmi.open.ac.uk/ns/hrests#producesContentType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#Operation> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://www.w3.org/2002/07/owl#priorVersion> <http://purl.org/hrests/v2#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#producesContentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#acceptsContentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#URITemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/creator> <http://kmi.open.ac.uk/> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#automaticallyExtractedDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#isGroundedIn> <http://www.w3.org/2000/01/rdf-schema#description> "the URI template parameter in which a message part is grounded (may be accompanied by sawsdl lowering schema mapping)"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#isGroundedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#OutputFormatParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#MediaType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#producesContentType> <http://www.w3.org/2000/01/rdf-schema#label> "produces Content Type"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/hrests#URITemplate> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#automaticallyExtractedDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/hrests#Method> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2008/http-methods> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#acceptsContentType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/modified> "2012-03-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#acceptsContentType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#Operation> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/modified> "2013-05-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasMethod> <http://www.w3.org/2000/01/rdf-schema#description> "the method of an operation"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#AuthenticationCredential> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasMethod> <http://www.w3.org/2000/01/rdf-schema#label> "has Method"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#automaticallyExtractedDescription> <http://www.w3.org/2000/01/rdf-schema#label> "automatically Extracted Description"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#acceptsContentType> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/hrests#MediaType> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#isGroundedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://www.w3.org/2000/01/rdf-schema#label> "Web API Grounding Model"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#> <http://purl.org/dc/terms/creator> <http://identifiers.kmi.open.ac.uk/people/carlos-pedrinaci/> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#AuthenticationCredential> <http://www.w3.org/2000/01/rdf-schema#label> "Authentication Credential"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#AuthenticationCredential> <http://www.w3.org/2000/01/rdf-schema#description> "an input parameter that carries an authentication credential (this class is intended for use in sawsdl:modelReference on msm:MessagePart)"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#isGroundedIn> <http://www.w3.org/2000/01/rdf-schema#label> "is Grounded In"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#OutputFormatParameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#MediaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#URITemplate> <http://www.w3.org/2000/01/rdf-schema#label> "URI Template"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#producesContentType> <http://www.w3.org/2000/01/rdf-schema#description> "the content type produced by the operation"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasComment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/hrests#> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#producesContentType> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/hrests#MediaType> .
+<http://iserve.kmi.open.ac.uk/ns/hrests#OutputFormatParameter> <http://www.w3.org/2000/01/rdf-schema#description> "an input parameter that dictates the output format that the service should return (this class is intended for use in sawsdl:modelReference on msm:MessagePart)"@en .
+<http://iserve.kmi.open.ac.uk/ns/hrests#hasComment> <http://www.w3.org/2000/01/rdf-schema#label> "has Comment"@en .
+

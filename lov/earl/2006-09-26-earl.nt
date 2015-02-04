@@ -1,0 +1,514 @@
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#char> <http://www.w3.org/2000/01/rdf-schema#label> "Has Char Number"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#len> <http://www.w3.org/2000/01/rdf-schema#label> "Has Length Value"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#XPathPointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#SingleAssertor> .
+_:f7228c01b48a54447a3b1c45a39e490d1b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#SingleAssertor> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Testable> .
+_:f7228c01b48a54447a3b1c45a39e490d1b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#test> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Testable> .
+_:f7228c01b48a54447a3b1c45a39e490d1b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#notApplicable> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#result> <http://www.w3.org/2000/01/rdf-schema#label> "Has Test Result"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b107 .
+_:f7228c01b48a54447a3b1c45a39e490d1b74 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f7228c01b48a54447a3b1c45a39e490d1b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b36 .
+_:f7228c01b48a54447a3b1c45a39e490d1b50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteContent> .
+_:f7228c01b48a54447a3b1c45a39e490d1b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLenPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b31 .
+_:f7228c01b48a54447a3b1c45a39e490d1b87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b88 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#char> <http://www.w3.org/2000/01/rdf-schema#comment> "Char or column number within the Test Subject"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b56 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#len> <http://www.w3.org/2000/01/rdf-schema#comment> "Length of a region within the Test Subject"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b5 .
+_:f7228c01b48a54447a3b1c45a39e490d1b75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b76 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Namespace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b41 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#httpResponse> <http://www.w3.org/2000/01/rdf-schema#label> "With HTTP Response"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ValidityLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Nominal value of the result"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#helpAssertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b73 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b2 .
+_:f7228c01b48a54447a3b1c45a39e490d1b102 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#charContent> .
+_:f7228c01b48a54447a3b1c45a39e490d1b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#semiauto> <http://www.w3.org/2000/01/rdf-schema#comment> "Test was performed primarily by a tool, and human assistance"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b112 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f7228c01b48a54447a3b1c45a39e490d1b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b66 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#prefix> <http://www.w3.org/2000/01/rdf-schema#comment> "A namespace prefix"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#ns> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertor> <http://www.w3.org/2002/07/owl#oneOf> _:f7228c01b48a54447a3b1c45a39e490d1b65 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLenPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#lineCharLen> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestSubject> <http://www.w3.org/2000/01/rdf-schema#label> "Test Subject"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charContent> <http://www.w3.org/2000/01/rdf-schema#label> "Has Char Content"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b2 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#XPathPointer> <http://www.w3.org/2000/01/rdf-schema#label> "XPath Pointer"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#pass> <http://www.w3.org/2000/01/rdf-schema#comment> "Test passed"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#prefix> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#prefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ns> <http://www.w3.org/2000/01/rdf-schema#comment> "A namespace used in a particular XPath expression"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#XPathPointer> <http://www.w3.org/2000/01/rdf-schema#comment> "XPath expression (including namespace) pointing into the Test Subject"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#xPointer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> .
+_:f7228c01b48a54447a3b1c45a39e490d1b61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b62 .
+_:f7228c01b48a54447a3b1c45a39e490d1b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#manual> .
+_:f7228c01b48a54447a3b1c45a39e490d1b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteOffset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+_:f7228c01b48a54447a3b1c45a39e490d1b4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#subject> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#lineCharLen> <http://www.w3.org/2000/01/rdf-schema#label> "Has LineCharLen Values"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteSnippet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b90 .
+_:f7228c01b48a54447a3b1c45a39e490d1b112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#mixed> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#httpRequest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b64 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteSnippet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b108 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteOffset> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteOffset> <http://www.w3.org/2000/01/rdf-schema#label> "Has Byte Offset"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#manual> .
+_:f7228c01b48a54447a3b1c45a39e490d1b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b12 .
+_:f7228c01b48a54447a3b1c45a39e490d1b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b60 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Byte content that is part of the Test Subject (encoded in Base64)"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CharSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#comment> "Character based part of the Test Subject"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b28 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#pass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+_:f7228c01b48a54447a3b1c45a39e490d1b90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A test case against which subjects are tested"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#mixed> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#manual> <http://www.w3.org/2000/01/rdf-schema#label> "Manual"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b34 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#char> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charSnippet> <http://www.w3.org/2000/01/rdf-schema#label> "Has Char Snippet"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charContent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#charSnippet> .
+_:f7228c01b48a54447a3b1c45a39e490d1b110 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/title> .
+_:f7228c01b48a54447a3b1c45a39e490d1b62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#expression> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f7228c01b48a54447a3b1c45a39e490d1b66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLenPointer> <http://www.w3.org/2000/01/rdf-schema#label> "LineCharLen Pointer"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b99 .
+_:f7228c01b48a54447a3b1c45a39e490d1b60 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#subject> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#validity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#len> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLength> .
+_:f7228c01b48a54447a3b1c45a39e490d1b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b32 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#len> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CharSnippetPointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mixed> <http://www.w3.org/2000/01/rdf-schema#label> "Mixed"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mixed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#helpAssertor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertor> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestMode> <http://www.w3.org/2000/01/rdf-schema#comment> "Mode in which tests were conducted"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b47 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#WebContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b55 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Testable> .
+_:f7228c01b48a54447a3b1c45a39e490d1b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b29 .
+_:f7228c01b48a54447a3b1c45a39e490d1b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b40 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#requirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mainAssertor> <http://www.w3.org/2000/01/rdf-schema#comment> "Assertor mainly responsible for determining assertion result"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#xPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#line> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLength> .
+_:f7228c01b48a54447a3b1c45a39e490d1b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Testable> <http://www.w3.org/2000/01/rdf-schema#label> "Test Criterion"@en .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#compoundAssertor> <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#CompoundAssertor> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mixed> <http://www.w3.org/2000/01/rdf-schema#comment> "Test was performed by a combination of persons and tools"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#expression> <http://www.w3.org/2000/01/rdf-schema#label> "Has Pointer Expression"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#semiauto> .
+_:f7228c01b48a54447a3b1c45a39e490d1b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b20 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b57 .
+_:f7228c01b48a54447a3b1c45a39e490d1b44 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#nsURI> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#WebContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b111 .
+_:f7228c01b48a54447a3b1c45a39e490d1b85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b86 .
+_:f7228c01b48a54447a3b1c45a39e490d1b101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b102 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mode> <http://www.w3.org/2000/01/rdf-schema#label> "Has Test Mode"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b94 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#expression> .
+_:f7228c01b48a54447a3b1c45a39e490d1b95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertor> <http://www.w3.org/2002/07/owl#oneOf> _:f7228c01b48a54447a3b1c45a39e490d1b9 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+_:f7228c01b48a54447a3b1c45a39e490d1b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b83 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#xPointer> <http://www.w3.org/2000/01/rdf-schema#comment> "XPointer expression pointing into the Test Subject"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#nsURI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f7228c01b48a54447a3b1c45a39e490d1b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b52 .
+_:f7228c01b48a54447a3b1c45a39e490d1b90 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#char> .
+_:f7228c01b48a54447a3b1c45a39e490d1b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b48 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> <http://www.w3.org/2000/01/rdf-schema#comment> "A pointer to a location within the Test Subject"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charSnippet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> .
+_:f7228c01b48a54447a3b1c45a39e490d1b25 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f7228c01b48a54447a3b1c45a39e490d1b87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b89 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Namespace> <http://www.w3.org/2000/01/rdf-schema#label> "Namespace"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b69 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charOffset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+_:f7228c01b48a54447a3b1c45a39e490d1b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b16 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of pointers, all pointing to the same thing"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteContent> <http://www.w3.org/2000/01/rdf-schema#label> "Has Byte Content"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CharSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#label> "Char Snippet Pointer"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#htmlPointer> <http://www.w3.org/2000/01/rdf-schema#label> "Has HTML Pointer Expression"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLenPointer> <http://www.w3.org/2000/01/rdf-schema#comment> "Line/character and optionally the length of a region within the Test Subject"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#SingleAssertor> <http://www.w3.org/2002/07/owl#oneOf> _:f7228c01b48a54447a3b1c45a39e490d1b67 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#SingleAssertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#methodology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> .
+_:f7228c01b48a54447a3b1c45a39e490d1b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#semiauto> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertor> <http://www.w3.org/2000/01/rdf-schema#label> "Assertor"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#confidence> <http://www.w3.org/2000/01/rdf-schema#label> "Has Confidence Level"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b96 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#ns> .
+_:f7228c01b48a54447a3b1c45a39e490d1b107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#confidence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#ConfidenceLevel> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#htmlPointer> <http://www.w3.org/2000/01/rdf-schema#comment> "HTML Pointer expression pointing into the Test Subject"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#notTested> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#nsURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Namespace> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#validity> <http://www.w3.org/2000/01/rdf-schema#label> "Has Validity Level"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#requirement> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestRequirement> .
+_:f7228c01b48a54447a3b1c45a39e490d1b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b13 .
+_:f7228c01b48a54447a3b1c45a39e490d1b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteOffset> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of bytes into the Byte Content"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#SingleAssertor> <http://www.w3.org/2000/01/rdf-schema#comment> "One person or evaluation tool that claims assertions"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#methodology> <http://www.w3.org/2000/01/rdf-schema#label> "methodology"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b58 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f7228c01b48a54447a3b1c45a39e490d1b72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+_:f7228c01b48a54447a3b1c45a39e490d1b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b34 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteOffset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteSnippet> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#heuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+_:f7228c01b48a54447a3b1c45a39e490d1b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#fail> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charOffset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#xPath> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#XPathPointer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b6 .
+_:f7228c01b48a54447a3b1c45a39e490d1b101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b103 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestMode> <http://www.w3.org/2002/07/owl#oneOf> _:f7228c01b48a54447a3b1c45a39e490d1b19 .
+_:f7228c01b48a54447a3b1c45a39e490d1b18 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#lineCharLen> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLenPointer> .
+_:f7228c01b48a54447a3b1c45a39e490d1b56 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f7228c01b48a54447a3b1c45a39e490d1b6 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> <http://www.w3.org/2000/01/rdf-schema#label> "An assertion"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#nsURI> <http://www.w3.org/2000/01/rdf-schema#label> "Has Namespace URI"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b43 .
+_:f7228c01b48a54447a3b1c45a39e490d1b54 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/title> .
+_:f7228c01b48a54447a3b1c45a39e490d1b79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#heuristic> .
+_:f7228c01b48a54447a3b1c45a39e490d1b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b68 .
+_:f7228c01b48a54447a3b1c45a39e490d1b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b54 .
+_:f7228c01b48a54447a3b1c45a39e490d1b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+_:f7228c01b48a54447a3b1c45a39e490d1b81 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f7228c01b48a54447a3b1c45a39e490d1b25 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mainAssertor> <http://www.w3.org/2000/01/rdf-schema#label> "Has Main Assertor"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b24 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#SingleAssertor> <http://www.w3.org/2000/01/rdf-schema#label> "Single Assertor"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ValidityLevel> <http://www.w3.org/2002/07/owl#oneOf> _:f7228c01b48a54447a3b1c45a39e490d1b26 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#instance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestResult> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#notTested> <http://www.w3.org/2000/01/rdf-schema#label> "Not Tested"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#nsURI> <http://www.w3.org/2000/01/rdf-schema#comment> "A namespace URI"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Namespace> <http://www.w3.org/2000/01/rdf-schema#comment> "Prefix and namespace URI for an XPath expression"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#evidence> <http://www.w3.org/2000/01/rdf-schema#label> "evidence"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ByteSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#comment> "Byte based part of the Test Subject (encoded in Base64)"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#httpRequest> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#WebContent> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#validity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestResult> .
+_:f7228c01b48a54447a3b1c45a39e490d1b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b39 .
+_:f7228c01b48a54447a3b1c45a39e490d1b81 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#validity> .
+_:f7228c01b48a54447a3b1c45a39e490d1b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#fail> .
+_:f7228c01b48a54447a3b1c45a39e490d1b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b8 .
+_:f7228c01b48a54447a3b1c45a39e490d1b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestCase> <http://www.w3.org/2000/01/rdf-schema#label> "Test Case"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#char> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLength> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#expression> <http://www.w3.org/2000/01/rdf-schema#comment> "String based pointer to be used in subclasses of Pointer"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestSubject> <http://www.w3.org/2000/01/rdf-schema#comment> "Subject of the assertion"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#cannotTell> <http://www.w3.org/2000/01/rdf-schema#label> "Can Not Tell"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#nsURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#semiauto> <http://www.w3.org/2000/01/rdf-schema#label> "Semi-Automatic"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#test> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#cannotTell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#automatic> <http://www.w3.org/2000/01/rdf-schema#label> "Automatic"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteOffset> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#prefix> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Namespace> .
+_:f7228c01b48a54447a3b1c45a39e490d1b25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#validity> .
+_:f7228c01b48a54447a3b1c45a39e490d1b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#cannotTell> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#subject> <http://www.w3.org/2000/01/rdf-schema#label> "Has Test Subject"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#httpRequest> <http://www.w3.org/2000/01/rdf-schema#label> "With HTTP Request"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#expression> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b74 .
+_:f7228c01b48a54447a3b1c45a39e490d1b102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mainAssertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b94 .
+_:f7228c01b48a54447a3b1c45a39e490d1b111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b112 .
+_:f7228c01b48a54447a3b1c45a39e490d1b32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#line> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Namespace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#WebContent> <http://www.w3.org/2000/01/rdf-schema#label> "Web Content"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b96 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#line> <http://www.w3.org/2000/01/rdf-schema#label> "Has Line Number"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b38 .
+_:f7228c01b48a54447a3b1c45a39e490d1b112 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/date> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#expression> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteOffset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f7228c01b48a54447a3b1c45a39e490d1b111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#fail> <http://www.w3.org/2000/01/rdf-schema#comment> "Test failed"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#xPointer> <http://www.w3.org/2000/01/rdf-schema#label> "Has XPointer Expression"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b22 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#char> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#test> <http://www.w3.org/2000/01/rdf-schema#label> "Has Test Criterion"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#pass> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#heuristic> <http://www.w3.org/2000/01/rdf-schema#label> "Heuristic"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#semiauto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#cannotTell> <http://www.w3.org/2000/01/rdf-schema#comment> "Outcome of the test is uncertain"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#notTested> <http://www.w3.org/2000/01/rdf-schema#comment> "Test has not been carried out"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#len> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b72 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> <http://www.w3.org/2000/01/rdf-schema#label> "Pointer"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b106 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteContent> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#methodology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Testable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Software> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#prefix> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#assertedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Is Asserted By"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> <http://www.w3.org/2000/01/rdf-schema#label> "Compound Assertor"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#notApplicable> <http://www.w3.org/2000/01/rdf-schema#label> "Not Applicable"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#result> .
+_:f7228c01b48a54447a3b1c45a39e490d1b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#automatic> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#XPathPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b93 .
+_:f7228c01b48a54447a3b1c45a39e490d1b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CharSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b45 .
+_:f7228c01b48a54447a3b1c45a39e490d1b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CharSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b101 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ByteSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#label> "Byte Snippet Pointer"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b33 .
+_:f7228c01b48a54447a3b1c45a39e490d1b54 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#test> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#WebContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Subjects that are available on the Web"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> <http://www.w3.org/2000/01/rdf-schema#comment> "Group of persons or evaluation tools that claim assertions"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b70 .
+_:f7228c01b48a54447a3b1c45a39e490d1b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Testable> <http://www.w3.org/2000/01/rdf-schema#comment> "A testable statement against which subjects are tested"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b64 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#result> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Character content that is part of the Test Subject"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> <http://www.w3.org/2000/01/rdf-schema#comment> "Parent node that contains all parts of an assertion"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ConfidenceLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Level of confidence in the given result"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestResult> <http://www.w3.org/2000/01/rdf-schema#comment> "Result from conducting test cases on subjects"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#validity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#ValidityLevel> .
+_:f7228c01b48a54447a3b1c45a39e490d1b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b46 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Software> <http://www.w3.org/2000/01/rdf-schema#comment> "A tool that can perform tests or be the subject of testing"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestMode> <http://www.w3.org/2002/07/owl#oneOf> _:f7228c01b48a54447a3b1c45a39e490d1b75 .
+_:f7228c01b48a54447a3b1c45a39e490d1b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#SingleAssertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#singleAssertor> <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#SingleAssertor> .
+_:f7228c01b48a54447a3b1c45a39e490d1b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b85 .
+_:f7228c01b48a54447a3b1c45a39e490d1b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ByteSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b49 .
+_:f7228c01b48a54447a3b1c45a39e490d1b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b21 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#assertedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charOffset> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of characters into the Char Content"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b63 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#htmlPointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteSnippet> <http://www.w3.org/2000/01/rdf-schema#label> "Has Byte Snippet"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b35 .
+_:f7228c01b48a54447a3b1c45a39e490d1b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b108 .
+_:f7228c01b48a54447a3b1c45a39e490d1b62 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#test> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#fail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+_:f7228c01b48a54447a3b1c45a39e490d1b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b7 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charOffset> <http://www.w3.org/2000/01/rdf-schema#label> "Has Char Offset"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b74 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#mainAssertor> .
+_:f7228c01b48a54447a3b1c45a39e490d1b60 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#confidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charSnippet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b46 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#charContent> .
+_:f7228c01b48a54447a3b1c45a39e490d1b91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b62 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#line> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+_:f7228c01b48a54447a3b1c45a39e490d1b109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b110 .
+_:f7228c01b48a54447a3b1c45a39e490d1b88 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#line> .
+_:f7228c01b48a54447a3b1c45a39e490d1b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b77 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ByteSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ns> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Namespace> .
+_:f7228c01b48a54447a3b1c45a39e490d1b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#XPathPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b37 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Software> <http://www.w3.org/2000/01/rdf-schema#label> "Software Tool"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b58 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#assertedBy> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ValidityLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Validity Level"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestMode> <http://www.w3.org/2000/01/rdf-schema#label> "Test Mode"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#helpAssertor> <http://www.w3.org/2000/01/rdf-schema#label> "Has Help Assertor"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b104 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#charOffset> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#lineCharLen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestResult> <http://www.w3.org/2000/01/rdf-schema#label> "Test Result"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b50 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+_:f7228c01b48a54447a3b1c45a39e490d1b78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b79 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#requirement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#evidence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#xPointer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#assertedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b64 .
+_:f7228c01b48a54447a3b1c45a39e490d1b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b4 .
+_:f7228c01b48a54447a3b1c45a39e490d1b36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#len> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#xPath> <http://www.w3.org/2000/01/rdf-schema#label> "Has XPath Expression"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b25 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#result> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#result> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestResult> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#prefix> <http://www.w3.org/2000/01/rdf-schema#label> "Has Namespace Prefix"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#automatic> <http://www.w3.org/2000/01/rdf-schema#comment> "Test was performed by a tool only"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b84 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#httpResponse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#WebContent> .
+_:f7228c01b48a54447a3b1c45a39e490d1b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestRequirement> <http://www.w3.org/2000/01/rdf-schema#comment> "A requirement against which subjects are tested"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b81 .
+_:f7228c01b48a54447a3b1c45a39e490d1b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#pass> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b80 .
+_:f7228c01b48a54447a3b1c45a39e490d1b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#heuristic> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#subject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Pointer Collection"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:f7228c01b48a54447a3b1c45a39e490d1b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b10 .
+_:f7228c01b48a54447a3b1c45a39e490d1b98 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#prefix> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#line> <http://www.w3.org/2000/01/rdf-schema#comment> "Line number within the Test Subject"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b110 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f7228c01b48a54447a3b1c45a39e490d1b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#automatic> .
+_:f7228c01b48a54447a3b1c45a39e490d1b100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b18 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ns> <http://www.w3.org/2000/01/rdf-schema#label> "Has Namespace"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b95 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#heuristic> <http://www.w3.org/2000/01/rdf-schema#comment> "Result was derived from other results"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertor> <http://www.w3.org/2000/01/rdf-schema#comment> "Persons or evaluation tools that claim assertions"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#pass> <http://www.w3.org/2000/01/rdf-schema#label> "Pass"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ValidityLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#notTested> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ConfidenceLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteContent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f7228c01b48a54447a3b1c45a39e490d1b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#cannotTell> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#notTested> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b48 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#charOffset> .
+_:f7228c01b48a54447a3b1c45a39e490d1b18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#mainAssertor> .
+_:f7228c01b48a54447a3b1c45a39e490d1b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b27 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b1 .
+_:f7228c01b48a54447a3b1c45a39e490d1b103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b104 .
+_:f7228c01b48a54447a3b1c45a39e490d1b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b42 .
+_:f7228c01b48a54447a3b1c45a39e490d1b109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestRequirement> <http://www.w3.org/2000/01/rdf-schema#label> "Test Requirement"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b44 .
+_:f7228c01b48a54447a3b1c45a39e490d1b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#WebContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b98 .
+_:f7228c01b48a54447a3b1c45a39e490d1b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b30 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#manual> <http://www.w3.org/2000/01/rdf-schema#comment> "Test was performed by a human only"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b106 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteContent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteSnippet> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#char> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b100 .
+_:f7228c01b48a54447a3b1c45a39e490d1b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b15 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f7228c01b48a54447a3b1c45a39e490d1b85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#notApplicable> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ByteSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b105 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#instance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#automatic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charOffset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#charSnippet> .
+_:f7228c01b48a54447a3b1c45a39e490d1b8 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Software> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b53 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#SingleAssertor> <http://www.w3.org/2002/07/owl#oneOf> _:f7228c01b48a54447a3b1c45a39e490d1b11 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#htmlPointer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ConfidenceLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Confidence Level"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#instance> <http://www.w3.org/2000/01/rdf-schema#label> "Has Location Instance"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Software> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b109 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ValidityLevel> <http://www.w3.org/2002/07/owl#oneOf> _:f7228c01b48a54447a3b1c45a39e490d1b82 .
+_:f7228c01b48a54447a3b1c45a39e490d1b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b23 .
+_:f7228c01b48a54447a3b1c45a39e490d1b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b3 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#confidence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestResult> .
+_:f7228c01b48a54447a3b1c45a39e490d1b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b78 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLenPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b87 .
+_:f7228c01b48a54447a3b1c45a39e490d1b2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#assertedBy> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#requirement> <http://www.w3.org/2000/01/rdf-schema#label> "Has Requirement"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#LineCharLenPointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b56 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/date> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Namespace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b97 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestMode> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#byteSnippet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#ByteSnippetPointer> .
+_:f7228c01b48a54447a3b1c45a39e490d1b100 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#nsURI> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b51 .
+_:f7228c01b48a54447a3b1c45a39e490d1b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#helpAssertor> <http://www.w3.org/2000/01/rdf-schema#comment> "Assertor assisting to determine assertion result"@en .
+_:f7228c01b48a54447a3b1c45a39e490d1b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b59 .
+_:f7228c01b48a54447a3b1c45a39e490d1b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b58 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#helpAssertor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> .
+_:f7228c01b48a54447a3b1c45a39e490d1b91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b92 .
+_:f7228c01b48a54447a3b1c45a39e490d1b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f7228c01b48a54447a3b1c45a39e490d1b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f7228c01b48a54447a3b1c45a39e490d1b14 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#charSnippet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#CharSnippetPointer> .
+_:f7228c01b48a54447a3b1c45a39e490d1b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Software> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ns> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#XPath> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f7228c01b48a54447a3b1c45a39e490d1b17 .
+_:f7228c01b48a54447a3b1c45a39e490d1b81 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#CharSnippetPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mainAssertor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertor> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#subject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#TestSubject> .
+_:f7228c01b48a54447a3b1c45a39e490d1b69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b71 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#htmlPointer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#xPointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f7228c01b48a54447a3b1c45a39e490d1b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#fail> <http://www.w3.org/2000/01/rdf-schema#label> "Fail"@en .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#ByteSnippetPointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#assertedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertor> .
+_:f7228c01b48a54447a3b1c45a39e490d1b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#notApplicable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Assertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#xPath> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#PointerCollection> .
+_:f7228c01b48a54447a3b1c45a39e490d1b92 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#len> .
+_:f7228c01b48a54447a3b1c45a39e490d1b110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#Namespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f7228c01b48a54447a3b1c45a39e490d1b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b61 .
+_:f7228c01b48a54447a3b1c45a39e490d1b89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f7228c01b48a54447a3b1c45a39e490d1b91 .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#httpResponse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#mainAssertor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#CompoundAssertor> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#XPathPointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/WAI/ER/EARL/nmg-strawman#Pointer> .
+<http://www.w3.org/WAI/ER/EARL/nmg-strawman#notApplicable> <http://www.w3.org/2000/01/rdf-schema#comment> "Test is not applicable to the subject"@en .
+

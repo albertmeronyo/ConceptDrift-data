@@ -1,0 +1,35 @@
+_:f849d42d678e64845ba897e0cfa097ca4b3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://inference-web.org/2.0/ds.owl#rest> <http://www.w3.org/2000/01/rdf-schema#label> "rest"@en .
+<http://inference-web.org/2.0/ds.owl#first> <http://www.w3.org/2000/01/rdf-schema#domain> <http://inference-web.org/2.0/ds.owl#List> .
+<http://inference-web.org/2.0/ds.owl#List> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f849d42d678e64845ba897e0cfa097ca4b3 .
+_:f849d42d678e64845ba897e0cfa097ca4b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://inference-web.org/2.0/ds.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+_:f849d42d678e64845ba897e0cfa097ca4b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://inference-web.org/2.0/ds.owl#List> <http://www.w3.org/2000/01/rdf-schema#comment> "A template for defining typed-list. It functions like rdf:List with object members."@en .
+<http://inference-web.org/2.0/ds.owl#rest> <http://www.w3.org/2000/01/rdf-schema#domain> <http://inference-web.org/2.0/ds.owl#List> .
+<http://inference-web.org/2.0/ds.owl#List> <http://www.w3.org/2000/01/rdf-schema#label> "List"@en .
+<http://inference-web.org/2.0/ds.owl#List> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f849d42d678e64845ba897e0cfa097ca4b4 .
+_:f849d42d678e64845ba897e0cfa097ca4b1 <http://www.w3.org/2002/07/owl#onProperty> <http://inference-web.org/2.0/ds.owl#first> .
+_:f849d42d678e64845ba897e0cfa097ca4b3 <http://www.w3.org/2002/07/owl#onProperty> <http://inference-web.org/2.0/ds.owl#first> .
+<http://inference-web.org/2.0/ds.owl#nil> <http://www.w3.org/2000/01/rdf-schema#comment> "The empty list, with no items in it. If the rest of a list is nil then the list has no more items in it."@en .
+<http://inference-web.org/2.0/ds.owl#rest> <http://www.w3.org/2000/01/rdf-schema#comment> "The rest of the subject RDF list after the first item."@en .
+<http://inference-web.org/2.0/ds.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology offers OWL-Lite definition for object list. It is a restricted version of OWL-S ObjectList (http://www.daml.org/services/owl-s/1.1/generic/ObjectList.owl). \n  It is compatible to rdf:List with the following differences: (i) OWL individuals as list members and (ii) appropriate property cardinality restriction. The range of first will specified by the subclasses."@en .
+<http://inference-web.org/2.0/ds.owl#List> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f849d42d678e64845ba897e0cfa097ca4b2 .
+<http://inference-web.org/2.0/ds.owl#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f849d42d678e64845ba897e0cfa097ca4b1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://inference-web.org/2.0/ds.owl#first> <http://www.w3.org/2000/01/rdf-schema#label> "first"@en .
+_:f849d42d678e64845ba897e0cfa097ca4b2 <http://www.w3.org/2002/07/owl#onProperty> <http://inference-web.org/2.0/ds.owl#rest> .
+<http://inference-web.org/2.0/ds.owl#List> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f849d42d678e64845ba897e0cfa097ca4b2 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f849d42d678e64845ba897e0cfa097ca4b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://inference-web.org/2.0/ds.owl#nil> <http://www.w3.org/2000/01/rdf-schema#label> "nil"@en .
+<http://inference-web.org/2.0/ds.owl#rest> <http://www.w3.org/2000/01/rdf-schema#range> <http://inference-web.org/2.0/ds.owl#List> .
+<http://inference-web.org/2.0/ds.owl#List> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f849d42d678e64845ba897e0cfa097ca4b1 .
+_:f849d42d678e64845ba897e0cfa097ca4b4 <http://www.w3.org/2002/07/owl#onProperty> <http://inference-web.org/2.0/ds.owl#rest> .
+_:f849d42d678e64845ba897e0cfa097ca4b4 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://inference-web.org/2.0/ds.owl#first> <http://www.w3.org/2000/01/rdf-schema#comment> "The first item in the subject RDF list."@en .
+<http://inference-web.org/2.0/ds.owl> <http://www.w3.org/2000/01/rdf-schema#label> "Data Structure Ontology (v 0.1.1)"@en .
+<http://inference-web.org/2.0/ds.owl#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f849d42d678e64845ba897e0cfa097ca4b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://inference-web.org/2.0/ds.owl#nil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://inference-web.org/2.0/ds.owl#List> .
+

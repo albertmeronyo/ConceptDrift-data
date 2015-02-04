@@ -1,0 +1,142 @@
+<http://purl.org/ctic/infraestructuras/localizacion#Direccion> <http://www.w3.org/2000/01/rdf-schema#label> "Direcci\u00F3n"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Barrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#TramoCalle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://purl.org/ctic/infraestructuras/localizacion#TramoCalle> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion#calle> <http://www.w3.org/2000/01/rdf-schema#comment> "Calle a la que pertenece una direcci\u00F3n de un edificio"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://www.w3.org/2000/01/rdf-schema#comment> "T\u00E9rmino jurisdiccional, regido por un ayuntamiento"@es .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/ctic/infraestructuras/localizacion#Calle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/terms/hasFormat> <http://data.fundacionctic.org/vocab/infraestructuras/localizacion_20111105.html> .
+<http://purl.org/ctic/infraestructuras/localizacion#JuntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://purl.org/ctic/infraestructuras/localizacion#Autonomia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/ctic/infraestructuras/localizacion#JuntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#label> "Junta administrativa"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Autonomia> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroFinTramo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/infraestructuras/localizacion#TramoCalle> .
+<http://purl.org/ctic/infraestructuras/localizacion#calle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/infraestructuras/localizacion#Direccion> .
+<http://purl.org/ctic/infraestructuras/localizacion#juntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://www.w3.org/2006/vcard/ns#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#Barrio> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion#calle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.geonames.org/ontology#locatedIn> .
+<http://purl.org/ctic/infraestructuras/localizacion#calle> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion#Distrito> <http://www.w3.org/2000/01/rdf-schema#comment> "Cada una de las demarcaciones en que se subdivide un territorio o una poblaci\u00F3n para distribuir y ordenar el ejercicio de los derechos civiles y pol\u00EDticos, o de las funciones p\u00FAblicas, o de los servicios administrativos"@es .
+_:f4d0e2d78f9f34458bdd02186cd67fa2cb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/IMT> .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroInicioTramo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#juntaAdministrativa> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/elements/1.1/identifier> "http://data.fundacionctic.org/vocab/infraestructuras/localizacion_20111105" .
+<http://purl.org/ctic/infraestructuras/localizacion#Distrito> <http://www.w3.org/2000/01/rdf-schema#label> "Distrito"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#barrio> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.geonames.org/ontology#locatedIn> .
+<http://purl.org/ctic/infraestructuras/localizacion#iae> <http://www.w3.org/2000/01/rdf-schema#comment> "Valor del Impuesto sobre Actividades Econ\u00F3micas relativo al tramo de calle"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Provincia> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#TramoCalle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#Autonomia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/elements/1.1/creator> "CTIC CT" .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroInicioTramo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroFinTramo> <http://www.w3.org/2000/01/rdf-schema#label> "N\u00FAmero final de la calle (par o impar)"@es .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/vocab/vann/preferredNamespacePrefix> "loc" .
+<http://purl.org/ctic/infraestructuras/localizacion#juntaAdministrativa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/infraestructuras/localizacion#Autonomia> <http://www.w3.org/2000/01/rdf-schema#label> "Autonom\u00EDa"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#barrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.geonames.org/ontology#locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/infraestructuras/localizacion#juntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#comment> "Junta Administrativa a la que pertenece una direcci\u00F3n de un edificio"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroInicioTramo> <http://www.w3.org/2000/01/rdf-schema#label> "N\u00FAmero inicial de la calle (par o impar)"@es .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/elements/1.1/title> "Vocabulario de Localizaciones"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#calle> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/infraestructuras/localizacion#Calle> .
+<http://purl.org/ctic/infraestructuras/localizacion#Distrito> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://purl.org/ctic/infraestructuras/localizacion#Provincia> <http://www.w3.org/2000/01/rdf-schema#comment> "Cada una de las grandes divisiones de una Autonom\u00EDa"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#iae> <http://www.w3.org/2000/01/rdf-schema#label> "IAE"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#TramoCalle> <http://www.w3.org/2000/01/rdf-schema#label> "Tramo de calle"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#iae> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/infraestructuras/localizacion#TramoCalle> .
+<http://purl.org/ctic/infraestructuras/localizacion#Calle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#Provincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#Direccion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/vcard/ns#Address> .
+<http://purl.org/ctic/infraestructuras/localizacion#Distrito> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion#Pais> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroFinTramo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/terms/isVersionOf> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#Provincia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://www.w3.org/2000/01/rdf-schema#label> "Municipio"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Direccion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f4d0e2d78f9f34458bdd02186cd67fa2cb1 <http://www.w3.org/2000/01/rdf-schema#label> "HTML" .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/elements/1.1/rights> "CTIC CT - Creative Commons 3.0 (BY-NC-SA)"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/ctic/infraestructuras/localizacion#" .
+<http://purl.org/ctic/infraestructuras/localizacion#Barrio> <http://www.w3.org/2000/01/rdf-schema#label> "Barrio"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Pais> <http://www.w3.org/2000/01/rdf-schema#label> "Pa\u00EDs"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroFinTramo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/terms/hasFormat> <http://data.fundacionctic.org/vocab/infraestructuras/localizacion_20111105.rdf> .
+<http://purl.org/ctic/infraestructuras/localizacion#Direccion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://purl.org/ctic/infraestructuras/localizacion#calle> <http://www.w3.org/2000/01/rdf-schema#label> "Calle"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroFinTramo> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/terms/replaces> <http://data.fundacionctic.org/vocab/infraestructuras/localizacion_20101001> .
+<http://purl.org/ctic/infraestructuras/localizacion#JuntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#juntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.geonames.org/ontology#locatedIn> .
+_:f4d0e2d78f9f34458bdd02186cd67fa2cb3 <http://purl.org/dc/elements/1.1/creator> "CTIC-CT" .
+<http://purl.org/ctic/infraestructuras/localizacion#Barrio> <http://www.w3.org/2000/01/rdf-schema#comment> "Cada una de las partes en que se dividen los distritos de los municipios"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#calle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroFinTramo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ctic/infraestructuras/localizacion#Direccion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#barrio> <http://www.w3.org/2000/01/rdf-schema#label> "Barrio"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Calle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#barrio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#Calle> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion#Pais> <http://purl.org/dc/terms/issued> "2011-11-05" .
+<http://purl.org/ctic/infraestructuras/localizacion#Distrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://purl.org/dc/terms/issued> "2011-11-05" .
+<http://purl.org/ctic/infraestructuras/localizacion#barrio> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion#Pais> <http://www.w3.org/2000/01/rdf-schema#comment> "Pa\u00EDs o naci\u00F3n"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Pais> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://purl.org/ctic/infraestructuras/localizacion#Barrio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
+<http://purl.org/ctic/infraestructuras/localizacion#Provincia> <http://purl.org/dc/terms/issued> "2011-11-05" .
+<http://purl.org/ctic/infraestructuras/localizacion#juntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/infraestructuras/localizacion#Direccion> .
+<http://purl.org/ctic/infraestructuras/localizacion#barrio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/infraestructuras/localizacion#Direccion> .
+_:f4d0e2d78f9f34458bdd02186cd67fa2cb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "application/rdf+xml" .
+<http://purl.org/ctic/infraestructuras/localizacion#Direccion> <http://www.w3.org/2000/01/rdf-schema#comment> "Direcci\u00F3n postal"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#barrio> <http://www.w3.org/2000/01/rdf-schema#comment> "Barrio al que pertenece una direcci\u00F3n de un edificio"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Distrito> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#iae> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-nc-sa/3.0> .
+<http://purl.org/ctic/infraestructuras/localizacion#barrio> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/infraestructuras/localizacion#Barrio> .
+<http://purl.org/ctic/infraestructuras/localizacion#Direccion> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion#juntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#label> "Junta administrativa"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Autonomia> <http://www.w3.org/2000/01/rdf-schema#comment> "Comunidad Aut\u00F3noma o Ciudad Aut\u00F3noma, que disponen de mediante normas y \u00F3rganos de gobierno propios"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroInicioTramo> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroFinTramo> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de la calle donde finaliza el tramo"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroInicioTramo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/elements/1.1/date> "2011-11-05" .
+<http://purl.org/ctic/infraestructuras/localizacion#Calle> <http://www.w3.org/2000/01/rdf-schema#comment> "V\u00EDa urbana"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#iae> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://www.w3.org/2004/02/skos/core#historyNote> _:f4d0e2d78f9f34458bdd02186cd67fa2cb3 .
+<http://data.fundacionctic.org/vocab/infraestructuras/localizacion_20111105.rdf> <http://purl.org/dc/elements/1.1/format> _:f4d0e2d78f9f34458bdd02186cd67fa2cb2 .
+<http://purl.org/ctic/infraestructuras/localizacion#TramoCalle> <http://www.w3.org/2000/01/rdf-schema#comment> "Tramo parcial o total de una v\u00EDa p\u00FAblica"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#juntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/infraestructuras/localizacion#JuntaAdministrativa> .
+<http://purl.org/ctic/infraestructuras/localizacion#iae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/infraestructuras/localizacion#Barrio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#Calle> <http://www.w3.org/2000/01/rdf-schema#label> "Calle"@es .
+<http://data.fundacionctic.org/vocab/infraestructuras/localizacion_20111105.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> .
+<http://purl.org/ctic/infraestructuras/localizacion#Autonomia> <http://purl.org/dc/terms/issued> "2011-11-05" .
+_:f4d0e2d78f9f34458bdd02186cd67fa2cb2 <http://www.w3.org/2000/01/rdf-schema#label> "RDF" .
+<http://purl.org/ctic/infraestructuras/localizacion#JuntaAdministrativa> <http://purl.org/dc/terms/issued> "2010-10-01" .
+<http://purl.org/ctic/infraestructuras/localizacion#TramoCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#Pais> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#Municipio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://purl.org/dc/elements/1.1/rights> "CTIC CT - Creative Commons 3.0 (BY-NC-SA)"@en .
+_:f4d0e2d78f9f34458bdd02186cd67fa2cb3 <http://purl.org/dc/elements/1.1/date> "2011-10-05" .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroInicioTramo> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de la calle donde comienza el tramo"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#Provincia> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/infraestructuras/localizacion> .
+<http://purl.org/ctic/infraestructuras/localizacion#JuntaAdministrativa> <http://www.w3.org/2000/01/rdf-schema#comment> "Junta administrativa que rige los intereses de un pueblo que, en uni\u00F3n con otros, forma un municipio"@es .
+<http://purl.org/ctic/infraestructuras/localizacion#numeroInicioTramo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/infraestructuras/localizacion#TramoCalle> .
+_:f4d0e2d78f9f34458bdd02186cd67fa2cb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/IMT> .
+_:f4d0e2d78f9f34458bdd02186cd67fa2cb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "text/html" .
+<http://purl.org/ctic/infraestructuras/localizacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Este vocabulario se utiliza para modelar las localizaciones f\u00EDsicas de lugares p\u00FAblicos. \n			Utiliza elementos de Geonames para identificar las distintas caracter\u00EDsticas geogr\u00E1ficas."@es .
+<http://www.geonames.org/ontology#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f4d0e2d78f9f34458bdd02186cd67fa2cb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "A\u00F1adidas las clases: Pa\u00EDs, Autonom\u00EDa, Provincia y Municipio"@es .
+<http://data.fundacionctic.org/vocab/infraestructuras/localizacion_20111105.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> .
+<http://data.fundacionctic.org/vocab/infraestructuras/localizacion_20111105.html> <http://purl.org/dc/elements/1.1/format> _:f4d0e2d78f9f34458bdd02186cd67fa2cb1 .
+<http://purl.org/ctic/infraestructuras/localizacion#JuntaAdministrativa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/infraestructuras/localizacion#calle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+

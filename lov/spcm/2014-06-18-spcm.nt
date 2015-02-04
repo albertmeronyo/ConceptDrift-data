@@ -1,0 +1,127 @@
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#members> <http://www.w3.org/2000/01/rdf-schema#label> "The members reference" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#members> <http://www.w3.org/2000/01/rdf-schema#comment> "Roles asignados a un proyecto" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> <http://purl.org/dc/elements/1.1/modified> "2014-01-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependentTask> <http://www.w3.org/2000/01/rdf-schema#range> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#skills> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Role> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> <http://purl.org/vocab/vann/preferredNamespacePrefix> "spcm" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#responsible> <http://www.w3.org/2000/01/rdf-schema#label> "The responsible reference" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#skills> <http://www.w3.org/2000/01/rdf-schema#label> "The skills attribute" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskDependency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#responsible> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que representa los hitos del desarrollo o\n   versiones del software durante el transcurso de los proyectos.\n  " .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#taskCategories> <http://www.w3.org/2000/01/rdf-schema#range> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskCategory> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependentTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#milestones> <http://www.w3.org/2000/01/rdf-schema#label> "The milestones reference" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#tasks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependencies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#type> <http://www.w3.org/2000/01/rdf-schema#label> "The type attribute" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#tasks> <http://www.w3.org/2000/01/rdf-schema#label> "The tasks reference" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/description> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#members> <http://www.w3.org/2000/01/rdf-schema#range> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Role> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#category> <http://www.w3.org/2000/01/rdf-schema#label> "The category reference" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#tasks> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> <http://www.w3.org/2000/01/rdf-schema#label> "The Project entity" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskCategory> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependentTask> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskDependency> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://usefulinc.com/ns/doap#Version> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> <http://www.w3.org/2000/01/rdf-schema#label> "The Task entity" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependentTask> <http://www.w3.org/2000/01/rdf-schema#comment> "Tarea dependiente de una tarea dada" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que permite categorizar una tarea seg\u00FAn su \u00E1mbito\n   de aplicaci\u00F3n." .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependencies> <http://www.w3.org/2000/01/rdf-schema#range> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskDependency> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#members> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependentTask> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskDependency> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que representa el papel que juega un determinado\n   miembro de un proyecto de desarrollo o mantenimiento de software.\n  " .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskDependency> <http://www.w3.org/2000/01/rdf-schema#label> "The TaskDependency entity" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependentTask> <http://www.w3.org/2000/01/rdf-schema#label> "The dependentTask reference" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#members> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#tasks> <http://www.w3.org/2000/01/rdf-schema#range> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> <http://purl.org/dc/elements/1.1/title> "Software Process Control Model" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#responsible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependencies> <http://www.w3.org/2000/01/rdf-schema#label> "The dependencies reference" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#taskCategories> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#milestones> <http://www.w3.org/2000/01/rdf-schema#range> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#category> <http://www.w3.org/2000/01/rdf-schema#range> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskCategory> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#comment> "Tareas asociadas a un determinado hito del proyecto" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskDependency> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase de asociaci\u00F3n que permite representar la\n   dependencia entre dos tareas concretas." .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#milestones> <http://www.w3.org/2000/01/rdf-schema#comment> "Conjunto de milestones o hitos de un proyecto" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#taskCategories> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase contenedora de todos las tareas y milestones\n   establecidos para la planificaci\u00F3n y monitorizaci\u00F3n de un proyecto\n   software." .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#skills> <http://www.w3.org/2000/01/rdf-schema#comment> "Habilidades espec\u00EDficas de un determinado rol." .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskCategory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#responsible> <http://www.w3.org/2000/01/rdf-schema#range> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Role> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#milestones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#skills> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskCategory> <http://www.w3.org/2000/01/rdf-schema#label> "The TaskCategory entity" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#ruizrube> <http://xmlns.com/foaf/0.1/name> "Iv\u00E1n Ruiz Rube" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> <http://www.w3.org/2000/01/rdf-schema#label> "The Milestone entity" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> <http://www.w3.org/2000/01/rdf-schema#comment> "Clase que define la acci\u00F3n de realizar una labor\n   necesaria para conseguir los objetivos del proyecto." .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#ruizrube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Role> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Milestone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#taskCategories> <http://www.w3.org/2000/01/rdf-schema#label> "The taskCategories reference" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#tasks> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://usefulinc.com/ns/doap#Project> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Role> <http://www.w3.org/2000/01/rdf-schema#label> "The Role entity" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskDependency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> <http://purl.org/dc/elements/1.1/description> "<p>Planning and monitoring the execution of software projects can be carried out with different supporting tools, from issue tracking systems to Gantt chart tools or even with using simple spreadsheets. This vocabulary includes the common elements for controlling software development or maintenance projects.</p>\r\n\r\n<p>La planificaci\u00F3n y monitorizaci\u00F3n de la ejecuci\u00F3n de proyectos software puede llevarse a cabo con diferentes herramientas, desde sistemas basados en gesti\u00F3n de tareas, hasta herramientas especializadas en diagramas de Gantt o incluso mediante simples hojas de c\u00E1lculo.  Este vocabulario contempla los elementos t\u00EDpicos a la hora de controlar los proyectos de desarrollo o mantenimiento de software.</p>" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#skills> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#taskCategories> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Role> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> <http://purl.org/dc/elements/1.1/creator> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#ruizrube> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#type> <http://www.w3.org/2000/01/rdf-schema#comment> "Tipo de dependencia entre tareas" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#name> <http://www.w3.org/2000/01/rdf-schema#label> "The name attribute" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#responsible> <http://www.w3.org/2000/01/rdf-schema#comment> "Rol responsable de realizar una determinada tarea" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#type> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/subject> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#skills> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#milestones> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependencies> <http://www.w3.org/2000/01/rdf-schema#comment> "Dependencias de una tarea" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#tasks> <http://www.w3.org/2000/01/rdf-schema#comment> "Tareas asociadas a un determinado hito del proyecto" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/2000/01/rdf-schema#comment> "Descripci\u00F3n de un proyecto, un hito o una tarea" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#members> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Project> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#category> <http://www.w3.org/2000/01/rdf-schema#comment> "Categor\u00EDa de una tarea dada" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#TaskDependency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#category> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#dependencies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#description> <http://www.w3.org/2000/01/rdf-schema#label> "The description attribute" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#skills> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> <http://xmlns.com/foaf/0.1/page> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0.html> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#taskCategories> <http://www.w3.org/2000/01/rdf-schema#comment> "Categor\u00EDas definidas para las tareas de un proyecto" .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#responsible> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#Task> .
+<http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0#milestones> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://spi-fm.uca.es/spdef/models/deployment/spcm/1.0> .
+

@@ -1,0 +1,157 @@
+<http://www.kanzaki.com/ns/whois#Education> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#career> <http://www.w3.org/2000/01/rdf-schema#comment> "A job, education or any achievement in one's life, which can be specific to a stage of life (object = #Stage) or in general (object = any)." .
+<http://www.kanzaki.com/ns/whois> <http://purl.org/net/ns/ontology-annot#modified> "2007-10-13" .
+<http://www.kanzaki.com/ns/whois#academicCareer> <http://www.w3.org/2000/01/rdf-schema#label> "Academic Career" .
+<http://www.kanzaki.com/ns/whois#Education> <http://www.w3.org/2000/01/rdf-schema#comment> "A period of education in one's academic career, as a stage of life. NOT an activity of learning." .
+<http://www.kanzaki.com/ns/whois#since> <http://www.w3.org/2000/01/rdf-schema#label> "Since" .
+<http://www.kanzaki.com/ns/whois#when> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.kanzaki.com/ns/whois#Stage> .
+<http://www.kanzaki.com/ns/whois#honor> <http://www.w3.org/2000/01/rdf-schema#label> "Honor" .
+<http://www.kanzaki.com/ns/whois#description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.kanzaki.com/ns/whois#place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+_:f621b81e4fb03489d8dd60b0453ac6192b2 <http://www.w3.org/2000/01/rdf-schema#comment> "A structured description of a stage of one's life. Note properties from contact: and geo: vocabulary can be used with whois:Place." .
+<http://www.kanzaki.com/ns/whois#what> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.kanzaki.com/ns/whois#Stage> .
+<http://www.kanzaki.com/ns/whois#since> <http://www.w3.org/2000/01/rdf-schema#comment> "\u3042\u308B\u30B9\u30C6\u30FC\u30B8\u304C\u59CB\u307E\u3063\u305F\u3068\u304D\u3092\u8A18\u8FF0\u3059\u308B\u3002when\u306E\u30B5\u30D6\u30D7\u30ED\u30D1\u30C6\u30A3"@ja .
+<http://www.kanzaki.com/ns/whois#career> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f621b81e4fb03489d8dd60b0453ac6192b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/ns/ex#Example> .
+<http://www.kanzaki.com/ns/whois#born> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#since> .
+<http://www.kanzaki.com/ns/whois#when> <http://www.w3.org/2000/01/rdf-schema#comment> "\u3042\u308B\u30B9\u30C6\u30FC\u30B8\u306E\u6642\u671F\u3092\u8A18\u8FF0\u3059\u308B\u305F\u3081\u306E\u4E0A\u4F4D\u30D7\u30ED\u30D1\u30C6\u30A3"@ja .
+<http://www.kanzaki.com/ns/whois#Place> <http://www.w3.org/2000/01/rdf-schema#comment> "\u5834\u6240\u3092\u8868\u3059\u30AF\u30E9\u30B9"@ja .
+<http://www.kanzaki.com/ns/whois#Stage> <http://www.w3.org/2000/01/rdf-schema#comment> "\u4EBA\u751F\u306E\u3042\u308B\u30B9\u30C6\u30FC\u30B8\u3002\u4EBA\u306E\u30E9\u30A4\u30D5\u30B5\u30A4\u30AF\u30EB\u306E\u4E2D\u3067\u306E\u3001\u306F\u3063\u304D\u308A\u3068\u533A\u5207\u3089\u308C\u308B\u4E00\u6642\u671F"@ja .
+<http://xmlns.com/foaf/0.1/topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kanzaki.com/ns/whois> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.5.3. OWL DL version." .
+<http://www.kanzaki.com/ns/whois#stage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.kanzaki.com/ns/whois#Stage> .
+<http://www.kanzaki.com/ns/whois#career> <http://www.w3.org/2000/01/rdf-schema#label> "Career" .
+<http://www.kanzaki.com/ns/whois#when> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.kanzaki.com/ns/whois#born> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.kanzaki.com/ns/whois> <http://www.w3.org/2002/07/owl#imports> <http://www.kanzaki.com/ns/dliser.rdf> .
+<http://www.kanzaki.com/ns/whois#professionalCareer> <http://www.w3.org/2000/01/rdf-schema#comment> "\u8077\u6B74\u3092\u8A18\u8FF0\u3059\u308B\u3002career\u306E\u30B5\u30D6\u30D7\u30ED\u30D1\u30C6\u30A3"@ja .
+<http://www.kanzaki.com/ns/whois> <http://purl.org/net/ns/ontology-annot#created> "2003-07-08" .
+<http://www.kanzaki.com/ns/whois#Job> <http://www.w3.org/2000/01/rdf-schema#comment> "\u30E9\u30A4\u30D5\u30B9\u30C6\u30FC\u30B8\u4E2D\u3067\u306E\u3042\u308B\u8077\u696D\u306E\u671F\u9593\u3002\u8077\u6B74\u3092\u8868\u3059"@ja .
+<http://www.kanzaki.com/ns/whois#career> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#description> .
+<http://www.kanzaki.com/ns/whois#plan> <http://www.w3.org/2000/01/rdf-schema#comment> "General description of a person's future activities. Note past activity can be described with #career." .
+<http://www.kanzaki.com/ns/whois#professionalCareer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#career> .
+<http://www.kanzaki.com/ns/whois#Education> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.kanzaki.com/ns/whois#Stage> .
+<http://www.kanzaki.com/ns/whois#where> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kanzaki.com/ns/whois#Stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kanzaki.com/ns/whois#professionalCareer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#until> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#when> .
+<http://www.kanzaki.com/ns/whois#when> <http://www.w3.org/2000/01/rdf-schema#comment> "date/time which is related to a stage of life. Super property of since and until. W3C-DTF format value is assumed (i.e. can be yyyy, yyyy-mm, yyyy-mm-dd etc)." .
+<http://www.kanzaki.com/ns/whois#what> <http://www.w3.org/2000/01/rdf-schema#comment> "\u3042\u308B\u30B9\u30C6\u30FC\u30B8\u3092\u7279\u5FB4\u4ED8\u3051\u308B\u30C8\u30D4\u30C3\u30AF\u3092\u8A18\u8FF0\u3059\u308B\uFF08\u76EE\u7684\u8A9E\u306F\u30EA\u30C6\u30E9\u30EB\u3067\u306F\u306A\u3044\u3053\u3068\u306B\u6CE8\u610F\uFF09"@ja .
+<http://www.kanzaki.com/ns/whois#place> <http://www.w3.org/2000/01/rdf-schema#label> "Place" .
+<http://www.kanzaki.com/ns/whois#since> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#Job> <http://www.w3.org/2000/01/rdf-schema#label> "Job (stage)" .
+<http://www.kanzaki.com/ns/whois#since> <http://www.w3.org/2000/01/rdf-schema#comment> "date when a stage of life started." .
+<urn:pin:MK705> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.kanzaki.com/ns/whois#since> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.kanzaki.com/ns/whois#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kanzaki.com/ns/whois#Place> <http://www.w3.org/2000/01/rdf-schema#comment> "A place -- this can be the domain of both contact: vocab and geo: vocab." .
+<http://www.kanzaki.com/ns/whois#place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.kanzaki.com/ns/whois#description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.kanzaki.com/ns/whois#academicCareer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#career> .
+<http://www.kanzaki.com/ns/whois#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f621b81e4fb03489d8dd60b0453ac6192b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/ns/ex#Example> .
+<urn:pin:MK705> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.kanzaki.com/info/webwho.rdf> .
+_:f621b81e4fb03489d8dd60b0453ac6192b3 <http://www.w3.org/2000/01/rdf-schema#comment> "'whois:career'\u30D7\u30ED\u30D1\u30C6\u30A3\u3068'whois:Education', 'whois:Job'\u30AF\u30E9\u30B9\u3092\u4F7F\u3063\u3066\u3001\u5C65\u6B74\u30E1\u30BF\u30C7\u30FC\u30BF\u3092\u8A18\u8FF0\u3059\u308B\u4F8B\u3002\u3053\u308C\u3089\u306F\u30B5\u30D6\u30D7\u30ED\u30D1\u30C6\u30A3'whois:academicCareer'\u304A\u3088\u3073'whois:professionalCareer'\u306B\u3088\u3063\u3066\u30AF\u30E9\u30B9\u3092\u6697\u9ED9\u7684\u306B\u793A\u3059\u3053\u3068\u3082\u3067\u304D\u308B\u3002"@ja .
+<http://www.kanzaki.com/ns/whois#Stage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#stage> <http://www.w3.org/2000/01/rdf-schema#label> "Stage" .
+<http://www.kanzaki.com/ns/whois#plan> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#description> .
+<http://www.kanzaki.com/ns/whois#plan> <http://www.w3.org/2000/01/rdf-schema#label> "Plan" .
+<http://www.kanzaki.com/ns/whois#Job> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.kanzaki.com/ns/whois#Stage> .
+<http://www.kanzaki.com/ns/whois#when> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.kanzaki.com/ns/whois#professionalCareer> <http://www.w3.org/2000/01/rdf-schema#comment> "a professional or business career in one's personal history." .
+<http://www.kanzaki.com/ns/whois#Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<http://www.kanzaki.com/ns/whois#until> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#stage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#description> .
+<http://www.kanzaki.com/ns/whois#born> <http://www.w3.org/2000/01/rdf-schema#label> "Born" .
+<http://www.kanzaki.com/ns/whois#Education> <http://www.w3.org/2000/01/rdf-schema#label> "Educaton (stage)" .
+<http://www.kanzaki.com/ns/whois#academicCareer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kanzaki.com/ns/whois#when> <http://www.w3.org/2000/01/rdf-schema#label> "When" .
+_:f621b81e4fb03489d8dd60b0453ac6192b3 <http://purl.org/net/ns/ex#exampleOf> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#description> <http://www.w3.org/2000/01/rdf-schema#comment> "\u4EBA\u306E\u6D3B\u52D5\u306E\u4E00\u822C\u7684\u306A\u8A18\u8FF0\u3002stage\u3001career\u3001plan\u306E\u4E0A\u4F4D\u30D7\u30ED\u30D1\u30C6\u30A3\u3002\u4E00\u3064\u306E\u30B9\u30C6\u30FC\u30B8\u306B\u53CE\u307E\u3089\u306A\u3044\u4E8B\u9805\u3092\u8A18\u8FF0\u3059\u308B\u305F\u3081\u306B\u3082\u4F7F\u3048\u308B"@ja .
+<http://www.kanzaki.com/ns/whois> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.kanzaki.com/ns/whois#stage> <http://www.w3.org/2000/01/rdf-schema#comment> "\u4EBA\u306E\u5C65\u6B74\u306E\u306B\u304A\u3051\u308B\u3042\u308B\u5207\u308A\u53E3\u3092\u8A18\u8FF0\u3059\u308B"@ja .
+<http://www.kanzaki.com/ns/whois#since> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#when> .
+<http://www.kanzaki.com/ns/whois#what> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.kanzaki.com/ns/whois#place> <http://www.w3.org/2000/01/rdf-schema#comment> "Place which relates to a stage of life. Literal version of 'where'. \":x whois:place 'y'.\" implies \":x whois:where [rdfs:label 'y'].\"." .
+<http://www.kanzaki.com/ns/whois#stage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#professionalCareer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.kanzaki.com/ns/whois#Job> .
+_:f621b81e4fb03489d8dd60b0453ac6192b1 <http://www.w3.org/2000/01/rdf-schema#comment> "\u6700\u3082\u30B7\u30F3\u30D7\u30EB\u306A\u4F8B\uFF08rdf:parseType='Resource'\u3092\u7528\u3044\u3066'whois:Stage'\u3082\u7701\u7565\uFF09\u3002\u5834\u6240\u3092\u5358\u306A\u308B\u30EA\u30C6\u30E9\u30EB\u3068\u3059\u308B\u305F\u3081\u306Bwhois:place\u3092\u7528\u3044\u3066\u3044\u308B\u3002whois:born\u3092\u6301\u3064whois:Stage\u306F\u51FA\u8EAB\u5730\u3067\u306E\u4EBA\u751F\u306E\u6700\u521D\u306E\u30B9\u30C6\u30FC\u30B8\u3092\u793A\u3059\u3002\u307E\u305F\u3001whois:until\u306E\u306A\u3044whois:Stage\u306F\u73FE\u5728\u306E\u30B9\u30C6\u30FC\u30B8\u3002"@ja .
+<http://www.kanzaki.com/ns/whois#where> <http://www.w3.org/2000/01/rdf-schema#comment> "Place which relates to a stage of life. The range is whois:Place to have structured description. Use bio:place for literal value" .
+<http://www.kanzaki.com/ns/whois#what> <http://www.w3.org/2000/01/rdf-schema#label> "What" .
+<http://www.kanzaki.com/ns/whois> <http://www.w3.org/2000/01/rdf-schema#label> "Who's who description vocabulary" .
+<http://www.kanzaki.com/ns/whois#Job> <http://www.w3.org/2000/01/rdf-schema#comment> "A period of job in one's professional career, as a stage of life. NOT an activity of working." .
+<http://www.kanzaki.com/ns/whois#born> <http://www.w3.org/2000/01/rdf-schema#comment> "One's birthday. This can be used in place of 'whois:since' where the 'whois:Stage' is one's first stage." .
+_:f621b81e4fb03489d8dd60b0453ac6192b3 <http://www.w3.org/2000/01/rdf-schema#comment> "Combined with other FOAF vocabularies, we can make a personal resume as a metadata. A career can be described with 'whois:career' property + 'whois:Education' or 'whois:Job' class, or sub properties 'whois:academicCareer' and 'whois:professionalCareer' that denote appropriate classes as range." .
+<http://www.kanzaki.com/ns/whois#until> <http://www.w3.org/2000/01/rdf-schema#comment> "date when a stage of life ended." .
+<http://www.kanzaki.com/ns/whois#until> <http://www.w3.org/2000/01/rdf-schema#label> "Until" .
+<http://www.kanzaki.com/ns/whois> <http://purl.org/net/ns/ontology-annot#creator> <urn:pin:MK705> .
+_:f621b81e4fb03489d8dd60b0453ac6192b2 <http://purl.org/net/ns/ex#code> "<whois:stage>\n <whois:Stage>\n  <whois:since>1987</whois:since>\n  <whois:until>1989</whois:until>\n  <whois:where>\n   <whois:Place geo:lat=\"40.794\" geo:long=\"-73.972\">\n    <contact:country>U.S.A.</contact:country>\n    <contact:city>New York</contact:city>\n   </whois:Place>\n  </whois:where>\n  <whois:what>\n   <wn:School>\n    <foaf:homepage rdf:resource=\"http://www.columbia.edu/cu/business/\"/>\n   </wn:School>\n  </whois:what>\n </whois:Stage>\n</whois:stage>" .
+<http://www.kanzaki.com/ns/whois#what> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kanzaki.com/ns/whois#professionalCareer> <http://www.w3.org/2000/01/rdf-schema#label> "Professional Career" .
+<http://www.w3.org/2002/12/cal/icaltzd#dtend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.kanzaki.com/ns/whois#what> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a topic in a stage of life. The range is owl:Thing to have structured description. Use dc:description for literal description, or dc:subject for keywords." .
+<http://www.kanzaki.com/ns/whois#born> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#Job> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#Education> <http://www.w3.org/2000/01/rdf-schema#comment> "\u30E9\u30A4\u30D5\u30B9\u30C6\u30FC\u30B8\u4E2D\u3067\u306E\u3001\u5B66\u696D\u671F\u9593\u3002\u5B66\u6B74\u3092\u8868\u3059"@ja .
+<http://www.kanzaki.com/ns/whois> <http://www.w3.org/2000/01/rdf-schema#comment> "\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB\u3092\u8A18\u8FF0\u3059\u308B\u305F\u3081\u306E\u5B9F\u9A13\u30DC\u30AD\u30E3\u30D6\u30E9\u30EA\u3002Ian Davis\u306EBIO: vocab\u3068\u4F3C\u3066\u3044\u307E\u3059\u304C\u3001BIO:\u304CEvent\u3068\u3044\u3046\u5358\u4F4D\u3092\u57FA\u672C\u306B\u7279\u5B9A\u306E\u65E5\u3092\u8A18\u8FF0\u3059\u308B\u306E\u306B\u5BFE\u3057\u3001\u3053\u3061\u3089\u306F\u30E9\u30A4\u30D5\u30B5\u30A4\u30AF\u30EB\u306E\u30B9\u30C6\u30FC\u30B8\u3068\u3044\u3046\u6982\u5FF5\u3067\u671F\u9593\u3082\u8A18\u8FF0\u3067\u304D\u308B\u3088\u3046\u306B\u3057\u3066\u3044\u307E\u3059\u3002career, honor\u3068\u3044\u3063\u305F\u30D7\u30ED\u30D1\u30C6\u30A3\u306F\u3001\u5C65\u6B74\u30E1\u30BF\u30C7\u30FC\u30BF\u306E\u8A18\u8FF0\u306B\u3082\u4F7F\u3048\u307E\u3059\u3002"@ja .
+<http://www.kanzaki.com/ns/whois#description> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#plan> <http://www.w3.org/2000/01/rdf-schema#comment> "\u4EBA\u306E\u5C06\u6765\u306E\u6D3B\u52D5\u4E88\u5B9A\u3092\u8A18\u8FF0\u3059\u308B"@ja .
+<http://www.kanzaki.com/ns/whois#career> <http://www.w3.org/2000/01/rdf-schema#comment> "\u4EBA\u751F\u306B\u304A\u3051\u308B\u8077\u696D\u3001\u6559\u80B2\u3001\u696D\u7E3E\u306A\u3069\u3092\u8A18\u8FF0\u3059\u308B"@ja .
+<http://www.kanzaki.com/ns/whois#professionalCareer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kanzaki.com/ns/whois#achievement> <http://www.w3.org/2000/01/rdf-schema#label> "Achievement" .
+<http://www.kanzaki.com/ns/whois#where> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.kanzaki.com/ns/whois#Stage> .
+<http://www.kanzaki.com/ns/whois#what> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#where> <http://www.w3.org/2000/01/rdf-schema#comment> "\u3042\u308B\u30B9\u30C6\u30FC\u30B8\u306E\u5834\u6240\u3092\u8A18\u8FF0\u3059\u308B"@ja .
+<http://www.kanzaki.com/ns/whois#where> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.kanzaki.com/ns/whois#Place> .
+<http://www.kanzaki.com/ns/whois#born> <http://www.w3.org/2000/01/rdf-schema#comment> "\u8A95\u751F\u65E5\u3092\u8A18\u8FF0\u3059\u308B\u3002since\u306E\u30B5\u30D6\u30D7\u30ED\u30D1\u30C6\u30A3\uFF08\u4EBA\u751F\u306E\u6700\u521D\u306E\u30B9\u30C6\u30FC\u30B8\u306E\u59CB\u307E\u308A\uFF09"@ja .
+_:f621b81e4fb03489d8dd60b0453ac6192b1 <http://purl.org/net/ns/ex#code> "<foaf:Person>\n <foaf:name>Masahide Kanzaki</foaf:name>\n <whois:stage rdf:parseType='Resource'>\n  <whois:place>Tokyo, Japan</whois:place>\n  <whois:since>1982</whois:since>\n </whois:stage>\n <whois:stage rdf:parseType='Resource'>\n  <whois:place>Suzuka, Mie, Japan</whois:place>\n  <whois:born>1960</whois:born>\n  <whois:until>1978</whois:until>\n </whois:stage>\n</foaf:Person>" .
+<http://www.kanzaki.com/ns/whois#Job> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kanzaki.com/ns/whois#when> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#what> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/topic> .
+<http://www.kanzaki.com/ns/whois#achievement> <http://www.w3.org/2000/01/rdf-schema#comment> "a one's achievement in general. Note you can use foaf:publication, foaf:pastProject for a specific achievement." .
+<http://www.kanzaki.com/ns/whois#Place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#description> <http://www.w3.org/2000/01/rdf-schema#comment> "General description of a person's activities. Use to describe something that does not fit into a Stage." .
+<http://www.kanzaki.com/ns/whois#place> <http://www.w3.org/2000/01/rdf-schema#comment> "\u3042\u308B\u30B9\u30C6\u30FC\u30B8\u306E\u5834\u6240\u3092\u30EA\u30C6\u30E9\u30EB\u3068\u3057\u3066\u8A18\u8FF0\u3059\u308B"@ja .
+<http://www.kanzaki.com/ns/whois#academicCareer> <http://www.w3.org/2000/01/rdf-schema#comment> "\u5B66\u6B74\u3092\u8A18\u8FF0\u3059\u308B\u3002career\u306E\u30B5\u30D6\u30D7\u30ED\u30D1\u30C6\u30A3"@ja .
+<urn:pin:MK705> <http://xmlns.com/foaf/0.1/name> "\u795E\u5D0E\u6B63\u82F1"@ja .
+<http://www.kanzaki.com/ns/whois#where> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#honor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/12/cal/icaltzd#dtstart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.kanzaki.com/ns/whois#honor> <http://www.w3.org/2000/01/rdf-schema#comment> "an honor that one has been rewarded." .
+_:f621b81e4fb03489d8dd60b0453ac6192b1 <http://purl.org/net/ns/ex#exampleOf> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kanzaki.com/ns/whois> <http://www.w3.org/2000/01/rdf-schema#comment> "An experimental vocabulary to describe a person's profile/history. Properties 'whois:stage' describe one's stage of life (whois:Stage). Similar to Ian Davis' BIO: vocab, however, while BIO: describes events on specific dates, this vocabulary uses whois:since/whois:until so that it can describe a period of time. This also includes such properties as career or honor to be used as a personal resume. Examples included in this document." .
+_:f621b81e4fb03489d8dd60b0453ac6192b2 <http://www.w3.org/2000/01/rdf-schema#comment> "whois:where\u3001whois:what\u306E\u5185\u5BB9\u306B\u307B\u304B\u306E\u8A9E\u5F59\u3092\u542B\u3080\u69CB\u9020\u7684\u306A\u8A18\u8FF0\u3092\u5229\u7528\u3057\u305F\u4F8B\u3002"@ja .
+_:f621b81e4fb03489d8dd60b0453ac6192b1 <http://purl.org/net/ns/ex#pfx> "whois:" .
+_:f621b81e4fb03489d8dd60b0453ac6192b2 <http://purl.org/net/ns/ex#exampleOf> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#until> <http://www.w3.org/2000/01/rdf-schema#comment> "\u3042\u308B\u30B9\u30C6\u30FC\u30B8\u304C\u7D42\u308F\u3063\u305F\u3068\u304D\u3092\u8A18\u8FF0\u3059\u308B\u3002when\u306E\u30B5\u30D6\u30D7\u30ED\u30D1\u30C6\u30A3"@ja .
+<http://www.kanzaki.com/ns/whois#Stage> <http://www.w3.org/2000/01/rdf-schema#label> "Stage" .
+<http://www.kanzaki.com/ns/whois#academicCareer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#Stage> <http://www.w3.org/2000/01/rdf-schema#comment> "A stage of life. A distinct time period in a sequence of one's life cycle." .
+<http://www.kanzaki.com/ns/whois#achievement> <http://www.w3.org/2000/01/rdf-schema#comment> "\u696D\u7E3E\u3092\u8A18\u8FF0\u3059\u308B\u3002career\u306E\u30B5\u30D6\u30D7\u30ED\u30D1\u30C6\u30A3"@ja .
+<http://www.kanzaki.com/ns/whois#until> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.kanzaki.com/ns/whois#Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place" .
+<http://www.kanzaki.com/ns/whois#plan> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#achievement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+_:f621b81e4fb03489d8dd60b0453ac6192b3 <http://purl.org/net/ns/ex#code> "<foaf:Person>\n <foaf:name>Masahide Kanzaki</foaf:name>\n <foaf:homepage rdf:resource=\"http://www.kanzaki.com/\"/>\n <whois:stage whois:born=\"1960\" rdfs:label=\"Suzuka, Mie, Japan\"/>\n <whois:career>\n  <whois:Education>\n   <rdfs:label>Columbia Business School</rdfs:label>\n   <whois:since>1987</whois:since>\n   <whois:until>1989</whois:until>\n  </whois:Education>\n </whois:career>\n <whois:career>\n  <whois:Job>\n   <rdfs:label>A virtual corporation</rdfs:label>\n   <whois:since>1989</whois:since>\n   <whois:until>2002</whois:until>\n  </whois:Job>\n </whois:career>\n <whois:professionalCareer rdf:parseType=\"Resource\">\n  <rdfs:label>Keio University</rdfs:label>\n  <whois:since>2003</whois:since>\n </whois:professionalCareer>\n</foaf:Person>" .
+<http://www.kanzaki.com/ns/whois#since> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/12/cal/icaltzd#dtstart> .
+<http://www.kanzaki.com/ns/whois#academicCareer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.kanzaki.com/ns/whois#Education> .
+<http://www.kanzaki.com/ns/whois#honor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#Education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kanzaki.com/ns/whois#until> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/12/cal/icaltzd#dtend> .
+<http://www.kanzaki.com/ns/whois#honor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#career> .
+<http://www.kanzaki.com/ns/whois#achievement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kanzaki.com/ns/whois#stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kanzaki.com/ns/whois#career> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.kanzaki.com/ns/whois> .
+<http://www.kanzaki.com/ns/whois#place> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.kanzaki.com/ns/whois#Stage> .
+<http://www.kanzaki.com/ns/whois#where> <http://www.w3.org/2000/01/rdf-schema#label> "Where" .
+<http://www.kanzaki.com/ns/whois#honor> <http://www.w3.org/2000/01/rdf-schema#comment> "\u9855\u5F70\u6B74\u3092\u8A18\u8FF0\u3059\u308B\u3002career\u306E\u30B5\u30D6\u30D7\u30ED\u30D1\u30C6\u30A3"@ja .
+<http://www.kanzaki.com/ns/whois#stage> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes an aspect of one's personal history." .
+_:f621b81e4fb03489d8dd60b0453ac6192b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/ns/ex#Example> .
+_:f621b81e4fb03489d8dd60b0453ac6192b1 <http://www.w3.org/2000/01/rdf-schema#comment> "Simple, unstructured description. Class tags 'whois:Stage' are omitted by using rdf:parseType='Resource', and 'whois:place' property is used instead of 'whois:where' to have literal values). Note the 'whois:born' (instead of 'whois:since') implies (the omitted 'whois:Stage' is) one's first stage of life, and the stage without 'whois:until' denotes the current phase." .
+_:f621b81e4fb03489d8dd60b0453ac6192b1 <http://purl.org/net/ns/ex#image> <http://www.kanzaki.com/works/2007/misc/whois-vocab-sample1.png> .
+<http://www.kanzaki.com/ns/whois#academicCareer> <http://www.w3.org/2000/01/rdf-schema#comment> "an educational career in one's personal history." .
+<http://www.kanzaki.com/ns/whois#description> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+<http://www.kanzaki.com/ns/whois#achievement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kanzaki.com/ns/whois#career> .
+

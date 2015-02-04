@@ -1,0 +1,836 @@
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/2000/01/rdf-schema#label> "Andere Form"@de .
+<http://www.monnet-project.eu/lemon#prefRef> <http://www.w3.org/2000/01/rdf-schema#label> "Referencia preferida de"@es .
+<http://www.monnet-project.eu/lemon#Phrase> <http://www.w3.org/2000/01/rdf-schema#label> "Zinsdeel"@nl .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#PropertyValue> .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2000/01/rdf-schema#label> "Komponente"@de .
+_:f877997170d2540449335ca15d9a1ad5ab19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikalische Form"@de .
+<http://www.monnet-project.eu/lemon#separator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#MorphTransform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "Lexical entry"@en .
+<http://www.monnet-project.eu/lemon#propertyDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Domein van het predikaat"@nl .
+<http://www.monnet-project.eu/lemon#propertyRange> <http://www.w3.org/2000/01/rdf-schema#label> "Pr\u00E4dikatszielmenge"@de .
+<http://www.monnet-project.eu/lemon#property> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#PropertyValue> .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Canonical form"@en .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2000/01/rdf-schema#label> "Vorm"@nl .
+<http://www.monnet-project.eu/lemon#semArg> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Argument> .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/2000/01/rdf-schema#label> "Waarde van de predicaat"@nl .
+_:f877997170d2540449335ca15d9a1ad5ab31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#prefRef> <http://www.w3.org/2000/01/rdf-schema#label> "Voorkeursreferentie van"@nl .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+<http://www.monnet-project.eu/lemon#phraseRoot> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2000/01/rdf-schema#comment> "A node in a phrase structure or dependency parse graph"@en .
+<http://www.monnet-project.eu/lemon#onMorpheme> <http://www.w3.org/2000/01/rdf-schema#label> "On morpheme"@en .
+<http://www.monnet-project.eu/lemon#SenseContext> <http://www.w3.org/2000/01/rdf-schema#label> "Kontext"@de .
+<http://www.monnet-project.eu/lemon#subsense> <http://www.w3.org/2000/01/rdf-schema#label> "Subsense"@en .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab31 .
+<http://www.monnet-project.eu/lemon#formVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Vorm variant"@nl .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Component> .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "Entrada l\u00E9xica"@es .
+<http://www.monnet-project.eu/lemon#leaf> <http://www.w3.org/2000/01/rdf-schema#label> "Leaf"@en .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#List> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#synArg> <http://www.w3.org/2000/01/rdf-schema#label> "Actant syntaxique"@fr .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/2000/01/rdf-schema#label> "Instance de"@fr .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/2000/01/rdf-schema#label> "Sense of"@en .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/2000/01/rdf-schema#label> "Representaci\u00F3n escrito"@es .
+<http://www.monnet-project.eu/lemon#edge> <http://www.w3.org/2000/01/rdf-schema#label> "Kante"@de .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Frame> .
+<http://www.monnet-project.eu/lemon#propertyDomain> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#condition> .
+_:f877997170d2540449335ca15d9a1ad5ab22 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#propertyDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Pattern"@en .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SynRoleMarker> .
+<http://www.monnet-project.eu/lemon#reference> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rence"@fr .
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/2000/01/rdf-schema#comment> "A non-preferred (\"non-dictionary\") representation of a lexical entry. This should be variant that is either a morphological variant, an abbreviation, short form or acronym"@en .
+<http://www.monnet-project.eu/lemon#rule> <http://www.w3.org/2000/01/rdf-schema#label> "Regla"@es .
+<http://www.monnet-project.eu/lemon#separator> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the graphical element used to seperate the subnodes of this phrase structure. It is generally recommended that you use a string value with the language tag used to indicate script, (i.e., using ISO-15924 codes, such as \"Latn\"), as orthographic features may change with script."@en .
+<http://www.monnet-project.eu/lemon#decomposition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#ComponentList> .
+<http://www.monnet-project.eu/lemon#lexicalVariant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#property> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikalische Pr\u00E4dikat"@de .
+<http://www.monnet-project.eu/lemon#propertyRange> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#example> <http://www.w3.org/2000/01/rdf-schema#label> "Vorbeeld"@nl .
+<http://www.monnet-project.eu/lemon#property> <http://www.w3.org/2000/01/rdf-schema#label> "Propiedad l\u00E9xica"@es .
+<http://www.monnet-project.eu/lemon#Word> <http://www.w3.org/2000/01/rdf-schema#label> "Wort"@de .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "A definition of a sememe, that is the a text describing the exact meaning of the lexical entry when its sense is the given ontology reference"@en .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2000/01/rdf-schema#label> "Knoten"@de .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#senseRelation> .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#PhraseElement> .
+<http://www.monnet-project.eu/lemon#context> <http://www.w3.org/2000/01/rdf-schema#label> "Context"@en .
+<http://www.monnet-project.eu/lemon#property> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicale predikaat"@nl .
+<http://www.monnet-project.eu/lemon#transform> <http://www.w3.org/2000/01/rdf-schema#label> "Transformaci\u00F3n"@es .
+<http://www.monnet-project.eu/lemon#phraseRoot> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#Part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/2000/01/rdf-schema#label> "Equivalent"@nl .
+<http://www.monnet-project.eu/lemon#lexicalVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikalische Variante"@de .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Lexicon> .
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/2000/01/rdf-schema#label> "Andere vorm"@nl .
+<http://www.monnet-project.eu/lemon#ComponentList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab6 .
+<http://www.monnet-project.eu/lemon#marker> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the marker of a semantic argument. This should generally either be a semantic property i.e., case or another lexical entry e.g., a preposition or particle"@en .
+<http://www.monnet-project.eu/lemon#altRef> <http://www.w3.org/2000/01/rdf-schema#label> "Alternative Referenz von"@de .
+_:f877997170d2540449335ca15d9a1ad5ab7 <http://www.w3.org/2002/07/owl#allValuesFrom> _:f877997170d2540449335ca15d9a1ad5ab8 .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Forme canonique"@fr .
+_:f877997170d2540449335ca15d9a1ad5ab34 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#value> .
+_:f877997170d2540449335ca15d9a1ad5ab25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f877997170d2540449335ca15d9a1ad5ab26 .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#lexicalForm> .
+<http://www.monnet-project.eu/lemon#reference> <http://www.w3.org/2000/01/rdf-schema#comment> "A reference to an external resource"@en .
+<http://www.monnet-project.eu/lemon#generates> <http://www.w3.org/2000/01/rdf-schema#label> "Genera"@es .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Lexicon> .
+<http://www.monnet-project.eu/lemon#sense> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/2000/01/rdf-schema#label> "Equivalent"@fr .
+<http://www.monnet-project.eu/lemon#transform> <http://www.w3.org/2000/01/rdf-schema#label> "Transformation"@de .
+<http://www.monnet-project.eu/lemon#value> <http://www.w3.org/2000/01/rdf-schema#label> "Valor"@es .
+_:f877997170d2540449335ca15d9a1ad5ab14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#representation> .
+_:f877997170d2540449335ca15d9a1ad5ab20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/2000/01/rdf-schema#label> "Pr\u00E4dikatswert"@de .
+<http://www.monnet-project.eu/lemon#PhraseElement> <http://www.w3.org/2000/01/rdf-schema#label> "Phrase-Element"@de .
+_:f877997170d2540449335ca15d9a1ad5ab21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#reference> .
+<http://www.monnet-project.eu/lemon#example> <http://www.w3.org/2000/01/rdf-schema#label> "Beispiel"@de .
+<http://www.monnet-project.eu/lemon#subsense> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#context> <http://www.w3.org/2000/01/rdf-schema#label> "Kontext"@de .
+_:f877997170d2540449335ca15d9a1ad5ab3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.monnet-project.eu/lemon#nextTransform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#tree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#Phrase> <http://www.w3.org/2000/01/rdf-schema#label> "Phrase"@de .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/2000/01/rdf-schema#label> "Marqueur du r\u00F4le syntaxique"@fr .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#synBehavior> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+_:f877997170d2540449335ca15d9a1ad5ab4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f877997170d2540449335ca15d9a1ad5ab36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#isReferenceOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate that a reference has a given sense"@en .
+_:f877997170d2540449335ca15d9a1ad5ab11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#altRef> <http://www.w3.org/2000/01/rdf-schema#label> "Referencia alternativa de"@es .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab15 .
+<http://www.monnet-project.eu/lemon#UsageExample> <http://www.w3.org/2000/01/rdf-schema#comment> "An example of the usage of a lexical entry when refering to the ontology entity given by the sememe's reference. This should in effect be an example of the form used in context. E.g., \"this is a *usage example*\""@en .
+<http://www.monnet-project.eu/lemon#isReferenceOf> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rence de"@fr .
+<http://www.monnet-project.eu/lemon#MorphPattern> <http://www.w3.org/2000/01/rdf-schema#label> "Morphologische Muster"@de .
+<http://www.monnet-project.eu/lemon#marker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#senseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation de Signification"@fr .
+<http://www.monnet-project.eu/lemon#senseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Relaci\u00F3n de Acepci\u00F3n"@es .
+<http://www.monnet-project.eu/lemon#example> <http://www.w3.org/2000/01/rdf-schema#label> "Example"@en .
+<http://www.monnet-project.eu/lemon#phraseRoot> <http://www.w3.org/2000/01/rdf-schema#label> "Ra\u00EDz de la sintagma"@es .
+<http://www.monnet-project.eu/lemon#synBehavior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#hiddenRef> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rence cach\u00E9e de"@fr .
+<http://www.monnet-project.eu/lemon#synBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "Funcionamiento sint\u00E1ctico"@es .
+_:f877997170d2540449335ca15d9a1ad5ab1 <http://www.w3.org/2002/07/owl#unionOf> _:f877997170d2540449335ca15d9a1ad5ab2 .
+<http://www.monnet-project.eu/lemon#phraseRoot> <http://www.w3.org/2000/01/rdf-schema#label> "Zinsdeel wortel"@nl .
+_:f877997170d2540449335ca15d9a1ad5ab29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#sense> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the sense of a lexical entry"@en .
+_:f877997170d2540449335ca15d9a1ad5ab12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.monnet-project.eu/lemon#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.monnet-project.eu/lemon#altRef> <http://www.w3.org/2000/01/rdf-schema#comment> "The sense of a non-preferred but admissible lexicalization of a given ontology entity"@en .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#UsageExample> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab34 .
+<http://www.monnet-project.eu/lemon#isReferenceOf> <http://www.w3.org/2000/01/rdf-schema#label> "Referentie van"@nl .
+<http://www.monnet-project.eu/lemon#Prototype> <http://www.w3.org/2000/01/rdf-schema#label> "Prototyp"@nl .
+<http://www.monnet-project.eu/lemon#topic> <http://www.w3.org/2000/01/rdf-schema#label> "Th\u00E8me"@fr .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#PhraseElement> <http://www.w3.org/2000/01/rdf-schema#label> "El\u00E9ment du syntagme"@fr .
+<http://www.monnet-project.eu/lemon#constituent> <http://www.w3.org/2000/01/rdf-schema#label> "Constituent"@en .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+_:f877997170d2540449335ca15d9a1ad5ab22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#language> .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/2000/01/rdf-schema#label> "Onverenigbaar"@nl .
+<http://www.monnet-project.eu/lemon#Part> <http://www.w3.org/2000/01/rdf-schema#label> "Parte de la palabra"@es .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+<http://www.monnet-project.eu/lemon#representation> <http://www.w3.org/2000/01/rdf-schema#label> "Repr\u00E9sentation"@fr .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.monnet-project.eu/lemon#isReferenceOf> <http://www.w3.org/2000/01/rdf-schema#label> "Reference of"@en .
+<http://www.monnet-project.eu/lemon#propertyRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#nextTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Transformaci\u00F3n siguiente"@es .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#SenseContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#edge> <http://www.w3.org/2000/01/rdf-schema#label> "Lijn"@nl .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/2000/01/rdf-schema#label> "Plus restreint"@fr .
+<http://www.monnet-project.eu/lemon#pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Patr\u00F3n"@es .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2000/01/rdf-schema#label> "Frame"@en .
+<http://www.monnet-project.eu/lemon#sense> <http://www.w3.org/2000/01/rdf-schema#label> "Zin"@nl .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#Word> <http://www.w3.org/2000/01/rdf-schema#label> "Palabra"@es .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#PropertyValue> .
+<http://www.monnet-project.eu/lemon#propertyRange> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a restrictions on the range of the property. That is, this sense only applies if the property the sense refers to has a object in the class referred to by this property"@en .
+<http://www.monnet-project.eu/lemon#UsageExample> <http://www.w3.org/2000/01/rdf-schema#label> "Anwendungsbeispiel"@de .
+<http://www.monnet-project.eu/lemon#constituent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.monnet-project.eu/lemon#entry> <http://www.w3.org/2000/01/rdf-schema#label> "Eintrag"@de .
+<http://www.monnet-project.eu/lemon#topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#PropertyValue> .
+_:f877997170d2540449335ca15d9a1ad5ab33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.monnet-project.eu/lemon#PropertyValue> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/2000/01/rdf-schema#label> "Incompatible"@es .
+<http://www.monnet-project.eu/lemon#definition> <http://www.w3.org/2000/01/rdf-schema#label> "Definici\u00F3n"@es .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/2000/01/rdf-schema#label> "\u00C4quivalent"@de .
+_:f877997170d2540449335ca15d9a1ad5ab2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f877997170d2540449335ca15d9a1ad5ab3 .
+<http://www.monnet-project.eu/lemon#representation> <http://www.w3.org/2000/01/rdf-schema#label> "Representation"@en .
+<http://www.monnet-project.eu/lemon#definition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "Entr\u00E9e lexicale"@fr .
+<http://www.monnet-project.eu/lemon#edge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#UsageExample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#optional> <http://www.w3.org/2000/01/rdf-schema#label> "Optionele"@nl .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Subject of property"@de .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the the single argument of a class predicate is represented in the lexicon by the given semantic argument. That is Class(?x) or ?x rdf:type Class"@en .
+_:f877997170d2540449335ca15d9a1ad5ab18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f877997170d2540449335ca15d9a1ad5ab20 .
+<http://www.monnet-project.eu/lemon#extrinsicArg> <http://www.w3.org/2000/01/rdf-schema#label> "Extrinsieke argument"@nl .
+<http://www.monnet-project.eu/lemon#UsageExample> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#topic> <http://www.w3.org/2000/01/rdf-schema#domain> _:f877997170d2540449335ca15d9a1ad5ab1 .
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/2000/01/rdf-schema#label> "Otra forma"@es .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#synBehavior> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a syntactic behavior of a lexical entry"@en .
+<http://www.monnet-project.eu/lemon#rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.monnet-project.eu/lemon#semArg> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic argument"@en .
+<http://www.monnet-project.eu/lemon#semArg> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes a semantic argument slot of a semantic unit"@en .
+<http://www.monnet-project.eu/lemon#leaf> <http://www.w3.org/2000/01/rdf-schema#label> "Hoja"@es .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/2000/01/rdf-schema#label> "Element"@en .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#MorphTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Morphologische Transformation"@de .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#PropertyValue> .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#optional> <http://www.w3.org/2000/01/rdf-schema#label> "Optional"@en .
+<http://www.monnet-project.eu/lemon#definition> <http://www.w3.org/2000/01/rdf-schema#label> "Definition"@de .
+<http://www.monnet-project.eu/lemon#property> <http://www.w3.org/2000/01/rdf-schema#label> "Propi\u00E9t\u00E9 lexicale"@fr .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Argument> .
+_:f877997170d2540449335ca15d9a1ad5ab24 <http://www.w3.org/2002/07/owl#unionOf> _:f877997170d2540449335ca15d9a1ad5ab25 .
+<http://www.monnet-project.eu/lemon#definition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+<http://www.monnet-project.eu/lemon#topic> <http://www.w3.org/2000/01/rdf-schema#label> "Tema"@es .
+<http://www.monnet-project.eu/lemon#reference> <http://www.w3.org/2000/01/rdf-schema#label> "Referencia"@es .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Form> .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Form> .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexique"@fr .
+<http://www.monnet-project.eu/lemon#reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#example> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#Word> <http://www.w3.org/2000/01/rdf-schema#label> "Woord"@nl .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2000/01/rdf-schema#label> "Signification lexicale"@fr .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2000/01/rdf-schema#comment> "A constituent element of a lexical entry. This may be a word in a multi-word lexical element or a constituent of a compound word"@en .
+<http://www.monnet-project.eu/lemon#propertyRange> <http://www.w3.org/2000/01/rdf-schema#label> "Bereik van het predikaat"@nl .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/2000/01/rdf-schema#label> "Enger"@de .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2000/01/rdf-schema#label> "Form"@en .
+<http://www.monnet-project.eu/lemon#lexicalVariant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#condition> <http://www.w3.org/2000/01/rdf-schema#label> "Voorwaarde"@nl .
+<http://www.monnet-project.eu/lemon#subsense> <http://www.w3.org/2000/01/rdf-schema#label> "Acepci\u00F3n componente"@es .
+<http://www.monnet-project.eu/lemon#marker> <http://www.w3.org/2000/01/rdf-schema#label> "Marker"@en .
+<http://www.monnet-project.eu/lemon#synArg> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactic argument"@en .
+_:f877997170d2540449335ca15d9a1ad5ab5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SynRoleMarker> .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2000/01/rdf-schema#label> "Argument"@de .
+<http://www.monnet-project.eu/lemon#decomposition> <http://www.w3.org/2000/01/rdf-schema#label> "Descomposici\u00F3n"@es .
+_:f877997170d2540449335ca15d9a1ad5ab30 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.monnet-project.eu/lemon#senseRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#definition> <http://www.w3.org/2000/01/rdf-schema#label> "D\u00E9finition"@fr .
+<http://www.monnet-project.eu/lemon#context> <http://www.w3.org/2000/01/rdf-schema#label> "Context"@nl .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#PhraseElement> <http://www.w3.org/2000/01/rdf-schema#label> "Elemento de la sintagma"@es .
+<http://www.monnet-project.eu/lemon#formVariant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Form> .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2000/01/rdf-schema#label> "Plus large"@fr .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.monnet-project.eu/lemon#value> <http://www.w3.org/2000/01/rdf-schema#comment> "This indicates the value of a pseudo-data node. An example of this is definition where the value would generally be a string but it would not be possible to add further annotations, such as source or creation date."@en .
+_:f877997170d2540449335ca15d9a1ad5ab22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the semantic argument with represents the subjects (domain) of the property referred to by this sense"@en .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2000/01/rdf-schema#label> "Argumento"@es .
+<http://www.monnet-project.eu/lemon#condition> <http://www.w3.org/2000/01/rdf-schema#label> "Condition"@fr .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/2000/01/rdf-schema#label> "Element"@de .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#senseRelation> .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/2000/01/rdf-schema#label> "M\u00E1s estrecho"@es .
+<http://www.monnet-project.eu/lemon#hiddenRef> <http://www.w3.org/2000/01/rdf-schema#label> "Hidden reference of"@en .
+<http://www.monnet-project.eu/lemon#marker> <http://www.w3.org/2000/01/rdf-schema#label> "Marqueur"@fr .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#tree> <http://www.w3.org/2000/01/rdf-schema#label> "\u00C1rbol"@es .
+_:f877997170d2540449335ca15d9a1ad5ab12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.monnet-project.eu/lemon#sense> <http://www.w3.org/2000/01/rdf-schema#label> "Acepci\u00F3n"@es .
+<http://www.monnet-project.eu/lemon#semArg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#separator> <http://www.w3.org/2000/01/rdf-schema#label> "Seperator"@en .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2000/01/rdf-schema#comment> "The lexicon object. This object is specific to the given language and/or domain it describes"@en .
+<http://www.monnet-project.eu/lemon#propertyDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Pr\u00E4dikatsbereich"@de .
+<http://www.monnet-project.eu/lemon#subsense> <http://www.w3.org/2000/01/rdf-schema#label> "Deel van de zin"@nl .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur de la propri\u00E9t\u00E9"@fr .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes a written representation of a lexical entry"@en .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#senseRelation> .
+<http://www.monnet-project.eu/lemon#nextTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Volgende transformatie"@nl .
+<http://www.monnet-project.eu/lemon#hiddenRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#Phrase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab29 .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Subjekt von Pr\u00E4dikat"@en .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SynRoleMarker> .
+<http://www.monnet-project.eu/lemon#semArg> <http://www.w3.org/2000/01/rdf-schema#label> "Semantische Argument"@de .
+<http://www.monnet-project.eu/lemon#PhraseElement> <http://www.w3.org/2000/01/rdf-schema#label> "Phrase element"@en .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Argument> .
+<http://www.monnet-project.eu/lemon#tree> <http://www.w3.org/2000/01/rdf-schema#label> "Tree"@en .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Objekt von Pr\u00E4dikat"@en .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/2000/01/rdf-schema#label> "Narrower"@en .
+<http://www.monnet-project.eu/lemon#optional> <http://www.w3.org/2000/01/rdf-schema#label> "Opcional"@es .
+<http://www.monnet-project.eu/lemon#language> <http://www.w3.org/2000/01/rdf-schema#label> "Langue"@fr .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Form> .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Frame> .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+_:f877997170d2540449335ca15d9a1ad5ab29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#decomposition> .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2000/01/rdf-schema#label> "Node"@en .
+<http://www.monnet-project.eu/lemon#MorphTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Transformation morphologique"@fr .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/2000/01/rdf-schema#label> "Property Value"@en .
+<http://www.monnet-project.eu/lemon#constituent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab14 .
+<http://www.monnet-project.eu/lemon#propertyRange> <http://www.w3.org/2000/01/rdf-schema#label> "Property range"@en .
+<http://www.monnet-project.eu/lemon#generates> <http://www.w3.org/2000/01/rdf-schema#label> "Genereert"@nl .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+_:f877997170d2540449335ca15d9a1ad5ab35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/2000/01/rdf-schema#label> "Sinn von"@de .
+<http://www.monnet-project.eu/lemon#leaf> <http://www.w3.org/2000/01/rdf-schema#label> "Blatt"@de .
+_:f877997170d2540449335ca15d9a1ad5ab16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#separator> <http://www.w3.org/2000/01/rdf-schema#label> "Separador"@es .
+<http://www.monnet-project.eu/lemon#SenseContext> <http://www.w3.org/2000/01/rdf-schema#label> "Contexte"@fr .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Definition"@de .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2000/01/rdf-schema#comment> "A given written or spoken realisation of a lexical entry"@en .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/2000/01/rdf-schema#label> "Schriftliche Darstellung"@de .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#LexicalSense> .
+_:f877997170d2540449335ca15d9a1ad5ab4 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/2000/01/rdf-schema#label> "Incompatible"@fr .
+<http://www.monnet-project.eu/lemon#semArg> <http://www.w3.org/2000/01/rdf-schema#label> "Argumento sem\u00E1ntico"@es .
+_:f877997170d2540449335ca15d9a1ad5ab9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f877997170d2540449335ca15d9a1ad5ab10 .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/2000/01/rdf-schema#label> "Incompatible"@en .
+<http://www.monnet-project.eu/lemon#Part> <http://www.w3.org/2000/01/rdf-schema#label> "Wortteil"@de .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Definition"@en .
+_:f877997170d2540449335ca15d9a1ad5ab2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#altRef> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#isReferenceOf> .
+<http://www.monnet-project.eu/lemon#MorphPattern> <http://www.w3.org/2000/01/rdf-schema#label> "Morphologische Patroon"@nl .
+<http://www.monnet-project.eu/lemon#pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Patroon"@nl .
+<http://www.monnet-project.eu/lemon#MorphPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#isReferenceOf> <http://www.w3.org/2000/01/rdf-schema#label> "Referenz von"@de .
+<http://www.monnet-project.eu/lemon#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicale item"@nl .
+<http://www.monnet-project.eu/lemon#reference> <http://www.w3.org/2000/01/rdf-schema#label> "Reference"@en .
+<http://www.monnet-project.eu/lemon#nextTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Transformation suivante"@fr .
+<http://www.monnet-project.eu/lemon#lexicalVariant> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a non-semantic relationship between two lexical entries. E.g., a term is derived from another term, such as \"lexical\" and \"lexicalize\""@en .
+<http://www.monnet-project.eu/lemon#rule> <http://www.w3.org/2000/01/rdf-schema#label> "Regel"@de .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2000/01/rdf-schema#label> "Punt"@nl .
+<http://www.monnet-project.eu/lemon#prefRef> <http://www.w3.org/2000/01/rdf-schema#comment> "The sense of the preferred lexicalization of a given ontology entity"@en .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2000/01/rdf-schema#label> "V\u00E9rtice"@es .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2000/01/rdf-schema#label> "Rahmen"@de .
+<http://www.monnet-project.eu/lemon#propertyDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Dominio de la propiedad"@es .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#synBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactic behavior"@en .
+<http://www.monnet-project.eu/lemon#reference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#MorphTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Transformaci\u00F3n morfol\u00F3gica"@es .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.monnet-project.eu/lemon#lexicalVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Lexical variant"@en .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "D\u00E9finition"@fr .
+_:f877997170d2540449335ca15d9a1ad5ab16 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Canonieke vorm"@nl .
+_:f877997170d2540449335ca15d9a1ad5ab27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.monnet-project.eu/lemon#synArg> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactische Argument"@de .
+<http://www.monnet-project.eu/lemon#MorphPattern> <http://www.w3.org/2000/01/rdf-schema#label> "Patr\u00F3n morfol\u00F3gico"@es .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#value> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur"@fr .
+<http://www.monnet-project.eu/lemon#example> <http://www.w3.org/2000/01/rdf-schema#label> "Exemple"@fr .
+<http://www.monnet-project.eu/lemon#propertyDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a restrictions on the domain of the property. That is, this sense only applies if the property the sense refers to has a subject in the class referred to by this property"@en .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/2000/01/rdf-schema#comment> "Gives the written representation of a given form"@en .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#language> <http://www.w3.org/2000/01/rdf-schema#label> "Idioma"@es .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/2000/01/rdf-schema#label> "Marcador de la funci\u00F3n sint\u00E1ctica"@es .
+<http://www.monnet-project.eu/lemon#pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract form"@en .
+<http://www.monnet-project.eu/lemon#SenseContext> <http://www.w3.org/2000/01/rdf-schema#label> "Context"@en .
+_:f877997170d2540449335ca15d9a1ad5ab28 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#subsense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Forma can\u00F3nica"@es .
+<http://www.monnet-project.eu/lemon#propertyRange> <http://www.w3.org/2000/01/rdf-schema#label> "Image de la propi\u00E9t\u00E9"@fr .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/2000/01/rdf-schema#label> "Abstracte vorm"@nl .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2000/01/rdf-schema#label> "Bestanddeel"@nl .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#language> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Lexicon> .
+<http://www.monnet-project.eu/lemon#Part> <http://www.w3.org/2000/01/rdf-schema#label> "Deel van een woord"@nl .
+<http://www.monnet-project.eu/lemon#MorphTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Morphological Transform"@en .
+<http://www.monnet-project.eu/lemon#entry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+_:f877997170d2540449335ca15d9a1ad5ab34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#phraseRoot> <http://www.w3.org/2000/01/rdf-schema#label> "Base de la syntagme"@fr .
+<http://www.monnet-project.eu/lemon#Prototype> <http://www.w3.org/2000/01/rdf-schema#label> "Prototype"@en .
+<http://www.monnet-project.eu/lemon#SenseCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Bedingung"@de .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/2000/01/rdf-schema#label> "Elemento"@es .
+<http://www.monnet-project.eu/lemon#leaf> <http://www.w3.org/2000/01/rdf-schema#label> "Feuille"@fr .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes that one sense is broader than another. From a lexical point of view  this means replacing one lexical entry with another specializes the meaning of the phrase. From an ontological point of view this property makes not strong assertions. From a mapping point of view if the broader sense applies the narrower sense must also"@en .
+<http://www.monnet-project.eu/lemon#subsense> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the relation between a compound senses and its atomic subsenses"@en .
+<http://www.monnet-project.eu/lemon#generates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#SenseCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Condition"@en .
+<http://www.monnet-project.eu/lemon#ComponentList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab7 .
+<http://www.monnet-project.eu/lemon#onMorpheme> <http://www.w3.org/2000/01/rdf-schema#label> "Op morfeem"@nl .
+<http://www.monnet-project.eu/lemon#onMorpheme> <http://www.w3.org/2000/01/rdf-schema#label> "Auf Morphem"@de .
+<http://www.monnet-project.eu/lemon#Part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/2000/01/rdf-schema#label> "Valor de la propiedad"@es .
+<http://www.monnet-project.eu/lemon#synArg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.monnet-project.eu/lemon#narrower> .
+<http://www.monnet-project.eu/lemon#hiddenRef> <http://www.w3.org/2000/01/rdf-schema#comment> "The sense of a non-admissible lexicalization for a ontology entity. This is used to denote incorrect or deprecated language that may be useful for information extraction but not generation"@en .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2000/01/rdf-schema#label> "Broader"@en .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#semArg> .
+<http://www.monnet-project.eu/lemon#Part> <http://www.w3.org/2000/01/rdf-schema#comment> "An affix is a morpheme that is attached to a word stem to form a new word.  Use this for lexical entries with only abstract forms"@en .
+<http://www.monnet-project.eu/lemon#representation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Form> .
+<http://www.monnet-project.eu/lemon#MorphPattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f877997170d2540449335ca15d9a1ad5ab33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.monnet-project.eu/lemon#prefRef> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#isReferenceOf> .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+_:f877997170d2540449335ca15d9a1ad5ab1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#lexicalForm> .
+<http://www.monnet-project.eu/lemon#isReferenceOf> <http://www.w3.org/2000/01/rdf-schema#label> "Referencia de"@es .
+<http://www.monnet-project.eu/lemon#ComponentList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.monnet-project.eu/lemon#decomposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#PropertyValue> .
+<http://www.monnet-project.eu/lemon#extrinsicArg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#language> <http://www.w3.org/2000/01/rdf-schema#comment> "The language of a given lexicon. This should be some ISO-639 string"@en .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate that a sense is realised by the given lexical entry"@en .
+<http://www.monnet-project.eu/lemon#decomposition> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes a component of a lexical entry"@en .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/2000/01/rdf-schema#label> "Element"@nl .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Object van predikaat"@nl .
+<http://www.monnet-project.eu/lemon#tree> <http://www.w3.org/2000/01/rdf-schema#label> "Arbre"@fr .
+<http://www.monnet-project.eu/lemon#tree> <http://www.w3.org/2000/01/rdf-schema#label> "Baum"@de .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#Phrase> <http://www.w3.org/2000/01/rdf-schema#label> "Phrase"@en .
+_:f877997170d2540449335ca15d9a1ad5ab5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> .
+<http://www.monnet-project.eu/lemon#synArg> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactische argument"@nl .
+<http://www.monnet-project.eu/lemon#edge> <http://www.w3.org/2000/01/rdf-schema#label> "Edge"@en .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#lexicalVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Variante l\u00E9xica"@es .
+_:f877997170d2540449335ca15d9a1ad5ab13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#phraseRoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#MorphPattern> <http://www.w3.org/2000/01/rdf-schema#label> "Patron morphologique"@fr .
+_:f877997170d2540449335ca15d9a1ad5ab9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.monnet-project.eu/lemon#ComponentList> .
+<http://www.monnet-project.eu/lemon#decomposition> <http://www.w3.org/2000/01/rdf-schema#label> "Decompsitie"@nl .
+<http://www.monnet-project.eu/lemon#generates> <http://www.w3.org/2000/01/rdf-schema#label> "Generates"@en .
+<http://www.monnet-project.eu/lemon#extrinsicArg> <http://www.w3.org/2000/01/rdf-schema#label> "Extrinsic argument"@en .
+<http://www.monnet-project.eu/lemon#subsense> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/2000/01/rdf-schema#label> "Instancia de"@es .
+<http://www.monnet-project.eu/lemon#hiddenRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that two senses are equivalent. From a lexical point of view , this indicates that the lexical entries can be substituted for each other with no change in meaning. From an ontological point of view it means that the two references are not disjoint. From a mapping point of view it means if one mapping apply the other must necessarily apply"@en .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Object of property"@de .
+<http://www.monnet-project.eu/lemon#SenseContext> <http://www.w3.org/2000/01/rdf-schema#label> "Context"@nl .
+<http://www.monnet-project.eu/lemon#extrinsicArg> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#semArg> .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Kanonische Form"@de .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Sujet de la propi\u00E9t\u00E9"@fr .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#formVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Form-Variante"@de .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactic role marker"@en .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#context> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#propertyDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Ensemble de la propi\u00E9t\u00E9"@fr .
+<http://www.monnet-project.eu/lemon#context> <http://www.w3.org/2000/01/rdf-schema#label> "Contexto"@es .
+<http://www.monnet-project.eu/lemon#separator> <http://www.w3.org/2000/01/rdf-schema#label> "Separator"@de .
+<http://www.monnet-project.eu/lemon#entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#separator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2000/01/rdf-schema#label> "Lexical sense"@en .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Onderwerp van predikaat"@nl .
+<http://www.monnet-project.eu/lemon#SenseContext> <http://www.w3.org/2000/01/rdf-schema#label> "Contexto"@es .
+<http://www.monnet-project.eu/lemon#Phrase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#entry> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates an entry in a lexicon"@en .
+<http://www.monnet-project.eu/lemon#tree> <http://www.w3.org/2000/01/rdf-schema#label> "Boom"@nl .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2000/01/rdf-schema#label> "Form"@de .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab23 .
+_:f877997170d2540449335ca15d9a1ad5ab19 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#PhraseElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f877997170d2540449335ca15d9a1ad5ab10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f877997170d2540449335ca15d9a1ad5ab11 .
+<http://www.monnet-project.eu/lemon#entry> <http://www.w3.org/2000/01/rdf-schema#label> "Entrada"@es .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2000/01/rdf-schema#label> "Marco"@es .
+_:f877997170d2540449335ca15d9a1ad5ab35 <http://www.w3.org/2002/07/owl#members> _:f877997170d2540449335ca15d9a1ad5ab36 .
+<http://www.monnet-project.eu/lemon#extrinsicArg> <http://www.w3.org/2000/01/rdf-schema#label> "\u00C4u\u00DFerliche Argument"@de .
+<http://www.monnet-project.eu/lemon#senseRelation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2000/01/rdf-schema#label> "N\u0153ud"@fr .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikonsinn"@de .
+<http://www.monnet-project.eu/lemon#constituent> <http://www.w3.org/2000/01/rdf-schema#label> "Constituent"@nl .
+<http://www.monnet-project.eu/lemon#altRef> <http://www.w3.org/2000/01/rdf-schema#label> "Alternative reference of"@en .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/2000/01/rdf-schema#comment> "Says that the two senses are disjoint. From a lexical point of view, this means substituting the lexical entries must change the meaning of the phrase. From an ontological point of view, this property is implied if both references are also disjoint, but does not imply disjointness, but non-equivalence of the references. For the mapping point of view  there is not instance when both mappings are valid."@en .
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/2000/01/rdf-schema#label> "Other form"@en .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.monnet-project.eu/lemon#sense> .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the semantic argument with represents the objects (ranges) of the property referred to by this sense"@en .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2000/01/rdf-schema#label> "Argument"@nl .
+<http://www.monnet-project.eu/lemon#SenseCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#nextTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Next transform"@en .
+_:f877997170d2540449335ca15d9a1ad5ab17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f877997170d2540449335ca15d9a1ad5ab14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#topic> <http://www.w3.org/2000/01/rdf-schema#label> "Thema"@de .
+<http://www.monnet-project.eu/lemon#optional> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Argument> .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/2000/01/rdf-schema#label> "Abstrakte Form"@de .
+<http://www.monnet-project.eu/lemon#formVariant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/2000/01/rdf-schema#comment> "A value that can be used in the range of linguistic property"@en .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Node> .
+_:f877997170d2540449335ca15d9a1ad5ab16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#lexicalForm> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2000/01/rdf-schema#label> "Forme"@fr .
+<http://www.monnet-project.eu/lemon#onMorpheme> <http://www.w3.org/2000/01/rdf-schema#label> "Sur morph\u00E8me"@fr .
+<http://www.monnet-project.eu/lemon#language> <http://www.w3.org/2000/01/rdf-schema#label> "Sprache"@de .
+<http://www.monnet-project.eu/lemon#prefRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#propertyDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Property domain"@en .
+_:f877997170d2540449335ca15d9a1ad5ab5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.monnet-project.eu/lemon#Component> .
+<http://www.monnet-project.eu/lemon#value> <http://www.w3.org/2000/01/rdf-schema#label> "Value"@en .
+<http://www.monnet-project.eu/lemon#incompatible> <http://www.w3.org/2000/01/rdf-schema#label> "Inkompatibel"@de .
+<http://www.monnet-project.eu/lemon#nextTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Folgende Transformation"@de .
+<http://www.monnet-project.eu/lemon#definition> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a natural language definition. Note there is a pseudo-node to allow for further description of the definition (e.g., source, creation date etc.). The value property should be used to indicate the string value of the definition."@en .
+<http://www.monnet-project.eu/lemon#marker> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Argument> .
+<http://www.monnet-project.eu/lemon#phraseRoot> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the head node of a phrase structure or dependency parse graph"@en .
+<http://www.monnet-project.eu/lemon#separator> <http://www.w3.org/2000/01/rdf-schema#label> "Afscheider"@nl .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/2000/01/rdf-schema#label> "Equivalente"@es .
+<http://www.monnet-project.eu/lemon#UsageExample> <http://www.w3.org/2000/01/rdf-schema#label> "Exemple d'utilisation"@fr .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#altRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#Phrase> <http://www.w3.org/2000/01/rdf-schema#label> "Syntagme"@fr .
+<http://www.monnet-project.eu/lemon#constituent> <http://www.w3.org/2000/01/rdf-schema#label> "Constituyente"@es .
+<http://www.monnet-project.eu/lemon#marker> <http://www.w3.org/2000/01/rdf-schema#label> "Marker"@de .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2000/01/rdf-schema#label> "Argument"@en .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#SenseCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Condici\u00F3n"@es .
+<http://www.monnet-project.eu/lemon#leaf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#PhraseElement> .
+<http://www.monnet-project.eu/lemon#senseRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes a relationship between senses"@en .
+<http://www.monnet-project.eu/lemon#synArg> <http://www.w3.org/2000/01/rdf-schema#label> "Argumento sint\u00E1ctico"@es .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/2000/01/rdf-schema#label> "Signfication de"@fr .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Argument> .
+<http://www.monnet-project.eu/lemon#onMorpheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#propertyDomain> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#prefRef> <http://www.w3.org/2000/01/rdf-schema#label> "Bevorzugte Referenz von"@de .
+<http://www.monnet-project.eu/lemon#entry> <http://www.w3.org/2000/01/rdf-schema#label> "Entry"@en .
+<http://www.monnet-project.eu/lemon#phraseRoot> <http://www.w3.org/2000/01/rdf-schema#label> "Phrase root"@en .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2000/01/rdf-schema#label> "Forma"@es .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#leaf> <http://www.w3.org/2000/01/rdf-schema#label> "Blad"@nl .
+<http://www.monnet-project.eu/lemon#separator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.monnet-project.eu/lemon#Prototype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Lexicon> .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#SenseCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Condition"@fr .
+<http://www.monnet-project.eu/lemon#leaf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2000/01/rdf-schema#label> "Composant"@fr .
+<http://www.monnet-project.eu/lemon#representation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.monnet-project.eu/lemon#hiddenRef> <http://www.w3.org/2000/01/rdf-schema#label> "Referencia oculta de"@es .
+<http://www.monnet-project.eu/lemon#separator> <http://www.w3.org/2000/01/rdf-schema#label> "S\u00E9parateur"@fr .
+<http://www.monnet-project.eu/lemon#reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.monnet-project.eu/lemon#context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#transform> <http://www.w3.org/2000/01/rdf-schema#label> "Transform"@en .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.monnet-project.eu/lemon#synBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactische optreden"@nl .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#language> <http://www.w3.org/2000/01/rdf-schema#label> "Taal"@nl .
+<http://www.monnet-project.eu/lemon#Word> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SynRoleMarker> .
+<http://www.monnet-project.eu/lemon#SenseCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#formVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Form variant"@en .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+_:f877997170d2540449335ca15d9a1ad5ab34 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#isReferenceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#rule> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E8gle"@fr .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Forme lexicale"@fr .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/2000/01/rdf-schema#comment> "A representation of a lexical entry that should not be considered canonical. This is primarily from a linguistic view for non-realisable forms such as stems but may also include misspellings and other unusual forms"@en .
+<http://www.monnet-project.eu/lemon#entry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Lexicon> .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#PropertyValue> .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#lexicalVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicale variant"@nl .
+<http://www.monnet-project.eu/lemon#altRef> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rence alternative de"@fr .
+<http://www.monnet-project.eu/lemon#value> <http://www.w3.org/2000/01/rdf-schema#label> "Wert"@de .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#PropertyValue> .
+<http://www.monnet-project.eu/lemon#marker> <http://www.w3.org/2000/01/rdf-schema#label> "Marcador"@es .
+<http://www.monnet-project.eu/lemon#Prototype> <http://www.w3.org/2000/01/rdf-schema#label> "Prototype"@nl .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SynRoleMarker> .
+<http://www.monnet-project.eu/lemon#Part> <http://www.w3.org/2000/01/rdf-schema#label> "Partie du mot"@fr .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Form> .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#Word> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#edge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon> <http://www.w3.org/2000/01/rdf-schema#comment> "Lemon: The lexicon model for ontologies is designed to allow  for descriptions of lexical information regarding ontological elements and other RDF resources. Lemon covers mapping of lexical decomposition, phrase structure, syntax,  variation, morphology, and lexicon-ontology mapping."@en .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2000/01/rdf-schema#comment> "A stereotypical example of the usage of a given lexical entry. The most common example of projections are subcategorization frames which describe the slots taken by the arguments of a verb."@en .
+<http://www.monnet-project.eu/lemon#optional> <http://www.w3.org/2000/01/rdf-schema#label> "Optional"@de .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab4 .
+<http://www.monnet-project.eu/lemon#UsageExample> <http://www.w3.org/2000/01/rdf-schema#label> "Ejemplo de uso"@es .
+_:f877997170d2540449335ca15d9a1ad5ab23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#entry> .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/2000/01/rdf-schema#label> "Forme abstraite"@fr .
+<http://www.monnet-project.eu/lemon#generates> <http://www.w3.org/2000/01/rdf-schema#label> "G\u00E9n\u00E8re"@fr .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab24 .
+<http://www.monnet-project.eu/lemon#context> <http://www.w3.org/2000/01/rdf-schema#label> "Contexte"@fr .
+<http://www.monnet-project.eu/lemon#extrinsicArg> <http://www.w3.org/2000/01/rdf-schema#label> "Argumento extr\u00EDnseco"@es .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexic\u00F3n"@es .
+_:f877997170d2540449335ca15d9a1ad5ab7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#senseRelation> .
+<http://www.monnet-project.eu/lemon#representation> <http://www.w3.org/2000/01/rdf-schema#label> "Voorstelling"@nl .
+<http://www.monnet-project.eu/lemon#Word> <http://www.w3.org/2000/01/rdf-schema#comment> "A word is a single unit of writing or speech. In languages written in Latin, Cyrillic, Greek, Arabic scripts etc. these are assumed to be separated by white-space characters. For Chinese, Japanese, Korean this should correspond to some agreed segmentation scheme."@en .
+<http://www.monnet-project.eu/lemon#sense> <http://www.w3.org/2000/01/rdf-schema#label> "Sense"@en .
+<http://www.monnet-project.eu/lemon#altRef> <http://www.w3.org/2000/01/rdf-schema#label> "Alternatieve referentie van"@nl .
+<http://www.monnet-project.eu/lemon#subsense> <http://www.w3.org/2000/01/rdf-schema#label> "Signification composante"@fr .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes that one sense is broader than another. From a lexical point of view  this means replacing one lexical entry with another generalizes the meaning of the phrase. From an ontological point of view this property makes not strong assertions. From a mapping point of view if the broader sense applies the narrower sense must also"@en .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#isReferenceOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.monnet-project.eu/lemon#reference> .
+_:f877997170d2540449335ca15d9a1ad5ab25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f877997170d2540449335ca15d9a1ad5ab27 .
+_:f877997170d2540449335ca15d9a1ad5ab17 <http://www.w3.org/2002/07/owl#unionOf> _:f877997170d2540449335ca15d9a1ad5ab18 .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2000/01/rdf-schema#label> "Cadre"@fr .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#formVariant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Form> .
+_:f877997170d2540449335ca15d9a1ad5ab26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#edge> .
+<http://www.monnet-project.eu/lemon#generates> <http://www.w3.org/2000/01/rdf-schema#label> "Erzeugt"@de .
+<http://www.monnet-project.eu/lemon#leaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#edge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#hiddenRef> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#isReferenceOf> .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.monnet-project.eu/lemon#canonicalForm> <http://www.w3.org/2000/01/rdf-schema#comment> "The canonical (\"dictionary\") form of the lexical entry. This can be used to indicate the \"lemma\" form of a lexical entry"@en .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Complemento de la propiedad"@es .
+<http://www.monnet-project.eu/lemon#extrinsicArg> <http://www.w3.org/2000/01/rdf-schema#comment> "A raisable semantic argument is not in fact the semantic argument of the current frame-sense but instead is \"raised\" into a frame-sense used for an argument. For example the phrase \"John seemed to be happy\", is interpreted as \"it seemed that X\" where X is \"John is happy\", hence the subject of \"seem\" is a raisable argument."@en .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#hiddenRef> <http://www.w3.org/2000/01/rdf-schema#label> "Verborgene referentie van"@nl .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#comment> "An entry in the lexicon. This may be any morpheme, word, compound, phrase or clause that is included in the lexicon"@en .
+<http://www.monnet-project.eu/lemon#PhraseElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+_:f877997170d2540449335ca15d9a1ad5ab21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.monnet-project.eu/lemon#marker> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#SynRoleMarker> .
+<http://www.monnet-project.eu/lemon#MorphTransform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Form> .
+<http://www.monnet-project.eu/lemon#optional> <http://www.w3.org/2000/01/rdf-schema#label> "Optionnel"@fr .
+_:f877997170d2540449335ca15d9a1ad5ab28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f877997170d2540449335ca15d9a1ad5ab18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f877997170d2540449335ca15d9a1ad5ab19 .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab30 .
+<http://www.monnet-project.eu/lemon#synBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "Conduite syntaxique"@fr .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#value> <http://www.w3.org/2000/01/rdf-schema#label> "Waarde"@nl .
+<http://www.monnet-project.eu/lemon#UsageExample> <http://www.w3.org/2000/01/rdf-schema#label> "Usage Example"@en .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Frame> .
+<http://www.monnet-project.eu/lemon#Prototype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+<http://www.monnet-project.eu/lemon#marker> <http://www.w3.org/2000/01/rdf-schema#label> "Merker"@nl .
+_:f877997170d2540449335ca15d9a1ad5ab15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#ComponentList> <http://www.w3.org/2000/01/rdf-schema#comment> "A node within a list of components. This should generally be a blank node,see rdf:List"@en .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#semArg> .
+_:f877997170d2540449335ca15d9a1ad5ab21 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2000/01/rdf-schema#label> "Breiter"@de .
+<http://www.monnet-project.eu/lemon#condition> <http://www.w3.org/2000/01/rdf-schema#label> "Condici\u00F3n"@es .
+<http://www.monnet-project.eu/lemon#pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Muster"@de .
+_:f877997170d2540449335ca15d9a1ad5ab8 <http://www.w3.org/2002/07/owl#unionOf> _:f877997170d2540449335ca15d9a1ad5ab9 .
+<http://www.monnet-project.eu/lemon#semArg> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicale vorm"@nl .
+_:f877997170d2540449335ca15d9a1ad5ab13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicon"@en .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#PropertyValue> .
+<http://www.monnet-project.eu/lemon#definition> <http://www.w3.org/2000/01/rdf-schema#label> "Definition"@en .
+<http://www.monnet-project.eu/lemon#condition> <http://www.w3.org/2000/01/rdf-schema#label> "Bedingung"@de .
+<http://www.monnet-project.eu/lemon#rule> <http://www.w3.org/2000/01/rdf-schema#label> "Regel"@nl .
+_:f877997170d2540449335ca15d9a1ad5ab27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f877997170d2540449335ca15d9a1ad5ab28 .
+_:f877997170d2540449335ca15d9a1ad5ab15 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.monnet-project.eu/lemon#synBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactische Verhalten"@de .
+_:f877997170d2540449335ca15d9a1ad5ab4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#element> .
+<http://www.monnet-project.eu/lemon#altRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2000/01/rdf-schema#label> "Component"@en .
+<http://www.monnet-project.eu/lemon#example> <http://www.w3.org/2000/01/rdf-schema#label> "Ejemplo"@es .
+<http://www.monnet-project.eu/lemon#property> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes a lexical property of a lexical entry, form, component or MWE node. For the lexical entry this is assumed to be static properties e.g., part of speech and gender and for the others this is assumed to be specific properties e.g., case, number"@en .
+<http://www.monnet-project.eu/lemon#subsense> <http://www.w3.org/2000/01/rdf-schema#label> "Teil des Sinnes"@de .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.monnet-project.eu/lemon#SenseCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a logical condition that is used indicate when a particular term has the given meaning"@en .
+_:f877997170d2540449335ca15d9a1ad5ab3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.monnet-project.eu/lemon#Lexicon> .
+<http://www.monnet-project.eu/lemon#extrinsicArg> <http://www.w3.org/2000/01/rdf-schema#label> "Actant extrins\u00E8que"@fr .
+<http://www.monnet-project.eu/lemon#lexicalVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Variante lexicale"@fr .
+<http://www.monnet-project.eu/lemon#decomposition> <http://www.w3.org/2000/01/rdf-schema#label> "D\u00E9composition"@fr .
+<http://www.monnet-project.eu/lemon#Phrase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/2000/01/rdf-schema#label> "Instantie van"@nl .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikoneintrag"@de .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/2000/01/rdf-schema#label> "Written representation"@en .
+<http://www.monnet-project.eu/lemon#decomposition> <http://www.w3.org/2000/01/rdf-schema#label> "Dekomposition"@de .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/2000/01/rdf-schema#label> "Autre forme"@fr .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Form> .
+<http://www.monnet-project.eu/lemon#MorphTransform> <http://www.w3.org/2000/01/rdf-schema#label> "Morphologisches transformatie"@nl .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2000/01/rdf-schema#label> "Actant"@fr .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Lexicon> .
+<http://www.monnet-project.eu/lemon#propertyRange> <http://www.w3.org/2000/01/rdf-schema#label> "Intervalo de la propiedad"@es .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2000/01/rdf-schema#label> "Acepci\u00F3n l\u00E9xica"@es .
+<http://www.monnet-project.eu/lemon#SenseCondition> <http://www.w3.org/2000/01/rdf-schema#label> "Voorwaarde"@nl .
+<http://www.monnet-project.eu/lemon#hiddenRef> <http://www.w3.org/2000/01/rdf-schema#label> "Verborgene Referenz von"@de .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+<http://www.monnet-project.eu/lemon#LemonElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#example> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#sense> <http://www.w3.org/2000/01/rdf-schema#label> "Sinn"@de .
+_:f877997170d2540449335ca15d9a1ad5ab32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f877997170d2540449335ca15d9a1ad5ab33 .
+<http://www.monnet-project.eu/lemon#reference> <http://www.w3.org/2000/01/rdf-schema#label> "Referenz"@de .
+<http://www.monnet-project.eu/lemon#topic> <http://www.w3.org/2000/01/rdf-schema#label> "Thema"@nl .
+<http://www.monnet-project.eu/lemon#abstractForm> <http://www.w3.org/2000/01/rdf-schema#label> "Forma abstracta"@es .
+<http://www.monnet-project.eu/lemon#prefRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#optional> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.monnet-project.eu/lemon#MorphPattern> <http://www.w3.org/2000/01/rdf-schema#label> "Morphological pattern"@en .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+_:f877997170d2540449335ca15d9a1ad5ab14 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#property> <http://www.w3.org/2000/01/rdf-schema#label> "Lexical property"@en .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2000/01/rdf-schema#label> "Breder"@nl .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2000/01/rdf-schema#label> "Raam"@nl .
+_:f877997170d2540449335ca15d9a1ad5ab28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#leaf> .
+<http://www.monnet-project.eu/lemon#decomposition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+_:f877997170d2540449335ca15d9a1ad5ab7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> .
+<http://www.monnet-project.eu/lemon#transform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f877997170d2540449335ca15d9a1ad5ab6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SynRoleMarker> .
+<http://www.monnet-project.eu/lemon#onMorpheme> <http://www.w3.org/2000/01/rdf-schema#label> "En morfema"@es .
+<http://www.monnet-project.eu/lemon#optional> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes that the syntactic argument is optional (may be omitted)"@en .
+_:f877997170d2540449335ca15d9a1ad5ab29 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexikon"@de .
+<http://www.monnet-project.eu/lemon#UsageExample> <http://www.w3.org/2000/01/rdf-schema#label> "Vorbeeld van het gebruik"@nl .
+<http://www.monnet-project.eu/lemon#transform> <http://www.w3.org/2000/01/rdf-schema#label> "Transformation"@fr .
+<http://www.monnet-project.eu/lemon#transform> <http://www.w3.org/2000/01/rdf-schema#label> "Transformatie"@nl .
+<http://www.monnet-project.eu/lemon#representation> <http://www.w3.org/2000/01/rdf-schema#comment> "A realisation of a given form"@en .
+<http://www.monnet-project.eu/lemon#SenseContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the context in which a term is to be used. The context refers not to the immediate syntactic context, but the document and register the document is used in"@en .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicon"@nl .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Forma l\u00E9xica"@es .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Component> .
+<http://www.monnet-project.eu/lemon#senseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Zin relatie"@nl .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactische Rolle-Marker"@de .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#Node> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SynRoleMarker> .
+<http://www.monnet-project.eu/lemon#edge> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the relation between a node in a multi-word expression structure and an edge"@en .
+_:f877997170d2540449335ca15d9a1ad5ab10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2000/01/rdf-schema#label> "Lexicale zin"@nl .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#PhraseElement> .
+<http://www.monnet-project.eu/lemon#Phrase> <http://www.w3.org/2000/01/rdf-schema#comment> "A phrase in lemon is defined in the looser sense of a sequence of words, it does not have to a fully grammatical phrase"@en .
+<http://www.monnet-project.eu/lemon#propertyRange> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#condition> .
+<http://www.monnet-project.eu/lemon#PropertyValue> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#ComponentList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab5 .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+_:f877997170d2540449335ca15d9a1ad5ab6 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f877997170d2540449335ca15d9a1ad5ab6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#leaf> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the component referred to by the lex (pre-terminal) of the phrase structure"@en .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab22 .
+<http://www.monnet-project.eu/lemon#formVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Variante de la forma"@es .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/2000/01/rdf-schema#label> "Instanz von"@de .
+_:f877997170d2540449335ca15d9a1ad5ab30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#value> .
+<http://www.monnet-project.eu/lemon#condition> <http://www.w3.org/2000/01/rdf-schema#label> "Condition"@en .
+<http://www.monnet-project.eu/lemon#constituent> <http://www.w3.org/2000/01/rdf-schema#label> "Konstituent"@de .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#otherForm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#lexicalForm> .
+<http://www.monnet-project.eu/lemon#sense> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#isA> <http://www.w3.org/2000/01/rdf-schema#label> "Instance of"@en .
+<http://www.monnet-project.eu/lemon#formVariant> <http://www.w3.org/2000/01/rdf-schema#label> "Variante de la forme"@fr .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Node> .
+<http://www.monnet-project.eu/lemon#decomposition> <http://www.w3.org/2000/01/rdf-schema#label> "Decomposition"@en .
+<http://www.monnet-project.eu/lemon#Word> <http://www.w3.org/2000/01/rdf-schema#label> "Word"@en .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/2000/01/rdf-schema#label> "Acepci\u00F3n de"@es .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/2000/01/rdf-schema#label> "Zin van"@nl .
+_:f877997170d2540449335ca15d9a1ad5ab36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#synBehavior> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Frame> .
+<http://www.monnet-project.eu/lemon#sense> <http://www.w3.org/2000/01/rdf-schema#label> "Signification"@fr .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#semArg> .
+_:f877997170d2540449335ca15d9a1ad5ab20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f877997170d2540449335ca15d9a1ad5ab21 .
+<http://www.monnet-project.eu/lemon#entry> <http://www.w3.org/2000/01/rdf-schema#label> "Item"@nl .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/2000/01/rdf-schema#label> "Schriftlijke voorstelling"@nl .
+_:f877997170d2540449335ca15d9a1ad5ab32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#representation> <http://www.w3.org/2000/01/rdf-schema#label> "Representaci\u00F3n"@es .
+<http://www.monnet-project.eu/lemon#ComponentList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab13 .
+<http://www.monnet-project.eu/lemon#topic> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the topic of the overrall lexicon, this is property is sometimes called \"subject field\". Note that in addition to the topic of a lexicon each lexical entry may belong to a given domain, this can be modelled as equal or not equal to the topic of the associated lexicon"@en .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Lexicon> .
+_:f877997170d2540449335ca15d9a1ad5ab13 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactische rol merker"@nl .
+<http://www.monnet-project.eu/lemon#senseRelation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Definitie"@nl .
+<http://www.monnet-project.eu/lemon#Word> <http://www.w3.org/2000/01/rdf-schema#label> "Mot"@fr .
+<http://www.monnet-project.eu/lemon#condition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab17 .
+<http://www.monnet-project.eu/lemon#sense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#property> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LemonElement> .
+<http://www.monnet-project.eu/lemon#isSenseOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#broader> <http://www.w3.org/2000/01/rdf-schema#label> "M\u00E1s amplio"@es .
+<http://www.monnet-project.eu/lemon#SenseDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Definici\u00F3n"@es .
+_:f877997170d2540449335ca15d9a1ad5ab24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the intersection in meaning between the lexical entry and the ontology entity. This is used as the ontology entity and lexical entry may not be in one-to-one correspondence as such the existence of a sense between them states meerly that there are some cases when this lexical entry refer to the ontology entity and vica versa. Mapping elements can be used to further specify this relation"@en .
+<http://www.monnet-project.eu/lemon#prefRef> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rence pr\u00E9f\u00E9r\u00E9 de"@fr .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f877997170d2540449335ca15d9a1ad5ab26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2000/01/rdf-schema#comment> "A slot representing a gap that must be filled in realising a lexical entry in a given projection"@en .
+<http://www.monnet-project.eu/lemon#synArg> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a slot in a syntactic frame"@en .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Form> .
+<http://www.monnet-project.eu/lemon#PhraseElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A terminal node in a phrase structure graph, i.e., a realisable, lexical element."@en .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#PhraseElement> <http://www.w3.org/2000/01/rdf-schema#label> "Zin element"@nl .
+<http://www.monnet-project.eu/lemon#condition> <http://www.w3.org/2000/01/rdf-schema#label> "Indicates an evaluable test, the is necessary for this sense to apply"@en .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.monnet-project.eu/lemon#representation> .
+_:f877997170d2540449335ca15d9a1ad5ab26 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#Prototype> <http://www.w3.org/2000/01/rdf-schema#label> "Prototipo"@es .
+<http://www.monnet-project.eu/lemon#Phrase> <http://www.w3.org/2000/01/rdf-schema#label> "Sintagma"@es .
+<http://www.monnet-project.eu/lemon#objOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Compl\u00E9ment de la propi\u00E9t\u00E9"@fr .
+<http://www.monnet-project.eu/lemon#Frame> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+<http://www.monnet-project.eu/lemon#representation> <http://www.w3.org/2000/01/rdf-schema#label> "Darstellung"@de .
+<http://www.monnet-project.eu/lemon#isReferenceOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+<http://www.monnet-project.eu/lemon#senseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Sinn-Relation"@de .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/2000/01/rdf-schema#label> "El\u00E9ment"@fr .
+<http://www.monnet-project.eu/lemon#pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Patron"@fr .
+<http://www.monnet-project.eu/lemon#semArg> <http://www.w3.org/2000/01/rdf-schema#label> "Actant s\u00E9mantique"@fr .
+_:f877997170d2540449335ca15d9a1ad5ab8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#LexicalEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f877997170d2540449335ca15d9a1ad5ab16 .
+<http://www.monnet-project.eu/lemon#Prototype> <http://www.w3.org/2000/01/rdf-schema#label> "Prototype"@fr .
+<http://www.monnet-project.eu/lemon> <http://www.w3.org/2000/01/rdf-schema#label> "lemon"@en .
+<http://www.monnet-project.eu/lemon#Lexicon> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SenseDefinition> .
+<http://www.monnet-project.eu/lemon#Component> <http://www.w3.org/2000/01/rdf-schema#label> "Componente"@es .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#narrower> <http://www.w3.org/2000/01/rdf-schema#label> "Enger"@nl .
+<http://www.monnet-project.eu/lemon#subjOfProp> <http://www.w3.org/2000/01/rdf-schema#label> "Sujeto de la propiedad"@es .
+<http://www.monnet-project.eu/lemon#SynRoleMarker> <http://www.w3.org/2000/01/rdf-schema#comment> "The indicator of a given syntactic argument, normally a preposition or other particle marker or a linguistic property such as case"@en .
+<http://www.monnet-project.eu/lemon#context> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the pragmatic or discursive context of a sense mapping or a constraint on the mapping by syntactic or semantic properites"@en .
+<http://www.monnet-project.eu/lemon#element> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the lexical entry represented by the component"@en .
+<http://www.monnet-project.eu/lemon#edge> <http://www.w3.org/2000/01/rdf-schema#label> "Arista"@es .
+_:f877997170d2540449335ca15d9a1ad5ab31 <http://www.w3.org/2002/07/owl#unionOf> _:f877997170d2540449335ca15d9a1ad5ab32 .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#UsageExample> .
+<http://www.monnet-project.eu/lemon#Argument> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#SynRoleMarker> .
+<http://www.monnet-project.eu/lemon#Part> <http://www.w3.org/2000/01/rdf-schema#label> "Part of word"@en .
+<http://www.monnet-project.eu/lemon#entry> <http://www.w3.org/2000/01/rdf-schema#label> "Entr\u00E9e"@fr .
+<http://www.monnet-project.eu/lemon#prefRef> <http://www.w3.org/2000/01/rdf-schema#label> "Preferred reference of"@en .
+<http://www.monnet-project.eu/lemon#reference> <http://www.w3.org/2000/01/rdf-schema#label> "Referentie"@nl .
+<http://www.monnet-project.eu/lemon#LexicalSense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#senseRelation> <http://www.w3.org/2000/01/rdf-schema#label> "Sense relation"@en .
+_:f877997170d2540449335ca15d9a1ad5ab11 <http://www.w3.org/2002/07/owl#oneOf> _:f877997170d2540449335ca15d9a1ad5ab12 .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#LexicalSense> .
+_:f877997170d2540449335ca15d9a1ad5ab23 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.monnet-project.eu/lemon#property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.monnet-project.eu/lemon#edge> <http://www.w3.org/2000/01/rdf-schema#label> "Lien"@fr .
+<http://www.monnet-project.eu/lemon#definition> <http://www.w3.org/2000/01/rdf-schema#label> "Definitie"@nl .
+<http://www.monnet-project.eu/lemon#phraseRoot> <http://www.w3.org/2000/01/rdf-schema#label> "Phrasewurzel"@de .
+<http://www.monnet-project.eu/lemon#language> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f877997170d2540449335ca15d9a1ad5ab30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#synArg> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.monnet-project.eu/lemon#Argument> .
+<http://www.monnet-project.eu/lemon#semArg> <http://www.w3.org/2000/01/rdf-schema#label> "Semantische argument"@nl .
+<http://www.monnet-project.eu/lemon#topic> <http://www.w3.org/2000/01/rdf-schema#label> "Topic"@en .
+<http://www.monnet-project.eu/lemon#lexicalVariant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#LexicalEntry> .
+<http://www.monnet-project.eu/lemon#lexicalForm> <http://www.w3.org/2000/01/rdf-schema#label> "Lexical form"@en .
+<http://www.monnet-project.eu/lemon#language> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en .
+<http://www.monnet-project.eu/lemon#optional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.monnet-project.eu/lemon#synArg> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.monnet-project.eu/lemon#Frame> .
+<http://www.monnet-project.eu/lemon#ComponentList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.monnet-project.eu/lemon#constituent> <http://www.w3.org/2000/01/rdf-schema#label> "Constitutif"@fr .
+<http://www.monnet-project.eu/lemon#Form> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.monnet-project.eu/lemon#Lexicon> .
+<http://www.monnet-project.eu/lemon#SenseContext> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.monnet-project.eu/lemon#LemonElement> .
+_:f877997170d2540449335ca15d9a1ad5ab19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#subsense> .
+<http://www.monnet-project.eu/lemon#rule> <http://www.w3.org/2000/01/rdf-schema#label> "Rule"@en .
+_:f877997170d2540449335ca15d9a1ad5ab15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.monnet-project.eu/lemon#canonicalForm> .
+_:f877997170d2540449335ca15d9a1ad5ab23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.monnet-project.eu/lemon#writtenRep> <http://www.w3.org/2000/01/rdf-schema#label> "Repr\u00E9sentation \u00E9crite"@fr .
+<http://www.monnet-project.eu/lemon#equivalent> <http://www.w3.org/2000/01/rdf-schema#label> "Equivalent"@en .
+

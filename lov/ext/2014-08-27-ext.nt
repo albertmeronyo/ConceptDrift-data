@@ -1,0 +1,232 @@
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extentTypeCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#SpatialTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL64C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#maximumValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+_:ub93bL247C27 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#polygon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "geographic identifier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ub93bL106C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#minumumValue> .
+_:ub93bL189C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#BoundingPolygon> <http://www.w3.org/2000/01/rdf-schema#label> "Bounding polygon"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#polygon> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#BoundingPolygon> .
+_:ub93bL181C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#westBoundLongitude> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> <http://www.w3.org/2004/02/skos/core#notation> "EX_VerticalExtent"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/elements/1.1/date> "2012-05-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:ub93bL227C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub93bL16C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalCRS> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> <http://www.w3.org/2004/02/skos/core#notation> "EX_GeographicExtent"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL181C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#BoundingPolygon> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+_:ub93bL231C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalElement> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extentTypeCode> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+_:ub93bL20C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#minumumValue> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#SpatialTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> .
+_:ub93bL24C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#maximumValue> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#southBoundLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ub93bL34C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub93bL243C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalElement> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL24C27 .
+_:ub93bL64C27 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/modified> "2012-10-26T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#temporalElement> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#minumumValue> <http://www.w3.org/2000/01/rdf-schema#label> "minumu value"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#spatialExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ub93bL231C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub93bL151C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL193C27 .
+_:ub93bL223C27 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL235C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> <http://www.w3.org/2004/02/skos/core#notation> "EX_GeographicDescription"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> .
+_:ub93bL181C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ub93bL151C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub93bL64C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#spatialExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#polygon> <http://www.w3.org/2000/01/rdf-schema#label> "polygon"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#northBoundLatitude> .
+_:ub93bL231C27 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL16C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#BoundingPolygon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#eastBoundLongitude> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/elements/1.1/source> "ISO 19115:2003\r\nISO 19115:2006 Corrigendum"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "south bound latitude"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extentTypeCode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#SpatialTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/elements/1.1/creator> "Simon Jonathan David COX\r\nCSIRO"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#minumumValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL227C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/elements/1.1/title> "OWL representation of ISO 19115 (Geographic Information - Metadata - Extent package)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalCRS> <http://www.w3.org/2000/01/rdf-schema#label> "vertical CRS"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#temporalElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL106C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#SpatialTemporalExtent> <http://www.w3.org/2004/02/skos/core#notation> "EX_SpatialTemporalExtent"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:ub93bL38C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#polygon> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extentTypeCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#temporalElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> <http://www.w3.org/2004/02/skos/core#notation> "EX_GeographicBoundingBox"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:ub93bL235C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#temporalElement> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#SpatialTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial and temporal extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/ISOTC211/HM/extent.rdf> .
+_:ub93bL20C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub93bL227C27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL47C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#description> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extentTypeCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extent> <http://www.w3.org/2000/01/rdf-schema#label> "extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2000/01/rdf-schema#label> "Extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#minumumValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#maximumValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> .
+_:ub93bL16C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> .
+_:ub93bL47C27 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#BoundingPolygon> <http://www.w3.org/2004/02/skos/core#notation> "EX_BoundingPolygon"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL247C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#maximumValue> <http://www.w3.org/2000/01/rdf-schema#label> "maximum value"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub93bL151C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extent> .
+_:ub93bL185C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#southBoundLatitude> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+_:ub93bL247C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#temporalElement> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#polygon> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+_:ub93bL106C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#polygon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#maximumValue> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#temporalElement> <http://www.w3.org/2000/01/rdf-schema#label> "temporal element"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub93bL47C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicElement> <http://www.w3.org/2000/01/rdf-schema#label> "geographic element"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#BoundingPolygon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL239C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#northBoundLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#label> "Geographic bounding box"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> .
+_:ub93bL20C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "east bound longitude"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#polygon> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/elements/1.1/description> " An OWL representation of parts of the Geographic Metadata model described in ISO 19115:2003 with Corrigendum 2006 - EX Package"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub93bL223C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#description> .
+_:ub93bL247C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL231C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#maximumValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicIdentifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicElement> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ub93bL24C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#temporalElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#westBoundLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL185C27 .
+_:ub93bL243C27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#BoundingPolygon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL34C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#minumumValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> .
+_:ub93bL189C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#SpatialTemporalExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ub93bL38C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub93bL223C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#temporalElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#SpatialTemporalExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+_:ub93bL185C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub93bL239C27 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#eastBoundLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalElement> <http://www.w3.org/2000/01/rdf-schema#label> "vertical element"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub93bL16C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL223C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#BoundingPolygon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL38C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#maximumValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> .
+_:ub93bL235C27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#westBoundLongitude> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2004/02/skos/core#notation> "EX_Extent"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extent> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ub93bL185C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:ub93bL34C27 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/created> "2012-05-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:ub93bL193C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#BoundingPolygon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#spatialExtent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> .
+_:ub93bL106C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicIdentifier> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL20C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL243C27 .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalCRS> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#description> .
+_:ub93bL181C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "north bound latitude"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Geographic description"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+_:ub93bL239C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#spatialExtent> .
+_:ub93bL189C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#northBoundLatitude> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#spatialExtent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#SpatialTemporalExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#description> <http://www.w3.org/2000/01/rdf-schema#label> "description"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub93bL239C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicElement> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#spatialExtent> <http://www.w3.org/2000/01/rdf-schema#label> "spatial extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> <http://www.w3.org/2004/02/skos/core#notation> "EX_TemporalExtent"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:ub93bL38C27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "west bound longitude"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL189C27 .
+_:ub93bL227C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicElement> .
+_:ub93bL193C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#spatialExtent> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#minumumValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201210/ISOTC211/HM/extent.rdf> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicExtent> <http://www.w3.org/2000/01/rdf-schema#label> "Geographic extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ub93bL47C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extentTypeCode> .
+_:ub93bL243C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#extentTypeCode> <http://www.w3.org/2000/01/rdf-schema#label> "extent type code"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#southBoundLatitude> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicIdentifier> .
+_:ub93bL64C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub93bL151C27 .
+_:ub93bL24C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#TemporalExtent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ub93bL235C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub93bL193C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#eastBoundLongitude> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#geographicElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ub93bL34C27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#polygon> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalElement> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#verticalCRS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#VerticalExtent> .
+

@@ -1,0 +1,490 @@
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violinist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestra> <http://www.w3.org/2000/01/rdf-schema#comment> "A musical group which perfroms large scale symphonic works" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Conductor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oboist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Oboist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Composer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Pianist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://xmlns.com/wordnet/1.6/Musician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#conductor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#performer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Overture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestral_Work> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Timpanist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Baritone> <http://www.w3.org/2000/01/rdf-schema#comment> "A Baritone singer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Ensemble> <http://www.w3.org/2000/01/rdf-schema#label> "Ensemble" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Conductor> <http://www.w3.org/2000/01/rdf-schema#comment> "A Conductor" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Choral_Music> <http://www.w3.org/2000/01/rdf-schema#comment> "A genre of music composed for performance by a chorus or choir" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#String_Quartette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#sections> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+_:f5f98dc43d7044760b1681085d77ff020b15 <http://www.w3.org/2002/07/owl#unionOf> _:f5f98dc43d7044760b1681085d77ff020b16 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#sections> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Suite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Viola player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Director> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5f98dc43d7044760b1681085d77ff020b4 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#StringQuartetEnsemble> <http://www.w3.org/2000/01/rdf-schema#comment> "A musical group of four string players. Note 'String_Quartette' is SQ as musical work in this vocabulary." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trumpeter> <http://www.w3.org/2000/01/rdf-schema#comment> "A Trumpet player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicalGroup> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphony> <http://www.w3.org/2000/01/rdf-schema#comment> "A large and complex work for symphony orchestra" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#CelestaPlayer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Celesta player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#narrower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Movement> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Clarinettist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Clarinettist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chamber_Music> <http://www.w3.org/2000/01/rdf-schema#label> "Chamber Music" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violinist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Violin player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Clarinettist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Clarinet player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> <http://www.w3.org/2000/01/rdf-schema#comment> "An artist who performs a musical instrument" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Artist> <http://www.w3.org/2000/01/rdf-schema#comment> "A person or group (or any agent) who creates or performs art works" .
+_:f5f98dc43d7044760b1681085d77ff020b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f5f98dc43d7044760b1681085d77ff020b17 .
+_:f5f98dc43d7044760b1681085d77ff020b20 <http://purl.org/net/ns/ex#pfx> "music:" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Soprano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PiccoloPlayer> <http://www.w3.org/2000/01/rdf-schema#label> "Piccolo player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphonic_Poem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestral_Work> .
+_:f5f98dc43d7044760b1681085d77ff020b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trumpeter> <http://www.w3.org/2000/01/rdf-schema#label> "Trumpeter" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Suite> <http://www.w3.org/2000/01/rdf-schema#comment> "A musical composition of several movements only loosely connected" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Composer> <http://www.w3.org/2000/01/rdf-schema#label> "Composer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#conductor> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical event has a conductor. If the object agent does not have 'performs' property, the agent is assumed to conduct all programs of the subject musical event." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#key> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Movement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#conductorName> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical event has a conductor. Literal version of #conductor." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oboist> <http://www.w3.org/2000/01/rdf-schema#comment> "An Oboe player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Suite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Percussionist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Percussionist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#TubaPlayer> <http://www.w3.org/2000/01/rdf-schema#label> "TubaPlayer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#EnglishHornPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Hornist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/terms/created> "2003-07-04" .
+_:f5f98dc43d7044760b1681085d77ff020b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/wordnet/1.6/Musician> .
+_:f5f98dc43d7044760b1681085d77ff020b19 <http://purl.org/net/ns/ex#code> "<music:Symphony>\n <music:composer foaf:name=\"Beethoven\"/>\n <dc:title>Symphony No.9</dc:title>\n <music:opus>Op.125</music:opus>\n <music:published rdf:parseType=\"Resource\">\n  <dc:date>1826-08</dc:date>\n  <dc:description>The first published edition</dc:description>\n  <dc:publisher>Schott</dc:publisher>\n </music:published>\n</music:Symphony>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#sections> <http://www.w3.org/2000/01/rdf-schema#label> "Sections" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Percussionist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chamber_Music> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Movement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Musical_Composition> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/terms/modified> "2006-06-17" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#meter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#marks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f5f98dc43d7044760b1681085d77ff020b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/ns/ex#Example> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#sections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#CelestaPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Contrabassist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#key> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical work or its movement has a key, such as C major, d minor, etc" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Artist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://xmlns.com/wordnet/1.6/Musician-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Harpist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Religious_Music> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Religious_Music> .
+_:f5f98dc43d7044760b1681085d77ff020b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f5f98dc43d7044760b1681085d77ff020b6 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Movement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Tenor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Tenor> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#soloist> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#performer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#source> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performerName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Flutist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Flutist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#published> <http://purl.org/net/ns/ex#example> _:f5f98dc43d7044760b1681085d77ff020b8 .
+_:f5f98dc43d7044760b1681085d77ff020b9 <http://purl.org/net/ns/ex#code> "<music:Concert>\n <dc:title>Tokyo Green Symphony Orchestra 12th Concert</dc:title>\n <dc:date>2003-11-02T14:00+09:00</dc:date>\n <music:conductor foaf:name=\"Yuri Nitta\"/>\n <music:performer>\n  <music:Violinist>\n   <foaf:name>Tomoko Kawada</foaf:name>\n   <music:performs rdf:nodeID=\"p1\"/>\n  </music:Violinist>\n </music:performer>\n <music:performer>\n  <music:Orchestra foaf:name=\"Tokyo Green Symphony Orchestra\"/>\n </music:performer>\n <music:program>\n  <music:Concerto rdf:nodeID=\"p1\">\n   <music:composer foaf:name=\"Bruch\"/>\n   <dc:title>Violin Concerto No.1 g minor</dc:title>\n   <music:opus>op.26</music:opus>\n  </music:Concerto>\n </music:program>\n <music:program>\n  <music:Symphony>\n   <music:composer foaf:name=\"Brahms\"/>\n   <dc:title>Symphony No.2 D major</dc:title>\n   <music:opus>op.73</music:opus>\n  </music:Symphony>\n </music:program>\n <ev:location>\n  <music:Venue geo:lat=\"35.69\" geo:long=\"139.81\">\n   <dc:title>Sumida Triphony</dc:title>\n  </music:Venue>\n </ev:location>\n</music:Concert>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#soloist> <http://www.w3.org/2000/01/rdf-schema#label> "Soloist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> <http://www.w3.org/2000/01/rdf-schema#comment> "An event of musical performance by players or singers, including theatrical staging" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PiccoloPlayer> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://xmlns.com/wordnet/1.6/Piccolo> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Artist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Musical Unit" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Overture> <http://www.w3.org/2000/01/rdf-schema#label> "Overture" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#opus> <http://www.w3.org/2000/01/rdf-schema#label> "Opus" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#programLine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chorus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Chorus-2> .
+_:f5f98dc43d7044760b1681085d77ff020b21 <http://purl.org/net/ns/ex#pfx> "music:" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Clarinettist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#StringQuartetEnsemble> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera_Performance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphony> <http://www.w3.org/2000/01/rdf-schema#label> "Symphony" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Alto> <http://www.w3.org/2000/01/rdf-schema#label> "Alto" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#composer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PiccoloPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#sections> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical work has subsections such as movements" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Soprano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Soprano> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#published> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#published> <http://purl.org/net/ns/ex#example> _:f5f98dc43d7044760b1681085d77ff020b19 .
+_:f5f98dc43d7044760b1681085d77ff020b21 <http://purl.org/net/ns/ex#code> "<music:Concert>\n <dc:title>Tokyo Green Symphony Orchestra 12th Concert</dc:title>\n <dc:date>2003-11-02T14:00+09:00</dc:date>\n <music:conductorName>Yuri Nitta</music:conductorName>\n <music:performerName>Violin: Tomoko Kawada</music:performerName>\n <music:performerName>Orchestra: Tokyo Green Symphony Orchestra</music:performerName>\n <music:programLine>Bruch: Violin Concerto No.1 g minor</music:programLine>\n <music:programLine>Brahms: Symphony No.2 D major</music:programLine>\n <i:location>Sumida Triphony</i:location>\n</music:Concert>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Movement> <http://www.w3.org/2000/01/rdf-schema#comment> "A subsection of a musical work. Typically a movement of a symphony, but also a piece of suit, etc." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#ContrafagottoPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f5f98dc43d7044760b1681085d77ff020b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f5f98dc43d7044760b1681085d77ff020b21 <http://purl.org/dc/elements/1.1/description> "\u3042\u308B\u6F14\u594F\u4F1A\u306E\u540D\u79F0\u3001\u65E5\u6642\u3001\u30D7\u30ED\u30B0\u30E9\u30E0\u3001\u4F1A\u5834\u3092\u3001\u6587\u5B57\u5217\u3060\u3051\u3067\u8A18\u8FF0\u3059\u308B\u4F8B\u3002"@ja .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#marks> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Alto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#form> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#plays> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/wordnet/1.6/Musical_Instrument> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#soloist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#opus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#published> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical work is published as a score or sheet music (still not sure what kind of class is appropriate as the range)" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#form> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Recital> <http://www.w3.org/2000/01/rdf-schema#comment> "An event of musical performance especially by soloists" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Baritone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Tenor> <http://www.w3.org/2000/01/rdf-schema#comment> "A Tenor singer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concert> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Concert> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chorus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violist> <http://www.w3.org/2000/01/rdf-schema#label> "Violist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Singer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Flutist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Flute player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestral_Work> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Choreographer> <http://www.w3.org/2000/01/rdf-schema#comment> "someone who creates new dances, or directs an opera" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicalGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Artist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Conductor> <http://www.w3.org/2000/01/rdf-schema#label> "Conductor" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#marks> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical work or its movement has instruction mark(s) of tempo and/or expression" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#form> <http://www.w3.org/2000/01/rdf-schema#label> "Form" .
+_:f5f98dc43d7044760b1681085d77ff020b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#ContrafagottoPlayer> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://xmlns.com/wordnet/1.6/Contrafagotto> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#ContrafagottoPlayer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Contrafagotto player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performer> <http://www.w3.org/2000/01/rdf-schema#label> "Performer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Hornist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Venue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Venue> <http://www.w3.org/2000/01/rdf-schema#label> "Venue" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Text> <http://www.w3.org/2000/01/rdf-schema#comment> "Text of a musical work" .
+_:f5f98dc43d7044760b1681085d77ff020b21 <http://purl.org/dc/elements/1.1/description> "A simplified description of a concert with its title, date, program and venue. All property values are literal string here." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#programLine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#BassClarinettist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Clarinettist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#ContrafagottoPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicalGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Musical Group" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#opus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oboist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Percussionist> <http://www.w3.org/2000/01/rdf-schema#label> "Percussionist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#composer> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical work is composed by a person, a group, a software program etc." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Choreographer> <http://www.w3.org/2000/01/rdf-schema#label> "Choreographer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicDirector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Director> .
+_:f5f98dc43d7044760b1681085d77ff020b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Ensemble> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Ensemble> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Tenor> <http://www.w3.org/2000/01/rdf-schema#label> "Tenor" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#conductor> <http://www.w3.org/2000/01/rdf-schema#label> "Conductor" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Director> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Artist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performerName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concert> <http://www.w3.org/2000/01/rdf-schema#comment> "An event of musical performance by players or singers not involving theatrical staging" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#program> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical event presents a musical work as its program" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#EnglishHornPlayer> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://xmlns.com/wordnet/1.6/English_Horn> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera_Performance> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://xmlns.com/wordnet/1.6/Opera> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Venue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Venue> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#String_Quartette> <http://www.w3.org/2000/01/rdf-schema#comment> "A music composed for instrumental quartet with 2 violins and a viola and a cello. Note 'StringQuartetEnsemble' is SQ ensemble in this vocabulary." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performerName> <http://www.w3.org/2000/01/rdf-schema#label> "PerformerName" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Sketch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Full_Score> <http://www.w3.org/2000/01/rdf-schema#comment> "A full score of the work, either pulished or manuscript." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Text> <http://www.w3.org/2000/01/rdf-schema#label> "Text" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chorus> <http://www.w3.org/2000/01/rdf-schema#label> "Chorus" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#opus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/identifier> .
+_:f5f98dc43d7044760b1681085d77ff020b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/wordnet/1.6/Musician-2> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Contrabassist> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://xmlns.com/wordnet/1.6/Contrabass> .
+_:f5f98dc43d7044760b1681085d77ff020b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/wordnet/1.6/Musician> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performs> <http://www.w3.org/2000/01/rdf-schema#label> "Performs" .
+_:f5f98dc43d7044760b1681085d77ff020b12 <http://www.w3.org/2002/07/owl#unionOf> _:f5f98dc43d7044760b1681085d77ff020b13 .
+_:f5f98dc43d7044760b1681085d77ff020b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Harpist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicalGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Group> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphonic_Poem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Symphonic_Poem> .
+_:f5f98dc43d7044760b1681085d77ff020b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/wordnet/1.6/Director-4> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> <http://www.w3.org/2000/01/rdf-schema#label> "Musician" .
+_:f5f98dc43d7044760b1681085d77ff020b11 <http://purl.org/dc/elements/1.1/description> "\u4EA4\u97FF\u66F2\u306E\u697D\u66F2\u60C5\u5831\u3068\u697D\u7AE0\u30C7\u30FC\u30BF\u306E\u8A18\u8FF0\u4F8B"@ja .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Contrabassist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Cellist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Cello player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Suite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Suite> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Soprano> <http://www.w3.org/2000/01/rdf-schema#comment> "A Soprano singer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oboist> <http://www.w3.org/2000/01/rdf-schema#label> "Oboist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/description> "OLD RDF Schema version. A vocabulary to describe classical music and performances. Classes (categories) for musical work and performers, as well as related properties are defined. Make sure to distinguish musical works (e.g. Opera) from performance (Opera_Performance), or works (String_Quartette) from performer (StringQuartetEnsemble in this vocab), whose natural language terms are used interchangeblly. If desirable for interoperability, wordnet classes can be used instead of classes defined here for some categories (e.g. Vaiolinist), although not all classes are available in wordnet." .
+_:f5f98dc43d7044760b1681085d77ff020b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/ns/ex#Example> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Recital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f5f98dc43d7044760b1681085d77ff020b7 <http://purl.org/net/ns/ex#code> "<music:Symphony>\n <music:composer foaf:name=\"Shubert\"/>\n <dc:title>Symohony No.7 'Unfinished'</dc:title>\n <music:opus>D.759</music:opus>\n <dcterm:created>1822-01</dcterm:created>\n <music:premiere rdf:parseType=\"Resource\">\n  <dc:date>1865-12-17</dc:date>\n  <ical:location>Wien Musikfereinsall</ical:location>\n </music:premiere>\n</music:Symphony>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#composer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bassoonist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Conductor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Conductor> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Text> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Flutist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphonic_Poem> <http://www.w3.org/2000/01/rdf-schema#label> "Symphonic Poem" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#BassClarinettist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Full_Score> <http://www.w3.org/2000/01/rdf-schema#label> "Full Score" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trombonist> <http://www.w3.org/2000/01/rdf-schema#label> "Trombonist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performs> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#performer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Cellist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bassoonist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Fagotto player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#meter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Harpist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Harpist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concerto> <http://www.w3.org/2000/01/rdf-schema#label> "Concerto" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Timpanist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concert> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> .
+_:f5f98dc43d7044760b1681085d77ff020b22 <http://purl.org/dc/elements/1.1/description> "A description of a symphony with its composition data and descriptions of movements." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Director> <http://www.w3.org/2000/01/rdf-schema#label> "Director" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#premiere> <http://purl.org/net/ns/ex#example> _:f5f98dc43d7044760b1681085d77ff020b7 .
+_:f5f98dc43d7044760b1681085d77ff020b11 <http://purl.org/dc/elements/1.1/description> "A description of a symphony with its composition data and descriptions of movements." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#EnglishHornPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violinist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Violinist> .
+_:f5f98dc43d7044760b1681085d77ff020b8 <http://purl.org/net/ns/ex#code> "<music:Symphony>\n <music:composer foaf:name=\"Beethoven\"/>\n <dc:title>Symphony No.9</dc:title>\n <music:opus>Op.125</music:opus>\n <music:published rdf:parseType=\"Resource\">\n  <dc:date>1826-08</dc:date>\n  <dc:description>The first published edition</dc:description>\n  <dc:publisher>Schott</dc:publisher>\n </music:published>\n</music:Symphony>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#composer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#form> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#EnglishHornPlayer> <http://www.w3.org/2000/01/rdf-schema#label> "English Horn player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#marks> <http://www.w3.org/2000/01/rdf-schema#label> "Marks" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicDirector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> .
+_:f5f98dc43d7044760b1681085d77ff020b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/wordnet/1.6/Musician-2> .
+_:f5f98dc43d7044760b1681085d77ff020b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/ns/ex#Example> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Pianist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Pianist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Pianist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concerto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestral_Work> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Director> <http://www.w3.org/2000/01/rdf-schema#comment> "An artist who directs a musical group" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#String_Quartette> <http://www.w3.org/2000/01/rdf-schema#label> "String Quartette" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#meter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicDirector> <http://www.w3.org/2000/01/rdf-schema#label> "Music Director" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concerto> <http://www.w3.org/2000/01/rdf-schema#comment> "A composition for orchestra and a soloist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Tenor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Choral_Music> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicDirector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Music_Director> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Religious_Music> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Ensemble> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicalGroup> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera_Performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Contrabassist> <http://www.w3.org/2000/01/rdf-schema#label> "Contrabassist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#source> <http://www.w3.org/2000/01/rdf-schema#label> "Source" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#premiere> <http://www.w3.org/2000/01/rdf-schema#label> "Premiere" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bassoonist> <http://www.w3.org/2000/01/rdf-schema#label> "Bassoonist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performs> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject artist (or group, machine, etc) performs a musical work." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Orchestra> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#programLine> <http://www.w3.org/2000/01/rdf-schema#label> "Program Line" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bass> <http://www.w3.org/2000/01/rdf-schema#comment> "A Bass singer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#conductorName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#performerName> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performerName> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical event has a performer. Literal version of #performer." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/title> "Music Vocabulary" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> <http://www.w3.org/2000/01/rdf-schema#label> "Player" .
+_:f5f98dc43d7044760b1681085d77ff020b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performerName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#program> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/rss/1.0/item> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Choral_Music> <http://www.w3.org/2000/01/rdf-schema#label> "Choral Music" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Cellist> <http://www.w3.org/2000/01/rdf-schema#label> "Cellist" .
+<urn:pin:MK705> <http://xmlns.com/foaf/0.1/name> "\u795E\u5D0E\u6B63\u82F1"@ja .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://musicbrainz.org/mm/mm-2.1#Artist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#BassClarinettist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Bass Clarinet player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Overture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Ensemble> <http://www.w3.org/2000/01/rdf-schema#comment> "A musical group which perfroms in relatively small size, particularly chamber music" .
+_:f5f98dc43d7044760b1681085d77ff020b22 <http://purl.org/dc/elements/1.1/description> "\u4EA4\u97FF\u66F2\u306E\u697D\u66F2\u60C5\u5831\u3068\u697D\u7AE0\u30C7\u30FC\u30BF\u306E\u8A18\u8FF0\u4F8B"@ja .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#key> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#ContrafagottoPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bassoonist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#StringQuartetEnsemble> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/String_Quartet> .
+_:f5f98dc43d7044760b1681085d77ff020b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f5f98dc43d7044760b1681085d77ff020b3 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Conductor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Director> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PiccoloPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera_Performance> <http://www.w3.org/2000/01/rdf-schema#label> "Opera Performance" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#key> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicalGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "A group that performs art works" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Clarinettist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#BassClarinettist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphonic_Poem> <http://www.w3.org/2000/01/rdf-schema#comment> "An orchestral composition based on a thematic subject" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Baritone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Baritone> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trombonist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Trombone player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#premiere> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Percussionist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Percussion player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trumpeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+_:f5f98dc43d7044760b1681085d77ff020b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/ns/ex#Example> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#TubaPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> <http://www.w3.org/2000/01/rdf-schema#label> "Musical Event" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5f98dc43d7044760b1681085d77ff020b1 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#form> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical work or its movement has a form, such as sonata, minuet, etc" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concerto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Concerto> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Choreographer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Opera> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#StringQuartetEnsemble> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicalGroup> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Sketch> <http://www.w3.org/2000/01/rdf-schema#comment> "A sketch of the work." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#published> <http://www.w3.org/2000/01/rdf-schema#label> "Published" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Violist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Conductor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> .
+_:f5f98dc43d7044760b1681085d77ff020b18 <http://purl.org/net/ns/ex#code> "<music:Symphony>\n <music:composer foaf:name=\"Shubert\"/>\n <dc:title>Symohony No.7 'Unfinished'</dc:title>\n <music:opus>D.759</music:opus>\n <dcterm:created>1822-01</dcterm:created>\n <music:premiere rdf:parseType=\"Resource\">\n  <dc:date>1865-12-17</dc:date>\n  <ical:location>Wien Musikfereinsall</ical:location>\n </music:premiere>\n</music:Symphony>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violinist> <http://www.w3.org/2000/01/rdf-schema#label> "Violinist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chorus> <http://www.w3.org/2000/01/rdf-schema#comment> "A musical group of singers." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f5f98dc43d7044760b1681085d77ff020b10 <http://purl.org/net/ns/ex#code> "<music:Concert>\n <dc:title>Tokyo Green Symphony Orchestra 12th Concert</dc:title>\n <dc:date>2003-11-02T14:00+09:00</dc:date>\n <music:conductorName>Yuri Nitta</music:conductorName>\n <music:performerName>Violin: Tomoko Kawada</music:performerName>\n <music:performerName>Orchestra: Tokyo Green Symphony Orchestra</music:performerName>\n <music:programLine>Bruch: Violin Concerto No.1 g minor</music:programLine>\n <music:programLine>Brahms: Symphony No.2 D major</music:programLine>\n <i:location>Sumida Triphony</i:location>\n</music:Concert>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/description> "\u97F3\u697D\u4F5C\u54C1\u3001\u6F14\u594F\u60C5\u5831\u3092\u8A18\u8FF0\u3059\u308B\u305F\u3081\u306E\u30DC\u30AD\u30E3\u30D6\u30E9\u30EA\u3002Opera_Performance\uFF08\u6F14\u594F\uFF09\u3068Opera\uFF08\u4F5C\u54C1\uFF09\u3084\u3001String_Quartette\uFF08\u4F5C\u54C1\uFF09\u3068StringQuartetEnsemble\uFF08\u56E3\u4F53\uFF09\u306E\u3088\u3046\u306B\u3001\u65E5\u5E38\u8A9E\u3067\u306F\u4E21\u65B9\u306E\u610F\u5473\u306B\u4F7F\u308F\u308C\u308B\u30AF\u30E9\u30B9\u306E\u533A\u5225\u306B\u6CE8\u610F\u3002\u76F8\u4E92\u904B\u7528\u6027\u306E\u305F\u3081\u306BVaiolinist\u306A\u3069wordnet\u3067\u3082\u5B9A\u7FA9\u3055\u308C\u3066\u3044\u308B\u30AF\u30E9\u30B9\u306Fwordnet\u30AF\u30E9\u30B9\u3092\u5229\u7528\u3057\u3066\u3082\u3088\u3044\u304C\u3001\u3053\u3053\u3067\u306FContrabassist\u306A\u3069wordnet\u3067\u306F\u63D0\u4F9B\u3055\u308C\u306A\u3044\u30AF\u30E9\u30B9\u3082\u5B9A\u7FA9\u3055\u308C\u3066\u3044\u308B\u3002"@ja .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Timpanist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Timpani player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chamber_Music> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Chamber_Music> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Baritone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#CelestaPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+_:f5f98dc43d7044760b1681085d77ff020b11 <http://purl.org/net/ns/ex#code> "<music:Symphony>\n <music:composer rdf:parseType=\"Resource\">\n  <foaf:name>\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8</foaf:name>\n  <foaf:homepage rdf:resource=\"http://www.kanzaki.com/music/mw/sym/schubert\"/>\n </music:composer>\n <dc:title>Symohony No.7 'Unfinished'</dc:title>\n <music:opus>D.759</music:opus>\n <music:key>b minor</music:key>\n <dcterm:created>1822-01</dcterm:created>\n <music:premiere rdf:parseType=\"Resource\">\n  <dc:date>1865-12-17</dc:date>\n  <ical:location>Wien Musikfereinsall</ical:location>\n </music:premiere>\n <music:sections>\n  <rdf:Seq>\n   <rdf:li rdf:parseType=\"Resource\">\n    <music:mark>Allegro moderato</music:mark>\n    <music:key>b minor</music:key>\n    <music:meter>3/4</music:meter>\n   </rdf:li>\n   <rdf:li rdf:parseType=\"Resource\">\n    <music:mark>Andante con moto</music:mark>\n    <music:key>E flat major</music:key>\n    <music:meter>3/8</music:meter>\n   </rdf:li>\n  </rdf:Seq>\n </music:sections>\n</music:Symphony>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#CelestaPlayer> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://xmlns.com/wordnet/1.6/Celesta> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trumpeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Trumpeter> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Movement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Movement> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Cellist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Overture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Overture> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Clarinettist> <http://www.w3.org/2000/01/rdf-schema#label> "Clarinettist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#meter> <http://www.w3.org/2000/01/rdf-schema#label> "Meter" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bassoonist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Bassoonist> .
+_:f5f98dc43d7044760b1681085d77ff020b20 <http://purl.org/dc/elements/1.1/description> "A description of a concert with its title, date, program and venue." .
+_:f5f98dc43d7044760b1681085d77ff020b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/wordnet/1.6/Director-3> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#String_Quartette> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Player-2> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Percussionist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chorus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicalGroup> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#narrower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trumpeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f5f98dc43d7044760b1681085d77ff020b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/wordnet/1.6/Director-4> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Event> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bass> <http://www.w3.org/2000/01/rdf-schema#label> "Bass" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#CelestaPlayer> <http://www.w3.org/2000/01/rdf-schema#label> "CelestaPlayer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Soprano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Contrabassist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Contrabass player" .
+_:f5f98dc43d7044760b1681085d77ff020b9 <http://purl.org/dc/elements/1.1/description> "\u3042\u308B\u6F14\u594F\u4F1A\u306E\u540D\u79F0\u3001\u65E5\u6642\u3001\u30D7\u30ED\u30B0\u30E9\u30E0\u3001\u4F1A\u5834\u306E\u8A18\u8FF0\u4F8B\u3002"@ja .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Baritone> <http://www.w3.org/2000/01/rdf-schema#label> "Baritone" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Pianist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Piano player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Hornist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Horn player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Flutist> <http://www.w3.org/2000/01/rdf-schema#label> "Flutist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphony> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Symphony> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://xmlns.com/foaf/0.1/maker> <urn:pin:MK705> .
+_:f5f98dc43d7044760b1681085d77ff020b10 <http://purl.org/net/ns/ex#pfx> "music:" .
+_:f5f98dc43d7044760b1681085d77ff020b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Alto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Alto> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#TubaPlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#TubaPlayer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Tuba player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Venue> <http://www.w3.org/2000/01/rdf-schema#comment> "A venue for musical performance, e.g. concert hall, opera house, recital hall, etc." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Violinist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+_:f5f98dc43d7044760b1681085d77ff020b10 <http://purl.org/dc/elements/1.1/description> "\u3042\u308B\u6F14\u594F\u4F1A\u306E\u540D\u79F0\u3001\u65E5\u6642\u3001\u30D7\u30ED\u30B0\u30E9\u30E0\u3001\u4F1A\u5834\u3092\u3001\u6587\u5B57\u5217\u3060\u3051\u3067\u8A18\u8FF0\u3059\u308B\u4F8B\u3002"@ja .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Recital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://www.w3.org/2002/07/owl#versionInfo> "Old version (0.6)." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Flutist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<urn:pin:MK705> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.kanzaki.com/info/webwho.rdf> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#soloist> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical event has a soloist (an artist, a group, a machine etc.)" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Venue> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#narrower> <http://xmlns.com/wordnet/1.6/Opera_House> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#composer> <http://www.w3.org/2000/01/rdf-schema#label> "Composer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#key> <http://www.w3.org/2000/01/rdf-schema#label> "Key" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#conductorName> <http://www.w3.org/2000/01/rdf-schema#label> "Conductor Name" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#premiere> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Alto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Movement> <http://www.w3.org/2000/01/rdf-schema#label> "Movement" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Harpist> <http://www.w3.org/2000/01/rdf-schema#comment> "A Harp player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Religious_Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Soprano> <http://www.w3.org/2000/01/rdf-schema#label> "Soprano" .
+_:f5f98dc43d7044760b1681085d77ff020b22 <http://purl.org/net/ns/ex#code> "<music:Symphony>\n <music:composer rdf:parseType=\"Resource\">\n  <foaf:name>\u30B7\u30E5\u30FC\u30D9\u30EB\u30C8</foaf:name>\n  <foaf:homepage rdf:resource=\"http://www.kanzaki.com/music/mw/sym/schubert\"/>\n </music:composer>\n <dc:title>Symohony No.7 'Unfinished'</dc:title>\n <music:opus>D.759</music:opus>\n <music:key>b minor</music:key>\n <dcterm:created>1822-01</dcterm:created>\n <music:premiere rdf:parseType=\"Resource\">\n  <dc:date>1865-12-17</dc:date>\n  <ical:location>Wien Musikfereinsall</ical:location>\n </music:premiere>\n <music:sections>\n  <rdf:Seq>\n   <rdf:li rdf:parseType=\"Resource\">\n    <music:mark>Allegro moderato</music:mark>\n    <music:key>b minor</music:key>\n    <music:meter>3/4</music:meter>\n   </rdf:li>\n   <rdf:li rdf:parseType=\"Resource\">\n    <music:mark>Andante con moto</music:mark>\n    <music:key>E flat major</music:key>\n    <music:meter>3/8</music:meter>\n   </rdf:li>\n  </rdf:Seq>\n </music:sections>\n</music:Symphony>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Religious_Music> <http://www.w3.org/2000/01/rdf-schema#comment> "A genre of music composed for performance as part of religious ceremonies" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera> <http://www.w3.org/2000/01/rdf-schema#comment> "A musical work with drama, song, chorus and orchestral music. Note 'Opera_Performance' in this vocabulary describes the performance of opera." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Alto> <http://www.w3.org/2000/01/rdf-schema#comment> "An Alto singer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#ContrafagottoPlayer> <http://www.w3.org/2000/01/rdf-schema#label> "ContrafagottoPlayer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Artist> <http://www.w3.org/2000/01/rdf-schema#label> "Artist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#conductor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f5f98dc43d7044760b1681085d77ff020b9 <http://purl.org/dc/elements/1.1/description> "A description of a concert with its title, date, program and venue." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Choreographer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Director> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Sketch> <http://www.w3.org/2000/01/rdf-schema#label> "Sketch" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Composer> <http://www.w3.org/2000/01/rdf-schema#comment> "A person (or any agent) who composed art works" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Pianist> <http://www.w3.org/2000/01/rdf-schema#label> "Pianist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#BassClarinettist> <http://www.w3.org/2000/01/rdf-schema#label> "Bass_Clarinettist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Hornist> <http://www.w3.org/2000/01/rdf-schema#label> "Hornist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#composer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/creator> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Overture> <http://www.w3.org/2000/01/rdf-schema#comment> "An orchestral music composed for the opening of an opera or oratorio, often played as an independend work in concerts" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Full_Score> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concerto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#programLine> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#TubaPlayer> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://xmlns.com/wordnet/1.6/Tuba> .
+_:f5f98dc43d7044760b1681085d77ff020b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/wordnet/1.6/Director-3> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#published> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicDirector> <http://www.w3.org/2000/01/rdf-schema#comment> "The person who leads a musical group" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#EnglishHornPlayer> <http://www.w3.org/2000/01/rdf-schema#comment> "An English Horn player" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Choreographer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Choreographer> .
+_:f5f98dc43d7044760b1681085d77ff020b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/ns/ex#Example> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#premiere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://xmlns.com/wordnet/1.6/Director-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5f98dc43d7044760b1681085d77ff020b12 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera> <http://www.w3.org/2000/01/rdf-schema#label> "Opera (Work)" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Venue> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#narrower> <http://xmlns.com/wordnet/1.6/Concert_Hall> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#BassClarinettist> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://xmlns.com/wordnet/1.6/Bass_Clarinet> .
+<http://xmlns.com/wordnet/1.6/Director-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#StringQuartetEnsemble> <http://www.w3.org/2000/01/rdf-schema#label> "Qtring Quartet" .
+_:f5f98dc43d7044760b1681085d77ff020b22 <http://purl.org/net/ns/ex#pfx> "music:" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Ensemble> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#opus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:f5f98dc43d7044760b1681085d77ff020b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/ns/ex#Example> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Religious_Music> <http://www.w3.org/2000/01/rdf-schema#label> "Religious Music" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#String_Quartette> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Quartette-4> .
+_:f5f98dc43d7044760b1681085d77ff020b20 <http://purl.org/net/ns/ex#code> "<music:Concert>\n <dc:title>Tokyo Green Symphony Orchestra 12th Concert</dc:title>\n <dc:date>2003-11-02T14:00+09:00</dc:date>\n <music:conductor foaf:name=\"Yuri Nitta\"/>\n <music:performer>\n  <music:Violinist>\n   <foaf:name>Tomoko Kawada</foaf:name>\n   <music:performs rdf:nodeID=\"p1\"/>\n  </music:Violinist>\n </music:performer>\n <music:performer>\n  <music:Orchestra foaf:name=\"Tokyo Green Symphony Orchestra\"/>\n </music:performer>\n <music:program>\n  <music:Concerto rdf:nodeID=\"p1\">\n   <music:composer foaf:name=\"Bruch\"/>\n   <dc:title>Violin Concerto No.1 g minor</dc:title>\n   <music:opus>op.26</music:opus>\n  </music:Concerto>\n </music:program>\n <music:program>\n  <music:Symphony>\n   <music:composer foaf:name=\"Brahms\"/>\n   <dc:title>Symphony No.2 D major</dc:title>\n   <music:opus>op.73</music:opus>\n  </music:Symphony>\n </music:program>\n <ev:location>\n  <music:Venue geo:lat=\"35.69\" geo:long=\"139.81\">\n   <dc:title>Sumida Triphony</dc:title>\n  </music:Venue>\n </ev:location>\n</music:Concert>" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#programLine> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical event presents a musical work as its program. Literal version of #program." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Choral_Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f5f98dc43d7044760b1681085d77ff020b11 <http://purl.org/net/ns/ex#pfx> "music:" .
+<urn:pin:MK705> <http://xmlns.com/foaf/0.1/mbox> <mailto:webmaster@kanzaki.com> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#String_Quartette> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#related> <http://xmlns.com/wordnet/1.6/String_Quartette> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Timpanist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Timpanist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Suite> <http://www.w3.org/2000/01/rdf-schema#label> "Suite" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chamber_Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> <http://www.w3.org/2000/01/rdf-schema#label> "Oeuvre" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#plays> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject artist (or group, machine, etc) plays an musical instrument. If :me :plays wn:Violin, then :me a wn:Violininst." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Cellist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Cellist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#marks> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:f5f98dc43d7044760b1681085d77ff020b20 <http://purl.org/dc/elements/1.1/description> "\u3042\u308B\u6F14\u594F\u4F1A\u306E\u540D\u79F0\u3001\u65E5\u6642\u3001\u30D7\u30ED\u30B0\u30E9\u30E0\u3001\u4F1A\u5834\u306E\u8A18\u8FF0\u4F8B\u3002"@ja .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bassoonist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> <http://www.w3.org/2000/01/rdf-schema#comment> "An artist who sings a song" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphonic_Poem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Tenor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Hornist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Hornist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Singer> <http://www.w3.org/2000/01/rdf-schema#label> "Singer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PiccoloPlayer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Piccolo flute player" .
+_:f5f98dc43d7044760b1681085d77ff020b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera_Performance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Theatrical_Performance> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#opus> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical composition has an identifier assigned by a composer (e.g. 'op.131') or other editor (e.g. 'KV.551)" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Composer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Artist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestra> <http://www.w3.org/2000/01/rdf-schema#label> "Orchestra" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#program> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trombonist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Trombonist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> <http://www.w3.org/2000/01/rdf-schema#comment> "A musical work by a composer" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#meter> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical work or its movement has a time measure such as 3/4, 4/4, 6/8 etc" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Chamber_Music> <http://www.w3.org/2000/01/rdf-schema#comment> "A genre of music composed for performance by small ensemble" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performer> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical event has a performer (an artist, a group, a machine etc.). If the object agent does not have 'performs' property, the agent is assumed to perform all programs of the subject musical event." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#performer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Director> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5f98dc43d7044760b1681085d77ff020b15 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#premiere> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical work was first performed at an concert" .
+_:f5f98dc43d7044760b1681085d77ff020b4 <http://www.w3.org/2002/07/owl#unionOf> _:f5f98dc43d7044760b1681085d77ff020b5 .
+_:f5f98dc43d7044760b1681085d77ff020b1 <http://www.w3.org/2002/07/owl#unionOf> _:f5f98dc43d7044760b1681085d77ff020b2 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oboist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trombonist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Player> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#conductorName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Recital> <http://www.w3.org/2000/01/rdf-schema#label> "Recital" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit of musical work e.g. a composition, its movement, phrase, theme etc." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musician> <http://www.w3.org/2000/01/rdf-schema#comment> "An artist who performs, composes or conducts music" .
+<urn:pin:MK705> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#MusicalGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#plays> <http://www.w3.org/2000/01/rdf-schema#label> "Plays" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#published> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Timpanist> <http://www.w3.org/2000/01/rdf-schema#label> "Timpanist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#premiere> <http://purl.org/net/ns/ex#example> _:f5f98dc43d7044760b1681085d77ff020b18 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestral_Work> <http://www.w3.org/2000/01/rdf-schema#comment> "A composition for orchestra (and a soloist or soloists, optionally with chorus)" .
+_:f5f98dc43d7044760b1681085d77ff020b9 <http://purl.org/net/ns/ex#pfx> "music:" .
+_:f5f98dc43d7044760b1681085d77ff020b10 <http://purl.org/dc/elements/1.1/description> "A simplified description of a concert with its title, date, program and venue. All property values are literal string here." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#plays> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Artist> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#narrower> <http://xmlns.com/wordnet/1.6/Artist> .
+_:f5f98dc43d7044760b1681085d77ff020b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f5f98dc43d7044760b1681085d77ff020b14 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#program> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Musical_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Recital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Recital-2> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Oeuvre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Musical_Composition> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#plays> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Composer> <http://www.w3c.rl.ac.uk/2003/11/21-skos-core#narrower> <http://xmlns.com/wordnet/1.6/Composer> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestral_Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestral_Work> <http://www.w3.org/2000/01/rdf-schema#label> "Orchestral Work" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Concert> <http://www.w3.org/2000/01/rdf-schema#label> "Concert" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Harpist> <http://www.w3.org/2000/01/rdf-schema#label> "Harpist" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Trombonist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Opera_Performance> <http://www.w3.org/2000/01/rdf-schema#comment> "An event of opera performance (not an opera as a musical work, which is defined here as 'Opera')" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#source> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject musical work has a source, such as sketch, autograph score or published score." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/wordnet/1.6/Bass-6> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#EnglishHornPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Oboist> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Symphony> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Orchestral_Work> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#program> <http://www.w3.org/2000/01/rdf-schema#label> "Program" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PiccoloPlayer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Flutist> .
+

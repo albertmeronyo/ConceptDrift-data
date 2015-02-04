@@ -1,0 +1,133 @@
+<http://kdo.render-project.eu/kdo#hasScore> <http://www.w3.org/2000/01/rdf-schema#label> "has score"@en .
+<http://kdo.render-project.eu/kdo#hasBias> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#involvedAgent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kdo.render-project.eu/kdo#Statement> .
+<http://kdo.render-project.eu/kdo#NewsWebsite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://kdo.render-project.eu/kdo#relatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kdo.render-project.eu/kdo#hasBias> <http://www.w3.org/2000/01/rdf-schema#label> "has bias"@en .
+<http://kdo.render-project.eu/kdo#negativePolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kdo.render-project.eu/kdo#Polarity> .
+<http://kdo.render-project.eu/kdo#hasOpinion> <http://www.w3.org/2000/01/rdf-schema#label> "has opinion"@en .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://kdo.render-project.eu/kdo#NewsWebsite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/sioc/ns#Container> .
+<http://kdo.render-project.eu/kdo#neutralPolarity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#hasPost> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/sioc/ns#Post> .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://kdo.render-project.eu/kdo#Statement> .
+<http://kdo.render-project.eu/kdo#hasScore> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://kdo.render-project.eu/kdo#neutralPolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kdo.render-project.eu/kdo#Polarity> .
+<http://kdo.render-project.eu/kdo#hasPolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kdo.render-project.eu/kdo#hasSentiment> <http://www.w3.org/2000/01/rdf-schema#comment> "The kdo:hasSentiment property is used to specify which kdo:Sentiment is attached to a sioc:Post."@en .
+<http://kdo.render-project.eu/kdo#relatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates one bias to another."@en .
+<http://kdo.render-project.eu/kdo#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://kdo.render-project.eu/kdo#hasPost> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kdo.render-project.eu/kdo#Statement> .
+<http://kdo.render-project.eu/kdo#NewsWebsite> <http://www.w3.org/2000/01/rdf-schema#comment> "The kdo:NewsWebsite class represents news publisher containers that are commonly related to a single web site. The NewsWebsite class is defined because there is no container class to represent the news publisher web sites in the SIOC ontology. The NewsWebsite class is defined as a subclass of the sioc:Container."@en .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://kdo.render-project.eu/kdo#Statement> .
+<http://kdo.render-project.eu/kdo#Statement> <http://www.w3.org/2000/01/rdf-schema#comment> "The statement class is the central class in the core of the KD ontology. It serves as a hub that connects sentiments (kdo:hasSentiment), opinions (kdo:hasOpinion), biases (kdo:hasBias), posts (kdo:hasPost), and agents (kdo:involvedAgent). Moreover, each statement may have an expression which is a string literal."@en .
+<http://kdo.render-project.eu/kdo#Bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#> <http://purl.org/dc/terms/description> "The Knowledge Diversity Ontology aims at providing a vocabulary that describes different dimensions of knowledge diversity of the Web. To support the representation of diversity information, the conceptual model of the Knowledge Diversity Ontology includes concepts and relations that were identified and modelled by focusing on real world scenarios in context of customer feedback, news, and Wikipedia opinion mining as well as content and sentiment analysis."@en .
+<http://kdo.render-project.eu/kdo#relatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "related to"@en .
+<http://kdo.render-project.eu/kdo#negativePolarity> <http://www.w3.org/2000/01/rdf-schema#comment> "This individual is used to mark a negative polarity."@en .
+<http://rdfs.org/sioc/ns#Post> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#Polarity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#negativePolarity> <http://www.w3.org/2000/01/rdf-schema#label> "Negative polarity"@en .
+<http://kdo.render-project.eu/kdo#hasBias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#hasSentiment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#hasOpinion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#NewsWebsite> <http://www.w3.org/2000/01/rdf-schema#label> "News web site"@en .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#NewsArticle> <http://www.w3.org/2000/01/rdf-schema#label> "News article"@en .
+<http://kdo.render-project.eu/kdo#hasSentiment> <http://www.w3.org/2000/01/rdf-schema#label> "has sentiment"@en .
+<http://kdo.render-project.eu/kdo#positivePolarity> <http://www.w3.org/2000/01/rdf-schema#comment> "This individual is used to mark a postitive polarity."@en .
+<http://kdo.render-project.eu/kdo#Opinion> <http://www.w3.org/2000/01/rdf-schema#label> "Opinion"@en .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#positivePolarity> <http://www.w3.org/2000/01/rdf-schema#label> "Positive polarity"@en .
+<http://kdo.render-project.eu/kdo#Statement> <http://www.w3.org/2000/01/rdf-schema#label> "Statement"@en .
+<http://kdo.render-project.eu/kdo#NewsArticle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#Sentiment> <http://www.w3.org/2000/01/rdf-schema#comment> "The sentiment class represents the sentiments expressed by the opinions and posts. A sentiment can have (kdo:hasPolarity) different types of polarity (positive, negative, and neutral) and a decimal score (kdo:hasScore). It is in the range of kdo:hasSentiment."@en .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdfs.org/sioc/ns#Post> .
+<http://kdo.render-project.eu/kdo#hasBias> <http://www.w3.org/2000/01/rdf-schema#domain> _:f03f267d25c0342cb8d8efa3d2e9c696bb1 .
+<http://kdo.render-project.eu/kdo#hasPost> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#hasScore> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates the score of a kdo:Sentiment. This score is denoted as a decimal. However, the range can vary and depends on the implementation of the sentiment extraction process."@en .
+<http://kdo.render-project.eu/kdo#hasExpression> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb1 <http://www.w3.org/2002/07/owl#unionOf> _:f03f267d25c0342cb8d8efa3d2e9c696bb2 .
+<http://kdo.render-project.eu/kdo#> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is currently under development in context with the RENDER project."@en .
+<http://kdo.render-project.eu/kdo#hasPost> <http://www.w3.org/2000/01/rdf-schema#label> "has post"@en .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f03f267d25c0342cb8d8efa3d2e9c696bb3 .
+<http://kdo.render-project.eu/kdo#hasBias> <http://www.w3.org/2000/01/rdf-schema#range> <http://kdo.render-project.eu/kdo#Bias> .
+<http://kdo.render-project.eu/kdo#hasScore> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#hasPolarity> <http://www.w3.org/2000/01/rdf-schema#comment> "The kdo:hasPolarity is used to specify the polarity of a kdo:Sentiment. It has three individuals: kdo:positivePolarity representing the positive orientation, kdo:negativePolarity representing the negative orientation, kdo:neutralPolarity representing the neutral."@en .
+<http://kdo.render-project.eu/kdo#hasSentiment> <http://www.w3.org/2000/01/rdf-schema#domain> _:f03f267d25c0342cb8d8efa3d2e9c696bb7 .
+<http://kdo.render-project.eu/kdo#relatedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://kdo.render-project.eu/kdo#Bias> .
+<http://kdo.render-project.eu/kdo#relatedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu> <http://www.w3.org/2000/01/rdf-schema#label> "Knowledge Diversity Ontology (KDO) Specification" .
+<http://kdo.render-project.eu/kdo#involvedAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "The kdo:involvedAgent property is used to specify the holder of an opinion. An opinion holder is represented by the foaf:Agent class."@en .
+<http://kdo.render-project.eu/kdo#Polarity> <http://www.w3.org/2000/01/rdf-schema#comment> "The kdo:Polarity class is used to express the polarity of sentiments. The predefined instances of this class are: kdo:neutralPolarity, kdo:positivePolarity, kdo:negativePolarity."@en .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://kdo.render-project.eu/kdo#Statement> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://kdo.render-project.eu/kdo#involvedAgent> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://kdo.render-project.eu/kdo#hasOpinion> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a sioc:Post to a kdo:Opinion."@en .
+<http://kdo.render-project.eu/kdo#Polarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#Sentiment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#positivePolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://kdo.render-project.eu/kdo#Polarity> .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f03f267d25c0342cb8d8efa3d2e9c696bb6 .
+<http://kdo.render-project.eu/kdo#> <http://purl.org/dc/terms/title> "The Knowledge Diversity Ontology"@en .
+<http://kdo.render-project.eu/kdo#hasExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "This property attaches a string literal to a kdo:Statement. This literal should be a text excerpt which states a statement and is extracted from a related post."@en .
+<http://kdo.render-project.eu/kdo#Sentiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#NewsArticle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#hasPolarity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kdo.render-project.eu/kdo#Sentiment> .
+<http://kdo.render-project.eu/kdo#hasScore> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kdo.render-project.eu/kdo#Sentiment> .
+<http://kdo.render-project.eu/kdo#hasOpinion> <http://www.w3.org/2000/01/rdf-schema#range> <http://kdo.render-project.eu/kdo#Opinion> .
+<http://kdo.render-project.eu/kdo#Opinion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#hasExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://kdo.render-project.eu/kdo#involvedAgent> <http://www.w3.org/2000/01/rdf-schema#label> "involved agent"@en .
+<http://kdo.render-project.eu/kdo#> <http://purl.org/dc/terms/modified> "2012-10-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://kdo.render-project.eu/kdo#hasPost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kdo.render-project.eu/kdo#hasScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://kdo.render-project.eu/kdo#Sentiment> <http://www.w3.org/2000/01/rdf-schema#label> "Sentiment"@en .
+<http://kdo.render-project.eu/kdo#hasBias> <http://www.w3.org/2000/01/rdf-schema#comment> "The kdo:hasBias property is used associate a kdo:Bias with a sioc:Post."@en .
+<http://kdo.render-project.eu/kdo#involvedAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdfs.org/sioc/ns#Post> .
+<http://kdo.render-project.eu/kdo#Statement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#hasOpinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kdo.render-project.eu/kdo#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://kdo.render-project.eu/kdo#" .
+<http://kdo.render-project.eu/kdo#hasSentiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kdo.render-project.eu/kdo#NewsArticle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/sioc/ns#Post> .
+<http://kdo.render-project.eu/kdo#Bias> <http://www.w3.org/2000/01/rdf-schema#label> "Bias"@en .
+<http://kdo.render-project.eu/kdo#hasOpinion> <http://www.w3.org/2000/01/rdf-schema#domain> _:f03f267d25c0342cb8d8efa3d2e9c696bb4 .
+<http://kdo.render-project.eu/kdo#Opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#hasExpression> <http://www.w3.org/2000/01/rdf-schema#label> "has expression"@en .
+<http://kdo.render-project.eu/kdo#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "kdo" .
+<http://kdo.render-project.eu/kdo#Opinion> <http://www.w3.org/2000/01/rdf-schema#comment> "The opinion class represents is used to contextualize2 provenance, crawling other meta-information. A blank node may be used to represent opinions. Opinions are connected to statement through kdo:hasOpinion."@en .
+<http://kdo.render-project.eu/kdo#Bias> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#> <http://www.w3.org/2002/07/owl#imports> <http://rdfs.org/sioc/ns> .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb4 <http://www.w3.org/2002/07/owl#unionOf> _:f03f267d25c0342cb8d8efa3d2e9c696bb5 .
+<http://kdo.render-project.eu/kdo#involvedAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#Bias> <http://www.w3.org/2000/01/rdf-schema#comment> "A bias can be attached to a kdo:Statement and can therefore also relate to agents, posts, and opinions. More specifically, a bias can also relate to another bias."@en .
+<http://kdo.render-project.eu/kdo#neutralPolarity> <http://www.w3.org/2000/01/rdf-schema#label> "Neutral polarity"@en .
+<http://kdo.render-project.eu/kdo#hasPost> <http://www.w3.org/2000/01/rdf-schema#comment> "This class attaches a statement to a post" .
+<http://kdo.render-project.eu/kdo#NewsArticle> <http://www.w3.org/2000/01/rdf-schema#comment> "The kdo:NewsArticle class represents news articles. The news article class is defined because there is no class to represent news articles in the SIOC ontology. The NewsArticle is a subclass of the sioc:Post class which is itself a subclass of the foaf:Document."@en .
+<http://kdo.render-project.eu/kdo#hasPolarity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://rdfs.org/sioc/ns#Container> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#relatedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kdo.render-project.eu/kdo#Bias> .
+<http://kdo.render-project.eu/kdo#hasExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#neutralPolarity> <http://www.w3.org/2000/01/rdf-schema#comment> "This individual is used to mark a neutral polarity."@en .
+<http://kdo.render-project.eu/kdo#Statement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://kdo.render-project.eu/kdo#positivePolarity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdfs.org/sioc/ns#Post> .
+<http://kdo.render-project.eu/kdo#negativePolarity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#NewsWebsite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://kdo.render-project.eu/kdo#> .
+<http://kdo.render-project.eu/kdo#hasPolarity> <http://www.w3.org/2000/01/rdf-schema#label> "has polarity"@en .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f03f267d25c0342cb8d8efa3d2e9c696bb9 .
+_:f03f267d25c0342cb8d8efa3d2e9c696bb7 <http://www.w3.org/2002/07/owl#unionOf> _:f03f267d25c0342cb8d8efa3d2e9c696bb8 .
+<http://kdo.render-project.eu/kdo#hasSentiment> <http://www.w3.org/2000/01/rdf-schema#range> <http://kdo.render-project.eu/kdo#Sentiment> .
+<http://kdo.render-project.eu/kdo#> <http://www.w3.org/2002/07/owl#versionInfo> "v2.2" .
+<http://kdo.render-project.eu/kdo#hasPolarity> <http://www.w3.org/2000/01/rdf-schema#range> <http://kdo.render-project.eu/kdo#Polarity> .
+<http://kdo.render-project.eu/kdo#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://kdo.render-project.eu> .
+<http://kdo.render-project.eu/kdo#hasExpression> <http://www.w3.org/2000/01/rdf-schema#domain> <http://kdo.render-project.eu/kdo#Statement> .
+

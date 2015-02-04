@@ -1,0 +1,208 @@
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/sourceFirstAccessedOn> .
+<http://purl.org/pav/createdAt> <http://www.w3.org/2000/01/rdf-schema#label> "Created at"@en .
+<http://purl.org/pav/derivedFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "Derived from a different resource. Derivation conserns itself with derived knowledge. If this resource has the same content as the other resource, but has simply been transcribed to fit a different model (like XML -> RDF or SQL -> CVS), use pav:importedFrom. If a resource was simply retrieved, use pav:retrievedFrom. If the content has however been further refined or modified, pav:derivedFrom should be used.\n\nDetails about who performed the derivation may be indicated with pav:contributedBy and its subproperties."@en .
+<http://purl.org/pav/createdAt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdBy> .
+<http://purl.org/pav/contributedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Contributed by"@en .
+<http://purl.org/pav/curatedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/pav/contributedBy> .
+<http://purl.org/pav/importedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The date this resource was imported from a source (pav:importedFrom). \n\nNote that pav:importedOn may overlap with pav:createdOn, but in cases where they differ, the import time indicates the time of the retrieval and transcription of the original source, while the creation time indicates when the final resource was made, for instance after user approval.\n\nIf the source is later reimported, this should be indicated with pav:lastRefreshedOn.\n\nThe source of the import should be given with pav:importedFrom. The agent that performed the import should be given with pav:importedBy.\n\nSee pav:importedFrom for a discussion about import vs. retrieval."@en .
+<http://purl.org/pav/sourceAccessedAt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedFrom> .
+<http://purl.org/pav/providedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Provided by"@en .
+<http://purl.org/pav/> <http://purl.org/dc/terms/modified> "2013-03-26T14:49:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/importedFrom> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/importedFromSource> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdOn> .
+<http://purl.org/pav/retrievedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasAttributedTo> .
+<http://purl.org/pav/curates> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.org/pav/importedFrom> <http://www.w3.org/2000/01/rdf-schema#label> "Imported from"@en .
+<http://purl.org/pav/contributedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/contributedBy> .
+<http://purl.org/pav/retrievedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/contributedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasAttributedTo> .
+<http://purl.org/pav/retrievedFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasDerivedFrom> .
+<http://purl.org/pav/> <http://www.w3.org/2002/07/owl#priorVersion> <http://purl.org/pav/2.0/> .
+<http://purl.org/pav/authoredOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdAt> .
+<http://purl.org/pav/> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> <http://purl.org/pav/provenance/2.0/> .
+<http://purl.org/pav/sourceLastAccessedOn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/sourceLastAccessedOn> .
+<http://purl.org/pav/contributedOn> <http://www.w3.org/2000/01/rdf-schema#label> "Contributed on"@en .
+<http://purl.org/pav/importedFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "The original source of imported information. \n\nImport means that the content has been preserved, but transcribed somehow, for instance to fit a different representation model. Examples of import are when the original was JSON and the current resource is RDF, or where the original was an document scan, and this resource is the plain text found through OCR. \n\nThe imported resource does not have to be complete, but should be consistent with the knowledge conveyed by the original resource.\n\nIf additional knowledge has been contributed, pav:derivedFrom would be more appropriate.\n\nIf the resource has been copied verbatim from the original representation (e.g. downloaded), use pav:retrievedFrom.\n\nTo indicate which agent(s) performed the import, use pav:importedBy. Use pav:importedOn to indicate when it happened."@en .
+<http://purl.org/pav/retrievedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Retrieved by"@en .
+<http://purl.org/pav/contributedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/sourceAccessedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Source accessed by"@en .
+<http://purl.org/pav/derivedFrom> <http://www.w3.org/2000/01/rdf-schema#label> "Derived from"@en .
+<http://purl.org/pav/importedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Imported by"@en .
+<http://purl.org/pav/createdWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasAttributedTo> .
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> .
+<http://purl.org/pav/contributedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdBy> .
+<http://purl.org/pav/curatedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/curatedBy> .
+<http://purl.org/pav/> <http://purl.org/dc/elements/1.1/contributor> "Marco Ocana"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/pav/retrievedFrom> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/retrievedBy> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/version> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/pav/importedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedBy> .
+<http://purl.org/pav/contributedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource was contributed to by the given agent.\n\nThe agent provided any sort of help in conceiving the work that is expressed by the digital artifact. Superproperty of pav:authoredBy and pav:curatedBy.\n\nNote that as pav:contributedBy identifies only agents that contributed to the work, knowledge or intellectual property, and not agents that made the digital artifact or representation (pav:createdBy), thus this property can be considered more precise than dct:contributor. See pav:createdBy for a discussion.\n\nThe date of contribution can be expressed using pav:contributedOn - note however in the case of multiple contributors that there is no relationship in PAV identifying which agent contributed when or what. If capturing such lineage is desired, it should be additionally expressed using activity-centric provenance vocabularies, for instance with prov:wasGeneratedBy and prov:qualifiedAssocation."@en .
+<http://purl.org/pav/importedFrom> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedBy> .
+<http://purl.org/pav/> <http://purl.org/dc/elements/1.1/description> "PAV supplies terms for distinguishing between the different roles of the agents contributing content in current web based systems: contributors, authors, curators and digital artifact creators. The ontology also provides terms for tracking provenance of digital entities that are published on the web and then accessed, transformed and consumed. In order to support broader interoperability, PAV specializes the general purpose W3C PROV provenance model (PROV-O).\n\nPAV distinguishes between the data related to the digital artifact - named Provenance - and those related to the actual knowledge creation and therefore to the intellectual property aspects \u2013 named Authoring. The Versioning axis describes the evolution of digital entities in time. \n\nUsing PAV, descriptions can define the Authors that originate or gave existence to the work that is expressed in the digital resource (pav:authoredBy); curators (pav:curatedBy) who are content specialists responsible for shaping the expression in an appropriate format, and contributors (super-property pav:contributedBy) that provided some help in conceiving the resource or in the expressed knowledge creation/extraction.\n\nThese provenance aspects can be detailed with dates using pav:curatedOn, pav:authoredOn, etc. Further details about the creation activities, such as different authors contributing specific parts of the resource at different dates are out of scope for PAV and should be defined using vocabularies like PROV-O and additional intermediate entities to describe the different states. \n\nFor resources based on other resources, PAV allows specification of direct retrieval (pav:retrievedFrom), import through transformations (pav:importedFrom) and sources that were merely consulted (pav:sourceAccessedAt). These aspects can also define the agents responsible using pav:retrievedBy, pav:importedBy and pav:sourceAccessedBy. Version information can be specified using pav:previousVersion and pav:version. \n\nThe creation of the digital representation, for instance an RDF graph, can in many cases be different from the authorship of the knowledge, and in PAV this digital creation is specified using pav:createdBy, pav:createdWith and pav:createdOn. \n\nPAV 2.1 updates PAV 2.0 with PROV-O specializations and more detailed descriptions of the defined terms. Note that PROV-O is not imported directly by this ontology as PAV can be used independent of PROV. PAV 2 is based on PAV 1.2 but in a new namespace ( http://purl.org/pav/ ). Terms compatible with 1.2 are indicated in this ontology using owl:equivalentProperty. \n\nThe ontology IRI http://purl.org/pav/ always resolve to the latest version of PAV 2. Particular versionIRIs such as http://purl.org/pav/2.1 can be used by clients to force imports of a particular version - note however that all terms are defined directly in the http://purl.org/pav/ namespace.\n\nThe goal of PAV is to provide a lightweight, straight forward way to give the essential information about authorship, provenance and versioning, and therefore these properties are described directly on the published resource. As such, PAV does not define any classes or restrict domain/ranges, as all properties are applicable to any online resource."@en .
+<http://purl.org/pav/retrievedFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "The URI where a resource has been retrieved from.\n\nRetrieval indicates that this resource has the same representation as the original resource. If the resource has been somewhat transformed, use pav:importedFrom instead.\n\nThe time of the retrieval should be indicated using pav:retrievedOn. The agent may be indicated with pav:retrievedBy."@en .
+<http://purl.org/pav/sourceAccessedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource is related to a source which was accessed or consulted \nby the given agent. The source(s) should be specified using pav:sourceAccessedAt, and the time with pav:sourceAccessedOn.\n\nFor instance, the given agent could be a curator (also pav:curatedBy) which consulted figures in a published paper to confirm that a dataset was correctly pav:importedFrom the paper's supplementary CSV file."@en .
+<http://purl.org/pav/curatedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The date this resource was curated. \n\npav:curatedBy gives the agent(s) that performed the curation."@en .
+<http://purl.org/pav/curatedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/curatedOn> .
+<http://purl.org/pav/> <http://purl.org/dc/terms/title> "PAV - Provenance, Authoring and Versioning"@en .
+<http://purl.org/pav/curates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/importedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/derivedFrom> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedFrom> .
+<http://purl.org/pav/sourceAccessedAt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/retrievedFrom> .
+<http://purl.org/pav/authoredOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The date this resource was authored.\n\npav:authoredBy gives the authoring agent.\n\nNote that pav:authoredOn is different from pav:createdOn, although they are often the same. See pav:createdBy for a discussion."@en .
+<http://purl.org/pav/lastRefreshedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/importedBy> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/importedBy> .
+<http://purl.org/pav/importedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/authoredBy> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/authoredBy> .
+<http://purl.org/pav/> <http://purl.org/dc/elements/1.1/creator> "Paolo Ciccarese"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/pav/lastUpdateOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/curatedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdBy> .
+<http://purl.org/pav/providedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/sourceAccessedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/retrievedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedFrom> .
+<http://purl.org/pav/importedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedFrom> .
+<http://purl.org/pav/sourceAccessedAt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/sourceLastAccessedOn> .
+<http://purl.org/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/sourceAccessedBy> .
+<http://purl.org/pav/curatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/curates> <http://www.w3.org/2000/01/rdf-schema#label> "Curates"@en .
+<http://purl.org/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource is related to a source which was last accessed or consulted on the given date. The source(s) should be specified using pav:sourceAccessedAt. Usage of this property indicates that the source has been checked previously, which the initial time should be indicated with pav:sourceAccessedOn.\n\nThis property can be useful together with pav:lastRefreshedOn or pav:lastUpdateOn in order to indicate a re-import or update, but could also be used alone, for instance when a source was simply verified and no further action was taken for the resource,"@en .
+<http://purl.org/pav/lastUpdateOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/importedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource is related to a source which was originally accessed or consulted on the given date as part of creating or authoring the resource. The source(s) should be specified using pav:sourceAccessedAt. If the source is subsequently checked again (say to verify validity), this should be indicated with pav:sourceLastAccessedOn.\n\nIn the case multiple sources being accessed at different times or by different agents, PAV does not distinguish who accessed when what. If such details are required, they may be provided by additionally using prov:qualifiedInfluence."@en .
+<http://purl.org/pav/> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> <http://purl.org/pav/versioning/2.0/> .
+<http://purl.org/pav/retrievedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/sourceAccessedAt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/sourceAccessedOn> .
+<http://purl.org/pav/importedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasAttributedTo> .
+<http://purl.org/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/authoredBy> <http://www.w3.org/2000/01/rdf-schema#label> "Authored by"@en .
+<http://purl.org/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdAt> .
+<http://purl.org/pav/previousVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Previous version"@en .
+<http://purl.org/pav/lastRefreshedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/previousVersion> .
+<http://purl.org/pav/lastRefreshedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of the last re-import of the resource. This property is used in addition to pav:importedOn if this version has been updated due to a re-import. If the re-import created a new resource rather than refreshing an existing, then pav:importedOn should be used together with pav:previousVersion."@en .
+<http://purl.org/pav/lastRefreshedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedBy> .
+<http://purl.org/pav/curatedBy> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/curatedBy> .
+<http://purl.org/pav/authoredBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/authoredOn> .
+<http://purl.org/pav/derivedFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasDerivedFrom> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/curatedBy> .
+<http://purl.org/pav/createdWith> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdBy> .
+<http://purl.org/pav/curatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent specialist responsible for shaping the expression in an appropriate format. Often the primary agent responsible for ensuring the quality of the representation.\n\nThe curator may be different from the creator of the author (pav:authoredBy) and the creator of the digital resource (pav:createdBy).  \n\nThe date of curating can be expressed using pav:curatedOn - note however in the case of multiple curators that there is no relationship in PAV identifying which agent contributed when or what. If capturing such lineage is desired, it should be additionally expressed using activity-centric provenance vocabularies, for instance with prov:wasGeneratedBy and prov:qualifiedAssocation."@en .
+<http://purl.org/pav/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/prov#> .
+<http://purl.org/pav/contributedBy> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/contributedBy> .
+<http://purl.org/pav/importedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/importedFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasDerivedFrom> .
+<http://purl.org/pav/importedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedFrom> .
+<http://purl.org/pav/> <http://www.w3.org/2002/07/owl#incompatibleWith> <http://swan.mindinformatics.org/ontologies/1.2/pav.owl> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/authoredBy> .
+<http://purl.org/pav/curatedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Curated by"@en .
+<http://purl.org/pav/> <http://purl.org/dc/elements/1.1/contributor> "Stian Soiland-Reyes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/createdBy> .
+<http://purl.org/pav/> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance, Authoring and Versioning (PAV)"@en .
+<http://purl.org/pav/importedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for importing the data. \n\nThe importer is usually a software entity which has done the transcription from the original source. \nNote that pav:importedBy may overlap with pav:createdWith.\n\nThe source for the import should be given with pav:importedFrom. The time of the import should be given with pav:importedOn.\n\nSee pav:importedFrom for a discussion of import vs. retrieve vs. derived."@en .
+<http://purl.org/pav/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://code.google.com/p/pav-ontology/> .
+<http://purl.org/pav/> <http://purl.org/dc/terms/issued> "2013-03-27T16:03:24+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/createdAt> <http://www.w3.org/2000/01/rdf-schema#comment> "The geo-location of the agents when creating the resource (pav:createdBy). For instance  a photographer takes a picture of the Eiffel Tower while standing in front of it."@en .
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdAt> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasAttributedTo> .
+<http://purl.org/pav/> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> <http://purl.org/pav/authoring/2.0/> .
+<http://purl.org/pav/curatedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/curates> <http://www.w3.org/2000/01/rdf-schema#comment> "Provided for backwards compatibility with PAV 1.2 only. Use instead the inverse pav:curatedBy."@en .
+<http://purl.org/pav/lastRefreshedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedFrom> .
+<http://purl.org/pav/lastUpdateOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/previousVersion> .
+<http://purl.org/pav/createdOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/contributedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The date this resource was contributed to.\n\npav:contributedBy provides the agent(s) that contributed."@en .
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/sourceAccessedAt> .
+<http://purl.org/pav/sourceAccessedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource is related to a given source which was accessed or consulted (but not retrieved, imported or derived from). This access can be detailed with pav:sourceAccessedBy and pav:sourceAccessedOn.\n\nFor instance, a curator (pav:curatedBy) might have consulted figures in a published paper to confirm that a dataset was correctly pav:importedFrom the paper's supplementary CSV file."@en .
+<http://purl.org/pav/sourceAccessedAt> <http://www.w3.org/2000/01/rdf-schema#label> "Source accessed at"@en .
+<http://purl.org/pav/> <http://www.w3.org/2002/07/owl#versionIRI> <http://purl.org/pav/2.1> .
+<http://purl.org/pav/derivedFrom> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/previousVersion> .
+<http://purl.org/pav/contributedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/authoredBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdBy> .
+<http://purl.org/pav/lastRefreshedOn> <http://www.w3.org/2000/01/rdf-schema#label> "Last refreshed on"@en .
+<http://purl.org/pav/createdWith> <http://www.w3.org/2000/01/rdf-schema#label> "Created with"@en .
+<http://purl.org/pav/createdAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/authoredOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/authoredBy> .
+<http://purl.org/pav/lastUpdateOn> <http://www.w3.org/2000/01/rdf-schema#label> "Last updated on"@en .
+<http://purl.org/pav/importedOn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> .
+<http://purl.org/pav/sourceLastAccessedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/curates> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/pav/curatedBy> .
+<http://purl.org/pav/authoredOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdOn> .
+<http://purl.org/pav/previousVersion> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/version> .
+<http://purl.org/pav/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/pav/retrievedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/retrievedFrom> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/2000/01/rdf-schema#label> "Created by"@en .
+<http://purl.org/pav/> <http://purl.org/dc/terms/creator> <http://www.paolociccarese.info/> .
+<http://purl.org/pav/version> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/previousVersion> .
+<http://purl.org/pav/retrievedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for retrieving the data from an external source. \n\nThe retrieving agent is usually a software entity, which has done the retrieval from the original source without performing any transcription.\n\nThe source that was retrieved should be given with pav:retrievedFrom. The time of the retrieval should be indicated using pav:retrievedOn.\n\nSee pav:importedFrom for a discussion of import vs. retrieve vs. derived."@en .
+<http://purl.org/pav/curatedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/pav/contributedOn> .
+<http://purl.org/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#label> "Source last accessed on"@en .
+<http://purl.org/pav/lastRefreshedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedOn> .
+<http://purl.org/pav/createdOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of creation of the resource.\n\npav:createdBy provides the agent(s) that created the resource."@en .
+<http://purl.org/pav/lastRefreshedOn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/importedLastOn> .
+<http://purl.org/pav/version> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/versionNumber> .
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/pav/retrievedOn> <http://www.w3.org/2000/01/rdf-schema#label> "Retrieved on"@en .
+<http://purl.org/pav/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/doc> .
+<http://purl.org/pav/authoredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/authoredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent that originated or gave existence to the work that is expressed by the digital resource.\n\nThe author of the content of a resource may be different from the creator of the resource representation (although they are often the same). See pav:createdBy for a discussion.\n\nThe date of authoring can be expressed using pav:authoredOn - note however in the case of multiple authors that there is no relationship in PAV identifying which agent contributed when or what. If capturing such lineage is desired, it should be additionally expressed using activity-centric provenance vocabularies, for instance with prov:wasGeneratedBy and prov:qualifiedAssocation."@en .
+<http://purl.org/pav/retrievedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The date the source for this resource was retrieved. \n\nThe source that was retrieved should be indicated with pav:retrievedFrom. The agent that performed the retrieval may be specified with pav:retrievedBy."@en .
+<http://purl.org/pav/createdOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/createdWith> <http://www.w3.org/2000/01/rdf-schema#comment> "The software/tool used by the creator (pav:createdBy) when making the digital resource, for instance a word processor or an annotation tool. A more independent software agent that creates the resource without direct interaction by a human creator should instead should instead by indicated using pav:createdBy."@en .
+<http://purl.org/pav/previousVersion> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/derivedFrom> .
+<http://purl.org/pav/curatedOn> <http://www.w3.org/2000/01/rdf-schema#label> "Curated on"@en .
+<http://purl.org/pav/retrievedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/contributedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/> <http://purl.org/dc/terms/format> "application/rdf+xml"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/pav/> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> <http://purl.org/pav/2.0/> .
+<http://purl.org/pav/providedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/dc/terms/publisher> .
+<http://purl.org/pav/createdOn> <http://www.w3.org/2000/01/rdf-schema#label> "Created On"@en .
+<http://purl.org/pav/sourceAccessedAt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/sourceAccessedBy> .
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/sourceLastAccessedOn> .
+<http://purl.org/pav/retrievedFrom> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/retrievedOn> .
+<http://purl.org/pav/createdOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdBy> .
+<http://purl.org/pav/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/createdOn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/createdOn> .
+<http://purl.org/pav/lastUpdateOn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateOn> .
+<http://purl.org/pav/sourceAccessedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/previousVersion> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://swan.mindinformatics.org/ontologies/1.2/pav/previousVersion> .
+<http://purl.org/pav/> <http://purl.org/dc/terms/publisher> <http://swan.mindinformatics.org/> .
+<http://purl.org/pav/contributedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/contributedOn> .
+<http://purl.org/pav/lastUpdateOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of the last update of the resource. An update is a change which did not warrant making a new resource related using pav:previousVersion, for instance correcting a spelling mistake."@en .
+<http://purl.org/pav/importedOn> <http://www.w3.org/2000/01/rdf-schema#label> "Imported on"@en .
+<http://purl.org/pav/authoredBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/pav/contributedBy> .
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#label> "Source accessed on"@en .
+<http://purl.org/pav/authoredOn> <http://www.w3.org/2000/01/rdf-schema#label> "Authored on"@en .
+<http://purl.org/pav/retrievedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/importedFrom> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/derivedFrom> .
+<http://purl.org/pav/derivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/version> <http://www.w3.org/2000/01/rdf-schema#comment> "The version number of a resource. This is a freetext string, typical values are \"1.5\" or \"21\". The URI identifying the previous version can be provided using prov:previousVersion."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/pav/> <http://www.w3.org/2000/01/rdf-schema#comment> "PAV is a lightweight ontology for tracking Provenance, Authoring and Versioning. PAV specializes the W3C provenance ontology PROV-O in order to describe authorship, curation and digital creation of online resources.\n\nThis ontology describes the defined PAV properties and their usage. Note that PAV does not define any explicit classes or domain/ranges, as every property is meant to be used directly on the described online resource."@en .
+<http://purl.org/pav/authoredOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdBy> .
+<http://purl.org/pav/> <http://www.w3.org/2002/07/owl#versionInfo> "2.1.1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/pav/providedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The original provider of the encoded information (e.g. PubMed, UniProt, Science Commons).\n\nThe provider might not coincide with the dct:publisher, which would describe the current publisher of the resource. For instance if the resource was retrieved, imported or derived from a source, that source was published by the original provider. pav:providedBy provides a shortcut to indicate the original provider on the new resource."@en .
+<http://purl.org/pav/> <http://purl.org/dc/terms/contributor> <http://soiland-reyes.com/stian/#me> .
+<http://purl.org/pav/version> <http://www.w3.org/2000/01/rdf-schema#label> "Version"@en .
+<http://purl.org/pav/lastUpdateOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/createdOn> .
+<http://purl.org/pav/previousVersion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasRevisionOf> .
+<http://purl.org/pav/retrievedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/retrievedBy> .
+<http://purl.org/pav/sourceAccessedAt> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> .
+<http://purl.org/pav/> <http://purl.org/dc/elements/1.1/description> <http://pav-ontology.googlecode.com/svn/branches/2.1/images/pav-overview.svg> .
+<http://purl.org/pav/> <http://purl.org/dc/terms/creator> <http://www.hcklab.org/foaf.rdf#me> .
+<http://purl.org/pav/importedFrom> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/importedOn> .
+<http://purl.org/pav/createdBy> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent primary responsible for making the digital artifact or resource representation.\n\nThis property is distinct from forming the content, which is indicated with pav:contributedBy or its subproperties; pav:authoredBy, which identifies who authored the knowledge expressed by this resource; and pav:curatedBy, which identifies who curated the knowledge into its current form. \n\npav:createdBy is more specific than dct:createdBy - which might or might not be interpreted to cover this creator.\n\nFor instance, the author wrote 'this species has bigger wings than normal' in his log book. The curator, going through the log book and identifying important knowledge, formalizes this as 'locus perculus has wingspan > 0.5m'. The creator enters this knowledge as a digital resource in the knowledge system, thus creating the digital artifact (say as JSON, RDF, XML or HTML).\n\nA different example is a news article. pav:authoredBy indicates the journalist who wrote the article. pav:contributedBy can indicate the artist who added an illustration. pav:curatedBy can indicate the editor who made the article conform to the news paper's style. pav:createdBy can indicate who put the article on the web site.\n\nThe software tool used by the creator to make the digital resource (say Protege, Wordpress or OpenOffice) can be indicated with pav:createdWith.\n\nThe date the digital resource was created can be indicated with pav:createdOn.\n\nThe location the agent was at when creating the digital resource can be made using pav:createdAt."@en .
+<http://purl.org/pav/previousVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://pav-ontology.googlecode.com/svn/trunk/1.2/pav.owl> .
+<http://purl.org/pav/authoredOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/pav/contributedOn> .
+<http://purl.org/pav/sourceAccessedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/sourceAccessedAt> .
+<http://purl.org/pav/> <http://purl.org/dc/terms/license> <http://www.apache.org/licenses/LICENSE-2.0> .
+<http://purl.org/pav/createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/pav/retrievedFrom> <http://www.w3.org/2000/01/rdf-schema#label> "Retrieved from"@en .
+<http://purl.org/pav/previousVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "The previous version of a resource in a lineage. For instance a news article updated to correct factual information would point to the previous version of the article with pav:previousVersion. If however the content has significantly changed so that the two resources no longer share lineage (say a new news article that talks about the same facts), they should be related using pav:derivedFrom.\n\nA version number of this resource can be provided using the data property pav:version."@en .
+<http://purl.org/pav/lastRefreshedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/pav/importedFrom> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/retrievedFrom> .
+<http://purl.org/pav/> <http://www.w3.org/ns/prov#has_provenance> <http://purl.org/pav/provenance.ttl> .
+<http://purl.org/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/sourceAccessedBy> .
+<http://purl.org/pav/> <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> .
+<http://purl.org/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/pav/sourceAccessedAt> .
+

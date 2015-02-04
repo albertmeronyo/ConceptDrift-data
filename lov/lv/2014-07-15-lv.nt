@@ -1,0 +1,138 @@
+<http://purl.org/lobid/lv#stocksize> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates an institution's stock size. This property is especially used to indicate the size of a library's collection. It is recommended to be used with the controlled vocabulary at http://purl.org/lobid/stocksize."@en .
+<http://purl.org/lobid/lv#Bibliography> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliografie"@de .
+<http://purl.org/lobid/lv#ags> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/lobid/lv#Schoolbook> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/BibliographicResource> .
+<http://purl.org/lobid/lv#Festschrift> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv> <http://purl.org/vocab/vann/preferredNamespacePrefix> "lv" .
+<http://purl.org/lobid/lv#zdbID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/identifier> .
+<http://purl.org/lobid/lv#Festschrift> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/lobid/lv#OfficialPublication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#fundertype> <http://www.w3.org/2000/01/rdf-schema#label> "Type of funding organization"@en .
+<http://purl.org/lobid/lv#fulltextOnline> <http://www.w3.org/2000/01/rdf-schema#label> "Fulltext Online"@en .
+<http://purl.org/lobid/lv#Bibliography> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Sammlung von Literaturnachweisen."@de .
+<http://purl.org/lobid/lv#Schoolbook> <http://www.w3.org/2000/01/rdf-schema#label> "Schoolbook"@en .
+<http://purl.org/lobid/lv#Schoolbook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/lobid/lv#Schoolbook> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Lehrbuch, das Schullehrer im Unterricht einsetzen."@de .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/2000/01/rdf-schema#comment> "International Standard Identifier for Libraries and Related Organizations (ISIL). Ein eindeutiger Identifikator f\u00FCr Bibliotheken und verwandte Einrichtungen oder untergeordnete Organisationseinheiten, der durch ISIL-Agenturen vergeben wird. Das Literal sollte durch den folgenden regul\u00E4ren Ausdruck gematcht werden: [A-Z]{1,4}-[0-9a-zA-Z:-/]{1,11} ."@de .
+<http://purl.org/lobid/lv#fulltextOnline> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a bibliographic resource to an online resource (full text in HTML, PDFs or landing pages in OA repositories, on publishers' websites etc.) that represents the full text of the bibliographic resource or contains a link to a full text of the resource. "@en .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#OfficialPublication> <http://www.w3.org/2000/01/rdf-schema#label> "Official Publication"@en .
+<http://purl.org/lobid/lv#Schoolbook> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#Festschrift> <http://www.w3.org/2000/01/rdf-schema#comment> "A publication honoring a respected person, especially an academic."@en .
+<http://purl.org/lobid/lv#titleKeyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#zdbID> <http://www.w3.org/2000/01/rdf-schema#label> "ZDB ID"@en .
+<http://purl.org/lobid/lv#fulltextOnline> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document> .
+<http://purl.org/lobid/lv#fulltextOnline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/lobid/lv#contactqr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/lobid/lv#ags> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://purl.org/lobid/lv#ags> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/lobid/lv#OfficialPublication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/lobid/lv#fundertype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#Biography> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#Biography> <http://www.w3.org/2000/01/rdf-schema#comment> "A detailed description or account of a person's life"@en .
+<http://purl.org/lobid/lv#Festschrift> <http://www.w3.org/2000/01/rdf-schema#comment> "Einem Gelehrten gewidmete Sammlung von Aufs\u00E4tzen."@de .
+<http://purl.org/lobid/lv#Bibliography> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography"@en .
+<http://purl.org/lobid/lv> <http://purl.org/dc/terms/publisher> <http://lobid.org/organisation/DE-605> .
+<http://purl.org/lobid/lv#fundertype> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates which type an institution's funder is of. It should be used with a controlled vocabulary like http://purl.org/lobid/fundertype."@en .
+<http://purl.org/lobid/lv#ags> <http://www.w3.org/2000/01/rdf-schema#label> "Community Identification Number"@en .
+<http://purl.org/lobid/lv#zdbID> <http://www.w3.org/2000/01/rdf-schema#comment> "ZDB-Nummer. Der Identifier, der einer bibliographischen Ressource in der Zeitschriftendatenbank (ZDB) zugewiesen wurde."@de .
+<http://purl.org/lobid/lv> <http://purl.org/dc/terms/description> "Under this name space new properties and classes needed for the service lobid ('linking open bibliographic data') are defined . Already existing properties and classes which are (re)used in lobid aren't documented here."@en .
+_:f1bf831d6228e4225910d2e9f6e6003a9b1 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:f1bf831d6228e4225910d2e9f6e6003a9b4 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/lobid/lv#titleKeyword> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/CreativeWork> .
+<http://purl.org/lobid/lv#fulltextOnline> <http://www.w3.org/2000/01/rdf-schema#label> "Online-Volltext"@de .
+<http://purl.org/lobid/lv#stocksize> <http://www.w3.org/2000/01/rdf-schema#label> "Stock Size"@en .
+<http://purl.org/lobid/lv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/lobid/lv#hbzID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv> <http://www.w3.org/2004/02/skos/core#historyNote> "See the commit history for this vocabulary at https://github.com/lobid/vocabs/commits/master/lobid-vocab.ttl." .
+<http://purl.org/lobid/lv#hbzID> <http://www.w3.org/2000/01/rdf-schema#comment> "The identifier that is assigned to a bibliographic resource in the hbz union catalogue."@en .
+<http://purl.org/lobid/lv#stocksize> <http://www.w3.org/2000/01/rdf-schema#label> "Bestandsgr\u00F6\u00DFe"@de .
+_:f1bf831d6228e4225910d2e9f6e6003a9b1 <http://www.w3.org/2002/07/owl#withRestrictions> _:f1bf831d6228e4225910d2e9f6e6003a9b3 .
+<http://purl.org/lobid/lv> <http://purl.org/dc/terms/creator> <http://lobid.org/team/ap> .
+<http://purl.org/lobid/lv#contactqr> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Image> .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/2000/01/rdf-schema#label> "ISIL" .
+<http://purl.org/lobid/lv#hbzID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/BibliographicResource> .
+<http://purl.org/lobid/lv#contactqr> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/lobid/lv#ags> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://en.wikipedia.org/wiki/Community_Identification_Number#Germany> .
+<http://purl.org/lobid/lv#fundertype> <http://www.w3.org/2000/01/rdf-schema#label> "Art des Unterhalttr\u00E4gers"@de .
+<http://purl.org/lobid/lv#Biography> <http://www.w3.org/2000/01/rdf-schema#label> "Biography"@en .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/2000/01/rdf-schema#range> _:f1bf831d6228e4225910d2e9f6e6003a9b1 .
+<http://purl.org/lobid/lv#OfficialPublication> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine beh\u00F6rdliche Publikation f\u00FCr amtliche Bekanntmachungen."@de .
+<http://purl.org/lobid/lv#Bibliography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/lobid/lv#zdbID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/lobid/lv#ags> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel> .
+<http://purl.org/lobid/lv#titleKeyword> <http://www.w3.org/2000/01/rdf-schema#label> "Titelstichwort"@de .
+_:f1bf831d6228e4225910d2e9f6e6003a9b4 <http://www.w3.org/2002/07/owl#withRestrictions> _:f1bf831d6228e4225910d2e9f6e6003a9b6 .
+<http://purl.org/lobid/lv#zdbID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/lobid/lv#stocksize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/lobid/lv#hbzID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Organization> .
+<http://purl.org/lobid/lv#hbzID> <http://www.w3.org/2000/01/rdf-schema#label> "hbz ID"@en .
+<http://purl.org/lobid/lv#zdbID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#fulltextOnline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+_:f1bf831d6228e4225910d2e9f6e6003a9b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://purl.org/lobid/lv> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/lobid/lv#" .
+<http://purl.org/lobid/lv#OfficialPublication> <http://www.w3.org/2000/01/rdf-schema#label> "Amtliche Ver\u00F6ffentlichung"@de .
+<http://purl.org/lobid/lv#titleKeyword> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a title keyword, possibly in a different spelling than used in the original title."@en .
+<http://purl.org/lobid/lv#urn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/lobid/lv#Bibliography> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Collection> .
+<http://purl.org/lobid/lv#zdbID> <http://www.w3.org/2000/01/rdf-schema#comment> "The identifier that is assigned to a bibliographic resource in the German Journal Database (Zeitschriftendatenbank, ZDB)."@en .
+<http://purl.org/lobid/lv#Festschrift> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/BibliographicResource> .
+<http://purl.org/lobid/lv#ags> <http://www.w3.org/2000/01/rdf-schema#label> "Amtlicher Gemeindeschl\u00FCssel"@de .
+<http://purl.org/lobid/lv#fundertype> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Organization> .
+<http://purl.org/lobid/lv> <http://purl.org/dc/terms/issued> "2012-01-17" .
+<http://purl.org/lobid/lv#contactqr> <http://www.w3.org/2000/01/rdf-schema#label> "Contact QR code"@en .
+<http://purl.org/lobid/lv> <http://purl.org/dc/terms/title> "lobid vocab" .
+<http://purl.org/lobid/lv#urn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+_:f1bf831d6228e4225910d2e9f6e6003a9b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/lobid/lv#contactqr> <http://www.w3.org/2000/01/rdf-schema#label> "Kontakt-QR-Code"@de .
+<http://purl.org/lobid/lv#OfficialPublication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/BibliographicResource> .
+<http://purl.org/lobid/lv#zdbID> <http://www.w3.org/2000/01/rdf-schema#label> "ZDB-ID"@de .
+_:f1bf831d6228e4225910d2e9f6e6003a9b5 <http://www.w3.org/2001/XMLSchema#pattern> "[A-Z]{1,4}-[0-9a-zA-Z:-/]{1,11}" .
+<http://purl.org/lobid/lv#Schoolbook> <http://www.w3.org/2000/01/rdf-schema#comment> "A textbook used by school teachers in their classes."@en .
+<http://purl.org/lobid/lv#Festschrift> <http://www.w3.org/2000/01/rdf-schema#label> "Festschrift"@en .
+<http://purl.org/lobid/lv#urn> <http://www.w3.org/2000/01/rdf-schema#label> "URN"@de .
+<http://purl.org/lobid/lv#urn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to indicate the uniform resource name (URN) of a bibliographic resource. The URN must be stated as a string not as URI, thus identifying the identifier itself and not the resource that is identified by the URN."@en .
+_:f1bf831d6228e4225910d2e9f6e6003a9b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f1bf831d6228e4225910d2e9f6e6003a9b5 .
+<http://purl.org/lobid/lv#stocksize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Organization> .
+<http://purl.org/lobid/lv#titleKeyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/2000/01/rdf-schema#range> _:f1bf831d6228e4225910d2e9f6e6003a9b4 .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/2000/01/rdf-schema#comment> "International Standard Identifier for Libraries and Related Organizations (ISIL). 'An ISIL identifies an organization, i.e., a library or a related organization, or one of its subordinate units, which is responsible for an action or service in a bibliographic environment (e.g. creation of machine-readable information). It can be used to identify the originator or holder of a resource (e.g. library material).' The literal should conform to this regular expression: [A-Z]{1,4}-[0-9a-zA-Z:-/]{1,11} ."@en .
+<http://purl.org/lobid/lv#fulltextOnline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/BibliographicResource> .
+_:f1bf831d6228e4225910d2e9f6e6003a9b2 <http://www.w3.org/2001/XMLSchema#pattern> "[A-Z]{1,4}-[0-9a-zA-Z:-/]{1,11}" .
+<http://purl.org/lobid/lv#contactqr> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a person, organization or other agent to a QR code that encodes the agent's contact information."@en .
+<http://purl.org/lobid/lv#Schoolbook> <http://www.w3.org/2000/01/rdf-schema#label> "Schulbuch"@de .
+<http://purl.org/lobid/lv#urn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/lobid/lv#OfficialPublication> <http://www.w3.org/2000/01/rdf-schema#comment> "A publication  that records the business and proceedings of a government agency."@en .
+<http://purl.org/lobid/lv#stocksize> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#titleKeyword> <http://www.w3.org/2000/01/rdf-schema#label> "Title Keyword"@en .
+<http://purl.org/lobid/lv#hbzID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/lobid/lv#ags> <http://www.w3.org/2000/01/rdf-schema#comment> "Amtlicher Gemeindeschl\u00FCssel (AGS) of the of the region a spatial resource is located in."@en .
+<http://purl.org/lobid/lv#contactqr> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#Biography> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/BibliographicResource> .
+<http://purl.org/lobid/lv#ags> <http://www.w3.org/2000/01/rdf-schema#comment> "Amtlicher Gemeindeschl\u00FCssel (AGS) der Region, in der sich die beschriebene raum-zeitliche Ressource befindet."@de .
+<http://purl.org/lobid/lv#fundertype> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://purl.org/lobid/lv#Biography> <http://www.w3.org/2000/01/rdf-schema#comment> "Die Lebensbeschreibung einer Person."@de .
+<http://purl.org/lobid/lv#Bibliography> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/lobid/lv> .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://biblstandard.dk/isil/scope.htm> .
+<http://purl.org/lobid/lv#hbzID> <http://www.w3.org/2000/01/rdf-schema#label> "hbz-ID"@de .
+<http://purl.org/lobid/lv#hbzID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/identifier> .
+<http://purl.org/lobid/lv#Festschrift> <http://www.w3.org/2000/01/rdf-schema#label> "Festschrift"@de .
+<http://purl.org/lobid/lv#zdbID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/BibliographicResource> .
+<http://purl.org/lobid/lv#urn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/BibliographicResource> .
+<http://purl.org/lobid/lv#Bibliography> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of documents relevant to a particular subject or author."@en .
+<http://purl.org/lobid/lv> <http://purl.org/openorg/contact> <mailto:semweb@hbz-nrw.de> .
+<http://purl.org/lobid/lv> <http://purl.org/dc/terms/license> <http://creativecommons.org/publicdomain/zero/1.0/> .
+<http://purl.org/lobid/lv#Biography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/lobid/lv#fundertype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/lobid/lv> <http://purl.org/dc/terms/modified> "2014-07-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/lobid/lv#isil> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/identifier> .
+<http://purl.org/lobid/lv#hbzID> <http://www.w3.org/2000/01/rdf-schema#comment> "HT-Nummer. Der Identifier, der einer bibliographischen Ressource im hbz-Verbundkatalog zugewiesen wurde."@de .
+_:f1bf831d6228e4225910d2e9f6e6003a9b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/lobid/lv#urn> <http://www.w3.org/2000/01/rdf-schema#label> "URN"@en .
+<http://purl.org/lobid/lv#Biography> <http://www.w3.org/2000/01/rdf-schema#label> "Biografie"@de .
+_:f1bf831d6228e4225910d2e9f6e6003a9b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f1bf831d6228e4225910d2e9f6e6003a9b2 .
+_:f1bf831d6228e4225910d2e9f6e6003a9b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+

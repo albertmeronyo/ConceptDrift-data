@@ -1,0 +1,100 @@
+<http://securitytoolbox.appspot.com/securityAlgorithms#EncryptionAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://securitytoolbox.appspot.com/securityAlgorithms#Algorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#isNISTStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ub605bL105C26 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<mailto:mkang@itd.nrl.navy.mil> <http://xmlns.com/foaf/0.1/name> "Myong Kang" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/dc/terms/creator> <mailto:kim@itd.nrl.navy.mil> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://www.w3.org/2002/07/owl#versionInfo> "0.2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#DES> <http://securitytoolbox.appspot.com/securityAlgorithms#keyLength> "64"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "algo" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#AsymmetricAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://securitytoolbox.appspot.com/securityAlgorithms#EncryptionAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#ChecksumAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#HMAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#MACAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#KEA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#KeyExchangeAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#Algorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub605bL105C26 .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://securitytoolbox.appspot.com/securityAlgorithms#" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#CRAYON> <http://securitytoolbox.appspot.com/securityAlgorithms#hasNSALevel> <http://securitytoolbox.appspot.com/securityAssurance.owl#Typel> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#CRC-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#ChecksumAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/dc/elements/1.1/description> "An ontology to describe various cryptographic algorithms"@en .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/dc/terms/creator> <mailto:mkang@itd.nrl.navy.mil> .
+<mailto:mkang@itd.nrl.navy.mil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#KeyExchangeAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://securitytoolbox.appspot.com/securityAlgorithms#Algorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#KeyExchangeAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#HashAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://securitytoolbox.appspot.com/securityAlgorithms#SignatureAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#HashAlgorithm> <http://www.w3.org/2000/01/rdf-schema#comment> "\nKey dependent function; useful in providing user authentication without a\nsecret key\n" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#MACAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://securitytoolbox.appspot.com/securityAlgorithms#SignatureAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#hasNSALevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://securitytoolbox.appspot.com/securityAlgorithms#SynmmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#Blowfish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#DES> <http://www.w3.org/2000/01/rdf-schema#comment> "Refers only to single DES" .
+<mailto:gyrard@eurecom.fr> <http://xmlns.com/foaf/0.1/name> "Amelie Gyrard" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#hasNSALevel> <http://www.w3.org/2000/01/rdf-schema#comment> "These can be Typel, Type 2, Type3, or Type4" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#AsymmetricAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#keyLength> <http://www.w3.org/2000/01/rdf-schema#domain> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#modeOfOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#Oakley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#KeyExchangeAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#Skipjack> <http://securitytoolbox.appspot.com/securityAlgorithms#hasNSALevel> <http://securitytoolbox.appspot.com/securityAssurance.owl#Type2> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#RIPE-MD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#HashAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#CAST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+<mailto:luo@itd.nrl.navy.mil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#SHA-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#HashAlgorithm> .
+<mailto:gyrard@eurecom.fr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<mailto:luo@itd.nrl.navy.mil> <http://xmlns.com/foaf/0.1/name> "Jim Luo" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#SignatureAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#MACAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#SignatureAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://securitytoolbox.appspot.com/securityAlgorithms#Algorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub605bL94C26 .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/dc/terms/modified> "2014-01-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#ECC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#AsymmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#CRC-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#ChecksumAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#hasNSALevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#HashAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://securitytoolbox.appspot.com/securityAssurance.owl#Type3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#hasNSALevel> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#SHA-256> <http://www.w3.org/2000/01/rdf-schema#comment> "usually used with AES" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#CBC-MAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#MACAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#modeOfOperation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#AES> <http://securitytoolbox.appspot.com/securityAlgorithms#hasNSALevel> <http://securitytoolbox.appspot.com/securityAssurance.owl#Type3> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "Finished" .
+_:ub605bL105C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://securitytoolbox.appspot.com/securityAlgorithms#EncryptionAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#RSA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#AsymmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#modeOfOperation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:ub605bL105C26 <http://www.w3.org/2002/07/owl#onProperty> <http://securitytoolbox.appspot.com/securityAlgorithms#isNISTStandard> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#isNISTStandard> <http://www.w3.org/2000/01/rdf-schema#domain> <http://securitytoolbox.appspot.com/securityAlgorithms#Algorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#ChecksumAlgorithm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://securitytoolbox.appspot.com/securityAlgorithms#Algorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#SHA-256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#HashAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#DES> <http://securitytoolbox.appspot.com/securityAlgorithms#hasNSALevel> <http://securitytoolbox.appspot.com/securityAssurance.owl#Type3> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/dc/terms/creator> <mailto:luo@itd.nrl.navy.mil> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#Skipjack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#DiffieHellman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#KeyExchangeAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#isNISTStandard> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#keyLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#modeOfOperation> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be CBC, ECB, OFB, CFB, or Counter" .
+_:ub605bL94C26 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#isNISTStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "NIST FIPS Standard" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#ECC> <http://www.w3.org/2000/01/rdf-schema#comment> "Elliptic Curve Crypto" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/dc/terms/issued> "2005-08-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#DES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+<mailto:kim@itd.nrl.navy.mil> <http://xmlns.com/foaf/0.1/name> "Anya Kim" .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/dc/elements/1.1/contributor> <mailto:gyrard@eurecom.fr> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#Algorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/dc/terms/source> <http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA437938> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#AES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+_:ub605bL94C26 <http://www.w3.org/2002/07/owl#onProperty> <http://securitytoolbox.appspot.com/hasNSALevel> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://www.w3.org/2004/02/skos/core#historyNote> "Ontology extracted from the paper Security Ontology for Annotating Resources. [Kim et al. 2005] (See APPENDIX D. OWL Representations of the NRL Security Ontology) Security ontology to faciliate web service description and discovery."@en .
+<http://securitytoolbox.appspot.com/securityAlgorithms#CRAYON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://www.w3.org/2000/01/rdf-schema#comment> " An ontology to describe various cryptographic algorithms" .
+<mailto:kim@itd.nrl.navy.mil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#CRC-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#ChecksumAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#> <http://purl.org/dc/elements/1.1/title> "Security Algorithms"@en .
+_:ub605bL94C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#hasNSALevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://securitytoolbox.appspot.com/securityAssurance.owl#NSA> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#MD5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#HashAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#TripleDES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#keyLength> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#RC4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#SymmetricAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#MD4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://securitytoolbox.appspot.com/securityAlgorithms#HashAlgorithm> .
+<http://securitytoolbox.appspot.com/securityAlgorithms#EncryptionAlgorithm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+

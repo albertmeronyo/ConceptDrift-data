@@ -1,0 +1,75 @@
+<http://iserve.kmi.open.ac.uk/ns/msm#hasMandatoryPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#MessagePart> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://www.w3.org/2002/07/owl#imports> <http://www.wsmo.org/ns/wsmo-lite> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://purl.org/dc/terms/created> "2010-03-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/msm#Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#MessageContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iserve.kmi.open.ac.uk/ns/msm#Operation> <http://www.w3.org/2000/01/rdf-schema#label> "Operation"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#MessagePart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInput> <http://www.w3.org/2000/01/rdf-schema#label> "has Input"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://purl.org/dc/terms/creator> <http://kmi.open.ac.uk/> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasPartTransitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutputFault> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#Operation> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutputFault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOptionalPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutput> <http://www.w3.org/2000/01/rdf-schema#label> "has Output"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInput> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInputFault> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://purl.org/dc/terms/creator> <http://identifiers.kmi.open.ac.uk/people/carlos-pedrinaci/> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasName> <http://www.w3.org/2000/01/rdf-schema#label> "has Name"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://www.w3.org/2000/01/rdf-schema#label> "Minimal Service Model"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#MessagePart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://purl.org/dc/terms/description> "This is a simple ontology that provides the core vocabulary for capturing service properties"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://purl.org/dc/terms/modified> "2011-12-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInputFault> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/msm#MessageContent> .
+<http://iserve.kmi.open.ac.uk/ns/msm#MessageContent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutputFault> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/msm#MessageContent> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasPartTransitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInputFault> <http://www.w3.org/2000/01/rdf-schema#label> "has Input Fault"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInput> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#Operation> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutput> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#Operation> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutputFault> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#MessageContent> <http://www.w3.org/2000/01/rdf-schema#label> "Message Content"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "has Part"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOptionalPart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iserve.kmi.open.ac.uk/ns/msm#hasPart> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasMandatoryPart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iserve.kmi.open.ac.uk/ns/msm#hasPart> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOperation> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/msm#Operation> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://purl.org/dc/terms/issued> "2010-03-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://iserve.kmi.open.ac.uk/ns/msm#Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutput> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/msm#MessageContent> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOperation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInput> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/msm#MessageContent> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInputFault> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasPartTransitive> <http://www.w3.org/2000/01/rdf-schema#label> "has Part Transitive"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#Operation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOperation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#Service> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasMandatoryPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasPartTransitive> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#MessagePart> .
+<http://iserve.kmi.open.ac.uk/ns/msm#MessagePart> <http://www.w3.org/2000/01/rdf-schema#label> "Message Part"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOperation> <http://www.w3.org/2000/01/rdf-schema#label> "has Operation"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://purl.org/dc/terms/creator> <http://jacek.cz/#me> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://www.w3.org/2002/07/owl#versionInfo> "1.2" .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasMandatoryPart> <http://www.w3.org/2000/01/rdf-schema#label> "has Mandatory Part"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasPart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iserve.kmi.open.ac.uk/ns/msm#hasPartTransitive> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/sawsdl> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOptionalPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://purl.org/dc/terms/modified> "2013-05-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/msm#Operation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasPartTransitive> <http://www.w3.org/2000/01/rdf-schema#range> <http://iserve.kmi.open.ac.uk/ns/msm#MessagePart> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutputFault> <http://www.w3.org/2000/01/rdf-schema#label> "has Output Fault"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#MessageContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iserve.kmi.open.ac.uk/ns/msm#MessagePart> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOptionalPart> <http://www.w3.org/2000/01/rdf-schema#label> "has Optional Part"@en .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasOutput> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iserve.kmi.open.ac.uk/ns/msm#> .
+<http://iserve.kmi.open.ac.uk/ns/msm> <http://purl.org/dc/terms/modified> "2012-03-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://iserve.kmi.open.ac.uk/ns/msm#hasInputFault> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iserve.kmi.open.ac.uk/ns/msm#Operation> .
+

@@ -1,0 +1,116 @@
+<http://purl.org/ontology/ao/core#used_application> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/ao/core#occasion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/ao/core#used_device> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/ao/core#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#activity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+_:fe743c9f8c5ab47c78ff629e24fe94343b1 <http://www.w3.org/2000/01/rdf-schema#label> "is included association of" .
+<http://purl.org/ontology/ao/core#> <http://www.w3.org/2002/07/owl#versionInfo> "0.4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://purl.org/ontology/ao/core#included_association> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/similarity/Association> .
+<http://purl.org/ontology/ao/core#context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#activity> <http://www.w3.org/2000/01/rdf-schema#label> "has activity"@en .
+<http://purl.org/ontology/ao/core#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2003/06/sw-vocab-status/ns> .
+<http://purl.org/ontology/ao/core#used_device> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#device> <http://www.w3.org/2000/01/rdf-schema#comment> "A device, which is associated with an individual, e.g. a CD player with a CD it's currently playing back."@en .
+<http://purl.org/ontology/ao/core#application> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#application> <http://www.w3.org/2000/01/rdf-schema#comment> "An application, which is associated to an individual, e.g. a music player to a music track it's currently playing back."@en .
+<http://purl.org/ontology/ao/core#mood> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/terms/> .
+<http://purl.org/ontology/ao/core#used_application> <http://www.w3.org/2000/01/rdf-schema#comment> "An application that is related to an event, e.g. a iTunes to a play back event of a music track."@en .
+<http://purl.org/ontology/ao/core#included_association> <http://www.w3.org/2000/01/rdf-schema#comment> "This property could be used to compose association statements or to reuse them, e.g. to make them likeable \nin a specific context."@en .
+<http://purl.org/ontology/ao/core#context> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/ao/core#application> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/ao/core#context> .
+<http://purl.org/ontology/ao/core#> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
+<http://purl.org/ontology/ao/core#device> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#likeminded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/ao/core#genre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
+<http://purl.org/ontology/ao/core#mood> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
+<http://purl.org/ontology/ao/core#device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#context> <http://www.w3.org/2000/01/rdf-schema#label> "has context"@en .
+<http://purl.org/ontology/ao/core#> <http://purl.org/dc/elements/1.1/description> "The Association Ontology specification provides basic properties \nfor describing specific associations to something, e.g. a context, an occasion, a genre or a mood, and enables furthermore, a mechanism to \nlike/rate and feedback these associations in context to something on/ for the Semantic Web. This document contains a RDF description \nof the Association Ontology."@en .
+<http://purl.org/ontology/ao/core#LikeableAssociation> <http://www.w3.org/2000/01/rdf-schema#comment> "A likeable association. That means this association type is intended to be used for voting (ao:likeminded), \nfeedbacking (rev:Feedback), reviewing (e.g. rev:rating) an association statement (related by ao:included_association) in the \ncontext of something."@en .
+<http://purl.org/ontology/ao/core#activity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/ao/core#likeminded> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#LikeableAssociation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#LikeableAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/stuff/rev#Review> .
+<http://purl.org/ontology/ao/core#time> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/ao/core#context> .
+<http://purl.org/ontology/ao/core#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/ontology/ao/core#used_device> <http://www.w3.org/2000/01/rdf-schema#label> "has used device"@en .
+<http://purl.org/ontology/ao/core#application> <http://www.w3.org/2000/01/rdf-schema#label> "has application"@en .
+<http://purl.org/ontology/ao/core#location> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/ao/core#location> <http://www.w3.org/2000/01/rdf-schema#label> "has location"@en .
+<http://purl.org/ontology/ao/core#context> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#time> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/elements/1.1/date> .
+<http://purl.org/ontology/ao/core#used_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/ao/core#likeminded> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/ao/core#likeminded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/similarity/Association> .
+<http://purl.org/ontology/ao/core#genre> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#activity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/ao/core#context> .
+<http://purl.org/ontology/ao/core#used_application> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
+<http://purl.org/ontology/ao/core#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#genre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/ao/core#time> <http://www.w3.org/2000/01/rdf-schema#comment> "A time, which is associated to an individual, e.g. morning, afternoon, evening."@en .
+<http://purl.org/ontology/ao/core#> <http://purl.org/dc/elements/1.1/creator> <http://foaf.me/zazi#me> .
+<http://purl.org/ontology/ao/core#occasion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/ao/core#> <http://purl.org/dc/elements/1.1/title> "The Association Ontology"@en .
+<http://purl.org/ontology/ao/core#used_device> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
+_:fe743c9f8c5ab47c78ff629e24fe94343b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/ao/core#likeminded> <http://www.w3.org/2002/07/owl#inverseOf> _:fe743c9f8c5ab47c78ff629e24fe94343b2 .
+<http://purl.org/ontology/ao/core#occasion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#included_association> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/ao/core#genre> <http://www.w3.org/2000/01/rdf-schema#comment> "An genre of something."@en .
+<http://purl.org/ontology/ao/core#LikeableAssociation> <http://www.w3.org/2000/01/rdf-schema#label> "Likeable Association"@en .
+<http://purl.org/ontology/ao/core#time> <http://www.w3.org/2000/01/rdf-schema#label> "has time"@en .
+<http://purl.org/ontology/ao/core#occasion> <http://www.w3.org/2000/01/rdf-schema#label> "has occassion"@en .
+<http://purl.org/ontology/ao/core#device> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/ao/core#used_application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/ao/core#mood> <http://www.w3.org/2000/01/rdf-schema#label> "has mood"@en .
+<http://purl.org/ontology/ao/core#mood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#context> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/ao/core#included_association> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+_:fe743c9f8c5ab47c78ff629e24fe94343b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fe743c9f8c5ab47c78ff629e24fe94343b2 <http://www.w3.org/2000/01/rdf-schema#label> "is likeminded of" .
+<http://purl.org/ontology/ao/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/ontology/similarity/> .
+<http://purl.org/ontology/ao/core#genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#included_association> <http://www.w3.org/2002/07/owl#inverseOf> _:fe743c9f8c5ab47c78ff629e24fe94343b1 .
+<http://purl.org/ontology/ao/core#used_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#occasion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#location> <http://www.w3.org/2000/01/rdf-schema#comment> "A location, which is associated to an individual, e.g. my house, my country, my current whereabouts."@en .
+<http://purl.org/ontology/ao/core#occasion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
+<http://purl.org/ontology/ao/core#> <http://purl.org/dc/elements/1.1/date> "2010-09-13T13:59:52+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/ontology/ao/core#included_association> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/ao/core#likeminded> <http://www.w3.org/2000/01/rdf-schema#label> "has likeminded"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/ao/core#device> <http://www.w3.org/2000/01/rdf-schema#label> "has device"@en .
+<http://purl.org/ontology/ao/core#used_application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#included_association> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/similarity/Association> .
+<http://purl.org/ontology/ao/core#used_device> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/ao/core#device> .
+<http://purl.org/ontology/ao/core#activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#occasion> <http://www.w3.org/2000/01/rdf-schema#comment> "An occasion for which something was created."@en .
+<http://purl.org/ontology/ao/core#mood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/ao/core#included_association> <http://www.w3.org/2000/01/rdf-schema#label> "has included association"@en .
+<http://purl.org/ontology/ao/core#application> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/ao/core#LikeableAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/ao/core#likeminded> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/ao/core#likeminded> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates likeminded people to an association, which they like/ agree with."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/ao/core#used_application> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/ao/core#application> .
+<http://purl.org/ontology/ao/core#used_application> <http://www.w3.org/2000/01/rdf-schema#label> "has used application"@en .
+<http://purl.org/ontology/ao/core#used_application> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/ao/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/stuff/rev> .
+<http://purl.org/ontology/ao/core#genre> <http://www.w3.org/2000/01/rdf-schema#label> "has genre"@en .
+<http://purl.org/ontology/ao/core#> <http://purl.org/dc/elements/1.1/creator> <http://tobyinkster.co.uk/#i> .
+<http://purl.org/ontology/ao/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/ontology/ao/core#context> <http://www.w3.org/2000/01/rdf-schema#comment> "A property to associate any environmental context to an individual, e.g. a location, a time or an activity. Hence, this property is intended that sub properties should be created from it."@en .
+<http://purl.org/ontology/ao/core#mood> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/ao/core#location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/ao/core#> .
+<http://purl.org/ontology/ao/core#genre> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/ao/core#activity> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity, which is associated to an individual, e.g. dancing, sleeping, driving."@en .
+<http://purl.org/ontology/ao/core#mood> <http://www.w3.org/2000/01/rdf-schema#comment> "A mood that should be created by something."@en .
+<http://purl.org/ontology/ao/core#LikeableAssociation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/ao/core#LikeableAssociation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/similarity/Association> .
+<http://purl.org/ontology/ao/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/NET/c4dm/event.owl> .
+<http://purl.org/ontology/ao/core#location> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/ao/core#context> .
+<http://purl.org/ontology/ao/core#used_device> <http://www.w3.org/2000/01/rdf-schema#comment> "A device that is related to an event, e.g. a MP3 player to a play back event of a music track."@en .
+<http://purl.org/ontology/ao/core#device> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/ao/core#context> .
+<http://purl.org/ontology/ao/core#time> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+

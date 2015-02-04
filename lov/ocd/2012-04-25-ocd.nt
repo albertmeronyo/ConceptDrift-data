@@ -1,0 +1,895 @@
+_:ff9cd3463c0df4900ab4a72a504be727bb114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/incaricoGoverno> .
+_:ff9cd3463c0df4900ab4a72a504be727bb71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb72 .
+_:ff9cd3463c0df4900ab4a72a504be727bb166 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb167 .
+_:ff9cd3463c0df4900ab4a72a504be727bb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb26 .
+_:ff9cd3463c0df4900ab4a72a504be727bb88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/parentADM2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/dottrina> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/documenti> .
+_:ff9cd3463c0df4900ab4a72a504be727bb30 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb31 .
+<http://dati.camera.it/ocd/siComponeDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/ufficioParlamentare> <http://www.w3.org/2000/01/rdf-schema#comment> "ufficioParlamentare \u00E8 la classe che identifica tutte le cariche ricoperte dai deputati negli organi parlamentari"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/tipoProclamazione> <http://www.w3.org/2000/01/rdf-schema#label> "tipologia proclamazione" .
+<http://dati.camera.it/ocd/atto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/carica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/ruolo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/rif_gruppoParlamentare> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento al Gruppo parlamentare" .
+_:ff9cd3463c0df4900ab4a72a504be727bb159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/giurisprudenza> .
+_:ff9cd3463c0df4900ab4a72a504be727bb6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://dati.camera.it/ocd/proclamazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/documentazione> <http://www.w3.org/2000/01/rdf-schema#label> "documentazione"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/membro> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/deputato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/deputato> .
+<http://dati.camera.it/ocd/interim> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://dati.camera.it/ocd/rif_leg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/rif_assemblea> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb132 .
+<http://dati.camera.it/ocd/motivoTermine> <http://www.w3.org/2000/01/rdf-schema#label> "motivo termine mandato" .
+<http://dati.camera.it/ocd/rif_organoGoverno> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb113 .
+<http://dati.camera.it/ocd/legislatura> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe fa riferimento al  periodo di durata del mandato parlamentare compreso fra le elezioni e lo scioglimento delle Camere. La legislatura si articola in sessioni e sedute"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/organo> .
+_:ff9cd3463c0df4900ab4a72a504be727bb58 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb59 .
+<http://dati.camera.it/ocd/parentADM1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/rif_senatore> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb116 .
+_:ff9cd3463c0df4900ab4a72a504be727bb65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb66 .
+_:ff9cd3463c0df4900ab4a72a504be727bb126 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb127 .
+_:ff9cd3463c0df4900ab4a72a504be727bb148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/DOC> .
+_:ff9cd3463c0df4900ab4a72a504be727bb44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/presidenteCamera> .
+_:ff9cd3463c0df4900ab4a72a504be727bb125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dibattito> .
+<http://dati.camera.it/ocd/rif_sistemaElettorale> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento al sistema elettorale" .
+_:ff9cd3463c0df4900ab4a72a504be727bb104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb8 <http://www.w3.org/2002/07/owl#onProperty> <http://dati.camera.it/ocd/rif_deputato> .
+<http://dati.camera.it/ocd/diventa> <http://www.w3.org/2000/01/rdf-schema#comment> "propreit\u00E0 per gestire le trasformazione dei gruppi parlamentari"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/presidenteRepubblica> <http://www.w3.org/2000/01/rdf-schema#label> "presidente della Repubblica"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb5 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/title> .
+<http://dati.camera.it/ocd/rif_senatore> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 utilizzata all'interno degli incarichi di governo per puntare all'organo di governo"@it .
+<http://dati.camera.it/ocd/rif_incarico> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb129 .
+<http://dati.camera.it/ocd/bollettino> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/lavori> .
+_:ff9cd3463c0df4900ab4a72a504be727bb111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/organo> .
+_:ff9cd3463c0df4900ab4a72a504be727bb39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/governo> .
+<http://dati.camera.it/ocd/motivoTermine> <http://www.w3.org/2000/01/rdf-schema#comment> "motivo termine del mandato"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/ufficioParlamentare> .
+_:ff9cd3463c0df4900ab4a72a504be727bb45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb46 .
+_:ff9cd3463c0df4900ab4a72a504be727bb133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dibattito> .
+<http://dati.camera.it/ocd/> <http://purl.org/dc/elements/1.1/publisher> "Camera dei deputati" .
+<http://dati.camera.it/ocd/interim> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/incaricoGoverno> .
+<http://dati.camera.it/ocd/presieduta_da> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 che serve ad indicare da quale deputato \u00E8 presieduta una seduta"@it .
+<http://dati.camera.it/ocd/rif_discussione> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento alla discussione" .
+_:ff9cd3463c0df4900ab4a72a504be727bb138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/DOC> .
+_:ff9cd3463c0df4900ab4a72a504be727bb47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/nomina> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/legislatura> .
+_:ff9cd3463c0df4900ab4a72a504be727bb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb118 .
+<http://dati.camera.it/ocd/lavoriPreparatori> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/lavoriPreparatoriLegge> .
+<http://dati.camera.it/ocd/componenteGruppoMisto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/dicastero> <http://www.w3.org/2000/01/rdf-schema#comment> "booleano per indicare se si tratta di un dicastero"@it .
+<http://dati.camera.it/ocd/legislatura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/elezione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb16 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/date> .
+_:ff9cd3463c0df4900ab4a72a504be727bb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/adesioneGruppoMisto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb12 .
+<http://dati.camera.it/ocd/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://dati.camera.it/ocd/membro> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 che collega un deputato ad un organo"@it .
+<http://dati.camera.it/ocd/normativa> <http://www.w3.org/2000/01/rdf-schema#comment> "la classe contiene le Gazzette ufficiale della Repubblica Italiana e dell'Unione Europea"@it .
+<http://dati.camera.it/ocd/lavoriPreparatori> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 che designa l'organo di Governo destinatario"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb152 .
+<http://dati.camera.it/ocd/rif_unitaOrganizzativa> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/unitaOrganizzativa> .
+_:ff9cd3463c0df4900ab4a72a504be727bb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb23 .
+<http://dati.camera.it/ocd/tipologia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/normativa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/documenti> .
+<http://dati.camera.it/ocd/adesioneGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/atto> <http://www.w3.org/2000/01/rdf-schema#comment> "la classe contiene proposte e disegni di legge"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/lex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+_:ff9cd3463c0df4900ab4a72a504be727bb171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ff9cd3463c0df4900ab4a72a504be727bb175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/rif_bollettino> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/bollettino> .
+_:ff9cd3463c0df4900ab4a72a504be727bb119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/rif_mandatoSenato> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento a mandato senato" .
+<http://dati.camera.it/ocd/rif_sistemaElettorale> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb21 .
+<http://dati.camera.it/ocd/parentADM1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.geonames.org/ontology#parentADM1> .
+_:ff9cd3463c0df4900ab4a72a504be727bb114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb115 .
+_:ff9cd3463c0df4900ab4a72a504be727bb168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb169 .
+_:ff9cd3463c0df4900ab4a72a504be727bb180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb181 .
+<http://dati.camera.it/ocd/parentADM3> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.geonames.org/ontology#parentADM3> .
+_:ff9cd3463c0df4900ab4a72a504be727bb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/ufficioParlamentare> .
+<http://dati.camera.it/ocd/deputato> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.camera.it/423?conoscerelacamera=2> .
+<http://dati.camera.it/ocd/trasformazioneGruppo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb3 .
+<http://dati.camera.it/ocd/trasformazioneGruppo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb1 .
+<http://dati.camera.it/ocd/aderisce> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/deputato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb61 .
+<http://dati.camera.it/ocd/rif_incarico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/organoGoverno> <http://www.w3.org/2000/01/rdf-schema#label> "organo governativo"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/rif_senatore> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/senatore> .
+<http://dati.camera.it/ocd/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/incarico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dibattito> .
+<http://dati.camera.it/ocd/carica> <http://www.w3.org/2000/01/rdf-schema#label> "dicastero" .
+_:ff9cd3463c0df4900ab4a72a504be727bb165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/doc> .
+<http://dati.camera.it/ocd/membro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/rif_ufficioParlamentare> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb55 .
+<http://dati.camera.it/ocd/name> <http://www.w3.org/2000/01/rdf-schema#comment> "nome del luogo"@it .
+<http://dati.camera.it/ocd/destinatario> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/aic> .
+_:ff9cd3463c0df4900ab4a72a504be727bb45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/presidenteConsiglioMinistri> .
+<http://dati.camera.it/ocd/mandatoCamera> <http://www.w3.org/2000/01/rdf-schema#label> "mandato"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/persona> .
+<http://dati.camera.it/ocd/rif_ufficioParlamentare> <http://www.w3.org/2000/01/rdf-schema#comment> "propreit\u00E0 che collega un organo agli uffici parlamentari"@it .
+<http://dati.camera.it/ocd/plurieletto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/elezione> .
+<http://dati.camera.it/ocd/rif_incaricoGoverno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/risposta> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento alla risposta scritta all'interrogazione" .
+<http://dati.camera.it/ocd/rif_deputato> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb30 .
+<http://dati.camera.it/ocd/rif_assemblea> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento all'assemblea" .
+<http://dati.camera.it/ocd/aderisce> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/adesioneGruppo> .
+<http://dati.camera.it/ocd/parentCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.geonames.org/ontology#parentCountry> .
+<http://dati.camera.it/ocd/altro_firmatario> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb150 .
+_:ff9cd3463c0df4900ab4a72a504be727bb141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/giurisprudenza> .
+_:ff9cd3463c0df4900ab4a72a504be727bb4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:ff9cd3463c0df4900ab4a72a504be727bb118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/ufficioParlamentare> .
+<http://dati.camera.it/ocd/risorsa_web> <http://www.w3.org/2000/01/rdf-schema#label> "risorsa_web"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb76 .
+_:ff9cd3463c0df4900ab4a72a504be727bb170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/documentazione> .
+<http://dati.camera.it/ocd/cambioDenominazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb4 .
+<http://dati.camera.it/ocd/pubblicistica> <http://www.w3.org/2000/01/rdf-schema#label> "pubblicistica"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/lavoriPreparatori> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/legge> .
+<http://dati.camera.it/ocd/rif_sistemaElettorale> <http://www.w3.org/2000/01/rdf-schema#comment> "questa propriet\u00E0 collega ogni legislatura ad un sistema elettorale"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/persona> .
+_:ff9cd3463c0df4900ab4a72a504be727bb63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb64 .
+_:ff9cd3463c0df4900ab4a72a504be727bb156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb157 .
+_:ff9cd3463c0df4900ab4a72a504be727bb160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/governo> .
+<http://dati.camera.it/ocd/primo_firmatario> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/persona> .
+_:ff9cd3463c0df4900ab4a72a504be727bb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/incarico> .
+_:ff9cd3463c0df4900ab4a72a504be727bb176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb177 .
+_:ff9cd3463c0df4900ab4a72a504be727bb37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb83 .
+_:ff9cd3463c0df4900ab4a72a504be727bb9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://dati.camera.it/ocd/motivoTermine> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb183 .
+_:ff9cd3463c0df4900ab4a72a504be727bb94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb174 .
+<http://dati.camera.it/ocd/membroConsulta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/persona> .
+<http://dati.camera.it/ocd/tipoElezione> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb153 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb154 .
+_:ff9cd3463c0df4900ab4a72a504be727bb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/elezione> .
+<http://dati.camera.it/ocd/rif_mandatoCamera> <http://www.w3.org/2000/01/rdf-schema#comment> "serve a collegare il deputato al mandato elettorale"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb21 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb22 .
+<http://dati.camera.it/ocd/parentADM3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb50 .
+_:ff9cd3463c0df4900ab4a72a504be727bb99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/carica> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb168 .
+_:ff9cd3463c0df4900ab4a72a504be727bb69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dottrina> .
+<http://dati.camera.it/ocd/rif_deputato> <http://www.w3.org/2000/01/rdf-schema#label> "rierimento a deputato" .
+<http://dati.camera.it/ocd/membro> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/appartenenzaOrgano> .
+_:ff9cd3463c0df4900ab4a72a504be727bb11 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/date> .
+<http://dati.camera.it/ocd/aic> <http://www.w3.org/2000/01/rdf-schema#comment> "\u00E8 la classe che descrive le interrogazioni, domande che i parlamentari rivolgono al Governo per avere informazioni su fatti specifici e le interpellanze, domande che sollecitano chiarimenti sui motivi dell\u2019azione politica del Governo"@it .
+<http://dati.camera.it/ocd/presidenteConsiglioMinistri> <http://www.w3.org/2000/01/rdf-schema#label> "presidente del Consiglio dei ministri"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/deputato> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe deputati comprende tutte le persone che hanno ricevuto un mandato parlamentare alla Camera"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/rif_governo> <http://www.w3.org/2000/01/rdf-schema#comment> "riferimento al Governo"@it .
+<http://dati.camera.it/ocd/discussione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb142 .
+<http://dati.camera.it/ocd/opzione> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://dati.camera.it/ocd/rif_mandatoSenato> <http://www.w3.org/2000/01/rdf-schema#comment> "serve a collegare il deputato al mandato di senatore"@it .
+<http://dati.camera.it/ocd/rif_unitaOrganizzativa> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb47 .
+<http://dati.camera.it/ocd/rif_leg> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb58 .
+_:ff9cd3463c0df4900ab4a72a504be727bb77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb78 .
+<http://dati.camera.it/ocd/convalida> <http://www.w3.org/2000/01/rdf-schema#label> "data di convalida" .
+_:ff9cd3463c0df4900ab4a72a504be727bb131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/deputato> .
+<http://dati.camera.it/ocd/risorsa_web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/lavoriPreparatori> .
+_:ff9cd3463c0df4900ab4a72a504be727bb24 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb25 .
+<http://dati.camera.it/ocd/tipoProclamazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/> <http://purl.org/dc/elements/1.1/title> "Ontologia Camera dei deputati"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/organoGoverno> .
+<http://dati.camera.it/ocd/primo_firmatario> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb146 .
+<http://dati.camera.it/ocd/rif_governo> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/governo> .
+<http://dati.camera.it/ocd/haMembro> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/composizioneOrgano> .
+<http://dati.camera.it/ocd/unitaOrganizzativa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/parentADM2> <http://www.w3.org/2000/01/rdf-schema#comment> "secondo livello di divisione amministrativa"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/legislatura> .
+<http://dati.camera.it/ocd/DOC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.camera.it/168> .
+<http://dati.camera.it/ocd/concluso> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/aic> .
+<http://dati.camera.it/ocd/iniziativa> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb17 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/description> .
+_:ff9cd3463c0df4900ab4a72a504be727bb2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://dati.camera.it/ocd/dossier> <http://www.w3.org/2000/01/rdf-schema#comment> "la classe contiene i dossier di documentazione, analisi e materiali predisposti dai Servizi di documentazione della Camera a supporto dell'attivit\u00E0 parlamentare"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://dati.camera.it/ocd/lavoriPreparatori> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/denominazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/primo_firmatario> <http://www.w3.org/2000/01/rdf-schema#comment> "indica il primo firmatario del documento"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb87 .
+<http://dati.camera.it/ocd/proclamazione> <http://www.w3.org/2000/01/rdf-schema#label> "proclamazione"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/rispostaAIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/fa_parte_della> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/legislatura> .
+<http://dati.camera.it/ocd/> <http://www.w3.org/2002/07/owl#versionInfo> "1.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:ff9cd3463c0df4900ab4a72a504be727bb59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/mandatoCamera> .
+<http://dati.camera.it/ocd/atto> <http://www.w3.org/2000/01/rdf-schema#label> "atto camera"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/plurieletto> <http://www.w3.org/2000/01/rdf-schema#label> "plurieletto" .
+_:ff9cd3463c0df4900ab4a72a504be727bb59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb60 .
+_:ff9cd3463c0df4900ab4a72a504be727bb63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/aic> .
+_:ff9cd3463c0df4900ab4a72a504be727bb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ff9cd3463c0df4900ab4a72a504be727bb127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/componenteGruppoMisto> .
+<http://dati.camera.it/ocd/rif_doc> <http://www.w3.org/2000/01/rdf-schema#comment> "un doc pu\u00F2 fare riferimento ad un altro DOC"@it .
+<http://dati.camera.it/ocd/membro> <http://www.w3.org/2000/01/rdf-schema#label> "membro" .
+_:ff9cd3463c0df4900ab4a72a504be727bb19 <http://www.w3.org/2002/07/owl#onProperty> <http://dati.camera.it/ocd/rif_deputato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/lavori> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/aderisce> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/gruppoParlamentare> .
+_:ff9cd3463c0df4900ab4a72a504be727bb68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/documentazione> .
+<http://dati.camera.it/ocd/rif_dossier> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb93 .
+_:ff9cd3463c0df4900ab4a72a504be727bb110 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb111 .
+_:ff9cd3463c0df4900ab4a72a504be727bb137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+_:ff9cd3463c0df4900ab4a72a504be727bb94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/rif_doc> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb123 .
+<http://dati.camera.it/ocd/rif_discussione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/componente> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 utilizzata per descrivere l'adesione di un deputato ad una componente del gruppo misto"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb37 .
+<http://dati.camera.it/ocd/dossier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/documenti> .
+_:ff9cd3463c0df4900ab4a72a504be727bb95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/convalida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/dottrina> <http://www.w3.org/2000/01/rdf-schema#label> "dottrina"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+_:ff9cd3463c0df4900ab4a72a504be727bb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/costituzionale> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/parentCountry> <http://www.w3.org/2000/01/rdf-schema#label> "parentCountry" .
+<http://dati.camera.it/ocd/pubblicistica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb90 .
+_:ff9cd3463c0df4900ab4a72a504be727bb120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/discussione> .
+<http://dati.camera.it/ocd/proclamazione> <http://www.w3.org/2000/01/rdf-schema#comment> "questa classe \u00E8 stata creata per gestire subentri e sostituzioni nel mandato camera"@it .
+<http://dati.camera.it/ocd/rif_presidenteConsiglioMinistri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/inaricoGoverno> <http://www.w3.org/2000/01/rdf-schema#label> "incarico di Governo"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb149 .
+_:ff9cd3463c0df4900ab4a72a504be727bb123 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb124 .
+<http://dati.camera.it/ocd/parentADM2> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.geonames.org/ontology#parentADM2> .
+_:ff9cd3463c0df4900ab4a72a504be727bb174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb84 .
+<http://dati.camera.it/ocd/componente> <http://www.w3.org/2000/01/rdf-schema#label> "componente" .
+_:ff9cd3463c0df4900ab4a72a504be727bb152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/aic> .
+<http://dati.camera.it/ocd/ac> <http://www.w3.org/2000/01/rdf-schema#label> "URL dell'atto camera" .
+<http://dati.camera.it/ocd/membroConsulta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:ff9cd3463c0df4900ab4a72a504be727bb13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:ff9cd3463c0df4900ab4a72a504be727bb106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb107 .
+<http://dati.camera.it/ocd/carica> <http://www.w3.org/2000/01/rdf-schema#comment> "identifica la tipologia della carica all'interno dell'Ufficio parlamentare"@it .
+<http://dati.camera.it/ocd/dibattito> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/lavori> .
+_:ff9cd3463c0df4900ab4a72a504be727bb107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb108 .
+<http://dati.camera.it/ocd/ac> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb153 .
+_:ff9cd3463c0df4900ab4a72a504be727bb41 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb42 .
+_:ff9cd3463c0df4900ab4a72a504be727bb147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb148 .
+<http://dati.camera.it/ocd/haMembro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/gruppoParlamentare> .
+<http://dati.camera.it/ocd/composizioneOrgano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb19 .
+_:ff9cd3463c0df4900ab4a72a504be727bb40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/iniziativa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb32 .
+<http://dati.camera.it/ocd/appartenenzaOrgano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb17 .
+_:ff9cd3463c0df4900ab4a72a504be727bb158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dottrina> .
+_:ff9cd3463c0df4900ab4a72a504be727bb113 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb114 .
+<http://dati.camera.it/ocd/rif_ufficioParlamentare> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento ufficio parlamentare" .
+_:ff9cd3463c0df4900ab4a72a504be727bb7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:ff9cd3463c0df4900ab4a72a504be727bb183 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb184 .
+<http://dati.camera.it/ocd/griglia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/discussione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/lavori> .
+_:ff9cd3463c0df4900ab4a72a504be727bb137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb138 .
+<http://dati.camera.it/ocd/rif_organo> <http://www.w3.org/2000/01/rdf-schema#comment> "puntamento all'organo parlamentare citato"@it .
+<http://dati.camera.it/ocd/lavori> <http://www.w3.org/2000/01/rdf-schema#label> "lavori"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/aic> .
+_:ff9cd3463c0df4900ab4a72a504be727bb43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/incaricoGoverno> .
+_:ff9cd3463c0df4900ab4a72a504be727bb1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://dati.camera.it/ocd/destinatario> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/organoGoverno> .
+<http://dati.camera.it/ocd/rif_unitaOrganizzativa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/deputato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/rif_deputato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/incaricoGovernativo> <http://www.w3.org/2000/01/rdf-schema#comment> "per indicare la qualifica di incarico di Governo ricporta"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/incarico> .
+_:ff9cd3463c0df4900ab4a72a504be727bb128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/rif_attocamera> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/trasformazioneGruppo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb2 .
+<http://dati.camera.it/ocd/> <http://purl.org/dc/elements/1.1/issued> "20 dicembre 2012" .
+_:ff9cd3463c0df4900ab4a72a504be727bb109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/interim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb180 .
+<http://dati.camera.it/ocd/doc> <http://www.w3.org/2000/01/rdf-schema#comment> "puntamento alla URL del DOC"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dottrina> .
+_:ff9cd3463c0df4900ab4a72a504be727bb132 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb133 .
+<http://dati.camera.it/ocd/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/terms/> .
+<http://dati.camera.it/ocd/normativa> <http://www.w3.org/2000/01/rdf-schema#label> "normativa"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/> <http://purl.org/dc/elements/1.1/creator> "Camera dei deputati" .
+<http://dati.camera.it/ocd/risposta> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/rispostaAIC> .
+_:ff9cd3463c0df4900ab4a72a504be727bb149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/aic> .
+_:ff9cd3463c0df4900ab4a72a504be727bb149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/incarico> .
+_:ff9cd3463c0df4900ab4a72a504be727bb55 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb56 .
+<http://dati.camera.it/ocd/discussione> <http://www.w3.org/2000/01/rdf-schema#label> "discussione"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/presidenteCamera> <http://www.w3.org/2000/01/rdf-schema#label> "presidente della Camera dei deputati"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/rif_gruppoParlamentare> <http://www.w3.org/2000/01/rdf-schema#comment> "riferimento al Gruppo parlamentare"@it .
+<http://dati.camera.it/ocd/elezione> <http://www.w3.org/2000/01/rdf-schema#label> "elezione"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/primo_firmatario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/seduta> .
+<http://dati.camera.it/ocd/documentazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/documenti> .
+<http://dati.camera.it/ocd/lista> <http://www.w3.org/2000/01/rdf-schema#comment> "Lista di appartenenza"@it .
+<http://dati.camera.it/ocd/legge> <http://www.w3.org/2000/01/rdf-schema#label> "legge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/giurisprudenza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/nomina> <http://www.w3.org/2000/01/rdf-schema#label> "nomina" .
+_:ff9cd3463c0df4900ab4a72a504be727bb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/persona> .
+<http://dati.camera.it/ocd/rif_governo> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento al governo" .
+<http://dati.camera.it/ocd/rif_incarico> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento all'incarico" .
+<http://dati.camera.it/ocd/appartenenzaOrgano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb18 .
+<http://dati.camera.it/ocd/rif_leg> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/legislatura> .
+<http://dati.camera.it/ocd/diventa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/mandatoCamera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/presidenteCamera> .
+_:ff9cd3463c0df4900ab4a72a504be727bb66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb67 .
+<http://dati.camera.it/ocd/rispostaAIC> <http://www.w3.org/2000/01/rdf-schema#comment> "classe usata per individuare le risposte scritte alle interrogazioni parlamentari"@it .
+<http://dati.camera.it/ocd/adesioneGruppo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb10 .
+<http://dati.camera.it/ocd/deputato> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/persona> .
+<http://dati.camera.it/ocd/inarico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/inaricoGoverno> <http://www.w3.org/2000/01/rdf-schema#comment> "\u00E8 la classe che identifica gli incarichi governativi assegnati ai deputati"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/presidenteCamera> .
+<http://dati.camera.it/ocd/rif_persona> <http://www.w3.org/2000/01/rdf-schema#comment> "propreit\u00E0 generica utilizzata per puntare ad una risorsa persona"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/discussione> .
+_:ff9cd3463c0df4900ab4a72a504be727bb168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/cronologia> .
+<http://dati.camera.it/ocd/autore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/lavoriPreparatoriLegge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/griglia> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb135 .
+<http://dati.camera.it/ocd/rif_doc> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento al doc" .
+_:ff9cd3463c0df4900ab4a72a504be727bb58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/primo_firmatario> <http://www.w3.org/2000/01/rdf-schema#label> "primo firmatario" .
+<http://dati.camera.it/ocd/presidenteCamera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/ruolo> <http://www.w3.org/2000/01/rdf-schema#comment> "ruolo ricoperto"@it .
+<http://dati.camera.it/ocd/lista> <http://www.w3.org/2000/01/rdf-schema#label> "lista" .
+_:ff9cd3463c0df4900ab4a72a504be727bb115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/siComponeDi> <http://www.w3.org/2000/01/rdf-schema#label> "si compone di" .
+_:ff9cd3463c0df4900ab4a72a504be727bb102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb103 .
+_:ff9cd3463c0df4900ab4a72a504be727bb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/rif_discussione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/dibattito> .
+<http://dati.camera.it/ocd/rif_mandatoCamera> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb24 .
+<http://dati.camera.it/ocd/iniziativa> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/costituzionale> <http://www.w3.org/2000/01/rdf-schema#comment> "per indicare se un atto camera \u00E8 costituzionale o ordinario"@it .
+<http://dati.camera.it/ocd/nomina> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/assemblea> .
+_:ff9cd3463c0df4900ab4a72a504be727bb146 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb147 .
+_:ff9cd3463c0df4900ab4a72a504be727bb89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/incaricoGoverno> .
+<http://dati.camera.it/ocd/seduta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb51 .
+_:ff9cd3463c0df4900ab4a72a504be727bb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb109 .
+_:ff9cd3463c0df4900ab4a72a504be727bb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ff9cd3463c0df4900ab4a72a504be727bb87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb88 .
+<http://dati.camera.it/ocd/componente> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/adesioneGruppo> .
+<http://dati.camera.it/ocd/presidenteConsiglioMinistri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/dibattito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/doc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/mandatoCamera> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe fa riferimento allo status di deputato assunto da una persona  - candidato in elezioni politiche -  in seguito ad un voto popolare"@it .
+<http://dati.camera.it/ocd/rif_gruppoParlamentare> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb126 .
+<http://dati.camera.it/ocd/lex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb74 .
+_:ff9cd3463c0df4900ab4a72a504be727bb53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb54 .
+_:ff9cd3463c0df4900ab4a72a504be727bb165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb10 <http://www.w3.org/2002/07/owl#onProperty> <http://dati.camera.it/ocd/rif_gruppoParlamentare> .
+<http://dati.camera.it/ocd/tipoProclamazione> <http://www.w3.org/2000/01/rdf-schema#comment> "propreit\u00E0 utilizzata per descrivere la tipologia di proclamazione legata ad un mandato elettorale (per sostituzione, subentro, ...)"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb112 .
+_:ff9cd3463c0df4900ab4a72a504be727bb85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/componenteGruppoMisto> .
+_:ff9cd3463c0df4900ab4a72a504be727bb147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/rif_seduta> <http://www.w3.org/2000/01/rdf-schema#comment> "in una seduta si svolgono pi\u00F9 discussioni"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://dati.camera.it/ocd/componenteGruppoMisto> <http://www.w3.org/2000/01/rdf-schema#label> "componente del Gruppo Misto"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/rif_bollettino> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/seduta> .
+<http://dati.camera.it/ocd/proclamazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb8 .
+<http://dati.camera.it/ocd/seduta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/lavori> .
+<http://dati.camera.it/ocd/rif_mandatoSenato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/motivoTermine> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/organo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb70 .
+<http://dati.camera.it/ocd/rif_dossier> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/dossier> .
+_:ff9cd3463c0df4900ab4a72a504be727bb155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/doc> .
+_:ff9cd3463c0df4900ab4a72a504be727bb43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb44 .
+_:ff9cd3463c0df4900ab4a72a504be727bb184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/incaricoGoverno> .
+<http://dati.camera.it/ocd/rif_deputato> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 generica utilizzata per puntare alla risorsa deputato in vari punti dell'ontologia"@it .
+<http://dati.camera.it/ocd/organoGoverno> <http://www.w3.org/2000/01/rdf-schema#comment> "la classe fa riferimento agli organi monocratici o collegiali, necessari e non, che costituiscono il governo: Presidente del Consiglio, singoli Ministri,,Consiglio dei Ministri, Consiglio di Gabinetto, Comitati di Ministri e Comitati interministeriali, Vice-presidenti del Consiglio, Ministri senza portafoglio, Sottosegretari di Stato, Vice-ministri e Commissari straordinari"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb14 <http://www.w3.org/2002/07/owl#onProperty> <http://dati.camera.it/ocd/rif_organo> .
+_:ff9cd3463c0df4900ab4a72a504be727bb162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/note> .
+<http://dati.camera.it/ocd/ruolo> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb178 .
+<http://dati.camera.it/ocd/haMembro> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/organo> .
+_:ff9cd3463c0df4900ab4a72a504be727bb46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb105 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb106 .
+_:ff9cd3463c0df4900ab4a72a504be727bb161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb162 .
+_:ff9cd3463c0df4900ab4a72a504be727bb143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb144 .
+<http://dati.camera.it/ocd/denominazione> <http://www.w3.org/2000/01/rdf-schema#label> "denominazione" .
+<http://dati.camera.it/ocd/altro_firmatario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb160 .
+_:ff9cd3463c0df4900ab4a72a504be727bb99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/persona> .
+<http://dati.camera.it/ocd/rif_attocamera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/> <http://purl.org/dc/terms/modified> "26 aprile 2012" .
+_:ff9cd3463c0df4900ab4a72a504be727bb65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/cronologia> .
+<http://dati.camera.it/ocd/giurisprudenza> <http://www.w3.org/2000/01/rdf-schema#label> "giurisprudenza"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/> <http://purl.org/dc/elements/1.1/description> "L'ontologia Camera dei deputati \u00E8 stata creata per descrivere tutte le risorse (persone, eventi, documenti) sia storiche che correnti, connesse alla Camera e alla sua attivit\u00E0"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/seduta> .
+<http://dati.camera.it/ocd/interim> <http://www.w3.org/2000/01/rdf-schema#comment> "utilizzata per gestire le cariche ad interim"@it .
+<http://dati.camera.it/ocd/destinatario> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 che designa l'organo di Governo destinatario"@it .
+<http://dati.camera.it/ocd/diventa> <http://www.w3.org/2000/01/rdf-schema#label> "diventa" .
+_:ff9cd3463c0df4900ab4a72a504be727bb96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb97 .
+<http://dati.camera.it/ocd/rif_incaricoGoverno> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb95 .
+<http://dati.camera.it/ocd/rif_organoGoverno> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento all'organo di governo" .
+_:ff9cd3463c0df4900ab4a72a504be727bb88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb89 .
+_:ff9cd3463c0df4900ab4a72a504be727bb84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/assemblea> .
+_:ff9cd3463c0df4900ab4a72a504be727bb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/rif_presidenteConsiglioMinistri> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb38 .
+<http://dati.camera.it/ocd/iniziativa> <http://www.w3.org/2000/01/rdf-schema#label> "iniziativa" .
+_:ff9cd3463c0df4900ab4a72a504be727bb172 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb173 .
+<http://dati.camera.it/ocd/appartenenzaOrgano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb15 .
+<http://dati.camera.it/ocd/autore> <http://www.w3.org/2000/01/rdf-schema#comment> "\u00E8 la classe che identifica le persone autori di pubblicazioni presenti in BPR."@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://dati.camera.it/ocd/diventa> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/trasformazioneGruppo> .
+<http://dati.camera.it/ocd/persona> <http://www.w3.org/2000/01/rdf-schema#label> "persona"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ocd" .
+_:ff9cd3463c0df4900ab4a72a504be727bb181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/incarico> .
+<http://dati.camera.it/ocd/rif_senatore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/inaricoGoverno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb38 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb39 .
+<http://dati.camera.it/ocd/organoGoverno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/opzione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/elezione> .
+_:ff9cd3463c0df4900ab4a72a504be727bb132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/governo> <http://www.w3.org/2000/01/rdf-schema#label> "governo"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/rif_deputato> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/deputato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/assemblea> .
+_:ff9cd3463c0df4900ab4a72a504be727bb130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/gruppoParlamentare> .
+<http://dati.camera.it/ocd/aic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/lavori> .
+_:ff9cd3463c0df4900ab4a72a504be727bb139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb140 .
+_:ff9cd3463c0df4900ab4a72a504be727bb84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/componenteGruppoMisto> .
+<http://dati.camera.it/ocd/rif_elezione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/mandatoCamera> .
+_:ff9cd3463c0df4900ab4a72a504be727bb139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/documentazione> .
+_:ff9cd3463c0df4900ab4a72a504be727bb44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb45 .
+_:ff9cd3463c0df4900ab4a72a504be727bb7 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/type> .
+_:ff9cd3463c0df4900ab4a72a504be727bb91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb92 .
+_:ff9cd3463c0df4900ab4a72a504be727bb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ff9cd3463c0df4900ab4a72a504be727bb57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ff9cd3463c0df4900ab4a72a504be727bb66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dibattito> .
+<http://dati.camera.it/ocd/dicastero> <http://www.w3.org/2000/01/rdf-schema#label> "dicastero" .
+<http://dati.camera.it/ocd/dicastero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/note> .
+_:ff9cd3463c0df4900ab4a72a504be727bb109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/gruppoParlamentare> .
+_:ff9cd3463c0df4900ab4a72a504be727bb164 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb165 .
+_:ff9cd3463c0df4900ab4a72a504be727bb13 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/date> .
+_:ff9cd3463c0df4900ab4a72a504be727bb119 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb120 .
+<http://dati.camera.it/ocd/rif_persona> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/persona> .
+_:ff9cd3463c0df4900ab4a72a504be727bb2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/type> .
+<http://dati.camera.it/ocd/rif_assemblea> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/assemblea> .
+_:ff9cd3463c0df4900ab4a72a504be727bb74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/incaricoGoverno> .
+_:ff9cd3463c0df4900ab4a72a504be727bb154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/circoscrizionePlurieletto> <http://www.w3.org/2000/01/rdf-schema#label> "circoscrizioni per plurieletti"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb186 .
+_:ff9cd3463c0df4900ab4a72a504be727bb52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dottrina> .
+<http://dati.camera.it/ocd/aderisce> <http://www.w3.org/2000/01/rdf-schema#comment> "descrive l'adesione di un deputato ad un gruppo Parlamentare"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb52 .
+_:ff9cd3463c0df4900ab4a72a504be727bb164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/rif_dossier> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento al dossier" .
+_:ff9cd3463c0df4900ab4a72a504be727bb3 <http://www.w3.org/2002/07/owl#onProperty> <http://dati.camera.it/ocd/rif_gruppoParlamentare> .
+<http://dati.camera.it/ocd/plurieletto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/governo> .
+_:ff9cd3463c0df4900ab4a72a504be727bb144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb145 .
+<http://dati.camera.it/ocd/rif_ufficioParlamentare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/documentazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/discussione> .
+<http://dati.camera.it/ocd/composizioneOrgano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/rif_incarico> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/incarico> .
+_:ff9cd3463c0df4900ab4a72a504be727bb175 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb176 .
+<http://dati.camera.it/ocd/tipologia> <http://www.w3.org/2000/01/rdf-schema#label> "tipologia documentaria"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/lavoriPreparatori> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/note> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/documenti> .
+<http://dati.camera.it/ocd/rif_mandatoSenato> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb27 .
+_:ff9cd3463c0df4900ab4a72a504be727bb150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/rif_gruppoParlamentare> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/gruppoParlamentare> .
+_:ff9cd3463c0df4900ab4a72a504be727bb39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb40 .
+<http://dati.camera.it/ocd/opzione> <http://www.w3.org/2000/01/rdf-schema#label> "data di opzione" .
+<http://dati.camera.it/ocd/cambioDenominazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb6 .
+<http://dati.camera.it/ocd/denominazione> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/cambioDenominazione> .
+<http://dati.camera.it/ocd/parentADM1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/ruolo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/aderisce> <http://www.w3.org/2000/01/rdf-schema#label> "aderisce" .
+_:ff9cd3463c0df4900ab4a72a504be727bb103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/doc> .
+<http://dati.camera.it/ocd/circoscrizionePlurieletto> <http://www.w3.org/2000/01/rdf-schema#comment> "questa classe \u00E8 stata creata per gestire la descrizione di tutte le circoscrizione dei plurieletti"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/legislatura> .
+_:ff9cd3463c0df4900ab4a72a504be727bb54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/note> .
+_:ff9cd3463c0df4900ab4a72a504be727bb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb29 .
+<http://dati.camera.it/ocd/adesioneGruppoMisto> <http://www.w3.org/2000/01/rdf-schema#label> "adesione al Gruppo Misto"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2008/05/skos> .
+_:ff9cd3463c0df4900ab4a72a504be727bb121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb122 .
+_:ff9cd3463c0df4900ab4a72a504be727bb93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/tipoElezione> <http://www.w3.org/2000/01/rdf-schema#label> "tipo di elezione" .
+<http://dati.camera.it/ocd/rif_governo> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb85 .
+_:ff9cd3463c0df4900ab4a72a504be727bb136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/aic> .
+<http://dati.camera.it/ocd/doc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/deputato> .
+<http://dati.camera.it/ocd/rif_elezione> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento all'elezione" .
+<http://dati.camera.it/ocd/parentCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/note> .
+<http://dati.camera.it/ocd/appartenenzaOrgano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb14 .
+<http://dati.camera.it/ocd/trasformazioneGruppo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+_:ff9cd3463c0df4900ab4a72a504be727bb92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/componenteGruppoMisto> .
+_:ff9cd3463c0df4900ab4a72a504be727bb180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/deputato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dibattito> .
+_:ff9cd3463c0df4900ab4a72a504be727bb5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:ff9cd3463c0df4900ab4a72a504be727bb9 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/coverage> .
+_:ff9cd3463c0df4900ab4a72a504be727bb71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/giurisprudenza> .
+<http://dati.camera.it/ocd/rif_mandatoSenato> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/mandatoSenato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/persona> .
+_:ff9cd3463c0df4900ab4a72a504be727bb124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb125 .
+_:ff9cd3463c0df4900ab4a72a504be727bb157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb158 .
+<http://dati.camera.it/ocd/rif_leg> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 generica utilizzata ovunque tra le risorse per specificare l'appartenenza ad una legislatura"@it .
+<http://dati.camera.it/ocd/carica> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/ufficioParlamentare> .
+<http://dati.camera.it/ocd/cambioDenominazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb5 .
+<http://dati.camera.it/ocd/rif_bollettino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/cambioDenominazione> <http://www.w3.org/2000/01/rdf-schema#comment> "questa classe \u00E8 utilizzata per gestire i cambi di denominazione del Gruppo Parlamentare"@it .
+<http://dati.camera.it/ocd/convalida> <http://www.w3.org/2000/01/rdf-schema#comment> "data di convalida del mandato camera"@it .
+<http://dati.camera.it/ocd/nomina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/mandatoSenato> <http://www.w3.org/2000/01/rdf-schema#label> "mandato"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/cambioDenominazione> <http://www.w3.org/2000/01/rdf-schema#label> "cambio denominazione del Gruppo Parlamentare"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/rif_attocamera> <http://www.w3.org/2000/01/rdf-schema#comment> "riferimento agli altri atti camera citati"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/mandatoCamera> .
+<http://dati.camera.it/ocd/fa_parte_della> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/deputato> .
+<http://dati.camera.it/ocd/rif_sistemaElettorale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/siComponeDi> <http://www.w3.org/2000/01/rdf-schema#range> _:ff9cd3463c0df4900ab4a72a504be727bb110 .
+_:ff9cd3463c0df4900ab4a72a504be727bb100 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb101 .
+_:ff9cd3463c0df4900ab4a72a504be727bb98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/organoGoverno> .
+<http://dati.camera.it/ocd/dicastero> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/organoGoverno> .
+_:ff9cd3463c0df4900ab4a72a504be727bb85 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb86 .
+<http://dati.camera.it/ocd/tipoElezione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/note> <http://www.w3.org/2000/01/rdf-schema#label> "note"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+_:ff9cd3463c0df4900ab4a72a504be727bb56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/organo> .
+<http://dati.camera.it/ocd/griglia> <http://www.w3.org/2000/01/rdf-schema#comment> "riferimento ai concetti delle griglie tematiche di TheCa"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/gruppoParlamentare> .
+<http://dati.camera.it/ocd/rif_assemblea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://dati.camera.it/ocd/rif_seduta> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/seduta> .
+<http://dati.camera.it/ocd/rif_organoGoverno> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 utilizzata all'interno degli incarichi di governo per puntare all'organo di governo"@it .
+<http://dati.camera.it/ocd/rif_sistemaElettorale> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/sistemaElettorale> .
+<http://dati.camera.it/ocd/siComponeDi> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb105 .
+_:ff9cd3463c0df4900ab4a72a504be727bb20 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/date> .
+_:ff9cd3463c0df4900ab4a72a504be727bb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb35 .
+_:ff9cd3463c0df4900ab4a72a504be727bb62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb63 .
+<http://dati.camera.it/ocd/incaricoGovernativo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/incaricoGoverno> .
+<http://dati.camera.it/ocd/rif_organoGoverno> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/organoGoverno> .
+_:ff9cd3463c0df4900ab4a72a504be727bb101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb102 .
+<http://dati.camera.it/ocd/rif_assemblea> <http://www.w3.org/2000/01/rdf-schema#comment> "un doc pu\u00F2 fare riferimento ad un altro doc"@it .
+<http://dati.camera.it/ocd/trasformazioneGruppo> <http://www.w3.org/2000/01/rdf-schema#comment> "classe per gestire scissioni, accorpamenti, promozioni o riduzione a componente dei Gruppi Parlamentari"@it .
+<http://dati.camera.it/ocd/plurieletto> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/circoscrizionePlurieletto> .
+_:ff9cd3463c0df4900ab4a72a504be727bb81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb82 .
+_:ff9cd3463c0df4900ab4a72a504be727bb120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb121 .
+_:ff9cd3463c0df4900ab4a72a504be727bb47 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb48 .
+<http://dati.camera.it/ocd/rispostaAIC> <http://www.w3.org/2000/01/rdf-schema#label> "risposta scritta alle interrogazioni"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/documentazione> .
+_:ff9cd3463c0df4900ab4a72a504be727bb157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/dossier> .
+<http://dati.camera.it/ocd/lavoriPreparatori> <http://www.w3.org/2000/01/rdf-schema#label> "componente" .
+_:ff9cd3463c0df4900ab4a72a504be727bb103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb104 .
+<http://dati.camera.it/ocd/unitaOrganizzativa> <http://www.w3.org/2000/01/rdf-schema#label> "unit\u00E0 organizzativa"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/sistemaElettorale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/rif_presidenteConsiglioMinistri> <http://www.w3.org/2000/01/rdf-schema#label> "rierimento al Presidente del Consiglio dei ministri" .
+<http://dati.camera.it/ocd/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+_:ff9cd3463c0df4900ab4a72a504be727bb98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb99 .
+<http://dati.camera.it/ocd/composizioneOrgano> <http://www.w3.org/2000/01/rdf-schema#comment> "questa classe \u00E8 stata creata per descrivere i membri di un organo"@it .
+<http://dati.camera.it/ocd/concluso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/risorsa_web> .
+<http://dati.camera.it/ocd/sistemaElettorale> <http://www.w3.org/2000/01/rdf-schema#label> "sistema elettorale"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/bollettino> .
+<http://dati.camera.it/ocd/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://dati.camera.it/ocd/lex> <http://www.w3.org/2000/01/rdf-schema#label> "legge" .
+<http://dati.camera.it/ocd/assemblea> <http://www.w3.org/2000/01/rdf-schema#comment> "la classe fa riferimento al  centro dell'attivit\u00E0 della Camera,  dove si esercita la funzione legislativa, si concede o si revoca la fiducia al Governo, si discutono gli atti di indirizzo,  le interrogazioni e le interpellanze"@it .
+<http://dati.camera.it/ocd/dicastero> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://dati.camera.it/ocd/rif_organo> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/organo> .
+<http://dati.camera.it/ocd/rif_organo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/senatore> <http://www.w3.org/2000/01/rdf-schema#label> "senatore"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb170 .
+_:ff9cd3463c0df4900ab4a72a504be727bb178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/altro_firmatario> <http://www.w3.org/2000/01/rdf-schema#label> "altro firmatario" .
+<http://dati.camera.it/ocd/convalida> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/mandatoCamera> .
+<http://dati.camera.it/ocd/gruppoParlamentare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/cronologia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/organo> <http://www.w3.org/2000/01/rdf-schema#label> "organo"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb91 .
+_:ff9cd3463c0df4900ab4a72a504be727bb178 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb179 .
+<http://dati.camera.it/ocd/aderisce> <http://www.w3.org/2000/01/rdf-schema#comment> "adesione di un deputato ad un gruppo parlamentare"@it .
+<http://dati.camera.it/ocd/presieduta_da> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/seduta> .
+_:ff9cd3463c0df4900ab4a72a504be727bb170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb171 .
+_:ff9cd3463c0df4900ab4a72a504be727bb110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/documenti> <http://www.w3.org/2000/01/rdf-schema#label> "documenti"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/appartenenzaOrgano> <http://www.w3.org/2000/01/rdf-schema#comment> "questa classe \u00E8 stata creata per descrivere i membri di un organo"@it .
+<http://dati.camera.it/ocd/rif_dossier> <http://www.w3.org/2000/01/rdf-schema#comment> "riferimento ad un altro dossier citato nell'atto camera"@it .
+<http://dati.camera.it/ocd/rif_incarico> <http://www.w3.org/2000/01/rdf-schema#comment> "riferimento all'incarico nel Gruppo parlamentare"@it .
+<http://dati.camera.it/ocd/componente> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/adesioneGruppoMisto> .
+_:ff9cd3463c0df4900ab4a72a504be727bb136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb137 .
+_:ff9cd3463c0df4900ab4a72a504be727bb112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/rif_organo> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb100 .
+<http://dati.camera.it/ocd/rif_bollettino> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento al bollettino" .
+_:ff9cd3463c0df4900ab4a72a504be727bb76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb77 .
+_:ff9cd3463c0df4900ab4a72a504be727bb80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb81 .
+<http://dati.camera.it/ocd/rif_seduta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb18 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/type> .
+_:ff9cd3463c0df4900ab4a72a504be727bb163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/pubblicistica> .
+_:ff9cd3463c0df4900ab4a72a504be727bb134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/haMembro> <http://www.w3.org/2000/01/rdf-schema#comment> "propreit\u00E0 utilizzata per descrivere le composizioni degli organi parlamentari"@it .
+<http://dati.camera.it/ocd/rif_seduta> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento alla seduta" .
+<http://dati.camera.it/ocd/rif_presidenteConsiglioMinistri> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/presidenteConsiglioMinistri> .
+_:ff9cd3463c0df4900ab4a72a504be727bb161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/normativa> .
+_:ff9cd3463c0df4900ab4a72a504be727bb122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/doc> .
+<http://dati.camera.it/ocd/legge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb98 .
+<http://dati.camera.it/ocd/appartenenzaOrgano> <http://www.w3.org/2000/01/rdf-schema#label> "appertenenza di un deputato ad un organo"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/rif_incaricoGoverno> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento all'incarico di Governo" .
+<http://dati.camera.it/ocd/rif_unitaOrganizzativa> <http://www.w3.org/2000/01/rdf-schema#comment> "puntamento dei documenti ad una unit\u00E0 organizzativa all'interno della struttura camera"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/presidenteConsiglioMinistri> .
+<http://dati.camera.it/ocd/adesioneGruppoMisto> <http://www.w3.org/2000/01/rdf-schema#comment> "questa classe \u00E8 stata creata per gestire le adesioni del Gruppo Misto"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/ufficioParlamentare> .
+_:ff9cd3463c0df4900ab4a72a504be727bb75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/legge> .
+<http://dati.camera.it/ocd/legislatura> <http://www.w3.org/2000/01/rdf-schema#label> "legislatura"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb12 <http://www.w3.org/2002/07/owl#onProperty> <http://dati.camera.it/ocd/rif_componente> .
+<http://dati.camera.it/ocd/membroConsulta> <http://www.w3.org/2000/01/rdf-schema#label> "membro" .
+_:ff9cd3463c0df4900ab4a72a504be727bb117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/mandatoSenato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/parentADM1> <http://www.w3.org/2000/01/rdf-schema#label> "ADM1" .
+<http://dati.camera.it/ocd/> <http://purl.org/dc/elements/1.1/rights> "Camera dei deputati" .
+<http://dati.camera.it/ocd/fa_parte_della> <http://www.w3.org/2000/01/rdf-schema#label> "appartiene alla legislatura" .
+_:ff9cd3463c0df4900ab4a72a504be727bb176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/gruppoParlamentare> .
+<http://dati.camera.it/ocd/lista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/adesioneGruppoMisto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb13 .
+<http://dati.camera.it/ocd/rif_mandatoCamera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/rif_discussione> <http://www.w3.org/2000/01/rdf-schema#comment> "un dabattito pu\u00F2 avere pi\u00F9 discussioni"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb156 .
+<http://dati.camera.it/ocd/doc> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb164 .
+<http://dati.camera.it/ocd/rif_persona> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento a persona" .
+<http://dati.camera.it/ocd/rif_incaricoGoverno> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/incaricoGoverno> .
+<http://dati.camera.it/ocd/senatore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/appartenenzaOrgano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/normativa> .
+_:ff9cd3463c0df4900ab4a72a504be727bb27 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb28 .
+<http://dati.camera.it/ocd/proclamazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb7 .
+<http://dati.camera.it/ocd/gruppoParlamentare> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe fa riferimento ai gruppi dei partiti o movimenti politici rappresentati alla Camera. Secondo il Regolamento della Camera ogni deputato deve necessariamente appartenere ad un gruppo"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ff9cd3463c0df4900ab4a72a504be727bb162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb163 .
+_:ff9cd3463c0df4900ab4a72a504be727bb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/rif_attocamera> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento all'atto camera" .
+<http://dati.camera.it/ocd/adesioneGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "adesione del deputato al Gruppo Parlamentare"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb129 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb130 .
+<http://dati.camera.it/ocd/assemblea> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.camera.it/734> .
+<http://dati.camera.it/ocd/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/incaricoGovernativo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/componenteGruppoMisto> <http://www.w3.org/2000/01/rdf-schema#comment> "componenteGruppoMisto \u00E8 la classe che identifica le compononeti di cui si compone il Gruppo Misto"@it .
+<http://dati.camera.it/ocd/incaricoGovernativo> <http://www.w3.org/2000/01/rdf-schema#label> "incarico governativo" .
+_:ff9cd3463c0df4900ab4a72a504be727bb186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/destinatario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/rif_persona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/interim> <http://www.w3.org/2000/01/rdf-schema#label> "interim" .
+<http://dati.camera.it/ocd/aic> <http://www.w3.org/2000/01/rdf-schema#label> "atti di indirizzo e controllo"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/ac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/haMembro> <http://www.w3.org/2000/01/rdf-schema#label> "ha membro" .
+<http://dati.camera.it/ocd/deputato> <http://www.w3.org/2000/01/rdf-schema#label> "deputato"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/DOC> .
+_:ff9cd3463c0df4900ab4a72a504be727bb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ff9cd3463c0df4900ab4a72a504be727bb61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb62 .
+_:ff9cd3463c0df4900ab4a72a504be727bb72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb73 .
+_:ff9cd3463c0df4900ab4a72a504be727bb56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb57 .
+<http://dati.camera.it/ocd/griglia> <http://www.w3.org/2000/01/rdf-schema#range> <http://ocd.intra.camera.it/theca.rdf/Concept> .
+_:ff9cd3463c0df4900ab4a72a504be727bb172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb143 .
+<http://dati.camera.it/ocd/dibattito> <http://www.w3.org/2000/01/rdf-schema#label> "dibattito"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/componente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/aic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/risorsa_web> .
+<http://dati.camera.it/ocd/aderisce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/composizioneOrgano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb20 .
+<http://dati.camera.it/ocd/denominazione> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb175 .
+_:ff9cd3463c0df4900ab4a72a504be727bb129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/deputato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/risposta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb80 .
+<http://dati.camera.it/ocd/ruolo> <http://www.w3.org/2000/01/rdf-schema#label> "ruolo" .
+<http://dati.camera.it/ocd/rif_seduta> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb119 .
+<http://dati.camera.it/ocd/inarico> <http://www.w3.org/2000/01/rdf-schema#comment> "\u00E8 la classe che identifica gli incarichi all'interno dei gruppi parlamentari"@it .
+<http://dati.camera.it/ocd/presieduta_da> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/deputato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb1 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/date> .
+_:ff9cd3463c0df4900ab4a72a504be727bb92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb128 .
+_:ff9cd3463c0df4900ab4a72a504be727bb15 <http://www.w3.org/2002/07/owl#onProperty> <http://dati.camera.it/ocd/rif_deputato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ff9cd3463c0df4900ab4a72a504be727bb186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/mandatoSenato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb95 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb96 .
+_:ff9cd3463c0df4900ab4a72a504be727bb177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/rif_leg> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento alla legislatura" .
+<http://dati.camera.it/ocd/ufficioParlamentare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/denominazione> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 utilizzata per gestire i cambi di denominazione"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb161 .
+_:ff9cd3463c0df4900ab4a72a504be727bb174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/componenteGruppoMisto> .
+_:ff9cd3463c0df4900ab4a72a504be727bb184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb185 .
+_:ff9cd3463c0df4900ab4a72a504be727bb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/inarico> <http://www.w3.org/2000/01/rdf-schema#label> "incarico"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ff9cd3463c0df4900ab4a72a504be727bb145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/pubblicistica> .
+<http://dati.camera.it/ocd/altro_firmatario> <http://www.w3.org/2000/01/rdf-schema#comment> "indica gli altri firmatari del documento"@it .
+<http://dati.camera.it/ocd/parentADM2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/concluso> <http://www.w3.org/2000/01/rdf-schema#label> "costituzionale" .
+<http://dati.camera.it/ocd/governo> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe fa riferimento all'istituzione cui \u00E8 affidato dall'ordinamento giuridico l'esercizio della funzione esecutiva"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb139 .
+<http://dati.camera.it/ocd/concluso> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://dati.camera.it/ocd/costituzionale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/doc> .
+_:ff9cd3463c0df4900ab4a72a504be727bb81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/sistemaElettorale> .
+<http://dati.camera.it/ocd/rif_ufficioParlamentare> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/ufficioParlamentare> .
+_:ff9cd3463c0df4900ab4a72a504be727bb41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://dati.camera.it/ocd/rif_persona> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb41 .
+<http://dati.camera.it/ocd/concluso> <http://www.w3.org/2000/01/rdf-schema#comment> "per indicare lo status di un atto di indirizzo e controllo"@it .
+<http://dati.camera.it/ocd/rif_organoGoverno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/siComponeDi> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 utilizzata per descrivere la composizione dei deputati nell'assemblea e nei gruppi e degli orgnao nelle legislature"@it .
+<http://dati.camera.it/ocd/rif_unitaOrganizzativa> <http://www.w3.org/2000/01/rdf-schema#label> "unit\u00E0 organizzativa" .
+<http://dati.camera.it/ocd/documenti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/DOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/griglia> <http://www.w3.org/2000/01/rdf-schema#label> "griglia" .
+_:ff9cd3463c0df4900ab4a72a504be727bb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb34 .
+_:ff9cd3463c0df4900ab4a72a504be727bb151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+_:ff9cd3463c0df4900ab4a72a504be727bb134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/seduta> .
+_:ff9cd3463c0df4900ab4a72a504be727bb150 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb151 .
+<http://dati.camera.it/ocd/tipoProclamazione> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/proclamazione> .
+<http://dati.camera.it/ocd/parentCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "nazione"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/membroConsulta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/rif_gruppoParlamentare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/dottrina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/lex> <http://www.w3.org/2000/01/rdf-schema#comment> "riferimento esterno alla norma ufficiale"@it .
+<http://dati.camera.it/ocd/name> <http://www.w3.org/2000/01/rdf-schema#label> "nome del luogo" .
+_:ff9cd3463c0df4900ab4a72a504be727bb70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb71 .
+<http://dati.camera.it/ocd/fa_parte_della> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb135 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb136 .
+<http://dati.camera.it/ocd/autore> <http://www.w3.org/2000/01/rdf-schema#label> "autore"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/cronologia> .
+_:ff9cd3463c0df4900ab4a72a504be727bb133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb134 .
+<http://dati.camera.it/ocd/bollettino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/fa_parte_della> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 che collega una risorsa deputato ad una specifica legislatura"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb69 .
+_:ff9cd3463c0df4900ab4a72a504be727bb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/persona> .
+<http://dati.camera.it/ocd/normativa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/deputato> .
+_:ff9cd3463c0df4900ab4a72a504be727bb177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/componenteGruppoMisto> .
+<http://dati.camera.it/ocd/lavoriPreparatori> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/presieduta_da> <http://www.w3.org/2000/01/rdf-schema#label> "presieduta da" .
+<http://dati.camera.it/ocd/adesioneGruppo> <http://www.w3.org/2000/01/rdf-schema#comment> "questa classe \u00E8 stata creata per gestire le adesioni dei deputati ai gruppi parlamentari"@it .
+<http://dati.camera.it/ocd/lavoriPreparatori> <http://www.w3.org/2000/01/rdf-schema#label> "lavori preparatori" .
+<http://dati.camera.it/ocd/mandatoSenato> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe fa riferimento allo status di senatore assunto da una persona  - candidato in elezioni politiche -  in seguito ad un voto popolare"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/elezione> .
+<http://dati.camera.it/ocd/doc> <http://www.w3.org/2000/01/rdf-schema#label> "URL del DOC" .
+_:ff9cd3463c0df4900ab4a72a504be727bb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/senatore> .
+<http://dati.camera.it/ocd/incaricoGovernativo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/DOC> <http://www.w3.org/2000/01/rdf-schema#comment> "la classe contiene i documenti parlamentari stampati dalla Camera dei deputati, i cosiddetti \"DOC\" in numero romano: documenti e relazioni, trasmessi alla Camera dal Governo o da altri soggetti istituzionali ovvero predisposti da organi della Camera stessa"@it .
+<http://dati.camera.it/ocd/rif_elezione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/presidenteRepubblica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb43 .
+_:ff9cd3463c0df4900ab4a72a504be727bb181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb182 .
+_:ff9cd3463c0df4900ab4a72a504be727bb78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb79 .
+<http://dati.camera.it/ocd/parentADM1> <http://www.w3.org/2000/01/rdf-schema#comment> "primo livello di divisione amministrativa"@it .
+<http://dati.camera.it/ocd/rif_mandatoCamera> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/mandatoCamera> .
+_:ff9cd3463c0df4900ab4a72a504be727bb64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb65 .
+<http://dati.camera.it/ocd/incaricoGoverno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/adesioneGruppo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb11 .
+<http://dati.camera.it/ocd/seduta> <http://www.w3.org/2000/01/rdf-schema#label> "seduta"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/composizioneOrgano> <http://www.w3.org/2000/01/rdf-schema#label> "composizione di un organo parlamentare"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/assemblea> <http://www.w3.org/2000/01/rdf-schema#label> "assemblea"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.geonames.org/ontology#name> .
+<http://dati.camera.it/ocd/parentADM3> <http://www.w3.org/2000/01/rdf-schema#comment> "terzo livello di divisione amministrativa"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/documentazione> .
+_:ff9cd3463c0df4900ab4a72a504be727bb35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/mandatoCamera> .
+<http://dati.camera.it/ocd/ufficioParlamentare> <http://www.w3.org/2000/01/rdf-schema#label> "ufficio Parlamentare"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/iniziativa> <http://www.w3.org/2000/01/rdf-schema#comment> "per indicare se l'atto camera \u00E8 di iniziativa popolare, parlamentare o mista"@it .
+<http://dati.camera.it/ocd/sistemaElettorale> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe contiene le normative applicate nelle consultazioni elettorali dal regno di Sardegna alla Repubblica: maggioritario uninominale (1848 - 1880); maggioritario: scrutinio di lista (1882 - 1890); maggioritario: uninominale (1892 - 1913); proporzionale (1919 - 1921); lista unica (1929 - 1934); \nproporzionale (1946 - 1993); misto: maggioritario e proporzionale (1994-2005); proporzionale con premio di maggioranza (2006-2011)"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb49 .
+<http://dati.camera.it/ocd/parentCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/lista> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/risorsa_web> .
+<http://dati.camera.it/ocd/presieduta_da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/mandatoSenato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/adesioneGruppoMisto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/dossier> <http://www.w3.org/2000/01/rdf-schema#label> "dossier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/atto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/documenti> .
+_:ff9cd3463c0df4900ab4a72a504be727bb46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/cronologia> .
+_:ff9cd3463c0df4900ab4a72a504be727bb4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/date> .
+<http://dati.camera.it/ocd/diventa> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb172 .
+<http://dati.camera.it/ocd/parentADM3> <http://www.w3.org/2000/01/rdf-schema#label> "ADM3" .
+<http://dati.camera.it/ocd/bollettino> <http://www.w3.org/2000/01/rdf-schema#label> "bollettino"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/costituzionale> <http://www.w3.org/2000/01/rdf-schema#label> "costituzionale" .
+<http://dati.camera.it/ocd/tipoElezione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/elezione> .
+<http://dati.camera.it/ocd/tipoProclamazione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/mandatoCamera> .
+_:ff9cd3463c0df4900ab4a72a504be727bb124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/DOC> .
+_:ff9cd3463c0df4900ab4a72a504be727bb158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb159 .
+<http://dati.camera.it/ocd/plurieletto> <http://www.w3.org/2000/01/rdf-schema#comment> "propriet\u00E0 utilizzata per descrivere tutte le circoscrizioni di elezione di un plurieletto"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb93 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb94 .
+<http://dati.camera.it/ocd/lavoriPreparatori> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/organoGoverno> .
+<http://dati.camera.it/ocd/rif_doc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/rif_dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dati.camera.it/ocd/governo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/rif_senatore> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento al senatore" .
+<http://dati.camera.it/ocd/persona> <http://www.w3.org/2000/01/rdf-schema#comment> "\u00E8 la classe che identifica la persona che ha svolto qualche ruolo all'interno della Camera dei deputati. La persona che ha un mandato parlamentare \u00E8 anche un deputato. Ad una persona possono corripondere 0-n deputati."@it .
+<http://dati.camera.it/ocd/persona> <http://www.w3.org/2002/07/owl#sameAs> <http://xmlns.com/foaf/0.1/Person> .
+<http://dati.camera.it/ocd/lavoriPreparatoriLegge> <http://www.w3.org/2000/01/rdf-schema#label> "lavori preparatori"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/DOC> <http://www.w3.org/2000/01/rdf-schema#label> "doc"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/lavoriPreparatoriLegge> <http://www.w3.org/2000/01/rdf-schema#comment> "riferimento ai lavori preparatori di una legge"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb33 .
+_:ff9cd3463c0df4900ab4a72a504be727bb140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb141 .
+_:ff9cd3463c0df4900ab4a72a504be727bb52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb53 .
+_:ff9cd3463c0df4900ab4a72a504be727bb48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/aic> .
+<http://dati.camera.it/ocd/opzione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/rif_organo> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento all'organo" .
+<http://dati.camera.it/ocd/giurisprudenza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/documenti> .
+<http://dati.camera.it/ocd/elezione> <http://www.w3.org/2000/01/rdf-schema#comment> "elezione \u00E8 la classe che identifica i dati di elezione di un sinoglo deputato (collegio, voti, sistema elettorale)"@it .
+<http://dati.camera.it/ocd/gruppoParlamentare> <http://www.w3.org/2000/01/rdf-schema#label> "gruppo parlamentare"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:ff9cd3463c0df4900ab4a72a504be727bb97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/governo> .
+_:ff9cd3463c0df4900ab4a72a504be727bb35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb36 .
+<http://dati.camera.it/ocd/appartenenzaOrgano> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb16 .
+<http://dati.camera.it/ocd/unitaOrganizzativa> <http://www.w3.org/2000/01/rdf-schema#comment> "unitaOrganizzativa \u00E8 la classe che identifica i dipartimenti/uffici in cui si struttura la Camera dei Deputati"@it .
+<http://dati.camera.it/ocd/rif_elezione> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/elezione> .
+_:ff9cd3463c0df4900ab4a72a504be727bb131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://dati.camera.it/ocd/rif_doc> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/DOC> .
+_:ff9cd3463c0df4900ab4a72a504be727bb154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb155 .
+<http://dati.camera.it/ocd/> <http://creativecommons.org/ns#licence> <http://creativecommons.org/licenses/by-sa/3.0/> .
+<http://dati.camera.it/ocd/costituzionale> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://dati.camera.it/ocd/convalida> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://dati.camera.it/ocd/altro_firmatario> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/persona> .
+_:ff9cd3463c0df4900ab4a72a504be727bb6 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/alternative> .
+<http://dati.camera.it/ocd/motivoTermine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dati.camera.it/ocd/cambioDenominazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/pubblicistica> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dati.camera.it/ocd/documenti> .
+<http://dati.camera.it/ocd/ac> <http://www.w3.org/2000/01/rdf-schema#comment> "puntamento alla URL dell'atto camera"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/rif_governo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ff9cd3463c0df4900ab4a72a504be727bb143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/normativa> .
+<http://dati.camera.it/ocd/assemblea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ff9cd3463c0df4900ab4a72a504be727bb87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/legislatura> .
+_:ff9cd3463c0df4900ab4a72a504be727bb74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb75 .
+_:ff9cd3463c0df4900ab4a72a504be727bb80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/pubblicistica> .
+<http://dati.camera.it/ocd/rif_mandatoCamera> <http://www.w3.org/2000/01/rdf-schema#label> "riferimento a mandato camera" .
+<http://dati.camera.it/ocd/destinatario> <http://www.w3.org/2000/01/rdf-schema#label> "componente" .
+_:ff9cd3463c0df4900ab4a72a504be727bb116 <http://www.w3.org/2002/07/owl#unionOf> _:ff9cd3463c0df4900ab4a72a504be727bb117 .
+_:ff9cd3463c0df4900ab4a72a504be727bb130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb131 .
+<http://dati.camera.it/ocd/risposta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dati.camera.it/ocd/aic> .
+<http://dati.camera.it/ocd/circoscrizionePlurieletto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff9cd3463c0df4900ab4a72a504be727bb9 .
+<http://dati.camera.it/ocd/aic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.camera.it/205> .
+<http://dati.camera.it/ocd/cronologia> <http://www.w3.org/2000/01/rdf-schema#label> "cronologia"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/nomina> <http://www.w3.org/2000/01/rdf-schema#comment> "descrive la relazione tra legislatura e assemblea"@it .
+_:ff9cd3463c0df4900ab4a72a504be727bb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ff9cd3463c0df4900ab4a72a504be727bb105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/trasformazioneGruppo> <http://www.w3.org/2000/01/rdf-schema#label> "trasformazione del Gruppo Parlamentare"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/parentADM2> <http://www.w3.org/2000/01/rdf-schema#label> "ADM2" .
+_:ff9cd3463c0df4900ab4a72a504be727bb153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/persona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/opzione> <http://www.w3.org/2000/01/rdf-schema#comment> "data di opzione in una elezione"@it .
+<http://dati.camera.it/ocd/parentADM3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://dati.camera.it/ocd/circoscrizionePlurieletto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dati.camera.it/ocd/lex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://dati.camera.it/ocd/rif_attocamera> <http://www.w3.org/2000/01/rdf-schema#domain> _:ff9cd3463c0df4900ab4a72a504be727bb166 .
+_:ff9cd3463c0df4900ab4a72a504be727bb64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://dati.camera.it/ocd/atto> .
+<http://dati.camera.it/ocd/rif_discussione> <http://www.w3.org/2000/01/rdf-schema#range> <http://dati.camera.it/ocd/discussione> .
+_:ff9cd3463c0df4900ab4a72a504be727bb67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff9cd3463c0df4900ab4a72a504be727bb68 .
+

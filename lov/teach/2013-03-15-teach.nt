@@ -1,0 +1,234 @@
+<http://linkedscience.org/teach/ns#Student> <http://www.w3.org/2000/01/rdf-schema#comment> "Student of the course.\n"@en .
+<http://linkedscience.org/teach/ns#nextReading> <http://www.w3.org/2000/01/rdf-schema#comment> "nextReading is an abstract property for dynamically stating the reading required to be read by the next session of the course/seminar."@en .
+<http://linkedscience.org/teach/ns#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#hasDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "hasDescription is subproperty of dc:description to specify needed descriptions of entities within the course, e.g. the description of course materials, assignments, etc."@en .
+<http://linkedscience.org/teach/ns#studyProgram> <http://www.w3.org/2000/01/rdf-schema#label> "room"@en .
+<http://linkedscience.org/teach/ns#deadlineFinalReport> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#deadlineFinalReport> .
+<http://linkedscience.org/teach/ns#reading> <http://www.w3.org/2000/01/rdf-schema#comment> "reading is an abstract property to relate required readings to the course/seminar."@en .
+<http://linkedscience.org/teach/ns#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://linkedscience.org/teach/ns#Building> <http://www.w3.org/2000/01/rdf-schema#comment> "Building where the course is taking place.\n"@en .
+<http://linkedscience.org/teach/ns#studyProgram> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the study program which is associated with the course/seminar."@en .
+<http://linkedscience.org/teach/ns#courseDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#courseDescription> .
+<http://linkedscience.org/teach/ns#deadline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#academicTerm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+_:f04309fbd2b044659be3772fd8f026f4fb1 <http://purl.org/net/provenance/ns#performedAt> "2013-03-15T09:30:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://linkedscience.org/teach/ns#deadlineFinalReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#StudyProgram> <http://www.w3.org/2000/01/rdf-schema#label> "StudyProgram"@en .
+<http://linkedscience.org/teach/ns#Course> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#deadlineFinalReport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#notArrangedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#Material> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#reportTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "reportTemplate is an abstract property to relate a report template to the course/seminar so that students may use it to write their reports."@en .
+<http://linkedscience.org/teach/ns#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/provenance/ns#DataItem> .
+<http://linkedscience.org/teach/ns#Assignment> <http://www.w3.org/2000/01/rdf-schema#label> "Assignment"@en .
+<http://linkedscience.org/teach/ns#deadlineFinalReport> <http://www.w3.org/2000/01/rdf-schema#label> "deadlineFinalReport"@en .
+<http://linkedscience.org/teach/ns#opponentOf> <http://www.w3.org/2000/01/rdf-schema#label> "opponentOf"@en .
+<http://linkedscience.org/teach/ns#studentGroup> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#Assignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#teacherOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#building> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/Building> .
+<http://linkedscience.org/teach/ns-20130315/> <http://purl.org/dc/terms/title> "Teaching Core Vocabulary Specification"@en .
+<http://linkedscience.org/teach/ns#module> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the module of the study program with which the course/seminar is associated."@en .
+<http://linkedscience.org/teach/ns#academicTerm> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#academicTerm> .
+<http://linkedscience.org/teach/ns-20130315/> <http://www.w3.org/2000/01/rdf-schema#label> "Document that defines the Teaching Core Vocabulary"@en .
+<http://linkedscience.org/teach/ns#ects> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#ects> .
+_:f04309fbd2b044659be3772fd8f026f4fb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/provenance/ns#DataCreation> .
+<http://linkedscience.org/teach/ns#bookingNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/description> .
+<http://linkedscience.org/teach/ns-20130315/> <http://purl.org/dc/terms/description> "This documents specifies the classes and properties introduced by the TEACH core vocabulary."@en .
+<http://linkedscience.org/teach/ns#reading> <http://www.w3.org/2000/01/rdf-schema#label> "reading"@en .
+<http://linkedscience.org/teach/ns#deadlineReviewReport> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#deadlineReviewReport> .
+<http://linkedscience.org/teach/ns#hasDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#hasDescription> .
+<http://linkedscience.org/teach/ns#arrangedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/12/cal/icaltzd#> .
+<http://linkedscience.org/teach/ns#hasTitle> <http://www.w3.org/2000/01/rdf-schema#label> "hasTitle"@en .
+<http://linkedscience.org/teach/ns#notArrangedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "notArrangedAt is an abstract property to explicate the date/time when the seminar has an exception in its schedule and thus is not arranged at."@en .
+<http://linkedscience.org/teach/ns#teacher> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#deadline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#academicTerm> <http://dbpedia.org/ontology/related> <http://dbpedia.org/page/Academic_term> .
+<http://linkedscience.org/teach/ns#> <http://purl.org/dc/terms/created> "2013-03-15T09:30:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://linkedscience.org/teach/ns#Assignment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#nextReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#notArrangedAt> <http://www.w3.org/2000/01/rdf-schema#label> "notArrangedAt"@en .
+<http://linkedscience.org/teach/ns#deadlineReviewReport> <http://www.w3.org/2000/01/rdf-schema#comment> "deadlineReviewReport is an abstract property to explicate the deadline for review reports (opponent works)."@en .
+<http://linkedscience.org/teach/ns#weeklyHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#Teacher> <http://www.w3.org/2000/01/rdf-schema#label> "Teacher"@en .
+<http://linkedscience.org/teach/ns#bookingNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kauppinen.net/tomi#me> <http://xmlns.com/foaf/0.1/name> "Tomi Kauppinen"@en .
+<http://linkedscience.org/teach/ns-20130315/> <http://purl.org/dc/terms/conformsTo> <http://www.w3.org/TR/rdfa-syntax> .
+<http://linkedscience.org/teach/ns#courseTitle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/title> .
+<http://linkedscience.org/teach/ns#StudyProgram> <http://www.w3.org/2000/01/rdf-schema#comment> "StudyProgram which the course is part of.\n"@en .
+<http://linkedscience.org/teach/ns#Lecture> <http://www.w3.org/2000/01/rdf-schema#label> "Lecture"@en .
+<http://linkedscience.org/teach/ns#deadlineReviewReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#studentGroup> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/TEACHER> .
+<http://linkedscience.org/teach/ns#academicTerm> <http://www.w3.org/2000/01/rdf-schema#label> "academicTerm"@en .
+<http://linkedscience.org/teach/ns#Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#academicTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "academicTerm is an abstract property to express the academic term (e.g. Summer 2011) of the course/seminar."@en .
+<http://linkedscience.org/teach/ns#courseDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#courseDescription> <http://dbpedia.org/ontology/related> <http://dbpedia.org/page/Course_(education)> .
+<http://linkedscience.org/teach/ns#deadlineDraftReport> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#deadlineDraftReport> .
+<http://linkedscience.org/teach/ns#ects> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/European_Credit_Transfer_and_Accumulation_System> .
+<http://linkedscience.org/teach/ns#teacherOf> <http://www.w3.org/2000/01/rdf-schema#comment> "teacherOf is an abstract property to relate a teacher to a course/seminar."@en .
+<http://linkedscience.org/teach/ns#ects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#arrangedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#nextReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#studentGroup> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Group> .
+<http://http://ifgi.uni-muenster.de/~j_tram02/foaf.rdf> <http://xmlns.com/foaf/0.1/homepage> <http://www.xing.com/profile/Andres_Westermann> .
+<http://linkedscience.org/teach/ns#bookingNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "bookingNumber is an abstract property to uniquely identify the course. This identifier should be defined and provided by the operator of the course."@en .
+<http://linkedscience.org/teach/ns#courseTitle> <http://www.w3.org/2000/01/rdf-schema#label> "courseTitle"@en .
+<http://linkedscience.org/teach/ns#weeklyHours> <http://www.w3.org/2000/01/rdf-schema#comment> "weeklyHours is an abstract property to express the number of weekly hours for the teaching."@en .
+<http://linkedscience.org/teach/ns#courseTitle> <http://dbpedia.org/ontology/related> <http://dbpedia.org/page/Course_(education)> .
+<http://linkedscience.org/teach/ns#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#Student> <http://www.w3.org/2000/01/rdf-schema#label> "Student"@en .
+<http://linkedscience.org/teach/ns#reviewTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "reviewTemplate is an abstract property to relate a review template to the course/seminar so that students may use it to write their reviews of other student's reports."@en .
+<http://linkedscience.org/teach/ns#reviewTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#studyProgram> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/Room> .
+<http://linkedscience.org/teach/ns#building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#notArrangedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#opponentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#bookingNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#bookingNumber> .
+_:f04309fbd2b044659be3772fd8f026f4fb1 <http://purl.org/net/provenance/ns#performedBy> <http://kauppinen.net/tomi#me> .
+<http://linkedscience.org/teach/ns#ects> <http://www.w3.org/2000/01/rdf-schema#label> "ects"@en .
+<http://linkedscience.org/teach/ns#reading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#reading> .
+<http://linkedscience.org/teach/ns#deadlineFinalReport> <http://www.w3.org/2000/01/rdf-schema#comment> "deadlineFinalReport is an abstract property to explicate the deadline for a final project report."@en .
+<http://linkedscience.org/teach/ns#notArrangedAt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#notArrangedAt> .
+<http://linkedscience.org/teach/ns#grading> <http://www.w3.org/2000/01/rdf-schema#label> "grading"@en .
+<http://linkedscience.org/teach/ns#courseDescription> <http://www.w3.org/2000/01/rdf-schema#label> "courseDescription"@en .
+<http://linkedscience.org/teach/ns#courseTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#grading> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/Grading> .
+<http://linkedscience.org/teach/ns#teacherOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://kauppinen.net/tomi#me> <http://xmlns.com/foaf/0.1/homepage> <http://kauppinen.net/tomi> .
+<http://linkedscience.org/teach/ns#weeklyHours> <http://dbpedia.org/ontology/related> <http://de.dbpedia.org/resource/Semesterwochenstunde> .
+<http://linkedscience.org/teach/ns#hasTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#hasTitle> .
+<http://linkedscience.org/teach/ns#room> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#room> .
+<http://linkedscience.org/teach/ns#studyProgram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#studentGroup> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#studentGroup> .
+<http://kauppinen.net/tomi#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://linkedscience.org/teach/ns-20130315/> <http://xmlns.com/foaf/0.1/primaryTopic> <http://linkedscience.org/teach/ns#> .
+<http://linkedscience.org/teach/ns#Room> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns-20130315/> <http://www.w3.org/1999/xhtml/vocab#license> <http://creativecommons.org/licenses/by/1.0/> .
+<http://linkedscience.org/teach/ns#opponentOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#opponentOf> .
+<http://linkedscience.org/teach/ns#StudyProgram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#courseDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#bookingNumber> <http://www.w3.org/2000/01/rdf-schema#label> "bookingNumber"@en .
+<http://linkedscience.org/teach/ns#> <http://purl.org/net/provenance/ns#createdBy> _:f04309fbd2b044659be3772fd8f026f4fb2 .
+<http://linkedscience.org/teach/ns#academicTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#room> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#hasDescription> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/description> .
+<http://linkedscience.org/teach/ns#studyProgram> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://http://ifgi.uni-muenster.de/~j_tram02/foaf.rdf> <http://xmlns.com/foaf/0.1/name> "Andres Westermann"@en .
+<http://linkedscience.org/teach/ns#Module> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#hasDescription> <http://www.w3.org/2000/01/rdf-schema#label> "hasDescription"@en .
+<http://linkedscience.org/teach/ns#reviewTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "reviewTemplate"@en .
+<http://linkedscience.org/teach/ns#deadlineDraftReport> <http://www.w3.org/2000/01/rdf-schema#comment> "deadlineDraftReport is an abstract property explicate the deadline for a draft project report."@en .
+<http://linkedscience.org/teach/ns#arrangedAt> <http://www.w3.org/2000/01/rdf-schema#label> "arrangedAt"@en .
+<http://linkedscience.org/teach/ns#module> <http://www.w3.org/2000/01/rdf-schema#label> "room"@en .
+<http://linkedscience.org/teach/ns#teacher> <http://www.w3.org/2000/01/rdf-schema#label> "teacher"@en .
+<http://linkedscience.org/teach/ns#reportTemplate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#reportTemplate> .
+<http://linkedscience.org/teach/ns#Lecture> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#opponentOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://linkedscience.org/teach/ns#grading> <http://www.w3.org/2000/01/rdf-schema#comment> "grading is an abstract property to relate the course/seminar to the description about its grading."@en .
+<http://linkedscience.org/teach/ns#room> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/Room> .
+<http://linkedscience.org/teach/ns#reading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#hasDescription> <http://dbpedia.org/ontology/related> <http://dbpedia.org/page/Course_(education)> .
+<http://linkedscience.org/teach/ns#deadlineDraftReport> <http://www.w3.org/2000/01/rdf-schema#label> "deadlineDraftReport"@en .
+<http://linkedscience.org/teach/ns#Lecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#weeklyHours> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#weeklyHours> .
+<http://linkedscience.org/teach/ns#module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#Student> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#Course> <http://www.w3.org/2000/01/rdf-schema#comment> "Course is where students are supposed to learn something.\n"@en .
+<http://linkedscience.org/teach/ns#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#Teacher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#arrangedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "arrangedAt is an abstract property to explicate the date/time when the seminar is arranged at. It can be defined as in the following example:\n  http://www.w3.org/TR/rdfcal/#L21805"@en .
+<http://linkedscience.org/teach/ns#nextReading> <http://www.w3.org/2000/01/rdf-schema#label> "nextReading"@en .
+_:f04309fbd2b044659be3772fd8f026f4fb2 <http://purl.org/net/provenance/ns#performedBy> <http://kauppinen.net/tomi#me> .
+<http://linkedscience.org/teach/ns#room> <http://www.w3.org/2000/01/rdf-schema#label> "room"@en .
+<http://linkedscience.org/teach/ns#studyProgram> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#studyProgram> .
+<http://linkedscience.org/teach/ns#ects> <http://www.w3.org/2000/01/rdf-schema#comment> "ects is an abstract property to express the ects (European Credit Transfer System) of the course/seminar."@en .
+<http://linkedscience.org/teach/ns#building> <http://www.w3.org/2000/01/rdf-schema#comment> "building is an abstract property to express the building where the course/seminar takes place."@en .
+<http://linkedscience.org/teach/ns#ects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#grading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#grading> .
+<http://linkedscience.org/teach/ns#> <http://purl.org/dc/terms/description> "TEACH, the Teaching Core Vocabulary,\nis a lightweight vocabulary providing terms to enable teachers to relate things in their courses together.\nThe Teaching Core Vocabulary is based on practical requirements set by providing seminar and course descriptions as Linked Data.\n"@en .
+<http://linkedscience.org/teach/ns#hasTitle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/title> .
+<http://linkedscience.org/teach/ns#Material> <http://www.w3.org/2000/01/rdf-schema#comment> "Material of the course.\n"@en .
+<http://linkedscience.org/teach/ns#deadline> <http://www.w3.org/2000/01/rdf-schema#label> "deadline"@en .
+<http://linkedscience.org/teach/ns#hasTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "hasTitle is subproperty of dc:title  to specify needed titles of entities within the course, e.g. the title of course materials, assignments, etc."@en .
+<http://linkedscience.org/teach/ns#reviewTemplate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#reviewTemplate> .
+<http://linkedscience.org/teach/ns#reading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#grading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#deadlineReviewReport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#StudentGroup> <http://www.w3.org/2000/01/rdf-schema#label> "StudentGroup"@en .
+<http://linkedscience.org/teach/ns#courseTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#deadline> <http://www.w3.org/2000/01/rdf-schema#comment> "deadline is an abstract property explicate the deadline for a draft project report."@en .
+<http://linkedscience.org/teach/ns#Module> <http://www.w3.org/2000/01/rdf-schema#comment> "Module (i.e. a set of courses) which the course belongs to.\n"@en .
+<http://linkedscience.org/teach/ns#teacherOf> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/TEACHER> .
+<http://linkedscience.org/teach/ns#hasTitle> <http://dbpedia.org/ontology/related> <http://dbpedia.org/page/Course_(education)> .
+<http://linkedscience.org/teach/ns#Teacher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#Room> <http://www.w3.org/2000/01/rdf-schema#comment> "Room where the course is taking place.\n"@en .
+<http://linkedscience.org/teach/ns#module> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#Building> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#deadlineReviewReport> <http://www.w3.org/2000/01/rdf-schema#label> "deadlineReviewReport"@en .
+<http://linkedscience.org/teach/ns#reportTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "reportTemplate"@en .
+<http://linkedscience.org/teach/ns#teacher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#teacher> .
+<http://linkedscience.org/teach/ns#opponentOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://linkedscience.org/teach/ns#deadline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#deadline> .
+<http://linkedscience.org/teach/ns#reviewTemplate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#studentGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#> <http://purl.org/net/provenance/ns#createdBy> _:f04309fbd2b044659be3772fd8f026f4fb1 .
+<http://linkedscience.org/teach/ns#bookingNumber> <http://dbpedia.org/ontology/related> <http://dbpedia.org/page/Course_(education)> .
+<http://http://ifgi.uni-muenster.de/~j_tram02/foaf.rdf> <http://xmlns.com/foaf/0.1/name> "Johannes Trame"@en .
+<http://linkedscience.org/teach/ns#Room> <http://www.w3.org/2000/01/rdf-schema#label> "Room"@en .
+<http://linkedscience.org/teach/ns#Building> <http://www.w3.org/2000/01/rdf-schema#label> "Building"@en .
+<http://linkedscience.org/teach/ns-20130315/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://http://ifgi.uni-muenster.de/~j_tram02/foaf.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://linkedscience.org/teach/ns#arrangedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#building> <http://www.w3.org/2000/01/rdf-schema#label> "room"@en .
+<http://linkedscience.org/teach/ns#StudentGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "StudentGroup of the course.\n"@en .
+<http://linkedscience.org/teach/ns#Room> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#reportTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#building> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#building> .
+<http://linkedscience.org/teach/ns#Lecture> <http://www.w3.org/2000/01/rdf-schema#comment> "Lecture of the course.\n"@en .
+<http://linkedscience.org/teach/ns#Course> <http://www.w3.org/2000/01/rdf-schema#label> "Course"@en .
+<http://linkedscience.org/teach/ns#teacher> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#room> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#opponentOf> <http://www.w3.org/2000/01/rdf-schema#comment> "opponentOf is an abstract property to state that a student is an opponent of another, i.e. that he/she makes review of the other student's seminar work."@en .
+<http://linkedscience.org/teach/ns#weeklyHours> <http://www.w3.org/2000/01/rdf-schema#label> "weeklyHours"@en .
+<http://linkedscience.org/teach/ns#Assignment> <http://www.w3.org/2000/01/rdf-schema#comment> "Assignment of a course, for example an exercise.\n"@en .
+<http://linkedscience.org/teach/ns#reportTemplate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#bookingNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#Material> <http://www.w3.org/2000/01/rdf-schema#label> "Material"@en .
+<http://linkedscience.org/teach/ns#Module> <http://www.w3.org/2000/01/rdf-schema#label> "Module"@en .
+<http://linkedscience.org/teach/ns#grading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#studentGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "studentGroup is an abstract property to relate a student group to the course/seminar."@en .
+<http://linkedscience.org/teach/ns#> <http://purl.org/dc/terms/creator> <http://kauppinen.net/tomi#me> .
+<http://linkedscience.org/teach/ns#notArrangedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#datetime> .
+<http://linkedscience.org/teach/ns#deadlineDraftReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#teacherOf> <http://www.w3.org/2000/01/rdf-schema#label> "teacherOf"@en .
+<http://linkedscience.org/teach/ns#nextReading> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#nextReading> .
+<http://linkedscience.org/teach/ns#arrangedAt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#arrangedAt> .
+<http://linkedscience.org/teach/ns#teacherOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#teacherOf> .
+<http://linkedscience.org/teach/ns#Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#module> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/Module> .
+<http://linkedscience.org/teach/ns#StudentGroup> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#weeklyHours> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+<http://linkedscience.org/teach/ns#teacher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#StudyProgram> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns> .
+<http://linkedscience.org/teach/ns#> <http://purl.org/dc/terms/title> "Teaching Core Vocabulary namespace"@en .
+<http://linkedscience.org/teach/ns#building> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+_:f04309fbd2b044659be3772fd8f026f4fb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/provenance/ns#DataCreation> .
+_:f04309fbd2b044659be3772fd8f026f4fb2 <http://purl.org/net/provenance/ns#performedAt> "2013-03-15T09:30:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://http://ifgi.uni-muenster.de/~j_tram02/foaf.rdf> <http://xmlns.com/foaf/0.1/homepage> <http://ifgi.uni-muenster.de/~j_tram02/> .
+<http://linkedscience.org/teach/ns#studentGroup> <http://www.w3.org/2000/01/rdf-schema#label> "studentGroup"@en .
+<http://linkedscience.org/teach/ns#teacherOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://linkedscience.org/teach/ns#courseDescription> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/description> .
+<http://linkedscience.org/teach/ns#courseTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "courseTitle is subproperty of dc:title to specify the course title"@en .
+<http://linkedscience.org/teach/ns#room> <http://www.w3.org/2000/01/rdf-schema#comment> "room is an abstract property to express the room where the course/seminar takes place."@en .
+<http://linkedscience.org/teach/ns#teacher> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/TEACHER> .
+<http://linkedscience.org/teach/ns#Teacher> <http://www.w3.org/2000/01/rdf-schema#comment> "Teacher of the course.\n"@en .
+<http://linkedscience.org/teach/ns#teacher> <http://www.w3.org/2000/01/rdf-schema#comment> "teacher is an abstract property to relate a teacher to a course/seminar."@en .
+<http://linkedscience.org/teach/ns#courseTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#courseTitle> .
+<http://linkedscience.org/teach/ns#courseDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "courseDescription is subproperty of dc:description to specify the course description"@en .
+<http://linkedscience.org/teach/ns#module> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://linkedscience.org/teach/ns#module> .
+<http://linkedscience.org/teach/ns#StudentGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://linkedscience.org/teach/ns#deadlineDraftReport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#thing> .
+

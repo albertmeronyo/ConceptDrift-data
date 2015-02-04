@@ -1,0 +1,57 @@
+<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#label> "Marriage" .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#comment> "A comma delimited list of key words that describe this person." .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#label> "Birth" .
+<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#comment> "A marriage event." .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#comment> "An event associated with a person." .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "A general event, i.e. something that the person participated in." .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#comment> "A one-line biography of the person." .
+<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#label> "One-line bio" .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#label> "Place" .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/elements/1.1/date> "2003-03-15" .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> .
+<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/vocab/bio/0.1/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/vocab/bio/0.1/> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2000/01/rdf-schema> .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#label> "Date" .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/vocab/bio/0.1/> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#label> "Death" .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#label> "Key words" .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/subject> .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of an event." .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2002/07/owl> .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#comment> "A death event." .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/elements/1.1/description> "A vocabulary for biographical information, described using W3C RDF Schema and the Web Ontology Language." .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#comment> "The place of an event." .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/elements/1.1/title> "Biographical information vocabulary" .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#comment> "A birth event." .
+

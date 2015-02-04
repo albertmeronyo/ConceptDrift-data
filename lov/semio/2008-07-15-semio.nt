@@ -1,0 +1,119 @@
+_:f728ae43dee60498b84af9e90e1e79eb7b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.lingvoj.org/semio#significationContext> <http://www.w3.org/2000/01/rdf-schema#label> "signification context"@en .
+<http://www.lingvoj.org/semio#translation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/semio#Phrase> .
+<http://www.lingvoj.org/semio#DataSign> <http://www.w3.org/2000/01/rdf-schema#comment> "A sign of which signifier is defined as the value of the Datatype Property 'signifierData'"@en .
+<http://www.lingvoj.org/Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#URI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.11 - 2008-07-16"@en .
+<http://www.lingvoj.org/semio#signifierData> <http://www.w3.org/2000/01/rdf-schema#comment> "A data which is the signifier, such as a word, code or any kind of identifier. URI strings can be used as signifiers. In such a case, the default signified is the resource identified by the URI."@en .
+<http://www.lingvoj.org/semio#Multimedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#translation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/semio#Phrase> .
+<http://www.lingvoj.org/semio#signified> <http://www.w3.org/2000/01/rdf-schema#label> "signified"@en .
+<http://www.lingvoj.org/semio#DataSign> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.lingvoj.org/semio#Sign> .
+<http://www.lingvoj.org/semio#DataSign> <http://www.w3.org/2000/01/rdf-schema#label> "Data Sign"@en .
+_:f728ae43dee60498b84af9e90e1e79eb7b1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.lingvoj.org/semio#signifierData> .
+<http://www.lingvoj.org/semio#Image> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.lingvoj.org/semio#ObjectSign> .
+<http://www.lingvoj.org/semio#signifierData> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/semio#DataSign> .
+<http://www.lingvoj.org/semio#Sign> <http://www.w3.org/2000/01/rdf-schema#comment> "Something that stands for something else in a given context. A sign has a signifier (physical data which can be communicated), a signified (a concept, or formal representation), both indicating a referent, which is outside the language scope, and a context in which the signification is asserted."@en .
+<http://www.lingvoj.org/semio#signifierObject> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource which is the signifier. Typical examples include images or icons, or sound tracks for natural language words."@en .
+<http://www.lingvoj.org/semio#Icon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.lingvoj.org/semio#Image> .
+<http://www.lingvoj.org/semio#Multimedia> <http://www.w3.org/2000/01/rdf-schema#comment> "For example a video representation"@en .
+<http://www.lingvoj.org/semio#signifierObject> <http://www.w3.org/2000/01/rdf-schema#label> "signifier object"@en .
+<http://www.lingvoj.org/semio#Icon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#transcription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f728ae43dee60498b84af9e90e1e79eb7b3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.lingvoj.org/semio#coreferentWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/semio#Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#ObjectSign> <http://www.w3.org/2000/01/rdf-schema#comment> "A sign of which signifier is defined as the value of the Object Property 'signifierObject'"@en .
+<http://www.lingvoj.org/semio#DataSign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#signifierObject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/semio#ObjectSign> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.lingvoj.org/semio#transcription> <http://www.w3.org/2000/01/rdf-schema#comment> "A transcription links two signs with the same signified in different formats or supports. For example a phrase to its sound rendering, or a trade mark to a logo."@en .
+<http://www.lingvoj.org/semio#Sound> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.lingvoj.org/semio#ObjectSign> .
+<http://www.lingvoj.org/Context> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource describing the context. May gather any relevant piece of information: linguistic system context, space-time restrictions, information system, community of users ...\u00A0"@en .
+<http://www.lingvoj.org/semio#Code> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.lingvoj.org/semio#DataSign> .
+<http://www.lingvoj.org/semio#UF> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/semio#Sign> .
+_:f728ae43dee60498b84af9e90e1e79eb7b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.lingvoj.org/semio#Image> <http://www.w3.org/2000/01/rdf-schema#comment> "Any image used as a sign. Either by direct denotation (a photograph of a cat for the concept of cat), or symbolic conotation (icons)."@en .
+<http://www.lingvoj.org/semio#signifierData> <http://www.w3.org/2000/01/rdf-schema#label> "signifier data"@en .
+<http://www.lingvoj.org/semio> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology of signs."@en .
+<http://www.lingvoj.org/semio#URI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.lingvoj.org/semio#Code> .
+<http://www.lingvoj.org/semio#Image> <http://www.w3.org/2000/01/rdf-schema#label> "Image"@en .
+<http://www.lingvoj.org/semio#USE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.lingvoj.org/semio#URI> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI is a code used in the context of the Web"@en .
+<http://www.lingvoj.org/semio#Phrase> <http://www.w3.org/2000/01/rdf-schema#comment> "A string making sense in some natural language. Typically a term from a vocabulary. Other exemples include assertions, slogans, taglines ..."@en .
+<http://www.lingvoj.org/semio#significationContext> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource defining the signification context, in the scope of which the signifier-signified association is asserted as valid."@en .
+<http://www.lingvoj.org/semio#UF> <http://www.w3.org/2000/01/rdf-schema#comment> "Use this property for signs defined in the same context"@en .
+<http://www.lingvoj.org/semio#transcription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/semio#Sign> .
+_:f728ae43dee60498b84af9e90e1e79eb7b2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f728ae43dee60498b84af9e90e1e79eb7b3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.lingvoj.org/semio#signifierData> .
+<http://www.lingvoj.org/semio#Sign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#coreferentWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/semio#Sign> .
+<http://www.lingvoj.org/semio#significationContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Typically, the context ressource should be constructed as a blank node"@en .
+<http://www.lingvoj.org/semio#Phrase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.lingvoj.org/semio#DataSign> .
+<http://www.lingvoj.org/semio#USE> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/semio#Sign> .
+<http://www.lingvoj.org/semio#UF> <http://www.w3.org/2000/01/rdf-schema#label> "used for"@en .
+<http://www.lingvoj.org/semio#coreferentWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Use this property for signs defined in different contexts"@en .
+<http://www.lingvoj.org/semio#USE> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/semio#Sign> .
+<http://www.lingvoj.org/semio#USE> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to a preferred sign for the same signified"@en .
+<http://www.lingvoj.org/semio#Icon> <http://www.w3.org/2000/01/rdf-schema#label> "Icon"@en .
+<http://www.lingvoj.org/semio#USE> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.lingvoj.org/semio#UF> .
+<http://www.lingvoj.org/semio#UF> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/semio#Sign> .
+_:f728ae43dee60498b84af9e90e1e79eb7b1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.lingvoj.org/semio#ObjectSign> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.lingvoj.org/semio#Sign> .
+<http://www.lingvoj.org/semio#coreferentWith> <http://www.w3.org/2000/01/rdf-schema#label> "coreference"@en .
+<http://www.lingvoj.org/semio#signifierData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/semio#transcription> <http://www.w3.org/2000/01/rdf-schema#label> "transcription"@en .
+<http://www.lingvoj.org/semio#UF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/semio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.lingvoj.org/semio#Sign> <http://www.w3.org/2000/01/rdf-schema#label> "Sign"@en .
+<http://www.lingvoj.org/semio#USE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f728ae43dee60498b84af9e90e1e79eb7b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.lingvoj.org/semio#translation> <http://www.w3.org/2000/01/rdf-schema#label> "translation"@en .
+<http://www.lingvoj.org/semio#DataSign> <http://www.w3.org/2002/07/owl#equivalentClass> _:f728ae43dee60498b84af9e90e1e79eb7b3 .
+<http://www.lingvoj.org/semio#USE> <http://www.w3.org/2000/01/rdf-schema#comment> "Use this property for signs defined in the same context"@en .
+<http://www.lingvoj.org/semio#coreferentWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/semio#Sign> .
+_:f728ae43dee60498b84af9e90e1e79eb7b4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.lingvoj.org/semio#signifierObject> .
+<http://www.lingvoj.org/semio#ObjectSign> <http://www.w3.org/2002/07/owl#equivalentClass> _:f728ae43dee60498b84af9e90e1e79eb7b2 .
+<http://www.lingvoj.org/semio#Phrase> <http://www.w3.org/2000/01/rdf-schema#label> "Phrase"@en .
+<http://www.lingvoj.org/semio#signifierObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f728ae43dee60498b84af9e90e1e79eb7b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.lingvoj.org/semio#Multimedia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.lingvoj.org/semio#ObjectSign> .
+<http://www.lingvoj.org/semio#translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/semio#ObjectSign> <http://www.w3.org/2000/01/rdf-schema#label> "Object Sign"@en .
+<http://www.lingvoj.org/semio#translation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.lingvoj.org/semio#transcription> .
+<http://www.lingvoj.org/semio#Sign> <http://www.w3.org/2000/01/rdf-schema#comment> "A sign is an information resource. As such, it can be useful to attach metadata using Dublin Core attributes such as creator, creation date etc ..."@en .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.lingvoj.org/semio#Icon> <http://www.w3.org/2000/01/rdf-schema#comment> "An image which is a symbolic representation of something. Flags, logos, coat of arms ..."@en .
+<http://www.lingvoj.org/semio#Sound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#DataSign> <http://www.w3.org/2002/07/owl#equivalentClass> _:f728ae43dee60498b84af9e90e1e79eb7b1 .
+<http://www.lingvoj.org/semio#ObjectSign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#Sign> <http://www.w3.org/2000/01/rdf-schema#comment> "A sign has exactly one signifier, either 'signifier data' or 'signifier resource' attribute"@en .
+<http://www.lingvoj.org/semio#Code> <http://www.w3.org/2000/01/rdf-schema#label> "Code"@en .
+<http://www.lingvoj.org/semio#Sound> <http://www.w3.org/2000/01/rdf-schema#comment> "Typically, the sound rendering of a phrase"@en .
+<http://www.lingvoj.org/semio#Phrase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/semio#significationContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/Context> <http://www.w3.org/2000/01/rdf-schema#label> "Context"@en .
+<http://www.lingvoj.org/semio#transcription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/semio#Sign> .
+<http://www.lingvoj.org/semio#Code> <http://www.w3.org/2000/01/rdf-schema#comment> "A string of characters, generally intended to be a unique identifier in some context"@en .
+<http://www.lingvoj.org/semio#signified> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/semio#Sign> .
+<http://www.lingvoj.org/semio#Sound> <http://www.w3.org/2000/01/rdf-schema#label> "Sound"@en .
+<http://www.lingvoj.org/semio#UF> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to an alternative, non-preferred sign for the same signified"@en .
+<http://www.lingvoj.org/semio#USE> <http://www.w3.org/2000/01/rdf-schema#label> "use"@en .
+<http://www.lingvoj.org/semio#signified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/semio#significationContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/semio#Sign> .
+_:f728ae43dee60498b84af9e90e1e79eb7b2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.lingvoj.org/semio#signifierObject> .
+<http://www.lingvoj.org/semio#signified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.lingvoj.org/semio#transcription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.lingvoj.org/semio#coreferentWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.lingvoj.org/semio#URI> <http://www.w3.org/2000/01/rdf-schema#label> "Uniform Resource Identifier"@en .
+<http://www.lingvoj.org/semio#Multimedia> <http://www.w3.org/2000/01/rdf-schema#label> "Multimedia"@en .
+<http://www.lingvoj.org/semio#significationContext> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/Context> .
+<http://www.lingvoj.org/semio#transcription> <http://www.w3.org/2000/01/rdf-schema#comment> "Translation is considered as a particular case of transcription (debatable)"@en .
+<http://www.lingvoj.org/semio#ObjectSign> <http://www.w3.org/2002/07/owl#equivalentClass> _:f728ae43dee60498b84af9e90e1e79eb7b4 .
+<http://www.lingvoj.org/semio#coreferentWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Links two signs considered as having the same referent, even if they have different signifiers. Useful to link different and possibly inconsistent views of the referent."@en .
+<http://www.lingvoj.org/semio#signified> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource for which the sign stands for"@en .
+_:f728ae43dee60498b84af9e90e1e79eb7b4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+

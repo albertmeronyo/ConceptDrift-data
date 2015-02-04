@@ -1,0 +1,153 @@
+_:fb0863bd7d0dd480aa068f716c46f7ad7b1 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://makxdekkers.com/makxdekkers.rdf#me> .
+<http://www.w3.org/ns/adms#translation> <http://purl.org/dc/terms/identifier> "adms:translation"@en .
+<http://www.w3.org/ns/adms#AssetDistribution> <http://purl.org/dc/terms/identifier> "adms:AssetDistribution"@en .
+<http://www.w3.org/ns/adms#supportedSchema> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms#status> <http://www.w3.org/2000/01/rdf-schema#label> "status"@en .
+<http://www.w3.org/ns/adms#versionNotes> <http://purl.org/dc/terms/identifier> "adms:versionNotes"@en .
+<http://www.w3.org/ns/adms#versionNotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#schemeAgency> <http://www.w3.org/2000/01/rdf-schema#label> "scheme agency"@en .
+<http://www.w3.org/ns/adms#sample> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Asset> .
+<http://www.w3.org/ns/adms#versionNotes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b3 <http://xmlns.com/foaf/0.1/homepage> <http://ies.jrc.ec.europa.eu/DE> .
+<http://www.w3.org/ns/adms#sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#AssetDistribution> <http://www.w3.org/2000/01/rdf-schema#comment> "An Asset Distribution represents a particular physical embodiment of an Asset, which is an example of the FRBR entity manifestation (the physical embodiment of an expression of a work). An Asset Distribution is typically a downloadable computer file (but in principle it could also be a paper document) that implements the intellectual content of an Asset. A particular Asset Distribution is associated with one and only one Asset, while all Distributions of an Asset share the same intellectual content in different physical formats. Asset Distributions themselves are not versioned."@en .
+<http://www.w3.org/ns/adms> <http://www.w3.org/2000/01/rdf-schema#comment> "This file specifies the set of RDF classes and properties used in ADMS"@en .
+<http://www.w3.org/ns/adms#next> <http://www.w3.org/2000/01/rdf-schema#label> "next"@en .
+<http://www.w3.org/ns/adms#versionNotes> <http://www.w3.org/2000/01/rdf-schema#label> "version notes"@en .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b4 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://philarcher.org/foaf.rdf#me> .
+<http://www.w3.org/ns/adms#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "adms:identifier is used to link any resource to \n      an instance of adms:Identifier which is its range. N.B. it is not appropriate to use \n      dcterms:identifer to link to the Identifier class as its range is rdfs:Literal.\n      ADMS uses this to provide any identifier for the Asset."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://www.w3.org/ns/adms#sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#Identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms#Asset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms> <http://purl.org/dc/terms/abstract> "ADMS is a profile of DCAT, used to describe semantic assets (or just 'Assets'), defined as highly reusable metadata (e.g. xml schemata, generic data models) and reference data (e.g. code lists, taxonomies, dictionaries, vocabularies) that are used for eGovernment system development."@en .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b1 <http://xmlns.com/foaf/0.1/homepage> <http://makxdekkers.com/> .
+<http://www.w3.org/ns/adms#sample> <http://purl.org/dc/terms/identifier> "adms:sample"@en .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b3 <http://xmlns.com/foaf/0.1/name> "European Commission, Joint Research Centre"@en .
+<http://www.w3.org/ns/adms#Identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en .
+<http://www.w3.org/ns/adms> <http://purl.org/dc/terms/creator> _:fb0863bd7d0dd480aa068f716c46f7ad7b2 .
+<http://www.w3.org/ns/adms#sample> <http://www.w3.org/2000/01/rdf-schema#label> "sample"@en .
+<http://www.w3.org/ns/adms#includedAsset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Asset> .
+<http://www.w3.org/ns/adms#next> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#prev> <http://www.w3.org/2000/01/rdf-schema#label> "prev"@en .
+<http://www.w3.org/ns/adms> <http://www.w3.org/2007/05/powder-s#describedby> <http://www.w3.org/TR/vocab-adms/> .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b4 <http://schema.org/affiliation> _:fb0863bd7d0dd480aa068f716c46f7ad7b5 .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b6 <http://xmlns.com/foaf/0.1/page> <http://www.w3.org/2011/gld/> .
+<http://www.w3.org/ns/adms#status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#includedAsset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Asset> .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b2 <http://xmlns.com/foaf/0.1/name> "Andrea Perego"@en .
+<http://www.w3.org/ns/adms#status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#supportedSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#last> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/1999/xhtml/vocab#last> .
+<http://www.w3.org/ns/adms#includedAsset> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to an Asset that is contained in the Asset being described, e.g. when there are several vocabularies defined in a single document."@en .
+<http://www.w3.org/ns/adms#next> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms#includedAsset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#prev> <http://purl.org/dc/terms/identifier> "adms:prev"@en .
+<http://www.w3.org/ns/adms#Identifier> <http://purl.org/dc/terms/identifier> "adms:Identifier"@en .
+<http://www.w3.org/ns/adms#supportedSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#includedAsset> <http://www.w3.org/2000/01/rdf-schema#label> "included asset"@en .
+<http://www.w3.org/ns/adms#includedAsset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#interoperabilityLevel> <http://www.w3.org/2000/01/rdf-schema#label> "interoperability level"@en .
+<http://www.w3.org/ns/adms#schemeAgency> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the agency responsible for issuing the identifier"@en .
+<http://www.w3.org/ns/adms#Asset> <http://purl.org/dc/terms/identifier> "adms:Asset"@en .
+<http://www.w3.org/ns/adms#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#AssetRepository> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.w3.org/ns/adms#AssetRepository> <http://www.w3.org/2000/01/rdf-schema#label> "Asset Repository"@en .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b2 <http://schema.org/affiliation> _:fb0863bd7d0dd480aa068f716c46f7ad7b3 .
+<http://www.w3.org/ns/adms#interoperabilityLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Asset to its adms:InteroperabilityLevel. Since this is encoded using skos:Concept, that is the defined range for this property."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://www.w3.org/ns/adms#last> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#AssetRepository> <http://www.w3.org/2000/01/rdf-schema#comment> "An Asset Repository is a system or service that provides facilities for storage and maintenance of descriptions of Assets and Asset Distributions, and functionality that allows users to search and access these descriptions. An Asset Repository will typically contain descriptions of several Assets and related Asset Distributions."@en .
+<http://www.w3.org/ns/adms#sample> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Asset> .
+<http://www.w3.org/ns/adms#next> <http://purl.org/dc/terms/identifier> "adms:next"@en .
+<http://www.w3.org/ns/adms#Asset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Dataset> .
+<http://www.w3.org/ns/adms> <http://purl.org/dc/terms/creator> _:fb0863bd7d0dd480aa068f716c46f7ad7b1 .
+<http://www.w3.org/ns/adms#interoperabilityLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#representationTechnique> <http://www.w3.org/2000/01/rdf-schema#label> "representation technique"@en .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b2 <http://xmlns.com/foaf/0.1/homepage> <http://andrea-perego.name/> .
+<http://www.w3.org/ns/adms#identifier> <http://purl.org/dc/terms/identifier> "adms:identifier"@en .
+<http://www.w3.org/ns/adms#status> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to the status of the Asset or Asset Distribution \n      in the context of a particular workflow process. Since Status is defined using a skos:Concept, \n      that is the defined range for this property."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://www.w3.org/ns/adms#last> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b1 <http://xmlns.com/foaf/0.1/name> "Makx Dekkers"@en .
+<http://www.w3.org/ns/adms> <http://xmlns.com/foaf/0.1/maker> _:fb0863bd7d0dd480aa068f716c46f7ad7b6 .
+<http://www.w3.org/ns/adms#representationTechnique> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/ns/adms#AssetRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/adms#interoperabilityLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/ns/adms#identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Identifier> .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b6 <http://xmlns.com/foaf/0.1/name> "Government Linked Data WG, based on output from the ADMS Working Group"@en .
+<http://www.w3.org/ns/adms#translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms> <http://purl.org/dc/terms/creator> _:fb0863bd7d0dd480aa068f716c46f7ad7b4 .
+<http://www.w3.org/ns/adms#last> <http://purl.org/dc/terms/identifier> "adms:last"@en .
+<http://www.w3.org/ns/adms> <http://purl.org/dc/terms/description> "This is the RDF encoding of the \n      <a href=\"http://www.w3.org/TR/vocab-adms/\" xmlns=\"http://www.w3.org/ns/adms#\">Asset Description Metadata Schema</a>, \n      originally developed under the European Union's <a href=\"http://ec.europa.eu/isa/\">ISA Programme</a> \n      and further developed by the W3C <a href=\"http://www.w3.org/2011/gld/\">Government Linked Data Working Group</a>. It re-uses terms \n      from several other vocabularies, notably Dublin Core, with elements of SKOS, FOAF \n      and more.\n    "^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://www.w3.org/ns/adms#last> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to the current or latest version of the Asset."@en .
+<http://www.w3.org/ns/adms#prev> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/1999/xhtml/vocab#prev> .
+<http://www.w3.org/ns/adms#includedAsset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b5 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/> .
+<http://www.w3.org/ns/adms#last> <http://www.w3.org/2000/01/rdf-schema#label> "last"@en .
+<http://www.w3.org/ns/adms#next> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/1999/xhtml/vocab#next> .
+<http://www.w3.org/ns/adms#last> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#interoperabilityLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Asset> .
+<http://www.w3.org/ns/adms#status> <http://purl.org/dc/terms/identifier> "adms:status"@en .
+<http://www.w3.org/ns/adms#schemeAgency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/adms#Identifier> .
+<http://www.w3.org/TR/2013/NOTE-vocab-adms-20130528/adms20130520.png> <http://www.w3.org/2000/01/rdf-schema#label> "Asset Description Metadata Schema (ADMS) UML Class Diagram"@en .
+<http://www.w3.org/ns/adms> <http://purl.org/dc/terms/modified> "2013-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.w3.org/ns/adms#versionNotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/ns/adms#schemeAgency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b5 <http://xmlns.com/foaf/0.1/name> "W3C/ERCIM"@en .
+<http://www.w3.org/ns/adms#status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/ns/adms#identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms#AssetDistribution> <http://www.w3.org/2000/01/rdf-schema#label> "Asset Distribution"@en .
+<http://www.w3.org/ns/adms> <http://purl.org/vocab/vann/preferredNamespacePrefix> "adms"@en .
+<http://www.w3.org/ns/adms#representationTechnique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/adms#"@en .
+<http://www.w3.org/ns/adms#translation> <http://www.w3.org/2000/01/rdf-schema#label> "translation"@en .
+<http://www.w3.org/ns/adms#prev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#translation> <http://www.w3.org/2000/01/rdf-schema#comment> "Links Assets that are translations of each other."@en .
+<http://www.w3.org/ns/adms#sample> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to a sample of an Asset (which is itself an Asset)."@en .
+<http://www.w3.org/ns/adms#includedAsset> <http://purl.org/dc/terms/identifier> "adms:includedAsset"@en .
+<http://www.w3.org/ns/adms#interoperabilityLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/ns/adms#schemeAgency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/ns/adms#supportedSchema> <http://www.w3.org/2000/01/rdf-schema#comment> "A schema according to which the Asset Repository can provide data about its content, e.g. ADMS"@en .
+<http://www.w3.org/ns/adms#representationTechnique> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms#representationTechnique> <http://purl.org/dc/terms/identifier> "adms:representationTechnique"@en .
+<http://www.w3.org/ns/adms#Identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/adms#supportedSchema> <http://www.w3.org/2000/01/rdf-schema#label> "supported schema"@en .
+<http://www.w3.org/ns/adms#Identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is based on the UN/CEFACT \n    Identifier complex type defined in See Section 5.8 of Core Components Data Type Catalogue Version 3.1 (http://www.unece.org/fileadmin/DAM/cefact/codesfortrade/CCTS/CCTS-DTCatalogueVersion3p1.pdf)\n    In RDF this is expressed using the following properties:\n    - the content string should be provided using skos:notation, datatyped with the identifier scheme (inclduing the version number if appropriate);\n    - use dcterms:creator to link to a class describing the agency that manages the identifier scheme or adms:schemaAgency to provide the name as a literal.\n    Although not part of the ADMS conceptual model, it may be useful to provide further properties to the Identifier class such as\n    dcterms:created to provide the date on which the identifier was issued."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b4 <http://xmlns.com/foaf/0.1/name> "Phil Archer"@en .
+<http://www.w3.org/ns/adms#Asset> <http://www.w3.org/2000/01/rdf-schema#comment> "An Asset is an abstract entity that reflects the intellectual content of the asset and represents those characteristics of the asset that are independent of its physical embodiment. This abstract entity combines the FRBR entities work (a distinct intellectual or artistic creation) and expression (the intellectual or artistic realization of a work). Assets can be versioned. Every time the intellectual content of an asset changes, the result is considered to be a new asset that can be linked to previous and next versions of the Asset. The physical embodiment of an Asset is called an Asset Distribution. A particular Asset may have zero or more Asset Distributions."@en .
+<http://www.w3.org/ns/adms#schemeAgency> <http://purl.org/dc/terms/identifier> "adms:schemeAgency"@en .
+<http://www.w3.org/ns/adms#prev> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to the previous version of the Asset."@en .
+<http://www.w3.org/ns/adms> <http://www.w3.org/2000/01/rdf-schema#label> "Asset Description Metadata Schema (ADMS)"@en .
+<http://www.w3.org/ns/adms#interoperabilityLevel> <http://purl.org/dc/terms/identifier> "adms:interoperabilityLevel"@en .
+<http://www.w3.org/ns/adms#schemeAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/adms> <http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/TR/2013/NOTE-vocab-adms-20130528/adms20130520.png> .
+<http://www.w3.org/ns/adms#translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#AssetRepository> <http://purl.org/dc/terms/identifier> "adms:AssetRepository"@en .
+<http://www.w3.org/ns/adms> <http://www.w3.org/2002/07/owl#versionInfo> "24 May 2013"@en .
+<http://www.w3.org/ns/adms#AssetDistribution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b4 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/People/all#phila> .
+<http://www.w3.org/ns/adms#AssetDistribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/adms#supportedSchema> <http://purl.org/dc/terms/identifier> "adms:supportedSchema"@en .
+<http://www.w3.org/ns/adms#Asset> <http://www.w3.org/2000/01/rdf-schema#label> "Asset"@en .
+<http://www.w3.org/ns/adms#prev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#schemeAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#next> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#AssetDistribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms#versionNotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/adms#supportedSchema> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/adms#Asset> .
+<http://www.w3.org/ns/adms#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifier"@en .
+_:fb0863bd7d0dd480aa068f716c46f7ad7b2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://andrea-perego.name/foaf/#me> .
+<http://www.w3.org/ns/adms#translation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/TR/vocab-adms/> <http://purl.org/dc/terms/title> "Asset Description Metadata Schema (ADMS)"@en .
+<http://www.w3.org/ns/adms#prev> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms#sample> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://www.w3.org/ns/adms#representationTechnique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/adms#representationTechnique> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an adms:AssetDistribution to a skos:Concept that is its adms:RepresentationTechnique."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://www.w3.org/ns/adms#interoperabilityLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/adms#AssetRepository> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms#status> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-adms/> .
+<http://www.w3.org/ns/adms#versionNotes> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of changes between this version and the previous version of the Asset."@en .
+<http://www.w3.org/ns/adms> <http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/dcat#> .
+<http://www.w3.org/ns/adms#next> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to the next version of the Asset."@en .
+

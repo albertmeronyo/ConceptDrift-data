@@ -1,0 +1,651 @@
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_2identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf-vocabulary.ddialliance.org/discovery#analysisUnit> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b9 .
+<http://rdf-vocabulary.ddialliance.org/discovery#minimum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#inputVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> <http://www.w3.org/2000/01/rdf-schema#label> "Ensemble de donn\u00E9es"@fr .
+_:fca27d169e25040a780f62ab8385625b0b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b8 .
+<http://rdf-vocabulary.ddialliance.org/discovery#studyUniverse> <http://www.w3.org/2000/01/rdf-schema#label> "mesure"@fr .
+_:fca27d169e25040a780f62ab8385625b0b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Study> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#analysisUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Analyseeinheit"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#instrument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#frequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdf-vocabulary.ddialliance.org/discovery#product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Benjamin Zapilko" .
+<http://rdf-vocabulary.ddialliance.org/discovery#product> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/linked-data/cube#LogicalDataSet> .
+_:fca27d169e25040a780f62ab8385625b0b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b2 .
+<http://rdf-vocabulary.ddialliance.org/discovery#containsVariable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsVariable> <http://www.w3.org/2000/01/rdf-schema#label> "statistics variable"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Ressource> .
+_:fca27d169e25040a780f62ab8385625b0b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#validCases> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b57 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b54 .
+<http://rdf-vocabulary.ddialliance.org/discovery#purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsVariable> <http://www.w3.org/2000/01/rdf-schema#label> "a pour variable statistique"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#containsVariable> <http://www.w3.org/2000/01/rdf-schema#label> "contient la variable"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#collectionMode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_0identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 3.0 identifier"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#median> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+_:fca27d169e25040a780f62ab8385625b0b75 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b73 .
+<http://rdf-vocabulary.ddialliance.org/discovery#Universe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fca27d169e25040a780f62ab8385625b0b50 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b48 .
+<http://rdf-vocabulary.ddialliance.org/discovery#variable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_1identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedPercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Richard Cyganiak" .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_2identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_1identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mean> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#questionText> <http://www.w3.org/2000/01/rdf-schema#label> "Fragetext"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#cumulativePercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Study Group"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#invalidCases> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mean> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+_:fca27d169e25040a780f62ab8385625b0b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Instrument> <http://www.w3.org/2000/01/rdf-schema#label> "Survey instrument"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#externalDocumentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#Instrument> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsDataFile> <http://www.w3.org/2000/01/rdf-schema#label> "a pour fichier statistique"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#startDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://rdf-vocabulary.ddialliance.org/discovery#variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b12 .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_2identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 3.1 identifier"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_0identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf-vocabulary.ddialliance.org/discovery#inputVariable> <http://www.w3.org/2000/01/rdf-schema#label> "input variable"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#concept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#studyUniverse> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b88 .
+<http://rdf-vocabulary.ddialliance.org/discovery#isPublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#purpose> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_0identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#product> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddifile> <http://www.w3.org/2000/01/rdf-schema#label> "DDI file"@en .
+_:fca27d169e25040a780f62ab8385625b0b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#basedOn> <http://www.w3.org/2000/01/rdf-schema#label> "based on"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_5identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fca27d169e25040a780f62ab8385625b0b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fca27d169e25040a780f62ab8385625b0b22 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b20 .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_0identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#representation> <http://www.w3.org/2000/01/rdf-schema#range> _:fca27d169e25040a780f62ab8385625b0b78 .
+<http://rdf-vocabulary.ddialliance.org/discovery#question> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b72 .
+<http://rdf-vocabulary.ddialliance.org/discovery#externalDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "external documentation"@en .
+_:fca27d169e25040a780f62ab8385625b0b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsCategory> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Universe> <http://www.w3.org/2000/01/rdf-schema#comment> "A Universe is the total membership or population of a defined class of people, objects or events"@en .
+_:fca27d169e25040a780f62ab8385625b0b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b59 .
+<http://rdf-vocabulary.ddialliance.org/discovery#analysisUnit> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b53 .
+<http://rdf-vocabulary.ddialliance.org/discovery#analysisUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#AnalysisUnit> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMode> <http://www.w3.org/2000/01/rdf-schema#label> "weighted mode"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedCumulativePercentage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#containsVariable> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#questionText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#Question> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_1identifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> .
+<http://rdf-vocabulary.ddialliance.org/discovery#invalidCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#aggregation> <http://www.w3.org/2000/01/rdf-schema#label> "aggregation"@en .
+_:fca27d169e25040a780f62ab8385625b0b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#concept> <http://www.w3.org/2000/01/rdf-schema#label> "a pour concept"@fr .
+_:fca27d169e25040a780f62ab8385625b0b19 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b17 .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMean> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedCumulativePercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b60 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b58 .
+<http://rdf-vocabulary.ddialliance.org/discovery#product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#maximum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+_:fca27d169e25040a780f62ab8385625b0b81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b82 .
+_:fca27d169e25040a780f62ab8385625b0b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b24 .
+<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> <http://www.w3.org/2000/01/rdf-schema#comment> "Each study has a set of logical metadata associated with the processing of data, at the time of collection or later during cleaning, and re-coding. LogicalDataSet represents the microdata dataset."@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#standardDeviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_1identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Instrument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#cumulativePercentage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddifile> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b19 .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataFile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#collectionMode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdf-vocabulary.ddialliance.org/discovery#validCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataFile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
+_:fca27d169e25040a780f62ab8385625b0b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b40 .
+<http://rdf-vocabulary.ddialliance.org/discovery#basedOn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#concept> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b57 .
+<http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> <http://www.w3.org/2000/01/rdf-schema#comment> "CategoryStatistics pointing to categories and codes."@en .
+_:fca27d169e25040a780f62ab8385625b0b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#minimum> <http://www.w3.org/2000/01/rdf-schema#label> "minimum"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_0identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 3.0 Identifikation"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#median> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedInvalidCases> <http://www.w3.org/2000/01/rdf-schema#label> "weighted invalid cases"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#aggregation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#AnalysisUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Analyseeinheit"@de .
+_:fca27d169e25040a780f62ab8385625b0b63 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b61 .
+<http://rdf-vocabulary.ddialliance.org/discovery#studyUniverse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#representation> <http://www.w3.org/2000/01/rdf-schema#label> "representation"@en .
+_:fca27d169e25040a780f62ab8385625b0b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> .
+_:fca27d169e25040a780f62ab8385625b0b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b56 .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataFile> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b16 .
+<http://rdf-vocabulary.ddialliance.org/discovery#purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fca27d169e25040a780f62ab8385625b0b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b36 .
+<http://rdf-vocabulary.ddialliance.org/discovery#questionText> <http://www.w3.org/2000/01/rdf-schema#label> "question text"@en .
+_:fca27d169e25040a780f62ab8385625b0b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b43 .
+<http://rdf-vocabulary.ddialliance.org/discovery#percentage> <http://www.w3.org/2000/01/rdf-schema#label> "percentage"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#Questionnaire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> .
+_:fca27d169e25040a780f62ab8385625b0b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+_:fca27d169e25040a780f62ab8385625b0b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+<http://rdf-vocabulary.ddialliance.org/discovery#variable> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+_:fca27d169e25040a780f62ab8385625b0b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#universe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fca27d169e25040a780f62ab8385625b0b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#endDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#product> <http://www.w3.org/2000/01/rdf-schema#label> "product"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#invalidCases> <http://www.w3.org/2000/01/rdf-schema#label> "invalid cases"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#kindOfData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#variable> <http://www.w3.org/2000/01/rdf-schema#label> "Variable"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#Universe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#validCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdf-vocabulary.ddialliance.org/discovery#percentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "fr\u00E9quence pond\u00E9r\u00E9e"@fr .
+_:fca27d169e25040a780f62ab8385625b0b80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+_:fca27d169e25040a780f62ab8385625b0b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedCumulativePercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:fca27d169e25040a780f62ab8385625b0b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+_:fca27d169e25040a780f62ab8385625b0b41 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b35 .
+_:fca27d169e25040a780f62ab8385625b0b85 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b79 .
+<http://rdf-vocabulary.ddialliance.org/discovery#inGroup> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+<http://rdf-vocabulary.ddialliance.org/discovery#validCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> <http://www.w3.org/2000/01/rdf-schema#comment> "SummaryStatistics pointing to variables."@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#mean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#endDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/PeriodOfTime> .
+<http://rdf-vocabulary.ddialliance.org/discovery#instrument> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b66 .
+<http://rdf-vocabulary.ddialliance.org/discovery#standardDeviation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "international identifier"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedInvalidCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataDiscoveryDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Datenentdeckungsdokument"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#Questionnaire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataFile> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#DataFile> .
+_:fca27d169e25040a780f62ab8385625b0b88 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b86 .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Thomas Bosch" .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_2identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#endDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsDataFile> <http://www.w3.org/2000/01/rdf-schema#label> "statistics data file"@en .
+_:fca27d169e25040a780f62ab8385625b0b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Questionnaire> <http://www.w3.org/2000/01/rdf-schema#label> "Fragebogen"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/title> "Ontologie pour le mod\u00E8le DDI discovery"@fr .
+_:fca27d169e25040a780f62ab8385625b0b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b27 .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataDiscoveryDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Data discovery document in DDI. Dct:publisher is used for the agency."@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_1identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf-vocabulary.ddialliance.org/discovery#AnalysisUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedInvalidCases> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#question> <http://www.w3.org/2000/01/rdf-schema#label> "question"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#purpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "Category statistics"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddifile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fca27d169e25040a780f62ab8385625b0b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.5 - 2012-10-19" .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMean> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#invalidCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#fundedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is based on the Data Documentation Initiative model, especially the elements useful for data discovery"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#Instrument> <http://www.w3.org/2000/01/rdf-schema#label> "Instrument de collecte"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fca27d169e25040a780f62ab8385625b0b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#isPublic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://rdf-vocabulary.ddialliance.org/discovery#maximum> <http://www.w3.org/2000/01/rdf-schema#label> "maximum"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#analysisUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#purpose> <http://www.w3.org/2000/01/rdf-schema#label> "purpose"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Dan Smith" .
+<http://rdf-vocabulary.ddialliance.org/discovery#invalidCases> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsCategory> <http://www.w3.org/2000/01/rdf-schema#label> "a pour concept statistique"@fr .
+_:fca27d169e25040a780f62ab8385625b0b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fca27d169e25040a780f62ab8385625b0b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+_:fca27d169e25040a780f62ab8385625b0b79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+_:fca27d169e25040a780f62ab8385625b0b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b71 .
+<http://rdf-vocabulary.ddialliance.org/discovery#basedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataFile> <http://www.w3.org/2000/01/rdf-schema#label> "a pour fichier de donn\u00E9es"@fr .
+_:fca27d169e25040a780f62ab8385625b0b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#analysisUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b55 .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/title> "DDI discovery model ontology"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMedian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#inGroup> <http://www.w3.org/2000/01/rdf-schema#label> "in group"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Wendy Thomas" .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataSetUniverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#validCases> <http://www.w3.org/2000/01/rdf-schema#label> "valid cases"@en .
+_:fca27d169e25040a780f62ab8385625b0b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b30 .
+_:fca27d169e25040a780f62ab8385625b0b6 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b4 .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedInvalidCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdf-vocabulary.ddialliance.org/discovery#question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#standardDeviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#startDate> <http://www.w3.org/2000/01/rdf-schema#label> "Start Date"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_5identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddifile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#AnalysisUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#fundedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/spec/#Agent> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMedian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Variable> <http://www.w3.org/2000/01/rdf-schema#comment> "It is recommended to use Dublin Core terms (identifier, description) and SKOS labels to describe the variable."@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI-Identifikation"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#questionText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_1identifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> .
+<http://rdf-vocabulary.ddialliance.org/discovery#startDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/PeriodOfTime> .
+<http://rdf-vocabulary.ddialliance.org/discovery#containsVariable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#caseQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "number of cases"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Arofan Gregory" .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_1identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#questionText> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#basedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fca27d169e25040a780f62ab8385625b0b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b39 .
+<http://rdf-vocabulary.ddialliance.org/discovery#purpose> <http://www.w3.org/2000/01/rdf-schema#label> "Grund"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#universe> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#Universe> .
+<http://rdf-vocabulary.ddialliance.org/discovery#collectionMode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#Questionnaire> .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataSetUniverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedCumulativePercentage> <http://www.w3.org/2000/01/rdf-schema#label> "weighted cumulative percentage"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedValidCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdf-vocabulary.ddialliance.org/discovery#cumulativePercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "Statistique descriptive"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#caseQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdf-vocabulary.ddialliance.org/discovery#collectionMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataDiscoveryDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:fca27d169e25040a780f62ab8385625b0b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedPercentage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#frequency> <http://www.w3.org/2000/01/rdf-schema#label> "fr\u00E9quence"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#Questionnaire> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> <http://www.w3.org/2000/01/rdf-schema#label> "LogicalDataSet"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsDataFile> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#DataFile> .
+<http://rdf-vocabulary.ddialliance.org/discovery#caseQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Universe> <http://www.w3.org/2000/01/rdf-schema#label> "Univers"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsDataFile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#caseQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#DataFile> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Benedikt K\u00E4mpgen" .
+<http://rdf-vocabulary.ddialliance.org/discovery#caseQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Questionnaire> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf-vocabulary.ddialliance.org/discovery#Instrument> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_1identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#median> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_5identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 2.5 Identifikation"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#subtitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_0identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Ressource> .
+<http://rdf-vocabulary.ddialliance.org/discovery#isPublic> <http://www.w3.org/2000/01/rdf-schema#comment> "The value true indicates that the dataset can be accessed (usually downloaded) by anyone."@en .
+_:fca27d169e25040a780f62ab8385625b0b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b5 .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_5identifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddifile> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b63 .
+_:fca27d169e25040a780f62ab8385625b0b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> .
+<http://rdf-vocabulary.ddialliance.org/discovery#representation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#collectionMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataSetUniverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#caseQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "nombre d'observations"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataFile> <http://www.w3.org/2000/01/rdf-schema#label> "Fichier de donn\u00E9es"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_1identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 2.1 Identifikation"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedInvalidCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b66 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b64 .
+_:fca27d169e25040a780f62ab8385625b0b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b65 .
+_:fca27d169e25040a780f62ab8385625b0b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+_:fca27d169e25040a780f62ab8385625b0b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#standardDeviation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#aggregation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#externalDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b74 .
+<http://rdf-vocabulary.ddialliance.org/discovery#concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#studyUniverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Joachim Wackerow" .
+<http://rdf-vocabulary.ddialliance.org/discovery#frequency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMedian> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedValidCases> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Franck Cotton" .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_1identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Ressource> .
+_:fca27d169e25040a780f62ab8385625b0b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b84 .
+<http://rdf-vocabulary.ddialliance.org/discovery#median> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#inGroup> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataDiscoveryDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#maximum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#representation> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b75 .
+<http://rdf-vocabulary.ddialliance.org/discovery#standardDeviation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+_:fca27d169e25040a780f62ab8385625b0b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+_:fca27d169e25040a780f62ab8385625b0b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b83 .
+<http://rdf-vocabulary.ddialliance.org/discovery#kindOfData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMean> <http://www.w3.org/2000/01/rdf-schema#label> "weighted mean"@en .
+_:fca27d169e25040a780f62ab8385625b0b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMedian> <http://www.w3.org/2000/01/rdf-schema#label> "weighted median"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#product> <http://www.w3.org/2000/01/rdf-schema#label> "Produkt"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#universe> <http://www.w3.org/2000/01/rdf-schema#label> "a comme univers"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddifile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#inputVariable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/linked-data/cube#DataSet> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Variable> <http://www.w3.org/2000/01/rdf-schema#label> "Variable"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#instrument> <http://www.w3.org/2000/01/rdf-schema#label> "instrument"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#Instrument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#purpose> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b47 .
+_:fca27d169e25040a780f62ab8385625b0b28 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b26 .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsVariable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Variable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#instrument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#studyUniverse> <http://www.w3.org/2000/01/rdf-schema#label> "study universe"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#containsVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#minimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#median> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedFrequency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b77 .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_1identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+_:fca27d169e25040a780f62ab8385625b0b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#variable> <http://www.w3.org/2000/01/rdf-schema#label> "variable"@en .
+_:fca27d169e25040a780f62ab8385625b0b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#startDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Study> <http://www.w3.org/2000/01/rdf-schema#label> "Study"@en .
+_:fca27d169e25040a780f62ab8385625b0b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Question> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedCumulativePercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedInvalidCases> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_5identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mean> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#question> <http://www.w3.org/2000/01/rdf-schema#label> "a comme question"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#studyUniverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#Universe> .
+<http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#validCases> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#frequency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedCumulativePercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#subtitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_5identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsCategory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b33 .
+_:fca27d169e25040a780f62ab8385625b0b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fca27d169e25040a780f62ab8385625b0b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_2identifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Instrument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fca27d169e25040a780f62ab8385625b0b13 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b10 .
+<http://rdf-vocabulary.ddialliance.org/discovery#subtitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b44 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b42 .
+<http://rdf-vocabulary.ddialliance.org/discovery#endDate> <http://www.w3.org/2000/01/rdf-schema#label> "End Date"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_0identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#variable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#fundedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/contributor> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsCategory> <http://www.w3.org/2000/01/rdf-schema#label> "statistics category"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#externalDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataSetUniverse> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#Universe> .
+<http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Data element"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#maximum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+_:fca27d169e25040a780f62ab8385625b0b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b49 .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_0identifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedFrequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "\u00C9l\u00E9ment de donn\u00E9e"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#AnalysisUnit> <http://www.w3.org/2000/01/rdf-schema#label> "analysis unit"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#inGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mode> <http://www.w3.org/2000/01/rdf-schema#label> "mode"@en .
+_:fca27d169e25040a780f62ab8385625b0b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsVariable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#inputVariable> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#caseQuantity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#isPublic> <http://www.w3.org/2000/01/rdf-schema#label> "ist \u00F6ffentlich"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#percentage> <http://www.w3.org/2000/01/rdf-schema#label> "pourcentage"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#isPublic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+<http://rdf-vocabulary.ddialliance.org/discovery#percentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#subtitle> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b50 .
+_:fca27d169e25040a780f62ab8385625b0b16 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b14 .
+<http://rdf-vocabulary.ddialliance.org/discovery#basedOn> <http://www.w3.org/2000/01/rdf-schema#label> "utilise l'\u00E9l\u00E9ment de donn\u00E9e"@fr .
+_:fca27d169e25040a780f62ab8385625b0b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b68 .
+<http://rdf-vocabulary.ddialliance.org/discovery#isPublic> <http://www.w3.org/2000/01/rdf-schema#label> "is public"@en .
+_:fca27d169e25040a780f62ab8385625b0b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b38 .
+<http://rdf-vocabulary.ddialliance.org/discovery#collectionMode> <http://www.w3.org/2000/01/rdf-schema#label> "Datenerfassungsmodus"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "weighted frequency"@en .
+_:fca27d169e25040a780f62ab8385625b0b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataFile> <http://www.w3.org/2000/01/rdf-schema#label> "Data file"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#fundedBy> <http://www.w3.org/2000/01/rdf-schema#label> "funded by"@en .
+_:fca27d169e25040a780f62ab8385625b0b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b52 .
+<http://rdf-vocabulary.ddialliance.org/discovery#cumulativePercentage> <http://www.w3.org/2000/01/rdf-schema#label> "cumulative percentage"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#fundedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#analysisUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataSetUniverse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b72 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b70 .
+_:fca27d169e25040a780f62ab8385625b0b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#questionText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#aggregation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#studyUniverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#minimum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#frequency> <http://www.w3.org/2000/01/rdf-schema#label> "frequency"@en .
+_:fca27d169e25040a780f62ab8385625b0b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Questionnaire> .
+<http://rdf-vocabulary.ddialliance.org/discovery#basedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> .
+<http://rdf-vocabulary.ddialliance.org/discovery#cumulativePercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> .
+_:fca27d169e25040a780f62ab8385625b0b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+<http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Studiengruppe"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddifile> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/spec/#Document> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/title> "DDI-Entdeckungsontologie"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataDiscoveryDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsDataFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "Summary statistics"@en .
+_:fca27d169e25040a780f62ab8385625b0b3 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b1 .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_5identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Ressource> .
+<http://rdf-vocabulary.ddialliance.org/discovery#question> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#Question> .
+_:fca27d169e25040a780f62ab8385625b0b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Question> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_1identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Ressource> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMedian> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataFile> <http://www.w3.org/2000/01/rdf-schema#comment> "The class DataFile, which is also a dcterms:Dataset, represents all the data files containing the microdata datasets."@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#isPublic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#aggregation> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/linked-data/cube#DataSet> .
+_:fca27d169e25040a780f62ab8385625b0b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Question> .
+_:fca27d169e25040a780f62ab8385625b0b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Question> .
+<http://rdf-vocabulary.ddialliance.org/discovery#standardDeviation> <http://www.w3.org/2000/01/rdf-schema#label> "standard deviation"@en .
+_:fca27d169e25040a780f62ab8385625b0b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMedian> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#maximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/creator> "Franck Cotton" .
+<http://rdf-vocabulary.ddialliance.org/discovery#basedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:fca27d169e25040a780f62ab8385625b0b86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b87 .
+<http://rdf-vocabulary.ddialliance.org/discovery#endDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_1identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 3.1 Identifikation"@de .
+_:fca27d169e25040a780f62ab8385625b0b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fca27d169e25040a780f62ab8385625b0b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> .
+_:fca27d169e25040a780f62ab8385625b0b47 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b45 .
+<http://rdf-vocabulary.ddialliance.org/discovery#inputVariable> <http://www.w3.org/2000/01/rdf-schema#label> "variable en entr\u00E9e"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedValidCases> <http://www.w3.org/2000/01/rdf-schema#label> "weighted valid cases"@en .
+_:fca27d169e25040a780f62ab8385625b0b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "weighted percentage"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#maximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsDataFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#universe> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b85 .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataSetUniverse> <http://www.w3.org/2000/01/rdf-schema#label> "Datensatzuniversum"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#inGroup> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "Descriptive statistics"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Olof Olsson" .
+<http://rdf-vocabulary.ddialliance.org/discovery#instrument> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b22 .
+_:fca27d169e25040a780f62ab8385625b0b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b37 .
+<http://rdf-vocabulary.ddialliance.org/discovery#cumulativePercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#median> <http://www.w3.org/2000/01/rdf-schema#label> "median"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#Question> <http://www.w3.org/2000/01/rdf-schema#label> "Question"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Johanna Vompras" .
+<http://rdf-vocabulary.ddialliance.org/discovery#representation> <http://www.w3.org/2000/01/rdf-schema#label> "a pour repr\u00E9sentation"@fr .
+_:fca27d169e25040a780f62ab8385625b0b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fca27d169e25040a780f62ab8385625b0b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:fca27d169e25040a780f62ab8385625b0b62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedValidCases> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#questionText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataFile> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b60 .
+<http://rdf-vocabulary.ddialliance.org/discovery#analysisUnit> <http://www.w3.org/2000/01/rdf-schema#label> "analysis unit"@en .
+_:fca27d169e25040a780f62ab8385625b0b61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b62 .
+<http://rdf-vocabulary.ddialliance.org/discovery#Questionnaire> <http://www.w3.org/2000/01/rdf-schema#label> "Questionnaire"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#universe> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b41 .
+<http://rdf-vocabulary.ddialliance.org/discovery#Universe> <http://www.w3.org/2000/01/rdf-schema#label> "Universe"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_2identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Ressource> .
+<http://rdf-vocabulary.ddialliance.org/discovery#representation> <http://www.w3.org/2000/01/rdf-schema#range> _:fca27d169e25040a780f62ab8385625b0b34 .
+<http://rdf-vocabulary.ddialliance.org/discovery#percentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf-vocabulary.ddialliance.org/discovery#AnalysisUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fca27d169e25040a780f62ab8385625b0b87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fca27d169e25040a780f62ab8385625b0b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fca27d169e25040a780f62ab8385625b0b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b46 .
+_:fca27d169e25040a780f62ab8385625b0b78 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b76 .
+<http://rdf-vocabulary.ddialliance.org/discovery#representation> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b31 .
+<http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fca27d169e25040a780f62ab8385625b0b9 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b7 .
+<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Dataset> .
+<http://rdf-vocabulary.ddialliance.org/discovery#studyUniverse> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b44 .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedPercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#externalDocumentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/spec/#Document> .
+<http://rdf-vocabulary.ddialliance.org/discovery#kindOfData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fca27d169e25040a780f62ab8385625b0b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#concept> <http://www.w3.org/2000/01/rdf-schema#label> "concept"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataFile> <http://www.w3.org/2000/01/rdf-schema#label> "data file"@en .
+_:fca27d169e25040a780f62ab8385625b0b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+_:fca27d169e25040a780f62ab8385625b0b61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery> <http://purl.org/dc/elements/1.1/contributor> "Larry Hoyle" .
+<http://rdf-vocabulary.ddialliance.org/discovery#percentage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#percentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#product> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#AnalysisUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b80 .
+<http://rdf-vocabulary.ddialliance.org/discovery#inGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fca27d169e25040a780f62ab8385625b0b34 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b32 .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMean> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> .
+<http://rdf-vocabulary.ddialliance.org/discovery#inputVariable> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#externalDocumentation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b31 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b29 .
+<http://rdf-vocabulary.ddialliance.org/discovery#instrument> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#Instrument> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_2identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 3.2 Identifikation"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#purpose> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b3 .
+<http://rdf-vocabulary.ddialliance.org/discovery#instrument> <http://www.w3.org/2000/01/rdf-schema#label> "a comme instrument"@fr .
+_:fca27d169e25040a780f62ab8385625b0b25 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b23 .
+<http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#universe> <http://www.w3.org/2000/01/rdf-schema#label> "universe"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedValidCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mean> <http://www.w3.org/2000/01/rdf-schema#label> "mean"@en .
+_:fca27d169e25040a780f62ab8385625b0b86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#aggregation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Study> <http://www.w3.org/2000/01/rdf-schema#label> "\u00C9tude"@fr .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddifile> <http://www.w3.org/2000/01/rdf-schema#label> "DDI-Datei"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fca27d169e25040a780f62ab8385625b0b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b15 .
+_:fca27d169e25040a780f62ab8385625b0b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+_:fca27d169e25040a780f62ab8385625b0b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b18 .
+_:fca27d169e25040a780f62ab8385625b0b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> .
+<http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#subtitle> <http://www.w3.org/2000/01/rdf-schema#label> "Untertitel"@de .
+_:fca27d169e25040a780f62ab8385625b0b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+<http://rdf-vocabulary.ddialliance.org/discovery#containsVariable> <http://www.w3.org/2000/01/rdf-schema#label> "contains variable"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#minimum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataSetUniverse> <http://www.w3.org/2000/01/rdf-schema#label> "data set universe"@en .
+_:fca27d169e25040a780f62ab8385625b0b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+_:fca27d169e25040a780f62ab8385625b0b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#collectionMode> <http://www.w3.org/2000/01/rdf-schema#label> "collection mode"@en .
+_:fca27d169e25040a780f62ab8385625b0b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fca27d169e25040a780f62ab8385625b0b53 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b51 .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedMode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#SummaryStatistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fca27d169e25040a780f62ab8385625b0b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#inputVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#containsVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#kindOfData> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataFile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#AnalysisUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "The process collecting data is focusing on the analysis of a particular type of subject. If, for example, the adult population of Finland is being studied, the AnalysisUnit would be individuals or persons."@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#Universe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+<http://rdf-vocabulary.ddialliance.org/discovery#question> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_1identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 2.1 identifier"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#fundedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#question> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b28 .
+<http://rdf-vocabulary.ddialliance.org/discovery#kindOfData> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b69 .
+<http://rdf-vocabulary.ddialliance.org/discovery#Question> <http://www.w3.org/2000/01/rdf-schema#label> "Question"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#weightedValidCases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_2identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#isPublic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#universe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#fundedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#kindOfData> <http://www.w3.org/2000/01/rdf-schema#label> "kind of data"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#dataFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fca27d169e25040a780f62ab8385625b0b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+_:fca27d169e25040a780f62ab8385625b0b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b11 .
+<http://rdf-vocabulary.ddialliance.org/discovery#concept> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b13 .
+<http://rdf-vocabulary.ddialliance.org/discovery#concept> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsVariable> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#subtitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+_:fca27d169e25040a780f62ab8385625b0b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+_:fca27d169e25040a780f62ab8385625b0b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fca27d169e25040a780f62ab8385625b0b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#endDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#externalDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "externe Dokumentation"@de .
+<http://rdf-vocabulary.ddialliance.org/discovery#variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fca27d169e25040a780f62ab8385625b0b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#StudyGroup> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DataDiscoveryDocument> <http://www.w3.org/2000/01/rdf-schema#label> "data discovery document"@en .
+_:fca27d169e25040a780f62ab8385625b0b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Variable> <http://www.w3.org/2000/01/rdf-schema#label> "Variable"@en .
+_:fca27d169e25040a780f62ab8385625b0b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b21 .
+<http://rdf-vocabulary.ddialliance.org/discovery#universe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+<http://rdf-vocabulary.ddialliance.org/discovery#kindOfData> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b25 .
+_:fca27d169e25040a780f62ab8385625b0b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Universe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Questionnaire> .
+_:fca27d169e25040a780f62ab8385625b0b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Variable> .
+<http://rdf-vocabulary.ddialliance.org/discovery#Variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi2_5identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 2.5 identifier"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#internationalIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fca27d169e25040a780f62ab8385625b0b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#Study> .
+<http://rdf-vocabulary.ddialliance.org/discovery#instrument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdf-vocabulary.ddialliance.org/discovery#subtitle> <http://www.w3.org/2000/01/rdf-schema#domain> _:fca27d169e25040a780f62ab8385625b0b6 .
+<http://rdf-vocabulary.ddialliance.org/discovery#frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#invalidCases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdf-vocabulary.ddialliance.org/discovery#CategoryStatistics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> .
+_:fca27d169e25040a780f62ab8385625b0b81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/discovery#VariableDefinition> .
+<http://rdf-vocabulary.ddialliance.org/discovery#kindOfData> <http://www.w3.org/2000/01/rdf-schema#comment> "The general kind of data (e.g., geospatial, register, survey) collected in this study, given either as a skos:Concept, or as a blank node with attached free-text rdfs:label." .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_1identifier> <http://www.w3.org/2000/01/rdf-schema#label> "DDI 3.1 identifier"@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#statisticsDataFile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdf-vocabulary.ddialliance.org/discovery> .
+_:fca27d169e25040a780f62ab8385625b0b69 <http://www.w3.org/2002/07/owl#unionOf> _:fca27d169e25040a780f62ab8385625b0b67 .
+_:fca27d169e25040a780f62ab8385625b0b80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fca27d169e25040a780f62ab8385625b0b81 .
+<http://rdf-vocabulary.ddialliance.org/discovery#ddi3_1identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://rdf-vocabulary.ddialliance.org/discovery#DescriptiveStatistics> <http://www.w3.org/2000/01/rdf-schema#comment> "SummaryStatistics pointing to variables and CategoryStatistics pointing to categories and codes are both descriptive statistics."@en .
+<http://rdf-vocabulary.ddialliance.org/discovery#minimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf-vocabulary.ddialliance.org/discovery#subtitle> <http://www.w3.org/2000/01/rdf-schema#label> "subtitle"@en .
+

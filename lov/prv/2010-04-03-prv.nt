@@ -1,0 +1,420 @@
+<http://purl.org/net/provenance/ns#involvedActor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#retrievedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#DataAccess> .
+_:f957bab2964104a58bb499bbea927dcc2b20 <http://www.w3.org/2002/07/owl#unionOf> _:f957bab2964104a58bb499bbea927dcc2b21 .
+_:f957bab2964104a58bb499bbea927dcc2b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#File> .
+_:f957bab2964104a58bb499bbea927dcc2b31 <http://purl.org/net/provenance/ns#performedAt> "2010-04-04T12:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:f957bab2964104a58bb499bbea927dcc2b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#Representation> .
+_:f957bab2964104a58bb499bbea927dcc2b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b37 .
+<http://purl.org/net/provenance/ns#usedBy> <http://www.w3.org/2000/01/rdf-schema#label> "used by"@en .
+<http://purl.org/net/provenance/ns#involvedActor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#Execution> .
+<http://purl.org/net/provenance/ns#Representation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> .
+<http://purl.org/net/provenance/ns#employedArtifact> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#Execution> .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2000/01/rdf-schema#label> "used"@en .
+_:f957bab2964104a58bb499bbea927dcc2b46 <http://purl.org/net/provenance/ns#performedBy> <http://olafhartig.de/foaf.rdf#olaf> .
+<http://xmlns.com/wot/0.1/assurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b23 .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/provenance/ns#containedBy> .
+<http://purl.org/net/provenance/ns#operatedBy> <http://www.w3.org/2000/01/rdf-schema#label> "operated by"@en .
+<http://purl.org/net/provenance/ns#Representation> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#File> .
+<http://purl.org/net/provenance/ns#operatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to a human actor who was operating a non-human actor. For instance, a service provider operates a data providing service (see class <a href=\"#DataProvidingService\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">prv:DataProvidingService</a>). Another example is a human actor who operates a non-human data creating actor."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:f957bab2964104a58bb499bbea927dcc2b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#File> .
+_:f957bab2964104a58bb499bbea927dcc2b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b58 .
+_:f957bab2964104a58bb499bbea927dcc2b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#Representation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://olafhartig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://purl.org/net/provenance/ns#yieldedBy> <http://www.w3.org/2000/01/rdf-schema#label> "yielded by"@en .
+<http://purl.org/net/provenance/ns#DataItem> <http://www.w3.org/2000/01/rdf-schema#label> "Data Item"@en .
+<http://purl.org/net/provenance/ns#usedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to a data publisher who used a data providing services."@en .
+_:f957bab2964104a58bb499bbea927dcc2b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#DataItem> .
+<http://sw.nokia.com/WebArch-1/Server> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#DataProvidingService> .
+<http://purl.org/net/provenance/ns#HumanActor> <http://www.w3.org/2000/01/rdf-schema#label> "Human Actor"@en .
+<http://purl.org/net/provenance/ns#Representation> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#DataItem> .
+_:f957bab2964104a58bb499bbea927dcc2b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/provenance/ns#DataCreation> .
+<http://trdf.sourceforge.net/provenance/ns-20100404.html> <http://www.w3.org/2000/01/rdf-schema#label> "Document that defines the core ontology of the Provenance Vocabulary"@en .
+_:f957bab2964104a58bb499bbea927dcc2b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#File> .
+_:f957bab2964104a58bb499bbea927dcc2b34 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/provenance/ns#encodedBy> .
+<http://xmlns.com/wot/0.1/Endorsement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://trdf.sourceforge.net/provenance/ns.html.sig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/wot/0.1/Endorsement> .
+_:f957bab2964104a58bb499bbea927dcc2b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b39 .
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/provenance/ns#performedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/net/provenance/ns#usedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#CreationGuideline> <http://www.w3.org/2000/01/rdf-schema#label> "Creation Guideline"@en .
+<http://purl.org/net/provenance/ns#retrievedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://trdf.sourceforge.net/provenance/ns.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://purl.org/net/provenance/ns#accessedService> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#DataAccess> .
+_:f957bab2964104a58bb499bbea927dcc2b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#usedFile> .
+_:f957bab2964104a58bb499bbea927dcc2b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/provenance/ns#DataCreation> .
+<http://purl.org/net/provenance/ns#NonHumanActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:f957bab2964104a58bb499bbea927dcc2b11 .
+<http://purl.org/net/provenance/ns#DataItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#Artifact> .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b32 .
+_:f957bab2964104a58bb499bbea927dcc2b4 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/provenance/ns#encodedBy> .
+<http://purl.org/net/provenance/ns#performedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#HumanActor> .
+<http://purl.org/net/provenance/ns#NonHumanActor> <http://www.w3.org/2000/01/rdf-schema#comment> "NonHumanActor is a general class that represents actors who are not social beings."@en .
+<http://purl.org/net/provenance/ns#Artifact> <http://www.w3.org/2000/01/rdf-schema#comment> "Artifact is a general class that represents artifacts which can be used during the execution (see the class <a href=\"#Execution\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">Execution</a>) of an action or a process and which can also be the result of such an execution."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://purl.org/net/provenance/ns#retrievedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#Representation> .
+<http://purl.org/net/provenance/ns#DataCreation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#Execution> .
+<http://purl.org/net/provenance/ns#> <http://purl.org/net/provenance/ns#createdBy> _:f957bab2964104a58bb499bbea927dcc2b31 .
+<http://purl.org/net/provenance/ns#precededBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/replaces> .
+_:f957bab2964104a58bb499bbea927dcc2b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#encodedBy> .
+<http://purl.org/net/provenance/ns#Artifact> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#Execution> .
+<http://purl.org/net/provenance/ns#DataCreation> <http://www.w3.org/2000/01/rdf-schema#comment> "DataCreation is a class that represents the completed creation of a data item."@en .
+<http://purl.org/net/provenance/ns#usedFile> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#File> .
+<http://purl.org/net/provenance/ns#involvedActor> <http://www.w3.org/2000/01/rdf-schema#label> "involved"@en .
+_:f957bab2964104a58bb499bbea927dcc2b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#File> .
+<http://purl.org/net/provenance/ns#CreationGuideline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#HumanActor> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#NonHumanActor> .
+<http://purl.org/net/provenance/ns#DataCreation> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#DataAccess> .
+<http://purl.org/net/provenance/ns#performedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#Actor> .
+<http://xmlns.com/wot/0.1/PubKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#DataCreation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://olafhartig.de/foaf.rdf#olaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:f957bab2964104a58bb499bbea927dcc2b5 <http://www.w3.org/2002/07/owl#unionOf> _:f957bab2964104a58bb499bbea927dcc2b6 .
+_:f957bab2964104a58bb499bbea927dcc2b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#usedFile> .
+_:f957bab2964104a58bb499bbea927dcc2b19 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/provenance/ns#encodedBy> .
+_:f957bab2964104a58bb499bbea927dcc2b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f957bab2964104a58bb499bbea927dcc2b49 .
+_:f957bab2964104a58bb499bbea927dcc2b25 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/provenance/ns#encodedBy> .
+<http://purl.org/net/provenance/ns#> <http://purl.org/dc/terms/title> "Provenance Vocabulary Core Ontology namespace"@en .
+_:f957bab2964104a58bb499bbea927dcc2b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b44 .
+<http://purl.org/net/provenance/ns#yieldedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an abstract property that refers to the execution by which an artifact was yielded."@en .
+_:f957bab2964104a58bb499bbea927dcc2b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#DataItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/web/irw.owl#InformationResource> .
+<http://purl.org/net/provenance/ns#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/net/provenance/ns#File> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#Representation> .
+<http://sw.nokia.com/WebArch-1/Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#DataProvidingService> .
+<http://www.ontologydesignpatterns.org/ont/web/irw.owl#WebServer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#DataProvidingService> .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the creation of a data item."@en .
+<http://purl.org/net/provenance/ns#Representation> <http://www.w3.org/2000/01/rdf-schema#label> "Web Representation"@en .
+<http://purl.org/net/provenance/ns#File> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#File> <http://www.w3.org/2000/01/rdf-schema#label> "File"@en .
+<http://purl.org/net/provenance/ns#NonHumanActor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+_:f957bab2964104a58bb499bbea927dcc2b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b48 .
+<http://purl.org/net/provenance/ns#usedGuidelineFile> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#File> .
+_:f957bab2964104a58bb499bbea927dcc2b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#> <http://purl.org/net/provenance/ns#createdBy> _:f957bab2964104a58bb499bbea927dcc2b16 .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b29 .
+<http://purl.org/net/provenance/ns#DataAccess> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:f957bab2964104a58bb499bbea927dcc2b56 .
+<http://purl.org/net/provenance/ns#deployedSoftware> <http://www.w3.org/2000/01/rdf-schema#label> "runs"@en .
+<http://creativecommons.org/licenses/by/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://olafhartig.de/foaf.rdf#olaf> <http://xmlns.com/foaf/0.1/name> "Olaf Hartig"@en .
+<http://purl.org/net/provenance/ns#DataAccess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#Execution> .
+_:f957bab2964104a58bb499bbea927dcc2b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#File> .
+<http://purl.org/net/provenance/ns#DataPublisher> <http://www.w3.org/2000/01/rdf-schema#comment> "DataPublisher is a class that represents entities such as persons, groups, or organizations who use a data providing service (see class <a href=\"#DataProvidingService\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">prv:DataProvidingService</a>) to publish data on the Web."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:f957bab2964104a58bb499bbea927dcc2b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#DataItem> .
+<http://purl.org/net/provenance/ns#involvedActor> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#Actor> .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/provenance/ns#usedData> .
+<http://www.ontologydesignpatterns.org/ont/web/irw.owl#WebServer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f957bab2964104a58bb499bbea927dcc2b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#> <http://purl.org/net/provenance/ns#createdBy> _:f957bab2964104a58bb499bbea927dcc2b46 .
+<http://purl.org/net/provenance/ns#usedFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#Artifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#employedArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#HumanActor> .
+_:f957bab2964104a58bb499bbea927dcc2b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#File> .
+<http://purl.org/net/provenance/ns#DataItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#performedBy> <http://www.w3.org/2000/01/rdf-schema#label> "performed by"@en .
+<http://purl.org/net/provenance/ns#DataItem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#Representation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#Artifact> .
+<http://purl.org/net/provenance/ns#DataCreation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#File> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/web/irw.owl#InformationResource> .
+<http://sw.nokia.com/WebArch-1/Representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f957bab2964104a58bb499bbea927dcc2b46 <http://purl.org/net/provenance/ns#performedBy> <http://users.ox.ac.uk/~zool0770/foaf.rdf#me> .
+_:f957bab2964104a58bb499bbea927dcc2b16 <http://purl.org/net/provenance/ns#performedAt> "2010-04-04T12:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b59 .
+<http://purl.org/net/provenance/ns#Representation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sw.nokia.com/WebArch-1/Representation> .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#Execution> <http://www.w3.org/2000/01/rdf-schema#comment> "Execution is a general class that represents completed executions of actions or processes. An execution is usually performed by an actor (see the class <a href=\"#Actor\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">Actor</a>) and an execution, in most cases, yielded an artifact (see the class <a href=\"#Artifact\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">Artifact</a>)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://purl.org/net/provenance/ns#DataProvidingService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#NonHumanActor> .
+<http://purl.org/net/provenance/ns#precededBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#DataItem> .
+<http://purl.org/net/provenance/ns#Document> <http://www.w3.org/2002/07/owl#equivalentClass> <http://purl.org/net/provenance/ns#Representation> .
+_:f957bab2964104a58bb499bbea927dcc2b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/provenance/ns#DataCreation> .
+_:f957bab2964104a58bb499bbea927dcc2b10 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/provenance/ns#encodedBy> .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/2000/01/rdf-schema#range> _:f957bab2964104a58bb499bbea927dcc2b35 .
+<http://purl.org/net/provenance/ns#File> <http://www.w3.org/2000/01/rdf-schema#comment> "File is a general class that represents files/documents of any kind."@en .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b53 .
+_:f957bab2964104a58bb499bbea927dcc2b11 <http://www.w3.org/2002/07/owl#unionOf> _:f957bab2964104a58bb499bbea927dcc2b12 .
+<http://purl.org/net/provenance/ns#containedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#operatedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#NonHumanActor> .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/provenance/ns#employedArtifact> .
+<http://purl.org/net/provenance/ns#retrievedBy> <http://www.w3.org/2000/01/rdf-schema#label> "retrieved by"@en .
+<http://purl.org/net/provenance/ns#Execution> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#Actor> .
+<http://trdf.sourceforge.net/provenance/ns-20100404.html> <http://xmlns.com/foaf/0.1/primaryTopic> <http://purl.org/net/provenance/ns#> .
+_:f957bab2964104a58bb499bbea927dcc2b60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/2000/01/rdf-schema#range> _:f957bab2964104a58bb499bbea927dcc2b50 .
+<http://purl.org/net/provenance/ns#usedGuidelineFile> <http://www.w3.org/2000/01/rdf-schema#label> "guided by"@en .
+_:f957bab2964104a58bb499bbea927dcc2b41 <http://www.w3.org/2002/07/owl#unionOf> _:f957bab2964104a58bb499bbea927dcc2b42 .
+_:f957bab2964104a58bb499bbea927dcc2b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://trdf.sourceforge.net/provenance/ns-20100404.html> <http://purl.org/dc/terms/conformsTo> <http://www.w3.org/TR/rdfa-syntax> .
+<http://purl.org/net/provenance/ns#usedFile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#DataCreation> .
+<http://purl.org/net/provenance/ns#Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DeprecatedClass> .
+<http://purl.org/net/provenance/ns#usedFile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+_:f957bab2964104a58bb499bbea927dcc2b50 <http://www.w3.org/2002/07/owl#unionOf> _:f957bab2964104a58bb499bbea927dcc2b51 .
+<http://purl.org/net/provenance/ns#Document> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#precededBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to an immediately preceding version of a data item; hence, the new version (i.e. the subject) has been created using the old version (i.e. the object). We strongly encourage to also describe this creation of the new version explicitly."@en .
+<http://xmlns.com/wot/0.1/endorser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#createdBy> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#HumanActor> .
+<http://purl.org/net/provenance/ns.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://trdf.sourceforge.net/provenance/ns-20100404.html> <http://purl.org/dc/terms/title> "Provenance Vocabulary Core Ontology Specification"@en .
+<http://purl.org/net/provenance/ns#retrievedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the data access by which a Web representation of a data item has been retrieved from the Web."@en .
+_:f957bab2964104a58bb499bbea927dcc2b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#> <http://purl.org/dc/terms/description> "The Provenance Vocabulary provides classes and properties to describe the provenance of data from the Web. Hence, this vocabulary enables providers of Web data to publish provenance-related metadata about their data. The Provenance Vocabulary Core Ontology provides the main classes and properties required to describe provenance of data on the Web. Notice, this vocabulary is not designed to describe provenance of other kinds of content such as documents."@en .
+<http://www.ontologydesignpatterns.org/ont/web/irw.owl#InformationResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#precededBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f957bab2964104a58bb499bbea927dcc2b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f957bab2964104a58bb499bbea927dcc2b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b45 .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#DataCreation> .
+_:f957bab2964104a58bb499bbea927dcc2b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#usedGuidelineFile> .
+<http://www.w3.org/TR/rdfa-syntax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/net/provenance/ns#usedFile> <http://www.w3.org/2000/01/rdf-schema#label> "used"@en .
+_:f957bab2964104a58bb499bbea927dcc2b46 <http://purl.org/net/provenance/ns#performedAt> "2010-04-04T12:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:f957bab2964104a58bb499bbea927dcc2b1 <http://purl.org/net/provenance/ns#performedAt> "2010-04-04T12:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://trdf.sourceforge.net/provenance/ns-20100404.html> <http://www.w3.org/1999/xhtml/vocab#alternate> <http://trdf.sourceforge.net/provenance/ns.rdf> .
+<http://purl.org/net/provenance/ns#performedAt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#usedGuidelineFile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://users.ox.ac.uk/~zool0770/foaf.rdf#me> <http://xmlns.com/foaf/0.1/homepage> <http://users.ox.ac.uk/~zool0770/> .
+_:f957bab2964104a58bb499bbea927dcc2b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b9 .
+<http://trdf.sourceforge.net/provenance/ns.html> <http://xmlns.com/wot/0.1/assurance> <http://trdf.sourceforge.net/provenance/ns.html.sig> .
+_:f957bab2964104a58bb499bbea927dcc2b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/provenance/ns#Execution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#performedAt> <http://www.w3.org/2000/01/rdf-schema#label> "executed at"@en .
+<http://purl.org/net/provenance/ns#DataAccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f957bab2964104a58bb499bbea927dcc2b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#yieldedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#Artifact> .
+_:f957bab2964104a58bb499bbea927dcc2b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f957bab2964104a58bb499bbea927dcc2b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#NonHumanActor> <http://www.w3.org/2000/01/rdf-schema#label> "Non-Human Actor"@en .
+_:f957bab2964104a58bb499bbea927dcc2b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b54 .
+<http://trdf.sourceforge.net/provenance/ns.html.sig> <http://purl.org/dc/terms/title> "Detached signature"@en .
+<http://purl.org/net/provenance/ns#precededBy> <http://www.w3.org/2000/01/rdf-schema#label> "immediately preceded by"@en .
+<http://purl.org/net/provenance/ns#usedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#DataProvidingService> .
+_:f957bab2964104a58bb499bbea927dcc2b60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#createdBy> .
+_:f957bab2964104a58bb499bbea927dcc2b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#Actor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#yieldedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#Execution> .
+<http://purl.org/net/provenance/ns#employedArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an abstract property that refers to an artifact which was used during an execution."@en .
+<http://purl.org/net/provenance/ns#Artifact> <http://www.w3.org/2000/01/rdf-schema#label> "Artifact"@en .
+_:f957bab2964104a58bb499bbea927dcc2b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#encodedBy> .
+_:f957bab2964104a58bb499bbea927dcc2b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f957bab2964104a58bb499bbea927dcc2b40 .
+_:f957bab2964104a58bb499bbea927dcc2b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b43 .
+_:f957bab2964104a58bb499bbea927dcc2b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f957bab2964104a58bb499bbea927dcc2b25 .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/provenance/ns#yieldedBy> .
+<http://sw.nokia.com/WebArch-1/Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#performedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/provenance/ns#involvedActor> .
+<http://purl.org/net/provenance/ns#deployedSoftware> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#NonHumanActor> .
+<http://purl.org/net/provenance/ns#usedGuidelineFile> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to a file encoding a creation guideline which guided the execution of a data creation. Notice, all files encoding creation guidelines have provenance; we strongly encourage to describe this provenance as well, at least as far as available information permits."@en .
+<http://purl.org/net/provenance/ns#involvedActor> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an abstract property that refers to an actor involved in an execution."@en .
+<http://purl.org/net/provenance/ns#usedFile> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/provenance/ns#employedArtifact> .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2000/01/rdf-schema#label> "guided by"@en .
+<http://purl.org/net/provenance/ns#DataPublisher> <http://www.w3.org/2000/01/rdf-schema#label> "Data Publisher"@en .
+_:f957bab2964104a58bb499bbea927dcc2b31 <http://purl.org/net/provenance/ns#performedBy> <http://olafhartig.de/foaf.rdf#olaf> .
+<http://purl.org/net/provenance/ns#performedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#Execution> .
+<http://purl.org/net/provenance/ns#CreationGuideline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f957bab2964104a58bb499bbea927dcc2b31 <http://purl.org/net/provenance/ns#performedBy> <http://users.ox.ac.uk/~zool0770/foaf.rdf#me> .
+_:f957bab2964104a58bb499bbea927dcc2b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#usedGuidelineFile> .
+<http://purl.org/net/provenance/ns#containedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://trdf.sourceforge.net/provenance/ns-20100404.html> <http://www.w3.org/1999/xhtml/vocab#license> <http://creativecommons.org/licenses/by/1.0/> .
+<http://purl.org/net/provenance/ns#Representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f957bab2964104a58bb499bbea927dcc2b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f957bab2964104a58bb499bbea927dcc2b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b7 .
+<http://purl.org/net/provenance/ns#DataProvidingService> <http://www.w3.org/2000/01/rdf-schema#comment> "DataProvidingService is a class that represents a non-human actor - usually a Web service or a server - that processes data access requests and actually sends the requested Web representations (i.e. <a href=\"#Representation\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">prv:Representation</a>) over the Web."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://purl.org/net/provenance/ns#yieldedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#DataItem> .
+_:f957bab2964104a58bb499bbea927dcc2b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b33 .
+<http://purl.org/net/provenance/ns#involvedActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#usedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#DataPublisher> .
+<http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#employedArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+_:f957bab2964104a58bb499bbea927dcc2b16 <http://purl.org/net/provenance/ns#performedBy> <http://olafhartig.de/foaf.rdf#olaf> .
+<http://purl.org/net/provenance/ns#DataAccess> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#DataCreation> .
+<http://purl.org/net/provenance/ns#retrievedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+_:f957bab2964104a58bb499bbea927dcc2b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#usedGuidelineFile> .
+<http://purl.org/net/provenance/ns#NonHumanActor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#Actor> .
+<http://purl.org/net/provenance/ns#DataPublisher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#HumanActor> .
+_:f957bab2964104a58bb499bbea927dcc2b26 <http://www.w3.org/2002/07/owl#unionOf> _:f957bab2964104a58bb499bbea927dcc2b27 .
+<http://purl.org/dc/terms/conformsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#operatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#Actor> <http://www.w3.org/2000/01/rdf-schema#comment> "Actor is a general class that represents actors which usually performed the execution (see the class <a href=\"#Execution\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">Execution</a>) of an action or a process."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://purl.org/net/provenance/ns#Execution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#operatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#HumanActor> .
+_:f957bab2964104a58bb499bbea927dcc2b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#File> .
+<http://purl.org/net/provenance/ns#containedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to an artifact that contained a data item. This artifact can either be a Web representation of the data item (see class <a href=\"#Representation\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">prv:Representation</a>) or it can be another data item of a larger granularity (e.g. an RDF statement is usually contained in an RDF graph)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/2000/01/rdf-schema#range> _:f957bab2964104a58bb499bbea927dcc2b5 .
+<http://trdf.sourceforge.net/provenance/ns-20100404.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+_:f957bab2964104a58bb499bbea927dcc2b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#usedFile> .
+<http://purl.org/net/provenance/ns#DataAccess> <http://www.w3.org/2000/01/rdf-schema#label> "Data Access"@en .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#> <http://purl.org/dc/terms/created> "2010-04-04T12:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:f957bab2964104a58bb499bbea927dcc2b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://users.ox.ac.uk/~zool0770/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+_:f957bab2964104a58bb499bbea927dcc2b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b30 .
+<http://purl.org/net/provenance/ns#yieldedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#CreationGuideline> .
+_:f957bab2964104a58bb499bbea927dcc2b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#createdBy> .
+<http://purl.org/net/provenance/ns#retrievedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/provenance/ns#yieldedBy> .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f957bab2964104a58bb499bbea927dcc2b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f957bab2964104a58bb499bbea927dcc2b34 .
+_:f957bab2964104a58bb499bbea927dcc2b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#File> .
+_:f957bab2964104a58bb499bbea927dcc2b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f957bab2964104a58bb499bbea927dcc2b4 .
+<http://purl.org/net/provenance/ns#DataProvidingService> <http://www.w3.org/2000/01/rdf-schema#label> "Data Providing Service"@en .
+_:f957bab2964104a58bb499bbea927dcc2b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b22 .
+<http://purl.org/net/provenance/ns#accessedService> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#DataProvidingService> .
+<http://purl.org/net/provenance/ns#accessedService> <http://www.w3.org/2000/01/rdf-schema#label> "accessed"@en .
+<http://purl.org/net/provenance/ns#Actor> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/net/provenance/ns#DataItem> <http://www.w3.org/2000/01/rdf-schema#comment> "DataItem is a general class that represents data items of any kind."@en .
+<http://purl.org/net/provenance/ns#DataItem> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#File> .
+<http://www.w3.org/1999/xhtml/vocab#alternate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#DataItem> .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/2000/01/rdf-schema#label> "encoded by"@en .
+<http://purl.org/net/provenance/ns#precededBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#DataItem> .
+_:f957bab2964104a58bb499bbea927dcc2b35 <http://www.w3.org/2002/07/owl#unionOf> _:f957bab2964104a58bb499bbea927dcc2b36 .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b14 .
+_:f957bab2964104a58bb499bbea927dcc2b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b18 .
+<http://purl.org/net/provenance/ns#File> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#DataItem> .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to a file that contained a data item."@en .
+_:f957bab2964104a58bb499bbea927dcc2b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/provenance/ns#DataCreation> .
+<http://purl.org/net/provenance/ns#DataAccess> <http://www.w3.org/2000/01/rdf-schema#comment> "DataAccess is a class that represents the completed execution of accessing a data item on the Web."@en .
+_:f957bab2964104a58bb499bbea927dcc2b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#createdBy> .
+_:f957bab2964104a58bb499bbea927dcc2b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#Representation> .
+<http://purl.org/net/provenance/ns#encodedBy> <http://www.w3.org/2000/01/rdf-schema#range> _:f957bab2964104a58bb499bbea927dcc2b20 .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b38 .
+_:f957bab2964104a58bb499bbea927dcc2b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f957bab2964104a58bb499bbea927dcc2b55 .
+_:f957bab2964104a58bb499bbea927dcc2b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f957bab2964104a58bb499bbea927dcc2b10 .
+<http://purl.org/net/provenance/ns#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/provenance/ns#DataItem> .
+_:f957bab2964104a58bb499bbea927dcc2b40 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/provenance/ns#encodedBy> .
+<http://purl.org/net/provenance/ns#File> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#Artifact> .
+_:f957bab2964104a58bb499bbea927dcc2b1 <http://purl.org/net/provenance/ns#performedBy> <http://olafhartig.de/foaf.rdf#olaf> .
+_:f957bab2964104a58bb499bbea927dcc2b56 <http://www.w3.org/2002/07/owl#unionOf> _:f957bab2964104a58bb499bbea927dcc2b57 .
+<http://olafhartig.de/foaf.rdf#pubkey2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/wot/0.1/PubKey> .
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b52 .
+_:f957bab2964104a58bb499bbea927dcc2b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f957bab2964104a58bb499bbea927dcc2b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://trdf.sourceforge.net/provenance/ns.html.sig> <http://xmlns.com/wot/0.1/endorser> <http://olafhartig.de/foaf.rdf#pubkey2009> .
+<http://purl.org/net/provenance/ns#Execution> <http://www.w3.org/2000/01/rdf-schema#label> "Execution"@en .
+<http://purl.org/net/provenance/ns#containedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#Artifact> .
+_:f957bab2964104a58bb499bbea927dcc2b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#> <http://purl.org/dc/terms/creator> <http://olafhartig.de/foaf.rdf#olaf> .
+_:f957bab2964104a58bb499bbea927dcc2b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f957bab2964104a58bb499bbea927dcc2b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#performedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to an actor that/who performed an execution."@en .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to a creation guideline which guided the execution of a data creation. Examples for creation guidelines are transformation rules, mapping definitions, entailment rules, and database queries. Notice, all creation guidelines have provenance; we strongly encourage to describe this provenance as well, at least as far as available information permits."@en .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#DataCreation> .
+<http://purl.org/net/provenance/ns#HumanActor> <http://www.w3.org/2000/01/rdf-schema#comment> "HumanActor is a general class that represents actors who are social beings such as persons, organizations, companies."@en .
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/provenance/ns#Representation> <http://www.w3.org/2000/01/rdf-schema#comment> "Representation is a general concept that represents a Web representation of an information resource such as a data item. Such a Web representation was used during the retrieval of a data item from the Web."@en .
+<http://purl.org/net/provenance/ns#accessedService> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the service that provided the Web representation during the execution of a data access."@en .
+_:f957bab2964104a58bb499bbea927dcc2b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b60 .
+<http://sw.nokia.com/WebArch-1/Server> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://trdf.sourceforge.net/provenance/ns-20100404.html> <http://purl.org/dc/terms/description> "This documents specifies the classes and properties introduced by the Provenance Vocabulary Core Ontology."@en .
+<http://purl.org/net/provenance/ns#employedArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "used"@en .
+_:f957bab2964104a58bb499bbea927dcc2b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#encodedBy> .
+_:f957bab2964104a58bb499bbea927dcc2b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#usedFile> .
+_:f957bab2964104a58bb499bbea927dcc2b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b24 .
+<http://purl.org/net/provenance/ns#> <http://purl.org/dc/terms/creator> <http://users.ox.ac.uk/~zool0770/foaf.rdf#me> .
+<http://purl.org/net/provenance/ns#HumanActor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#Actor> .
+<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#accessedService> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/provenance/ns#involvedActor> .
+<http://purl.org/net/provenance/ns#HumanActor> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#Artifact> .
+_:f957bab2964104a58bb499bbea927dcc2b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b15 .
+<http://purl.org/net/provenance/ns#deployedSoftware> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#performedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the time an execution has been performed at."@en .
+<http://purl.org/net/provenance/ns#DataItem> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#Representation> .
+<http://www.w3.org/1999/xhtml/vocab#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#CreationGuideline> <http://www.w3.org/2000/01/rdf-schema#comment> "CreationGuideline is a class that represents a guideline used to guide the execution of a data creation. Examples for creation guidelines are transformation rules, mapping definitions, entailment rules, and database queries."@en .
+<http://purl.org/net/provenance/ns#containedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#DataItem> .
+_:f957bab2964104a58bb499bbea927dcc2b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#Execution> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#Artifact> .
+_:f957bab2964104a58bb499bbea927dcc2b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#DataItem> .
+<http://users.ox.ac.uk/~zool0770/foaf.rdf#me> <http://xmlns.com/foaf/0.1/name> "Jun Zhao"@en .
+<http://purl.org/net/provenance/ns#File> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b2 .
+_:f957bab2964104a58bb499bbea927dcc2b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f957bab2964104a58bb499bbea927dcc2b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b3 .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b8 .
+_:f957bab2964104a58bb499bbea927dcc2b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#usedFile> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to a file encoding the source data item that has been used during the creation of a data item. Notice, all files that encode source data have provenance; we strongly encourage to describe this provenance as well, at least as far as available information permits."@en .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+_:f957bab2964104a58bb499bbea927dcc2b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#usedGuidelineFile> .
+<http://purl.org/net/provenance/ns#employedArtifact> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#Artifact> .
+<http://purl.org/net/provenance/ns#containedBy> <http://www.w3.org/2000/01/rdf-schema#label> "contained in"@en .
+_:f957bab2964104a58bb499bbea927dcc2b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#Artifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+_:f957bab2964104a58bb499bbea927dcc2b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b13 .
+_:f957bab2964104a58bb499bbea927dcc2b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#encodedBy> .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b17 .
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#CreationGuideline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/provenance/ns#DataItem> .
+<http://users.ox.ac.uk/~zool0770/foaf.rdf#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/net/provenance/ns#DataCreation> <http://www.w3.org/2000/01/rdf-schema#label> "Data Creation"@en .
+<http://purl.org/net/provenance/ns#> <http://purl.org/net/provenance/ns#createdBy> _:f957bab2964104a58bb499bbea927dcc2b1 .
+_:f957bab2964104a58bb499bbea927dcc2b16 <http://purl.org/net/provenance/ns#performedBy> <http://users.ox.ac.uk/~zool0770/foaf.rdf#me> .
+_:f957bab2964104a58bb499bbea927dcc2b1 <http://purl.org/net/provenance/ns#performedBy> <http://users.ox.ac.uk/~zool0770/foaf.rdf#me> .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#NonHumanActor> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#HumanActor> .
+<http://purl.org/net/provenance/ns#operatedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#Document> <http://www.w3.org/2000/01/rdf-schema#comment> "This class is deprecated and will be removed from the Provenance Vocabulary shortly. Use <a href=\"#Representation\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">prv:Representation</a> instead. prv:Document was deprecated because its name caused confusion; the name made people assume this class represents information resources which is not the case; in fact, it represents a Web representation of an information resource."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+_:f957bab2964104a58bb499bbea927dcc2b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#Representation> .
+<http://purl.org/net/provenance/ns#usedGuidelineFile> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/provenance/ns#usedFile> .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:f957bab2964104a58bb499bbea927dcc2b47 .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f957bab2964104a58bb499bbea927dcc2b28 .
+<http://purl.org/net/provenance/ns#DataPublisher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2000/01/rdf-schema#label> "created by"@en .
+<http://purl.org/net/provenance/ns#precededBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#DataProvidingService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:f957bab2964104a58bb499bbea927dcc2b41 .
+<http://purl.org/net/provenance/ns#accessedService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#usedGuidelineFile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#DataCreation> .
+<http://purl.org/net/provenance/ns#accessedService> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#Document> <http://www.w3.org/2000/01/rdf-schema#label> "Web Representation"@en .
+<http://purl.org/net/provenance/ns#Actor> <http://www.w3.org/2000/01/rdf-schema#label> "Actor"@en .
+_:f957bab2964104a58bb499bbea927dcc2b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#usedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#createdBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:f957bab2964104a58bb499bbea927dcc2b26 .
+<http://purl.org/net/provenance/ns#performedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f957bab2964104a58bb499bbea927dcc2b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#HumanActor> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#Execution> .
+_:f957bab2964104a58bb499bbea927dcc2b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/net/provenance/ns#Representation> .
+<http://purl.org/net/provenance/ns#Artifact> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/net/provenance/ns#Actor> .
+<http://purl.org/net/provenance/ns#usedGuideline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#DataCreation> .
+_:f957bab2964104a58bb499bbea927dcc2b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f957bab2964104a58bb499bbea927dcc2b19 .
+<http://purl.org/net/provenance/ns#DataPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://olafhartig.de/foaf.rdf#olaf> <http://xmlns.com/foaf/0.1/homepage> <http://olafhartig.de/> .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to a source data item that has been used during the creation of a data item. Examples for source data are the content of a document used for machine learning, the statements in a knowledge base used to entail a new statement, and the entries in a database used to answer a query. Notice, all source data has provenance; we strongly encourage to describe this provenance as well, at least as far as available information permits."@en .
+<http://purl.org/net/provenance/ns#usedGuidelineFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/provenance/ns#performedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/provenance/ns#Execution> .
+<http://purl.org/net/provenance/ns#performedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+_:f957bab2964104a58bb499bbea927dcc2b49 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/provenance/ns#encodedBy> .
+<http://purl.org/net/provenance/ns#HumanActor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f957bab2964104a58bb499bbea927dcc2b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/provenance/ns#DataItem> .
+<http://purl.org/net/provenance/ns#DataProvidingService> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#HumanActor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+<http://purl.org/net/provenance/ns#deployedSoftware> <http://www.w3.org/2000/01/rdf-schema#comment> "This property refers to the software that was run by a non-human actor (usually a service)."@en .
+<http://purl.org/net/provenance/ns#usedData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/provenance/ns> .
+_:f957bab2964104a58bb499bbea927dcc2b55 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/provenance/ns#encodedBy> .
+<http://purl.org/net/provenance/ns#deployedSoftware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+

@@ -1,0 +1,307 @@
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagActionMTS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fe8b3e49478d6402c9ab63520768a4a7ab6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TaggedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 pour repr\u00E9senter la resource tagu\u00E9e. Equivalent de irw:Resource."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isAbout> <http://www.w3.org/2000/01/rdf-schema#label> "Is about"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSt> <http://www.w3.org/2000/01/rdf-schema#label> "Est pertinent par rapport \u00E0 quelque chose"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSb> <http://www.w3.org/2000/01/rdf-schema#label> "Is relevant to somebody"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Evaluate> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluate"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Assert> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit l'action que l'on accomplit avec tag d\u00E8s lors que celui-ci est utilis\u00E9 pour affirmer quoi que ce soit \u00E0 propos d'une ressource."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Ask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Assert> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the action that is performed with a tag whenever it is used to assert anything about a resource."@en .
+_:fe8b3e49478d6402c9ab63520768a4a7ab4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SetTask> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the action that is performed with a \"todo\" tag whenever it is used to create a task awaiting performance."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc> <http://purl.org/dc/elements/1.1/title> "Nice Tag Ontology"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasCommunitySign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isWorth> <http://www.w3.org/2000/01/rdf-schema#label> "Is worth"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 pour lier une ressource \u00E0 un signe qui, lui-m\u00EAme, peut \u00EAtre de n'importe quel type pourvu que sa repr\u00E9sentation, identifi\u00E9e par une URI, soit accessible via le protocole HTPP. NiceTag d\u00E9finit les tags au moyen d'une propri\u00E9t\u00E9 qui relie deux Resource; toutefois, l'ontologie IRW permet de comprendre plus pr\u00E9cis\u00E9ment la signification de nt:TaggedResource (en particulier la classe irw:Resource)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 pour d\u00E9crire des actes de taguer impliquant des tags dont les libell\u00E9s ont n-dimensions (double tags, triple tags, etc.)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPersonalSign> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#DisambiguatedTagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9e quand le libell\u00E9 d'un tag indique \u00E0 quel utilisateur une ressource a \u00E9t\u00E9 sugg\u00E9r\u00E9e (mod\u00E9lise des fonctionalit\u00E9s existantes telles que les tags \"for:-username\" sur Delicious)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevant> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9e pour subsumer \"isRelevantToSb\" et \"isRelevantToSt\"."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ExpressFeelings> <http://www.w3.org/2000/01/rdf-schema#label> "Exprimer un ressenti"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Corresponds to uses of labels that indicate by whom a resource was suggested."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ManualTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit des tags associ\u00E9s manuellement \u00E0 une ressource par un \u00EAtre humain."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isAbout> <http://www.w3.org/2000/01/rdf-schema#label> "A pour th\u00E8me"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPersonalSign> <http://www.w3.org/2000/01/rdf-schema#label> "A pour signe personnel"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc> <http://purl.org/dc/elements/1.1/type> <http://purl.org/dc/dcmitype/Text> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Evaluate> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit l'action que l'on accomplit avec un tag d\u00E8s lors que celui-ci est utilis\u00E9 pour donner une note, marquer son approbation ou sa d\u00E9sapprobation ou, plus g\u00E9n\u00E9ralement, produirez une \u00E9valuation."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagsCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Undefined collection of tags."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AnnotatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to represent the HTTP-accessible realization of an information resource on the Web. The equivalent of irw:WebRepresentation, the Annotated Resource is that which generally triggers the act of tagging. Being dereferenceable by definition, it also provides the address that will be bookmarked on delicious-like sites and work like an anchor for tags. This said, the resource being tagged is in no way limited to HTTP-accessible data (indeed, what supports an act of tagging may very well be what the Web representation represents, a non-information resource for example, instead of the Web representation itself)."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fe8b3e49478d6402c9ab63520768a4a7ab1 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#elicitsAction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#cannotBeReadBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9e quand le libell\u00E9 d'un tag indique le destinataire auquel des droits d'acc\u00E8s d\u00E9finis sur une ressource donn\u00E9e ont \u00E9t\u00E9 d\u00E9ni\u00E9s."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#belongToTagCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Appartient \u00E0 une collection de tags"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#cannotBeReadBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Assert> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PartOfWebRepresentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes tagging involving N-tuple tags (double tags, triple tags, etc.)."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagsCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection de tags"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#raisesQuestionAbout> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9e quand le libell\u00E9 d'un tag indique qu'une question est pos\u00E9e."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#belongToTagCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPersonalSign> <http://www.w3.org/2000/01/rdf-schema#comment> "Correspond \u00E0 l'emploi de libell\u00E9s d\u00E9finis par un utilisateur pour rassembler, cat\u00E9goriser ou distinguer des ressources voire simplement structurer sa propre collection de tags."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasCommunitySign> <http://www.w3.org/2000/01/rdf-schema#label> "A pour signe collectif"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "Is related to"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to describe an act of tagging performed by a the person who browsed a Web representation."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#cannotBeReadBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasForMedium> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#WebConceptTagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Aggregate> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit l'action que l'on accomplit lorsque des ressources sont aggr\u00E9g\u00E9es autour d'un tag d\u00E9fini de mani\u00E8re collective."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AutoTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Auto tag action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSb> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagActionMTS> <http://www.w3.org/2000/01/rdf-schema#label> "N-tuple tag action machine tag syntax"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagActionMTS> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 pour d\u00E9crire un acte de taguer impliquant des tags dont les libell\u00E9s ont n-dimensions et suivent la syntaxe des machine tags mais dans un contexte o\u00F9 des APIs semblables \u00E0 celle de Flickr font d\u00E9faut."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#canBeReadBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Corresponds \u00E0 l'utilisation de tags dont le libell\u00E9 indique le destinataire auquel des droits d'acc\u00E8s d\u00E9finis sur une ressource donn\u00E9e ont \u00E9t\u00E9 octroy\u00E9s."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#cannotBeReadBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used when the label of a tag indicates to whom access right to the tagged resource are denied."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevant> <http://www.w3.org/2000/01/rdf-schema#label> "Est pertinent"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fe8b3e49478d6402c9ab63520768a4a7ab4 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSb> <http://www.w3.org/2000/01/rdf-schema#label> "Est pertinent pour quelqu'un"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Point> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the action that is performed with a tag whenever it is used to point to a specific part of a Web representation (the segment of a video,\n  a user-generated commentary to a newspaper article, etc.)."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TaggedResource> <http://www.w3.org/2000/01/rdf-schema#label> "Ressource tagu\u00E9e"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#GiveAccessRights> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the action that is performed with a tag whenever it is used to define to whom access rights to a resource are granted or denied."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Ask> <http://www.w3.org/2000/01/rdf-schema#label> "Poser une question"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc> <http://purl.org/dc/elements/1.1/title> "L'Ontologie Nice Tag"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasForMedium> <http://www.w3.org/2000/01/rdf-schema#label> "Has for medium"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isWorth> <http://www.w3.org/2000/01/rdf-schema#label> "Vaut"@fr .
+_:fe8b3e49478d6402c9ab63520768a4a7ab2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ns.inria.fr/nicetag/2009/09/25/voc#OwnerTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#raisesQuestionAbout> <http://www.w3.org/2000/01/rdf-schema#label> "Soul\u00E8ve une interrogation au sujet de"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentBy> <http://www.w3.org/2000/01/rdf-schema#label> "Envoy\u00E9 par"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SyntacticTagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#OwnerTagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#cannotBeReadBy> <http://www.w3.org/2000/01/rdf-schema#label> "Cannot Be Read By"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentTo> <http://www.w3.org/2000/01/rdf-schema#label> "Sent to"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PersonalTagCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagsCollection> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8b3e49478d6402c9ab63520768a4a7ab1 .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Share> <http://www.w3.org/2000/01/rdf-schema#label> "Share"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SyntacticTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Syntactic Tag Action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#canBeReadBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Person> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "A super class to describe every tag action as modelled by a named graph according to RDF Graph model (RDFG)."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#raisesQuestionAbout> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used when the label of a tag indicates that a question is being asked."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TaggedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to represent the resource being tagged. Equivalent of irw:Resource."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ExpressFeelings> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the action that is performed with a tag whenever it is used to express a feeling, an emotion, etc."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link a resource to a sign, which can itself, be of any type, provided its representation is HTTP accessible from a URI. NiceTag defines tags by means of a mere property linking two Resources; this said, the many distinctions found in IRW ontology give a more precise account of nt:TaggedResource (see in particular irw:Resource)."@en .
+_:fe8b3e49478d6402c9ab63520768a4a7ab3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagActionMTS> <http://www.w3.org/2002/07/owl#sameAs> <http://ns.inria.fr/nicetag/2009/09/25/voc#MachineTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Aggregate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPersonalSign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Une super-classe qui permet de d\u00E9crire et de mod\u00E9liser les actes de taguer \u00E0 l'aide d'un graphe nomm\u00E9 et au moyen du mod\u00E8le de graphe RDF (RDFG)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/sioc/ns#UserAccount> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasCommunitySign> <http://www.w3.org/2000/01/rdf-schema#comment> "Correspond \u00E0 des usages collectivement constitu\u00E9s de libell\u00E9s choisis par une communaut\u00E9."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AutoTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes tags as automatically generated and/or associated to a resource by a computer."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#MachineTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit des tags dont les libell\u00E9s mobilisent la syntaxe des machine tags telle qu'impl\u00E9ment\u00E9e d'abord sur le site Flickr.com."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ManualTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Manual tag action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevant> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSt> <http://www.w3.org/2000/01/rdf-schema#label> "Is relevant to something"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.4" .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> <http://www.w3.org/2002/07/owl#unionOf> _:fe8b3e49478d6402c9ab63520768a4a7ab2 .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PartOfWebRepresentation> <http://www.w3.org/2000/01/rdf-schema#label> "Partie de la repr\u00E9sentation d'une ressource sur le Web"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Aggregate> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the action that is performed whenever resources are aggregated with a collectively defined tag."@en .
+_:fe8b3e49478d6402c9ab63520768a4a7ab5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ns.inria.fr/nicetag/2009/09/25/voc#OwnerTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PartOfWebRepresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 pour repr\u00E9senter la partie de la repr\u00E9sentation d'une ressource qui est tagu\u00E9e lorsque qu'il est fait usage de l'acte de taguer \"Pointer\"."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagsCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Une collection de tags ne r\u00E9pondant \u00E0 aucune d\u00E9finition particuli\u00E8re."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#elicitsAction> <http://www.w3.org/2000/01/rdf-schema#label> "Suscite l'action"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#MachineTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes tags whose labels are using the syntax of machine tags as implemented first in Flickr.com."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#OwnerTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to describe an act of tagging performed by the owner of the URI that identifies the tagged resource."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#MachineTagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#SyntacticTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TaggedResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Assert> <http://www.w3.org/2000/01/rdf-schema#label> "Asserter"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isWorth> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AutoTagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#CommunityTagCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagsCollection> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#WebConceptTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Web concept tag action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasForMedium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PartOfWebRepresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to represent the part of the Web representation resource being tagged after the \"Point\" TagAction is used."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AutoTagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Aggregate> <http://www.w3.org/2000/01/rdf-schema#label> "Agr\u00E9ger"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#DisambiguatedTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Used when the sign used to tag is disambiguated."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isAbout> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used when the label of a tag describes the topic of a resource."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "Has part"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#CommunityTagCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#belongToTagCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 employ\u00E9e pour associer un acte de taguer singulier \u00E0 une collection de tags. Ceci sert \u00E0 rendre compte des multiples mani\u00E8res d'aggr\u00E9ger les tags offertes par les diff\u00E9rents services existants (l'URI http://delicious.com/fabion_gandon/OWL permet par exemple d'acc\u00E9der \u00E0 une repr\u00E9sentation de tous les actes de taguer accomplis par le titulaire du compte \"fabien_gandon\" o\u00F9 figure le libell\u00E9 \"OWL\" sur delicious.com \u00E0 un instant \"t\")."@fr .
+_:fe8b3e49478d6402c9ab63520768a4a7ab5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8b3e49478d6402c9ab63520768a4a7ab6 .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ExpressFeelings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Share> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#canBeReadBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SetTask> <http://www.w3.org/2000/01/rdf-schema#label> "D\u00E9finir une t\u00E2che"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SyntacticTagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Ask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer avec tag \u00E0 n-dimensions"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PersonalTagCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Personal tag collection"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isWorth> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9e pour indiquer qu'une ressource est \u00E9valu\u00E9e, class\u00E9e, etc. \u00E0 l'aide d'un libell\u00E9 (\"***\", \"5/10\", \"0\", \"le meilleur\", etc.)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasForMedium> <http://www.w3.org/2000/01/rdf-schema#label> "Est un medium de type"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagActionMTS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://ns.inria.fr/nicetag/2009/09/25/voc#PartOfWebRepresentation> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagActionMTS> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer avec tag \u00E0 n-dimensions et syntaxe de machine tags"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AnnotatedResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Evaluate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "N-tuple tag action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#canBeReadBy> <http://www.w3.org/2000/01/rdf-schema#label> "Peut \u00EAtre lu par"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#CommunityTagCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Community tag collection"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSt> <http://www.w3.org/2000/01/rdf-schema#comment> "Sous-propri\u00E9t\u00E9 de \"isRelevantTo', utilis\u00E9e pour lier quoi que ce soit \u00E0 une ressource de telle mani\u00E8re qu'aucun lien imm\u00E9diat formel ne puisse \u00EAtre inf\u00E9r\u00E9 entre les deux except\u00E9 du point de vue du cr\u00E9ateur d'un tel lien."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isAbout> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasCommunitySign> <http://www.w3.org/2000/01/rdf-schema#label> "Has community sign"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#belongToTagCollection> <http://www.w3.org/2000/01/rdf-schema#range> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagsCollection> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#raisesQuestionAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#SyntacticTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ManualTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer manuel"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PersonalTagCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection de tags personnelle"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevant> <http://www.w3.org/2000/01/rdf-schema#label> "Is relevant"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc> <http://purl.org/dc/elements/1.1/description> "NiceTag Ontology is an ontology which describes as generally as possible tags or rather tag actions understood as a speech acts occurring on the Web"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSb> <http://www.w3.org/2000/01/rdf-schema#comment> "Subproperty of 'is relevant to' used to link a resource to the person whom it may be relevant to. In other words, in such a way that no immediate formal link can be inferred between the two except from the point of view of a precise person in addition to the user who defined the said link."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> <http://www.w3.org/2002/07/owl#disjointWith> <http://ns.inria.fr/nicetag/2009/09/25/voc#OwnerTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#canBeReadBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#DisambiguatedTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer avec d\u00E9sambig\u00FCisation"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ns.inria.fr/nicetag/2009/09/25/voc#TaggedResource> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isAbout> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9 pour indiquer que le libell\u00E9 d'un tag d\u00E9crit le th\u00E8me d'un ressource."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagsCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SyntacticTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit des tags dont les libell\u00E9s mobilisent une certaine syntaxe pour accro\u00EEtre leur pr\u00E9cision et leur capacit\u00E9 \u00E0 \u00EAtre manipul\u00E9s."@fr .
+_:fe8b3e49478d6402c9ab63520768a4a7ab6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasForMedium> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#OwnerTagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#WebConceptTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer par concept Web"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPersonalSign> <http://www.w3.org/2000/01/rdf-schema#comment> "Corresponds to uses of user-defined labels that can either serve to gather, categorize, distinguish resources or simply add structure to one's collection of tags."@en .
+_:fe8b3e49478d6402c9ab63520768a4a7ab2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8b3e49478d6402c9ab63520768a4a7ab3 .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Point> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Point> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit l'action que l'on accomplit avec un tag d\u00E8s lors que celui-ci est utilis\u00E9 pour faire r\u00E9f\u00E9rence \u00E0 une portion sp\u00E9cifique de la repr\u00E9sentation \n d'une ressource sur le Web (le segment d'une vid\u00E9o, un commentaire produit par les utilisateurs au pied d'un article, etc.)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#belongToTagCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Belongs to tag collection"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#CommunityTagCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection de tags communautaire"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> <http://www.w3.org/2002/07/owl#unionOf> _:fe8b3e49478d6402c9ab63520768a4a7ab5 .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Evaluate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#WebConceptTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes tagging involving Web concepts (such as geonames)."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Share> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the action that is performed with a tag whenever it is used to share the representation of a WebResource on various services - Twitter or Delicious for instance - with the owner of a sioc:UserAccount (not necessarily a foaf:Person as it might be either a bot, a person or an institution whose representatives may well vary over time)."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Assert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasCommunitySign> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SetTask> <http://www.w3.org/2000/01/rdf-schema#label> "Set task"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc> <http://purl.org/dc/elements/1.1/description> "NiceTag est une ontologie d\u00E9crivant le plus g\u00E9n\u00E9ralement possible les tags ou plut\u00F4t les actes de taguer comme des actes de langage survenant sur le Web"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPersonalSign> <http://www.w3.org/2000/01/rdf-schema#label> "Has personal sign"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#WebConceptTagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#MachineTagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Assert> <http://www.w3.org/2000/01/rdf-schema#label> "Assert"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#makesMeFeel> <http://www.w3.org/2000/01/rdf-schema#label> "Makes me feel"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#raisesQuestionAbout> <http://www.w3.org/2000/01/rdf-schema#label> "Saises question about"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#makesMeFeel> <http://www.w3.org/2000/01/rdf-schema#label> "Produit sur moi"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Aggregate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentTo> <http://www.w3.org/2000/01/rdf-schema#label> "Envoy\u00E9 \u00E0"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Evaluate> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the action that is performed with a tag whenever it is used to give a notation, a mark of approval and disapproval, or,\n  more generally speaking, an evaluation."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Share> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PersonalTagCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used when the label of a tag indicates to whom a resource was suggested (models existing features like delicious \"for:-username\" tags)."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc> <http://creativecommons.org/ns#licence> <http://creativecommons.org/licenses/by-sa/3.0/> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Point> <http://www.w3.org/2000/01/rdf-schema#label> "Point"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AutoTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer automatique"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#canBeReadBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#elicitsAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used when a resource elicits an action to be performed."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SyntacticTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer syntaxique"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PersonalTagCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Une collection de tags constitu\u00E9e par un utilisateur pr\u00E9cis."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#DisambiguatedTagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ExpressFeelings> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit l'action que l'on accomplit avec tag d\u00E8s lors que celui-ci est utilis\u00E9 pour exprimer un sentiment, une \u00E9motion, etc."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#OwnerTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Owner tag action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "A pour partie"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isWorth> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used whenever a resource is evaluated, ranked, etc. thanks to a label (\"***\", \"5/10\", \"0\", \"best\", etc.)."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSb> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Person> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#elicitsAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9e quand une ressource suscite l'accomplissement d'une action."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#makesMeFeel> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used to indicate that the label of a tag denotes/expresses an emotional reaction."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#GiveAccessRights> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit l'action que l'on accomplit avec un tag d\u00E8s lors que celui-ci est utilis\u00E9 pour d\u00E9finir les personnes auxquelles sont octroy\u00E9s des droits d'acc\u00E8s \u00E0 des ressource en ligne (permission ou refus)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#GiveAccessRights> <http://www.w3.org/2000/01/rdf-schema#label> "Give access rights to"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Ask> <http://www.w3.org/2000/01/rdf-schema#label> "Ask"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#belongToTagCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used to link a single and well individuated TagAction to a TagCollection to account for the various levels of aggregation provided by common tagging applications. There exist different ways to aggregate tags (for instance, http://delicious.com/fabion_gandon/OWL gives a Web representation of all taggings of user \"fabien_gandon\" involving the tag labeled 'OWL' on delicious.com at time \"t\")."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#elicitsAction> <http://www.w3.org/2000/01/rdf-schema#label> "Elicits action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#OwnerTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer d'un propri\u00E9taire"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#WebConceptTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 pour d\u00E9crire un taggage effectu\u00E9 \u00E0 l'aide de concepts Web (tels que geonames)."@fr .
+_:fe8b3e49478d6402c9ab63520768a4a7ab1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#canBeReadBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used when the label of a tag indicates to whom access rights to the tagged resource are confered ."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/sioc/ns#UserAccount> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PartOfWebRepresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/03/trix/rdfg-1/Graph> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#cannotBeReadBy> <http://www.w3.org/2000/01/rdf-schema#label> "Ne peut \u00EAtre lu par"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#canBeReadBy> <http://www.w3.org/2000/01/rdf-schema#label> "Can be read by"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#CommunityTagCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Une collection de tag constitu\u00E9e par les utilisateurs d'une communaut\u00E9 ou d'un service donn\u00E9s."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#DisambiguatedTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 lorsque le sign utilis\u00E9 pour tagger est d\u00E9sambigu\u00EFs\u00E9."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasForMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9e quand le libell\u00E9 d'un tag indique de quel m\u00E9dia la repr\u00E9sentation de la ressource \u00E0 laquelle on acc\u00E8de ressortit (\"forum\", \"vid\u00E9o\", \"photo\", \"page Web\", \"Webservice\", etc.)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#GiveAccessRights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#cannotBeReadBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Person> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SyntacticTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes tags whose labels are following a given syntax for improved precision and tractability."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TaggedResource> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.ontologydesignpatterns.org/ont/web/irw.owl#Resource> .
+_:fe8b3e49478d6402c9ab63520768a4a7ab3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/sioc/ns#Item> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ExpressFeelings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Visitor tag action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#makesMeFeel> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9e pour indiquer que le libell\u00E9 d'un tag d\u00E9note/exprime une r\u00E9action \u00E9motionnelle."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#GiveAccessRights> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AutoTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit des tags g\u00E9n\u00E9r\u00E9s et/ou associ\u00E9s automatiquement \u00E0 une ressource par une machine."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSb> <http://www.w3.org/2000/01/rdf-schema#comment> "Sous-propri\u00E9t\u00E9 de 'isRelevantTo', utilis\u00E9e pour associer une ressource \u00E0 une personne de telle mani\u00E8re qu'aucun lien formel ne puisse \u00EAtre inf\u00E9r\u00E9 entre les deux except\u00E9 du point de vue du destinataire et du destinateur du tag."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Evaluate> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluer"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Ask> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit l'action que l'on accomplit avec tag d\u00E8s lors que celui-ci est utilis\u00E9 pour poser une question."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 pour d\u00E9crire l'acte de taguer accompli par une personne ayant eu acc\u00E8s \u00E0 la repr\u00E9sentation d'une ressource sur le Web."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Point> <http://www.w3.org/2000/01/rdf-schema#label> "Pointer"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used when the label of a tag indicates which part of a Webpresentation is being tagged."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SetTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#cannotBeReadBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevant> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used to subsume \"isRelevantToSb\" and \"isRelevantToSt\"."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasCommunitySign> <http://www.w3.org/2000/01/rdf-schema#comment> "Corresponds to uses of collectively approved labels shared inside a community."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#belongToTagCollection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Share> <http://www.w3.org/2000/01/rdf-schema#label> "Partager"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ManualTagAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AnnotatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "Ressource annot\u00E9e"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSt> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#N-TupleTagActionMTS> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes tagging involving N-tuple tags which follow machine tags typed syntax in acontext where Flickr-like APIs are lacking."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentBy> <http://www.w3.org/2000/01/rdf-schema#label> "Sent by"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ExpressFeelings> <http://www.w3.org/2000/01/rdf-schema#label> "Express feelings"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PartOfWebRepresentation> <http://www.w3.org/2000/01/rdf-schema#label> "Part Of Web representation"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#elicitsAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AnnotatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 pour repr\u00E9senter la r\u00E9alisation d'une ressource informationnelle accessible sur le Web via le protocole HTTP. La ressource annot\u00E9e, consultable en ligne, est celle-l\u00E0 m\u00EAme qui d\u00E9clenche g\u00E9n\u00E9ralement l'acte de taguer. En quoi d'ailleurs elle est l'\u00E9quivalent de la classe irw:WebRepresentation. Etant par d\u00E9finition d\u00E9r\u00E9f\u00E9ren\u00E7able, elle fournit \u00E9galement l'adresse qui servira d'ancrage aux tags par l'interm\u00E9diaire du signet, selon le mod\u00E8le propos\u00E9 par delicious. Par contraste, la ressource tagu\u00E9e n'est, quant \u00E0 elle, aucunement limit\u00E9e \u00E0 des donn\u00E9es accessibles sur le Web (ce qui est tagu\u00E9e peut bien se r\u00E9v\u00E9ler ne pas \u00EAtre autre chose que ce que la repr\u00E9sentation d'un ressource repr\u00E9sente, une ressource non-informationnelle par exemple, plut\u00F4t que cette repr\u00E9sentation elle-m\u00EAme)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagsCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Tags collection"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Tag action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#raisesQuestionAbout> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SetTask> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit l'action que l'on accomplit avec un tag de type \"\u00E0faire\" d\u00E8s lors que celui-ci est utilis\u00E9 pour d\u00E9finir une t\u00E2che attendant sa r\u00E9alisation."@fr .
+_:fe8b3e49478d6402c9ab63520768a4a7ab1 <http://www.w3.org/2002/07/owl#onProperty> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AnnotatedResource> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.ontologydesignpatterns.org/ont/web/irw.owl#WebRepresentation> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc> <http://creativecommons.org/ns#attributionURL> <http://ns.inria.fr/nicetag/> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#DisambiguatedTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Disambiguate Tag Action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#makesMeFeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#makesMeFeel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8b3e49478d6402c9ab63520768a4a7ab4 .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#MachineTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer avec machine tag"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#AnnotatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "Annotated resource"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Ask> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the action that is performed with a tag by asking a question."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelevantToSt> <http://www.w3.org/2000/01/rdf-schema#comment> "Subproperty of 'is relevant to', used to link a resource to anything that it may be relevant to. In other words, in such a way that no immediate formal link can be inferrend between the two except from the point of view of the creator of the said link."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#VisitorTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Acte de taguer d'un visiteur"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "Propri\u00E9t\u00E9 utilis\u00E9e quand le libell\u00E9 d'un tag indique quelle partie de la repr\u00E9sentation d'une ressource sur le Web est tagu\u00E9e."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#GiveAccessRights> <http://www.w3.org/2000/01/rdf-schema#label> "Accorder des droits d'acc\u00E8s \u00E0"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#MachineTagAction> <http://www.w3.org/2000/01/rdf-schema#label> "Machine tag action"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isWorth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ManualTagAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fe8b3e49478d6402c9ab63520768a4a7ab4 <http://www.w3.org/2002/07/owl#onProperty> <http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#TaggedResource> <http://www.w3.org/2000/01/rdf-schema#label> "Tagged resource"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "Est reli\u00E9 \u00E0"@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#OwnerTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Utilis\u00E9 pour d\u00E9crire un acte de taguer accompli par le propri\u00E9taire de l'URI qui identifie la ressource tagu\u00E9e."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#SetTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#isAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Share> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9crit l'action que l'on accomplit avec un tag d\u00E8s lors que celui-ci est utilis\u00E9 pour partager une repr\u00E9sentation d'une ressource sur le Web, notamment sur Delicious ou Twitter. Ce partage ne se fait pas n\u00E9cessairement avec une autre personne mais plut\u00F4t avec le  titulaire d'un compte sur l'un ou l'autre de ces services (sioc:UserAccount, qui n'est pas n\u00E9cessairement une foaf:Person \u00E9tant donn\u00E9 qu'il peut s'agir aussi bien d'un robot, d'une personne ou encore d'une institution dont les repr\u00E9sentants sont potentiellement amen\u00E9s \u00E0 varier au fil du temps)."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#hasForMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used when the label of a tag indicates the medium which an HTTP-accessible Web representation belongs to (\"forum\", \"video\", \"photo\", \"Webpage\", \"Webservice\", etc.)."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#PersonalTagCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "A colection of tags generated by a single user."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#ManualTagAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes tags as manually associated to a resource by a human."@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#Aggregate> <http://www.w3.org/2000/01/rdf-schema#label> "Aggregate"@en .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#sentBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Correspond \u00E0 l'utilisation de signes qui indiquent \u00E0 qui une ressource a \u00E9t\u00E9 sugg\u00E9r\u00E9e."@fr .
+<http://ns.inria.fr/nicetag/2009/09/25/voc#CommunityTagCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of tags generated by the users of a given online community or Web service."@en .
+

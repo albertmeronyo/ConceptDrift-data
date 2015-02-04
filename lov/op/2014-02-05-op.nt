@@ -1,0 +1,159 @@
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/elements/1.1/creator> "Jonathan Yu"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/elements/1.1/title> "Observable properties"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2002/07/owl#imports> <http://rdfs.org/ns/void> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#SubstanceOrTaxon> .
+<http://environment.data.gov.au/def/op#SubstanceOrTaxon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://environment.data.gov.au/def/op#constraint> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#related> .
+<http://environment.data.gov.au/def/op#applicableVocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "Set of terms or concepts from which the value must be drawn\n\nCompare with QUDT2 'applicable unit'"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://environment.data.gov.au/def/op#matrix> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://environment.data.gov.au/def/op#featureOfInterest> .
+<http://environment.data.gov.au/def/op#QualityKind> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op#procedure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op#featureOfInterest> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op#matrix> <http://www.w3.org/2000/01/rdf-schema#label> "matrix"@en .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://environment.data.gov.au/def/op#matrix> <http://www.w3.org/2000/01/rdf-schema#comment> "In an observable property definition, the matrix is a special case of a feature-of-interest that provides the context (container feeaure or medium) for an observable property."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f1d2d0dfa17054e4d8377559a32ae4f91b5 .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/2000/01/rdf-schema#label> "Property kind"@en .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov> .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f1d2d0dfa17054e4d8377559a32ae4f91b2 .
+<http://environment.data.gov.au/def/op> <http://purl.org/vocab/vann/preferredNamespacePrefix> "op"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://environment.data.gov.au/def/op#ScaledQuantityKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f1d2d0dfa17054e4d8377559a32ae4f91b8 .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b3 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://environment.data.gov.au/def/op#featureOfInterest> <http://www.w3.org/2000/01/rdf-schema#label> "feature of interest"@en .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#qualityKind> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#procedure> .
+<http://environment.data.gov.au/def/op#QualityKind> <http://www.w3.org/2000/01/rdf-schema#comment> "non-numeric PropertyKind"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b5 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://environment.data.gov.au/def/op#ScaledQuantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#constraint> .
+<http://environment.data.gov.au/def/op#procedure> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://environment.data.gov.au/def/op#constraint> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2000/01/rdf-schema#label> "Observable-Properties ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://environment.data.gov.au/def/op#QualityKind> <http://www.w3.org/2000/01/rdf-schema#label> "Quality Kind"@en .
+<http://environment.data.gov.au/def/op#SubstanceOrTaxon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#matrix> .
+<http://environment.data.gov.au/def/op> <http://rdfs.org/ns/void#vocabulary> <http://qudt.org/schema/qudt> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/elements/1.1/publisher> "CSIRO"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#applicableVocabulary> .
+<http://environment.data.gov.au/def/op#constraint> <http://www.w3.org/2000/01/rdf-schema#label> "constraint"@en .
+<http://environment.data.gov.au/def/op#ScaledQuantityKind> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op#objectOfInterest> <http://www.w3.org/2000/01/rdf-schema#range> <http://environment.data.gov.au/def/op#SubstanceOrTaxon> .
+<http://environment.data.gov.au/def/op#applicableVocabulary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op#constraint> <http://www.w3.org/2000/01/rdf-schema#comment> "Constraint that refines the definition of an abservable property definition. This may include concerns such as realm of application, substance or taxon involved, applicable units or vocabulary."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2002/07/owl#imports> <http://qudt.org/1.1/vocab/quantity> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#featureOfInterest> .
+<http://environment.data.gov.au/def/op#applicableVocabulary> <http://www.w3.org/2000/01/rdf-schema#range> _:f1d2d0dfa17054e4d8377559a32ae4f91b9 .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b2 <http://www.w3.org/2002/07/owl#onProperty> <http://environment.data.gov.au/def/op#constraint> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b3 <http://www.w3.org/2002/07/owl#onProperty> <http://environment.data.gov.au/def/op#procedure> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2000/01/rdf-schema#comment> "A general purpose ontology for observable properties. The ontology supports description of both qualitative and quantitative properties. The allowed scale or units of measure may be specified. A property may be linked to substances-or-taxa and to features or realms, if they play a role in the definition. \n\nThis ontology was developed to enable publication of a vocabulary of water quality properties for the Bioregional Assessments and eReefs projects.\n\nThis ontology extends the QUDT schema. \n\nSome key classes and properties are linked to SKOS, so that instances of an observable-property vocabulary are implicitly also SKOS concepts, and may be accessed through general purpose vocabulary APIs based on SKOS."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#applicableVocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "applicable vocabulary"@en .
+<http://environment.data.gov.au/def/op#featureOfInterest> <http://www.w3.org/2000/01/rdf-schema#comment> "In an observable property definition, the feature-of-interest constrains the feature realm that the property is associated with."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#featureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://qudt.org/schema/qudt#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/vocab/vann/> .
+<http://environment.data.gov.au/def/op#QualityKind> <http://www.w3.org/2002/07/owl#disjointWith> <http://environment.data.gov.au/def/op#ScaledQuantityKind> .
+<http://environment.data.gov.au/def/op#ScaledQuantityKind> <http://www.w3.org/2000/01/rdf-schema#comment> "Scaled quantity kind has one or more unit properties, which indicate valid units of measure for this quantity kind. \n\nIt is likely that this class is equivalent to qudt:QuantityKind, but has been declared independently for governance of the qudt:unit property"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#applicableVocabulary> <http://www.w3.org/2000/01/rdf-schema#domain> <http://environment.data.gov.au/def/op#QualityKind> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/elements/1.1/rights> "Copyright \u00A9 2012-2013 CSIRO"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b2 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://environment.data.gov.au/def/op#SubstanceOrTaxon> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
+<http://environment.data.gov.au/def/op#ScaledQuantityKind> <http://www.w3.org/2002/07/owl#equivalentClass> <http://qudt.org/schema/qudt#QuantityKind> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b4 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#generalization> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://environment.data.gov.au/def/op#PropertyKind> .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op#procedure> <http://www.w3.org/2000/01/rdf-schema#comment> "link to procedure or sensor system used in making observation or estimate of property value"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2003/06/sw-vocab-status/ns> .
+<http://environment.data.gov.au/def/op#ScaledQuantityKind> <http://www.w3.org/2000/01/rdf-schema#label> "Scaled Quantity Kind"@en .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b8 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
+<http://environment.data.gov.au/def/op#qualityKind> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://environment.data.gov.au/def/op#propertyKind> .
+<http://qudt.org/schema/qudt#QuantityKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://environment.data.gov.au/def/op#PropertyKind> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b6 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://environment.data.gov.au/def/op#ScaledQuantityKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f1d2d0dfa17054e4d8377559a32ae4f91b7 .
+<http://environment.data.gov.au/def/op#matrix> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#propertyKind> .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f1d2d0dfa17054e4d8377559a32ae4f91b3 .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/2000/01/rdf-schema#comment> "Superclass of qudt:QuantityKind\nThis class accommodates all kinds of properties, including those (qualities) that are not described by quantities (numeric values). \nMay carry an objectOfInterest property, to point to the substance or taxon with which the property is associated - e.g. tree-height, organism-count, nitrogen-concentration"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#ScaledQuantityKind> .
+<http://environment.data.gov.au/def/op#featureOfInterest> <http://www.w3.org/2000/01/rdf-schema#domain> <http://environment.data.gov.au/def/op#PropertyKind> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/elements/1.1/description> "A general purpose ontology for observable properties. The ontology supports description of both qualitative and quantitative properties. The allowed scale or units of measure may be specified. A property may be linked to substances-or-taxa and to features or realms, if they play a role in the definition."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1d2d0dfa17054e4d8377559a32ae4f91b11 .
+<http://environment.data.gov.au/def/op#QualityKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f1d2d0dfa17054e4d8377559a32ae4f91b6 .
+<http://environment.data.gov.au/def/op#propertyKind> <http://www.w3.org/2000/01/rdf-schema#label> "property kind"@en .
+<http://environment.data.gov.au/def/op#objectOfInterest> <http://www.w3.org/2000/01/rdf-schema#label> "object of interest"@en .
+<http://environment.data.gov.au/def/op#ScaledQuantityKind> <http://www.w3.org/2002/07/owl#disjointWith> <http://environment.data.gov.au/def/op#QualityKind> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b8 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b6 <http://www.w3.org/2002/07/owl#onProperty> <http://environment.data.gov.au/def/op#applicableVocabulary> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/elements/1.1/creator> "Bruce A Simons"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://environment.data.gov.au/def/op#qualityKind> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://qudt.org/schema/qudt#quantityKind> .
+<http://qudt.org/schema/qudt#quantityKind> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://environment.data.gov.au/def/op#propertyKind> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+<http://environment.data.gov.au/def/op#propertyKind> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#related> .
+<http://environment.data.gov.au/def/op#SubstanceOrTaxon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qudt.org/schema/qudt#EnumeratedValue> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#objectOfInterest> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#QualityKind> .
+<http://environment.data.gov.au/def/op#applicableVocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://environment.data.gov.au/def/op#objectOfInterest> <http://www.w3.org/2000/01/rdf-schema#domain> <http://environment.data.gov.au/def/op#PropertyKind> .
+<http://environment.data.gov.au/def/op#featureOfInterest> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#featureOfInterest> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b1 <http://www.w3.org/2002/07/owl#onProperty> <http://environment.data.gov.au/def/op#objectOfInterest> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://environment.data.gov.au/def/op#featureOfInterest> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://environment.data.gov.au/def/op#constraint> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt#Unit> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/created> "2013"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b5 <http://www.w3.org/2002/07/owl#onProperty> <http://environment.data.gov.au/def/op#featureOfInterest> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/hasPart> <http://environment.data.gov.au/def/op#PropertyKind> .
+<http://environment.data.gov.au/def/op#propertyKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://environment.data.gov.au/def/op#QualityKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://environment.data.gov.au/def/op#PropertyKind> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://environment.data.gov.au/def/op#procedure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://environment.data.gov.au/def/op#PropertyKind> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://environment.data.gov.au/def/op#objectOfInterest> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://environment.data.gov.au/def/op#constraint> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://environment.data.gov.au/def/op#SubstanceOrTaxon> <http://www.w3.org/2000/01/rdf-schema#label> "Substance or Taxon"@en .
+<http://qudt.org/schema/qudt#generalization> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#broader> .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://environment.data.gov.au/def/op#QualityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/modified> "2013-12-03"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qudt.org/schema/qudt#EnumeratedValue> .
+<http://environment.data.gov.au/def/op#constraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://environment.data.gov.au/def/op#objectOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://environment.data.gov.au/def/op#procedure> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#procedure> .
+<http://environment.data.gov.au/def/op#procedure> <http://www.w3.org/2000/01/rdf-schema#label> "procedure"@en .
+<http://environment.data.gov.au/def/op#propertyKind> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#observedProperty> .
+<http://environment.data.gov.au/def/op#propertyKind> <http://www.w3.org/2000/01/rdf-schema#range> <http://environment.data.gov.au/def/op#PropertyKind> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b7 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://environment.data.gov.au/def/op> <http://rdfs.org/ns/void#uriSpace> "http://environment.data.gov.au/def/op#"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#ScaledQuantityKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://environment.data.gov.au/def/op#PropertyKind> .
+<http://environment.data.gov.au/def/op#qualityKind> <http://www.w3.org/2000/01/rdf-schema#label> "quality kind"@en .
+<http://environment.data.gov.au/def/op> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/vocommons/voaf> .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f1d2d0dfa17054e4d8377559a32ae4f91b1 .
+<http://environment.data.gov.au/def/op#qualityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://environment.data.gov.au/def/op> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://environment.data.gov.au/def/op#"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#objectOfInterest> <http://www.w3.org/2000/01/rdf-schema#comment> "In an observable property definition, the object-of-interest constrains the substance or taxon involved in a count, concentration, presence, or other simialr property."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#propertyKind> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op#constraint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://environment.data.gov.au/def/op#PropertyKind> .
+<http://environment.data.gov.au/def/op#qualityKind> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op#objectOfInterest> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://environment.data.gov.au/def/op#qualityKind> <http://www.w3.org/2000/01/rdf-schema#range> <http://environment.data.gov.au/def/op#QualityKind> .
+<http://environment.data.gov.au/def/op#matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://environment.data.gov.au/def/op#constraint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://environment.data.gov.au/def/op> .
+<http://qudt.org/schema/qudt#Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://environment.data.gov.au/def/op> <http://purl.org/vocommons/voaf#extends> <http://qudt.org/schema/qudt> .
+<http://qudt.org/schema/qudt#specialization> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#narrower> .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/elements/1.1/creator> "Simon J D Cox"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f1d2d0dfa17054e4d8377559a32ae4f91b9 <http://www.w3.org/2002/07/owl#unionOf> _:f1d2d0dfa17054e4d8377559a32ae4f91b10 .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://environment.data.gov.au/def/op#SubstanceOrTaxon> <http://www.w3.org/2000/01/rdf-schema#comment> "Class of stuff and things, individuals of which identify a class of stuff and things that make observed properties concrete."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://environment.data.gov.au/def/op#PropertyKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f1d2d0dfa17054e4d8377559a32ae4f91b4 .
+<http://environment.data.gov.au/def/op> <http://purl.org/dc/elements/1.1/publisher> "AGIMO"^^<http://www.w3.org/2001/XMLSchema#string> .
+

@@ -1,0 +1,314 @@
+<http://purl.org/ontology/sport/isGroupOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/GroupCompetition> .
+<http://purl.org/ontology/sport/isMatchOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/RecurringCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "Recurring competition"@en .
+<http://purl.org/ontology/sport/nextStage> <http://www.w3.org/2000/01/rdf-schema#label> "next stage"@en .
+<http://purl.org/ontology/sport/eventGender> <http://www.w3.org/2000/01/rdf-schema#label> "Event Gender"@en .
+<http://purl.org/ontology/sport/prevRound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/nextUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "next unit competition"@en .
+<http://purl.org/ontology/sport/KnockoutCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "A knockout stage is a competition or stage of a competition that is structured as a knockout competition. Examples of a knockout competition include the last stage of the work cup and the men's tournament at Wimbledon."@en .
+<http://purl.org/ontology/sport/FootballManagerRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/participation/schema#Role> .
+<http://purl.org/ontology/sport/lastRound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/hasGroup> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/LeagueCompetition> .
+<http://purl.org/ontology/sport/nextSession> <http://www.w3.org/2000/01/rdf-schema#label> "next session"@en .
+<http://purl.org/ontology/sport/nextUnitCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://uk.linkedin.com/pub/jem-rayfield/27/b19/757> <http://xmlns.com/foaf/0.1/name> "Jem Rayfield" .
+<http://purl.org/ontology/sport/competesIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/isGroupOf> <http://www.w3.org/2000/01/rdf-schema#label> "is group of"@en .
+<http://purl.org/ontology/sport/hasStage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/MultiStageCompetition> .
+<http://purl.org/ontology/sport/hasUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/UnitCompetition> .
+<http://purl.org/ontology/sport/lastRound> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/MultiRoundCompetition> .
+<http://purl.org/ontology/sport/firstRound> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/MultiRoundCompetition> .
+<http://purl.org/ontology/sport/hasSession> <http://www.w3.org/2000/01/rdf-schema#label> "has session"@en .
+<http://purl.org/ontology/sport/nextRound> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a round to the next round in a multiround competition."@en .
+<http://purl.org/ontology/sport/UnitCompetition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/FootballPlayerRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/RecurringCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/prevRound> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/nextSession> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a session to its next session."@en .
+<http://purl.org/ontology/sport/firstSession> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a competition to the first session of a series of sessions."@en .
+<http://purl.org/ontology/sport/competitionType> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a competition with a competition type. Examples would include domestic league competitions or European cup competitions."@en .
+<http://purl.org/ontology/sport/competesIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/sport/hasGroup> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/sport/isGroupOf> .
+<http://purl.org/ontology/sport/discipline> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a thing with a sports discipline."@en .
+<http://purl.org/ontology/sport/CompetitiveSportingGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Group> .
+<http://purl.org/ontology/sport/> <http://purl.org/dc/terms/created> "2011-02-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/ontology/sport/awayCompetitor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/firstStage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasStage> .
+<http://purl.org/ontology/sport/roundNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a round with a round number."@en .
+<http://purl.org/ontology/sport/GroupCompetition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/MultiRoundCompetition> .
+<http://purl.org/ontology/sport/nextSession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/> <http://purl.org/dc/terms/title> "Sport Ontology"@en .
+<http://purl.org/ontology/sport/nextUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/Match> <http://www.w3.org/2000/01/rdf-schema#label> "Match"@en .
+<http://purl.org/ontology/sport/competitionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/firstRound> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasRound> .
+<http://purl.org/ontology/sport/isSessionOf> <http://www.w3.org/2000/01/rdf-schema#label> "is session of"@en .
+<http://purl.org/ontology/sport/DivisionalCompetition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/nextUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a multiround competition to its next unit competition."@en .
+<http://purl.org/ontology/sport/prevRound> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/roundNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/lastRound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/lastRound> <http://www.w3.org/2000/01/rdf-schema#label> "last round"@en .
+<http://purl.org/ontology/sport/isGroupOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/CompetitiveSportingOrganisation> .
+<http://purl.org/ontology/sport/lastStage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasStage> .
+<http://purl.org/ontology/sport/nextRound> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/subDiscipline> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/SportsDiscipline> .
+<http://purl.org/ontology/sport/eventGender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/Session> <http://www.w3.org/2000/01/rdf-schema#label> "Session"@en .
+<http://purl.org/ontology/sport/hasCompetitor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/hasStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/homeCompetitor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasCompetitor> .
+<http://purl.org/ontology/sport/Match> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/isCompetitiveSportingOrganisationOf> <http://www.w3.org/2000/01/rdf-schema#label> "is competitive sporting organisation of"@en .
+<http://purl.org/ontology/sport/MultiRoundCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/hasDivision> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a DivisionalCompetition to a competition which is a division of that DivisionalCompetition."@en .
+<http://purl.org/ontology/sport/FootballPlayerRole> <http://www.w3.org/2000/01/rdf-schema#label> "Football player role"@en .
+<http://purl.org/ontology/sport/MultiStageCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "Multistage competition"@en .
+<http://purl.org/ontology/sport/eventGender> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/homeCompetitor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Match> .
+<http://purl.org/ontology/sport/firstStage> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/CompetitiveSportingGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/firstStage> <http://www.w3.org/2000/01/rdf-schema#label> "first stage"@en .
+<http://purl.org/ontology/sport/EventGender> <http://www.w3.org/2000/01/rdf-schema#label> "Event gender"@en .
+<http://purl.org/ontology/sport/> <http://xmlns.com/foaf/0.1/maker> <http://uk.linkedin.com/in/brianwmcbride> .
+<http://purl.org/ontology/sport/isGroupOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/LeagueCompetition> .
+<http://purl.org/ontology/sport/nextStage> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/firstSession> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasSession> .
+<http://purl.org/ontology/sport/isStageOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/EventGender> <http://www.w3.org/2000/01/rdf-schema#comment> "The gender of the sporting event."@en .
+<http://purl.org/ontology/sport/prevUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "previous unit competition"@en .
+<http://purl.org/ontology/sport/lastRound> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Round> .
+<http://uk.linkedin.com/pub/jem-rayfield/27/b19/757> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/ontology/sport/lastSession> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a competition to the last session of a series of sessions."@en .
+<http://purl.org/ontology/sport/CompetitionType> <http://www.w3.org/2000/01/rdf-schema#label> "Competition Type"@en .
+<http://purl.org/ontology/sport/Round> <http://www.w3.org/2000/01/rdf-schema#label> "Round"@en .
+<http://purl.org/ontology/sport/hasDivision> <http://www.w3.org/2000/01/rdf-schema#label> "has division"@en .
+<http://purl.org/ontology/sport/isGroupOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/CompetitiveSportingGroup> .
+<http://purl.org/ontology/sport/firstRound> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a multiround competition to the first round in the competition"@en .
+<http://purl.org/ontology/sport/firstUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasUnitCompetition> .
+<http://purl.org/ontology/sport/prevSession> <http://www.w3.org/2000/01/rdf-schema#label> "prev session"@en .
+<http://purl.org/ontology/sport/lastRound> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasRound> .
+<http://purl.org/ontology/sport/isSessionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a session to a competition."@en .
+<http://purl.org/ontology/sport/hasDivision> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/ontology/sport/hasDivisionList> .
+<http://www.blockslabpillar.com> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/ontology/sport/isGroupOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/CompetitiveSportingOrganisation> <http://www.w3.org/2000/01/rdf-schema#comment> "A sporting organisation that participates in competitive sporting events. For example Manchester United or Great Britain Olympic Team. "@en .
+<http://purl.org/ontology/sport/GroupCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "A group competition is a competition organised as a collection of leagues used to select the top N competitors from each league. An example of a group competition would be group stage of the World Cup."@en .
+<http://purl.org/ontology/sport/hasRound> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/> <http://xmlns.com/foaf/0.1/maker> <http://uk.linkedin.com/pub/stuart-williams/8/684/351> .
+<http://purl.org/ontology/sport/Session> <http://www.w3.org/2000/01/rdf-schema#comment> "A session is a named interval of a competition. For example day 3 of a test match or a session in the track event at the Olympics."@en .
+<http://purl.org/ontology/sport/isSessionOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/> <http://xmlns.com/foaf/0.1/maker> <http://uk.linkedin.com/in/paulwilton> .
+<http://purl.org/ontology/sport/DivisionalCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "Divisional competition"@en .
+<http://purl.org/ontology/sport/hasUnitCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/competesIn> <http://www.w3.org/2000/01/rdf-schema#comment> "associates an agent with the sporting event competed in."@en .
+<http://purl.org/ontology/sport/CompetitiveSportingGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "The group of agents that are involved in sporting competitions. Two groups with the same members are not necessarily the same group. Example: The 2010 World Cup England Squad and the 2012 European Championship squad."@en .
+<http://purl.org/ontology/sport/awayCompetitor> <http://www.w3.org/2000/01/rdf-schema#comment> "associates an agent to the event they are competing in with an away status."@en .
+<http://purl.org/ontology/sport/KnockoutCompetition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/MultiRoundCompetition> .
+<http://purl.org/ontology/sport/hasUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "has unit competition"@en .
+<http://purl.org/ontology/sport/hasStage> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/hasDivision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/sport/isCompetitiveSportingOrganisationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/competesIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/hasGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a group with a group competition. Example would be associating Group B of World Cup 2010 with the group stage."@en .
+<http://purl.org/ontology/sport/firstUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/nextStage> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a stage to the next stage in a multistage competition."@en .
+<http://purl.org/ontology/sport/firstSession> <http://www.w3.org/2000/01/rdf-schema#label> "first session"@en .
+<http://purl.org/ontology/sport/eventGender> <http://www.w3.org/2000/01/rdf-schema#comment> "associates an event with a gender type."@en .
+<http://purl.org/ontology/sport/subDiscipline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/SportsDiscipline> .
+<http://purl.org/ontology/sport/isRoundOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/MultiRoundCompetition> .
+<http://purl.org/ontology/sport/SportingOrganisation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Organisation> .
+<http://purl.org/ontology/sport/lastUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasUnitCompetition> .
+<http://purl.org/ontology/sport/isCompetitiveSportingOrganisationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/CompetitiveSportingGroup> .
+<http://purl.org/ontology/sport/isSessionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Session> .
+<http://purl.org/ontology/sport/hasUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/discipline> <http://www.w3.org/2000/01/rdf-schema#label> "Discipline"@en .
+<http://purl.org/ontology/sport/isMatchOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/isCompetitiveSportingOrganisationOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/CompetitiveSportingOrganisation> .
+<http://purl.org/ontology/sport/nextRound> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/UnitCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "Unit competition"@en .
+<http://purl.org/ontology/sport/prevStage> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a stage in a multistage competition to its previous stage."@en .
+<http://purl.org/ontology/sport/nextStage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/nextUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/hasMatch> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Match> .
+<http://purl.org/ontology/sport/Competition> <http://www.w3.org/2000/01/rdf-schema#comment> "A competitive sporting event."@en .
+<http://purl.org/ontology/sport/subDiscipline> <http://www.w3.org/2000/01/rdf-schema#label> "Sub-Discipline"@en .
+<http://purl.org/ontology/sport/SportsDiscipline> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of discipline a sporting event involves."@en .
+<http://purl.org/ontology/sport/firstUnitCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/homeCompetitor> <http://www.w3.org/2000/01/rdf-schema#comment> "associates an agent to the event they are competing in with an home status."@en .
+<http://purl.org/ontology/sport/isMatchOf> <http://proton.semanticweb.org/2005/04/protons#transitiveOver> <http://purl.org/ontology/sport/isStageOf> .
+<http://purl.org/ontology/sport/isGroupOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/firstSession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/prevRound> <http://www.w3.org/2000/01/rdf-schema#label> "previous round"@en .
+<http://purl.org/ontology/sport/awayCompetitor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/firstSession> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Session> .
+<http://purl.org/ontology/sport/hasStage> <http://www.w3.org/2000/01/rdf-schema#label> "has stage"@en .
+<http://purl.org/ontology/sport/awayCompetitor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/sport/isStageOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/sport/hasStage> .
+<http://purl.org/ontology/sport/CompetitiveSportingGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Competitive Sporting group"@en .
+<http://purl.org/ontology/sport/isRoundOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/firstRound> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/lastRound> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a multiround competition to the last round in the competition."@en .
+<http://purl.org/ontology/sport/hasSession> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a competition with a session."@en .
+<http://purl.org/ontology/sport/SportingOrganisation> <http://www.w3.org/2000/01/rdf-schema#comment> "A sporting organisation includes any organisation that is involved in competitive sports events. This includes competing or organisation. example of a sporting organisation would be Manchester United or FIFA."@en .
+<http://purl.org/ontology/sport/Round> <http://www.w3.org/2000/01/rdf-schema#comment> "A round is one or more competitions that are a part of a multiround competition. Examples of a round are the first round of wimbledon and the final round of the FA cup."@en .
+<http://purl.org/ontology/sport/firstStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/hasRound> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a multiround competition to a round in that competition."@en .
+<http://purl.org/ontology/sport/subDiscipline> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a discipline with a a child discipline."@en .
+<http://purl.org/ontology/sport/MultiStageCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "A multistage competition is a competition that is organised as a sequence of stages. Examples of multistage competitions include the football World Cup."@en .
+<http://purl.org/ontology/sport/hasMatch> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a round with a match."@en .
+<http://purl.org/ontology/sport/FootballManagerRole> <http://www.w3.org/2000/01/rdf-schema#label> "Football manager role"@en .
+<http://purl.org/ontology/sport/isStageOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/MultiStageCompetition> .
+<http://purl.org/ontology/sport/lastSession> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasSession> .
+<http://purl.org/ontology/sport/GroupCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "Group competition"@en .
+<http://purl.org/ontology/sport/prevStage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/isStageOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/Competition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/sport/homeCompetitor> <http://www.w3.org/2000/01/rdf-schema#label> "home competitor"@en .
+<http://purl.org/ontology/sport/hasSession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/lastUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "last unit competition"@en .
+<http://purl.org/ontology/sport/prevSession> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Session> .
+<http://purl.org/ontology/sport/SportGoverningBody> <http://www.w3.org/2000/01/rdf-schema#label> "Sport governing body"@en .
+<http://purl.org/ontology/sport/firstStage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/MultiStageCompetition> .
+<http://purl.org/ontology/sport/lastSession> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/lastUnitCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/eventGender> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/EventGender> .
+<http://purl.org/ontology/sport/RecurringCompetition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bbc.co.uk/ontologies/event/RecurringEvent> .
+<http://purl.org/ontology/sport/awayCompetitor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Match> .
+<http://purl.org/ontology/sport/hasSession> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Session> .
+<http://purl.org/ontology/sport/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/ontology/sport/competitionType> <http://www.w3.org/2000/01/rdf-schema#label> "Competition type"@en .
+<http://purl.org/ontology/sport/isCompetitiveSportingOrganisationOf> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a group with the competitive sporting organisation it represents. Example would be 2010 England squad associated with the England football team."@en .
+<http://purl.org/ontology/sport/discipline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/firstSession> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/CompetitionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/isMatchOf> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a match with the round it is contained in."@en .
+<http://purl.org/ontology/sport/subDiscipline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/firstRound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.blockslabpillar.com> <http://xmlns.com/foaf/0.1/name> "Silver Oliver" .
+<http://purl.org/ontology/sport/lastStage> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/MultiRoundCompetition> .
+<http://purl.org/ontology/sport/MultiRoundCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "A multiround competition is a competition that is organised as a sequence of rounds. Example of a multi round competition would be the Premier League or a group stage of the World Cup."@en .
+<http://purl.org/ontology/sport/hasMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/hasCompetitor> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/sport/competesIn> .
+<http://purl.org/ontology/sport/lastStage> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a multistage competition to its last stage."@en .
+<http://purl.org/ontology/sport/isMatchOf> <http://proton.semanticweb.org/2005/04/protons#transitiveOver> <http://purl.org/ontology/sport/isRoundOf> .
+<http://purl.org/ontology/sport/lastStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/nextRound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/nextRound> <http://www.w3.org/2000/01/rdf-schema#label> "next round"@en .
+<http://purl.org/ontology/sport/competesIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/sport/hasCompetitor> .
+<http://purl.org/ontology/sport/SportGoverningBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/prevUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/firstUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "first unit competition"@en .
+<http://purl.org/ontology/sport/firstStage> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a multi staged competition to its first stage."@en .
+<http://purl.org/ontology/sport/prevSession> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a session to its previous session."@en .
+<http://purl.org/ontology/sport/CompetitionType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of competition the event is. Examples would include domestic league competitions or a European cup competitions."@en .
+<http://purl.org/ontology/sport/LeagueCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/DivisionalCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "A DivisionalCompetition is a competition that is divided into a number of divisions each of which is an award. Examples of DivisionalCompetition include the English football league and the annual Wimbledon tennis tournament."@en .
+<http://purl.org/ontology/sport/hasMatch> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Round> .
+<http://purl.org/ontology/sport/lastStage> <http://www.w3.org/2000/01/rdf-schema#label> "last Stage"@en .
+<http://purl.org/ontology/sport/DivisionalCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/Match> <http://www.w3.org/2000/01/rdf-schema#comment> "A type of unit competition. Example of a match would be a football or tennis match."@en .
+<http://purl.org/ontology/sport/prevStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/SportingOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/isGroupOf> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a group competition with the groups it contains. Example would be associating group stage of World Cup 2010 with Group B."@en .
+<http://purl.org/ontology/sport/isStageOf> <http://www.w3.org/2000/01/rdf-schema#label> "is stage of"@en .
+<http://purl.org/ontology/sport/MultiRoundCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "Multiround competition"@en .
+<http://purl.org/ontology/sport/> <http://xmlns.com/foaf/0.1/maker> <http://uk.linkedin.com/pub/jem-rayfield/27/b19/757> .
+<http://uk.linkedin.com/in/paulwilton> <http://xmlns.com/foaf/0.1/name> "Paul Wilton" .
+<http://purl.org/ontology/sport/firstRound> <http://www.w3.org/2000/01/rdf-schema#label> "first round"@en .
+<http://purl.org/ontology/sport/roundNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/MultiStageCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/lastStage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/MultiStageCompetition> .
+<http://purl.org/ontology/sport/CompetitiveSportingOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Competitive sporting organisation"@en .
+<http://purl.org/ontology/sport/KnockoutCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/LeagueCompetition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/MultiRoundCompetition> .
+<http://purl.org/ontology/sport/roundNumber> <http://www.w3.org/2000/01/rdf-schema#label> "round number"@en .
+<http://purl.org/ontology/sport/lastUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/UnitCompetition> .
+<http://purl.org/ontology/sport/hasMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasUnitCompetition> .
+<http://purl.org/ontology/sport/hasMatch> <http://www.w3.org/2000/01/rdf-schema#label> "has match"@en .
+<http://purl.org/ontology/sport/hasCompetitor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/sport/hasRound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/lastSession> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Session> .
+<http://purl.org/ontology/sport/isMatchOf> <http://proton.semanticweb.org/2005/04/protons#transitiveOver> <http://purl.org/ontology/sport/isGroupOf> .
+<http://purl.org/ontology/sport/hasCompetitor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/isMatchOf> <http://www.w3.org/2000/01/rdf-schema#label> "is match of"@en .
+<http://purl.org/ontology/sport/nextSession> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Session> .
+<http://purl.org/ontology/sport/isRoundOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/isSessionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/hasCompetitor> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a competition with those agents competition."@en .
+<http://purl.org/ontology/sport/MultiRoundCompetition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/prevRound> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a round to the previous round in a multiround competition."@en .
+<http://purl.org/ontology/sport/competesIn> <http://proton.semanticweb.org/2005/04/protons#transitiveOver> <http://www.bbc.co.uk/ontologies/event/recurringEvent> .
+<http://purl.org/ontology/sport/prevUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a multiround competition to its previous unit competition."@en .
+<http://purl.org/ontology/sport/Competition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/Session> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.bbc.co.uk/ontologies/event/Event> .
+<http://purl.org/ontology/sport/Round> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/sport/lastUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a competition to its last unit competition."@en .
+<http://purl.org/ontology/sport/> <http://www.w3.org/2000/01/rdf-schema#comment> "A simple ontology for representing competitive sports events."@en .
+<http://purl.org/ontology/sport/hasRound> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/MultiRoundCompetition> .
+<http://purl.org/ontology/sport/Round> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/homeCompetitor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/SportGoverningBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/SportingOrganisation> .
+<http://purl.org/ontology/sport/prevSession> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Session> .
+<http://purl.org/ontology/sport/prevStage> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/hasUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a round to a unit competition in that round."@en .
+<http://purl.org/ontology/sport/LeagueCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "League competition"@en .
+<http://purl.org/ontology/sport/CompetitiveSportingOrganisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/KnockoutCompetition> <http://www.w3.org/2000/01/rdf-schema#label> "Knock out competition"@en .
+<http://purl.org/ontology/sport/hasDivision> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/isMatchOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/sport/hasMatch> .
+<http://purl.org/ontology/sport/prevUnitCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/lastSession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/SportGoverningBody> <http://www.w3.org/2000/01/rdf-schema#comment> "A sport governing body is a sports organisation that has a regulatory or sanctioning function. Example of a sport governing body would be FIFA."@en .
+<http://purl.org/ontology/sport/nextSession> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Session> .
+<http://purl.org/ontology/sport/Session> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/Competition> <http://www.w3.org/2000/01/rdf-schema#label> "Competition"@en .
+<http://purl.org/ontology/sport/isMatchOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Match> .
+<http://purl.org/ontology/sport/awayCompetitor> <http://www.w3.org/2000/01/rdf-schema#label> "away competitor"@en .
+<http://purl.org/ontology/sport/GroupCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/prevSession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/hasStage> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a multi stage competition to the stages that it contains."@en .
+<http://purl.org/ontology/sport/isCompetitiveSportingOrganisationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/lastSession> <http://www.w3.org/2000/01/rdf-schema#label> "last session"@en .
+<http://purl.org/ontology/sport/hasDivision> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/DivisionalCompetition> .
+<http://purl.org/ontology/sport/hasSession> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/isStageOf> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a stage to a multi stage competition it is contained in."@en .
+<http://purl.org/ontology/sport/CompetitiveSportingOrganisation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/SportingOrganisation> .
+<http://purl.org/ontology/sport/> <http://xmlns.com/foaf/0.1/maker> <http://www.blockslabpillar.com> .
+<http://purl.org/ontology/sport/isGroupOf> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a group with competitive sporting organisation it represents."@en .
+<http://purl.org/ontology/sport/lastUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/hasGroup> <http://www.w3.org/2000/01/rdf-schema#label> "has group"@en .
+<http://purl.org/ontology/sport/SportingOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Sporting organisation"@en .
+<http://purl.org/ontology/sport/Match> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/UnitCompetition> .
+<http://purl.org/ontology/sport/EventGender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/FootballPlayerRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/participation/schema#Role> .
+<http://purl.org/ontology/sport/SportsDiscipline> <http://www.w3.org/2000/01/rdf-schema#label> "Sports discipline"@en .
+<http://purl.org/ontology/sport/firstUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/UnitCompetition> .
+<http://purl.org/ontology/sport/UnitCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "A unit competition is the lowest level of competition with an associated award or result. Examples of unit competition include a 100m race and a football match."@en .
+<http://purl.org/ontology/sport/awayCompetitor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/sport/hasCompetitor> .
+<http://purl.org/ontology/sport/competitionType> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/CompetitionType> .
+<http://purl.org/ontology/sport/FootballManagerRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/MultiStageCompetition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/SportsDiscipline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/homeCompetitor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/hasRound> <http://www.w3.org/2000/01/rdf-schema#label> "has competition"@en .
+<http://purl.org/ontology/sport/hasCompetitor> <http://www.w3.org/2000/01/rdf-schema#label> "has competitor"@en .
+<http://purl.org/ontology/sport/firstUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a multiround competition to its first unit competition."@en .
+<http://purl.org/ontology/sport/LeagueCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "A league competition is a competition or stage in a competition that has a league format. Example of league competition would be the Premier League. "@en .
+<http://purl.org/ontology/sport/discipline> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/SportsDiscipline> .
+<http://purl.org/ontology/sport/RecurringCompetition> <http://www.w3.org/2000/01/rdf-schema#comment> "A recurring sports competition."@en .
+<http://uk.linkedin.com/in/paulwilton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/ontology/sport/competesIn> <http://www.w3.org/2000/01/rdf-schema#label> "competes in"@en .
+<http://purl.org/ontology/sport/isRoundOf> <http://www.w3.org/2000/01/rdf-schema#comment> "associates a round in that competition with a multiround competition."@en .
+<http://purl.org/ontology/sport/hasGroup> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/sport/GroupCompetition> .
+<http://purl.org/ontology/sport/hasGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/sport/isRoundOf> <http://www.w3.org/2000/01/rdf-schema#label> "is round of"@en .
+<http://purl.org/ontology/sport/isRoundOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/sport/hasRound> .
+<http://purl.org/ontology/sport/prevStage> <http://www.w3.org/2000/01/rdf-schema#label> "previous stage"@en .
+<http://purl.org/ontology/sport/nextStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/isSessionOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/sport/hasSession> .
+<http://purl.org/ontology/sport/prevUnitCompetition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/sport/Competition> .
+<http://purl.org/ontology/sport/firstRound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/sport/UnitCompetition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/sport/roundNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+
