@@ -58,4 +58,8 @@ class LOVDSGenerator:
                     sFile = sDir + '/' + filename
                     if not os.path.exists(sDir):
                         os.makedirs(sDir)
-                    g.serialize(sFile)
+                    try:
+                        g.serialize(sFile, format='nt')
+                    except Exception:
+                        self.log.warning("Could not serialize malformed URI, skipping this graph")
+                        pass
