@@ -4,8 +4,10 @@
 # retrieved LOV verioned vocabularies
 
 import urllib2
-import json
 import logging
+import json
+import rdflib
+import os
 
 class LOVDSGenerator:
     jDump = None
@@ -19,6 +21,7 @@ class LOVDSGenerator:
         self.config = __config
 
         self.LOV_FILE = self.config.get('general', 'dump_file')
+        self.LOV_DIR = self.config.get('general', 'lov_dir')
 
         self.initDumpFile()
         self.generateDatasets()
@@ -36,4 +39,23 @@ class LOVDSGenerator:
         '''
         for voc, vers in self.jDump.iteritems():
             for ver in sorted(vers, key=lambda v: v[0]):
-                print ver[0].split(':')[0].split('T')[0] + '-' + voc + '.nt'
+                dirname = voc
+                uri = ver[1]
+                if len(uri) == 0: 
+                    continue
+                filename = ver[0].split(':')[0].split('T')[0] + '-' + voc + '.nt'
+                filecontent = None
+
+                g = rdflib.Graph()
+                try:
+                    g.parse(uri)
+                except urllib2.HTTPError:
+                    self.log.debug("URI not found")
+                    pass
+
+                if len(g) > 0:
+                    sDir = self.LOV_DIR + '/' + dirname
+                    sFile = sDir + '/' + filename
+                    if not os.path.exists(sDir):
+                        os.makedirs(sDir)
+                    g.serialize(sFile)

@@ -21,10 +21,13 @@ class LOVHarvester:
         self.config = __config
         self.LOV_DETAIL = self.config.get('lov', 'detail')
 
+        self.log.info("Retrieving LOV version metadata...")
         ver = LOVVersions(self.config)
         self.log.debug(ver.getVersions())
+        self.log.info("Serializing LOV version metadata...")
         ver.serializeVersions()
 
+        self.log.info("Retrieving and serializing LOV version data...")
         gen = LOVDSGenerator(self.config)
 
         self.log.info("All done.")
@@ -36,7 +39,7 @@ if __name__ == "__main__":
     
     # Logging
     logLevel = logging.INFO
-    if config.get('general', 'verbose'):
+    if config.get('general', 'verbose') == 1:
         logLevel = logging.DEBUG
     logging.basicConfig(level=logLevel)
     logging.info("Initializing...")
