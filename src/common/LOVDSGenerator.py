@@ -38,28 +38,29 @@ class LOVDSGenerator:
         Generates datasets out of URIs in config.ini's dump_file
         '''
         for voc, vers in self.jDump.iteritems():
-            for ver in sorted(vers, key=lambda v: v[0]):
-                dirname = voc
-                uri = ver[1]
-                if len(uri) == 0: 
-                    continue
-                filename = ver[0].split(':')[0].split('T')[0] + '-' + voc + '.nt'
-                filecontent = None
+            if len(vers) >= 3:
+                for ver in sorted(vers, key=lambda v: v[0]):
+                    dirname = voc
+                    uri = ver[1]
+                    if len(uri) == 0: 
+                        continue
+                    filename = ver[0].split(':')[0].split('T')[0] + '-' + voc + '.nt'
+                    filecontent = None
 
-                g = rdflib.Graph()
-                try:
-                    g.parse(uri)
-                except urllib2.HTTPError:
-                    self.log.debug("URI not found")
-                    pass
-
-                if len(g) > 0:
-                    sDir = self.LOV_DIR + '/' + dirname
-                    sFile = sDir + '/' + filename
-                    if not os.path.exists(sDir):
-                        os.makedirs(sDir)
+                    g = rdflib.Graph()
                     try:
-                        g.serialize(sFile, format='nt')
-                    except Exception:
-                        self.log.warning("Could not serialize malformed URI, skipping this graph")
+                        g.parse(uri)
+                    except urllib2.HTTPError:
+                        self.log.debug("URI not found")
                         pass
+
+                    if len(g) > 0:
+                        sDir = self.LOV_DIR + '/' + dirname
+                        sFile = sDir + '/' + filename
+                        if not os.path.exists(sDir):
+                            os.makedirs(sDir)
+                        try:
+                            g.serialize(sFile, format='nt')
+                        except Exception:
+                            self.log.warning("Could not serialize malformed URI, skipping this graph")
+                            pass
