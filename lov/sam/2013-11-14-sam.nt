@@ -1,382 +1,382 @@
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb6 .
-_:f789c670ed172408892f52cfc6dcbf37cb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2004/02/skos/core#definition> "If present, the attribute samplingLocation:GM_Object shall describe the location from where the specimen was obtained.\n\nNOTE Where a specimen has a relatedSamplingFeature whose location provides an unambiguous location then this attribute is not required. However, if the specific sampling location within the sampledFeature is important, then this attribute supports its description."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/vocab/vann/preferredNamespacePrefix> "sam"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb12 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2004/02/skos/core#definition> "A common role for a spatial sampling feature is to host instruments or procedures deployed repetitively or permanently. If present, the association Platform shall link the SF_SpatialSamplingFeature to an OM_Process deployed at it. The OM_Process has the role hostedProcedure with respect to the sampling feature."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb21 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f789c670ed172408892f52cfc6dcbf37cb8 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2000/01/rdf-schema#label> "specimen size" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb27 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingSurface"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f789c670ed172408892f52cfc6dcbf37cb21 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#comment> "In many applications, specimen preparation procedures are applied to the material prior to its use in an observation. The class PreparationStep (Figure 13) shall link an SF_Specimen to an SF_Process that describes a phase of the specimen preparation."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/created> "2012-01-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2000/01/rdf-schema#label> "sampling location" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2000/01/rdf-schema#label> "sampled feature" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/elements/1.1/source> "ISO 19156:2011"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-_:f789c670ed172408892f52cfc6dcbf37cb23 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection of sampling features"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb8 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Process> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201311/ISOTC211/HM/sampling.rdf> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2004/02/skos/core#notation> "SamplingFeatureComplex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-_:f789c670ed172408892f52cfc6dcbf37cb13 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial sampling feature"@en .
-_:f789c670ed172408892f52cfc6dcbf37cb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f789c670ed172408892f52cfc6dcbf37cb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f789c670ed172408892f52cfc6dcbf37cb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f789c670ed172408892f52cfc6dcbf37cb4 .
-_:f789c670ed172408892f52cfc6dcbf37cb25 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> .
-_:f789c670ed172408892f52cfc6dcbf37cb14 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb12 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-_:f789c670ed172408892f52cfc6dcbf37cb10 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2004/02/skos/core#definition> "the attribute parameter:NamedValue shall describe an arbitrary parameter associated with the SF_SamplingFeature. This might be a parameter that qualifies the interaction with the sampled feature, or an environmental parameter associated with the sampling process."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb22 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling process"@en .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-_:f789c670ed172408892f52cfc6dcbf37cb20 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingPoint"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb7 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb28 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb9 .
-_:f789c670ed172408892f52cfc6dcbf37cb22 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f789c670ed172408892f52cfc6dcbf37cb27 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f789c670ed172408892f52cfc6dcbf37cb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
-_:f789c670ed172408892f52cfc6dcbf37cb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2000/01/rdf-schema#label> "current location" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> .
-_:f789c670ed172408892f52cfc6dcbf37cb5 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f789c670ed172408892f52cfc6dcbf37cb7 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial sampling feature whose shape is a 3-D manifold (Solid)"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb5 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> .
-_:f789c670ed172408892f52cfc6dcbf37cb15 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling surface"@en .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingSolid"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling feature collection"@en .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2000/01/rdf-schema#comment> "An OWL representation of the Sampling Features Schema described in clauses 8-10 of ISO 19156:2011 Geographic Information - Observations and Measurements. \n\nThis vocabulary is provisional, pending finalization of ISO 19150-2.\n\nNOTE: The URI stem http://def.seegrid.csiro.au/isotc211/ is temporary. The vocabulary is expected to be ultimately published in the domain http://def.isotc211.org/"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-_:f789c670ed172408892f52cfc6dcbf37cb9 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial sampling feature whose shape is a 0-D manifold (Point)"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb11 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/2000/01/rdf-schema#label> "process operator" .
-_:f789c670ed172408892f52cfc6dcbf37cb27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2004/02/skos/core#notation> "SF_Specimen"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f789c670ed172408892f52cfc6dcbf37cb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2000/01/rdf-schema#label> "sampling time" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Complement of SamplingFeature"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Observation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#label> "sampling feature complex" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb25 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f789c670ed172408892f52cfc6dcbf37cb13 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f789c670ed172408892f52cfc6dcbf37cb10 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2000/01/rdf-schema#label> "sampling method" .
-_:f789c670ed172408892f52cfc6dcbf37cb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f789c670ed172408892f52cfc6dcbf37cb16 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
 <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/elements/1.1/title> "OWL representation of ISO 19156 Sampling Features model"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-_:f789c670ed172408892f52cfc6dcbf37cb19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "When observations are made to estimate properties of a geospatial feature, in particular where the value of a property varies within the scope of the feature, a spatial sampling feature is used. Depending on accessibility and on the nature of the expected property variation, the sampling feature may be extensive in one, two or three spatial dimensions. Processing and visualization methods are often dependent on the topological dimension of the sampling manifold, so this provides a natural classification system for sampling features.\n\nThis classification follows common practice in focussing on conventional spatial dimensions. Properties observed on sampling features may be time-dependent, but the temporal axis does not generally contribute to the classification of sampling feature classes. Sampling feature identity is usually less time-dependent than the property value."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f789c670ed172408892f52cfc6dcbf37cb28 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> .
-_:f789c670ed172408892f52cfc6dcbf37cb17 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#label> "Specimen"@en .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
-_:f789c670ed172408892f52cfc6dcbf37cb19 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
-_:f789c670ed172408892f52cfc6dcbf37cb26 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb5 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2000/01/rdf-schema#label> "member sampling feature" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f789c670ed172408892f52cfc6dcbf37cb15 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> .
-_:f789c670ed172408892f52cfc6dcbf37cb11 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f789c670ed172408892f52cfc6dcbf37cb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f789c670ed172408892f52cfc6dcbf37cb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> <http://www.w3.org/2000/01/rdf-schema#label> "processing details" .
-<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:f789c670ed172408892f52cfc6dcbf37cb1 .
-_:f789c670ed172408892f52cfc6dcbf37cb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-_:f789c670ed172408892f52cfc6dcbf37cb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> .
-_:f789c670ed172408892f52cfc6dcbf37cb9 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f789c670ed172408892f52cfc6dcbf37cb6 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/2000/01/rdf-schema#label> "preparation step" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb14 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb17 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/2000/01/rdf-schema#label> "specimen type" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f789c670ed172408892f52cfc6dcbf37cb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/2000/01/rdf-schema#label> "lineage" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/2004/02/skos/core#definition> "the attribute processOperator:CI_ResponsibleParty shall describe the operator of the process involved in the preparation step."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> .
-_:f789c670ed172408892f52cfc6dcbf37cb6 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
-_:f789c670ed172408892f52cfc6dcbf37cb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#label> "related sampling feature" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "The class SF_SamplingFeatureCollection (Figure 9) is an instance of the \u00ABmetaclass\u00BB GF_FeatureType (ISO 19109), which therefore represents a feature type. SF_SamplingFeatureCollection shall support one association."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb28 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f789c670ed172408892f52cfc6dcbf37cb25 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2004/02/skos/core#definition> "The association Geometry shall link an SF_SpatialSamplingFeature to a GM_Object that describes its shape."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> .
-_:f789c670ed172408892f52cfc6dcbf37cb26 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2002/07/owl#unionOf> _:f789c670ed172408892f52cfc6dcbf37cb3 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-_:f789c670ed172408892f52cfc6dcbf37cb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
-_:f789c670ed172408892f52cfc6dcbf37cb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-_:f789c670ed172408892f52cfc6dcbf37cb6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2004/02/skos/core#definition> "Sampling features are distinctive compared with other features from application domains by having navigable associations to observations. If present, the association Design shall link the SF_SamplingFeature to an OM_Observation that was made utilizing the sampling feature, and the description of the sampling feature provides an intrinsic element of the observation protocol, along with the observation procedure (7.2.2) and the decomposition of the domain geometry in the case of a coverage-valued result (8.3.2). The OM_Observation has the role relatedObservation with respect to the sampling feature. Multiple observations may be made on a single sampling feature."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2004/02/skos/core#notation> "SF_Process"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb15 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-_:f789c670ed172408892f52cfc6dcbf37cb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/2004/02/skos/core#definition> "The attribute materialClass:GenericName shall provide a basic classification of the material type of the specimen.\n\nEXAMPLE Soil, water, rock, aqueous, liquid, tissue, vegetation, food."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> .
-_:f789c670ed172408892f52cfc6dcbf37cb18 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
-_:f789c670ed172408892f52cfc6dcbf37cb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
-_:f789c670ed172408892f52cfc6dcbf37cb7 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb11 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb23 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality#PositionalAccuracy> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f789c670ed172408892f52cfc6dcbf37cb24 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/2000/01/rdf-schema#label> "material class" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb13 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality> .
-_:f789c670ed172408892f52cfc6dcbf37cb21 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#comment> "In many applications, specimen preparation procedures are applied to the material prior to its use in an observation. The class PreparationStep (Figure 13) shall link an SF_Specimen to an SF_Process that describes a phase of the specimen preparation."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2004/02/skos/core#definition> "A sampling feature is established in order to make observations concerning some domain feature. The association Intention shall link the SF_SamplingFeature to the feature which the sampling feature was designed to sample. The target of this association has the role sampledFeature with respect to the sampling feature, and shall not be a sampling feature or observation. It is usually a real-world feature from an application domain (Figures 5 and 10).\n\nEXAMPLE A profile typically samples a water- or atmospheric-column; a well samples the water in an aquifer; a tissue specimen samples a part of an organism."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Not a sampling feature"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#comment> "Discrete stage in specimen-preparation process"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2004/02/skos/core#notation> "Location"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f789c670ed172408892f52cfc6dcbf37cb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Observation> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2004/02/skos/core#definition> "The attribute samplingTime:TM_Object shall record when the specimen was retrieved from the sampled feature."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb24 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb16 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling curve"@en .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-_:f789c670ed172408892f52cfc6dcbf37cb16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> .
-_:f789c670ed172408892f52cfc6dcbf37cb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f789c670ed172408892f52cfc6dcbf37cb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/2004/02/skos/core#definition> "If present, the attribute lineage:LI_Lineage shall describe the history and provenance of the SF_SamplingFeature. This might include information relating to the handling of the specimen, or details of the survey procedure of a spatial sampling feature."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#comment> "Set of sampling features related to each other in a specific and deliberate way."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f789c670ed172408892f52cfc6dcbf37cb8 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2000/01/rdf-schema#label> "positional accuracy" .
-_:f789c670ed172408892f52cfc6dcbf37cb18 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Surface> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> .
-_:f789c670ed172408892f52cfc6dcbf37cb12 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/elements/1.1/creator> "Simon Jonathan David COX\nCSIRO"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling Feature"@en .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling feature whose defining characteristic is that it samples the intended feature by geometric subsetting."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb14 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2004/02/skos/core#definition> "the attribute size:Measure shall describe a physical extent of the specimen. This may be length, mass, volume, etc., as appropriate for the specimen instance and its material class."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2000/01/rdf-schema#label> "sampling feature parameter" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-_:f789c670ed172408892f52cfc6dcbf37cb17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> .
-_:f789c670ed172408892f52cfc6dcbf37cb22 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> .
-<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:f789c670ed172408892f52cfc6dcbf37cb2 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "hosted procedure or instrument" .
-_:f789c670ed172408892f52cfc6dcbf37cb15 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2000/01/rdf-schema#label> "related observation" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Process> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2004/02/skos/core#definition> "The association Collection shall link an SF_SamplingFeatureCollection to member SF_SamplingFeatures."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb20 <http://www.w3.org/2002/07/owl#maxCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> .
-_:f789c670ed172408892f52cfc6dcbf37cb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Feature on which observations may be made, that is intended to be representative of a different (usually larger) feature that is not fully accessible for some reason. "^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/modified> "2013-11-14T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f789c670ed172408892f52cfc6dcbf37cb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2000/01/rdf-schema#label> "preparation step time" .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Location, expressed as either a spatial object or geographic identifier"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb5 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/citation#ResponsibleParty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial sampling feature whose shape is a 1-D manifold (Curve)"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201210/ISOTC211/HM/sampling.rdf> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb24 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb20 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling features are artefacts of an observational strategy, and have no significant function outside of their role in the observation process. The physical characteristics of the features themselves are of little interest, except perhaps to the manager of a sampling campaign.\n\nEXAMPLE A \u201Cstation\u201D is essentially an identifiable locality where a sensor system or procedure may be deployed and an observation made. In the context of the observation model, it connotes the \u201Cworld in the vicinity of the station\u201D, so the observed properties relate to the physical medium at the station, and not to any physical artefact such as a mooring, buoy, benchmark, monument, well, etc.\n\nNOTE A transient sampling feature, such as a ships-track or flight-line, might be identified and described, but is unlikely to be revisited exactly.\n\nA sampling feature is intended to sample some feature-of-interest in an application domain. However, in some cases the identity, and even the exact type, of the sampled feature may not be known when observations are made using the sampling features."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2004/02/skos/core#definition> "The attribute time:TM_Object shall describe the time that the SF_Process was applied to the SF_Specimen. It supports ordering of preparation steps."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling feature complex"@en .
-_:f789c670ed172408892f52cfc6dcbf37cb7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> .
-_:f789c670ed172408892f52cfc6dcbf37cb23 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> .
-_:f789c670ed172408892f52cfc6dcbf37cb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2004/02/skos/core#definition> "If present, the attribute samplingMethod:SF_Process shall describe the method used to obtain the specimen from its sampledFeature."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2004/02/skos/core#definition> "If present, the attribute currentLocation:Location shall describe the location of a physical specimen. This may be a storage location, such as a shelf in a warehouse or a drawer in a museum.\n\nNOTE If a specimen no longer exists, for example, it was destroyed in connection with an observation act, then the currentLocation should be omitted or carry a suitable null indicator."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/elements/1.1/description> "An OWL representation of the Sampling Features Schema described in clauses 8-10 of ISO 19156:2011 Geographic Information - Observations and Measurements"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#comment> "A Specimen is a physical sample, obtained for observation(s) normally carried out ex-situ, sometimes in a laboratory."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling point"@en .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2004/02/skos/core#notation> "SF_SpatialSamplingFeature"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2000/01/rdf-schema#label> "spatial sampling feature shape" .
-_:f789c670ed172408892f52cfc6dcbf37cb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#parameter> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingFeature"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
-_:f789c670ed172408892f52cfc6dcbf37cb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling features are frequently related to each other, as parts of complexes, through sub-sampling, and in other ways. If present, the association class SamplingFeatureComplex (Figure 9) shall link an SF_SamplingFeature to another SF_SamplingFeature."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2004/02/skos/core#definition> "Positioning metadata is commonly associated with sampling features defined in the context of field surveys. If present, positionalAccuracy:DQ_PositionalAccuracy shall describe the accuracy of the positioning of the sampling feature. Up to two instances of the attribute support the independent description of horizontal and vertical accuracy."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f789c670ed172408892f52cfc6dcbf37cb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingFeatureCollection"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2004/02/skos/core#notation> "PreparationStep"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#comment> "Process involved in sampling. This may include specimen retrieval or processing, surveying a spatial sampling feature, excavation to provide access to a sampling feature, or any other process whose outcome is a new sampling feature."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#label> "Preparation step"@en .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb10 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb26 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> <http://www.w3.org/2000/01/rdf-schema#label> "role" .
+_:f5433c893207d4594ad5ad5165e51bd68b22 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b12 .
 <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial sampling feature whose shape is a 2-D manifold (Surface)"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingCurve"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
+_:f5433c893207d4594ad5ad5165e51bd68b6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2000/01/rdf-schema#label> "related observation" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2004/02/skos/core#notation> "SF_SpatialSamplingFeature"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:f5433c893207d4594ad5ad5165e51bd68b12 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> <http://www.w3.org/2000/01/rdf-schema#label> "processing details" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2002/07/owl#unionOf> _:f5433c893207d4594ad5ad5165e51bd68b3 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> <http://www.w3.org/2000/01/rdf-schema#label> "role" .
+_:f5433c893207d4594ad5ad5165e51bd68b24 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> .
+_:f5433c893207d4594ad5ad5165e51bd68b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial sampling feature"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/2004/02/skos/core#definition> "the attribute processOperator:CI_ResponsibleParty shall describe the operator of the process involved in the preparation step."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f5433c893207d4594ad5ad5165e51bd68b21 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> .
+_:f5433c893207d4594ad5ad5165e51bd68b10 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> .
+_:f5433c893207d4594ad5ad5165e51bd68b20 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial sampling feature whose shape is a 1-D manifold (Curve)"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> .
+_:f5433c893207d4594ad5ad5165e51bd68b6 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling features are frequently related to each other, as parts of complexes, through sub-sampling, and in other ways. If present, the association class SamplingFeatureComplex (Figure 9) shall link an SF_SamplingFeature to another SF_SamplingFeature."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f5433c893207d4594ad5ad5165e51bd68b16 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial sampling feature whose shape is a 0-D manifold (Point)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b9 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+_:f5433c893207d4594ad5ad5165e51bd68b19 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b17 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
 <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/lineage#Lineage> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/2004/02/skos/core#definition> "the attribute specimenType:GenericName shall describe the basic form of the specimen. \n\nEXAMPLE Polished section; core; pulp; solution."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b5 .
+_:f5433c893207d4594ad5ad5165e51bd68b26 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b7 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f5433c893207d4594ad5ad5165e51bd68b23 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2000/01/rdf-schema#label> "sampling feature parameter" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f5433c893207d4594ad5ad5165e51bd68b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "When observations are made to estimate properties of a geospatial feature, in particular where the value of a property varies within the scope of the feature, a spatial sampling feature is used. Depending on accessibility and on the nature of the expected property variation, the sampling feature may be extensive in one, two or three spatial dimensions. Processing and visualization methods are often dependent on the topological dimension of the sampling manifold, so this provides a natural classification system for sampling features.\n\nThis classification follows common practice in focussing on conventional spatial dimensions. Properties observed on sampling features may be time-dependent, but the temporal axis does not generally contribute to the classification of sampling feature classes. Sampling feature identity is usually less time-dependent than the property value."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2004/02/skos/core#definition> "The attribute samplingTime:TM_Object shall record when the specimen was retrieved from the sampled feature."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2004/02/skos/core#definition> "A sampling feature is established in order to make observations concerning some domain feature. The association Intention shall link the SF_SamplingFeature to the feature which the sampling feature was designed to sample. The target of this association has the role sampledFeature with respect to the sampling feature, and shall not be a sampling feature or observation. It is usually a real-world feature from an application domain (Figures 5 and 10).\n\nEXAMPLE A profile typically samples a water- or atmospheric-column; a well samples the water in an aquifer; a tissue specimen samples a part of an organism."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Observation> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#label> "sampling feature complex" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2004/02/skos/core#definition> "Sampling features are distinctive compared with other features from application domains by having navigable associations to observations. If present, the association Design shall link the SF_SamplingFeature to an OM_Observation that was made utilizing the sampling feature, and the description of the sampling feature provides an intrinsic element of the observation protocol, along with the observation procedure (7.2.2) and the decomposition of the domain geometry in the case of a coverage-valued result (8.3.2). The OM_Observation has the role relatedObservation with respect to the sampling feature. Multiple observations may be made on a single sampling feature."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> .
+_:f5433c893207d4594ad5ad5165e51bd68b7 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b27 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f5433c893207d4594ad5ad5165e51bd68b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b14 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2000/01/rdf-schema#label> "member sampling feature" .
+_:f5433c893207d4594ad5ad5165e51bd68b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> .
+_:f5433c893207d4594ad5ad5165e51bd68b13 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f5433c893207d4594ad5ad5165e51bd68b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "hosted procedure or instrument" .
+_:f5433c893207d4594ad5ad5165e51bd68b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2000/01/rdf-schema#label> "sampling time" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling surface"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#comment> "Discrete stage in specimen-preparation process"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b28 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/2000/01/rdf-schema#label> "lineage" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling feature collection"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/2000/01/rdf-schema#label> "material class" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/elements/1.1/description> "An OWL representation of the Sampling Features Schema described in clauses 8-10 of ISO 19156:2011 Geographic Information - Observations and Measurements"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "The class SF_SamplingFeatureCollection (Figure 9) is an instance of the \u00ABmetaclass\u00BB GF_FeatureType (ISO 19109), which therefore represents a feature type. SF_SamplingFeatureCollection shall support one association."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f5433c893207d4594ad5ad5165e51bd68b28 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling feature whose defining characteristic is that it samples the intended feature by geometric subsetting."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b22 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+_:f5433c893207d4594ad5ad5165e51bd68b16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Point> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2004/02/skos/core#notation> "SF_Process"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Location, expressed as either a spatial object or geographic identifier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+_:f5433c893207d4594ad5ad5165e51bd68b11 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201210/ISOTC211/HM/sampling.rdf> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2000/01/rdf-schema#label> "preparation step time" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+_:f5433c893207d4594ad5ad5165e51bd68b23 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Sampling features are artefacts of an observational strategy, and have no significant function outside of their role in the observation process. The physical characteristics of the features themselves are of little interest, except perhaps to the manager of a sampling campaign.\n\nEXAMPLE A \u201Cstation\u201D is essentially an identifiable locality where a sensor system or procedure may be deployed and an observation made. In the context of the observation model, it connotes the \u201Cworld in the vicinity of the station\u201D, so the observed properties relate to the physical medium at the station, and not to any physical artefact such as a mooring, buoy, benchmark, monument, well, etc.\n\nNOTE A transient sampling feature, such as a ships-track or flight-line, might be identified and described, but is unlikely to be revisited exactly.\n\nA sampling feature is intended to sample some feature-of-interest in an application domain. However, in some cases the identity, and even the exact type, of the sampled feature may not be known when observations are made using the sampling features."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#parameter> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> .
+_:f5433c893207d4594ad5ad5165e51bd68b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#GeographicDescription> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b16 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f5433c893207d4594ad5ad5165e51bd68b17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Solid> .
+_:f5433c893207d4594ad5ad5165e51bd68b14 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingPoint"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:f5433c893207d4594ad5ad5165e51bd68b10 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f5433c893207d4594ad5ad5165e51bd68b22 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b11 .
+_:f5433c893207d4594ad5ad5165e51bd68b12 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+_:f5433c893207d4594ad5ad5165e51bd68b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Process> .
 <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling solid"@en .
-_:f789c670ed172408892f52cfc6dcbf37cb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb19 .
-<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f789c670ed172408892f52cfc6dcbf37cb18 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling Feature"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> <http://www.w3.org/2004/02/skos/core#definition> "the attribute parameter:NamedValue shall describe an arbitrary parameter associated with the SF_SamplingFeature. This might be a parameter that qualifies the interaction with the sampled feature, or an environmental parameter associated with the sampling process."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2000/01/rdf-schema#label> "current location" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#comment> "Set of sampling features related to each other in a specific and deliberate way."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#label> "related sampling feature" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling process"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2004/02/skos/core#definition> "A common role for a spatial sampling feature is to host instruments or procedures deployed repetitively or permanently. If present, the association Platform shall link the SF_SpatialSamplingFeature to an OM_Process deployed at it. The OM_Process has the role hostedProcedure with respect to the sampling feature."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2004/02/skos/core#definition> "If present, the attribute currentLocation:Location shall describe the location of a physical specimen. This may be a storage location, such as a shelf in a warehouse or a drawer in a museum.\n\nNOTE If a specimen no longer exists, for example, it was destroyed in connection with an observation act, then the currentLocation should be omitted or carry a suitable null indicator."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> .
+_:f5433c893207d4594ad5ad5165e51bd68b18 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/vocab/vann/preferredNamespacePrefix> "sam"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+_:f5433c893207d4594ad5ad5165e51bd68b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2000/01/rdf-schema#label> "sampling location" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection of sampling features"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
+_:f5433c893207d4594ad5ad5165e51bd68b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#currentLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2004/02/skos/core#notation> "PreparationStep"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:f5433c893207d4594ad5ad5165e51bd68b5 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/citation#ResponsibleParty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f5433c893207d4594ad5ad5165e51bd68b25 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b24 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> .
+<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:f5433c893207d4594ad5ad5165e51bd68b1 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2004/02/skos/core#definition> "The association Collection shall link an SF_SamplingFeatureCollection to member SF_SamplingFeatures."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2000/01/rdf-schema#label> "sampling method" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+_:f5433c893207d4594ad5ad5165e51bd68b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f5433c893207d4594ad5ad5165e51bd68b27 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b23 .
+_:f5433c893207d4594ad5ad5165e51bd68b15 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b19 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/2000/01/rdf-schema#label> "preparation step" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> .
+_:f5433c893207d4594ad5ad5165e51bd68b21 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#comment> "Process involved in sampling. This may include specimen retrieval or processing, surveying a spatial sampling feature, excavation to provide access to a sampling feature, or any other process whose outcome is a new sampling feature."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b25 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> .
+_:f5433c893207d4594ad5ad5165e51bd68b24 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/modified> "2013-11-14T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2004/02/skos/core#definition> "Positioning metadata is commonly associated with sampling features defined in the context of field surveys. If present, positionalAccuracy:DQ_PositionalAccuracy shall describe the accuracy of the positioning of the sampling feature. Up to two instances of the attribute support the independent description of horizontal and vertical accuracy."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f5433c893207d4594ad5ad5165e51bd68b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f5433c893207d4594ad5ad5165e51bd68b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+_:f5433c893207d4594ad5ad5165e51bd68b7 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b18 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/2000/01/rdf-schema#label> "specimen type" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2000/01/rdf-schema#label> "sampled feature" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
+_:f5433c893207d4594ad5ad5165e51bd68b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#label> "Preparation step"@en .
+_:f5433c893207d4594ad5ad5165e51bd68b26 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f5433c893207d4594ad5ad5165e51bd68b13 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/2004/02/skos/core#definition> "The attribute materialClass:GenericName shall provide a basic classification of the material type of the specimen.\n\nEXAMPLE Soil, water, rock, aqueous, liquid, tissue, vegetation, food."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f5433c893207d4594ad5ad5165e51bd68b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
+_:f5433c893207d4594ad5ad5165e51bd68b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> .
+_:f5433c893207d4594ad5ad5165e51bd68b15 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> .
+_:f5433c893207d4594ad5ad5165e51bd68b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+_:f5433c893207d4594ad5ad5165e51bd68b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/elements/1.1/title> "OWL representation of ISO 19156 Sampling Features model"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#comment> "In many applications, specimen preparation procedures are applied to the material prior to its use in an observation. The class PreparationStep (Figure 13) shall link an SF_Specimen to an SF_Process that describes a phase of the specimen preparation."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+_:f5433c893207d4594ad5ad5165e51bd68b5 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/elements/1.1/source> "ISO 19156:2011"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> <http://www.w3.org/2004/02/skos/core#definition> "If present, the attribute lineage:LI_Lineage shall describe the history and provenance of the SF_SamplingFeature. This might include information relating to the handling of the specimen, or details of the survey procedure of a spatial sampling feature."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/dataquality#PositionalAccuracy> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling feature complex"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> .
+_:f5433c893207d4594ad5ad5165e51bd68b27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/elements/1.1/creator> "Simon Jonathan David COX\nCSIRO"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b8 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f5433c893207d4594ad5ad5165e51bd68b14 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingFeatureCollection"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processingDetails> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2004/02/skos/core#definition> "the attribute size:Measure shall describe a physical extent of the specimen. This may be length, mass, volume, etc., as appropriate for the specimen instance and its material class."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/created> "2012-01-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Not a sampling feature"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingFeature"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201311/ISOTC211/HM/sampling.rdf> .
+_:f5433c893207d4594ad5ad5165e51bd68b20 <http://www.w3.org/2002/07/owl#maxCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#materialClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f5433c893207d4594ad5ad5165e51bd68b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f5433c893207d4594ad5ad5165e51bd68b4 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingCurve"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Feature on which observations may be made, that is intended to be representative of a different (usually larger) feature that is not fully accessible for some reason. "^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#positionalAccuracy> <http://www.w3.org/2000/01/rdf-schema#label> "positional accuracy" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f5433c893207d4594ad5ad5165e51bd68b6 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> .
+_:f5433c893207d4594ad5ad5165e51bd68b5 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f5433c893207d4594ad5ad5165e51bd68b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f5433c893207d4594ad5ad5165e51bd68b9 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#lineage> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b20 .
+<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#time> <http://www.w3.org/2004/02/skos/core#definition> "The attribute time:TM_Object shall describe the time that the SF_Process was applied to the SF_Specimen. It supports ordering of preparation steps."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial sampling feature whose shape is a 3-D manifold (Solid)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#PreparationStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b6 .
+_:f5433c893207d4594ad5ad5165e51bd68b9 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingMethod> <http://www.w3.org/2004/02/skos/core#definition> "If present, the attribute samplingMethod:SF_Process shall describe the method used to obtain the specimen from its sampledFeature."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+_:f5433c893207d4594ad5ad5165e51bd68b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingSurface"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> <http://www.w3.org/2004/02/skos/core#definition> "the attribute specimenType:GenericName shall describe the basic form of the specimen. \n\nEXAMPLE Polished section; core; pulp; solution."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#label> "Specimen"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:f5433c893207d4594ad5ad5165e51bd68b2 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b26 .
+_:f5433c893207d4594ad5ad5165e51bd68b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2004/02/skos/core#notation> "SF_Specimen"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Complement of SamplingFeature"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#parameter> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2000/01/rdf-schema#label> "spatial sampling feature shape" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2004/02/skos/core#definition> "The association Geometry shall link an SF_SpatialSamplingFeature to a GM_Object that describes its shape."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling point"@en .
+_:f5433c893207d4594ad5ad5165e51bd68b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b21 .
+_:f5433c893207d4594ad5ad5165e51bd68b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f5433c893207d4594ad5ad5165e51bd68b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+_:f5433c893207d4594ad5ad5165e51bd68b18 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Surface> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Location> <http://www.w3.org/2004/02/skos/core#notation> "Location"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> .
+_:f5433c893207d4594ad5ad5165e51bd68b19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f5433c893207d4594ad5ad5165e51bd68b8 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19107/2003/geometry#Curve> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#processOperator> <http://www.w3.org/2000/01/rdf-schema#label> "process operator" .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature#AnyFeature> .
+_:f5433c893207d4594ad5ad5165e51bd68b25 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Observation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
+_:f5433c893207d4594ad5ad5165e51bd68b8 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
+_:f5433c893207d4594ad5ad5165e51bd68b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#preparationStep> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#member> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+_:f5433c893207d4594ad5ad5165e51bd68b28 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#specimenType> .
+_:f5433c893207d4594ad5ad5165e51bd68b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f5433c893207d4594ad5ad5165e51bd68b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingCurve> <http://www.w3.org/2000/01/rdf-schema#label> "Sampling curve"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b15 .
+_:f5433c893207d4594ad5ad5165e51bd68b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+_:f5433c893207d4594ad5ad5165e51bd68b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingFeatureComplex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureComplex> <http://www.w3.org/2004/02/skos/core#notation> "SamplingFeatureComplex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#hostedProcedure> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Process> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#samplingLocation> <http://www.w3.org/2004/02/skos/core#definition> "If present, the attribute samplingLocation:GM_Object shall describe the location from where the specimen was obtained.\n\nNOTE Where a specimen has a relatedSamplingFeature whose location provides an unambiguous location then this attribute is not required. However, if the specific sampling location within the sampledFeature is important, then this attribute supports its description."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Process> <http://www.w3.org/2000/01/rdf-schema#comment> "In many applications, specimen preparation procedures are applied to the material prior to its use in an observation. The class PreparationStep (Figure 13) shall link an SF_Specimen to an SF_Process that describes a phase of the specimen preparation."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f5433c893207d4594ad5ad5165e51bd68b15 <http://www.w3.org/2002/07/owl#onClass> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> .
+_:f5433c893207d4594ad5ad5165e51bd68b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f5433c893207d4594ad5ad5165e51bd68b11 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b10 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SpatialSamplingFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#size> <http://www.w3.org/2000/01/rdf-schema#label> "specimen size" .
+_:f5433c893207d4594ad5ad5165e51bd68b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#NotSamplingFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#sampledFeature> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#Specimen> <http://www.w3.org/2000/01/rdf-schema#comment> "A Specimen is a physical sample, obtained for observation(s) normally carried out ex-situ, sometimes in a laboratory."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f5433c893207d4594ad5ad5165e51bd68b7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2000/01/rdf-schema#comment> "An OWL representation of the Sampling Features Schema described in clauses 8-10 of ISO 19156:2011 Geographic Information - Observations and Measurements. \n\nThis vocabulary is provisional, pending finalization of ISO 19150-2.\n\nNOTE: The URI stem http://def.seegrid.csiro.au/isotc211/ is temporary. The vocabulary is expected to be ultimately published in the domain http://def.isotc211.org/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingFeatureCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f5433c893207d4594ad5ad5165e51bd68b13 .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#relatedSamplingFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f5433c893207d4594ad5ad5165e51bd68b17 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#shape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling> .
+<http://def.seegrid.csiro.au/isotc211/iso19156/2011/sampling#SamplingSolid> <http://www.w3.org/2004/02/skos/core#notation> "SF_SamplingSolid"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
 

@@ -1,529 +1,529 @@
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2004/02/skos/core#notation> "TM_OrdinalPosition"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab55 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/2004/02/skos/core#notation> "TM_Calendar"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab18 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab44 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/created> "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/2000/01/rdf-schema#label> "ordinal time position"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2004/02/skos/core#notation> "TM_TopologicalPrimitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab16 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2004/02/skos/core#historyNote> "2013-02-19 Converted qualified cardinality restrictions to cardinality/only pairs of restrictions"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab48 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab32 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2004/02/skos/core#notation> "TM_TemporalPosition"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab2 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab35 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2004/02/skos/core#notation> "TM_CalDate"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab50 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab38 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab18 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab14 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab59 <http://www.w3.org/2002/07/owl#unionOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab60 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/elements/1.1/creator> "Simon J D COX - CSIRO"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Ordinal Reference System"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab51 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab10 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#range> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab56 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab37 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/elements/1.1/source> "ISO 19108:2002"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab19 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab32 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#domain> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab53 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab10 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2000/01/rdf-schema#label> "next edge"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab47 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Coordinate"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> <http://www.w3.org/2000/01/rdf-schema#label> "temporal position value"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab6 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab41 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal ordinal era"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab67 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab34 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab49 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal position"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2004/02/skos/core#notation> "TM_Node"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201311/ISOTC211/HM/temporal.rdf> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab19 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/2000/01/rdf-schema#label> "parent reference system"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2004/02/skos/core#notation> "TM_Period"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab28 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab5 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab4 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab48 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/2004/02/skos/core#notation> "TM_CoordinateSystem"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2000/01/rdf-schema#label> "complex"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab38 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab35 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab33 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/2004/02/skos/core#notation> "TM_Clock"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab52 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#domain> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab62 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab13 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab53 <http://www.w3.org/2002/07/owl#unionOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab54 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab31 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab36 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2004/02/skos/core#notation> "TM_Instant"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab37 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab11 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab11 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab50 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab43 <http://www.w3.org/2002/07/owl#unionOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab45 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab30 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab40 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Geometric Primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2004/02/skos/core#notation> "TM_Coordinate"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#label> "Clock time"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab31 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab39 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab64 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2000/01/rdf-schema#label> "temporal topology"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/2000/01/rdf-schema#label> "Calendar"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab51 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab29 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab2 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab1 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab24 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab50 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab31 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/2000/01/rdf-schema#label> "clock time"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab47 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab6 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab27 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab21 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#range> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab65 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab13 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab24 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#time> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab12 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/modified> "2013-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2000/01/rdf-schema#label> "ended by"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#hasTopConcept> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab42 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab21 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab23 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#label> "temporal reference system or frame"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab9 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab44 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab12 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab14 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab46 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> <http://www.w3.org/2000/01/rdf-schema#label> "calendar date"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab27 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab33 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab62 <http://www.w3.org/2002/07/owl#unionOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab63 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab17 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab3 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2000/01/rdf-schema#label> "primitive member"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab33 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab5 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab19 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab49 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/vocab/vann/preferredNamespacePrefix> "tm"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#label> "ending instant or node"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/ISOTC211/HM/temporal.rdf> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab48 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Coordinate System"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab25 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2004/02/skos/core#notation> "TM_GeometricComplex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab51 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab40 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2004/02/skos/core#notation> "TM_ReferenceSystem"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab30 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/2004/02/skos/core#notation> "TM_GeometricPrimitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Object"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab10 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2000/01/rdf-schema#label> "Date and time"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab36 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2004/02/skos/core#notation> "TM_TopologicalComplex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab12 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal ordinal position"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property is a time encoded as an xsd:dateTime"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab39 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal geometric complex"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab34 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab15 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab41 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab21 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab16 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/2000/01/rdf-schema#label> "date or dateTime position"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab17 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> <http://www.w3.org/2000/01/rdf-schema#label> "temporal position"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2004/02/skos/core#notation> "TM_ClockTime"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab42 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/2004/02/skos/core#notation> "TM_Object"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab11 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2000/01/rdf-schema#label> "temporal geometry"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab15 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property defines the end of a time period"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2004/02/skos/core#notation> "TM_Complex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab17 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Instant"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab39 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#date> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab40 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab29 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> <http://www.w3.org/2004/02/skos/core#notation> "TM_OrdinalReferenceSystem"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab43 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Reference System"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab35 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2004/02/skos/core#notation> "TM_DateAndTime"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property indicates the temporal reference system for a time position"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#label> "domain of validity"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab34 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab58 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab8 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
 <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab7 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab5 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property defines the beginning of a time period"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/2000/01/rdf-schema#range> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab59 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal topologic complex"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab28 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab8 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab25 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/elements/1.1/description> "An OWL representation of part of the model for Temporal objects and reference systems from ISO 19108:2002 Geographic Information - Temporal Schema"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2004/02/skos/core#notation> "TM_Edge"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab52 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab61 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Edge"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab1 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2000/01/rdf-schema#comment> "An OWL representation of part of the model for Temporal objects and reference systems from ISO 19108:2002 Geographic Information - Temporal Schema\n\nThis vocabulary is provisional, pending finalization of ISO 19150-2.\n\nThe URI stem http://def.seegrid.csiro.au/isotc211/ is temporary. The vocabulary is expected to be ultimately published in the domain http://def.isotc211.org/"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2000/01/rdf-schema#label> "begun by"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab56 <http://www.w3.org/2002/07/owl#unionOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab57 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab3 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab65 <http://www.w3.org/2002/07/owl#unionOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab66 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab28 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab24 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab9 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2000/01/rdf-schema#label> "parent era"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab4 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab26 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
 <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/2004/02/skos/core#notation> "TM_OrdinalEra"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Node"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab25 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Topological Primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab38 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Period"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/2004/02/skos/core#notation> "TM_Primitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2000/01/rdf-schema#label> "member era"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab47 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab44 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/2000/01/rdf-schema#label> "Clock"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b6 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b40 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b34 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b4 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b50 .
+_:fee408822010e4476a568ab985069d7d1b2 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
+_:fee408822010e4476a568ab985069d7d1b62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property indicates the temporal reference system for a time position"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> .
 <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#label> "beginning instant or node"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#label> "Calendar date"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Complex"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab37 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab20 <http://www.w3.org/2002/07/owl#unionOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab22 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2000/01/rdf-schema#label> "previous edge"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab42 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab49 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab29 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab20 .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/elements/1.1/title> "OWL representation of ISO 19108 (Geographic Information - Temporal Schema)"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab41 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab26 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab18 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab36 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f48e30ba1f18c49bc9b6d4de0c3aaf2dab7 .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab32 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#label> "component era"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> .
+_:fee408822010e4476a568ab985069d7d1b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+_:fee408822010e4476a568ab985069d7d1b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fee408822010e4476a568ab985069d7d1b58 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2000/01/rdf-schema#label> "temporal topology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b31 .
+_:fee408822010e4476a568ab985069d7d1b25 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> <http://www.w3.org/2000/01/rdf-schema#label> "temporal position"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2000/01/rdf-schema#label> "Date and time"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> .
+_:fee408822010e4476a568ab985069d7d1b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2000/01/rdf-schema#label> "next edge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
+_:fee408822010e4476a568ab985069d7d1b10 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
+_:fee408822010e4476a568ab985069d7d1b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fee408822010e4476a568ab985069d7d1b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fee408822010e4476a568ab985069d7d1b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:fee408822010e4476a568ab985069d7d1b21 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab52 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f48e30ba1f18c49bc9b6d4de0c3aaf2dab30 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+_:fee408822010e4476a568ab985069d7d1b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Coordinate System"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/created> "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Topological Primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fee408822010e4476a568ab985069d7d1b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:fee408822010e4476a568ab985069d7d1b47 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> .
+_:fee408822010e4476a568ab985069d7d1b15 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
+_:fee408822010e4476a568ab985069d7d1b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fee408822010e4476a568ab985069d7d1b28 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
+_:fee408822010e4476a568ab985069d7d1b16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
+_:fee408822010e4476a568ab985069d7d1b25 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/2000/01/rdf-schema#label> "Calendar"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> .
+_:fee408822010e4476a568ab985069d7d1b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
+_:fee408822010e4476a568ab985069d7d1b48 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b7 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b50 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#range> _:fee408822010e4476a568ab985069d7d1b65 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b41 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
+_:fee408822010e4476a568ab985069d7d1b41 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19115/2003/extent#Extent> .
+_:fee408822010e4476a568ab985069d7d1b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b26 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Object"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/2004/02/skos/core#notation> "TM_OrdinalEra"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:fee408822010e4476a568ab985069d7d1b17 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:fee408822010e4476a568ab985069d7d1b5 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b11 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Period"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b3 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
+_:fee408822010e4476a568ab985069d7d1b10 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/vocab/vann/preferredNamespacePrefix> "tm"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b38 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+_:fee408822010e4476a568ab985069d7d1b12 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b30 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> .
+_:fee408822010e4476a568ab985069d7d1b60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b27 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> .
+_:fee408822010e4476a568ab985069d7d1b34 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b5 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal ordinal era"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b59 <http://www.w3.org/2002/07/owl#unionOf> _:fee408822010e4476a568ab985069d7d1b60 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2004/02/skos/core#notation> "TM_ClockTime"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:fee408822010e4476a568ab985069d7d1b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fee408822010e4476a568ab985069d7d1b46 .
+_:fee408822010e4476a568ab985069d7d1b47 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2004/02/skos/core#historyNote> "2013-02-19 Converted qualified cardinality restrictions to cardinality/only pairs of restrictions"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b48 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b3 .
+_:fee408822010e4476a568ab985069d7d1b44 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:fee408822010e4476a568ab985069d7d1b28 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:fee408822010e4476a568ab985069d7d1b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:fee408822010e4476a568ab985069d7d1b24 .
+_:fee408822010e4476a568ab985069d7d1b38 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2004/02/skos/core#notation> "TM_Complex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2004/02/skos/core#notation> "TM_TopologicalPrimitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:fee408822010e4476a568ab985069d7d1b30 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Coordinate"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fee408822010e4476a568ab985069d7d1b67 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal ordinal position"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> <http://www.w3.org/2000/01/rdf-schema#label> "temporal position value"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/2000/01/rdf-schema#label> "clock time"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
+_:fee408822010e4476a568ab985069d7d1b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2004/02/skos/core#notation> "TM_Edge"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
+_:fee408822010e4476a568ab985069d7d1b15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
+_:fee408822010e4476a568ab985069d7d1b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/2000/01/rdf-schema#label> "parent reference system"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b18 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Edge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b9 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b18 .
+_:fee408822010e4476a568ab985069d7d1b49 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2000/01/rdf-schema#label> "primitive member"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b39 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#label> "beginning instant or node"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b12 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
+_:fee408822010e4476a568ab985069d7d1b24 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/2000/01/rdf-schema#label> "date or dateTime position"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> .
+_:fee408822010e4476a568ab985069d7d1b56 <http://www.w3.org/2002/07/owl#unionOf> _:fee408822010e4476a568ab985069d7d1b57 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
+_:fee408822010e4476a568ab985069d7d1b53 <http://www.w3.org/2002/07/owl#unionOf> _:fee408822010e4476a568ab985069d7d1b54 .
+_:fee408822010e4476a568ab985069d7d1b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201311/ISOTC211/HM/temporal.rdf> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b15 .
+_:fee408822010e4476a568ab985069d7d1b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b35 .
+_:fee408822010e4476a568ab985069d7d1b27 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2000/01/rdf-schema#comment> "An OWL representation of part of the model for Temporal objects and reference systems from ISO 19108:2002 Geographic Information - Temporal Schema\n\nThis vocabulary is provisional, pending finalization of ISO 19150-2.\n\nThe URI stem http://def.seegrid.csiro.au/isotc211/ is temporary. The vocabulary is expected to be ultimately published in the domain http://def.isotc211.org/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#label> "Clock time"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> <http://www.w3.org/2004/02/skos/core#notation> "TM_OrdinalReferenceSystem"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/ISOTC211/HM/temporal.rdf> .
+_:fee408822010e4476a568ab985069d7d1b52 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Instant"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> .
+_:fee408822010e4476a568ab985069d7d1b49 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Ordinal Reference System"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b11 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:fee408822010e4476a568ab985069d7d1b17 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b17 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fee408822010e4476a568ab985069d7d1b41 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> .
+_:fee408822010e4476a568ab985069d7d1b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/elements/1.1/source> "ISO 19108:2002"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Geometric Primitive"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fee408822010e4476a568ab985069d7d1b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b25 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2004/02/skos/core#notation> "TM_GeometricComplex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fee408822010e4476a568ab985069d7d1b19 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fee408822010e4476a568ab985069d7d1b29 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b10 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
+_:fee408822010e4476a568ab985069d7d1b5 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:fee408822010e4476a568ab985069d7d1b9 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> .
+_:fee408822010e4476a568ab985069d7d1b21 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> .
+_:fee408822010e4476a568ab985069d7d1b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b49 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b36 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+_:fee408822010e4476a568ab985069d7d1b19 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
+_:fee408822010e4476a568ab985069d7d1b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> .
+_:fee408822010e4476a568ab985069d7d1b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b30 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> .
+_:fee408822010e4476a568ab985069d7d1b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b40 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property defines the beginning of a time period"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b40 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#date> .
+_:fee408822010e4476a568ab985069d7d1b21 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
+_:fee408822010e4476a568ab985069d7d1b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b28 .
+_:fee408822010e4476a568ab985069d7d1b38 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
+_:fee408822010e4476a568ab985069d7d1b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fee408822010e4476a568ab985069d7d1b8 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b43 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b51 .
+_:fee408822010e4476a568ab985069d7d1b6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b32 .
+_:fee408822010e4476a568ab985069d7d1b26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b19 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b11 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b29 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> <http://www.w3.org/2004/02/skos/core#notation> "TM_Coordinate"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b34 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/2000/01/rdf-schema#range> _:fee408822010e4476a568ab985069d7d1b59 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b8 .
+_:fee408822010e4476a568ab985069d7d1b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2000/01/rdf-schema#label> "begun by"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2004/02/skos/core#notation> "TM_CalDate"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:fee408822010e4476a568ab985069d7d1b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal geometric complex"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/elements/1.1/title> "OWL representation of ISO 19108 (Geographic Information - Temporal Schema)"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b37 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2004/02/skos/core#notation> "TM_ReferenceSystem"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Reference System"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/2000/01/rdf-schema#label> "ordinal time position"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b7 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fee408822010e4476a568ab985069d7d1b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b16 .
+_:fee408822010e4476a568ab985069d7d1b37 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> .
+_:fee408822010e4476a568ab985069d7d1b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:fee408822010e4476a568ab985069d7d1b47 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+_:fee408822010e4476a568ab985069d7d1b42 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> .
+_:fee408822010e4476a568ab985069d7d1b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Coordinate> .
+_:fee408822010e4476a568ab985069d7d1b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fee408822010e4476a568ab985069d7d1b44 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> .
+_:fee408822010e4476a568ab985069d7d1b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> .
+_:fee408822010e4476a568ab985069d7d1b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b35 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
+_:fee408822010e4476a568ab985069d7d1b60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fee408822010e4476a568ab985069d7d1b61 .
+_:fee408822010e4476a568ab985069d7d1b39 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
+_:fee408822010e4476a568ab985069d7d1b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fee408822010e4476a568ab985069d7d1b52 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2000/01/rdf-schema#label> "complex"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#hasTopConcept> .
+_:fee408822010e4476a568ab985069d7d1b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/elements/1.1/description> "An OWL representation of part of the model for Temporal objects and reference systems from ISO 19108:2002 Geographic Information - Temporal Schema"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2000/01/rdf-schema#label> "member era"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/2004/02/skos/core#notation> "TM_Calendar"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> .
+_:fee408822010e4476a568ab985069d7d1b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#label> "domain of validity"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
+_:fee408822010e4476a568ab985069d7d1b66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b29 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> .
+_:fee408822010e4476a568ab985069d7d1b2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/2004/02/skos/core#notation> "TM_Object"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:fee408822010e4476a568ab985069d7d1b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:fee408822010e4476a568ab985069d7d1b44 .
+_:fee408822010e4476a568ab985069d7d1b27 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> .
+_:fee408822010e4476a568ab985069d7d1b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fee408822010e4476a568ab985069d7d1b55 .
+_:fee408822010e4476a568ab985069d7d1b33 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
+_:fee408822010e4476a568ab985069d7d1b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b18 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> .
+_:fee408822010e4476a568ab985069d7d1b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Complex"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b51 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2004/02/skos/core#notation> "TM_TemporalPosition"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ClockTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Node"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b50 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
+_:fee408822010e4476a568ab985069d7d1b32 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> <http://www.w3.org/2004/02/skos/core#notation> "TM_GeometricPrimitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:fee408822010e4476a568ab985069d7d1b14 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> <http://www.w3.org/2000/01/rdf-schema#label> "calendar date"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> .
+_:fee408822010e4476a568ab985069d7d1b48 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2000/01/rdf-schema#label> "temporal geometry"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property is a time encoded as an xsd:dateTime"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b20 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b26 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b52 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b33 .
+_:fee408822010e4476a568ab985069d7d1b16 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricPrimitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b42 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#domain> _:fee408822010e4476a568ab985069d7d1b62 .
+_:fee408822010e4476a568ab985069d7d1b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#temporalPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalPosition> <http://www.w3.org/2004/02/skos/core#notation> "TM_OrdinalPosition"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2000/01/rdf-schema#label> "previous edge"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2004/02/skos/core#notation> "TM_Period"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:fee408822010e4476a568ab985069d7d1b4 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fee408822010e4476a568ab985069d7d1b42 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> .
+_:fee408822010e4476a568ab985069d7d1b31 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#DateAndTime> <http://www.w3.org/2004/02/skos/core#notation> "TM_DateAndTime"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#nextEdge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalPrimitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+_:fee408822010e4476a568ab985069d7d1b31 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b39 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#label> "ending instant or node"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/2004/02/skos/core#notation> "TM_CoordinateSystem"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2004/02/skos/core#notation> "TM_Instant"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#range> _:fee408822010e4476a568ab985069d7d1b56 .
+_:fee408822010e4476a568ab985069d7d1b62 <http://www.w3.org/2002/07/owl#unionOf> _:fee408822010e4476a568ab985069d7d1b63 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fee408822010e4476a568ab985069d7d1b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b32 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ordinalValue> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/modified> "2013-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fee408822010e4476a568ab985069d7d1b36 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
+_:fee408822010e4476a568ab985069d7d1b33 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
+_:fee408822010e4476a568ab985069d7d1b61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> .
+_:fee408822010e4476a568ab985069d7d1b51 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> .
+_:fee408822010e4476a568ab985069d7d1b24 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/2004/02/skos/core#notation> "TM_Primitive"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:fee408822010e4476a568ab985069d7d1b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> .
+_:fee408822010e4476a568ab985069d7d1b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal topologic complex"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fee408822010e4476a568ab985069d7d1b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fee408822010e4476a568ab985069d7d1b64 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2000/01/rdf-schema#label> "component era"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b6 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b12 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
+_:fee408822010e4476a568ab985069d7d1b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2004/02/skos/core#notation> "TM_TopologicalComplex"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
+_:fee408822010e4476a568ab985069d7d1b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b20 <http://www.w3.org/2002/07/owl#unionOf> _:fee408822010e4476a568ab985069d7d1b22 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b13 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/elements/1.1/creator> "Simon J D COX - CSIRO"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b14 .
+_:fee408822010e4476a568ab985069d7d1b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2000/01/rdf-schema#label> "parent era"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
+_:fee408822010e4476a568ab985069d7d1b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/2004/02/skos/core#notation> "TM_Clock"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#system> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#group> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property defines the end of a time period"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#dateTimePosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b35 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:fee408822010e4476a568ab985069d7d1b13 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
+_:fee408822010e4476a568ab985069d7d1b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#label> "Calendar date"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b37 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Primitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Object> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#ReferenceSystem> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#complex> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Complex> .
+_:fee408822010e4476a568ab985069d7d1b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2002/07/owl#inverseOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> .
+_:fee408822010e4476a568ab985069d7d1b3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#time> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TopologicalComplex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begunBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+_:fee408822010e4476a568ab985069d7d1b43 <http://www.w3.org/2002/07/owl#unionOf> _:fee408822010e4476a568ab985069d7d1b45 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fee408822010e4476a568ab985069d7d1b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Edge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Clock> <http://www.w3.org/2000/01/rdf-schema#label> "Clock"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fee408822010e4476a568ab985069d7d1b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fee408822010e4476a568ab985069d7d1b23 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b1 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#frame> <http://www.w3.org/2000/01/rdf-schema#label> "temporal reference system or frame"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Calendar> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#member> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#OrdinalEra> .
+_:fee408822010e4476a568ab985069d7d1b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#previousEdge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#topology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+_:fee408822010e4476a568ab985069d7d1b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fee408822010e4476a568ab985069d7d1b1 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#value> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Node> <http://www.w3.org/2004/02/skos/core#notation> "TM_Node"^^<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+_:fee408822010e4476a568ab985069d7d1b13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Period> .
+_:fee408822010e4476a568ab985069d7d1b65 <http://www.w3.org/2002/07/owl#unionOf> _:fee408822010e4476a568ab985069d7d1b66 .
+_:fee408822010e4476a568ab985069d7d1b7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#endedBy> <http://www.w3.org/2000/01/rdf-schema#label> "ended by"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#Instant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fee408822010e4476a568ab985069d7d1b36 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#end> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#TemporalPosition> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal position"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#begin> <http://www.w3.org/2000/01/rdf-schema#domain> _:fee408822010e4476a568ab985069d7d1b53 .
+_:fee408822010e4476a568ab985069d7d1b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#CalDate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fee408822010e4476a568ab985069d7d1b2 .
 

@@ -1,79 +1,79 @@
-<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2000/01/rdf-schema#label> "has scrobble object"@en .
-_:ub444bL53C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
-<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#label> "has event"@en .
-<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Scrobble Event"@en .
-<http://purl.org/ontology/co/core#object> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
-<http://purl.org/ontology/co/core#event> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
-<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub444bL53C27 .
-<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
-<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/NET/c4dm/event.owl#Event> .
-<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#label> "has count"@en .
-<http://purl.org/ontology/co/core#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2003/06/sw-vocab-status/ns> .
-<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/ontology/co/core#count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#comment> "Links events to a counter resource, where they where counted in."@en .
-<http://purl.org/ontology/co/core#counter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/creator> <http://moustaki.org/foaf.rdf#moustaki> .
-<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/date> "2010-09-13T16:11:52+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/co/core#object> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
-<http://purl.org/ontology/co/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/NET/c4dm/event.owl> .
-<http://purl.org/ontology/co/core#count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://purl.org/ontology/co/core#object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a counter resource to the actual count"@en .
-<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/co/core#ScrobbleEvent> .
 <http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://purl.org/ontology/co/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
-<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/title> "The Counter Ontology"@en .
-<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/2000/01/rdf-schema#label> "Counter"@en .
-<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
-<http://purl.org/ontology/co/core#event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/co/core#counter> .
-<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
-<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#label> "has event counter"@en .
-<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/creator> <http://foaf.me/zazi#me> .
-<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/description> "The Counter Ontology specification provides basic concepts and properties \nfor describing a general counter concept and some important sub counters, e.g. an event counter, on/ for \nthe Semantic Web. This document contains a RDF description of the Counter Ontology."@en .
-<http://purl.org/ontology/co/core#object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/ontology/co/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/NET/c4dm/event.owl> .
 <http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
-<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/creator> <http://foaf.me/intrz#me> .
-<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
-<http://purl.org/ontology/co/core#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/co/core#object> .
-<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
-<http://purl.org/ontology/co/core#count> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-<http://purl.org/ontology/co/core#object> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a counter resource to an object. Please feel free to create further sub properties with more restricted ranges."@en .
-<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
-<http://purl.org/ontology/co/core#event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:ub444bL53C27 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/ontology/co/core#count> .
-<http://purl.org/ontology/co/core#counter> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/co/core#Counter> .
-<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/2000/01/rdf-schema#comment> "Counter of a given object/ given objects, which are related to that counter."@en .
-<http://purl.org/ontology/co/core#object> <http://www.w3.org/2000/01/rdf-schema#label> "has object"@en .
 <http://purl.org/ontology/co/core#counter> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an object to a counter resource. Please feel free to create further sub properties with more restricted domains."@en .
-<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#comment> "Links counter resources to related events."@en .
-<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/co/core#counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
-<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/ontology/co/core#Counter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
-<http://purl.org/ontology/co/core#counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/creator> <http://foaf.me/zazi#me> .
+<http://purl.org/ontology/co/core#event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
+<http://purl.org/ontology/co/core#counter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/co/core#object> .
 <http://purl.org/ontology/co/core#Counter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/NET/c4dm/event.owl#Event> .
-<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/co/core#Counter> .
-<http://purl.org/ontology/co/core#counter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
+_:ub420bL53C27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/description> "The Counter Ontology specification provides basic concepts and properties \nfor describing a general counter concept and some important sub counters, e.g. an event counter, on/ for \nthe Semantic Web. This document contains a RDF description of the Counter Ontology."@en .
 <http://purl.org/ontology/co/core#count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://purl.org/ontology/co/core#object> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/co/core#counter> .
-<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://purl.org/ontology/co/core#counter> <http://www.w3.org/2000/01/rdf-schema#label> "has counter"@en .
+_:ub420bL53C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#label> "has count"@en .
+_:ub420bL53C27 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/ontology/co/core#count> .
+<http://purl.org/ontology/co/core#object> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
+<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/creator> <http://foaf.me/intrz#me> .
+<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/ontology/co/core#counter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
+<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/date> "2010-09-13T16:11:52+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/co/core#counter> .
+<http://purl.org/ontology/co/core#counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/2000/01/rdf-schema#label> "Counter"@en .
 <http://purl.org/ontology/co/core#Counter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
+<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2000/01/rdf-schema#label> "has scrobble object"@en .
+<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/co/core#ScrobbleEvent> .
+<http://purl.org/ontology/co/core#counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a counter resource to the actual count"@en .
+<http://purl.org/ontology/co/core#counter> <http://www.w3.org/2000/01/rdf-schema#label> "has counter"@en .
+<http://purl.org/ontology/co/core#event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/co/core#count> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Scrobble Event"@en .
+<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/co/core#Counter> .
+<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/co/core#object> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
 <http://purl.org/ontology/co/core#event> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/co/core#event_counter> .
-<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/title> "The Counter Ontology"@en .
 <http://purl.org/ontology/co/core#object> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/co/core#Counter> .
+<http://purl.org/ontology/co/core#> <http://purl.org/dc/elements/1.1/creator> <http://moustaki.org/foaf.rdf#moustaki> .
+<http://purl.org/ontology/co/core#count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/co/core#object> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/co/core#counter> .
+<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/co/core#count> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
 <http://purl.org/ontology/co/core#> <http://www.w3.org/2002/07/owl#versionInfo> "0.81"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:ub444bL53C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An event corresponding to a scrobbling (counting an activity, which includes at least a specific factor and \na specific agent), e.g. a track being played by someone, a video watched by someone, a book read by \nsomeone, a sporting activity by someone, ..."@en .
+<http://purl.org/ontology/co/core#> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
+<http://purl.org/ontology/co/core#count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
+<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#comment> "Links events to a counter resource, where they where counted in."@en .
+<http://purl.org/ontology/co/core#object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub420bL53C27 .
+<http://purl.org/ontology/co/core#object> <http://www.w3.org/2000/01/rdf-schema#label> "has object"@en .
 <http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/2000/01/rdf-schema#comment> "A scrobble object of a scrobble event, e.g. a music track, a video or a described activity. That means a specific thing that is involved in this scrobbling action."@en .
+<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/co/core#object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/co/core#> .
+<http://purl.org/ontology/co/core#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#label> "has event"@en .
+<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en .
+<http://purl.org/ontology/co/core#scrobble_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/ontology/co/core#counter> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/co/core#Counter> .
+<http://purl.org/ontology/co/core#event> <http://www.w3.org/2000/01/rdf-schema#comment> "Links counter resources to related events."@en .
+<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An event corresponding to a scrobbling (counting an activity, which includes at least a specific factor and \na specific agent), e.g. a track being played by someone, a video watched by someone, a book read by \nsomeone, a sporting activity by someone, ..."@en .
+<http://purl.org/ontology/co/core#ScrobbleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/ontology/co/core#event_counter> <http://www.w3.org/2000/01/rdf-schema#label> "has event counter"@en .
+<http://purl.org/ontology/co/core#Counter> <http://www.w3.org/2000/01/rdf-schema#comment> "Counter of a given object/ given objects, which are related to that counter."@en .
+<http://purl.org/ontology/co/core#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2003/06/sw-vocab-status/ns> .
+<http://purl.org/ontology/co/core#event> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en .
+<http://purl.org/ontology/co/core#object> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a counter resource to an object. Please feel free to create further sub properties with more restricted ranges."@en .
 

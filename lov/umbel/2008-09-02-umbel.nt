@@ -1,134 +1,134 @@
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2004/02/skos/core#note> "Abstract concepts are a special kind of concept: they represent abstract or ephemeral notions such as truth, beauty, evil or justice, or are thought constructs useful to organizing or categorizing things but are not readily seen in the experiential world (such as, PartiallyTangibleThing). Abstract concepts are further contrasted with subject concepts (see their class description) and with named entities, which are the real things or instances in the world that are members of subject concept classes. \n\nAbstract concepts are included in the UMBEL concept graph for inferencing and graph connectivity purposes, but can not themselves be displayed or used as binding classes in the UMBEL \"backbone\" for external classes or instances (or named entities).\n\nAbstractConcept is disjoint with SubjectConcept."@en .
-<http://umbel.org/umbel#> <http://purl.org/dc/terms/creator> <http://fgiasson.com/me/> .
-<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
-_:f3087062d344343288d52550a9e8d51a7b2 <http://www.w3.org/2002/07/owl#onProperty> <http://umbel.org/umbel#semset> .
-<http://umbel.org/umbel#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "umbel" .
-_:f3087062d344343288d52550a9e8d51a7b6 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f3087062d344343288d52550a9e8d51a7b2 .
-<http://umbel.org/umbel#> <http://purl.org/dc/terms/creator> <http://mkbergman.com/me/> .
-<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2004/02/skos/core#definition> "Abstract concepts are a distinct subset of the more broadly understood concept such as used in the SKOS RDFS controlled vocabulary or formal concept analysis or the very general concepts common to some upper ontologies."@en .
-<http://umbel.org/umbel#isAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
-_:f3087062d344343288d52550a9e8d51a7b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#Semset> .
-<http://umbel.org/umbel#withAlignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://umbel.org/umbel#linksConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://umbel.org/umbel#isAbout> <http://www.w3.org/2004/02/skos/core#prefLabel> "is about"@en .
-_:f3087062d344343288d52550a9e8d51a7b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2004/02/skos/core#note> "This property is used to explicitly denote a super-class property of a subject concept resource to an external ontology class."@en .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-<http://umbel.org/umbel#isAligned> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://umbel.org/umbel#isLikely> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f3087062d344343288d52550a9e8d51a7b1 <http://www.w3.org/2002/07/owl#onProperty> <http://umbel.org/umbel#semset> .
-<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2002/07/owl#inverseOf> <http://umbel.org/umbel#isAligned> .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f3087062d344343288d52550a9e8d51a7b7 .
-<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
-_:f3087062d344343288d52550a9e8d51a7b5 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2004/02/skos/core#prefLabel> "has semset"@en .
 <http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2004/02/skos/core#prefLabel> "subject concept"@en .
-<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2004/02/skos/core#definition> "This property is used to reify a umbel:isAligned or a umbel:linksConcept property to a calculated or estimated alignment (overlap) percentage value between the two classes (sets)."@en .
-<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
-<http://umbel.org/umbel#isAligned> <http://www.w3.org/2000/01/rdf-schema#range> <http://umbel.org/umbel#SubjectConcept> .
-<http://umbel.org/umbel#isAligned> <http://www.w3.org/2004/02/skos/core#definition> "The property umbel:isAligned is used to assert an associative link between a subject concept and a RDFS Class. This relationship can be described as a subset of individuals of the class A is equivalent to a subset of individuals of the class B. This means that there is a Subset(A) equivalent to a Subset(B) when a <A> <umbel:isAligned> <B>. So there exists a class C that is the intersection of A and B. This is the formal definition of two linked classes. This property is used to link an external ontology class to an UMBEL subject concept class when neither the owl:equilaventClass nor the rdfs:subClassOf can be applied but where umbel:isAligned applies.\n                                    \numbel:isAligned allows one to say that the subset of a class extension (set of instances) X of a class description is equivalent to the subset of a class extension Y of another class description.\n                                    \nGreat care has to be taken when using this property between two class descriptions. No owl:disjointWith property should be defined, or inferred, between the two class descriptions in order to keep the mapping consistent."@en .
-_:f3087062d344343288d52550a9e8d51a7b3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> .
-<http://umbel.org/umbel#isAbout> <http://www.w3.org/2000/01/rdf-schema#range> <http://umbel.org/umbel#SubjectConcept> .
-<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
-_:f3087062d344343288d52550a9e8d51a7b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f3087062d344343288d52550a9e8d51a7b4 .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#Semset> .
-<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2004/02/skos/core#definition> "Check the definition of umbel:isAbout for the definition of this property; linksEntity is the inverse property of isAbout."@en .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2004/02/skos/core#definition> "Subject concepts are a distinct subset of the more broadly understood concept such as used in the SKOS RDFS controlled vocabulary or formal concept analysis or the very general concepts common to some upper ontologies. Subject concepts are a special kind of concept: ones that are concrete, subject-related and non-abstract. We further contrast these with named entities, which are the real things or instances in the world that are members of these subject concept classes. The UMBEL \"backbone\" is this set of reference subject concepts."@en .
-<http://umbel.org/umbel#isLikely> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-<http://umbel.org/umbel#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://umbel.org/umbel#" .
-<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2002/07/owl#inverseOf> <http://umbel.org/umbel#isAbout> .
-<http://umbel.org/umbel#isAbout> <http://www.w3.org/2004/02/skos/core#definition> "The property umbel:isAbout is used to assert the relation between a named entity (individual) and a subject concept class.  umbel:isAbout relates the named entity (individual) to the class through the basis of its subject matter.  The relation acknowledges that the scope of the class can not be determined solely by the aggregation or extent of its associated individual entity members, and that the nature of the subject concept class may not alone bound or define the individual entity.  Named entites may be related with multiple subject concept classes.  The domain of umbel:isAbout defines its class description as the class of all individuals (owl:Thing) and its range as the class of subject concepts (umbel:SubjectConcept), thereby bounding the property's proper semantics of associating individuals to their related subject concept class(es).\n\nThis property is therefore used to create a topical assertion between an individual and a subject concept. "@en .
-<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f3087062d344343288d52550a9e8d51a7b3 .
-<http://umbel.org/umbel#isLikely> <http://www.w3.org/2004/02/skos/core#definition> "he property umbel:isLikely is used to assert an associative link between similar individuals who may or may not be identical, but are believed to be so.  This property is not intended as a general expression of similarity, but rather the likely but uncertain same identity of the two resources being related.  \n\nThis property can and should be changed if the certainty of the sameness of identity is subsequently determined.\n  \nIn general, we may not be able to assert that two individuals are the same based solely on current information on hand. However, there may be quite reasonable bases or methods that the two individuals are likely the same without being one hundred percent sure.\n\numbel:isLikely has the semantics of likely identity, but where there is some uncertainty that the two resources indeed refer to the exact same individual with the same identity.  Such uncertainty can arise when, for example, common names may be used for different individuals (e.g., John Smith).\n\nIt is appropriate to use this property when there is strong belief the two resources refer to the same individual with the same identity, but that association can not be asserted at the present time with certitude."@en .
-<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#seeLabelRelation> .
-_:f3087062d344343288d52550a9e8d51a7b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2004/02/skos/core#definition> "This property is used to reify a umbel:likely property to an likelihood percentage value between the two individuals."@en .
-_:f3087062d344343288d52550a9e8d51a7b1 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-_:f3087062d344343288d52550a9e8d51a7b2 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://umbel.org/umbel#isAbout> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://umbel.org/umbel#isAligned> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#LabelRelation> .
-<http://umbel.org/umbel#> <http://purl.org/dc/terms/title> "UMBEL - Upper-level Mapping and Binding Exchange Layer" .
-<http://umbel.org/umbel#isLikely> <http://www.w3.org/2004/02/skos/core#prefLabel> "is like"@en .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2004/02/skos/core#note> "Subject concepts are defined by: (1) Nouns or noun phrases (2) These are concrete kinds of things or ideas in the real world (3) Broad, collective, reference concepts, often hierarchically related (4) Similar to \"topics\" or \"subjects\", these other terms are used in somewhat different ways in alternative schemas (5) Collections or classes of like \"kinds\" of items (6) Quite stable in scope, breadth and structure (7) Grounded in the OpenCyc knowledge base, which is the source of its relationships and graph structure (8) Named entities are members of subject concepts (9) Called \"subject concepts\" (or sometimes as a shorthand, \"concepts\"). Similar to \"topics\" or \"subjects\", these other terms are used in somewhat different ways in specific in alternative schemas and are therefore not used interchangeably here (10) These are not abstract (truth, beauty, evil) concepts, but concrete about kinds of things or ideas in the real world; abstract concepts are often properly part of what are known as \"upper ontologies\"."@en .
-<http://umbel.org/umbel#isLikely> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
-<http://umbel.org/umbel#isAbout> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
-<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2004/02/skos/core#prefLabel> "has likelihood percentage of"@en .
-<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2004/02/skos/core#definition> "Check the definition of umbel:isAligned for the definition of this property; linksConcept is the inverse property of isAligned."@en .
-<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-_:f3087062d344343288d52550a9e8d51a7b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://umbel.org/umbel#isAligned> <http://www.w3.org/2004/02/skos/core#prefLabel> "is aligned with"@en .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2004/02/skos/core#prefLabel> "links entity"@en .
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://umbel.org/umbel#isLikely> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
-<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2004/02/skos/core#prefLabel> "links concept"@en .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "super class of"@en .
-_:f3087062d344343288d52550a9e8d51a7b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2004/02/skos/core#definition> "Link a subject concept to its Semset."@en .
-<http://umbel.org/umbel#isLikely> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
-<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
-<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
 <http://umbel.org/umbel#linksEntity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://umbel.org/umbel#SubjectConcept> .
-_:f3087062d344343288d52550a9e8d51a7b4 <http://www.w3.org/2002/07/owl#cardinality> "1" .
-_:f3087062d344343288d52550a9e8d51a7b8 <http://www.w3.org/2002/07/owl#cardinality> "1" .
-_:f3087062d344343288d52550a9e8d51a7b6 <http://www.w3.org/2002/07/owl#onProperty> <http://umbel.org/umbel#semset> .
-<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://umbel.org/umbel#SubjectConcept> .
-<http://umbel.org/umbel#> <http://xmlns.com/foaf/0.1/fundedBy> <http://zitgist.com/about/> .
-<http://umbel.org/umbel#hasSemset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2004/02/skos/core#prefLabel> "abstract concept"@en .
-<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2000/01/rdf-schema#range> <http://umbel.org/umbel#Semset> .
-<http://umbel.org/umbel#> <http://purl.org/dc/terms/description> "UMBEL (Upper-level Mapping and Binding Exchange Layer) is a lightweight ontology for relating Web content, data and named entities via the context provided by a standard set of subject concepts. It is being designed to apply to all types of data on the Web from RSS and Atom feeds to tagging to microformats and topic maps to RDF and OWL (among others). The project Web site is at http://www.umbel.org."@en .
-<http://umbel.org/umbel#superClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2004/02/skos/core#note> "Subject concepts are a special kind of concept: namely, ones that are concrete, subject-related and non-abstract. Note in other systems or ontologies, similar constructs may alternatively be called topics, subjects, concepts or perhaps interests. UMBEL has adopted the term subject concept to distinguish from these uses, which have different nuances of meaning and use, as well as to highlight the subject or topic nature of UMBEL\uFFFDs concrete concepts.\n\nAll subject concepts are a class and while they have a preferred label (using SKOS terminology), they are representative or a proxy for that concept, and not to be confused with the thing itself. Every UMBEL subject concept can be expressed and referred to by a different preferred label in alternate languages. Indeed, in a given language, different preferred labels may be swapped out without affecting the identity or use of the subject concept itself. The name for a subject concept is therefore merely a handle.\n\nSubject concepts are the core constituents to the UMBEL framework. All subject concepts are based on existing concepts in OpenCyc, the open source version of the Cyc knowledge base.\n\nAbout 21,000 of them have been distilled and are part of the UMBEL backbone."@en .
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2004/02/skos/core#prefLabel> "abstract concept"@en .
-<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-_:f3087062d344343288d52550a9e8d51a7b8 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/language> .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#AbstractConcept> .
-<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2004/02/skos/core#definition> "The property umbel:superClassOf is used as the inverse property of the property rdfs:subClassOf. If a class C' is a super-class of a class C, then all instances of C are also instances of C'."@en .
-_:f3087062d344343288d52550a9e8d51a7b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f3087062d344343288d52550a9e8d51a7b7 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-_:f3087062d344343288d52550a9e8d51a7b4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/language> .
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f3087062d344343288d52550a9e8d51a7b6 .
-<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f3087062d344343288d52550a9e8d51a7b8 .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f3087062d344343288d52550a9e8d51a7b5 .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#AbstractConcept> .
 <http://umbel.org/umbel#Semset> <http://www.w3.org/2004/02/skos/core#definition> "Semsets are semantically close terms or phrases synonomous or nearly so with the meanings of a subject concept. Semsets are akin to WordNet synsets or Cyc aliases, but can also include more contemporary jargon or slang as may be drawn from Web tagging or folksonomies. The term semset has been chosen to distinguish this consolidated meaning. Semsets may apply to either subject concepts or named entities. In the latter case, their use is closer to the sense of an alias (such as nicknames, or \"great satan\" or \"uncle sam\" for the \"United States\")."@en .
-_:f3087062d344343288d52550a9e8d51a7b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-<http://umbel.org/umbel#Semset> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#SubjectConcept> .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#isLikely> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://umbel.org/umbel#isAligned> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b6 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://umbel.org/umbel#isAbout> <http://www.w3.org/2004/02/skos/core#prefLabel> "is about"@en .
+<http://umbel.org/umbel#> <http://purl.org/dc/terms/title> "UMBEL - Upper-level Mapping and Binding Exchange Layer" .
+<http://umbel.org/umbel#superClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b5 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+_:f90b83c1b199b4f0e87a94f70449b3f03b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://umbel.org/umbel#isAligned> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
+<http://umbel.org/umbel#isAligned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2002/07/owl#inverseOf> <http://umbel.org/umbel#isAligned> .
+<http://umbel.org/umbel#> <http://purl.org/dc/terms/description> "UMBEL (Upper-level Mapping and Binding Exchange Layer) is a lightweight ontology for relating Web content, data and named entities via the context provided by a standard set of subject concepts. It is being designed to apply to all types of data on the Web from RSS and Atom feeds to tagging to microformats and topic maps to RDF and OWL (among others). The project Web site is at http://www.umbel.org."@en .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2004/02/skos/core#definition> "This property is used to reify a umbel:likely property to an likelihood percentage value between the two individuals."@en .
+<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2004/02/skos/core#definition> "Check the definition of umbel:isAligned for the definition of this property; linksConcept is the inverse property of isAligned."@en .
+_:f90b83c1b199b4f0e87a94f70449b3f03b3 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
 <http://umbel.org/umbel#linksEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://umbel.org/umbel#withAlignment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://umbel.org/umbel#isAligned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://umbel.org/umbel#isAligned> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:f3087062d344343288d52550a9e8d51a7b5 <http://www.w3.org/2002/07/owl#onProperty> <http://umbel.org/umbel#semset> .
-<http://umbel.org/umbel#isAbout> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "has alignment percentage of"@en .
-<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
-_:f3087062d344343288d52550a9e8d51a7b7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> .
-_:f3087062d344343288d52550a9e8d51a7b3 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f3087062d344343288d52550a9e8d51a7b1 .
-<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+_:f90b83c1b199b4f0e87a94f70449b3f03b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b4 <http://www.w3.org/2002/07/owl#cardinality> "1" .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2004/02/skos/core#prefLabel> "abstract concept"@en .
+<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2004/02/skos/core#definition> "The property umbel:superClassOf is used as the inverse property of the property rdfs:subClassOf. If a class C' is a super-class of a class C, then all instances of C are also instances of C'."@en .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#LabelRelation> .
+<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#seeLabelRelation> .
+<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2000/01/rdf-schema#range> <http://umbel.org/umbel#Semset> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b8 <http://www.w3.org/2002/07/owl#cardinality> "1" .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#AbstractConcept> .
+<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2004/02/skos/core#prefLabel> "has semset"@en .
+<http://umbel.org/umbel#linksConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b7 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://umbel.org/umbel#isAligned> <http://www.w3.org/2000/01/rdf-schema#range> <http://umbel.org/umbel#SubjectConcept> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b2 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
 <http://umbel.org/umbel#linksConcept> <http://www.w3.org/2000/01/rdf-schema#domain> <http://umbel.org/umbel#SubjectConcept> .
+<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "has alignment percentage of"@en .
+<http://umbel.org/umbel#isLikely> <http://www.w3.org/2004/02/skos/core#prefLabel> "is like"@en .
+<http://umbel.org/umbel#isAbout> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#isLikely> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b2 <http://www.w3.org/2002/07/owl#onProperty> <http://umbel.org/umbel#semset> .
+<http://umbel.org/umbel#> <http://purl.org/dc/terms/creator> <http://fgiasson.com/me/> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://umbel.org/umbel#isLikely> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#AbstractConcept> .
+<http://umbel.org/umbel#isLikely> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://umbel.org/umbel#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "umbel" .
+_:f90b83c1b199b4f0e87a94f70449b3f03b6 <http://www.w3.org/2002/07/owl#onProperty> <http://umbel.org/umbel#semset> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/language> .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#isAbout> <http://www.w3.org/2000/01/rdf-schema#range> <http://umbel.org/umbel#SubjectConcept> .
+<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2004/02/skos/core#prefLabel> "abstract concept"@en .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2004/02/skos/core#prefLabel> "links concept"@en .
+<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f90b83c1b199b4f0e87a94f70449b3f03b7 .
+<http://umbel.org/umbel#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://umbel.org/umbel#" .
+<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://umbel.org/umbel#SubjectConcept> .
+<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2004/02/skos/core#note> "This property is used to explicitly denote a super-class property of a subject concept resource to an external ontology class."@en .
+<http://umbel.org/umbel#isAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2004/02/skos/core#definition> "Abstract concepts are a distinct subset of the more broadly understood concept such as used in the SKOS RDFS controlled vocabulary or formal concept analysis or the very general concepts common to some upper ontologies."@en .
+<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2004/02/skos/core#prefLabel> "has likelihood percentage of"@en .
+_:f90b83c1b199b4f0e87a94f70449b3f03b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#SubjectConcept> .
-<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#Semset> .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f90b83c1b199b4f0e87a94f70449b3f03b8 .
+<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://umbel.org/umbel#isAbout> <http://www.w3.org/2004/02/skos/core#definition> "The property umbel:isAbout is used to assert the relation between a named entity (individual) and a subject concept class.  umbel:isAbout relates the named entity (individual) to the class through the basis of its subject matter.  The relation acknowledges that the scope of the class can not be determined solely by the aggregation or extent of its associated individual entity members, and that the nature of the subject concept class may not alone bound or define the individual entity.  Named entites may be related with multiple subject concept classes.  The domain of umbel:isAbout defines its class description as the class of all individuals (owl:Thing) and its range as the class of subject concepts (umbel:SubjectConcept), thereby bounding the property's proper semantics of associating individuals to their related subject concept class(es).\n\nThis property is therefore used to create a topical assertion between an individual and a subject concept. "@en .
+_:f90b83c1b199b4f0e87a94f70449b3f03b1 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://umbel.org/umbel#isAligned> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b1 <http://www.w3.org/2002/07/owl#onProperty> <http://umbel.org/umbel#semset> .
+<http://umbel.org/umbel#> <http://purl.org/dc/terms/creator> <http://mkbergman.com/me/> .
+<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://umbel.org/umbel#withLikelihood> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
+<http://umbel.org/umbel#withAlignment> <http://www.w3.org/2004/02/skos/core#definition> "This property is used to reify a umbel:isAligned or a umbel:linksConcept property to a calculated or estimated alignment (overlap) percentage value between the two classes (sets)."@en .
+<http://umbel.org/umbel#isAligned> <http://www.w3.org/2004/02/skos/core#definition> "The property umbel:isAligned is used to assert an associative link between a subject concept and a RDFS Class. This relationship can be described as a subset of individuals of the class A is equivalent to a subset of individuals of the class B. This means that there is a Subset(A) equivalent to a Subset(B) when a <A> <umbel:isAligned> <B>. So there exists a class C that is the intersection of A and B. This is the formal definition of two linked classes. This property is used to link an external ontology class to an UMBEL subject concept class when neither the owl:equilaventClass nor the rdfs:subClassOf can be applied but where umbel:isAligned applies.\n                                    \numbel:isAligned allows one to say that the subset of a class extension (set of instances) X of a class description is equivalent to the subset of a class extension Y of another class description.\n                                    \nGreat care has to be taken when using this property between two class descriptions. No owl:disjointWith property should be defined, or inferred, between the two class descriptions in order to keep the mapping consistent."@en .
+<http://umbel.org/umbel#hasSemset> <http://www.w3.org/2004/02/skos/core#definition> "Link a subject concept to its Semset."@en .
+<http://umbel.org/umbel#withAlignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#SubjectConcept> .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f90b83c1b199b4f0e87a94f70449b3f03b6 .
+<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2004/02/skos/core#prefLabel> "links entity"@en .
+<http://umbel.org/umbel#isLikely> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2002/07/owl#disjointWith> <http://umbel.org/umbel#Semset> .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2004/02/skos/core#note> "Subject concepts are a special kind of concept: namely, ones that are concrete, subject-related and non-abstract. Note in other systems or ontologies, similar constructs may alternatively be called topics, subjects, concepts or perhaps interests. UMBEL has adopted the term subject concept to distinguish from these uses, which have different nuances of meaning and use, as well as to highlight the subject or topic nature of UMBEL\uFFFDs concrete concepts.\n\nAll subject concepts are a class and while they have a preferred label (using SKOS terminology), they are representative or a proxy for that concept, and not to be confused with the thing itself. Every UMBEL subject concept can be expressed and referred to by a different preferred label in alternate languages. Indeed, in a given language, different preferred labels may be swapped out without affecting the identity or use of the subject concept itself. The name for a subject concept is therefore merely a handle.\n\nSubject concepts are the core constituents to the UMBEL framework. All subject concepts are based on existing concepts in OpenCyc, the open source version of the Cyc knowledge base.\n\nAbout 21,000 of them have been distilled and are part of the UMBEL backbone."@en .
+<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
 <http://umbel.org/umbel#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2004/02/skos/core#note> "Abstract concepts are a special kind of concept: they represent abstract or ephemeral notions such as truth, beauty, evil or justice, or are thought constructs useful to organizing or categorizing things but are not readily seen in the experiential world (such as, PartiallyTangibleThing). Abstract concepts are further contrasted with subject concepts (see their class description) and with named entities, which are the real things or instances in the world that are members of subject concept classes. \n\nAbstract concepts are included in the UMBEL concept graph for inferencing and graph connectivity purposes, but can not themselves be displayed or used as binding classes in the UMBEL \"backbone\" for external classes or instances (or named entities).\n\nAbstractConcept is disjoint with SubjectConcept."@en .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f90b83c1b199b4f0e87a94f70449b3f03b1 .
+<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f90b83c1b199b4f0e87a94f70449b3f03b3 .
+<http://umbel.org/umbel#hasSemset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b5 <http://www.w3.org/2002/07/owl#onProperty> <http://umbel.org/umbel#semset> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2002/07/owl#inverseOf> <http://umbel.org/umbel#isAbout> .
+_:f90b83c1b199b4f0e87a94f70449b3f03b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://umbel.org/umbel#Semset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f90b83c1b199b4f0e87a94f70449b3f03b4 .
+_:f90b83c1b199b4f0e87a94f70449b3f03b8 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/language> .
+<http://umbel.org/umbel#linksEntity> <http://www.w3.org/2004/02/skos/core#definition> "Check the definition of umbel:isAbout for the definition of this property; linksEntity is the inverse property of isAbout."@en .
+<http://umbel.org/umbel#isAbout> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2004/02/skos/core#definition> "Subject concepts are a distinct subset of the more broadly understood concept such as used in the SKOS RDFS controlled vocabulary or formal concept analysis or the very general concepts common to some upper ontologies. Subject concepts are a special kind of concept: ones that are concrete, subject-related and non-abstract. We further contrast these with named entities, which are the real things or instances in the world that are members of these subject concept classes. The UMBEL \"backbone\" is this set of reference subject concepts."@en .
+<http://umbel.org/umbel#isAbout> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
+_:f90b83c1b199b4f0e87a94f70449b3f03b3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#prefLabel> .
+<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "super class of"@en .
+<http://umbel.org/umbel#> <http://xmlns.com/foaf/0.1/fundedBy> <http://zitgist.com/about/> .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f90b83c1b199b4f0e87a94f70449b3f03b2 .
+<http://umbel.org/umbel#isLikely> <http://www.w3.org/2004/02/skos/core#definition> "he property umbel:isLikely is used to assert an associative link between similar individuals who may or may not be identical, but are believed to be so.  This property is not intended as a general expression of similarity, but rather the likely but uncertain same identity of the two resources being related.  \n\nThis property can and should be changed if the certainty of the sameness of identity is subsequently determined.\n  \nIn general, we may not be able to assert that two individuals are the same based solely on current information on hand. However, there may be quite reasonable bases or methods that the two individuals are likely the same without being one hundred percent sure.\n\numbel:isLikely has the semantics of likely identity, but where there is some uncertainty that the two resources indeed refer to the exact same individual with the same identity.  Such uncertainty can arise when, for example, common names may be used for different individuals (e.g., John Smith).\n\nIt is appropriate to use this property when there is strong belief the two resources refer to the same individual with the same identity, but that association can not be asserted at the present time with certitude."@en .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f90b83c1b199b4f0e87a94f70449b3f03b5 .
+<http://umbel.org/umbel#SubjectConcept> <http://www.w3.org/2004/02/skos/core#note> "Subject concepts are defined by: (1) Nouns or noun phrases (2) These are concrete kinds of things or ideas in the real world (3) Broad, collective, reference concepts, often hierarchically related (4) Similar to \"topics\" or \"subjects\", these other terms are used in somewhat different ways in alternative schemas (5) Collections or classes of like \"kinds\" of items (6) Quite stable in scope, breadth and structure (7) Grounded in the OpenCyc knowledge base, which is the source of its relationships and graph structure (8) Named entities are members of subject concepts (9) Called \"subject concepts\" (or sometimes as a shorthand, \"concepts\"). Similar to \"topics\" or \"subjects\", these other terms are used in somewhat different ways in specific in alternative schemas and are therefore not used interchangeably here (10) These are not abstract (truth, beauty, evil) concepts, but concrete about kinds of things or ideas in the real world; abstract concepts are often properly part of what are known as \"upper ontologies\"."@en .
+<http://umbel.org/umbel#superClassOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://umbel.org/umbel#AbstractConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://umbel.org/umbel#> .
+<http://umbel.org/umbel#linksConcept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "experimental - unstable" .
+<http://umbel.org/umbel#isAligned> <http://www.w3.org/2004/02/skos/core#prefLabel> "is aligned with"@en .
 

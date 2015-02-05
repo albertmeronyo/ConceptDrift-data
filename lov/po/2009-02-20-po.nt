@@ -1,632 +1,632 @@
-<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/DVB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#label> "Episode" .
-<http://purl.org/ontology/po/subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Format> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
-<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a particular broadcast to the service or outlet on which it was on.\n		Sub-property of the event:factor one.\n	" .
-<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/changeReason> "New PO release"@en-gb .
-<http://purl.org/ontology/po/DAB> <http://www.w3.org/2000/01/rdf-schema#label> "DAB" .
-<http://purl.org/ontology/po/duration> <http://www.w3.org/2000/01/rdf-schema#label> "duration" .
-<http://purl.org/ontology/po/Programme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#label> "frequency" .
-<http://purl.org/ontology/po/> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0#id> .
-<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Classification of an episode version's region corresponding to a subtitle being shown. \n    " .
-<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#label> "parent serie" .
-<http://purl.org/ontology/po/Episode> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Brand> .
-<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/slug> "po"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Format> .
-<http://purl.org/ontology/po/Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Person> .
-<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isPartOf> .
-<http://purl.org/ontology/po/Series> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2000/01/rdf-schema#label> "Outlet"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/DAB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
-<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/ShortenedVersion> .
-<http://purl.org/ontology/po/Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/format> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to an entertainer who performs a dramatic or musical work for audience" .
-<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Classification of an episode version's region corresponding to a musical track being played.\n	" .
-<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Clip> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#label> "channel" .
-<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A version holding an audio description.\n	" .
-<http://purl.org/ontology/po/position> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
-<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2000/01/rdf-schema#label> "Subtitle"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#label> "series" .
-<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#label> "parent service" .
-<http://purl.org/ontology/po/FM> <http://www.w3.org/2000/01/rdf-schema#label> "FM" .
-<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Relates a programme to a person\n    " .
-<http://purl.org/ontology/po/TV> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Services that use a television medium.\n	" .
-<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/RepeatBroadcast> .
-<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/NationalRadio> .
-<http://purl.org/ontology/po/Place> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2000/01/rdf-schema#label> "FirstBroadcast" .
-<http://purl.org/ontology/po/Genre> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
-<http://purl.org/ontology/po/Category> <http://www.w3.org/2000/01/rdf-schema#label> "Category" .
-<http://purl.org/ontology/po/Programme> <http://www.w3.org/2000/01/rdf-schema#label> "Programme"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/Subject> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Anchor point for subject taxonomies.\n    " .
-<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A brand, e.g. `Top Gear'\n	" .
-<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
-<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its news reader" .
-<http://purl.org/ontology/po/category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#label> "microsite" .
-<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Outlet of a particular service, e.g. Radio 4 LW and FM for Radio 4.\n        Outlets are services which do not have variations.\n        The identity criteria for an outlet is its timeline. \n        For example, Radio 4 LW broadcasts on Analogue Long Wave, but also on Digital Satellite.\n        It corresponds to just one outlet, as they are simulcasts.\n        The two physical channels for broadcasts correspond to po:Channel.\n    " .
-<http://purl.org/ontology/po/position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/version> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Web> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/Channel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Radio services aiming at a regional coverage.\n	" .
-<http://purl.org/ontology/po/Channel> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A physical channel on which a broadcast occurs.\n        A single outlet or service can be associated with multiple channels. \n        For example, Radio 4 LW broadcasts on Analogue Long Wave and on Digital\n        Satellite.\n    " .
-<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2000/01/rdf-schema#label> "AudioDescribedVersion" .
-<http://purl.org/ontology/po/TV> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/synopsis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/Season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/FM> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
-<http://purl.org/ontology/po/parent_service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
-<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#label> "performer" .
-<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2000/01/rdf-schema#label> "NationalRadio"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/SpeechSegment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Segment> .
-<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/FM> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/time> <http://www.w3.org/2000/01/rdf-schema#label> "time" .
-<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/DVB> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/SpeechSegment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Category> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/SpeechSegment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/parent_service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Version> .
-<http://purl.org/ontology/po/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/producer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/Segment> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Classification of an episode version's region, e.g. 'this track was played at that time'.\n	" .
-<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/track> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Season> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
-<http://purl.org/ontology/po/channel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Season> <http://www.w3.org/2000/01/rdf-schema#label> "Season"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Specifies a broadcast as being the \n		first one of a particular version.\n	 " .
-<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Genre> .
-<http://purl.org/ontology/po/> <http://purl.org/dc/elements/1.1/contributor> <http://metade.org/foaf.rdf#me> .
-<http://purl.org/ontology/po/Segment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Segment> <http://www.w3.org/2000/01/rdf-schema#label> "Segment"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#label> "person" .
-<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
-<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Broadcast> .
-<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/RegionalRadio> .
-<http://purl.org/ontology/po/Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/SpeechSegment> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Classification of an episode version's region holding speech content.\n    " .
-<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its executive producer - a producer who is not involved in any technical aspects of the making process, but who is still responsible for the overall production. Typically an executive producer handles business and legal issues" .
-<http://purl.org/ontology/po/broadcasted_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/2000/01/rdf-schema#label> "short synopsis" .
-<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
-<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/Brand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		An `original' version, the legacy version of\n		a particular episode.\n	" .
-<http://purl.org/ontology/po/performer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Format> <http://www.w3.org/2000/01/rdf-schema#label> "Format" .
-<http://purl.org/ontology/po/place> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/DVB> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Digital Video Broadcasting\n	" .
-<http://purl.org/ontology/po/Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#label> "news reader" .
-<http://purl.org/ontology/po/Brand> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Clip> .
-<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2000/01/rdf-schema#label> "Broadcast" .
-<http://purl.org/ontology/po/FM> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
-<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#label> "actor" .
-<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2000/01/rdf-schema#label> "medium synopsis" .
-<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a service to a broadcaster\n	" .
-<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a service to an outlet, e.g. Radio 4 to Radio 4 LW.\n	" .
-<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Version> .
-<http://purl.org/ontology/po/DVB> <http://www.w3.org/2000/01/rdf-schema#label> "DAB" .
-<http://purl.org/ontology/po/> <http://purl.org/dc/elements/1.1/contributor> <http://www.aelius.com/njh#me> .
-<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to one of its commentators" .
-<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a subtitle event to the corresponding text" .
-<http://purl.org/ontology/po/DVB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
-<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/ontology/po/Season> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
-<http://purl.org/ontology/po/Place> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical place" .
-<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associate an episode to a version of it.\n		Different versions of a same episode can exist (shortened version, version\n		designed for the hearing impaired, etc.). \n	" .
-<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#label> "clip" .
-<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Series> .
-<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A particular episode, e.g. `Top Gear, first episode of the first series' or the film 'A Walk in the Sun' (http://www.bbc.co.uk/programmes/b00gfzdt)\n	" .
-<http://purl.org/ontology/po/Radio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Web> .
-<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://www.bbc.co.uk/ontologies/provenance> .
-<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#label> "anchor" .
-<http://purl.org/ontology/po/Format> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Version> .
-<http://purl.org/ontology/po/Channel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Radio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Channel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/TV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Series> .
-<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a particular broadcast to the version being broadcasted.\n		Sub-property of the event:factor one.\n	" .
-<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/public> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2000/01/rdf-schema#label> "Repeat"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Clip> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/ProgrammeItem> .
-<http://purl.org/ontology/po/Subject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
-<http://purl.org/ontology/po/author> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/Channel> <http://www.w3.org/2000/01/rdf-schema#label> "Channel" .
-<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a service to a geographic location, \n		aiming at capturing what this service aims at covering.\n	" .
-<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/synopsis> .
-<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Radio> .
-<http://purl.org/ontology/po/Brand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Series> .
-<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Season> .
-<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a service to another service encapsulating it (eg. `BBC One' and `BBC One South')\n	" .
-<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a season to its constituent broadcasts" .
-<http://purl.org/ontology/po/position> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/position> <http://www.w3.org/2000/01/rdf-schema#label> "position" .
-<http://purl.org/ontology/po/Subject> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Radio> <http://www.w3.org/2000/01/rdf-schema#label> "Radio"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Web> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a brand or a series to an episode constituting it.\n	" .
-<http://purl.org/ontology/po/Place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Place> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2003/01/geo/wgs84_pos#Feature> .
-<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/microsite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2000/01/rdf-schema#label> "RegionalRadio"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a series to a series constituting it (eg. `Waking the dead').\n	" .
-<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#label> "place" .
-<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#priorVersion> <http://purl.org/ontology/po/0.4> .
-<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/FirstBroadcast> .
-<http://purl.org/ontology/po/Radio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/TV> <http://www.w3.org/2000/01/rdf-schema#label> "TV"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#label> "format" .
-<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Series> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Subtitle> .
-<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
-<http://purl.org/ontology/po/LW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#label> "location" .
-<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Associates a service to a channel, e.g. Radio 4 LW to Radio 4 LW on Analogue Long Wave.\n    " .
-<http://purl.org/ontology/po/Radio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Services that use a radio medium.\n	" .
-<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalVersion"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#label> "genre" .
-<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/MusicSegment> .
-<http://purl.org/ontology/po/position> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Web> <http://www.w3.org/2000/01/rdf-schema#label> "Web"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bbc.co.uk/ontologies/provenance/Ontology> .
-<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Series> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A series, e.g. `Top Gear, first season'\n	" .
-<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/ProgrammeItem> .
-<http://purl.org/ontology/po/DVB> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
-<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Episode> .
-<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/Brand> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Series> .
-<http://purl.org/ontology/po/broadcasted_on> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated property, left here for historical reasons" .
-<http://purl.org/ontology/po/Version> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Format> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Anchor point for format taxonomies, similar to po:Genre for genre taxonomies.\n        Instances of this concept include documentaries, talk shows, animation, etc.\n    " .
-<http://purl.org/ontology/po/Segment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Radio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
-<http://purl.org/ontology/po/Version> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/sound_format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/> <http://www.w3.org/2000/01/rdf-schema#label> "Programmes ontology" .
-<http://purl.org/ontology/po/person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Clip> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A particular clip, e.g. `Clip of Top Gear, first series'\n    " .
-<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#label> "subject" .
-<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Segment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
-<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Subject> .
-<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/NET/c4dm/timeline.owl> .
-<http://purl.org/ontology/po/time> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Broadcast> .
-<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programmes to one of its actors - a person who plays the role of a character" .
-<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/DAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#label> "broadcast on" .
-<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/director> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a brand or a series to a series constituting it.\n	" .
-<http://purl.org/ontology/po/performer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Version> <http://www.w3.org/2000/01/rdf-schema#label> "Version"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Broadcast> .
-<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Radio services aiming at a national coverage.\n	" .
-<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/based_near> .
-<http://purl.org/ontology/po/time> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/NET/c4dm/timeline.owl#Interval> .
-<http://purl.org/ontology/po/Clip> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/LW> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A version holding sign language.\n	" .
-<http://purl.org/ontology/po/FM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its producer - the manager of an event, show, or other work, usually the individual in charge of finance, personnel, and other non-artistic aspects in the development of commercials, plays, movies, and other works" .
-<http://purl.org/ontology/po/LW> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Specifies a broadcast as being a \n		repeat.\n	" .
-<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2000/01/rdf-schema#label> "ProgrammeItem"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/Web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/outlet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/> <http://purl.org/dc/elements/1.1/date> "2009/02/20 16:00:00 $" .
-<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The aspect ration of a particular version.\n	" .
-<http://purl.org/ontology/po/Series> <http://www.w3.org/2000/01/rdf-schema#label> "Series"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Radio services aiming at a local coverage.\n	" .
-<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Genre> .
-<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/commentator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/DAB> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Digital Audio Broadcasting\n	" .
-<http://purl.org/ontology/po/Clip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Service> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A broadcasting service.\n		Instances of this concept include BBC Radio Wales, BBC Radio 4, BBC News, etc.\n        A service is a collection of outlets which contain common material, but with some variations, e.g. by\n        region.\n        Hence, a service may have multiple outlets (po:Outlet), e.g. BBC Radio 4 has BBC Radio 4 LW and BBC Radio 4 FM.\n        A hierarchy of services types is defined within this ontology, e.g. radio and TV.\n        A service that is a master brand only (a service that only commissions programmes, e.g. BBC Switch) should \n        be an instance of the top-level po:Service.\n	" .
-<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/Person> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Version> .
-<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A medium synopsis of a serie, brand or episode.\n		Sub-property of po:synopsis.\n	" .
-<http://purl.org/ontology/po/IPStream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Associates a brand, a series or an episode to a clip.\n    " .
-<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/terms/> .
-<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
-<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Relates a programme to a place (e.g. `London')\n    " .
-<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		An organization responsible of some broadcasting services. \n        It can hold a set of services and outlets.\n	" .
-<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/episode> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#label> "aspect ratio" .
-<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Broadcast> .
-<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document> .
-<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
-<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Clip> <http://www.w3.org/2000/01/rdf-schema#label> "Clip" .
-<http://purl.org/ontology/po/frequency> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Web> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Services that use a Web medium.\n	" .
-<http://purl.org/ontology/po/Clip> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Brand> .
-<http://purl.org/ontology/po/Format> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Segment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a channel to its frequency" .
-<http://purl.org/ontology/po/news_reader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2000/01/rdf-schema#label> "long synopsis" .
-<http://purl.org/ontology/po/subject> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#label> "synopsis" .
-<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
-<http://purl.org/ontology/po/Outlet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
-<http://purl.org/ontology/po/> <http://purl.org/dc/elements/1.1/creator> <http://moustaki.org/foaf.rdf#moustaki> .
-<http://purl.org/ontology/po/channel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/DAB> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/contributor> .
-<http://purl.org/ontology/po/TV> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Web> .
-<http://purl.org/ontology/po/genre> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Version> .
-<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/canonicalLocation> "https://repo.dev.bbc.co.uk/services/linked-data/ontologies/domain/programmes"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A programme that can have versions, and as such can be broadcast or made available on-demand, e.g. a clip or an episode.\n    " .
-<http://purl.org/ontology/po/position> <http://www.w3.org/2000/01/rdf-schema#comment> "The position of a particular series or episode within its containing programme. This property can also be used to give the position of an interval within the containing timeline." .
-<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/NET/c4dm/event.owl> .
-<http://purl.org/ontology/po/Series> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#label> "sound format" .
-<http://purl.org/ontology/po/actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Episode> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Series> .
-<http://purl.org/ontology/po/Subject> <http://www.w3.org/2000/01/rdf-schema#label> "Subject"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		IP stream\n	" .
-<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/page> .
-<http://purl.org/ontology/po/microsite> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/service> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/TV> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Service> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its author - the person who created the content" .
-<http://purl.org/ontology/po/LW> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The AM broadcast band\n	" .
-<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/DAB> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
-<http://purl.org/ontology/po/anchor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/text> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a programme to a particular format (eg. `Animation', `Documentary', etc.).\n	" .
-<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#label> "track" .
-<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#label> "author" .
-<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/actor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/commentator> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Episode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Category> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A category provides a way of classifying a set of programmes. Such classifications\n        can be performed according to multiple dimensions and taxonomies, e.g. genre, format, places, people, subjects...\n    " .
-<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Channel> .
-<http://purl.org/ontology/po/TV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
-<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to one of its participants" .
-<http://purl.org/ontology/po/parent_series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
-<http://purl.org/ontology/po/service> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Version> .
-<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#label> "outlet" .
-<http://purl.org/ontology/po/Web> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#label> "broadcast" .
-<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#label> "broadcast of" .
-<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/OriginalVersion> .
-<http://purl.org/ontology/po/Genre> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        An anchor point for a programmes' genre taxonomy, e.g. 'Drama'/'Biographical'.\n	" .
-<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/2000/01/rdf-schema#label> "MusicSegment" .
-<http://purl.org/ontology/po/Genre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
-<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a music segment with a track, as defined in MO" .
-<http://purl.org/ontology/po/participant> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Clip> .
-<http://purl.org/ontology/po/parent_series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
-<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Outlet> .
-<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Version> .
-<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#label> "episode" .
-<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Broadcast> .
-<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Radio> .
-<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programmes to a person who is credited in it" .
-<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
-<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a programme with its masterbrand (its commissionner)" .
-<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/ProgrammeItem> .
-<http://purl.org/ontology/po/Brand> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Episode> .
-<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/location> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
-<http://purl.org/ontology/po/series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
-<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A shortened version.\n	" .
-<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2000/01/rdf-schema#label> "LocalRadio" .
-<http://purl.org/ontology/po/duration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Segment> .
-<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Broadcaster> .
-<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A short synopsis of a serie, brand or episode.\n		Sub-property of po:synopsis.\n	" .
-<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#label> "credit" .
-<http://purl.org/ontology/po/Brand> <http://www.w3.org/2000/01/rdf-schema#label> "Brand" .
-<http://purl.org/ontology/po/> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A vocabulary for programme data.\n		It defines concepts such as brands, series, episodes, broadcasts, etc.\n	" .
-<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a programme to its microsite. For example http://www.bbc.co.uk/programmes/b00fm04s and http://www.bbc.co.uk/eastenders/" .
-<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/duration> <http://www.w3.org/2000/01/rdf-schema#comment> "The duration of a version, in seconds." .
-<http://purl.org/ontology/po/person> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Broadcast> .
-<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The sound format of a particular version.\n	" .
-<http://purl.org/ontology/po/Season> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A season is a group of broadcasts.\n	" .
-<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/credit> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/service> <http://www.w3.org/2000/01/rdf-schema#label> "service" .
-<http://purl.org/ontology/po/duration> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The schedule date of a broadcast event.\n	" .
-<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a programme to a particular genre.\n	" .
-<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2000/01/rdf-schema#label> "IP stream" .
-<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Relates a programme to a subject (e.g. `easter')\n    " .
-<http://purl.org/ontology/po/Programme> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A programme, can either be a brand, a series or an episode\n	" .
-<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#label> "participant" .
-<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/episode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/clip> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Episode> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Series> .
-<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/mo/Track> .
-<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#label> "category" .
-<http://purl.org/ontology/po/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
-<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/NationalRadio> .
-<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#label> "commentator" .
-<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/synopsis> .
-<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#label> "producer" .
-<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/participant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Programme> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/credit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A broadcast event.\n		Subsumes the event concept defined in\n		the Event ontology.\n		A broadcast is associated with a service, and with a\n		particular version of an episode.\n	" .
-<http://purl.org/ontology/po/Radio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The synopsis of a serie, brand or episode.\n	" .
-<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/synopsis> .
-<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Organization> .
-<http://purl.org/ontology/po/Version> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A particular version of an episode.\n		Such versions include shortened ones, audio described ones\n		or ones that holds sign language.\n		The version is associated to a timeline.\n	" .
-<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#label> "executive producer" .
-<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#comment> "Language of the subtitles emebedded in a particular version" .
-<http://purl.org/ontology/po/Series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#comment> "A television reporter who coordinates a programme" .
-<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#label> "version" .
-<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
-<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Person> .
-<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Version> .
-<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/LW> <http://www.w3.org/2000/01/rdf-schema#label> "AM" .
-<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/po/broadcasted_on> .
-<http://purl.org/ontology/po/Subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/Version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#versionIRI> <http://purl.org/ontology/po/1.0> .
-<http://purl.org/ontology/po/service> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Channel> .
-<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2000/01/rdf-schema#label> "SignLanguage"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/category> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Brand> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
-<http://purl.org/ontology/po/Programme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Genre> <http://www.w3.org/2000/01/rdf-schema#label> "Genre" .
-<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#label> "masterbrand" .
-<http://purl.org/ontology/po/producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Category> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/outlet> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/time> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an episode's version or a version's segment with a temporal interval. This interval can be associated with a timeline, serving as an anchor for further temporal annotations, e.g. subtitles or played track" .
-<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#label> "text" .
-<http://purl.org/ontology/po/track> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/duration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
-<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#label> "broadcaster" .
-<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isPartOf> .
-<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#label> "schedule date" .
-<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/FM> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The FM broadcast band\n	" .
-<http://purl.org/ontology/po/Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/clip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#label> "subtitle language" .
-<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/version> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A long synopsis of a serie, brand or episode.\n		Sub-property of po:synopsis.\n	" .
-<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its supervisor. Generally refers to the person responsible for all audience-visible components of a program, film, or show, whereas the producer is responsible for the financial and other behind-the-scenes aspects. A director's duties might also include casting, script editing, shot selection, shot composition, and editing" .
-<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Brand> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/Subject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Relates a programme to a particular category, e.g. genre, format, place...\n    " .
-<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Brand> .
-<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A person" .
 <http://purl.org/ontology/po/frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Version> .
-<http://purl.org/ontology/po/service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2000/01/rdf-schema#label> "Broadcaster" .
-<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2000/01/rdf-schema#label> "ShortenedVersion"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/ontology/po/Genre> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/Radio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/TV> .
-<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
-<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Radio> .
-<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#label> "director" .
-<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/anchor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ontology/po/LW> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
-<http://purl.org/ontology/po/series> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#label> "executive producer" .
+<http://purl.org/ontology/po/Season> <http://www.w3.org/2000/01/rdf-schema#label> "Season"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#label> "news reader" .
+<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#label> "episode" .
+<http://purl.org/ontology/po/Subject> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Category> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/anchor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalVersion"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/slug> "po"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Channel> .
 <http://purl.org/ontology/po/service> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associate a brand, series or episode to the master brand service.\n	" .
+<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/LW> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to an entertainer who performs a dramatic or musical work for audience" .
+<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
+<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/ProgrammeItem> .
+<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
+<http://purl.org/ontology/po/series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/> <http://purl.org/dc/elements/1.1/creator> <http://moustaki.org/foaf.rdf#moustaki> .
+<http://purl.org/ontology/po/DAB> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/duration> <http://www.w3.org/2000/01/rdf-schema#comment> "The duration of a version, in seconds." .
+<http://purl.org/ontology/po/Radio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2000/01/rdf-schema#label> "LocalRadio" .
+<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2000/01/rdf-schema#label> "long synopsis" .
+<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a season to its constituent broadcasts" .
+<http://purl.org/ontology/po/Channel> <http://www.w3.org/2000/01/rdf-schema#label> "Channel" .
+<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://www.bbc.co.uk/ontologies/provenance> .
+<http://purl.org/ontology/po/Series> <http://www.w3.org/2000/01/rdf-schema#label> "Series"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A particular episode, e.g. `Top Gear, first episode of the first series' or the film 'A Walk in the Sun' (http://www.bbc.co.uk/programmes/b00gfzdt)\n	" .
+<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Place> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical place" .
+<http://purl.org/ontology/po/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
+<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/synopsis> .
+<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Outlet> .
+<http://purl.org/ontology/po/Version> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/clip> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#label> "Episode" .
+<http://purl.org/ontology/po/Genre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
+<http://purl.org/ontology/po/Programme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2000/01/rdf-schema#label> "RegionalRadio"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/LW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/Web> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2000/01/rdf-schema#label> "Broadcaster" .
+<http://purl.org/ontology/po/Category> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/LW> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Channel> .
+<http://purl.org/ontology/po/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/TV> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Person> .
+<http://purl.org/ontology/po/time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isPartOf> .
+<http://purl.org/ontology/po/series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/ontology/po/duration> <http://www.w3.org/2000/01/rdf-schema#label> "duration" .
+<http://purl.org/ontology/po/Series> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A series, e.g. `Top Gear, first season'\n	" .
+<http://purl.org/ontology/po/DVB> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Digital Video Broadcasting\n	" .
+<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Radio> .
+<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a service to a geographic location, \n		aiming at capturing what this service aims at covering.\n	" .
+<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/NET/c4dm/event.owl> .
+<http://purl.org/ontology/po/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bbc.co.uk/ontologies/provenance/Ontology> .
+<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isPartOf> .
+<http://purl.org/ontology/po/Radio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Services that use a radio medium.\n	" .
+<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/SpeechSegment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Segment> .
+<http://purl.org/ontology/po/Subject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/channel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		An `original' version, the legacy version of\n		a particular episode.\n	" .
+<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Version> .
+<http://purl.org/ontology/po/Segment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/po/time> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/NET/c4dm/timeline.owl#Interval> .
+<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#label> "clip" .
+<http://purl.org/ontology/po/> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0#id> .
+<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Outlet of a particular service, e.g. Radio 4 LW and FM for Radio 4.\n        Outlets are services which do not have variations.\n        The identity criteria for an outlet is its timeline. \n        For example, Radio 4 LW broadcasts on Analogue Long Wave, but also on Digital Satellite.\n        It corresponds to just one outlet, as they are simulcasts.\n        The two physical channels for broadcasts correspond to po:Channel.\n    " .
+<http://purl.org/ontology/po/Radio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A short synopsis of a serie, brand or episode.\n		Sub-property of po:synopsis.\n	" .
+<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Genre> .
+<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a programme to its microsite. For example http://www.bbc.co.uk/programmes/b00fm04s and http://www.bbc.co.uk/eastenders/" .
+<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
+<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#label> "genre" .
+<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The aspect ration of a particular version.\n	" .
+<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a particular broadcast to the service or outlet on which it was on.\n		Sub-property of the event:factor one.\n	" .
+<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#label> "location" .
+<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/po/broadcasted_on> .
+<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Series> .
+<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/MusicSegment> .
+<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#label> "parent serie" .
+<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Broadcast> .
+<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2000/01/rdf-schema#label> "Broadcast" .
+<http://purl.org/ontology/po/Person> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/FirstBroadcast> .
+<http://purl.org/ontology/po/Web> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/Programme> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Episode> .
+<http://purl.org/ontology/po/Category> <http://www.w3.org/2000/01/rdf-schema#label> "Category" .
+<http://purl.org/ontology/po/Version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/author> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Season> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#factor> .
+<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Radio> .
+<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Broadcaster> .
+<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Subtitle> .
+<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Relates a programme to a place (e.g. `London')\n    " .
+<http://purl.org/ontology/po/Segment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/service> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#label> "text" .
+<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/FM> <http://www.w3.org/2000/01/rdf-schema#label> "FM" .
+<http://purl.org/ontology/po/Radio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
+<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/format> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Outlet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/DAB> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Digital Audio Broadcasting\n	" .
+<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/Radio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Web> .
+<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Relates a programme to a person\n    " .
+<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#label> "producer" .
+<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a service to an outlet, e.g. Radio 4 to Radio 4 LW.\n	" .
+<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#label> "sound format" .
+<http://purl.org/ontology/po/TV> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Services that use a television medium.\n	" .
+<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
+<http://purl.org/ontology/po/participant> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#label> "subtitle language" .
+<http://purl.org/ontology/po/TV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#comment> "A television reporter who coordinates a programme" .
+<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#label> "subject" .
+<http://purl.org/ontology/po/Episode> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Brand> .
+<http://purl.org/ontology/po/Genre> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        An anchor point for a programmes' genre taxonomy, e.g. 'Drama'/'Biographical'.\n	" .
+<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Associates a service to a channel, e.g. Radio 4 LW to Radio 4 LW on Analogue Long Wave.\n    " .
+<http://purl.org/ontology/po/Service> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A person" .
+<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#label> "author" .
+<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/Series> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/sound_format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Series> .
+<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/NationalRadio> .
+<http://purl.org/ontology/po/FM> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The FM broadcast band\n	" .
+<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its news reader" .
+<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/canonicalLocation> "https://repo.dev.bbc.co.uk/services/linked-data/ontologies/domain/programmes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/broadcasted_on> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated property, left here for historical reasons" .
+<http://purl.org/ontology/po/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://purl.org/ontology/po/Genre> <http://www.w3.org/2000/01/rdf-schema#label> "Genre" .
+<http://purl.org/ontology/po/Format> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Relates a programme to a particular category, e.g. genre, format, place...\n    " .
+<http://purl.org/ontology/po/Episode> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/Clip> <http://www.w3.org/2000/01/rdf-schema#label> "Clip" .
+<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#priorVersion> <http://purl.org/ontology/po/0.4> .
 <http://purl.org/ontology/po/service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
-<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Place> .
+<http://purl.org/ontology/po/subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a brand or a series to an episode constituting it.\n	" .
+<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#label> "channel" .
+<http://purl.org/ontology/po/clip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/FM> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
+<http://purl.org/ontology/po/Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A brand, e.g. `Top Gear'\n	" .
+<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its supervisor. Generally refers to the person responsible for all audience-visible components of a program, film, or show, whereas the producer is responsible for the financial and other behind-the-scenes aspects. A director's duties might also include casting, script editing, shot selection, shot composition, and editing" .
+<http://purl.org/ontology/po/Episode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/page> .
+<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Organization> .
+<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/mo/Track> .
+<http://purl.org/ontology/po/Subject> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Anchor point for subject taxonomies.\n    " .
+<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#label> "category" .
+<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Version> .
+<http://purl.org/ontology/po/commentator> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/version> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#label> "director" .
+<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Clip> .
+<http://purl.org/ontology/po/Series> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/participant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/DAB> <http://www.w3.org/2000/01/rdf-schema#label> "DAB" .
+<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/ontology/po/parent_service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2000/01/rdf-schema#label> "ShortenedVersion"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		An organization responsible of some broadcasting services. \n        It can hold a set of services and outlets.\n	" .
+<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Version> .
+<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The synopsis of a serie, brand or episode.\n	" .
+<http://purl.org/ontology/po/Format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/ontology/po/Clip> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Episode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Format> <http://www.w3.org/2000/01/rdf-schema#label> "Format" .
+<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#label> "schedule date" .
+<http://purl.org/ontology/po/credit> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2000/01/rdf-schema#label> "ProgrammeItem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/Series> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#label> "performer" .
+<http://purl.org/ontology/po/DVB> <http://www.w3.org/2000/01/rdf-schema#label> "DAB" .
+<http://purl.org/ontology/po/SpeechSegment> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Classification of an episode version's region holding speech content.\n    " .
+<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#label> "masterbrand" .
+<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Category> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A category provides a way of classifying a set of programmes. Such classifications\n        can be performed according to multiple dimensions and taxonomies, e.g. genre, format, places, people, subjects...\n    " .
+<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a programme to a particular genre.\n	" .
+<http://purl.org/ontology/po/Programme> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A programme, can either be a brand, a series or an episode\n	" .
+<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/DVB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
+<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a music segment with a track, as defined in MO" .
+<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/FM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/NationalRadio> .
+<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/Brand> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Clip> .
+<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/TV> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Web> .
+<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Channel> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Segment> <http://www.w3.org/2000/01/rdf-schema#label> "Segment"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/SpeechSegment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2000/01/rdf-schema#label> "Repeat"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document> .
+<http://purl.org/ontology/po/category> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/version> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Version> .
+<http://purl.org/ontology/po/Place> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2003/01/geo/wgs84_pos#Feature> .
+<http://purl.org/ontology/po/producer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2000/01/rdf-schema#label> "FirstBroadcast" .
+<http://purl.org/ontology/po/Version> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A particular version of an episode.\n		Such versions include shortened ones, audio described ones\n		or ones that holds sign language.\n		The version is associated to a timeline.\n	" .
+<http://purl.org/ontology/po/Web> <http://www.w3.org/2000/01/rdf-schema#label> "Web"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Broadcast> .
+<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/public> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.org/ontology/po/Radio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Radio services aiming at a local coverage.\n	" .
+<http://purl.org/ontology/po/director> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/duration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://purl.org/ontology/po/Brand> <http://www.w3.org/2000/01/rdf-schema#label> "Brand" .
+<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#label> "broadcaster" .
+<http://purl.org/ontology/po/Service> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A broadcasting service.\n		Instances of this concept include BBC Radio Wales, BBC Radio 4, BBC News, etc.\n        A service is a collection of outlets which contain common material, but with some variations, e.g. by\n        region.\n        Hence, a service may have multiple outlets (po:Outlet), e.g. BBC Radio 4 has BBC Radio 4 LW and BBC Radio 4 FM.\n        A hierarchy of services types is defined within this ontology, e.g. radio and TV.\n        A service that is a master brand only (a service that only commissions programmes, e.g. BBC Switch) should \n        be an instance of the top-level po:Service.\n	" .
+<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Classification of an episode version's region corresponding to a musical track being played.\n	" .
+<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/> <http://purl.org/dc/elements/1.1/date> "2009/02/20 16:00:00 $" .
+<http://purl.org/ontology/po/Segment> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Classification of an episode version's region, e.g. 'this track was played at that time'.\n	" .
+<http://purl.org/ontology/po/DAB> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2000/01/rdf-schema#label> "Subtitle"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/parent_series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a programme with its masterbrand (its commissionner)" .
+<http://purl.org/ontology/po/LW> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The AM broadcast band\n	" .
+<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#label> "credit" .
+<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#label> "outlet" .
+<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
+<http://purl.org/ontology/po/Channel> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A physical channel on which a broadcast occurs.\n        A single outlet or service can be associated with multiple channels. \n        For example, Radio 4 LW broadcasts on Analogue Long Wave and on Digital\n        Satellite.\n    " .
+<http://purl.org/ontology/po/performer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#label> "participant" .
+<http://purl.org/ontology/po/FM> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/subject> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Clip> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A particular clip, e.g. `Clip of Top Gear, first series'\n    " .
+<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The sound format of a particular version.\n	" .
+<http://purl.org/ontology/po/service> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		The schedule date of a broadcast event.\n	" .
+<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/Version> <http://www.w3.org/2000/01/rdf-schema#label> "Version"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/time> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an episode's version or a version's segment with a temporal interval. This interval can be associated with a timeline, serving as an anchor for further temporal annotations, e.g. subtitles or played track" .
+<http://purl.org/ontology/po/track> <http://www.w3.org/2000/01/rdf-schema#label> "track" .
+<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/ProgrammeItem> .
+<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/Channel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/episode> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Version> .
+<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2000/01/rdf-schema#label> "AudioDescribedVersion" .
+<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Series> .
+<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A medium synopsis of a serie, brand or episode.\n		Sub-property of po:synopsis.\n	" .
+<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/sound_format> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/microsite> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to one of its participants" .
+<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Specifies a broadcast as being the \n		first one of a particular version.\n	 " .
+<http://purl.org/ontology/po/service> <http://www.w3.org/2000/01/rdf-schema#label> "service" .
+<http://purl.org/ontology/po/Person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#label> "broadcast of" .
+<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Brand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Broadcast> .
+<http://purl.org/ontology/po/episode> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
+<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/microsite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/DAB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
+<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Series> .
+<http://purl.org/ontology/po/Place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Segment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#versionIRI> <http://purl.org/ontology/po/1.0> .
+<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Associates a brand, a series or an episode to a clip.\n    " .
+<http://purl.org/ontology/po/DVB> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Place> .
+<http://purl.org/ontology/po/Genre> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/anchor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Brand> .
+<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        A programme that can have versions, and as such can be broadcast or made available on-demand, e.g. a clip or an episode.\n    " .
+<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its producer - the manager of an event, show, or other work, usually the individual in charge of finance, personnel, and other non-artistic aspects in the development of commercials, plays, movies, and other works" .
+<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/OriginalVersion> .
+<http://purl.org/ontology/po/outlet> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#label> "version" .
+<http://purl.org/ontology/po/frequency> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its executive producer - a producer who is not involved in any technical aspects of the making process, but who is still responsible for the overall production. Typically an executive producer handles business and legal issues" .
+<http://purl.org/ontology/po/Channel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A long synopsis of a serie, brand or episode.\n		Sub-property of po:synopsis.\n	" .
+<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Format> .
+<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/po/position> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/track> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a channel to its frequency" .
+<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#label> "actor" .
+<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
+<http://purl.org/ontology/po/Radio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/TV> .
+<http://purl.org/ontology/po/position> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Broadcast> .
+<http://purl.org/ontology/po/person> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/NET/c4dm/timeline.owl> .
+<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Service> .
 <http://purl.org/ontology/po/Clip> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Series> .
+<http://purl.org/ontology/po/director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#label> "broadcast" .
+<http://purl.org/ontology/po/Brand> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2000/01/rdf-schema#label> "medium synopsis" .
+<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/duration> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/RepeatBroadcast> .
+<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/RegionalRadio> .
+<http://purl.org/ontology/po/parent_series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/ontology/po/producer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/LW> <http://www.w3.org/2000/01/rdf-schema#label> "AM" .
+<http://purl.org/ontology/po/DVB> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/contributor> .
+<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
+<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#label> "series" .
+<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#label> "parent service" .
+<http://purl.org/ontology/po/Radio> <http://www.w3.org/2000/01/rdf-schema#label> "Radio"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Clip> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Brand> .
+<http://purl.org/ontology/po/Brand> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Brand> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Episode> .
+<http://purl.org/ontology/po/Genre> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/2000/01/rdf-schema#label> "MusicSegment" .
+<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#label> "synopsis" .
+<http://purl.org/ontology/po/broadcasted_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/DAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/RegionalRadio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Radio services aiming at a regional coverage.\n	" .
+<http://purl.org/ontology/po/Format> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Anchor point for format taxonomies, similar to po:Genre for genre taxonomies.\n        Instances of this concept include documentaries, talk shows, animation, etc.\n    " .
+<http://purl.org/ontology/po/Subject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
+<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/terms/> .
+<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Subject> .
+<http://purl.org/ontology/po/> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+<http://purl.org/ontology/po/position> <http://www.w3.org/2000/01/rdf-schema#label> "position" .
+<http://purl.org/ontology/po/Brand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#label> "person" .
+<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Web> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Services that use a Web medium.\n	" .
+<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Version> .
+<http://purl.org/ontology/po/synopsis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/TV> <http://www.w3.org/2000/01/rdf-schema#label> "TV"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/outlet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/text> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/LocalRadio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/news_reader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/Version> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/IPStream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/performer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/medium_synopsis> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/synopsis> .
+<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/based_near> .
+<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Broadcast> .
+<http://purl.org/ontology/po/Segment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/news_reader> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Version> .
+<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		IP stream\n	" .
+<http://purl.org/ontology/po/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/Clip> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programmes to a person who is credited in it" .
+<http://purl.org/ontology/po/parent_service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A version holding sign language.\n	" .
+<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a particular broadcast to the version being broadcasted.\n		Sub-property of the event:factor one.\n	" .
+<http://purl.org/ontology/po/category> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Classification of an episode version's region corresponding to a subtitle being shown. \n    " .
+<http://purl.org/ontology/po/performer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/frequency> <http://www.w3.org/2000/01/rdf-schema#label> "frequency" .
+<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Broadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A broadcast event.\n		Subsumes the event concept defined in\n		the Event ontology.\n		A broadcast is associated with a service, and with a\n		particular version of an episode.\n	" .
+<http://purl.org/ontology/po/Place> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/series> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a brand or a series to a series constituting it.\n	" .
+<http://purl.org/ontology/po/position> <http://www.w3.org/2000/01/rdf-schema#comment> "The position of a particular series or episode within its containing programme. This property can also be used to give the position of an interval within the containing timeline." .
+<http://purl.org/ontology/po/Subject> <http://www.w3.org/2000/01/rdf-schema#label> "Subject"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#label> "format" .
+<http://purl.org/ontology/po/location> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to one of its commentators" .
+<http://purl.org/ontology/po/masterbrand> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/broadcast_on> <http://www.w3.org/2000/01/rdf-schema#label> "broadcast on" .
+<http://purl.org/ontology/po/Programme> <http://www.w3.org/2000/01/rdf-schema#label> "Programme"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programme to its author - the person who created the content" .
+<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "\n        Relates a programme to a subject (e.g. `easter')\n    " .
+<http://purl.org/ontology/po/participant> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/Brand> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Series> .
+<http://purl.org/ontology/po/credit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/Outlet> <http://www.w3.org/2000/01/rdf-schema#label> "Outlet"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/place> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/version> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associate an episode to a version of it.\n		Different versions of a same episode can exist (shortened version, version\n		designed for the hearing impaired, etc.). \n	" .
+<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/author> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/commentator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/Format> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2000/01/rdf-schema#label> "NationalRadio"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/> <http://purl.org/dc/elements/1.1/contributor> <http://metade.org/foaf.rdf#me> .
+<http://purl.org/ontology/po/Subtitle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/po/TV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/parent_service> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a service to another service encapsulating it (eg. `BBC One' and `BBC One South')\n	" .
+<http://purl.org/ontology/po/synopsis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/broadcast_of> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/duration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Episode> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/Series> .
+<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/FirstBroadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A vocabulary for programme data.\n		It defines concepts such as brands, series, episodes, broadcasts, etc.\n	" .
+<http://purl.org/ontology/po/RepeatBroadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Specifies a broadcast as being a \n		repeat.\n	" .
+<http://purl.org/ontology/po/ProgrammeItem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/Clip> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/ProgrammeItem> .
+<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/parent_series> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a series to a series constituting it (eg. `Waking the dead').\n	" .
+<http://purl.org/ontology/po/TV> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/genre> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/director> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/format> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Relates a programme to a particular format (eg. `Animation', `Documentary', etc.).\n	" .
+<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/clip> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
+<http://purl.org/ontology/po/ShortenedVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A shortened version.\n	" .
+<http://purl.org/ontology/po/> <http://www.bbc.co.uk/ontologies/provenance/changeReason> "New PO release"@en-gb .
+<http://purl.org/ontology/po/MusicSegment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Segment> .
+<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Programme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/Broadcaster> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#label> "aspect ratio" .
+<http://purl.org/ontology/po/AudioDescribedVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A version holding an audio description.\n	" .
+<http://purl.org/ontology/po/> <http://purl.org/dc/elements/1.1/contributor> <http://www.aelius.com/njh#me> .
+<http://purl.org/ontology/po/channel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Service> .
+<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#label> "place" .
+<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Radio> .
+<http://purl.org/ontology/po/long_synopsis> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/synopsis> .
+<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Version> .
+<http://purl.org/ontology/po/Format> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Category> .
+<http://purl.org/ontology/po/position> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://purl.org/ontology/po/> <http://www.w3.org/2000/01/rdf-schema#label> "Programmes ontology" .
+<http://purl.org/ontology/po/SignedVersion> <http://www.w3.org/2000/01/rdf-schema#label> "SignLanguage"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/place> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/category> .
+<http://purl.org/ontology/po/broadcaster> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Associates a service to a broadcaster\n	" .
+<http://purl.org/ontology/po/Web> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/service> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/credit> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/track> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/actor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/NationalRadio> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		Radio services aiming at a national coverage.\n	" .
+<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/po/credit> .
+<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#label> "commentator" .
+<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2000/01/rdf-schema#label> "IP stream" .
+<http://purl.org/ontology/po/SpeechSegment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/OriginalVersion> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/ontology/po/ShortenedVersion> .
+<http://purl.org/ontology/po/Season> <http://www.w3.org/2000/01/rdf-schema#comment> "\n		A season is a group of broadcasts.\n	" .
+<http://purl.org/ontology/po/text> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a subtitle event to the corresponding text" .
+<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Version> .
+<http://purl.org/ontology/po/series> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/time> <http://www.w3.org/2000/01/rdf-schema#label> "time" .
+<http://purl.org/ontology/po/subject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Season> .
+<http://purl.org/ontology/po/outlet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/po/> .
+<http://purl.org/ontology/po/LW> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
+<http://purl.org/ontology/po/commentator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/episode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/po/genre> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/po/Genre> .
+<http://purl.org/ontology/po/aspect_ratio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/microsite> <http://www.w3.org/2000/01/rdf-schema#label> "microsite" .
+<http://purl.org/ontology/po/schedule_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/po/Broadcast> .
+<http://purl.org/ontology/po/season_broadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/executive_producer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/po/subtitle_language> <http://www.w3.org/2000/01/rdf-schema#comment> "Language of the subtitles emebedded in a particular version" .
+<http://purl.org/ontology/po/channel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/po/time> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/po/DVB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/short_synopsis> <http://www.w3.org/2000/01/rdf-schema#label> "short synopsis" .
+<http://purl.org/ontology/po/Clip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/actor> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a programmes to one of its actors - a person who plays the role of a character" .
+<http://purl.org/ontology/po/Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/ontology/po/Web> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/ontology/po/Series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/po/Clip> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Programme> .
+<http://purl.org/ontology/po/IPStream> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/po/Channel> .
+<http://purl.org/ontology/po/anchor> <http://www.w3.org/2000/01/rdf-schema#label> "anchor" .
+<http://purl.org/ontology/po/FM> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 

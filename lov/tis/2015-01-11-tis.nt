@@ -1,74 +1,74 @@
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> "Time indexed participation,TimeIndexedClassification"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl> .
-<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic pattern usable for all situations that require a temporal indexing."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation> .
-_:ub666bL20C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2002/07/owl#versionInfo> "1.0\n- Revised, and added annotations for ODP publishing\n0.1\n- Created by Aldo Gangemi"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> "To represent time indexed situations."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf> "Situation"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#label> "Time indexed situation"@en .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasUnitTest> "SELECT ?x ?e ?t\nWHERE {\n?x :forEntity ?e .\n?x :atTime ?t }"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub666bL16C27 .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> .
-<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub666bL20C27 .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> "We can represent situations that have an explicit time parameter.\nIn principle, this can be done already with the Situation pattern, but this provides a handy composition with the TimeInterval pattern."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2000/01/rdf-schema#label> "is time index for"@en .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> .
-_:ub666bL20C27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
-_:ub666bL16C27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> .
-<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> "Mustafa's address in 2005 was in Brussels"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> "At what time did a certain situation occur?,What situations occurred at a certain time?"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> .
-_:ub666bL16C27 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#comment> "A Situation that is explicitly indexed at some time for at least one entity." .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasComponent> "TimeInterval"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2000/01/rdf-schema#label> "has time indexed setting"@en .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting> .
-<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasUnitTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#label> "at time"@en .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2002/07/owl#versionInfo> "1.0\n- Revised, and added annotations for ODP publishing\n0.1\n- Created by Aldo Gangemi"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> .
 <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl#TimeInterval> .
-<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasComponent> "TimeInterval"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2002/07/owl#versionInfo> "1.1 added rdfs:isDefinedBy for all named entities"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting> .
-<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> .
+_:ub631bL16C27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#label> "Time indexed situation"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#comment> "A Situation that is explicitly indexed at some time for at least one entity." .
+_:ub631bL20C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements> "At what time did a certain situation occur?,What situations occurred at a certain time?"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#isSpecializationOf> "Situation"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation> .
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> "We can represent situations that have an explicit time parameter.\nIn principle, this can be done already with the Situation pattern, but this provides a handy composition with the TimeInterval pattern."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor> "Aldo Gangemi"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#label> "for entity"@en .
 <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
-<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:ub666bL20C27 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:ub666bL16C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub631bL20C27 .
+_:ub631bL16C27 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub631bL16C27 .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> "Mustafa's address in 2005 was in Brussels"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasUnitTest> "SELECT ?x ?e ?t\nWHERE {\n?x :forEntity ?e .\n?x :atTime ?t }"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasUnitTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> .
+_:ub631bL20C27 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/situation.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasIntent> "To represent time indexed situations."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#scenarios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:ub631bL20C27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#label> "for entity"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic pattern usable for all situations that require a temporal indexing."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#hasSetting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2000/01/rdf-schema#label> "is time index for"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#isTimeIndexFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl> .
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#TimeIndexedSituation> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/timeinterval.owl> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl> <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs> "Time indexed participation,TimeIndexedClassification"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2000/01/rdf-schema#label> "has time indexed setting"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#atTime> <http://www.w3.org/2000/01/rdf-schema#label> "at time"@en .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#hasTimeIndexedSetting> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> .
+<http://www.ontologydesignpatterns.org/cp/owl/timeindexedsituation.owl#forEntity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+_:ub631bL16C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 

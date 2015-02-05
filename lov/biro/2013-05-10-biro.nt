@@ -1,123 +1,123 @@
-_:fa963d70e5eac4e23940d24497ec0c732b16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicRecord> .
-_:fa963d70e5eac4e23940d24497ec0c732b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/biro/BibliographicRecord> .
-<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A record that uniquely describes a particular textual or data publication (or a work in preparation for publication). Each bibliographic record is a set of entities describing aspects of the referenced work, including, for example, but not restricted to: authors, title, journal, publication year, DOI, ISSN, publisher and copyright information, or, in the case of a data publication: creators, title, version, archive, publication year, DOI or other identifier). The FRBR expression of a bibliographic record is a bibliographic reference, which usually contains only a sub-set of these entities, ordered in a particular way that corresponds to the house style of the publication in which it occurs."@en .
-_:fa963d70e5eac4e23940d24497ec0c732b15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicRecord> .
-<http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/biro/BibliographicList> <http://purl.org/dc/elements/1.1/description> "A bibliographic list is composed only of items containing bibliographic references.  Moreover, it is always a realization of a bibliographic collection."@en .
-<http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#range> _:fa963d70e5eac4e23940d24497ec0c732b1 .
-<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Endeavour> .
-<http://purl.org/spar/biro/BibliographicRecord> <http://purl.org/dc/elements/1.1/description> "A bibliographic record is realized only through bibliographic references."@en .
-<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Expression> .
-<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> .
-<http://purl.org/spar/biro/references> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/frbr/core#Endeavour> .
-<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/Set> .
-<http://purl.org/spar/biro/references> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fa963d70e5eac4e23940d24497ec0c732b14 .
-<http://purl.org/spar/biro> <http://www.w3.org/2000/01/rdf-schema#comment> "BiRO, the Bibliographic Reference Ontology is an ontology for describing bibliographic records and references, and their compilation into bibliographic collections and reference lists. It forms part of SPAR, a suite of Semantic Publishing and Referencing Ontologies.  Other SPAR ontologies are described at http://purl.org/spar/."@en .
-<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#comment> "An expression of a bibliographic record in a specific format, that references a particular textual or data publication (or a work in preparation for publication). Each bibliographic reference is a list of items containing entities that describe aspects of the referenced work - for example authors, title, journal, publication year - selected from the bibliographic record.  Note that because different journal styles may require omission of elements of the bibliographic record in references included in a paper's reference list (e.g. the title, the identifier, the names of the eighth and subsequent authors), and because errors can be introduced when an author creates a bibliographic reference, the bibliographic reference to a published work may not be a complete or fully accurate expression of the information contained within the authoritative bibliographic record for that work."@en .
-<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:fa963d70e5eac4e23940d24497ec0c732b9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicRecord> .
-_:fa963d70e5eac4e23940d24497ec0c732b16 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realizationOf> .
-<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic list"@en .
-<http://purl.org/spar/biro/references> <http://www.w3.org/2000/01/rdf-schema#label> "references"@en .
-<http://purl.org/spar/biro/references> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://purl.org/spar/biro/ReferenceList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/biro/BibliographicList> .
-_:fa963d70e5eac4e23940d24497ec0c732b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/biro/ReferenceList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fa963d70e5eac4e23940d24497ec0c732b1 <http://www.w3.org/2002/07/owl#unionOf> _:fa963d70e5eac4e23940d24497ec0c732b2 .
-<http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation between a publication and the bibliographic record or bibliographic reference describing it."@en .
-_:fa963d70e5eac4e23940d24497ec0c732b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/biro/BibliographicReference> .
-<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fa963d70e5eac4e23940d24497ec0c732b12 .
-<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#comment> "An ordered list of bibliographic items, each of which contains a bibliographic reference."@en .
-<http://purl.org/spar/biro> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/co> .
-<http://purl.org/spar/biro/LibraryCatalogue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/Set> .
-<http://purl.org/spar/biro/LibraryCatalogue> <http://www.w3.org/2000/01/rdf-schema#comment> "A catalogue of the bibliographic holdings of a library."@en .
-_:fa963d70e5eac4e23940d24497ec0c732b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic record"@en .
-_:fa963d70e5eac4e23940d24497ec0c732b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:fa963d70e5eac4e23940d24497ec0c732b13 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realization> .
-<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Expression> .
 <http://purl.org/vocab/frbr/core#Endeavour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/biro/references> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe4bf0d40b3264844b805e49b9a72852db4 .
+<http://purl.org/spar/biro/ReferenceList> <http://www.w3.org/2000/01/rdf-schema#label> "reference list"@en .
+<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fe4bf0d40b3264844b805e49b9a72852db4 <http://www.w3.org/2002/07/owl#unionOf> _:fe4bf0d40b3264844b805e49b9a72852db5 .
+<http://purl.org/spar/biro/ReferenceList> <http://www.w3.org/2000/01/rdf-schema#comment> "A list used to describe the bibliography of a research paper, a journal article, a book, a book chapter or similar publication."@en .
+_:fe4bf0d40b3264844b805e49b9a72852db15 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/elementOf> .
+_:fe4bf0d40b3264844b805e49b9a72852db9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicRecord> .
+_:fe4bf0d40b3264844b805e49b9a72852db15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/biro> <http://www.w3.org/2000/01/rdf-schema#comment> "BiRO, the Bibliographic Reference Ontology is an ontology for describing bibliographic records and references, and their compilation into bibliographic collections and reference lists. It forms part of SPAR, a suite of Semantic Publishing and Referencing Ontologies.  Other SPAR ontologies are described at http://purl.org/spar/."@en .
+<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/creator> "David Shotton"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fe4bf0d40b3264844b805e49b9a72852db11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/biro/BibliographicCollection> <http://purl.org/dc/elements/1.1/description> "A bibliographic collection is composed only of items containing bibliographic records.  Moreover, it cannot be part of other bibliographic collections, and it is realized only by bibliographic lists."@en .
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/description> <https://svn.code.sf.net/p/sempublishing/code/BiRO/BiRO.png> .
+<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe4bf0d40b3264844b805e49b9a72852db14 .
 <http://purl.org/spar/biro/references> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/biro/isReferencedBy> .
-_:fa963d70e5eac4e23940d24497ec0c732b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:fa963d70e5eac4e23940d24497ec0c732b14 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/element> .
-<http://purl.org/spar/biro/BibliographicReference> <http://purl.org/dc/elements/1.1/description> "A bibliographic reference is a realization of a bibliographic record. Moreover, it can contain only items referring to elements contained by the bibliographic record it realizes."@en .
-_:fa963d70e5eac4e23940d24497ec0c732b7 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#part> .
-<http://purl.org/spar/biro> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/spar/frbr> .
+_:fe4bf0d40b3264844b805e49b9a72852db7 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#part> .
+<http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Endeavour> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-_:fa963d70e5eac4e23940d24497ec0c732b10 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realization> .
+<http://purl.org/spar/biro/references> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/frbr/core#Endeavour> .
+_:fe4bf0d40b3264844b805e49b9a72852db14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/biro/references> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:fe4bf0d40b3264844b805e49b9a72852db16 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realizationOf> .
+<http://purl.org/vocab/frbr/core#part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fe4bf0d40b3264844b805e49b9a72852db1 <http://www.w3.org/2002/07/owl#unionOf> _:fe4bf0d40b3264844b805e49b9a72852db2 .
+<http://purl.org/spar/biro> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is available at http://purl.org/spar/biro, and uses the namespace prefix biro."@en .
+<http://purl.org/spar/biro/ReferenceList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/biro/BibliographicList> .
+_:fe4bf0d40b3264844b805e49b9a72852db13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> .
+<http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#range> _:fe4bf0d40b3264844b805e49b9a72852db1 .
+<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic list"@en .
+_:fe4bf0d40b3264844b805e49b9a72852db8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fe4bf0d40b3264844b805e49b9a72852db6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/date> "2013-05-11" .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe4bf0d40b3264844b805e49b9a72852db12 .
+<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe4bf0d40b3264844b805e49b9a72852db13 .
+<http://purl.org/spar/biro/LibraryCatalogue> <http://www.w3.org/2000/01/rdf-schema#comment> "A catalogue of the bibliographic holdings of a library."@en .
+<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/List> .
+_:fe4bf0d40b3264844b805e49b9a72852db13 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realization> .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:fe4bf0d40b3264844b805e49b9a72852db2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe4bf0d40b3264844b805e49b9a72852db3 .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe4bf0d40b3264844b805e49b9a72852db11 .
+<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/rights> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en .
+_:fe4bf0d40b3264844b805e49b9a72852db5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe4bf0d40b3264844b805e49b9a72852db6 .
+<http://purl.org/spar/biro/ReferenceList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/vocab/frbr/core#realizationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe4bf0d40b3264844b805e49b9a72852db9 .
+<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe4bf0d40b3264844b805e49b9a72852db10 .
+_:fe4bf0d40b3264844b805e49b9a72852db7 <http://www.w3.org/2002/07/owl#allValuesFrom> _:fe4bf0d40b3264844b805e49b9a72852db8 .
+<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/Set> .
+<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/description> "BiRO, the Bibliographic Reference Ontology, is an ontology structured according to the FRBR model to define bibliographic records (as subclasses of frbr:Work) and bibliographic references (as subclasses of frbr:Expression), and their compilations into bibliographic collections such as library catalogues, and into bibliographic lists such as reference lists in journal articles, respectively.\n\nIt provides a logical system for relating an individual bibliographic reference, such as appears in the reference list of a published article (which may lack the title of the cited article, the full names of the listed authors, or indeed the full list of authors):\n- to the full bibliographic record for that cited article, which in addition to missing reference fields may also include the name of the publisher, and the ISSN or ISBN of the publication;\n- to collections of bibliographic records such as library catatlogues; and\n- to bibliographic lists, such as reference lists."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe4bf0d40b3264844b805e49b9a72852db7 .
+<http://purl.org/spar/biro/BibliographicRecord> <http://purl.org/dc/elements/1.1/description> "A bibliographic record is realized only through bibliographic references."@en .
+_:fe4bf0d40b3264844b805e49b9a72852db4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/biro/references> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:fe4bf0d40b3264844b805e49b9a72852db7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fe4bf0d40b3264844b805e49b9a72852db16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:fe4bf0d40b3264844b805e49b9a72852db8 <http://www.w3.org/2002/07/owl#complementOf> <http://purl.org/spar/biro/BibliographicCollection> .
+<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/spar/biro/references> <http://www.w3.org/2000/01/rdf-schema#label> "references"@en .
+<http://purl.org/vocab/frbr/core#realization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/spar/biro/LibraryCatalogue> <http://www.w3.org/2000/01/rdf-schema#label> "library catalogue"@en .
 <http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic collection"@en .
-_:fa963d70e5eac4e23940d24497ec0c732b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/List> .
-_:fa963d70e5eac4e23940d24497ec0c732b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic reference"@en .
-<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fa963d70e5eac4e23940d24497ec0c732b10 .
-_:fa963d70e5eac4e23940d24497ec0c732b10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicList> .
-<http://purl.org/vocab/frbr/core#realization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:fa963d70e5eac4e23940d24497ec0c732b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/biro/BibliographicRecord> .
-<http://purl.org/vocab/frbr/core#realizationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation between a publication and the bibliographic record or bibliographic reference describing it."@en .
+_:fe4bf0d40b3264844b805e49b9a72852db5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/biro/BibliographicRecord> .
+<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic record"@en .
 <http://purl.org/spar/biro/references> <http://www.w3.org/2000/01/rdf-schema#comment> "The relation between a bibliographic record or a bibliographic reference and the publication being referenced."@en .
-_:fa963d70e5eac4e23940d24497ec0c732b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/biro/BibliographicCollection> <http://purl.org/dc/elements/1.1/description> "A bibliographic collection is composed only of items containing bibliographic records.  Moreover, it cannot be part of other bibliographic collections, and it is realized only by bibliographic lists."@en .
-<http://purl.org/spar/biro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/description> <https://svn.code.sf.net/p/sempublishing/code/BiRO/BiRO.png> .
-<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fa963d70e5eac4e23940d24497ec0c732b13 .
-<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/description> "BiRO, the Bibliographic Reference Ontology, is an ontology structured according to the FRBR model to define bibliographic records (as subclasses of frbr:Work) and bibliographic references (as subclasses of frbr:Expression), and their compilations into bibliographic collections such as library catalogues, and into bibliographic lists such as reference lists in journal articles, respectively.\n\nIt provides a logical system for relating an individual bibliographic reference, such as appears in the reference list of a published article (which may lack the title of the cited article, the full names of the listed authors, or indeed the full list of authors):\n- to the full bibliographic record for that cited article, which in addition to missing reference fields may also include the name of the publisher, and the ISSN or ISBN of the publication;\n- to collections of bibliographic records such as library catatlogues; and\n- to bibliographic lists, such as reference lists."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/biro/ReferenceList> <http://www.w3.org/2000/01/rdf-schema#comment> "A list used to describe the bibliography of a research paper, a journal article, a book, a book chapter or similar publication."@en .
-<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fa963d70e5eac4e23940d24497ec0c732b11 .
-<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fe4bf0d40b3264844b805e49b9a72852db10 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realization> .
+_:fe4bf0d40b3264844b805e49b9a72852db10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicList> .
+_:fe4bf0d40b3264844b805e49b9a72852db6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/biro/BibliographicReference> .
+_:fe4bf0d40b3264844b805e49b9a72852db10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fe4bf0d40b3264844b805e49b9a72852db11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicReference> .
 <http://purl.org/spar/biro/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is referenced by"@en .
+_:fe4bf0d40b3264844b805e49b9a72852db16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicRecord> .
+_:fe4bf0d40b3264844b805e49b9a72852db1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fe4bf0d40b3264844b805e49b9a72852db14 <http://www.w3.org/2002/07/owl#allValuesFrom> _:fe4bf0d40b3264844b805e49b9a72852db15 .
+<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/List> .
+<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/spar/biro> <http://www.w3.org/2002/07/owl#versionInfo> "1.1.1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/biro/LibraryCatalogue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/biro/BibliographicCollection> .
+_:fe4bf0d40b3264844b805e49b9a72852db3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/vocab/frbr/core#Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fe4bf0d40b3264844b805e49b9a72852db13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicReference> .
+_:fe4bf0d40b3264844b805e49b9a72852db12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#comment> "An ordered list of bibliographic items, each of which contains a bibliographic reference."@en .
 <http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of bibliographic records, each of which references a publication (or a work in preparation for publication). Examples of bibliographic collections include a collection of the bibliographic records of all the publications that a single individual has authored, or a collection of those bibliographic records to be included in a research paper, where they are expressed as a reference list."@en .
 <http://purl.org/vocab/frbr/core#Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fa963d70e5eac4e23940d24497ec0c732b8 <http://www.w3.org/2002/07/owl#complementOf> <http://purl.org/spar/biro/BibliographicCollection> .
+<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe4bf0d40b3264844b805e49b9a72852db16 .
+<http://purl.org/spar/biro> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/co> .
+_:fe4bf0d40b3264844b805e49b9a72852db9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/biro> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/spar/frbr> .
+_:fe4bf0d40b3264844b805e49b9a72852db12 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realizationOf> .
+<http://purl.org/spar/biro/BibliographicReference> <http://purl.org/dc/elements/1.1/description> "A bibliographic reference is a realization of a bibliographic record. Moreover, it can contain only items referring to elements contained by the bibliographic record it realizes."@en .
+_:fe4bf0d40b3264844b805e49b9a72852db15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicRecord> .
+<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> .
+<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A record that uniquely describes a particular textual or data publication (or a work in preparation for publication). Each bibliographic record is a set of entities describing aspects of the referenced work, including, for example, but not restricted to: authors, title, journal, publication year, DOI, ISSN, publisher and copyright information, or, in the case of a data publication: creators, title, version, archive, publication year, DOI or other identifier). The FRBR expression of a bibliographic record is a bibliographic reference, which usually contains only a sub-set of these entities, ordered in a particular way that corresponds to the house style of the publication in which it occurs."@en .
+_:fe4bf0d40b3264844b805e49b9a72852db14 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/element> .
+_:fe4bf0d40b3264844b805e49b9a72852db9 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/element> .
 <http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/title> "BiRO, the Bibliographic Reference Ontology"@en .
-_:fa963d70e5eac4e23940d24497ec0c732b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fa963d70e5eac4e23940d24497ec0c732b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/biro/LibraryCatalogue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/biro/BibliographicCollection> .
-_:fa963d70e5eac4e23940d24497ec0c732b14 <http://www.w3.org/2002/07/owl#allValuesFrom> _:fa963d70e5eac4e23940d24497ec0c732b15 .
-_:fa963d70e5eac4e23940d24497ec0c732b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fa963d70e5eac4e23940d24497ec0c732b6 .
-_:fa963d70e5eac4e23940d24497ec0c732b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:fa963d70e5eac4e23940d24497ec0c732b11 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/element> .
-_:fa963d70e5eac4e23940d24497ec0c732b4 <http://www.w3.org/2002/07/owl#unionOf> _:fa963d70e5eac4e23940d24497ec0c732b5 .
-<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> .
-_:fa963d70e5eac4e23940d24497ec0c732b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/biro/BibliographicReference> .
-<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fa963d70e5eac4e23940d24497ec0c732b16 .
-<http://purl.org/spar/biro> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is available at http://purl.org/spar/biro, and uses the namespace prefix biro."@en .
-_:fa963d70e5eac4e23940d24497ec0c732b13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicReference> .
-_:fa963d70e5eac4e23940d24497ec0c732b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:fa963d70e5eac4e23940d24497ec0c732b12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicCollection> .
-_:fa963d70e5eac4e23940d24497ec0c732b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fa963d70e5eac4e23940d24497ec0c732b3 .
-<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/date> "2013-05-11" .
-_:fa963d70e5eac4e23940d24497ec0c732b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:fa963d70e5eac4e23940d24497ec0c732b11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicReference> .
-<http://purl.org/vocab/frbr/core#Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fa963d70e5eac4e23940d24497ec0c732b7 <http://www.w3.org/2002/07/owl#allValuesFrom> _:fa963d70e5eac4e23940d24497ec0c732b8 .
+<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic reference"@en .
+_:fe4bf0d40b3264844b805e49b9a72852db11 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/element> .
+_:fe4bf0d40b3264844b805e49b9a72852db12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/biro/BibliographicCollection> .
+<http://purl.org/spar/biro/BibliographicList> <http://purl.org/dc/elements/1.1/description> "A bibliographic list is composed only of items containing bibliographic references.  Moreover, it is always a realization of a bibliographic collection."@en .
+_:fe4bf0d40b3264844b805e49b9a72852db2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/biro/BibliographicRecord> .
+<http://purl.org/spar/biro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fa963d70e5eac4e23940d24497ec0c732b9 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/element> .
-<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/rights> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en .
-<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/biro> <http://purl.org/dc/elements/1.1/creator> "David Shotton"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa963d70e5eac4e23940d24497ec0c732b15 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/elementOf> .
-_:fa963d70e5eac4e23940d24497ec0c732b12 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realizationOf> .
-_:fa963d70e5eac4e23940d24497ec0c732b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/vocab/frbr/core#part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:fa963d70e5eac4e23940d24497ec0c732b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/biro> <http://www.w3.org/2002/07/owl#versionInfo> "1.1.1"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/spar/biro/BibliographicList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/List> .
-<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fa963d70e5eac4e23940d24497ec0c732b9 .
-<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fa963d70e5eac4e23940d24497ec0c732b7 .
-<http://purl.org/spar/biro/ReferenceList> <http://www.w3.org/2000/01/rdf-schema#label> "reference list"@en .
-<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/biro/references> <http://www.w3.org/2000/01/rdf-schema#domain> _:fa963d70e5eac4e23940d24497ec0c732b4 .
+<http://purl.org/spar/biro/LibraryCatalogue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/2000/01/rdf-schema#comment> "An expression of a bibliographic record in a specific format, that references a particular textual or data publication (or a work in preparation for publication). Each bibliographic reference is a list of items containing entities that describe aspects of the referenced work - for example authors, title, journal, publication year - selected from the bibliographic record.  Note that because different journal styles may require omission of elements of the bibliographic record in references included in a paper's reference list (e.g. the title, the identifier, the names of the eighth and subsequent authors), and because errors can be introduced when an author creates a bibliographic reference, the bibliographic reference to a published work may not be a complete or fully accurate expression of the information contained within the authoritative bibliographic record for that work."@en .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:fe4bf0d40b3264844b805e49b9a72852db3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/biro/BibliographicReference> .
+<http://purl.org/spar/biro/BibliographicCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/Set> .
 

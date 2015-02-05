@@ -1,443 +1,443 @@
-<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b21 .
-<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestGenerator> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "rut" .
-<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "the rut:ResultStatus of the dependencyFrom result condition that triggers this dependency"@en .
-<http://rdfunit.aksw.org/ns/core#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
-<http://rdfunit.aksw.org/ns/core#Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that holds the aggregated results of a single test execution"@en .
-<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b16 .
-<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/2000/01/rdf-schema#label> "dependencyCondition"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b26 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#testCase> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b27 .
-<http://rdfunit.aksw.org/ns/core#parameterConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
-<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b19 .
-<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCase> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#EnrichedSchema> <http://www.w3.org/2000/01/rdf-schema#label> "EnrichedSchema"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b20 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlWhere"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/2000/01/rdf-schema#label> "resultPrevalence"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Projects/RDFUnit.html> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b33 <http://www.w3.org/2002/07/owl#onProperty> <http://spinrdf.org/spin#violationRoot> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b29 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#resultPrevalence> .
-<http://rdfunit.aksw.org/ns/core#Operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b25 .
-<http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Pattern> .
-<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://rdfunit.aksw.org/ns/core#ParameterConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/2000/01/rdf-schema#label> "errorSource"@en .
-<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2002/07/owl#versionInfo> "0.3" .
-<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestCase> .
-<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/2000/01/rdf-schema#label> "binding"@en .
-<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/2000/01/rdf-schema#comment> "'true' executes the dependecnyTo TestCase while false does not"@en .
-<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlPrevalence"@en .
-<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#parameterConstraint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Parameter> .
-<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b30 .
-<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b2 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlWherePattern> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b14 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#references> .
-<http://rdfunit.aksw.org/ns/core#Operator> <http://www.w3.org/2000/01/rdf-schema#comment> "The parameter can be an operator."@en .
-<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b1 .
-<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/2000/01/rdf-schema#comment> "We denote the exact problem of the error"@en .
-<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b23 .
-<http://rdfunit.aksw.org/ns/core#ResultStatusError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#resultAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "resultAnnotation"@en .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Jens Lehmann"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#parameter> <http://www.w3.org/2000/01/rdf-schema#comment> "links a Pattern with a list of pattern parameters"@en .
-<http://rdfunit.aksw.org/ns/core#ManuallyGenerated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://rdfunit.aksw.org/ns/core#Class> <http://www.w3.org/2000/01/rdf-schema#comment> "The parameter is restricted to a Class."@en .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/2000/01/rdf-schema#label> "errorType"@en .
-<http://rdfunit.aksw.org/ns/core#ResultStatusTimeout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/2000/01/rdf-schema#label> "dependencyExecute"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b9 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#basedOnPattern> .
-<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCase> .
-<http://rdfunit.aksw.org/ns/core#ManuallyGenerated> <http://www.w3.org/2000/01/rdf-schema#comment> "ManuallyGenerated: This test was created manually"@en .
-<http://rdfunit.aksw.org/ns/core#Application> <http://www.w3.org/2000/01/rdf-schema#comment> "Application: When the tests are specific to an application only"@en .
-<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/2000/01/rdf-schema#comment> "the test case that depends on another test case"@en .
-<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Result> .
-<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b4 .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b27 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#resultStatus> .
-<http://rdfunit.aksw.org/ns/core#Operator> <http://www.w3.org/2000/01/rdf-schema#label> "Operator"@en .
-<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdfunit.aksw.org/ns/core.ttl> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#startedAtTime> .
-<http://rdfunit.aksw.org/ns/core#resultStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "holds the result type. One of Success, Fail, Timeout, Error"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b7 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#constraintPattern> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/2000/01/rdf-schema#comment> "applies to describes the ontology used for terms in the Test."@en .
-<http://rdfunit.aksw.org/ns/core#ResultStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "TestCaseResult"@en .
-<http://rdfunit.aksw.org/ns/core#None> <http://www.w3.org/2000/01/rdf-schema#comment> "The parameter can be anything, even a free variable (?var)"@en .
-<http://rdfunit.aksw.org/ns/core#AutoGenerated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b12 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#Class> <http://www.w3.org/2000/01/rdf-schema#label> "Class"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> .
-<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ManualTestCase> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b10 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b7 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that holds the status of a single test execution"@en .
-<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#label> "PatternBasedTestCase"@en .
-<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b33 .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b28 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "RLOGTestCaseResult"@en .
-<http://rdfunit.aksw.org/ns/core#TestAppliesTo> <http://www.w3.org/2000/01/rdf-schema#label> "TestAppliesTo"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b13 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#source> .
-<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestCase> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b28 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#resultCount> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#hadMember> .
-<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Pattern> .
-<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests run in a TestExecution"@en .
-<http://rdfunit.aksw.org/ns/core#references> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCase> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b14 .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
-<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests that raised an error in a TestExecution"@en .
-<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A test case where the SPARQL is defined manually"@en .
-<http://rdfunit.aksw.org/ns/core#basedOnPattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#Pattern> .
-<http://rdfunit.aksw.org/ns/core#ResultAnnotation> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to further annotate an ExtendedTestCaseResult."@en .
-<http://rdfunit.aksw.org/ns/core#testCaseLogLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCase> .
-<http://rdfunit.aksw.org/ns/core#EnrichedSchema> <http://www.w3.org/2000/01/rdf-schema#comment> "EnrichedSchema: When the tests applies to an ontology / vocabulary enriched with external (semi-)automatic approaches"@en .
-<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlGenerator"@en .
-<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPARQL query used to instantiate test cases based on patterns"@en .
-<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b26 .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b29 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#testCaseLogLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "the rlog:Level this case is associated with."@en .
-<http://rdfunit.aksw.org/ns/core#ResultStatusSuccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that holds a single result of a test execution. Each test case links to the TestCase (rut:testCase) it was originated from and a TestExecution (prov:wasGeneratedBy)"@en .
-<http://rdfunit.aksw.org/ns/core#annotationProperty> <http://www.w3.org/2000/01/rdf-schema#label> "annotationProperty"@en .
-<http://rdfunit.aksw.org/ns/core#parameter> <http://www.w3.org/2000/01/rdf-schema#label> "parameter"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b19 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlWhere> .
-<http://rdfunit.aksw.org/ns/core#testCase> <http://www.w3.org/2000/01/rdf-schema#comment> "points to a test case" .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b10 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/description> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b13 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#bindingValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests that succedded in a TestExecution"@en .
-<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/2000/01/rdf-schema#label> "testsRun"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b30 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#bindingValue> <http://www.w3.org/2000/01/rdf-schema#comment> "the value of a Binding"@en .
-<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/2000/01/rdf-schema#label> "dependencyTo"@en .
-<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> .
-<http://rdfunit.aksw.org/ns/core#ResultStatusFail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
-<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/2000/01/rdf-schema#comment> "The WHERE part of sparql pattern  query with placeholders (%%XYZ%%) for parameters"@en .
-<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#TestAppliesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b6 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/2000/01/rdf-schema#comment> "generated specifies the way the test was constructed."@en .
-<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/date> "2013-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/2000/01/rdf-schema#label> "testsSucceeded"@en .
-<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/vocab/vann/changes> <https://github.com/AKSW/RDFUnit/commits/master/ns> .
-<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/2000/01/rdf-schema#label> "errorPropertyContext"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b15 .
-<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/2000/01/rdf-schema#label> "testSuite"@en .
-<http://rdfunit.aksw.org/ns/core#Application> <http://www.w3.org/2000/01/rdf-schema#label> "Application"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b17 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#parameter> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b16 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b6 .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b23 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#endedAtTime> .
-<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#constraintPattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Parameter> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b15 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#basedOnPattern> .
-<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#label> "ManualTestCase"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#label> "Property"@en .
-<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/2000/01/rdf-schema#label> "dependencyFrom"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/2000/01/rdf-schema#comment> "defines a binding between a pattern parameter and a value"@en .
-<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to annotate an error with a classification. This classification is meant to be of higher level"@en .
-<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b11 .
-<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#TestCaseResult> .
-<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b28 .
-<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b7 .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCaseDependency> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b21 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b31 <http://www.w3.org/2002/07/owl#onProperty> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#message> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b18 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Collection> .
-<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#annotationProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
-<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://rdfunit.aksw.org/ns/core#ResultStatusError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
-<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "ExtendedTestCaseResult"@en .
-<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> .
-<http://rdfunit.aksw.org/ns/core#source> <http://www.w3.org/2000/01/rdf-schema#label> "source"@en .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/description> "The RDFUnit ontology describes concepts used in RDFUnit, a test driven data-debugging framework that can run automatically generated (based on a schema) and manually generated test cases against an endpoint."@en .
-<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#label> "TestExecution"@en .
-<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#TestCase> .
-<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#parameter> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#Parameter> .
-<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#Binding> .
-<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b25 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Pattern"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb23 .
+<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb10 .
+_:f23959a96642f471aa3f8e81db1a16c5eb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#Entry> .
-<http://rdfunit.aksw.org/ns/core#ResultStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "TestCaseResult type"@en .
-<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A superclass of TestCases. Defines properties all test cases can have but concrete implementation occurs on subclasses."@en .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/terms/title> "Test-Driven Data Debugging Ontology"@en .
-<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2000/01/rdf-schema#comment> "The RDFUnit ontology describes concepts used in RDFUnit, a test driven data-debugging framework that can run automatically generated (based on a schema) and manually generated test cases against an endpoint."@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> .
-<http://rdfunit.aksw.org/ns/core#None> <http://www.w3.org/2000/01/rdf-schema#label> "None"@en .
-<http://rdfunit.aksw.org/ns/core#bindingValue> <http://www.w3.org/2000/01/rdf-schema#label> "bindingValue"@en .
-<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> .
-<http://rdfunit.aksw.org/ns/core#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#ResultAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "ResultAnnotation"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#annotationValue> <http://www.w3.org/2000/01/rdf-schema#label> "annotationValue"@en .
-<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b18 .
-<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> .
-<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b3 .
-<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#ConstraintViolation> .
-<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> .
-<http://rdfunit.aksw.org/ns/core#ManuallyGenerated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestGenerationType> .
-<http://rdfunit.aksw.org/ns/core#basedOnPattern> <http://www.w3.org/2000/01/rdf-schema#label> "basedOnPattern"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b18 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#bindingValue> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#ParameterConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "ParameterConstraint"@en .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://rdfunit.aksw.org/ns/core#" .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#Operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
-<http://rdfunit.aksw.org/ns/core#None> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
-<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Here we attach properties from the resource to provide the error context (i.e. the death date when the error is in the birth date)."@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b14 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#resultStatus> <http://www.w3.org/2000/01/rdf-schema#label> "resultStatus"@en .
-<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
-<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCaseDependency> .
-<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#TestCase> .
-<http://rdfunit.aksw.org/ns/core#constraintPattern> <http://www.w3.org/2000/01/rdf-schema#label> "constraintPattern"@en .
-<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/2000/01/rdf-schema#label> "testsTimeout"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#TestGenerationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#AutoGenerated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestGenerationType> .
-<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/2000/01/rdf-schema#comment> "The error results of a test execution. -1 means there was a timeout and -2 an error."@en .
-<http://rdfunit.aksw.org/ns/core#ResultStatusFail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/2000/01/rdf-schema#label> "Binding"@en .
-<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlWherePattern"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "AggregatedTestCaseResult"@en .
-<http://rdfunit.aksw.org/ns/core#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b3 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> .
-<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#ResultStatusTimeout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
-<http://rdfunit.aksw.org/ns/core#Schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
-<http://rdfunit.aksw.org/ns/core#testCase> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestCase> .
-<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPARQL query for prevalence"@en .
-<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestGenerationType> .
-<http://rdfunit.aksw.org/ns/core#TestGenerator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b9 .
-<http://rdfunit.aksw.org/ns/core#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
-<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#references> <http://www.w3.org/2000/01/rdf-schema#comment> "references specifies the Classes and Properties involved in the described test case."@en .
-<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#basedOnPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/2000/01/rdf-schema#comment> "With this property we point to the error source (if known beforehand)"@en .
-<http://rdfunit.aksw.org/ns/core#EnrichedSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/2000/01/rdf-schema#comment> "A binding between a pattern parameter and a value"@en .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/rights> "This ontology is licensed under Apache 2.0 (http://www.apache.org/licenses/LICENSE-2.0) and CC-BY (http://creativecommons.org/licenses/by/3.0/)"@en .
-<http://rdfunit.aksw.org/ns/core#references> <http://www.w3.org/2000/01/rdf-schema#label> "references"@en .
-<http://rdfunit.aksw.org/ns/core#constraintPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
-<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://rdfunit.aksw.org/ns/core#ResultStatusTimeout> <http://www.w3.org/2000/01/rdf-schema#label> "ResultStatusTimeout"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b6 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#parameterConstraint> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b11 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/issued> "2013-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Dimitris Kontokostas"@en .
-<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/2000/01/rdf-schema#label> "generated"@en .
-<http://rdfunit.aksw.org/ns/core#annotationProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/2000/01/rdf-schema#label> "Parameter"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b32 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b13 .
-<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "StatusTestCaseResult"@en .
-<http://rdfunit.aksw.org/ns/core#EnrichedSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
-<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/2000/01/rdf-schema#label> "testsFailed"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#ResultStatusError> <http://www.w3.org/2000/01/rdf-schema#label> "ResultStatusError"@en .
-<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b10 .
-<http://rdfunit.aksw.org/ns/core#source> <http://www.w3.org/2000/01/rdf-schema#comment> "source is a URI that points to a general Source, which can be a schema, a dataset or an application"@en .
-<http://rdfunit.aksw.org/ns/core#ResultStatusSuccess> <http://www.w3.org/2000/01/rdf-schema#label> "ResultStatusSuccess"@en .
-<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/2000/01/rdf-schema#label> "resultCount"@en .
-<http://rdfunit.aksw.org/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource"@en .
-<http://rdfunit.aksw.org/ns/core#testCase> <http://www.w3.org/2000/01/rdf-schema#label> "testCase"@en .
-<http://rdfunit.aksw.org/ns/core#bindingValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Binding> .
-<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/2000/01/rdf-schema#comment> "A list of test cases. Use prov:hadMember for test case listing"@en .
-<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b20 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlPrevalence> .
-<http://rdfunit.aksw.org/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "The pattern can be a resource."@en .
-<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b17 .
-<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b24 .
-<http://rdfunit.aksw.org/ns/core#Schema> <http://www.w3.org/2000/01/rdf-schema#label> "Schema"@en .
-<http://rdfunit.aksw.org/ns/core#TestGenerator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b8 .
-<http://rdfunit.aksw.org/ns/core#resultAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b22 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#TestGenerationType> <http://www.w3.org/2000/01/rdf-schema#label> "TestGenerationType"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ManualTestCase> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b17 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#TestCaseResult> .
-<http://rdfunit.aksw.org/ns/core#annotationValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Patrick Westphal"@en .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/terms/license> <http://www.apache.org/licenses/LICENSE-2.0> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#wasGeneratedBy> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b4 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#parameter> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b16 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#binding> .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "S\u00F6ren Auer"@en .
-<http://rdfunit.aksw.org/ns/core#Schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://rdfunit.aksw.org/ns/core#annotationValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ResultAnnotation> .
-<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/2000/01/rdf-schema#label> "appliesTo"@en .
-<http://rdfunit.aksw.org/ns/core#ResultStatus> <http://www.w3.org/2000/01/rdf-schema#label> "ResultStatus"@en .
-<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests that failed in a TestExecution"@en .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Sebastian Hellmann"@en .
-<http://rdfunit.aksw.org/ns/core#testCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#TestCaseDependency> <http://www.w3.org/2000/01/rdf-schema#label> "TestCaseDependency"@en .
-<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
-<http://rdfunit.aksw.org/ns/core#testCaseLogLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2000/01/rdf-schema#label> "Test-Driven Data Debugging Ontology"@en .
-<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b29 .
-<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "the test case we depends upon"@en .
-<http://rdfunit.aksw.org/ns/core#resultStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b33 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#annotationProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ResultAnnotation> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests that timeout in a TestExecution"@en .
-<http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlPrevalencePattern"@en .
-<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#references> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b5 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#label> "TestCase"@en .
-<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/2000/01/rdf-schema#label> "TestSuite"@en .
-<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCaseDependency> .
-<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b2 .
-<http://rdfunit.aksw.org/ns/core#parameterConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "parameterConstraint"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b8 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlGenerator> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b12 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#generated> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b5 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/identifier> .
-<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCaseDependency> .
-<http://rdfunit.aksw.org/ns/core#parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#TestGenerator> <http://www.w3.org/2000/01/rdf-schema#label> "TestGenerator"@en .
-<http://rdfunit.aksw.org/ns/core#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Dataset: When the tests applies to a dataset only (i.e. a SPARQL Endpoint)"@en .
-<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b5 .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b30 <http://www.w3.org/2002/07/owl#onProperty> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#resource> .
-<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Result> .
-<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b12 .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b1 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/identifier> .
-<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/2000/01/rdf-schema#comment> "The WHERE part of a SPARQL query. Must be enclosed in brackets {} and use the following variables: ?resource, ?message.\n        ?resource is URI the constraint violation occurs in and ?message is a logging message."@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb3 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> .
+_:f23959a96642f471aa3f8e81db1a16c5eb22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#startedAtTime> .
+<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/2000/01/rdf-schema#label> "resultPrevalence"@en .
 <http://rdfunit.aksw.org/ns/core#ResultStatusFail> <http://www.w3.org/2000/01/rdf-schema#label> "ResultStatusFail"@en .
-<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/2000/01/rdf-schema#comment> "The prevalence result of a test execution. -1 means there was a timeout and -2 an error."@en .
+<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Dimitris Kontokostas"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#None> <http://www.w3.org/2000/01/rdf-schema#comment> "The parameter can be anything, even a free variable (?var)"@en .
+<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/2000/01/rdf-schema#comment> "generated specifies the way the test was constructed."@en .
+<http://rdfunit.aksw.org/ns/core#testCase> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestCase> .
+<http://rdfunit.aksw.org/ns/core#TestAppliesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#ResultStatusTimeout> <http://www.w3.org/2000/01/rdf-schema#label> "ResultStatusTimeout"@en .
+<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/2000/01/rdf-schema#comment> "We denote the exact problem of the error"@en .
+<http://rdfunit.aksw.org/ns/core#references> <http://www.w3.org/2000/01/rdf-schema#comment> "references specifies the Classes and Properties involved in the described test case."@en .
+<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://aksw.org/Projects/RDFUnit.html> .
+<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "the test case we depends upon"@en .
+<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to annotate an error with a classification. This classification is meant to be of higher level"@en .
+<http://rdfunit.aksw.org/ns/core#TestCaseDependency> <http://www.w3.org/2000/01/rdf-schema#label> "TestCaseDependency"@en .
+<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb31 .
+<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#basedOnPattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#Pattern> .
+<http://rdfunit.aksw.org/ns/core#resultStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "holds the result type. One of Success, Fail, Timeout, Error"@en .
+<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
 <http://rdfunit.aksw.org/ns/core#TestGenerator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#TestCaseDependency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b32 .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b24 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#None> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/2000/01/rdf-schema#label> "testsError"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b24 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#source> .
-<http://rdfunit.aksw.org/ns/core#testCaseLogLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#Level> .
-<http://rdfunit.aksw.org/ns/core#Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#parameterConstraint> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
-<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://rdfunit.aksw.org/ns/core#resultStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
-<http://rdfunit.aksw.org/ns/core#AutoGenerated> <http://www.w3.org/2000/01/rdf-schema#label> "AutoGenerated"@en .
-<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestSuite> .
-<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/2000/01/rdf-schema#comment> "links an ontology to TestSuite for validating data adhering to that ontology"@en .
-<http://rdfunit.aksw.org/ns/core#ResultStatusSuccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
-<http://rdfunit.aksw.org/ns/core#ManuallyGenerated> <http://www.w3.org/2000/01/rdf-schema#label> "ManuallyGenerated"@en .
-<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b22 .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Roland Cornelissen"@en .
 <http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/modified> "2014-01-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/2000/01/rdf-schema#label> "errorClassification"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b15 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b32 <http://www.w3.org/2002/07/owl#onProperty> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#level> .
-<http://rdfunit.aksw.org/ns/core#resultAnnotation> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#ResultAnnotation> .
-<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://rdfunit.aksw.org/ns/core#Schema> <http://www.w3.org/2000/01/rdf-schema#label> "Schema"@en .
+<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> .
+<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests that timeout in a TestExecution"@en .
+<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f23959a96642f471aa3f8e81db1a16c5eb3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestGenerator> .
+<http://rdfunit.aksw.org/ns/core#ResultStatusSuccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
+<http://rdfunit.aksw.org/ns/core#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
+<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#label> "TestCase"@en .
+<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
+<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestGenerationType> .
+_:f23959a96642f471aa3f8e81db1a16c5eb16 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb33 .
+<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPARQL query for prevalence"@en .
+<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb28 .
+<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/2000/01/rdf-schema#label> "dependencyCondition"@en .
+<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f23959a96642f471aa3f8e81db1a16c5eb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/2000/01/rdf-schema#comment> "'true' executes the dependecnyTo TestCase while false does not"@en .
+<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/2000/01/rdf-schema#label> "binding"@en .
+<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/2000/01/rdf-schema#label> "Parameter"@en .
+<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#parameterConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "parameterConstraint"@en .
+<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlWherePattern"@en .
+<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Collection> .
+<http://rdfunit.aksw.org/ns/core#testCaseLogLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCase> .
+<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#TestCaseDependency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f23959a96642f471aa3f8e81db1a16c5eb27 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#resultStatus> .
+<http://rdfunit.aksw.org/ns/core#AutoGenerated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestGenerationType> .
+<http://rdfunit.aksw.org/ns/core#None> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/terms/license> <http://www.apache.org/licenses/LICENSE-2.0> .
+_:f23959a96642f471aa3f8e81db1a16c5eb10 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/description> .
+<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#TestCaseResult> .
+_:f23959a96642f471aa3f8e81db1a16c5eb5 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#resultStatus> <http://www.w3.org/2000/01/rdf-schema#label> "resultStatus"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb18 .
+<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb3 .
+<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/2000/01/rdf-schema#label> "Binding"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Roland Cornelissen"@en .
+<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb6 .
+<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> .
+_:f23959a96642f471aa3f8e81db1a16c5eb14 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#references> .
+<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/2000/01/rdf-schema#label> "dependencyExecute"@en .
+<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/2000/01/rdf-schema#label> "errorSource"@en .
+<http://rdfunit.aksw.org/ns/core#AutoGenerated> <http://www.w3.org/2000/01/rdf-schema#comment> "AutoGenerated: This test was created automatically"@en .
+<http://rdfunit.aksw.org/ns/core#constraintPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdfunit.aksw.org/ns/core#parameterConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/2000/01/rdf-schema#comment> "The prevalence result of a test execution. -1 means there was a timeout and -2 an error."@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://rdfunit.aksw.org/ns/core#testCaseLogLevel> <http://www.w3.org/2000/01/rdf-schema#label> "testCaseLogLevel"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b11 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#appliesTo> .
-<http://rdfunit.aksw.org/ns/core#constraintPattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://rdfunit.aksw.org/ns/core#basedOnPattern> <http://www.w3.org/2000/01/rdf-schema#comment> "basedOnPattern contains the Data Quality Test Pattern that is instantiated in the described Test."@en .
-<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b31 .
-<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A test case that is based on a Pattern"@en .
-<http://rdfunit.aksw.org/ns/core#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
+<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> .
+<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/2000/01/rdf-schema#comment> "The error results of a test execution. -1 means there was a timeout and -2 an error."@en .
+<http://rdfunit.aksw.org/ns/core#ResultAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "ResultAnnotation"@en .
+<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "AggregatedTestCaseResult"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb26 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#testCase> .
+_:f23959a96642f471aa3f8e81db1a16c5eb6 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#references> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCase> .
+<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestCase> .
+<http://rdfunit.aksw.org/ns/core#testCase> <http://www.w3.org/2000/01/rdf-schema#label> "testCase"@en .
+<http://rdfunit.aksw.org/ns/core#constraintPattern> <http://www.w3.org/2000/01/rdf-schema#label> "constraintPattern"@en .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/vocab/vann/changes> <https://github.com/AKSW/RDFUnit/commits/master/ns> .
+_:f23959a96642f471aa3f8e81db1a16c5eb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#Binding> .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "rut" .
+<http://rdfunit.aksw.org/ns/core#EnrichedSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
+<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that holds the status of a single test execution"@en .
+<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/2000/01/rdf-schema#comment> "links an ontology to TestSuite for validating data adhering to that ontology"@en .
+<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
+_:f23959a96642f471aa3f8e81db1a16c5eb29 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#resultPrevalence> .
+_:f23959a96642f471aa3f8e81db1a16c5eb22 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f23959a96642f471aa3f8e81db1a16c5eb29 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#source> <http://www.w3.org/2000/01/rdf-schema#comment> "source is a URI that points to a general Source, which can be a schema, a dataset or an application"@en .
+<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Result> .
+<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests run in a TestExecution"@en .
+<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/2000/01/rdf-schema#comment> "The WHERE part of sparql pattern  query with placeholders (%%XYZ%%) for parameters"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#ResultStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#None> <http://www.w3.org/2000/01/rdf-schema#label> "None"@en .
+<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/2000/01/rdf-schema#label> "dependencyTo"@en .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/modified> "2014-01-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb5 .
+<http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Pattern> .
+<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb32 .
+<http://rdfunit.aksw.org/ns/core#ResultStatusSuccess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#EnrichedSchema> <http://www.w3.org/2000/01/rdf-schema#comment> "EnrichedSchema: When the tests applies to an ontology / vocabulary enriched with external (semi-)automatic approaches"@en .
+<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/2000/01/rdf-schema#label> "testsTimeout"@en .
+<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPARQL query used to instantiate test cases based on patterns"@en .
+<http://rdfunit.aksw.org/ns/core#EnrichedSchema> <http://www.w3.org/2000/01/rdf-schema#label> "EnrichedSchema"@en .
+<http://rdfunit.aksw.org/ns/core#testCase> <http://www.w3.org/2000/01/rdf-schema#comment> "points to a test case" .
+<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#TestCase> .
+<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f23959a96642f471aa3f8e81db1a16c5eb23 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/description> "The RDFUnit ontology describes concepts used in RDFUnit, a test driven data-debugging framework that can run automatically generated (based on a schema) and manually generated test cases against an endpoint."@en .
 <http://rdfunit.aksw.org/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#comment> "The parameter is restricted to a property."@en .
 <http://rdfunit.aksw.org/ns/core#ResultAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b31 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Pattern"@en .
-<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
-<http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> <http://www.w3.org/2000/01/rdf-schema#comment> "A pattern sparql prevalence query, reuses the pattern parameters, maybe not all of them. The prevalence query may be empty"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb33 <http://www.w3.org/2002/07/owl#onProperty> <http://spinrdf.org/spin#violationRoot> .
+<http://rdfunit.aksw.org/ns/core#annotationProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f23959a96642f471aa3f8e81db1a16c5eb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb12 .
+<http://rdfunit.aksw.org/ns/core#basedOnPattern> <http://www.w3.org/2000/01/rdf-schema#label> "basedOnPattern"@en .
+<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "RLOGTestCaseResult"@en .
+<http://rdfunit.aksw.org/ns/core#ParameterConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "ParameterConstraint"@en .
+<http://rdfunit.aksw.org/ns/core#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Dataset: When the tests applies to a dataset only (i.e. a SPARQL Endpoint)"@en .
+<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#TestGenerationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2000/01/rdf-schema#label> "Test-Driven Data Debugging Ontology"@en .
+<http://rdfunit.aksw.org/ns/core#ResultStatus> <http://www.w3.org/2000/01/rdf-schema#label> "ResultStatus"@en .
+<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#Application> <http://www.w3.org/2000/01/rdf-schema#label> "Application"@en .
+<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/2000/01/rdf-schema#label> "testsError"@en .
+<http://rdfunit.aksw.org/ns/core#Operator> <http://www.w3.org/2000/01/rdf-schema#comment> "The parameter can be an operator."@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/2000/01/rdf-schema#label> "dependencyFrom"@en .
+<http://rdfunit.aksw.org/ns/core#Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdfunit.aksw.org/ns/core#EnrichedSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+_:f23959a96642f471aa3f8e81db1a16c5eb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f23959a96642f471aa3f8e81db1a16c5eb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#errorSource> <http://www.w3.org/2000/01/rdf-schema#comment> "With this property we point to the error source (if known beforehand)"@en .
+<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that holds a single result of a test execution. Each test case links to the TestCase (rut:testCase) it was originated from and a TestExecution (prov:wasGeneratedBy)"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb4 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#parameter> .
+_:f23959a96642f471aa3f8e81db1a16c5eb2 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlWherePattern> .
+<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb29 .
+_:f23959a96642f471aa3f8e81db1a16c5eb7 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#constraintPattern> .
+_:f23959a96642f471aa3f8e81db1a16c5eb1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#TestGenerator> <http://www.w3.org/2000/01/rdf-schema#label> "TestGenerator"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb17 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCaseDependency> .
+<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/2000/01/rdf-schema#label> "errorClassification"@en .
+<http://rdfunit.aksw.org/ns/core#parameterConstraint> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
+<http://rdfunit.aksw.org/ns/core#None> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests that succedded in a TestExecution"@en .
+<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2002/07/owl#versionInfo> "0.3" .
+<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A superclass of TestCases. Defines properties all test cases can have but concrete implementation occurs on subclasses."@en .
+<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> .
+_:f23959a96642f471aa3f8e81db1a16c5eb32 <http://www.w3.org/2002/07/owl#onProperty> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#level> .
+<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ManualTestCase> .
+<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/2000/01/rdf-schema#label> "generated"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f23959a96642f471aa3f8e81db1a16c5eb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#parameter> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#Parameter> .
+<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#TestCase> .
+<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://rdfunit.aksw.org/ns/core#Operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
+<http://rdfunit.aksw.org/ns/core#ResultStatusTimeout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
+<http://rdfunit.aksw.org/ns/core#Schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdfunit.aksw.org/ns/core.ttl> .
+<http://rdfunit.aksw.org/ns/core#Schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
+<http://rdfunit.aksw.org/ns/core#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCaseDependency> .
+<http://rdfunit.aksw.org/ns/core#ResultStatusSuccess> <http://www.w3.org/2000/01/rdf-schema#label> "ResultStatusSuccess"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb15 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#basedOnPattern> .
+_:f23959a96642f471aa3f8e81db1a16c5eb15 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#constraintPattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Parameter> .
+<http://rdfunit.aksw.org/ns/core#ResultStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "TestCaseResult type"@en .
+<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f23959a96642f471aa3f8e81db1a16c5eb13 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb22 .
+_:f23959a96642f471aa3f8e81db1a16c5eb19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#resultStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#ManuallyGenerated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestGenerationType> .
+<http://rdfunit.aksw.org/ns/core#bindingValue> <http://www.w3.org/2000/01/rdf-schema#label> "bindingValue"@en .
+<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCaseDependency> .
+<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb15 .
+<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb2 .
+_:f23959a96642f471aa3f8e81db1a16c5eb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f23959a96642f471aa3f8e81db1a16c5eb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Result> .
+<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#label> "ManualTestCase"@en .
+<http://rdfunit.aksw.org/ns/core#Application> <http://www.w3.org/2000/01/rdf-schema#comment> "Application: When the tests are specific to an application only"@en .
+<http://rdfunit.aksw.org/ns/core#resultAnnotation> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#ResultAnnotation> .
+<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> .
+<http://rdfunit.aksw.org/ns/core#parameterConstraint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Parameter> .
+<http://rdfunit.aksw.org/ns/core#Class> <http://www.w3.org/2000/01/rdf-schema#label> "Class"@en .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/rights> "This ontology is licensed under Apache 2.0 (http://www.apache.org/licenses/LICENSE-2.0) and CC-BY (http://creativecommons.org/licenses/by/3.0/)"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb10 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
+<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f23959a96642f471aa3f8e81db1a16c5eb18 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/2000/01/rdf-schema#comment> "A binding between a pattern parameter and a value"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb26 .
+<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/2000/01/rdf-schema#label> "testsFailed"@en .
+<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/2000/01/rdf-schema#label> "appliesTo"@en .
+<http://rdfunit.aksw.org/ns/core#bindingValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Binding> .
+<http://rdfunit.aksw.org/ns/core#TestGenerator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb9 .
+<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/2000/01/rdf-schema#label> "TestSuite"@en .
+<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/2000/01/rdf-schema#label> "testSuite"@en .
+<http://rdfunit.aksw.org/ns/core#testCaseLogLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "the rlog:Level this case is associated with."@en .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/issued> "2013-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:f23959a96642f471aa3f8e81db1a16c5eb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "ExtendedTestCaseResult"@en .
+<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#constraintPattern> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCase> .
+_:f23959a96642f471aa3f8e81db1a16c5eb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#resultPrevalence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://rdfunit.aksw.org/ns/core#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+_:f23959a96642f471aa3f8e81db1a16c5eb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#label> "PatternBasedTestCase"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#wasGeneratedBy> .
+_:f23959a96642f471aa3f8e81db1a16c5eb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f23959a96642f471aa3f8e81db1a16c5eb20 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlPrevalence> .
+<http://rdfunit.aksw.org/ns/core#ResultAnnotation> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to further annotate an ExtendedTestCaseResult."@en .
+<http://rdfunit.aksw.org/ns/core#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/2000/01/rdf-schema#label> "testsSucceeded"@en .
+<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ManualTestCase> .
+<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#dependencyExecute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#comment> "Holds the results of a TestSuite execution against a dataset"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://rdfunit.aksw.org/ns/core#AutoGenerated> <http://www.w3.org/2000/01/rdf-schema#comment> "AutoGenerated: This test was created automatically"@en .
-<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f9b8c9d3de35d438cbca9e5b277b6ea14b20 .
+<http://rdfunit.aksw.org/ns/core#Binding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb17 .
+<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> .
+<http://rdfunit.aksw.org/ns/core#ManuallyGenerated> <http://www.w3.org/2000/01/rdf-schema#comment> "ManuallyGenerated: This test was created manually"@en .
+<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/2000/01/rdf-schema#label> "errorPropertyContext"@en .
+<http://rdfunit.aksw.org/ns/core#testCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#resultAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "resultAnnotation"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb9 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#basedOnPattern> .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Patrick Westphal"@en .
+<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlPrevalence"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb18 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#bindingValue> .
+<http://rdfunit.aksw.org/ns/core#generated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCase> .
+<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#Pattern> .
+_:f23959a96642f471aa3f8e81db1a16c5eb33 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#annotationValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ResultAnnotation> .
 <http://rdfunit.aksw.org/ns/core#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en .
-_:f9b8c9d3de35d438cbca9e5b277b6ea14b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb21 .
+<http://rdfunit.aksw.org/ns/core#testCaseLogLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#Level> .
+_:f23959a96642f471aa3f8e81db1a16c5eb30 <http://www.w3.org/2002/07/owl#onProperty> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#resource> .
+<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
+_:f23959a96642f471aa3f8e81db1a16c5eb12 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#TestGenerator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb8 .
+<http://rdfunit.aksw.org/ns/core#errorClassification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> .
+<http://rdfunit.aksw.org/ns/core#AutoGenerated> <http://www.w3.org/2000/01/rdf-schema#label> "AutoGenerated"@en .
+<http://rdfunit.aksw.org/ns/core#sparqlWherePattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdfunit.aksw.org/ns/core#ParameterConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f23959a96642f471aa3f8e81db1a16c5eb28 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#resultCount> .
+<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "the rut:ResultStatus of the dependencyFrom result condition that triggers this dependency"@en .
+<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfunit.aksw.org/ns/core#TestCaseResult> .
+_:f23959a96642f471aa3f8e81db1a16c5eb7 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f23959a96642f471aa3f8e81db1a16c5eb13 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#source> .
+<http://rdfunit.aksw.org/ns/core#ResultStatusTimeout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
+<http://rdfunit.aksw.org/ns/core#Class> <http://www.w3.org/2000/01/rdf-schema#comment> "The parameter is restricted to a Class."@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb24 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#source> .
+<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://rdfunit.aksw.org/ns/core#TestCaseDependency> <http://www.w3.org/2000/01/rdf-schema#comment> "defines a dependency between two test cases"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb32 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/2000/01/rdf-schema#label> "errorType"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
+<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb4 .
+<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> .
+<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A test case where the SPARQL is defined manually"@en .
+<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdfunit.aksw.org/ns/core#ResultStatusError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
+_:f23959a96642f471aa3f8e81db1a16c5eb16 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#binding> .
+<http://rdfunit.aksw.org/ns/core#annotationProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f23959a96642f471aa3f8e81db1a16c5eb28 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/2000/01/rdf-schema#comment> "defines a binding between a pattern parameter and a value"@en .
+<http://rdfunit.aksw.org/ns/core#dependencyFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestCase> .
+_:f23959a96642f471aa3f8e81db1a16c5eb14 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#annotationProperty> <http://www.w3.org/2000/01/rdf-schema#label> "annotationProperty"@en .
+<http://rdfunit.aksw.org/ns/core#parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "TestCaseResult"@en .
+<http://rdfunit.aksw.org/ns/core#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+_:f23959a96642f471aa3f8e81db1a16c5eb25 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#label> "TestExecution"@en .
+<http://rdfunit.aksw.org/ns/core#testsRun> <http://www.w3.org/2000/01/rdf-schema#label> "testsRun"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> <http://www.w3.org/2000/01/rdf-schema#comment> "A pattern sparql prevalence query, reuses the pattern parameters, maybe not all of them. The prevalence query may be empty"@en .
+<http://rdfunit.aksw.org/ns/core#TestGenerationType> <http://www.w3.org/2000/01/rdf-schema#label> "TestGenerationType"@en .
+<http://rdfunit.aksw.org/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "The pattern can be a resource."@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb8 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlGenerator> .
+_:f23959a96642f471aa3f8e81db1a16c5eb4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#Operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdfunit.aksw.org/ns/core#ResultStatusFail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
+_:f23959a96642f471aa3f8e81db1a16c5eb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#parameter> <http://www.w3.org/2000/01/rdf-schema#label> "parameter"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#resultStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#ResultStatus> .
+_:f23959a96642f471aa3f8e81db1a16c5eb6 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#parameterConstraint> .
+_:f23959a96642f471aa3f8e81db1a16c5eb2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#source> <http://www.w3.org/2000/01/rdf-schema#label> "source"@en .
+<http://rdfunit.aksw.org/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource"@en .
+<http://rdfunit.aksw.org/ns/core#parameter> <http://www.w3.org/2000/01/rdf-schema#comment> "links a Pattern with a list of pattern parameters"@en .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/date> "2013-10-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:f23959a96642f471aa3f8e81db1a16c5eb23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#endedAtTime> .
+<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/2000/01/rdf-schema#comment> "The WHERE part of a SPARQL query. Must be enclosed in brackets {} and use the following variables: ?resource, ?message.\n        ?resource is URI the constraint violation occurs in and ?message is a logging message."@en .
+<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Here we attach properties from the resource to provide the error context (i.e. the death date when the error is in the birth date)."@en .
+<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb20 .
+_:f23959a96642f471aa3f8e81db1a16c5eb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f23959a96642f471aa3f8e81db1a16c5eb31 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#testCaseLogLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f23959a96642f471aa3f8e81db1a16c5eb8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#ResultStatusError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+_:f23959a96642f471aa3f8e81db1a16c5eb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#bindingValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f23959a96642f471aa3f8e81db1a16c5eb11 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#appliesTo> .
+<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f23959a96642f471aa3f8e81db1a16c5eb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#testsTimeout> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
+<http://rdfunit.aksw.org/ns/core#ManuallyGenerated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#ManualTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb19 .
+_:f23959a96642f471aa3f8e81db1a16c5eb12 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#generated> .
+<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdfunit.aksw.org/ns/core#dependencyTo> <http://www.w3.org/2000/01/rdf-schema#comment> "the test case that depends on another test case"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb31 <http://www.w3.org/2002/07/owl#onProperty> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#message> .
+<http://rdfunit.aksw.org/ns/core#references> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Sebastian Hellmann"@en .
+<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/2000/01/rdf-schema#label> "resultCount"@en .
+<http://rdfunit.aksw.org/ns/core#ResultStatusError> <http://www.w3.org/2000/01/rdf-schema#label> "ResultStatusError"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb19 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#sparqlWhere> .
+<http://rdfunit.aksw.org/ns/core#annotationProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#ResultAnnotation> .
+<http://rdfunit.aksw.org/ns/core#ExtendedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#ConstraintViolation> .
+<http://rdfunit.aksw.org/ns/core#testsSucceeded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestExecution> .
+<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/2000/01/rdf-schema#comment> "The RDFUnit ontology describes concepts used in RDFUnit, a test driven data-debugging framework that can run automatically generated (based on a schema) and manually generated test cases against an endpoint."@en .
+<http://rdfunit.aksw.org/ns/core#Operator> <http://www.w3.org/2000/01/rdf-schema#label> "Operator"@en .
+<http://rdfunit.aksw.org/ns/core#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
+_:f23959a96642f471aa3f8e81db1a16c5eb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://rdfunit.aksw.org/ns/core#" .
+<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb14 .
+<http://rdfunit.aksw.org/ns/core#references> <http://www.w3.org/2000/01/rdf-schema#label> "references"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb30 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#binding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f23959a96642f471aa3f8e81db1a16c5eb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#AggregatedTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that holds the aggregated results of a single test execution"@en .
+<http://rdfunit.aksw.org/ns/core#errorType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
+<http://rdfunit.aksw.org/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#label> "Property"@en .
+<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb13 .
+<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb16 .
+<http://rdfunit.aksw.org/ns/core#sparqlPrevalence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdfunit.aksw.org/ns/core#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb11 .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "Jens Lehmann"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#hadMember> .
+<http://rdfunit.aksw.org/ns/core#basedOnPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f23959a96642f471aa3f8e81db1a16c5eb17 <http://www.w3.org/2002/07/owl#onProperty> <http://rdfunit.aksw.org/ns/core#parameter> .
+<http://rdfunit.aksw.org/ns/core#appliesTo> <http://www.w3.org/2000/01/rdf-schema#comment> "applies to describes the ontology used for terms in the Test."@en .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://rdfunit.aksw.org/ns/core#sparqlPrevalencePattern> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlPrevalencePattern"@en .
+<http://rdfunit.aksw.org/ns/core#Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#TestAppliesTo> .
+_:f23959a96642f471aa3f8e81db1a16c5eb27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f23959a96642f471aa3f8e81db1a16c5eb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#RLOGTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb30 .
+<http://rdfunit.aksw.org/ns/core#TestSuite> <http://www.w3.org/2000/01/rdf-schema#comment> "A list of test cases. Use prov:hadMember for test case listing"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb21 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f23959a96642f471aa3f8e81db1a16c5eb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#sparqlGenerator> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlGenerator"@en .
+<http://rdfunit.aksw.org/ns/core#sparqlWhere> <http://www.w3.org/2000/01/rdf-schema#label> "sparqlWhere"@en .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/elements/1.1/creator> "S\u00F6ren Auer"@en .
+<http://rdfunit.aksw.org/ns/core#TestAppliesTo> <http://www.w3.org/2000/01/rdf-schema#label> "TestAppliesTo"@en .
+<http://rdfunit.aksw.org/ns/core#TestExecution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb24 .
+<http://rdfunit.aksw.org/ns/core#PatternBasedTestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A test case that is based on a Pattern"@en .
+<http://rdfunit.aksw.org/ns/core#annotationValue> <http://www.w3.org/2000/01/rdf-schema#label> "annotationValue"@en .
+<http://rdfunit.aksw.org/ns/core#TestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb25 .
+<http://rdfunit.aksw.org/ns/core#testsFailed> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests that failed in a TestExecution"@en .
+<http://rdfunit.aksw.org/ns/core#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://rdfunit.aksw.org/ns/core#bindingValue> <http://www.w3.org/2000/01/rdf-schema#comment> "the value of a Binding"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb5 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/identifier> .
+<http://rdfunit.aksw.org/ns/core#testSuite> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfunit.aksw.org/ns/core#TestSuite> .
+<http://rdfunit.aksw.org/ns/core#errorPropertyContext> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f23959a96642f471aa3f8e81db1a16c5eb1 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/identifier> .
+<http://rdfunit.aksw.org/ns/core#resultAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdfunit.aksw.org/ns/core#ResultStatusFail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#label> "StatusTestCaseResult"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdfunit.aksw.org/ns/core#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfunit.aksw.org/ns/core#ParameterConstraint> .
+_:f23959a96642f471aa3f8e81db1a16c5eb24 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f23959a96642f471aa3f8e81db1a16c5eb20 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#> <http://purl.org/dc/terms/title> "Test-Driven Data Debugging Ontology"@en .
+<http://rdfunit.aksw.org/ns/core#AutoGenerated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdfunit.aksw.org/ns/core#dependencyCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfunit.aksw.org/ns/core#TestCaseDependency> .
+<http://rdfunit.aksw.org/ns/core#Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb1 .
+<http://rdfunit.aksw.org/ns/core#testsError> <http://www.w3.org/2000/01/rdf-schema#comment> "Total tests that raised an error in a TestExecution"@en .
+<http://rdfunit.aksw.org/ns/core#ManuallyGenerated> <http://www.w3.org/2000/01/rdf-schema#label> "ManuallyGenerated"@en .
+_:f23959a96642f471aa3f8e81db1a16c5eb11 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://rdfunit.aksw.org/ns/core#Parameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb7 .
+<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://rdfunit.aksw.org/ns/core#StatusTestCaseResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f23959a96642f471aa3f8e81db1a16c5eb27 .
+<http://rdfunit.aksw.org/ns/core#basedOnPattern> <http://www.w3.org/2000/01/rdf-schema#comment> "basedOnPattern contains the Data Quality Test Pattern that is instantiated in the described Test."@en .
+<http://rdfunit.aksw.org/ns/core#annotationValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://rdfunit.aksw.org/ns/core#resultCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f23959a96642f471aa3f8e81db1a16c5eb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 

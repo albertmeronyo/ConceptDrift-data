@@ -1,453 +1,453 @@
-<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#comment> "Additional service provider catalog." .
-<http://open-services.net/ns/core#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "resourceType" .
-<http://open-services.net/ns/core#prefixBase> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "The Publisher definition included in ServiceProvider." .
-<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#prefixBase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core/core.rdf> <http://www.rddl.org/nature> <http://www.w3.org/2000/01/rdf-schema#> .
-<http://open-services.net/ns/core#prefixBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#Zero-or-one> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference to associated resource." .
-<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#Resource_Allowed_Values> .
-<http://open-services.net/ns/core#name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#icon> <http://www.w3.org/2000/01/rdf-schema#label> "icon" .
-<http://open-services.net/ns/core#representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#valueShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#message> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Error> .
-<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#valueShape> <http://www.w3.org/2000/01/rdf-schema#comment> "if the value-type is a resource type, then Property MAY provide a shape value to indicate the Resource Shape that applies to the resource." .
-<http://open-services.net/ns/core#totalCount> <http://www.w3.org/2000/01/rdf-schema#comment> "This optional property indicates the total number of results across all pages, \n		its value should be non-negative. In the context of a query resource, this value SHOULD \n		be the total number of results, i.e. the number of resources that match the query. \n		In the context of other resources, the value SHOULD be the total number of property \n		values (i.e. RDF triples) of the resource. Unless Stable Paging is in effect, the \n		total count MAY vary as a client retrieves subsequent pages." .
-<http://open-services.net/ns/core#hidden> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#comment> <http://www.w3.org/2000/01/rdf-schema#comment> "Comment about the resource." .
-<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#range> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A series of notes and comments about this resource." .
-<http://open-services.net/ns/core#Zero-or-many> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#details> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
-<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "ServiceProviderCatalog" .
-<http://open-services.net/ns/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/2000/01/rdf-schema#label> "discussionAbout" .
-<http://open-services.net/ns/core#Exactly-one> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#Service> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
-<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#smallPreview> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Representation_Compact> .
-<http://open-services.net/ns/core#service> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes a service offered by the service provider." .
-<http://open-services.net/ns/core#usage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#label> <http://www.w3.org/2000/01/rdf-schema#comment> "Very short label for use in menu items." .
-<http://open-services.net/ns/core#maxSize> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
-<http://open-services.net/ns/core#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#serviceProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#Reference> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI Reference representation to a resource." .
-<http://open-services.net/ns/core#Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#Dialog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/2000/01/rdf-schema#label> "authorizationURI" .
-<http://open-services.net/ns/core#queryBase> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Query_Capability> .
-<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/2000/01/rdf-schema#comment> "value allowed for a property." .
-<http://open-services.net/ns/core#nextPage> <http://www.w3.org/2000/01/rdf-schema#label> "nextPage" .
-<http://open-services.net/ns/core#resourceType> <http://www.w3.org/2000/01/rdf-schema#comment> "The expected resource type URI of the resource that will be created using this creation factory. These would be the URIs found in the result resource's rdf:type property." .
-<http://open-services.net/ns/core#occurs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#AnyResource> <http://www.w3.org/2000/01/rdf-schema#comment> "AnyResource: value is either a Resource or Local Resource." .
-<http://open-services.net/ns/core#Preview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Discussion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#serviceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to the resource's OSLC Service Provider." .
-<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#rel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Comment> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#oslc_Comment_Resource> .
-<http://open-services.net/ns/core#Publisher> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Publisher> .
+<http://open-services.net/ns/core#range> <http://www.w3.org/2000/01/rdf-schema#comment> "For properties with a resource value-type, Providers MAY also specify the range of possible resource types allowed, each specified by URI. The default range is http://open-services.net/ns/core#Any." .
+<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines a namespace prefix for use in JSON representations and in forming OSLC Query Syntax strings." .
+<http://open-services.net/ns/core#Compact> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Resource_Compact> .
+<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#hidden> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
 <http://open-services.net/ns/core#oauthRequestTokenURI> <http://www.w3.org/2000/01/rdf-schema#label> "oauthRequestTokenURI" .
-<http://open-services.net/ns/core#details> <http://www.w3.org/2000/01/rdf-schema#label> "details" .
-<http://open-services.net/ns/core#domain> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
-<http://open-services.net/ns/core#dialog> <http://www.w3.org/2000/01/rdf-schema#comment> "The URI of the dialog." .
-<http://open-services.net/ns/core#largePreview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/2000/01/rdf-schema#comment> "The URI of a Resource Shape that describes the possible properties." .
-<http://open-services.net/ns/core#icon> <http://www.w3.org/2000/01/rdf-schema#comment> "URL to an icon file that represents the provider. This icon should be a favicon format and 16x16 pixels in size." .
-<http://open-services.net/ns/core#readOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#results> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider_Catalog> .
-<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#Zero-or-one> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#readOnly> <http://www.w3.org/2000/01/rdf-schema#label> "readOnly" .
-<http://open-services.net/ns/core#extendedError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#label> "Property" .
-<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/2000/01/rdf-schema#label> "shortTitle" .
-<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#comment> "Resource with allowed values for the property being defined. Range of oslc:AllowedValues" .
-<http://open-services.net/ns/core#document> <http://www.w3.org/2000/01/rdf-schema#comment> "URI and sizing properties for an HTML document to be used for a small preview." .
-<http://open-services.net/ns/core#label> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Publisher> .
-<http://open-services.net/ns/core#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#LocalResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#hidden> <http://www.w3.org/2000/01/rdf-schema#label> "hidden" .
 <http://open-services.net/ns/core#Error> <http://www.w3.org/2000/01/rdf-schema#label> "Error" .
-<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of property being defined, i.e. second part of property's Prefixed Name." .
-<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#readOnly> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#> <http://purl.org/dc/terms/description> "\n			All vocabulary URIs defined in the OSLC Core namespace.\n		"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
-<http://open-services.net/ns/core#Compact> <http://www.w3.org/2000/01/rdf-schema#comment> "The Compact representation, fetched as application/x-oslc-compact+xml" .
-<http://open-services.net/ns/core#totalCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#valueType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#usage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Zero-or-one> <http://www.w3.org/2000/01/rdf-schema#comment> "Property is optional and single valued." .
-<http://open-services.net/ns/core#dialog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Dialog> .
 <http://open-services.net/ns/core#representation> <http://www.w3.org/2000/01/rdf-schema#label> "representation" .
-<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "The QueryCapability definition included in a ServiceProvider." .
-<http://open-services.net/ns/core#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/ns/core/core.rdf> .
-<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "The OAuthConfiguration definition included in ServiceProvider." .
+<http://open-services.net/ns/core#largePreview> <http://www.w3.org/2000/01/rdf-schema#label> "largePreview" .
+<http://open-services.net/ns/core#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#smallPreview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/2000/01/rdf-schema#label> "QueryCapability" .
+<http://open-services.net/ns/core#ExendedError> <http://www.w3.org/2000/01/rdf-schema#label> "ExendedError" .
+<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables clients to create a resource via UI." .
+<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#smallPreview> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Representation_Compact> .
+<http://open-services.net/ns/core#usage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_ResponseInfo> .
+<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#Discussion> <http://www.w3.org/2000/01/rdf-schema#label> "Discussion" .
+<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
+<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/2000/01/rdf-schema#label> "shortTitle" .
+<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/2000/01/rdf-schema#label> "oauthAccessTokenURI" .
+<http://open-services.net/ns/core#icon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#comment> "A Property resource describes one allowed or required property of a resource." .
+<http://open-services.net/ns/core#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#label> "statusCode" .
+<http://open-services.net/ns/core#valueType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#Inline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#dialog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/2000/01/rdf-schema#label> "partOfDiscussion" .
+<http://open-services.net/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#Value_type_Property> .
+<http://open-services.net/ns/core#Zero-or-many> <http://www.w3.org/2000/01/rdf-schema#label> "Zero-or-many" .
+<http://open-services.net/ns/core#message> <http://www.w3.org/2000/01/rdf-schema#comment> "An informative message describing the error that occurred." .
+<http://open-services.net/ns/core#usage> <http://www.w3.org/2000/01/rdf-schema#label> "usage" .
+<http://open-services.net/ns/core#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#Preview> <http://www.w3.org/2000/01/rdf-schema#label> "Preview" .
+<http://open-services.net/ns/core#name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of property being defined, i.e. second part of property's Prefixed Name." .
+<http://open-services.net/ns/core#totalCount> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "resourceType" .
+<http://open-services.net/ns/core#serviceProvider> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#OSLC_Properties> .
+<http://open-services.net/ns/core#Exactly-one> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "Resource: value is a resource at a specified URI (i.e. a URI Reference)." .
+<http://open-services.net/ns/core#property> <http://www.w3.org/2000/01/rdf-schema#label> "property" .
+<http://open-services.net/ns/core#initialHeight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Error> <http://www.w3.org/2000/01/rdf-schema#comment> "Basis for forming an error response." .
+<http://open-services.net/ns/core#creation> <http://www.w3.org/2000/01/rdf-schema#label> "creation" .
+<http://open-services.net/ns/core#Any> <http://www.w3.org/2000/01/rdf-schema#comment> "Any value type is allowed." .
+<http://open-services.net/ns/core#largePreview> <http://www.w3.org/2000/01/rdf-schema#comment> "URI and sizing properties for an HTML document to be used for a large preview." .
+<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/2000/01/rdf-schema#comment> "Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1) Em and ex units are interpreted relative to the default system font (at 100% size)." .
+<http://open-services.net/ns/core#results> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to hold the results of dialog action or JSON query results (default).\n		The JSON query result attribute 'oslc:results' is used whenever a provider doesn't have\n		a suitable property already in its model for such purposes." .
+<http://open-services.net/ns/core#Inline> <http://www.w3.org/2000/01/rdf-schema#comment> "An inline (RDF blank node) representation." .
+<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "oauthConfiguration" .
+<http://open-services.net/ns/core#label> <http://www.w3.org/2000/01/rdf-schema#label> "label" .
+<http://open-services.net/ns/core#valueType> <http://www.w3.org/2000/01/rdf-schema#label> "valueType" .
+<http://open-services.net/ns/core#prefix> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
 <http://open-services.net/ns/core#prefixBase> <http://www.w3.org/2000/01/rdf-schema#comment> "The base URI of the namespace." .
-<http://open-services.net/ns/core#Publisher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/2000/01/rdf-schema#label> "selectionDialog" .
-<http://open-services.net/ns/core#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#describes> <http://www.w3.org/2000/01/rdf-schema#label> "describes" .
-<http://open-services.net/ns/core#extendedError> <http://www.w3.org/2000/01/rdf-schema#comment> "Extended (additional) error information." .
-<http://open-services.net/ns/core#LocalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Local Resource: value is an resource available only inside the resource being defined (i.e. a Blank Node)." .
-<http://open-services.net/ns/core#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://open-services.net/ns/core#comment> <http://www.w3.org/2000/01/rdf-schema#label> "comment" .
-<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#Comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#resourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to define when a property is a member of a container, useful for query." .
-<http://open-services.net/ns/core#queryBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#Discussion> <http://www.w3.org/2000/01/rdf-schema#comment> "A Discussion resource is intended to represent a sequence of comments or notes regarding the associated resource" .
-<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#Preview> <http://www.w3.org/2000/01/rdf-schema#comment> "The UI Preview representation." .
-<http://open-services.net/ns/core#valueShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#ExendedError> <http://www.w3.org/2000/01/rdf-schema#comment> "Extended error information." .
+<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#OSLC_Properties> .
+<http://open-services.net/ns/core#queryBase> <http://www.w3.org/2000/01/rdf-schema#comment> "The base URI to use for queries. Queries may be invoked either by HTTP GET or HTTP POST. For HTTP GET, a query URI is formed by appending a key=value pair to the base URI. For HTTP POST, the query parameters are encoded as content with media type application/x-www-form-urlencoded and sent in the request body. The base URI MAY accept other query languages and media types in the request body, e.g. application/sparql-query for SPARQL queries." .
+<http://open-services.net/ns/core#oauthRequestTokenURI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#oauthRequestTokenURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#Either> <http://www.w3.org/2000/01/rdf-schema#comment> "Representations is either a URI reference or blank node." .
+<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#One-or-many> <http://www.w3.org/2000/01/rdf-schema#comment> "Property is required and multi-valued." .
+<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#rel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#totalCount> <http://www.w3.org/2000/01/rdf-schema#label> "totalCount" .
+<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#AnyResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider_Catalog> .
+<http://open-services.net/ns/core#details> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
+<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
+<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/2000/01/rdf-schema#label> "discussedBy" .
 <http://open-services.net/ns/core#document> <http://www.w3.org/2000/01/rdf-schema#label> "document" .
 <http://open-services.net/ns/core#message> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "The ResponseInfo included in query results." .
-<http://open-services.net/ns/core#readOnly> <http://www.w3.org/2000/01/rdf-schema#comment> "true if the property is read-only. If omitted, or set to false, then the property is writable. Providers SHOULD declare a property read-only when changes to the value of that property will not be accepted after the resource has been created, e.g. on PUT/PATCH requests. Consumers should note that the converse does not apply: Providers MAY reject a change to the value of a writable property." .
-<http://open-services.net/ns/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP status code reported with the error." .
-<http://open-services.net/ns/core#ResourceShape> <http://www.w3.org/2000/01/rdf-schema#comment> "The Resource Shape used for creation, query and modify." .
-<http://open-services.net/ns/core#Either> <http://www.w3.org/2000/01/rdf-schema#comment> "Representations is either a URI reference or blank node." .
-<http://open-services.net/ns/core#Either> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#creation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#dialog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#Dialog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Dialog> .
-<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#usage> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Creation_Factory> .
-<http://open-services.net/ns/core#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#ExendedError> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Extended_Error> .
-<http://open-services.net/ns/core#nextPage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#hidden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/2000/01/rdf-schema#label> "moreInfo" .
-<http://open-services.net/ns/core#details> <http://www.w3.org/2000/01/rdf-schema#comment> "A URL that may be used to retrieve a web page to determine additional details about the service provider." .
-<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#initialHeight> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Representation_Preview> .
-<http://open-services.net/ns/core#label> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#readOnly> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#dialog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables clients to select a resource via UI." .
-<http://open-services.net/ns/core#valueType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#ResourceShape> <http://www.w3.org/2000/01/rdf-schema#label> "ResourceShape" .
-<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#document> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#maxSize> <http://www.w3.org/2000/01/rdf-schema#label> "maxSize" .
-<http://open-services.net/ns/core#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#maxSize> <http://www.w3.org/2000/01/rdf-schema#comment> "For String properties only, specifies maximum characters allowed. If not set, then there is no maximum or maximum is specified elsewhere." .
-<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/2000/01/rdf-schema#label> "allowedValue" .
-<http://open-services.net/ns/core#Comment> <http://www.w3.org/2000/01/rdf-schema#comment> "A Comment resource represents a single note, or comment, in a discussion thread." .
-<http://open-services.net/ns/core#Dialog> <http://www.w3.org/2000/01/rdf-schema#comment> "The Dialog definition included in ServiceProvider." .
-<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/2000/01/rdf-schema#label> "isMemberProperty" .
-<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#describes> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "URI of the property whose usage is being described." .
-<http://open-services.net/ns/core#oauthRequestTokenURI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/2000/01/rdf-schema#comment> "The CreationFactory definition included in a ServiceProvider." .
-<http://open-services.net/ns/core#totalCount> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Response_Information> .
-<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/2000/01/rdf-schema#label> "creationDialog" .
-<http://open-services.net/ns/core#initialHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Recommended initial height of the preview. The presence of this property indicates that the preview supports dynamically computing its size. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size)." .
-<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/2000/01/rdf-schema#label> "AllowedValues" .
-<http://open-services.net/ns/core#representation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Discussion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Reference> <http://www.w3.org/2000/01/rdf-schema#label> "Reference" .
-<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables clients to create new resources." .
-<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#comment> "A Property resource describes one allowed or required property of a resource." .
-<http://open-services.net/ns/core#Any> <http://www.w3.org/2000/01/rdf-schema#label> "Any" .
-<http://open-services.net/ns/core#hidden> <http://www.w3.org/2000/01/rdf-schema#comment> "A hint that indicates that property MAY be hidden when presented in a user interface." .
-<http://open-services.net/ns/core#Either> <http://www.w3.org/2000/01/rdf-schema#label> "Either" .
-<http://open-services.net/ns/core#oauthRequestTokenURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#largePreview> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Representation_Compact> .
-<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/2000/01/rdf-schema#label> "ResponseInfo" .
-<http://open-services.net/ns/core#default> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#comment> "The Service Provider Catalog resource" .
-<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#OSLC_Properties> .
-<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
-<http://open-services.net/ns/core#statusCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#domain> <http://www.w3.org/2000/01/rdf-schema#comment> "Namespace URI of the specification that is implemented by this service. In most cases this namespace URI will be for an OSLC domain, but other URIs MAY be used." .
-<http://open-services.net/ns/core#rel> <http://www.w3.org/2000/01/rdf-schema#label> "rel" .
-<http://open-services.net/ns/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Error> .
-<http://open-services.net/ns/core#dialog> <http://www.w3.org/2000/01/rdf-schema#label> "dialog" .
-<http://open-services.net/ns/core#Zero-or-many> <http://www.w3.org/2000/01/rdf-schema#label> "Zero-or-many" .
-<http://open-services.net/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource" .
-<http://open-services.net/ns/core#LocalResource> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#range> <http://www.w3.org/2000/01/rdf-schema#comment> "For properties with a resource value-type, Providers MAY also specify the range of possible resource types allowed, each specified by URI. The default range is http://open-services.net/ns/core#Any." .
-<http://open-services.net/ns/core#service> <http://www.w3.org/2000/01/rdf-schema#label> "service" .
-<http://open-services.net/ns/core#resourceType> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Creation_Factory> .
-<http://open-services.net/ns/core#prefixBase> <http://www.w3.org/2000/01/rdf-schema#label> "prefixBase" .
-<http://open-services.net/ns/core#Zero-or-many> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#details> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
-<http://open-services.net/ns/core#range> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Preview> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Resource_Preview> .
-<http://open-services.net/ns/core#representation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#extendedError> <http://www.w3.org/2000/01/rdf-schema#label> "extendedError" .
-<http://open-services.net/ns/core#Discussion> <http://www.w3.org/2000/01/rdf-schema#label> "Discussion" .
-<http://open-services.net/ns/core#hidden> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#domain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#default> <http://www.w3.org/2000/01/rdf-schema#label> "Default usage identifier" .
-<http://open-services.net/ns/core#label> <http://www.w3.org/2000/01/rdf-schema#label> "label" .
-<http://open-services.net/ns/core#queryBase> <http://www.w3.org/2000/01/rdf-schema#comment> "The base URI to use for queries. Queries may be invoked either by HTTP GET or HTTP POST. For HTTP GET, a query URI is formed by appending a key=value pair to the base URI. For HTTP POST, the query parameters are encoded as content with media type application/x-www-form-urlencoded and sent in the request body. The base URI MAY accept other query languages and media types in the request body, e.g. application/sparql-query for SPARQL queries." .
-<http://open-services.net/ns/core#ExendedError> <http://www.w3.org/2000/01/rdf-schema#comment> "Extended error information." .
-<http://open-services.net/ns/core#largePreview> <http://www.w3.org/2000/01/rdf-schema#comment> "URI and sizing properties for an HTML document to be used for a large preview." .
-<http://open-services.net/ns/core#PrefixDefinition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#> <http://www.w3.org/2000/01/rdf-schema#label> "Core" .
-<http://open-services.net/ns/core#occurs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Dialog> .
-<http://open-services.net/ns/core#default> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
-<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#occurs> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Preview> <http://www.w3.org/2000/01/rdf-schema#label> "Preview" .
-<http://open-services.net/ns/core#ResourceShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#serviceProvider> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#OSLC_Properties> .
-<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#label> "allowedValues" .
-<http://open-services.net/ns/core#describes> <http://www.w3.org/2000/01/rdf-schema#comment> "Type or types of resource described by this shape." .
-<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Error> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#property> <http://www.w3.org/2000/01/rdf-schema#label> "property" .
-<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
-<http://open-services.net/ns/core#Reference> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://open-services.net/ns/core#property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines a namespace prefix for use in JSON representations and in forming OSLC Query Syntax strings." .
-<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#Error> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Error> .
-<http://open-services.net/ns/core#initialHeight> <http://www.w3.org/2000/01/rdf-schema#label> "initialHeight" .
-<http://open-services.net/ns/core#Compact> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Resource_Compact> .
-<http://open-services.net/ns/core#One-or-many> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Creation_Factory> .
-<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#ResourceShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#Resource_Resource_Shape> .
-<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_ResponseInfo> .
-<http://open-services.net/ns/core#range> <http://www.w3.org/2000/01/rdf-schema#label> "range" .
-<http://open-services.net/ns/core#creation> <http://www.w3.org/2000/01/rdf-schema#comment> "To create a new resource via the factory, post it to this URI." .
-<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/2000/01/rdf-schema#label> "partOfDiscussion" .
-<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#maxSize> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_OAuth_Configuration> .
-<http://open-services.net/ns/core#comment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables clients to create a resource via UI." .
-<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "prefixDefinition" .
-<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Dialog> .
-<http://open-services.net/ns/core#Error> <http://www.w3.org/2000/01/rdf-schema#comment> "Basis for forming an error response." .
-<http://open-services.net/ns/core#initialHeight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/2000/01/rdf-schema#label> "resourceShape" .
-<http://open-services.net/ns/core#Comment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/2000/01/rdf-schema#label> "oauthAccessTokenURI" .
-<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#PrefixDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "PrefixDefinition" .
-<http://open-services.net/ns/core#LocalResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#AnyResource> <http://www.w3.org/2000/01/rdf-schema#label> "AnyResource" .
-<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
-<http://open-services.net/ns/core#hidden> <http://www.w3.org/2000/01/rdf-schema#label> "hidden" .
-<http://open-services.net/ns/core#totalCount> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider_Catalog> .
-<http://open-services.net/ns/core#Dialog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "OAuthConfiguration" .
-<http://open-services.net/ns/core#smallPreview> <http://www.w3.org/2000/01/rdf-schema#comment> "URI and sizing properties for an HTML document to be used for a small preview." .
-<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#valueShape> <http://www.w3.org/2000/01/rdf-schema#label> "valueShape" .
-<http://open-services.net/ns/core#nextPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "serviceProviderCatalog" .
-<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/2000/01/rdf-schema#label> "ServiceProvider" .
-<http://open-services.net/ns/core#usage> <http://www.w3.org/2000/01/rdf-schema#comment> "An identifier URI for the domain specified usage of this creation factory. If a service provides multiple creation factories, it may designate the primary or default one that should be used with a property value of http://open-services.net/ns/core#default." .
-<http://open-services.net/ns/core#Comment> <http://www.w3.org/2000/01/rdf-schema#label> "Comment" .
-<http://open-services.net/ns/core#AnyResource> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
-<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#occurs> <http://www.w3.org/2000/01/rdf-schema#comment> "MUST be either http://open-services.net/ns/core#Exactly-one, http://open-services.net/ns/core#Zero-or-one, http://open-services.net/ns/core#Zero-or-many or http://open-services.net/ns/core#One-or-many." .
-<http://open-services.net/ns/core#ExendedError> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#valueType> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Shorter form of dcterms:title for the resource." .
-<http://open-services.net/ns/core#nextPage> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Response_Information> .
-<http://open-services.net/ns/core#resourceType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables clients query across a collection of resources." .
-<http://open-services.net/ns/core#rel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Extended_Error> .
-<http://open-services.net/ns/core#message> <http://www.w3.org/2000/01/rdf-schema#comment> "An informative message describing the error that occurred." .
-<http://open-services.net/ns/core#valueType> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI that indicates the value type, for example XML Schema or RDF URIs for literal value types, and OSLC-specified for others.  If this property is omitted, then the value type is unconstrained." .
-<http://open-services.net/ns/core#describes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#largePreview> <http://www.w3.org/2000/01/rdf-schema#label> "largePreview" .
-<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "The Service Provider resource" .
-<http://open-services.net/ns/core#queryBase> <http://www.w3.org/2000/01/rdf-schema#label> "queryBase" .
-<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#oauthRequestTokenURI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#details> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#One-or-many> <http://www.w3.org/2000/01/rdf-schema#label> "One-or-many" .
-<http://open-services.net/ns/core#Any> <http://www.w3.org/2000/01/rdf-schema#comment> "Any value type is allowed." .
-<http://open-services.net/ns/core#Zero-or-many> <http://www.w3.org/2000/01/rdf-schema#comment> "Property is optional and multi-valued." .
-<http://open-services.net/ns/core#rel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#smallPreview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#valueShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#results> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to hold the results of dialog action or JSON query results (default).\n		The JSON query result attribute 'oslc:results' is used whenever a provider doesn't have\n		a suitable property already in its model for such purposes." .
-<http://open-services.net/ns/core#totalCount> <http://www.w3.org/2000/01/rdf-schema#label> "totalCount" .
-<http://open-services.net/ns/core#Compact> <http://www.w3.org/2000/01/rdf-schema#label> "Compact" .
-<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#smallPreview> <http://www.w3.org/2000/01/rdf-schema#label> "smallPreview" .
-<http://open-services.net/ns/core#PrefixDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "The PrefixDefinition definition included in ServiceProvider." .
-<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/2000/01/rdf-schema#comment> "URI for obtaining OAuth authorization." .
-<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/2000/01/rdf-schema#comment> "A Creation Factory MAY provide Resource Shapes that describe shapes of resources that may be created." .
-<http://open-services.net/ns/core#results> <http://www.w3.org/2000/01/rdf-schema#label> "results" .
-<http://open-services.net/ns/core#occurs> <http://www.w3.org/2000/01/rdf-schema#label> "occurs" .
-<http://open-services.net/ns/core#Inline> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Exactly-one> <http://www.w3.org/2000/01/rdf-schema#label> "Exactly-one" .
-<http://open-services.net/ns/core#icon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Any> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#results> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#document> <http://www.w3.org/2000/01/rdf-schema#comment> "URI and sizing properties for an HTML document to be used for a small preview." .
+<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "The ResponseInfo included in query results." .
+<http://open-services.net/ns/core#ResourceShape> <http://www.w3.org/2000/01/rdf-schema#label> "ResourceShape" .
 <http://open-services.net/ns/core#creation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Creation_Factory> .
-<http://open-services.net/ns/core#Inline> <http://www.w3.org/2000/01/rdf-schema#comment> "An inline (RDF blank node) representation." .
-<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference to owning Discussion resource ." .
-<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/2000/01/rdf-schema#label> "QueryCapability" .
-<http://open-services.net/ns/core#One-or-many> <http://www.w3.org/2000/01/rdf-schema#comment> "Property is required and multi-valued." .
-<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#prefix> <http://www.w3.org/2000/01/rdf-schema#comment> "Namespace prefix to be used for this namespace." .
-<http://open-services.net/ns/core#prefix> <http://www.w3.org/2000/01/rdf-schema#label> "prefix" .
-<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/2000/01/rdf-schema#label> "creationFactory" .
 <http://open-services.net/ns/core#serviceProvider> <http://www.w3.org/2000/01/rdf-schema#label> "serviceProvider" .
-<http://open-services.net/ns/core#prefix> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#Value_type_Property> .
-<http://open-services.net/ns/core#serviceProvider> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Extended_Error> .
-<http://open-services.net/ns/core#comment> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#creation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#Discussion> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#oslc_Discussion_Resource> .
-<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/2000/01/rdf-schema#comment> "Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1) Em and ex units are interpreted relative to the default system font (at 100% size)." .
-<http://open-services.net/ns/core#rel> <http://www.w3.org/2000/01/rdf-schema#comment> "If present and set to 'alternate' then indicates that work-around is provided, behavior for other values is undefined." .
-<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Creation_Factory> .
-<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
-<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#range> <http://open-services.net/ns/core#AllowedValues> .
-<http://open-services.net/ns/core#property> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
-<http://open-services.net/ns/core#document> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Representation_Preview> .
-<http://open-services.net/ns/core#Zero-or-one> <http://www.w3.org/2000/01/rdf-schema#label> "Zero-or-one" .
-<http://open-services.net/ns/core#icon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#prefix> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#name> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#oauthRequestTokenURI> <http://www.w3.org/2000/01/rdf-schema#comment> "URI for obtaining OAuth request token." .
-<http://open-services.net/ns/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#label> "statusCode" .
-<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the three OAuth URIs required for a client to act as an OAuth consumer." .
-<http://open-services.net/ns/core#Inline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#maxSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Reference> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#queryBase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#nextPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to next page of response." .
-<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#OSLC_Properties> .
-<http://open-services.net/ns/core#Compact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1) Em and ex units are interpreted relative to the default system font (at 100% size)." .
-<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/2000/01/rdf-schema#label> "queryCapability" .
-<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "oauthConfiguration" .
-<http://open-services.net/ns/core#service> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
-<http://open-services.net/ns/core#Either> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/2000/01/rdf-schema#comment> "A default value for property, inlined into property definition." .
-<http://open-services.net/ns/core#PrefixDefinition> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Prefix_Definition> .
-<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#valueType> <http://www.w3.org/2000/01/rdf-schema#label> "valueType" .
-<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/2000/01/rdf-schema#label> "hintWidth" .
-<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/2000/01/rdf-schema#label> "CreationFactory" .
-<http://open-services.net/ns/core#results> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "prefixDefinition" .
 <http://open-services.net/ns/core#ResourceShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#AnyResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/2000/01/rdf-schema#label> "ResponseInfo" .
+<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#PrefixDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "PrefixDefinition" .
+<http://open-services.net/ns/core#prefixBase> <http://www.w3.org/2000/01/rdf-schema#label> "prefixBase" .
+<http://open-services.net/ns/core#One-or-many> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#maxSize> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
 <http://open-services.net/ns/core#ExendedError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
-<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference to comment this comment is in reply to." .
+<http://open-services.net/ns/core#PrefixDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "The PrefixDefinition definition included in ServiceProvider." .
+<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#comment> "Additional service provider catalog." .
+<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#Inline> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#prefixBase> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to define when a property is a member of a container, useful for query." .
+<http://open-services.net/ns/core#AnyResource> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#hidden> <http://www.w3.org/2000/01/rdf-schema#comment> "A hint that indicates that property MAY be hidden when presented in a user interface." .
+<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#icon> <http://www.w3.org/2000/01/rdf-schema#comment> "URL to an icon file that represents the provider. This icon should be a favicon format and 16x16 pixels in size." .
+<http://open-services.net/ns/core#Either> <http://www.w3.org/2000/01/rdf-schema#label> "Either" .
+<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "The QueryCapability definition included in a ServiceProvider." .
+<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/2000/01/rdf-schema#label> "CreationFactory" .
+<http://open-services.net/ns/core#totalCount> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Response_Information> .
+<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#rel> <http://www.w3.org/2000/01/rdf-schema#label> "rel" .
+<http://open-services.net/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#label> "Property" .
+<http://open-services.net/ns/core#oauthRequestTokenURI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#Dialog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#message> <http://www.w3.org/2000/01/rdf-schema#label> "message" .
+<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#describes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#dialog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#LocalResource> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#ExendedError> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Extended_Error> .
+<http://open-services.net/ns/core#Compact> <http://www.w3.org/2000/01/rdf-schema#label> "Compact" .
+<http://open-services.net/ns/core#smallPreview> <http://www.w3.org/2000/01/rdf-schema#label> "smallPreview" .
+<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Creation_Factory> .
+<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Dialog> .
+<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "OAuthConfiguration" .
+<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
+<http://open-services.net/ns/core#service> <http://www.w3.org/2000/01/rdf-schema#label> "service" .
+<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#service> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
+<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Extended_Error> .
+<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Comment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/ns/core/core.rdf> .
+<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/2000/01/rdf-schema#comment> "A default value for property, inlined into property definition." .
+<http://open-services.net/ns/core#Any> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#range> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
 <http://open-services.net/ns/core#domain> <http://www.w3.org/2000/01/rdf-schema#label> "domain" .
-<http://open-services.net/ns/core#Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/2000/01/rdf-schema#label> "discussedBy" .
-<http://open-services.net/ns/core#default> <http://www.w3.org/2000/01/rdf-schema#comment> "Used in conjunction with oslc:usage property used to identify\n		which service is the default usage." .
-<http://open-services.net/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "Resource: value is a resource at a specified URI (i.e. a URI Reference)." .
-<http://open-services.net/ns/core#property> <http://www.w3.org/2000/01/rdf-schema#comment> "The properties that are allowed or required by this shape." .
+<http://open-services.net/ns/core#results> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#PrefixDefinition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Comment> <http://www.w3.org/2000/01/rdf-schema#comment> "A Comment resource represents a single note, or comment, in a discussion thread." .
+<http://open-services.net/ns/core#queryBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#valueShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource giving more information on the error SHOULD be of an HTML content-type." .
+<http://open-services.net/ns/core#Error> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#largePreview> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Representation_Compact> .
+<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/2000/01/rdf-schema#label> "selectionDialog" .
+<http://open-services.net/ns/core#creation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#extendedError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#describes> <http://www.w3.org/2000/01/rdf-schema#label> "describes" .
 <http://open-services.net/ns/core#PrefixDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#extendedError> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#> <http://purl.org/dc/terms/title> "The OSLC Core Vocabulary" .
+<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/2000/01/rdf-schema#comment> "The URI of a Resource Shape that describes the possible properties." .
+<http://open-services.net/ns/core#Comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#results> <http://www.w3.org/2000/01/rdf-schema#label> "results" .
+<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#nextPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#details> <http://www.w3.org/2000/01/rdf-schema#label> "details" .
+<http://open-services.net/ns/core#Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service" .
+<http://open-services.net/ns/core#queryBase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#range> <http://open-services.net/ns/core#AllowedValues> .
+<http://open-services.net/ns/core#initialHeight> <http://www.w3.org/2000/01/rdf-schema#label> "initialHeight" .
+<http://open-services.net/ns/core#Either> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "The Service Provider resource" .
+<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#property> <http://www.w3.org/2000/01/rdf-schema#comment> "The properties that are allowed or required by this shape." .
+<http://open-services.net/ns/core#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Dialog> .
+<http://open-services.net/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource" .
+<http://open-services.net/ns/core#Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/2000/01/rdf-schema#label> "discussionAbout" .
+<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#comment> "The Service Provider Catalog resource" .
+<http://open-services.net/ns/core#representation> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#prefix> <http://www.w3.org/2000/01/rdf-schema#comment> "Namespace prefix to be used for this namespace." .
+<http://open-services.net/ns/core#Reference> <http://www.w3.org/2000/01/rdf-schema#label> "Reference" .
+<http://open-services.net/ns/core#label> <http://www.w3.org/2000/01/rdf-schema#comment> "Very short label for use in menu items." .
+<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables clients query across a collection of resources." .
+<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1) Em and ex units are interpreted relative to the default system font (at 100% size)." .
+<http://open-services.net/ns/core#serviceProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#partOfDiscussion> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference to owning Discussion resource ." .
+<http://open-services.net/ns/core#describes> <http://www.w3.org/2000/01/rdf-schema#comment> "Type or types of resource described by this shape." .
+<http://open-services.net/ns/core#label> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the three OAuth URIs required for a client to act as an OAuth consumer." .
+<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider_Catalog> .
+<http://open-services.net/ns/core#Zero-or-many> <http://www.w3.org/2000/01/rdf-schema#comment> "Property is optional and multi-valued." .
+<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "propertyDefinition" .
+<http://open-services.net/ns/core#domain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#prefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#label> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Publisher> .
+<http://open-services.net/ns/core#serviceProvider> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#initialHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Recommended initial height of the preview. The presence of this property indicates that the preview supports dynamically computing its size. Values MUST be expressed in relative length units as defined in the W3C Cascading Style Sheets Specification (CSS 2.1). Em and ex units are interpreted relative to the default system font (at 100% size)." .
+<http://open-services.net/ns/core#ResourceShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#Resource_Resource_Shape> .
+<http://open-services.net/ns/core#Service> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
+<http://open-services.net/ns/core#nextPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to next page of response." .
+<http://open-services.net/ns/core#oauthConfiguration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
+<http://open-services.net/ns/core#valueShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core/core.rdf> <http://www.rddl.org/nature> <http://www.w3.org/2000/01/rdf-schema#> .
+<http://open-services.net/ns/core#Publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
+<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/2000/01/rdf-schema#comment> "Allowed values for one property." .
+<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/2000/01/rdf-schema#comment> "URI for obtaining OAuth access token." .
+<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/2000/01/rdf-schema#label> "hintWidth" .
+<http://open-services.net/ns/core#Exactly-one> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#default> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#details> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#resourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#creation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "URI of the property whose usage is being described." .
+<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/2000/01/rdf-schema#label> "instanceShape" .
+<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/2000/01/rdf-schema#label> "allowedValue" .
+<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/2000/01/rdf-schema#label> "isMemberProperty" .
+<http://open-services.net/ns/core#icon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#creation> <http://www.w3.org/2000/01/rdf-schema#comment> "To create a new resource via the factory, post it to this URI." .
 <http://open-services.net/ns/core#Service> <http://www.w3.org/2000/01/rdf-schema#comment> "The Service definition included in a ServiceProvider." .
 <http://open-services.net/ns/core#property> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "propertyDefinition" .
-<http://open-services.net/ns/core#prefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#Exactly-one> <http://www.w3.org/2000/01/rdf-schema#comment> "Property with value is required." .
-<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/2000/01/rdf-schema#label> "defaultValue" .
-<http://open-services.net/ns/core#Dialog> <http://www.w3.org/2000/01/rdf-schema#label> "Dialog" .
-<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#describes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource giving more information on the error SHOULD be of an HTML content-type." .
-<http://open-services.net/ns/core#Exactly-one> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#One-or-many> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#OSLC_Properties> .
-<http://open-services.net/ns/core#LocalResource> <http://www.w3.org/2000/01/rdf-schema#label> "LocalResource" .
-<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#icon> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Publisher> .
-<http://open-services.net/ns/core#Any> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
-<http://open-services.net/ns/core#usage> <http://www.w3.org/2000/01/rdf-schema#label> "usage" .
-<http://open-services.net/ns/core#Inline> <http://www.w3.org/2000/01/rdf-schema#label> "Inline" .
-<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/2000/01/rdf-schema#label> "inReplyTo" .
-<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/2000/01/rdf-schema#comment> "Allowed values for one property." .
-<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/2000/01/rdf-schema#label> "instanceShape" .
-<http://open-services.net/ns/core#extendedError> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Error> .
-<http://open-services.net/ns/core#Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#message> <http://www.w3.org/2000/01/rdf-schema#label> "message" .
-<http://open-services.net/ns/core#creation> <http://www.w3.org/2000/01/rdf-schema#label> "creation" .
-<http://open-services.net/ns/core#Compact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service" .
-<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
-<http://open-services.net/ns/core#> <http://purl.org/dc/terms/title> "The OSLC Core Vocabulary" .
-<http://open-services.net/ns/core#ExendedError> <http://www.w3.org/2000/01/rdf-schema#label> "ExendedError" .
-<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/2000/01/rdf-schema#label> "hintHeight" .
+<http://open-services.net/ns/core#largePreview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#resourceType> <http://www.w3.org/2000/01/rdf-schema#comment> "The expected resource type URI of the resource that will be created using this creation factory. These would be the URIs found in the result resource's rdf:type property." .
 <http://open-services.net/ns/core#representation> <http://www.w3.org/2000/01/rdf-schema#comment> "Should be http://open-services.net/ns/core#Reference, http://open-services.net/ns/core#Inline or http://open-services.net/ns/core#Either" .
-<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/2000/01/rdf-schema#comment> "URI for obtaining OAuth access token." .
+<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A series of notes and comments about this resource." .
+<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/2000/01/rdf-schema#comment> "A Creation Factory MAY provide Resource Shapes that describe shapes of resources that may be created." .
+<http://open-services.net/ns/core#valueShape> <http://www.w3.org/2000/01/rdf-schema#comment> "if the value-type is a resource type, then Property MAY provide a shape value to indicate the Resource Shape that applies to the resource." .
+<http://open-services.net/ns/core#occurs> <http://www.w3.org/2000/01/rdf-schema#label> "occurs" .
+<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+<http://open-services.net/ns/core#Property> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/2000/01/rdf-schema#label> "creationFactory" .
+<http://open-services.net/ns/core#prefix> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables clients to select a resource via UI." .
+<http://open-services.net/ns/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Error> .
+<http://open-services.net/ns/core#Publisher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#representation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Shorter form of dcterms:title for the resource." .
+<http://open-services.net/ns/core#prefixBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#LocalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Local Resource: value is an resource available only inside the resource being defined (i.e. a Blank Node)." .
+<http://open-services.net/ns/core#readOnly> <http://www.w3.org/2000/01/rdf-schema#label> "readOnly" .
+<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#comment> <http://www.w3.org/2000/01/rdf-schema#comment> "Comment about the resource." .
+<http://open-services.net/ns/core#maxSize> <http://www.w3.org/2000/01/rdf-schema#comment> "For String properties only, specifies maximum characters allowed. If not set, then there is no maximum or maximum is specified elsewhere." .
+<http://open-services.net/ns/core#valueShape> <http://www.w3.org/2000/01/rdf-schema#label> "valueShape" .
+<http://open-services.net/ns/core#service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#isMemberProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "ServiceProviderCatalog" .
+<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "serviceProviderCatalog" .
+<http://open-services.net/ns/core#Reference> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI Reference representation to a resource." .
+<http://open-services.net/ns/core#Compact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#ResourceShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#Zero-or-many> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#ResponseInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#Dialog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_OAuth_Configuration> .
+<http://open-services.net/ns/core#occurs> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#Exactly-one> <http://www.w3.org/2000/01/rdf-schema#label> "Exactly-one" .
+<http://open-services.net/ns/core#maxSize> <http://www.w3.org/2000/01/rdf-schema#label> "maxSize" .
+<http://open-services.net/ns/core#oauthRequestTokenURI> <http://www.w3.org/2000/01/rdf-schema#comment> "URI for obtaining OAuth request token." .
+<http://open-services.net/ns/core#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#property> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#readOnly> <http://www.w3.org/2000/01/rdf-schema#comment> "true if the property is read-only. If omitted, or set to false, then the property is writable. Providers SHOULD declare a property read-only when changes to the value of that property will not be accepted after the resource has been created, e.g. on PUT/PATCH requests. Consumers should note that the converse does not apply: Providers MAY reject a change to the value of a writable property." .
+<http://open-services.net/ns/core#Comment> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#oslc_Comment_Resource> .
+<http://open-services.net/ns/core#results> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#icon> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Publisher> .
+<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#instanceShape> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#OSLC_Properties> .
+<http://open-services.net/ns/core#valueType> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI that indicates the value type, for example XML Schema or RDF URIs for literal value types, and OSLC-specified for others.  If this property is omitted, then the value type is unconstrained." .
+<http://open-services.net/ns/core#totalCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#Dialog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Dialog> .
+<http://open-services.net/ns/core#readOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#Reference> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#extendedError> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Error> .
+<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/2000/01/rdf-schema#label> "authorizationURI" .
+<http://open-services.net/ns/core#usage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Preview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#dialog> <http://www.w3.org/2000/01/rdf-schema#label> "dialog" .
+<http://open-services.net/ns/core#AnyResource> <http://www.w3.org/2000/01/rdf-schema#label> "AnyResource" .
+<http://open-services.net/ns/core#hidden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#shortTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#comment> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#queryCapability> <http://www.w3.org/2000/01/rdf-schema#label> "queryCapability" .
+<http://open-services.net/ns/core#queryBase> <http://www.w3.org/2000/01/rdf-schema#label> "queryBase" .
+<http://open-services.net/ns/core#rel> <http://www.w3.org/2000/01/rdf-schema#comment> "If present and set to 'alternate' then indicates that work-around is provided, behavior for other values is undefined." .
+<http://open-services.net/ns/core#valueType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#Comment> <http://www.w3.org/2000/01/rdf-schema#label> "Comment" .
+<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
+<http://open-services.net/ns/core#details> <http://www.w3.org/2000/01/rdf-schema#comment> "A URL that may be used to retrieve a web page to determine additional details about the service provider." .
+<http://open-services.net/ns/core#document> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Representation_Preview> .
+<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
+<http://open-services.net/ns/core#AnyResource> <http://www.w3.org/2000/01/rdf-schema#comment> "AnyResource: value is either a Resource or Local Resource." .
+<http://open-services.net/ns/core#domain> <http://www.w3.org/2000/01/rdf-schema#comment> "Namespace URI of the specification that is implemented by this service. In most cases this namespace URI will be for an OSLC domain, but other URIs MAY be used." .
+<http://open-services.net/ns/core#usage> <http://www.w3.org/2000/01/rdf-schema#comment> "An identifier URI for the domain specified usage of this creation factory. If a service provides multiple creation factories, it may designate the primary or default one that should be used with a property value of http://open-services.net/ns/core#default." .
+<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#Dialog> <http://www.w3.org/2000/01/rdf-schema#comment> "The Dialog definition included in ServiceProvider." .
+<http://open-services.net/ns/core#Dialog> <http://www.w3.org/2000/01/rdf-schema#label> "Dialog" .
+<http://open-services.net/ns/core#occurs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/2000/01/rdf-schema#label> "resourceShape" .
+<http://open-services.net/ns/core#smallPreview> <http://www.w3.org/2000/01/rdf-schema#comment> "URI and sizing properties for an HTML document to be used for a small preview." .
+<http://open-services.net/ns/core#range> <http://www.w3.org/2000/01/rdf-schema#label> "range" .
+<http://open-services.net/ns/core#Either> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Any> <http://www.w3.org/2000/01/rdf-schema#label> "Any" .
+<http://open-services.net/ns/core#Reference> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://open-services.net/ns/core#readOnly> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#initialHeight> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Representation_Preview> .
+<http://open-services.net/ns/core#hintHeight> <http://www.w3.org/2000/01/rdf-schema#label> "hintHeight" .
+<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#comment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#icon> <http://www.w3.org/2000/01/rdf-schema#label> "icon" .
+<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#details> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#One-or-many> <http://www.w3.org/2000/01/rdf-schema#label> "One-or-many" .
+<http://open-services.net/ns/core#rel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#extendedError> <http://www.w3.org/2000/01/rdf-schema#comment> "Extended (additional) error information." .
+<http://open-services.net/ns/core#extendedError> <http://www.w3.org/2000/01/rdf-schema#label> "extendedError" .
+<http://open-services.net/ns/core#> <http://purl.org/dc/terms/description> "\n			All vocabulary URIs defined in the OSLC Core namespace.\n		"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> .
+<http://open-services.net/ns/core#prefixBase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Publisher> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Publisher> .
+<http://open-services.net/ns/core#PrefixDefinition> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Prefix_Definition> .
+<http://open-services.net/ns/core#dialog> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Dialog> .
+<http://open-services.net/ns/core#Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#ServiceProvider> <http://www.w3.org/2000/01/rdf-schema#label> "ServiceProvider" .
+<http://open-services.net/ns/core#service> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes a service offered by the service provider." .
+<http://open-services.net/ns/core#queryBase> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Query_Capability> .
+<http://open-services.net/ns/core#occurs> <http://www.w3.org/2000/01/rdf-schema#comment> "MUST be either http://open-services.net/ns/core#Exactly-one, http://open-services.net/ns/core#Zero-or-one, http://open-services.net/ns/core#Zero-or-many or http://open-services.net/ns/core#One-or-many." .
+<http://open-services.net/ns/core#maxSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#extendedError> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#hidden> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/2000/01/rdf-schema#label> "inReplyTo" .
+<http://open-services.net/ns/core#discussedBy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#OSLC_Properties> .
+<http://open-services.net/ns/core#inReplyTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference to comment this comment is in reply to." .
+<http://open-services.net/ns/core#prefix> <http://www.w3.org/2000/01/rdf-schema#label> "prefix" .
+<http://open-services.net/ns/core#usage> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Creation_Factory> .
+<http://open-services.net/ns/core#nextPage> <http://www.w3.org/2000/01/rdf-schema#label> "nextPage" .
+<http://open-services.net/ns/core#discussionAbout> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference to associated resource." .
+<http://open-services.net/ns/core#Compact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Zero-or-one> <http://www.w3.org/2000/01/rdf-schema#comment> "Property is optional and single valued." .
+<http://open-services.net/ns/core#Preview> <http://www.w3.org/2000/01/rdf-schema#comment> "The UI Preview representation." .
+<http://open-services.net/ns/core#Compact> <http://www.w3.org/2000/01/rdf-schema#comment> "The Compact representation, fetched as application/x-oslc-compact+xml" .
+<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/2000/01/rdf-schema#comment> "URI for obtaining OAuth authorization." .
+<http://open-services.net/ns/core#prefixDefinition> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service_Provider> .
+<http://open-services.net/ns/core#describes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#Zero-or-one> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#QueryCapability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#document> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#OAuthConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "The OAuthConfiguration definition included in ServiceProvider." .
+<http://open-services.net/ns/core#name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#resourceShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#range> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/2000/01/rdf-schema#comment> "The CreationFactory definition included in a ServiceProvider." .
+<http://open-services.net/ns/core#maxSize> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#label> "allowedValues" .
+<http://open-services.net/ns/core#nextPage> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Response_Information> .
+<http://open-services.net/ns/core#nextPage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#results> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#message> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Error> .
+<http://open-services.net/ns/core#Any> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#totalCount> <http://www.w3.org/2000/01/rdf-schema#comment> "This optional property indicates the total number of results across all pages, \n		its value should be non-negative. In the context of a query resource, this value SHOULD \n		be the total number of results, i.e. the number of resources that match the query. \n		In the context of other resources, the value SHOULD be the total number of property \n		values (i.e. RDF triples) of the resource. Unless Stable Paging is in effect, the \n		total count MAY vary as a client retrieves subsequent pages." .
+<http://open-services.net/ns/core#moreInfo> <http://www.w3.org/2000/01/rdf-schema#label> "moreInfo" .
+<http://open-services.net/ns/core#> <http://www.w3.org/2000/01/rdf-schema#label> "Core" .
+<http://open-services.net/ns/core#default> <http://www.w3.org/2000/01/rdf-schema#comment> "Used in conjunction with oslc:usage property used to identify\n		which service is the default usage." .
+<http://open-services.net/ns/core#allowedValue> <http://www.w3.org/2000/01/rdf-schema#comment> "value allowed for a property." .
+<http://open-services.net/ns/core#occurs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#Preview> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreUiPreview#Resource_Preview> .
+<http://open-services.net/ns/core#ServiceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Error> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Error> .
+<http://open-services.net/ns/core#describes> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#hintWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#serviceProviderCatalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Exactly-one> <http://www.w3.org/2000/01/rdf-schema#comment> "Property with value is required." .
+<http://open-services.net/ns/core#authorizationURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#valueType> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#CreationFactory> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Creation_Factory> .
+<http://open-services.net/ns/core#One-or-many> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#domain> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
+<http://open-services.net/ns/core#Discussion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#valueShape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables clients to create new resources." .
+<http://open-services.net/ns/core#Discussion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#rel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Extended_Error> .
+<http://open-services.net/ns/core#comment> <http://www.w3.org/2000/01/rdf-schema#label> "comment" .
+<http://open-services.net/ns/core#Zero-or-many> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#dialog> <http://www.w3.org/2000/01/rdf-schema#comment> "The URI of the dialog." .
+<http://open-services.net/ns/core#readOnly> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#selectionDialog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/2000/01/rdf-schema#label> "AllowedValues" .
+<http://open-services.net/ns/core#creationFactory> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Service> .
+<http://open-services.net/ns/core#ResourceShape> <http://www.w3.org/2000/01/rdf-schema#comment> "The Resource Shape used for creation, query and modify." .
+<http://open-services.net/ns/core#Discussion> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#oslc_Discussion_Resource> .
+<http://open-services.net/ns/core#service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#propertyDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#Inline> <http://www.w3.org/2000/01/rdf-schema#label> "Inline" .
+<http://open-services.net/ns/core#statusCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#AllowedValues> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OSLCCoreSpecAppendixA#Resource_Allowed_Values> .
+<http://open-services.net/ns/core#Zero-or-one> <http://www.w3.org/2000/01/rdf-schema#label> "Zero-or-one" .
+<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Zero-or-one> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Discussion> <http://www.w3.org/2000/01/rdf-schema#comment> "A Discussion resource is intended to represent a sequence of comments or notes regarding the associated resource" .
+<http://open-services.net/ns/core#creationDialog> <http://www.w3.org/2000/01/rdf-schema#label> "creationDialog" .
+<http://open-services.net/ns/core#default> <http://www.w3.org/2000/01/rdf-schema#label> "Default usage identifier" .
+<http://open-services.net/ns/core#resourceType> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification#Resource_Creation_Factory> .
+<http://open-services.net/ns/core#name> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP status code reported with the error." .
+<http://open-services.net/ns/core#LocalResource> <http://www.w3.org/2000/01/rdf-schema#label> "LocalResource" .
+<http://open-services.net/ns/core#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#ExendedError> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#Preview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://open-services.net/ns/core#Publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "The Publisher definition included in ServiceProvider." .
+<http://open-services.net/ns/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#serviceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to the resource's OSLC Service Provider." .
+<http://open-services.net/ns/core#allowedValues> <http://www.w3.org/2000/01/rdf-schema#comment> "Resource with allowed values for the property being defined. Range of oslc:AllowedValues" .
+<http://open-services.net/ns/core#oauthAccessTokenURI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#default> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://open-services.net/bin/view/Main/OslcCoreSpecification> .
+<http://open-services.net/ns/core#Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://open-services.net/ns/core#resourceType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://open-services.net/ns/core#> .
+<http://open-services.net/ns/core#defaultValue> <http://www.w3.org/2000/01/rdf-schema#label> "defaultValue" .
 

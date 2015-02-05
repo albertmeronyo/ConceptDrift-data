@@ -1,644 +1,644 @@
-_:fb427896dab304eaeb134f1ad9d8fb54eb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb86 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#label> "house number extension"@en .
-<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#label> "building"@en .
-<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Plaats aangewezen" .
-<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of the document on which a mutation is based."@en .
-<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Woonplaatsstatus-Woonplaats> .
-<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Verblijfsobjectstatus-Verblijfsobject> .
-<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats."@nl .
-<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een woonplaats"@nl .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#thoroughfare> .
-<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb23 .
-<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#comment> "Een nevenadres van een object."@nl .
-<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een nummeraanduiding."@nl .
-<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Type_Openbare_ruimte-Openbare_ruimte> .
-<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#label> "last known mutation"@en .
-<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Woonplaats> .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#label> "verblijfsobject"@nl .
-<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie is een verandering van de gegevens van een object dat in de  Basisregistratie Adressen en Gebouwen (BAG) wordt bijgehouden. De eerste registratie van gegevens wordt ook als mutatie gezien."@nl .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/spatial> <http://dbpedia.org/resource/Netherlands> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#label> "name of a city, town or village of residence"@en .
-<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Standplaats> .
-<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#label> "document date"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de ligplaats of standplaats."@nl .
-<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "Gerelateerde woonplaats."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand buiten gebruik" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb50 .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "Een formeel door de gemeenteraad als zodanig aangewezen terrein of een gedeelte daarvan, dat bestemd is voor het permanent plaatsen van een niet direct en duurzaam met de aarde verbonden en voor woon -, bedrijfsmatige - of recreatieve doeleinden geschikte ruimte."@nl .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan aangewezen en van een naam voorziene buitenruimte die binnen \u00E9\u00E9n woonplaats is gelegen, bijvoorbeeld een straat of een plein."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#comment> "An officialy named public space, usually a street or a square."@en .
-<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb44 .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#comment> "The start of the time period in which object data have been changed."@en .
-<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "verblijfsobjectmutatie"@nl .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Woonplaats> .
-<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#label> "huisnummertoevoeging"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "gezondheidszorgfunctie" .
-<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#comment> "The functional purpose of a residential object."@en .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb42 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb43 .
-<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of an address."@en .
-<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Pandmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of an address."@en .
-<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb3 .
-<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#label> "gebruiksdoel"@nl .
-<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb24 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb25 .
-<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#locatorDesignator> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Bouw gestart" .
-<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een ligplaats."@nl .
-<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
-<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
-<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#geometry> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Woonplaats aangewezen" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Water" .
-<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb39 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb55 .
-<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#comment> "De begintijd van een periode waarin een of meer gegevens die worden bijgehouden over een object een wijziging hebben ondergaan."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "winkelfunctie" .
-<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#comment> "The main address of an object."@en .
-<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#comment> "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake was van een regulier brondocument voor de opname."@nl .
-<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#comment> "An additonal address of an object."@en .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#comment> "The smallest unit of space within one or more buildings, intended for residential, business or recreation purposes and having its own access from a public space or private courtyard."@en .
-<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving uitgegeven" .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "Een formeel door de gemeenteraad als zodanig aangewezen plaats in het water, al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, dat bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige- of recreatieve doeleinden geschikt vaartuig."@nl .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
-<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#label> "public space"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb48 .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#label> "static caravan site"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb21 <http://www.w3.org/2002/07/owl#unionOf> _:fb427896dab304eaeb134f1ad9d8fb54eb22 .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Plaats aangewezen" .
-<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#comment> "This shows whether an object is registered because of a field observation."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb63 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#comment> "De kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb64 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand gesloopt" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/locn#Address> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#geographicName> .
-<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#label> "pand"@nl .
-<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of a city, town or village of residence"@en .
-<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Administratief gebied" .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of an address"@en .
-<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb90 .
-<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#comment> "Het gebruiksdoel van een verblijfsobject."@nl .
-<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb34 .
-<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl .
-<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Standplaats> .
-<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#comment> "A spatial object that can be identified by an address."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/modified> "2014-05-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb74 .
-<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "berth mutation"@en .
-<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#label> "verkorte naam"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Water" .
-<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#label> "type of public space"@en .
-<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on an address."@en .
-<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#comment> "De nummering van een geadresseerd object."@nl .
-<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "static caravan site mutation"@en .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://qudt.org/1.1/vocab/unit#quantity> <http://qudt.org/vocab/quantity#Area> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Administratief gebied" .
-<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfabetisch teken (a-z, A-Z)."@nl .
-<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#label> "woonplaats"@nl .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/description> "Vocabulary for the Dutch base registration of buildings and addresses (BAG)."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb92 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb26 .
-<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#comment> "Any extra letters or digits needed to identify the address."@en .
-<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de woonplaats."@nl .
-<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#label> "huisnummer"@nl .
-<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "overige gebruiksfunctie" .
-<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "pandmutatie"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb18 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb19 .
-<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#comment> "Een verkorte versie van de naam."@nl .
-<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#label> "building"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb69 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb70 .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/brk/id/concept/Verblijfsobject> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb32 .
-<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#comment> "related address."@en .
-<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#locatorDesignator> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#postName> .
-<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#comment> "The smallest unit of a building with functional or constructional independence that has a direct and permanent connection with the earth and is possible to enter and close."@en .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#comment> "The address assigned by the official municipal authority."@en .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#label> "residential object"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb12 .
-<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#label> "hoofdadres"@nl .
-<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van het verblijfsobject."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "celfunctie" .
-<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutatie"@nl .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Openbare_ruimte> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb51 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving ingetrokken" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb13 .
-<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "bijeenkomstfunctie" .
-<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#locatorDesignator> .
-<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#label> "openbareruimtemutatie"@nl .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de openbare ruimte."@nl .
-<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#label> "additional address"@en .
-<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#label> "pand"@nl .
-<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#comment> "De datum van vaststelling van het brondocument op basis waarvan een opname of mutatie van gegevens heeft plaatsgevonden."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb75 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb76 .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of a berth or a static caravan site."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Weg" .
-<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl .
-<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "logiesfunctie" .
-<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Status_Openbare_ruimte-Openbare_ruimte> .
-<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Pandstatus-Pand> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb4 .
-<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#label> "house letter"@en .
-<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#label> "documentnummer"@nl .
-<http://lod.geodan.nl/vocab/bag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of the residential object."@en .
-<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#comment> "Gerelateerde openbare ruimte."@nl .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
-<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "woonplaatsmutatie"@nl .
-<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#label> "start date"@en .
-<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
-<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#comment> "Van alle mutaties van een object is dit binnen de dataset meest recente actieve mutatie."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Niet gerealiseerd pand" .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Pandmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb29 .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier of an object in the BAG."@en .
-<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation"@en .
-<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb24 .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb45 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb46 .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#comment> "The name assigned by the municipal authority to a public space."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/elements/1.1/publisher> <http://lod.geodan.nl/org/geodan> .
-<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
-<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#comment> "Het jaar waarin het pand gereed kwam."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Niet gerealiseerd pand" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Kunstwerk" .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Bouw gestart" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb85 .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#label> "postcode"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand buiten gebruik" .
-<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb60 .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> .
-<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#label> "nummeraanduiding"@nl .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Terrein" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb78 .
-<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier of the document on which a mutation is based."@en .
-<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "gezondheidszorgfunctie" .
-<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Nummeraanduidingstatus-Nummeraanduiding> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb69 .
-<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb31 .
-<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#postCode> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#label> "woonplaatsnaam"@nl .
-<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#label> "oppervlakte (vierkante meter)"@nl .
-<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#label> "built year"@en .
-<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#OpenbareRuimte> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "overige gebruiksfunctie" .
-<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of a building"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Terrein" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb5 .
-<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject in gebruik (niet ingemeten)" .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "An officially assigned site for the placement of a construction without a direct and permanent connection with the earth."@en .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of a residential object"@en .
-<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb11 .
-<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Huisnummertoevoeging-Nummeraanduiding> .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Ligplaatsstatus-Ligplaats> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb56 .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a residential object."@en .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Standplaatsstatus-Standplaats> .
-<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#comment> "A letter (a-z, A-Z) added to a house number."@en .
-<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een openbare ruimte."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb59 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand in gebruik" .
 <http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/modified> "2014-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Kunstwerk" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "bijeenkomstfunctie" .
-<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "ligplaatsmutatie"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "woonfunctie" .
-<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#label> "openbare ruimte"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb96 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb97 .
-<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#comment> "This property shows whether the data of an object are being investigated."@en .
-<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://qudt.org/1.1/vocab/unit#unit> <http://qudt.org/1.1/vocab/unit#SquareMeter> .
-<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#comment> "Het hoofdadres van een object."@nl .
-<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een woonplaats."@nl .
-<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#label> "addressable object"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb99 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb67 .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#label> "openbare ruimte"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb20 .
-<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#OpenbareRuimte> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of a city, town or village of residence."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand in gebruik (niet ingemeten)" .
-<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#label> "nevenadres"@nl .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#label> "public space"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb35 .
-<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#label> "correction"@en .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#comment> "De kleinste binnen \u00E9\u00E9n of meerdere panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte en die onderwerp kan zijn van goederenrechtelijke rechtshandelingen."@nl .
-<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb52 .
-<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#comment> "The end of the time period in which object data have been changed."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb36 .
-<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
-<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/brk/id/concept/Adresseerbaarobject> .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb17 .
-<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving ingetrokken" .
-<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of a public space"@en .
-<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimtelijk object dat een adres heeft. Een adresseerbaar object heeft 1 hoofdadres, en 0 of meer nevenadressen. Een nevenadres kan worden toegekend indien een verblijfsobject meerdere toegangen heeft aan verschillende straten."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb27 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb28 .
-<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#comment> "Die letters of tekens die noodzakelijk zijn om, naast huisnummer en -letter, het adres aan te duiden."@nl .
-<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#comment> "The name assigned by the municipal authority to a city, town or village of residence."@en .
-<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke aanduiding van het brondocument op basis waarvan een opname of mutatie van gegevens heeft plaatsgevonden."@nl .
-<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Huisletter-Nummeraanduiding> .
-<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#label> "officieel"@nl .
-<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "standplaatsmutatie"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb62 .
-<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Woonplaatsnaam-Woonplaats> .
-<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb45 .
-<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#label> "address"@en .
-<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb1 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb33 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb87 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Sloopvergunning verleend" .
-<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
-<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Oppervlakte_verblijfsobject-Verblijfsobject> .
-<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#comment> "related public space."@en .
-<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/modified> "2014-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#comment> "This indicates that this mutation is the most recent active mutation of an object."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand gesloopt" .
-<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of a city, town or village of residence"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb98 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb77 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "onderwijsfunctie" .
-<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Pandrelatering-Verblijfsobject> .
-<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Postcode-Nummeraanduiding> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject ingetrokken" .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
-<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject gevormd" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb78 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb79 .
-<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Bouwvergunning verleend" .
-<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
-<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Huisnummer-Nummeraanduiding> .
-<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#label> "document number"@en .
-<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#geographicName> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb72 <http://www.w3.org/2002/07/owl#unionOf> _:fb427896dab304eaeb134f1ad9d8fb54eb73 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb39 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb40 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb65 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "industriefunctie" .
-<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a public space."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb89 .
-<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a static caravan site."@en .
-<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
-<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de nummeraanduiding."@nl .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#label> "geometry"@en .
-<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "related city, town or village of residence."@en .
-<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#label> "area (square meter)"@en .
-<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#OpenbareRuimte> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb75 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject buiten gebruik" .
-<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#label> "main address"@en .
-<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Adresseerbaarobject> .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/elements/1.1/date> "2014-03-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb58 .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "The official place where a boat is permanently moored."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb30 .
-<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Pand> .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Nummeraanduiding> .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente."@nl .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Pand> .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een ligplaats of standplaats"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject in gebruik" .
-<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
-<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb6 .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#label> "standplaats"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand in gebruik (niet ingemeten)" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "kantoorfunctie" .
-<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of a building"@en .
-<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a berth."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Niet gerealiseerd verblijfsobject" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb60 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb61 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Plaats ingetrokken" .
-<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#label> "laast bekende mutatie"@nl .
-<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#label> "house number"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Spoorbaan" .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
-<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Woonplaats> .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke identificatie van een object binnen de BAG. Woonplaatsen hebben een unieke woonplaatscode van vier cijfers. Alle overige objecten hebben een unieke identificatie van het formaat GGGGTTNNNNNNNNNN, waarbij GGGG staat voor de gemeentecode van de gemeente die het object als eerste heeft opgevoerd. Bij een gemeentelijke herindeling blijft de identificatie van de objecten binnen die gemeente ongewijzigd. TT staat voor de objecttypecode. Die is 01 voor een verblijfsobject, 02 voor een ligplaats, 03 voor een standplaats, 10 voor een pand, 20 voor een nummeraanduiding, 30 voor een openbare ruimte en 40 voor een woonplaats.  NNNNNNNNNN is een binnen een gemeente uniek tiencijferig nummer."@nl .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#label> "city, town or village of residence"@en .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/modified> "2014-09-19"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb27 .
-<http://lod.geodan.nl/vocab/bag> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabularium voor de Basisregistratie Adressen en Gebouwen (BAG)."@nl .
-<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een pand."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving uitgegeven" .
-<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
-<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a building."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb84 .
-<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Pand> .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb15 .
-<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of an address"@en .
-<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#comment> "An abbreviated version of the name."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "celfunctie" .
-<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Pandmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "sportfunctie" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb54 .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een verblijfsobject."@nl .
-<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een verblijfsobject"@nl .
-<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#comment> "Een gerelateerd pand."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb68 .
-<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#label> "official"@en .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Naam_Openbare_ruimte-Openbare_ruimte> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "woonfunctie" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Plaats ingetrokken" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb52 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb53 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb95 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb80 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb9 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb10 .
-<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de pand."@nl .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Ligplaats> .
-<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Sloopvergunning verleend" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb101 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject buiten gebruik" .
-<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Pand> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#label> "identifier"@en .
-<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#geographicName> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Weg" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#label> "bouwjaar"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Niet gerealiseerd verblijfsobject" .
-<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#label> "purpose"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#label> "active"@en .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#comment> "Het soort openbare ruimte."@nl .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#domain> _:fb427896dab304eaeb134f1ad9d8fb54eb72 .
-<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Ligplaatsmuatie> .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
-<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een nummeraanduiding"@nl .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#label> "nummeraanduiding"@nl .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb57 .
-<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> .
-<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een volgnummer ter unieke identificatie van de inactieve mutaties met een gelijk begintijdstip."@nl .
-<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#label> "end date"@en .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of berth or static caravan site"@en .
-<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een openbare ruimte"@nl .
-<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#comment> "Een aanduiding waarmee wordt aangegeven dat een onderzoek wordt uitgevoerd naar de juistheid van gegevens van het object."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb8 .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb9 .
-<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#label> "documentdatum"@nl .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/elements/1.1/creator> <http://lod.geodan.nl/org/frans_knibbe> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb81 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb93 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb94 .
-<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Gebruiksdoel_verblijfsobject-Verblijfsobject> .
-<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#label> "huisletter"@nl .
-<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of the public space."@en .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Adresseerbaarobject> .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#label> "ligplaats"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "onderwijsfunctie" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb49 .
-<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#comment> "An active mutation is part of the actual development of an object."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving uitgegeven" .
-<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#label> "actief"@nl .
-<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of a buiding."@en .
-<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb93 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb14 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "kantoorfunctie" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "sportfunctie" .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb42 .
-<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#label> "correctie"@nl .
-<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#label> "inonderzoek"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb16 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Woonplaats ingetrokken" .
-<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject in gebruik" .
-<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#label> "investigated"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject gevormd" .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#label> "address"@en .
-<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Woonplaats> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving uitgegeven" .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/description> "Vocabularium voor de Basisregistratie Adressen en Gebouwen (BAG)."@nl .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#comment> "The two dimensional representation of the extent of the object."@en .
 <http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#comment> "Als een mutatie actief is maakt zij deel uit van de levensloop van een object."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "industriefunctie" .
-<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#label> "city, town or village of residence"@en .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of an residential object"@en .
-<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Ligplaats> .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#label> "openbareruimtenaam"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb90 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb91 .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#label> "woonplaats"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject in gebruik (niet ingemeten)" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Landschappelijk gebied" .
-<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#comment> "De eindtijd van een periode waarin een of meer gegevens die worden bijgehouden over een object een wijziging hebben ondergaan."@nl .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#label> "berth"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een pand"@nl .
-<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of public space."@en .
-<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb7 .
-<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#comment> "A sequence number to identify inactive mutations with the same start time."@en .
-<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#label> "identificatie"@nl .
-<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving ingetrokken" .
+<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#label> "actief"@nl .
+<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Oppervlakte_verblijfsobject-Verblijfsobject> .
+<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of an address"@en .
+<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand buiten gebruik" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b92 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "industriefunctie" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b65 .
+<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Pand> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand in gebruik" .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving uitgegeven" .
+<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of a residential object"@en .
+<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#comment> "The main address of an object."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#label> "standplaats"@nl .
+<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of a city, town or village of residence."@en .
+<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
+<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b9 .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#label> "public space"@en .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#comment> "The address assigned by the official municipal authority."@en .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#label> "pand"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b12 .
+<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of a public space"@en .
+<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#comment> "An abbreviated version of the name."@en .
 <http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#comment> "De oppervlakte gemeten volgens de specificaties in NEN 2580."@nl .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan toegekende benaming van een openbare ruimte."@nl .
-<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/elements/1.1/created> "2013-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation is a change in the set of properties of an object that is registered in the BAG. The first set of properties is also considered a mutation."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Spoorbaan" .
-<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
-<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#comment> "A related building."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb71 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "An officialy named part of a municipality, used to indicate a place of residence."@en .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb18 .
-<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
-<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> .
-<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of an address."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Woonplaats ingetrokken" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving ingetrokken" .
-<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#label> "type openbare ruimte"@nl .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "nummeraanduidingmutatie"@nl .
-<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#domain> _:fb427896dab304eaeb134f1ad9d8fb54eb21 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb102 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "logiesfunctie" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand in gebruik" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb1 <http://www.w3.org/2002/07/owl#oneOf> _:fb427896dab304eaeb134f1ad9d8fb54eb2 .
-<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#label> "abbreviated name"@en .
-<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#label> "name of a public space"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb100 .
-<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#comment> "De area according to measurement specified in standard NEN 2580."@en .
-<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan toegekende benaming van een woonplaats."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Bouwvergunning verleend" .
-<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Pandmutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Verblijfsobject> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject ingetrokken" .
-<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of a public space"@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb37 .
-<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a city, town or village of residence."@en .
-<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#label> "post code"@en .
-<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
-<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb83 .
-<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb88 .
-<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#comment> "De year in which the building was ready."@en .
-_:fb427896dab304eaeb134f1ad9d8fb54eb79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "winkelfunctie" .
-<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#label> "adresseerbaar object"@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Landschappelijk gebied" .
-_:fb427896dab304eaeb134f1ad9d8fb54eb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Woonplaats aangewezen" .
-<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#comment> "Gerelateerde nummeraanduiding."@nl .
-<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb47 .
-<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb427896dab304eaeb134f1ad9d8fb54eb96 .
-<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/locn#Address> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb38 .
-<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#comment> "De tweedimensionele geometrische representatie van de omtrek van het object."@nl .
-<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#comment> "De nummering van een geadresseerd object."@nl .
-<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:fb427896dab304eaeb134f1ad9d8fb54eb40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb41 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb66 .
-_:fb427896dab304eaeb134f1ad9d8fb54eb42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://lod.geodan.nl/vocab/bag> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary for the Dutch base registration of buildings and addresses (BAG)."@en .
 <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een ligplaats."@nl .
-_:fb427896dab304eaeb134f1ad9d8fb54eb81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb427896dab304eaeb134f1ad9d8fb54eb82 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Bouw gestart" .
+<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier of the document on which a mutation is based."@en .
+<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#label> "woonplaatsnaam"@nl .
+<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#comment> "De area according to measurement specified in standard NEN 2580."@en .
+<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#comment> "De nummering van een geadresseerd object."@nl .
+<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of a public space"@en .
+<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#label> "huisletter"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "woonfunctie" .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#comment> "An officialy named public space, usually a street or a square."@en .
+<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#label> "active"@en .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/elements/1.1/date> "2014-03-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a static caravan site."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Plaats ingetrokken" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Weg" .
+<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a public space."@en .
+<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een openbare ruimte."@nl .
+<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#label> "building"@en .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#label> "identifier"@en .
+<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Huisnummertoevoeging-Nummeraanduiding> .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#label> "verblijfsobject"@nl .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "nummeraanduidingmutatie"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand in gebruik (niet ingemeten)" .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#label> "static caravan site"@en .
+<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "Gerelateerde woonplaats."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "sportfunctie" .
+<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#label> "official"@en .
+<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#OpenbareRuimte> .
+<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of an address"@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "bijeenkomstfunctie" .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/brk/id/concept/Adresseerbaarobject> .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Water" .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b49 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b18 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b19 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Niet gerealiseerd pand" .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Pand> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b36 .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/modified> "2014-09-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#label> "last known mutation"@en .
+<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#comment> "Het hoofdadres van een object."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "onderwijsfunctie" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving uitgegeven" .
+<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#label> "huisnummertoevoeging"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b14 .
+<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Pandmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b98 .
+<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#comment> "A sequence number to identify inactive mutations with the same start time."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#comment> "Het gebruiksdoel van een verblijfsobject."@nl .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#geometry> .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
+<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand buiten gebruik" .
+<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#label> "officieel"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b51 .
+<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#comment> "De year in which the building was ready."@en .
+<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#comment> "Van alle mutaties van een object is dit binnen de dataset meest recente actieve mutatie."@nl .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b1 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b2 .
+<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Nummeraanduiding> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b77 .
+<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#OpenbareRuimte> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b42 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b43 .
+<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#label> "postcode"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de woonplaats."@nl .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://lod.geodan.nl/vocab/bag> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabularium voor de Basisregistratie Adressen en Gebouwen (BAG)."@nl .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "pandmutatie"@nl .
+<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b27 .
+<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#label> "addressable object"@en .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#label> "geometry"@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b75 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b76 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Sloopvergunning verleend" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b54 .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#label> "identificatie"@nl .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b52 .
+<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> .
 <http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Oorspronkelijke_bouwjaar_pand-Pand> .
+<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://qudt.org/1.1/vocab/unit#unit> <http://qudt.org/1.1/vocab/unit#SquareMeter> .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/brk/id/concept/Verblijfsobject> .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "Een formeel door de gemeenteraad als zodanig aangewezen plaats in het water, al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, dat bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige- of recreatieve doeleinden geschikt vaartuig."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject buiten gebruik" .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/elements/1.1/creator> <http://lod.geodan.nl/org/frans_knibbe> .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/locn#Address> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Sloopvergunning verleend" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b88 .
+<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#label> "end date"@en .
+<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#geographicName> .
+<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#comment> "The name assigned by the municipal authority to a city, town or village of residence."@en .
+<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a building."@en .
+<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke aanduiding van het brondocument op basis waarvan een opname of mutatie van gegevens heeft plaatsgevonden."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b9 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b10 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "gezondheidszorgfunctie" .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "The official place where a boat is permanently moored."@en .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/description> "Vocabulary for the Dutch base registration of buildings and addresses (BAG)."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b44 .
+<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#label> "house letter"@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Landschappelijk gebied" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving ingetrokken" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Landschappelijk gebied" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b72 <http://www.w3.org/2002/07/owl#unionOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b73 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b90 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving ingetrokken" .
+<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een pand"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een nummeraanduiding"@nl .
+<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of an address."@en .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b41 .
+<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#label> "additional address"@en .
+<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#label> "woonplaats"@nl .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#geographicName> .
+<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#label> "pand"@nl .
+<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of the document on which a mutation is based."@en .
+<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#label> "city, town or village of residence"@en .
+<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#comment> "This indicates that this mutation is the most recent active mutation of an object."@en .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats."@nl .
+<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een woonplaats"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject ingetrokken" .
+<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of the public space."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b64 .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.geodan.nl/vocab/bag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "logiesfunctie" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan toegekende benaming van een openbare ruimte."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "woonfunctie" .
+<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#comment> "This shows whether an object is registered because of a field observation."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Plaats ingetrokken" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "winkelfunctie" .
+<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b24 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b90 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b91 .
+<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject ingetrokken" .
+<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een volgnummer ter unieke identificatie van de inactieve mutaties met een gelijk begintijdstip."@nl .
+<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b75 .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Openbare_ruimte> .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#label> "woonplaats"@nl .
+<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#label> "house number extension"@en .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b4 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "celfunctie" .
+<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#label> "address"@en .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "verblijfsobjectmutatie"@nl .
+<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Woonplaats> .
+<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Pand> .
+<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "standplaatsmutatie"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b5 .
+<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#label> "openbare ruimte"@nl .
+<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#label> "bouwjaar"@nl .
+<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#label> "correction"@en .
+<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een openbare ruimte"@nl .
+<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b60 .
+<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/description> "Vocabularium voor de Basisregistratie Adressen en Gebouwen (BAG)."@nl .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een ligplaats."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b29 .
+<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b71 .
+<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b56 .
+<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Pandmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b20 .
+<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation"@en .
+<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of a buiding."@en .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Woonplaats> .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#comment> "An active mutation is part of the actual development of an object."@en .
+<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Kunstwerk" .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#domain> _:fb9e5cc8b4ac442a4bd8af00713917d03b72 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Woonplaats ingetrokken" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b96 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b97 .
+<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of a building"@en .
+<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Pandmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b39 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b40 .
+<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#label> "huisnummer"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b11 .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#comment> "The unique identifier of an object in the BAG."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#comment> "related public space."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b35 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b33 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b30 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Niet gerealiseerd verblijfsobject" .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of a berth or a static caravan site."@en .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on an address."@en .
+<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een woonplaats."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b27 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b28 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b38 .
+<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#label> "oppervlakte (vierkante meter)"@nl .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving uitgegeven" .
+<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Woonplaats aangewezen" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b6 .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b69 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "kantoorfunctie" .
+<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
+<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Ligplaats> .
+<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Type_Openbare_ruimte-Openbare_ruimte> .
+<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b84 .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/elements/1.1/publisher> <http://lod.geodan.nl/org/geodan> .
+<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "ligplaatsmutatie"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject in gebruik" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b37 .
+<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#label> "purpose"@en .
+<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
+<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#comment> "This property shows whether the data of an object are being investigated."@en .
+<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#comment> "Een gerelateerd pand."@nl .
+<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Administratief gebied" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#label> "nevenadres"@nl .
+<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#comment> "Die letters of tekens die noodzakelijk zijn om, naast huisnummer en -letter, het adres aan te duiden."@nl .
+<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Pandmutatie> .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Pandstatus-Pand> .
+<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#label> "house number"@en .
+<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#comment> "The functional purpose of a residential object."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject in gebruik (niet ingemeten)" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b87 .
+<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#comment> "The start of the time period in which object data have been changed."@en .
+<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#comment> "De begintijd van een periode waarin een of meer gegevens die worden bijgehouden over een object een wijziging hebben ondergaan."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b101 .
+<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "static caravan site mutation"@en .
+<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "berth mutation"@en .
+<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b13 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b83 .
+<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#comment> "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake was van een regulier brondocument voor de opname."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b16 .
+<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "celfunctie" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b59 .
+<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#comment> "The smallest unit of a building with functional or constructional independence that has a direct and permanent connection with the earth and is possible to enter and close."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Bouwvergunning verleend" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b86 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b45 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b46 .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Woonplaats ingetrokken" .
+<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutatie"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject gevormd" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b23 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Bouwvergunning verleend" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "winkelfunctie" .
+<http://lod.geodan.nl/vocab/bag#woonplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "related city, town or village of residence."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b47 .
+<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#label> "geometrie"@nl .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#comment> "De tweedimensionele geometrische representatie van de omtrek van het object."@nl .
+<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#label> "name of a city, town or village of residence"@en .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Ligplaatsstatus-Ligplaats> .
+<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#locatorDesignator> .
+<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#label> "start date"@en .
+<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
+<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of an address."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#locatorDesignator> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving uitgegeven" .
+<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Verblijfsobjectstatus-Verblijfsobject> .
+<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#label> "begindatum"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "industriefunctie" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "logiesfunctie" .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b81 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b74 .
+<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Postcode-Nummeraanduiding> .
+<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een verblijfsobject"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "Een formeel door de gemeenteraad als zodanig aangewezen terrein of een gedeelte daarvan, dat bestemd is voor het permanent plaatsen van een niet direct en duurzaam met de aarde verbonden en voor woon -, bedrijfsmatige - of recreatieve doeleinden geschikte ruimte."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "onderwijsfunctie" .
+<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b1 .
+<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#label> "verkorte naam"@nl .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b68 .
+<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/2000/01/rdf-schema#label> "document number"@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand in gebruik" .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
+<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#comment> "Een nevenadres van een object."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Woonplaats aangewezen" .
+<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#label> "main address"@en .
+<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#postName> .
+<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Nummeraanduidingstatus-Nummeraanduiding> .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b17 .
+<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://qudt.org/1.1/vocab/unit#quantity> <http://qudt.org/vocab/quantity#Area> .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#comment> "De unieke identificatie van een object binnen de BAG. Woonplaatsen hebben een unieke woonplaatscode van vier cijfers. Alle overige objecten hebben een unieke identificatie van het formaat GGGGTTNNNNNNNNNN, waarbij GGGG staat voor de gemeentecode van de gemeente die het object als eerste heeft opgevoerd. Bij een gemeentelijke herindeling blijft de identificatie van de objecten binnen die gemeente ongewijzigd. TT staat voor de objecttypecode. Die is 01 voor een verblijfsobject, 02 voor een ligplaats, 03 voor een standplaats, 10 voor een pand, 20 voor een nummeraanduiding, 30 voor een openbare ruimte en 40 voor een woonplaats.  NNNNNNNNNN is een binnen een gemeente uniek tiencijferig nummer."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b93 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b94 .
+<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of public space."@en .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#label> "ligplaats"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#pandstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de pand."@nl .
+<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of a city, town or village of residence"@en .
+<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of an address."@en .
+<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Gebruiksdoel_verblijfsobject-Verblijfsobject> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "bijeenkomstfunctie" .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een verblijfsobject."@nl .
+<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b7 .
+<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan toegekende benaming van een woonplaats."@nl .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Spoorbaan" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b102 .
+<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#comment> "De kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is."@nl .
+<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#comment> "De nummering van een geadresseerd object."@nl .
+<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#label> "openbare ruimte"@nl .
+<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#label> "hoofdadres"@nl .
+<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#comment> "De kleinste binnen \u00E9\u00E9n of meerdere panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte en die onderwerp kan zijn van goederenrechtelijke rechtshandelingen."@nl .
+<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Plaats aangewezen" .
+<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Adresseerbaarobject> .
+<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de ligplaats of standplaats."@nl .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#label> "documentdatum"@nl .
+<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Status_Openbare_ruimte-Openbare_ruimte> .
+<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b24 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b25 .
+<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#comment> "A related building."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject gevormd" .
+<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation is a change in the set of properties of an object that is registered in the BAG. The first set of properties is also considered a mutation."@en .
+<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "the phase of development of the residential object."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand gesloopt" .
+<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#label> "built year"@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject in gebruik (niet ingemeten)" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b63 .
+<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "sportfunctie" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b34 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Terrein" .
+<http://lod.geodan.nl/vocab/bag#huisnummer> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Huisnummer-Nummeraanduiding> .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#label> "name of a public space"@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving ingetrokken" .
+<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#comment> "De datum van vaststelling van het brondocument op basis waarvan een opname of mutatie van gegevens heeft plaatsgevonden."@nl .
+<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b78 .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b66 .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a residential object."@en .
+<http://lod.geodan.nl/vocab/bag#officieel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
+<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
+<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Pandrelatering-Verblijfsobject> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b100 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#documentdatum> <http://www.w3.org/2000/01/rdf-schema#label> "document date"@en .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b96 .
+<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#comment> "related address."@en .
+<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de nummeraanduiding."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b62 .
+<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Ligplaatsmuatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b82 .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Naam_Openbare_ruimte-Openbare_ruimte> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b15 .
+<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b45 .
+<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#geographicName> .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#comment> "The two dimensional representation of the extent of the object."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Weg" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Bouw gestart" .
+<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Standplaats> .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b18 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject buiten gebruik" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Spoorbaan" .
+<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een pand."@nl .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Standplaats> .
+<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#label> "type of public space"@en .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/elements/1.1/created> "2013-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#label> "residential object"@en .
+<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfabetisch teken (a-z, A-Z)."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b85 .
+<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
+<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status van een ligplaats of standplaats"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente."@nl .
+<http://lod.geodan.nl/vocab/bag#gebruiksdoel> <http://www.w3.org/2000/01/rdf-schema#label> "gebruiksdoel"@nl .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#label> "nummeraanduiding"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b32 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b8 .
+<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#label> "investigated"@en .
+<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Woonplaatsstatus-Woonplaats> .
+<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b55 .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#label> "city, town or village of residence"@en .
+<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#locatorDesignator> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Plaats aangewezen" .
+<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#label> "public space"@en .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Verblijfsobject> .
+<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b21 <http://www.w3.org/2002/07/owl#unionOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b22 .
+<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#comment> "Any extra letters or digits needed to identify the address."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b58 .
+<http://lod.geodan.nl/vocab/bag#verblijfsobjectstatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van het verblijfsobject."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Niet gerealiseerd pand" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b67 .
+<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#label> "building"@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Kunstwerk" .
+<http://lod.geodan.nl/vocab/bag#geometrie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
+<http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> <http://www.w3.org/2000/01/rdf-schema#label> "openbareruimtemutatie"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b52 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b53 .
+<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#label> "area (square meter)"@en .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/spatial> <http://dbpedia.org/resource/Netherlands> .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie van de gegevens van een nummeraanduiding."@nl .
+<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "woonplaatsmutatie"@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of a city, town or village of residence"@en .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "An officially assigned site for the placement of a construction without a direct and permanent connection with the earth."@en .
+<http://lod.geodan.nl/vocab/bag#documentnummer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#comment> "De fase van de levensloop van de openbare ruimte."@nl .
+<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a city, town or village of residence."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b60 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b61 .
+<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#comment> "The name assigned by the municipal authority to a public space."@en .
+<http://lod.geodan.nl/vocab/bag#Standplaats> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> .
+<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "overige gebruiksfunctie" .
+<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Pand> .
+<http://lod.geodan.nl/vocab/bag#hoofdadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#label> "address"@en .
+<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#comment> "Het soort openbare ruimte."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b80 .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Openbareruimtemutatie> .
+<http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b31 .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of berth or static caravan site"@en .
+<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b26 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b50 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#range> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of an residential object"@en .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#Mutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "Een mutatie is een verandering van de gegevens van een object dat in de  Basisregistratie Adressen en Gebouwen (BAG) wordt bijgehouden. De eerste registratie van gegevens wordt ook als mutatie gezien."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#domain> _:fb9e5cc8b4ac442a4bd8af00713917d03b21 .
+<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b93 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://lod.geodan.nl/vocab/bag#oppervlakte> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://lod.geodan.nl/vocab/bag#begindatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#Woonplaatsmutatie> <http://www.w3.org/2004/02/skos/core#broader> <http://lod.geodan.nl/vocab/bag#Woonplaats> .
+<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#label> "einddatum"@nl .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Ligplaats> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#pand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
+<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#comment> "Een aanduiding waarmee wordt aangegeven dat een onderzoek wordt uitgevoerd naar de juistheid van gegevens van het object."@nl .
+<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://lod.geodan.nl/vocab/bag#plaatsstatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Standplaatsstatus-Standplaats> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/modified> "2014-05-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Niet gerealiseerd verblijfsobject" .
+<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#label> "abbreviated name"@en .
+<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#comment> "The end of the time period in which object data have been changed."@en .
+<http://lod.geodan.nl/vocab/bag#OpenbareRuimte> <http://www.w3.org/2000/01/rdf-schema#comment> "Een door het bevoegde gemeentelijke orgaan aangewezen en van een naam voorziene buitenruimte die binnen \u00E9\u00E9n woonplaats is gelegen, bijvoorbeeld een straat of een plein."@nl .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b99 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b95 .
+<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand gesloopt" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#woonplaatsstatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#label> "openbareruimtenaam"@nl .
+<http://lod.geodan.nl/vocab/bag#openbareruimtetype> <http://www.w3.org/2000/01/rdf-schema#label> "type openbare ruimte"@nl .
+<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://lod.geodan.nl/vocab/bag#nummeraanduidingstatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b39 .
+<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/2000/01/rdf-schema#comment> "Gerelateerde openbare ruimte."@nl .
+<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#label> "adresseerbaar object"@nl .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://lod.geodan.nl/vocab/bag#Mutatie> .
+<http://lod.geodan.nl/vocab/bag#inOnderzoek> <http://www.w3.org/2000/01/rdf-schema#label> "inonderzoek"@nl .
+<http://lod.geodan.nl/vocab/bag#lastKnown> <http://www.w3.org/2000/01/rdf-schema#label> "laast bekende mutatie"@nl .
+<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Location> .
+<http://lod.geodan.nl/vocab/bag#woonplaatsnaam> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Woonplaatsnaam-Woonplaats> .
+<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.stelselvanbasisregistraties.nl/bag/id/gegevenselement/Huisletter-Nummeraanduiding> .
+<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimtelijk object dat een adres heeft. Een adresseerbaar object heeft 1 hoofdadres, en 0 of meer nevenadressen. Een nevenadres kan worden toegekend indien een verblijfsobject meerdere toegangen heeft aan verschillende straten."@nl .
+<http://lod.geodan.nl/vocab/bag#openbareRuimte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "kantoorfunctie" .
+<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#comment> "An additonal address of an object."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b78 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b79 .
+<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#label> "nummeraanduiding"@nl .
+<http://lod.geodan.nl/vocab/bag#nevenadres> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Standplaatsmutatie> .
+<http://lod.geodan.nl/vocab/bag#Nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/locn#Address> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Verblijfsobject in gebruik" .
+<http://lod.geodan.nl/vocab/bag#Pand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://lod.geodan.nl/vocab/bag#Ligplaats> <http://www.w3.org/2000/01/rdf-schema#label> "berth"@en .
+<http://lod.geodan.nl/vocab/bag#Ligplaatsmutatie> <http://www.w3.org/2000/01/rdf-schema#comment> "A mutation of the data on a berth."@en .
+<http://lod.geodan.nl/vocab/bag#bouwjaar> <http://www.w3.org/2000/01/rdf-schema#comment> "Het jaar waarin het pand gereed kwam."@nl .
+<http://lod.geodan.nl/vocab/bag> <http://purl.org/dc/terms/modified> "2014-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://lod.geodan.nl/vocab/bag#huisnummertoevoeging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b3 .
+<http://lod.geodan.nl/vocab/bag#Pandmutatie> <http://www.w3.org/2000/01/rdf-schema#label> "mutation of a building"@en .
+<http://lod.geodan.nl/vocab/bag#nummeraanduiding> <http://www.w3.org/2000/01/rdf-schema#comment> "Gerelateerde nummeraanduiding."@nl .
+<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#label> "post code"@en .
+<http://lod.geodan.nl/vocab/bag#openbareruimtestatus> <http://www.w3.org/2000/01/rdf-schema#range> _:fb9e5cc8b4ac442a4bd8af00713917d03b42 .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "gezondheidszorgfunctie" .
+<http://lod.geodan.nl/vocab/bag#openbareruimtenaam> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#thoroughfare> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Administratief gebied" .
+<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/2000/01/rdf-schema#comment> "A spatial object that can be identified by an address."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Naamgeving ingetrokken" .
+<http://lod.geodan.nl/vocab/bag> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary for the Dutch base registration of buildings and addresses (BAG)."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Water" .
+<http://lod.geodan.nl/vocab/bag#postcode> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/locn#postCode> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b57 .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2000/01/rdf-schema#comment> "The smallest unit of space within one or more buildings, intended for residential, business or recreation purposes and having its own access from a public space or private courtyard."@en .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Adresseerbaarobject> .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#OpenbareRuimte> .
+<http://lod.geodan.nl/vocab/bag#Verblijfsobject> <http://www.w3.org/2004/02/skos/core#narrower> <http://lod.geodan.nl/vocab/bag#Verblijfsobjectmutatie> .
+<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduidingmutatie> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "overige gebruiksfunctie" .
+<http://lod.geodan.nl/vocab/bag#AdresseerbaarObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Terrein" .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b89 .
+<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb9e5cc8b4ac442a4bd8af00713917d03b48 .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#comment> "An officialy named part of a municipality, used to indicate a place of residence."@en .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b69 <http://www.w3.org/2002/07/owl#oneOf> _:fb9e5cc8b4ac442a4bd8af00713917d03b70 .
+<http://lod.geodan.nl/vocab/bag#einddatum> <http://www.w3.org/2000/01/rdf-schema#comment> "De eindtijd van een periode waarin een of meer gegevens die worden bijgehouden over een object een wijziging hebben ondergaan."@nl .
+<http://lod.geodan.nl/vocab/bag#correctie> <http://www.w3.org/2000/01/rdf-schema#label> "correctie"@nl .
+<http://lod.geodan.nl/vocab/bag#Woonplaats> <http://www.w3.org/2000/01/rdf-schema#seealso> <http://data.stelselvanbasisregistraties.nl/bag/id/concept/Woonplaats> .
+<http://lod.geodan.nl/vocab/bag#huisletter> <http://www.w3.org/2000/01/rdf-schema#comment> "A letter (a-z, A-Z) added to a house number."@en .
+<http://lod.geodan.nl/vocab/bag#identificatie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://lod.geodan.nl/vocab/bag#Nummeraanduiding> .
+_:fb9e5cc8b4ac442a4bd8af00713917d03b61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Pand in gebruik (niet ingemeten)" .
+<http://lod.geodan.nl/vocab/bag#actief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://lod.geodan.nl/vocab/bag#verkorteNaam> <http://www.w3.org/2000/01/rdf-schema#comment> "Een verkorte versie van de naam."@nl .
 

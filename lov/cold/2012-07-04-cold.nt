@@ -1,115 +1,115 @@
-<http://purl.org/configurationontology#possible> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b3 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/configurationontology#Lexicon> .
-<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b2 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/configurationontology#Lexicon> .
-<http://purl.org/configurationontology#alternative> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#ConfigurationLink> .
-<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
-<http://purl.org/configurationontology#Lexicon> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines a set of specifications and their variables"@en .
-<http://purl.org/configurationontology#Model> <http://www.w3.org/2000/01/rdf-schema#comment> "A specification that identifies a model (like \"Ford T\"). Corresponding configurations are supposed to share the same lexicon."@en .
-<http://purl.org/configurationontology> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/francois-paul-servant> .
-<http://purl.org/configurationontology#definingChoice> <http://www.w3.org/2000/01/rdf-schema#comment> "Parent property of all properties used to define a Configuration, i.e. used to define the choices done by the user: a Configuration is defined by the list of its definingChoices."@en .
-<http://purl.org/configurationontology#Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/configurationontology#specToBeAdded> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
-<http://purl.org/configurationontology#Configuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/configurationontology#link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#defaultSpec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#comment> "A valid partially defined product - valid in the sense that it can be completed into an existing product, one that can be ordered, without changing any of the current selections."@en .
-_:f669b35ebbcac4aeaa670995aff7d4a11b1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/configurationontology#Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/configurationontology#Specification> .
-<http://purl.org/configurationontology#defaultSpec> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-<http://purl.org/configurationontology#Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/goodrelations/v1#QualitativeValue> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#lexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#alternative> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-<http://purl.org/configurationontology#impossible> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-<http://purl.org/configurationontology#impliedSpec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://purl.org/configurationontology#impossible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#Specification> <http://www.w3.org/2000/01/rdf-schema#comment> "Feature, option, any kind of AP 214 specification"@en .
-<http://purl.org/configurationontology#impossible> <http://www.w3.org/2000/01/rdf-schema#comment> "Models a choice that conflicts with the definition of this configuration: some of the previous choices must be changed (and will be if following this link)"@en .
-<http://purl.org/configurationontology#specToBeAdded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#ConfigurationLink> .
-<http://purl.org/configurationontology#impossible> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#ConfigurationLink> .
-<http://purl.org/configurationontology#ProductRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/configurationontology#alternative> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#link> .
-<http://purl.org/configurationontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#ConfigurationVariable> .
-<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#definingChoice> .
-<http://purl.org/configurationontology#possible> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#link> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration"@fr .
-<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/2000/01/rdf-schema#comment> "To be used to specify to advanced clients the order in which choices were done in the Configuration. Any item of this rdf:Seq should be a Specification linked from from the Configuration by chosenSpec."@en .
-<http://purl.org/configurationontology#maxPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration"@en .
-<http://purl.org/configurationontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to list the possible values of a ConfigurationVariable"@en .
-<http://purl.org/configurationontology#linkedConf> <http://www.w3.org/2000/01/rdf-schema#comment> "the linked configuration that contains choices of current Configuration plus the specifications that will be added and listed in the configuration link it belongs to."@en .
-<http://purl.org/configurationontology#possible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#specToBeAdded> <http://www.w3.org/2000/01/rdf-schema#comment> "Specification to be added to a Configuration in a ConfigurationLink"@en .
-<http://purl.org/configurationontology#Lexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/configurationontology#impliedSpec> <http://www.w3.org/2000/01/rdf-schema#comment> "A Specification that is implied by the conjunction of the definingChoice(s) of this Configuration."@en .
-<http://purl.org/configurationontology#chosenSpec> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
-<http://purl.org/configurationontology#linkedConf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Configuration> .
-<http://purl.org/configurationontology#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#link> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-<http://purl.org/configurationontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
-<http://purl.org/configurationontology#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://purl.org/configurationontology#alternative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#impossible> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#link> .
-<http://purl.org/configurationontology#chosenSpec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/configurationontology#defaultSpec> <http://www.w3.org/2000/01/rdf-schema#comment> "Specification included by default in a Completely Defined Product matching this configuration"@en .
-<http://purl.org/configurationontology#linkedConf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#ConfigurationLink> .
-<http://purl.org/configurationontology#impliedSpec> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/configurationontology#lexicon> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/goodrelations/v1#ProductOrServiceModel> .
-<http://purl.org/configurationontology#Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f669b35ebbcac4aeaa670995aff7d4a11b4 .
-_:f669b35ebbcac4aeaa670995aff7d4a11b4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/configurationontology#lexicon> .
-<http://purl.org/configurationontology#defaultSpec> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
-<http://purl.org/configurationontology#maxPrice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#definingChoice> .
-<http://purl.org/configurationontology#link> <http://www.w3.org/2000/01/rdf-schema#comment> "Parent property of all the properties linking a Configuration to another one in the configuration process."@en .
-<http://purl.org/configurationontology#chosenSpec> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#definingChoice> .
 <http://purl.org/configurationontology#ConfigurationLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/goodrelations/v1#ProductOrServiceModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/configurationontology#specToBeRemoved> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#ConfigurationLink> .
-<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/goodrelations/v1#Offering> .
-<http://purl.org/configurationontology#chosenSpec> <http://www.w3.org/2000/01/rdf-schema#comment> "A Specification chosen in this Configuration."@en .
-<http://purl.org/configurationontology#specToBeRemoved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#linkedConf> <http://www.w3.org/2000/01/rdf-schema#comment> "the linked configuration that contains choices of current Configuration plus the specifications that will be added and listed in the configuration link it belongs to."@en .
+<http://purl.org/configurationontology#maxPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#impossible> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#ConfigurationLink> .
+<http://purl.org/configurationontology#definingChoice> <http://www.w3.org/2000/01/rdf-schema#comment> "Parent property of all properties used to define a Configuration, i.e. used to define the choices done by the user: a Configuration is defined by the list of its definingChoices."@en .
+<http://purl.org/configurationontology#alternative> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#link> .
+_:f847dfe4282a844148dd485aacff8a4e2b4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/configurationontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#ConfigurationVariable> .
 <http://purl.org/configurationontology#possible> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#ConfigurationLink> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/configurationontology#Model> <http://www.w3.org/2000/01/rdf-schema#comment> "A specification that identifies a model (like \"Ford T\"). Corresponding configurations are supposed to share the same lexicon."@en .
+_:f847dfe4282a844148dd485aacff8a4e2b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://purl.org/configurationontology#chosenSpec> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-<http://purl.org/configurationontology> <http://purl.org/dc/terms/creator> "Edouard Chevalier" .
-<http://purl.org/configurationontology#ConfigurationVariable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f669b35ebbcac4aeaa670995aff7d4a11b1 .
-<http://purl.org/configurationontology#ConfigurationVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/configurationontology#specToBeRemoved> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
-<http://purl.org/configurationontology#possible> <http://www.w3.org/2000/01/rdf-schema#comment> "Models a choice (or a set of choices) that can done without changing any of the previous choices done in the configuration: links to a Configuration whose list of definingChoice(s) contains the list of definingChoice(s) of this configuration."@en .
-<http://purl.org/configurationontology#lexicon> <http://www.w3.org/2000/01/rdf-schema#comment> "used to relate something to a Lexicon"@en .
-_:f669b35ebbcac4aeaa670995aff7d4a11b4 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/configurationontology#Lexicon> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b1 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/configurationontology#lexicon> .
-<http://purl.org/configurationontology#Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f669b35ebbcac4aeaa670995aff7d4a11b2 .
-<http://purl.org/configurationontology#maxPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b1 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/configurationontology#Lexicon> .
-<http://purl.org/configurationontology#definingChoice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f847dfe4282a844148dd485aacff8a4e2b3 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/configurationontology#Lexicon> .
+<http://purl.org/configurationontology#linkedConf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#ConfigurationLink> .
 <http://purl.org/goodrelations/v1#Offering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/configurationontology#definingChoice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#alternative> <http://www.w3.org/2000/01/rdf-schema#comment> "Models the possibility of changing a choice already done."@en .
-<http://purl.org/goodrelations/v1#UnitPriceSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/configurationontology#ConfigurationVariable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f669b35ebbcac4aeaa670995aff7d4a11b3 .
-<http://purl.org/configurationontology#definingChoice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-<http://purl.org/configurationontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology for the description of customizable products. It models the configuration process as the traversal of a graph of partially defined products, or \"Configurations\"\n"@en .
-_:f669b35ebbcac4aeaa670995aff7d4a11b2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/configurationontology#linkedConf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#maxPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/goodrelations/v1#UnitPriceSpecification> .
-<http://purl.org/configurationontology#ConfigurationVariable> <http://www.w3.org/2000/01/rdf-schema#comment> "A variable in a Lexicon. List of alternative specifications"@en .
-<http://purl.org/configurationontology#ConfigurationLink> <http://www.w3.org/2000/01/rdf-schema#comment> "Models the link to another Configuration: typically, the association of a Specification to be selected, and a resulting Configuration."@en .
-<http://purl.org/configurationontology#specToBeAdded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/configurationontology#link> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#ConfigurationLink> .
-<http://purl.org/configurationontology#impliedSpec> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
-<http://purl.org/goodrelations/v1#QualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f669b35ebbcac4aeaa670995aff7d4a11b3 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/configurationontology#lexicon> .
-<http://purl.org/configurationontology#Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/configurationontology#lexicon> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Lexicon> .
-<http://purl.org/configurationontology> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration ontology"@en .
+<http://purl.org/configurationontology#Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/goodrelations/v1#QualitativeValue> .
+<http://purl.org/configurationontology#link> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#linkedConf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/configurationontology#Specification> .
+<http://purl.org/configurationontology> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/francois-paul-servant> .
+<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#comment> "A valid partially defined product - valid in the sense that it can be completed into an existing product, one that can be ordered, without changing any of the current selections."@en .
 <http://purl.org/configurationontology#specToBeRemoved> <http://www.w3.org/2000/01/rdf-schema#comment> "Specification to be removed from a Configuration in a ConfigurationLink"@en .
-_:f669b35ebbcac4aeaa670995aff7d4a11b4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/configurationontology#ProductRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/configurationontology#maxPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/goodrelations/v1#UnitPriceSpecification> .
+<http://purl.org/configurationontology#impliedSpec> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
+<http://purl.org/configurationontology#possible> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#Lexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/configurationontology#alternative> <http://www.w3.org/2000/01/rdf-schema#comment> "Models the possibility of changing a choice already done."@en .
+<http://purl.org/configurationontology#ConfigurationVariable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f847dfe4282a844148dd485aacff8a4e2b1 .
+<http://purl.org/configurationontology#defaultSpec> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
+<http://purl.org/configurationontology#impossible> <http://www.w3.org/2000/01/rdf-schema#comment> "Models a choice that conflicts with the definition of this configuration: some of the previous choices must be changed (and will be if following this link)"@en .
+_:f847dfe4282a844148dd485aacff8a4e2b2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/configurationontology#Lexicon> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines a set of specifications and their variables"@en .
+_:f847dfe4282a844148dd485aacff8a4e2b1 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/configurationontology#lexicon> .
+<http://purl.org/configurationontology#specToBeAdded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#ConfigurationVariable> <http://www.w3.org/2000/01/rdf-schema#comment> "A variable in a Lexicon. List of alternative specifications"@en .
+<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/goodrelations/v1#ProductOrServiceModel> .
+<http://purl.org/configurationontology#chosenSpec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#definingChoice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology> <http://purl.org/dc/terms/creator> "Edouard Chevalier" .
+<http://purl.org/configurationontology#maxPrice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#definingChoice> .
+<http://purl.org/configurationontology#lexicon> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Lexicon> .
+_:f847dfe4282a844148dd485aacff8a4e2b3 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/configurationontology#lexicon> .
+<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/goodrelations/v1#Offering> .
+<http://purl.org/configurationontology#impliedSpec> <http://www.w3.org/2000/01/rdf-schema#comment> "A Specification that is implied by the conjunction of the definingChoice(s) of this Configuration."@en .
+<http://purl.org/configurationontology#Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f847dfe4282a844148dd485aacff8a4e2b4 .
+<http://purl.org/configurationontology#alternative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#impliedSpec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f847dfe4282a844148dd485aacff8a4e2b4 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/configurationontology#Lexicon> .
+<http://purl.org/configurationontology#specToBeAdded> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
+_:f847dfe4282a844148dd485aacff8a4e2b4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/configurationontology#lexicon> .
+<http://purl.org/configurationontology#specToBeRemoved> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
+<http://purl.org/configurationontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/configurationontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to list the possible values of a ConfigurationVariable"@en .
+<http://purl.org/configurationontology#ConfigurationLink> <http://www.w3.org/2000/01/rdf-schema#comment> "Models the link to another Configuration: typically, the association of a Specification to be selected, and a resulting Configuration."@en .
+<http://purl.org/configurationontology#link> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#ConfigurationLink> .
+<http://purl.org/configurationontology#chosenSpec> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
+<http://purl.org/configurationontology#ConfigurationVariable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f847dfe4282a844148dd485aacff8a4e2b3 .
+_:f847dfe4282a844148dd485aacff8a4e2b1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/goodrelations/v1#QualitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/configurationontology#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/configurationontology#impliedSpec> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#maxPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#impossible> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/2000/01/rdf-schema#comment> "To be used to specify to advanced clients the order in which choices were done in the Configuration. Any item of this rdf:Seq should be a Specification linked from from the Configuration by chosenSpec."@en .
+<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#definingChoice> .
+<http://purl.org/configurationontology#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#specToBeRemoved> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#ConfigurationLink> .
+<http://purl.org/configurationontology#Configuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/configurationontology#possible> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#link> .
+<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f847dfe4282a844148dd485aacff8a4e2b2 .
+<http://purl.org/configurationontology#ConfigurationVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<http://purl.org/configurationontology#specToBeRemoved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#chosenSpec> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#definingChoice> .
+<http://purl.org/configurationontology#alternative> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/configurationontology#lexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f847dfe4282a844148dd485aacff8a4e2b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f847dfe4282a844148dd485aacff8a4e2b2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/configurationontology#lexicon> .
+_:f847dfe4282a844148dd485aacff8a4e2b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/configurationontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology for the description of customizable products. It models the configuration process as the traversal of a graph of partially defined products, or \"Configurations\"\n"@en .
+<http://purl.org/configurationontology#impossible> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/configurationontology#link> .
+<http://purl.org/goodrelations/v1#UnitPriceSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f847dfe4282a844148dd485aacff8a4e2b2 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/configurationontology#Lexicon> .
+<http://purl.org/configurationontology#hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#Specification> .
+<http://purl.org/configurationontology#possible> <http://www.w3.org/2000/01/rdf-schema#comment> "Models a choice (or a set of choices) that can done without changing any of the previous choices done in the configuration: links to a Configuration whose list of definingChoice(s) contains the list of definingChoice(s) of this configuration."@en .
+<http://purl.org/configurationontology#defaultSpec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f847dfe4282a844148dd485aacff8a4e2b1 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/configurationontology#Lexicon> .
+<http://purl.org/configurationontology#definingChoice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#possible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#Specification> <http://www.w3.org/2000/01/rdf-schema#comment> "Feature, option, any kind of AP 214 specification"@en .
+<http://purl.org/configurationontology#lexicon> <http://www.w3.org/2000/01/rdf-schema#comment> "used to relate something to a Lexicon"@en .
+<http://purl.org/goodrelations/v1#ProductOrServiceModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/configurationontology#specToBeAdded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#ConfigurationLink> .
+_:f847dfe4282a844148dd485aacff8a4e2b3 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/configurationontology#defaultSpec> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#specToBeAdded> <http://www.w3.org/2000/01/rdf-schema#comment> "Specification to be added to a Configuration in a ConfigurationLink"@en .
+<http://purl.org/configurationontology#chosenSpec> <http://www.w3.org/2000/01/rdf-schema#comment> "A Specification chosen in this Configuration."@en .
+<http://purl.org/configurationontology#link> <http://www.w3.org/2000/01/rdf-schema#comment> "Parent property of all the properties linking a Configuration to another one in the configuration process."@en .
+_:f847dfe4282a844148dd485aacff8a4e2b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/configurationontology#Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration"@fr .
+<http://purl.org/configurationontology> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration ontology"@en .
+<http://purl.org/configurationontology#alternative> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/configurationontology#ConfigurationLink> .
+<http://purl.org/configurationontology#link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#defaultSpec> <http://www.w3.org/2000/01/rdf-schema#comment> "Specification included by default in a Completely Defined Product matching this configuration"@en .
+<http://purl.org/configurationontology#choiceSeq> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/configurationontology#Configuration> .
+<http://purl.org/configurationontology#impossible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#linkedConf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/configurationontology#definingChoice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://purl.org/configurationontology#Configuration> <http://www.w3.org/2000/01/rdf-schema#label> "Configuration"@en .
 

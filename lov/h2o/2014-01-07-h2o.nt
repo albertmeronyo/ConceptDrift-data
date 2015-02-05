@@ -1,81 +1,81 @@
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> <http://www.w3.org/2000/01/rdf-schema#label> "UML tagged value value"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#constraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Class for UML tagged values"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/ISOTC211/HM/hm2owl.rdf> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f93e8a2f6df1941508a4f1f25079e07edb4 .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f93e8a2f6df1941508a4f1f25079e07edb5 .
-_:f93e8a2f6df1941508a4f1f25079e07edb2 <http://www.w3.org/2001/XMLSchema#pattern> "^[A-Z]\\w*"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/elements/1.1/description> "This ontology establishes classes corresponding to stereotypes used in ISO-conformant models, as used in the rules for conversion of the ISO TC 211 Harmonized Model from the UML to OWL representations"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/2000/01/rdf-schema#label> "ISO stereotype flag"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/2002/07/owl#equivalentClass> _:f93e8a2f6df1941508a4f1f25079e07edb1 .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f14ee419cb6e944d3a4a47b17346f8841b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> <http://www.w3.org/2000/01/rdf-schema#label> "UML tagged value tag"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Class for UML tagged values"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#> .
+_:f14ee419cb6e944d3a4a47b17346f8841b2 <http://www.w3.org/2001/XMLSchema#pattern> "^[A-Z]\\w*"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/elements/1.1/creator> "Simon J D COX\nCSIRO Australia"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#valueAssignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f14ee419cb6e944d3a4a47b17346f8841b5 .
+_:f14ee419cb6e944d3a4a47b17346f8841b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#constraint> <http://www.w3.org/2000/01/rdf-schema#label> "UML constraint"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/2000/01/rdf-schema#label> "UML tagged value"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/created> "2012-06-04T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/2000/01/rdf-schema#label> "ISO Class name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/2000/01/rdf-schema#comment> "OWL property that links to a tagged value"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/2002/07/owl#equivalentClass> _:f14ee419cb6e944d3a4a47b17346f8841b1 .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/ISOTC211/HM/hm2owl.rdf> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/2000/01/rdf-schema#comment> "A datatype for skos:notation annotations, used to indicate the original UML class name"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f14ee419cb6e944d3a4a47b17346f8841b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f14ee419cb6e944d3a4a47b17346f8841b4 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201311/ISOTC211/HM/iso19150/-2/2012/basic.rdf> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#valueAssignment> <http://www.w3.org/2000/01/rdf-schema#comment> "property that can be attached to any statement to support a link to the evidence for the value"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f93e8a2f6df1941508a4f1f25079e07edb5 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> .
-_:f93e8a2f6df1941508a4f1f25079e07edb5 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f93e8a2f6df1941508a4f1f25079e07edb4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#valueAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "value assignment method"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f93e8a2f6df1941508a4f1f25079e07edb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> <http://www.w3.org/2000/01/rdf-schema#label> "UML abstract class"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology establishes classes corresponding to stereotypes used in ISO-conformant models, as used in the rules for conversion of the ISO TC 211 Harmonized Model from the UML to OWL representations. \n\nThis vocabulary is provisional, pending finalization of ISO 19150-2.\n\nThe URI stem http://def.seegrid.csiro.au/isotc211/ is temporary. The vocabulary is expected to be ultimately published in the domain http://def.isotc211.org/ ."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f93e8a2f6df1941508a4f1f25079e07edb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f93e8a2f6df1941508a4f1f25079e07edb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f93e8a2f6df1941508a4f1f25079e07edb2 .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> .
-_:f93e8a2f6df1941508a4f1f25079e07edb1 <http://www.w3.org/2002/07/owl#onDataType> <http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/vocab/vann/preferredNamespacePrefix> "h2o"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/created> "2012-06-04T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#constraint> <http://www.w3.org/2000/01/rdf-schema#label> "UML constraint"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/elements/1.1/rights> "Copyright \u00A9 2012-2013 CSIRO"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates whether the class was flagged 'abstract' in the UML model. Abstract classes cannot be instantiated directly. Concrete subclasses may be instantiated."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/2000/01/rdf-schema#label> "UML tagged value"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f93e8a2f6df1941508a4f1f25079e07edb1 <http://www.w3.org/2002/07/owl#withRestrictions> _:f93e8a2f6df1941508a4f1f25079e07edb3 .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/2000/01/rdf-schema#comment> "A datatype for skos:notation annotations, used to indicate the original UML class name"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#label> "UML tagged value structure"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/elements/1.1/title> "Ontology elements required for conversion of ISO/TC 211 Harmonized Model to OWL"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
-_:f93e8a2f6df1941508a4f1f25079e07edb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-_:f93e8a2f6df1941508a4f1f25079e07edb4 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#constraint> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/elements/1.1/contributor> "ISO/TC 211 Project Team 19150-2"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/modified> "2014-01-07T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/2000/01/rdf-schema#label> "ISO Class name"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#constraint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates if the class corresponds to a UML stereotype "^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201311/ISOTC211/HM/iso19150/-2/2012/basic.rdf> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#constraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/2000/01/rdf-schema#label> "ISO stereotype flag"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#constraint> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/elements/1.1/description> "This ontology establishes classes corresponding to stereotypes used in ISO-conformant models, as used in the rules for conversion of the ISO TC 211 Harmonized Model from the UML to OWL representations"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#constraint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+_:f14ee419cb6e944d3a4a47b17346f8841b1 <http://www.w3.org/2002/07/owl#onDataType> <http://www.w3.org/2001/XMLSchema#string> .
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#valueAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-_:f93e8a2f6df1941508a4f1f25079e07edb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/elements/1.1/title> "Ontology elements required for conversion of ISO/TC 211 Harmonized Model to OWL"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#valueAssignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates whether the class was flagged 'abstract' in the UML model. Abstract classes cannot be instantiated directly. Concrete subclasses may be instantiated."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#valueAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "value assignment method"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/modified> "2014-01-07T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:f14ee419cb6e944d3a4a47b17346f8841b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology establishes classes corresponding to stereotypes used in ISO-conformant models, as used in the rules for conversion of the ISO TC 211 Harmonized Model from the UML to OWL representations. \n\nThis vocabulary is provisional, pending finalization of ISO 19150-2.\n\nThe URI stem http://def.seegrid.csiro.au/isotc211/ is temporary. The vocabulary is expected to be ultimately published in the domain http://def.isotc211.org/ ."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/elements/1.1/rights> "Copyright \u00A9 2012-2013 CSIRO"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/elements/1.1/contributor> "ISO/TC 211 Project Team 19150-2"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#label> "UML tagged value structure"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+_:f14ee419cb6e944d3a4a47b17346f8841b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f14ee419cb6e944d3a4a47b17346f8841b2 .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f14ee419cb6e944d3a4a47b17346f8841b4 .
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> .
+_:f14ee419cb6e944d3a4a47b17346f8841b4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:f14ee419cb6e944d3a4a47b17346f8841b1 <http://www.w3.org/2002/07/owl#withRestrictions> _:f14ee419cb6e944d3a4a47b17346f8841b3 .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#constraint> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/2000/01/rdf-schema#comment> "This property indicates if the class corresponds to a UML stereotype "^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f14ee419cb6e944d3a4a47b17346f8841b5 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/vocab/vann/preferredNamespacePrefix> "h2o"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> <http://www.w3.org/2000/01/rdf-schema#label> "UML abstract class"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isStereotype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ttag> .
+_:f14ee419cb6e944d3a4a47b17346f8841b5 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> <http://www.w3.org/2000/01/rdf-schema#label> "UML tagged value value"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#isAbstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tag> <http://www.w3.org/2000/01/rdf-schema#comment> "OWL property that links to a tagged value"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#TaggedValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19150/-2/2012/basic#tvalue> .
 

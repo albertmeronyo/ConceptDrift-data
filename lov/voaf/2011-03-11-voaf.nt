@@ -1,129 +1,129 @@
-<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/elements/1.1/title> "Vocabulary of a Friend"@en .
-<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2002/07/owl#unionOf> _:f63e8eab21c774c668fd899650036ddabb1 .
-_:f63e8eab21c774c668fd899650036ddabb4 <http://www.w3.org/2002/07/owl#onProperty> <http://labs.mondeca.com/vocab/voaf#usedBy> .
-<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/12/cal/ical#Vtodo> .
-_:f63e8eab21c774c668fd899650036ddabb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f63e8eab21c774c668fd899650036ddabb6 .
-<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "An example of dataset using this vocabulary"@en .
-<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#label> "metadata vocabulary"@en .
-_:f63e8eab21c774c668fd899650036ddabb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f63e8eab21c774c668fd899650036ddabb3 .
-<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary Space"@en .
-<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-_:f63e8eab21c774c668fd899650036ddabb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-_:f63e8eab21c774c668fd899650036ddabb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f63e8eab21c774c668fd899650036ddabb4 .
-_:f63e8eab21c774c668fd899650036ddabb8 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
-<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2002/07/owl#unionOf> _:f63e8eab21c774c668fd899650036ddabb5 .
-<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of classes defined in the vocabulary namespace."@en .
-<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#label> "used by"@en .
-<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/references> .
-<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary declares some equivalent classes or properties with the object vocabulary."@en .
-<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/modified> "2011-03-11" .
-<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#extends> .
-_:f63e8eab21c774c668fd899650036ddabb4 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-_:f63e8eab21c774c668fd899650036ddabb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/description> "A vocabulary to describe linked data vocabularies and their relations."@en .
-<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
-_:f63e8eab21c774c668fd899650036ddabb2 <http://www.w3.org/2002/07/owl#onProperty> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
-<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://labs.mondeca.com/vocab/mondeca.rdf#bvatant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-_:f63e8eab21c774c668fd899650036ddabb8 <http://www.w3.org/2002/07/owl#onProperty> <http://labs.mondeca.com/vocab/voaf#usedBy> .
-<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
 <http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#label> "number of classes"@en .
-<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#label> "example data set"@en .
-<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://labs.mondeca.com/vocab/mondeca.rdf#lrozat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:f63e8eab21c774c668fd899650036ddabb6 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary"@en .
-<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/contributor> <http://labs.mondeca.com/vocab/mondeca.rdf#lrozat> .
-<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary generalizes by some superclasses or superproperties the object vocabulary."@en .
-<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#label> "relies on"@en .
-<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#label> "generalizes"@en .
-<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary space defines any relevant grouping of vocabularies e.g., designed for similar purposes or domains, or designed by the same publisher or the same project, etc.\n    A vocabulary can belong to zero, one or more vocabulary spaces."@en .
-<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
-<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#extends> .
-<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary uses the object vocabulary in metadata at vocabulary or element level"@en .
-<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary extends the expressivity of the object vocabulary by declaring subsumption relationships, using object vocabulary class as domain or range of a subject vocabulary property, defining local restrictions etc ..."@en .
-_:f63e8eab21c774c668fd899650036ddabb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f63e8eab21c774c668fd899650036ddabb2 .
-<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#label> "has equivalences with"@en .
-<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#label> "extends"@en .
-<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary is used by the object vocabulary"@en .
-<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://labs.mondeca.com/vocab/voaf> <http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://labs.mondeca.com/dataset/lov/lov.rdf> .
-<http://labs.mondeca.com/vocab/voaf> <http://www.w3.org/2000/01/rdf-schema#comment> "This is work in progress. Do not consider any element of this ontology as cast in stone."@en .
-<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-_:f63e8eab21c774c668fd899650036ddabb6 <http://www.w3.org/2002/07/owl#onProperty> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
-<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/creator> <http://labs.mondeca.com/vocab/mondeca.rdf#bvatant> .
-<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdfs.org/ns/void#vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary defines some subclasses or subproperties of the object vocabulary, or local restrictions on those."@en .
-<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#label> "number of properties"@en .
-<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-_:f63e8eab21c774c668fd899650036ddabb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f63e8eab21c774c668fd899650036ddabb8 .
-<http://labs.mondeca.com/vocab/voaf> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
-<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f63e8eab21c774c668fd899650036ddabb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:f63e8eab21c774c668fd899650036ddabb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#label> "specializes"@en .
-_:f63e8eab21c774c668fd899650036ddabb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary used in the linked data cloud. An instance of voaf:Vocabulary relies on or is used by at least another instance of voaf:Vocabulary"@en .
-_:f63e8eab21c774c668fd899650036ddabb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f63e8eab21c774c668fd899650036ddabb7 .
-<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of properties defined in the vocabulary namespace."@en .
+<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of classes defined in the vocabulary namespace."@en .
 <http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#label> "similar"@en .
-<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/publisher> <http://dbpedia.org/resource/Mondeca> .
-<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://dbpedia.org/resource/Mondeca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#extends> .
-<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes future tasks planned by a resource curator. This property is primarily intended to be used for vocabularies or datasets, but the domain is left open, it can be used for any resource. Use iCalendar Vtodo class and its properties to further describe the task calendar, priorities etc."@en .
-<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Dublin Core properties isPartOf and hasPart are used to link a vocabulary to a vocabulary space" .
-<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#label> "to-do list"@en .
+<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f76b324da4d9c431199699f8ab77cc3b4b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary Space"@en .
 <http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to assert that two vocabularies are similar in scope and objectives, independently of the fact that they otherwise refer to each other."@en .
-<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/references> .
+<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#label> "to-do list"@en .
+<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/elements/1.1/title> "Vocabulary of a Friend"@en .
 <http://labs.mondeca.com/vocab/voaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
-<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary extends the expressivity of the object vocabulary by declaring subsumption relationships, using object vocabulary class as domain or range of a subject vocabulary property, defining local restrictions etc ..."@en .
+<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/contributor> <http://labs.mondeca.com/vocab/mondeca.rdf#lrozat> .
+<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary defines some subclasses or subproperties of the object vocabulary, or local restrictions on those."@en .
+<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary generalizes by some superclasses or superproperties the object vocabulary."@en .
+_:f76b324da4d9c431199699f8ab77cc3b4b8 <http://www.w3.org/2002/07/owl#onProperty> <http://labs.mondeca.com/vocab/voaf#usedBy> .
+<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#label> "metadata vocabulary"@en .
+<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#label> "extends"@en .
+<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/creator> <http://labs.mondeca.com/vocab/mondeca.rdf#bvatant> .
+<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
+<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/publisher> <http://dbpedia.org/resource/Mondeca> .
+_:f76b324da4d9c431199699f8ab77cc3b4b2 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://dbpedia.org/resource/Mondeca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#extends> .
+<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary space defines any relevant grouping of vocabularies e.g., designed for similar purposes or domains, or designed by the same publisher or the same project, etc.\n    A vocabulary can belong to zero, one or more vocabulary spaces."@en .
+<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes future tasks planned by a resource curator. This property is primarily intended to be used for vocabularies or datasets, but the domain is left open, it can be used for any resource. Use iCalendar Vtodo class and its properties to further describe the task calendar, priorities etc."@en .
+<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f76b324da4d9c431199699f8ab77cc3b4b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f76b324da4d9c431199699f8ab77cc3b4b7 .
+<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#label> "specializes"@en .
 <http://labs.mondeca.com/vocab/voaf> <http://xmlns.com/foaf/0.1/homepage> <http://labs.mondeca.com/vocab/voaf/index.html> .
-<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
 <http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary uses or extends some class or property of the object vocabulary"@en .
-_:f63e8eab21c774c668fd899650036ddabb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+_:f76b324da4d9c431199699f8ab77cc3b4b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f76b324da4d9c431199699f8ab77cc3b4b8 .
+<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
+_:f76b324da4d9c431199699f8ab77cc3b4b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/12/cal/ical#Vtodo> .
+<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/description> "A vocabulary to describe linked data vocabularies and their relations."@en .
+<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#label> "used by"@en .
+<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f76b324da4d9c431199699f8ab77cc3b4b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f76b324da4d9c431199699f8ab77cc3b4b4 .
+_:f76b324da4d9c431199699f8ab77cc3b4b6 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+_:f76b324da4d9c431199699f8ab77cc3b4b2 <http://www.w3.org/2002/07/owl#onProperty> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
+<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
+<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#label> "generalizes"@en .
+_:f76b324da4d9c431199699f8ab77cc3b4b4 <http://www.w3.org/2002/07/owl#onProperty> <http://labs.mondeca.com/vocab/voaf#usedBy> .
+_:f76b324da4d9c431199699f8ab77cc3b4b8 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
 <http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f76b324da4d9c431199699f8ab77cc3b4b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#label> "number of properties"@en .
 <http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/ns/void#Dataset> .
+<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to assert that two vocabularies are similar in scope and objectives, independently of the fact that they otherwise refer to each other."@en .
+<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#label> "example data set"@en .
+<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#vocabulary> .
+<http://labs.mondeca.com/vocab/voaf> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://labs.mondeca.com/vocab/mondeca.rdf#bvatant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:f76b324da4d9c431199699f8ab77cc3b4b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f76b324da4d9c431199699f8ab77cc3b4b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://labs.mondeca.com/vocab/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#extends> .
+<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary used in the linked data cloud. An instance of voaf:Vocabulary relies on or is used by at least another instance of voaf:Vocabulary"@en .
+<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2002/07/owl#unionOf> _:f76b324da4d9c431199699f8ab77cc3b4b5 .
+<http://labs.mondeca.com/vocab/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Dublin Core properties isPartOf and hasPart are used to link a vocabulary to a vocabulary space" .
+<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+_:f76b324da4d9c431199699f8ab77cc3b4b6 <http://www.w3.org/2002/07/owl#onProperty> <http://labs.mondeca.com/vocab/voaf#reliesOn> .
+<http://labs.mondeca.com/vocab/voaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+_:f76b324da4d9c431199699f8ab77cc3b4b4 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "An example of dataset using this vocabulary"@en .
+_:f76b324da4d9c431199699f8ab77cc3b4b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f76b324da4d9c431199699f8ab77cc3b4b6 .
+<http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdfs.org/ns/void#vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of properties defined in the vocabulary namespace."@en .
+<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary declares some equivalent classes or properties with the object vocabulary."@en .
+<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+_:f76b324da4d9c431199699f8ab77cc3b4b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f76b324da4d9c431199699f8ab77cc3b4b2 .
+<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary is used by the object vocabulary"@en .
+<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary uses the object vocabulary in metadata at vocabulary or element level"@en .
+<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#label> "has equivalences with"@en .
+<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+_:f76b324da4d9c431199699f8ab77cc3b4b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#label> "relies on"@en .
+<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://labs.mondeca.com/vocab/voaf#extends> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
 <http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/ns/void#Dataset> .
-_:f63e8eab21c774c668fd899650036ddabb2 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#toDoList> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
 <http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/mondeca.rdf#lrozat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://labs.mondeca.com/vocab/voaf> <http://purl.org/dc/terms/modified> "2011-03-11" .
+<http://labs.mondeca.com/vocab/voaf> <http://labs.mondeca.com/vocab/voaf#exampleDataset> <http://labs.mondeca.com/dataset/lov/lov.rdf> .
+<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://labs.mondeca.com/vocab/voaf#extends> .
+<http://labs.mondeca.com/vocab/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary"@en .
+<http://labs.mondeca.com/vocab/voaf> <http://www.w3.org/2000/01/rdf-schema#comment> "This is work in progress. Do not consider any element of this ontology as cast in stone."@en .
+<http://labs.mondeca.com/vocab/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#usedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://labs.mondeca.com/vocab/voaf#propertyNumber> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+_:f76b324da4d9c431199699f8ab77cc3b4b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f76b324da4d9c431199699f8ab77cc3b4b3 .
+<http://labs.mondeca.com/vocab/voaf#Vocabulary> <http://www.w3.org/2002/07/owl#unionOf> _:f76b324da4d9c431199699f8ab77cc3b4b1 .
+<http://labs.mondeca.com/vocab/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#range> <http://labs.mondeca.com/vocab/voaf#Vocabulary> .
+<http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://labs.mondeca.com/vocab/voaf#classNumber> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://labs.mondeca.com/vocab/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#label> "similar"@en .
 

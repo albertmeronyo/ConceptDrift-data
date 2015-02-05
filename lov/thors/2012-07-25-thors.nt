@@ -1,140 +1,140 @@
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b3 .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b11 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/elements/1.1/source> "Simon J.D. Cox and Stephen M. Richard, A formal model for the geologic time scale and global stratotype section and point, compatible with geospatial information transfer standards, Geosphere, 1, 119-137 (2005)"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#system> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b4 .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#disjointWith> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dx.doi.org/10.1130/GES00022.1> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b1 .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/elements/1.1/creator> "Simon Jonathan David COX, CSIRO Australia"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201208-IGC/GeologicTimeScale/gtrs-30.rdf> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b10 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ClockTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#member> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#narrower> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#member> <http://www.w3.org/2004/02/skos/core#prefLabel> "Era member"@en .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#topConceptOf> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b5 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b2 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#end> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/elements/1.1/description> "An OWL representation of the model for Temporal Ordinal Reference Systems defined in GeoSciML v3."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#OrdinalReferenceSystem> .
 <http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2002/07/owl#versionInfo> "Created with TopBraid Composer"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#label> "Clock time"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b6 .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Positional Uncertainty"@en .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/elements/1.1/date> "2012-01-19"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b6 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
+_:f328d7e9db51545159d47386b57a39930b7 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#position> .
 <http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/2004/02/skos/core#prefLabel> "System"@en .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b11 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#member> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#component> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b5 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2000/01/rdf-schema#label> "Time Ordinal Era Boundary"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b12 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b13 .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b8 .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b3 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#component> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2000/01/rdf-schema#label> "Time Ordinal Era"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b10 .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b4 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201208-Temporal/GeologicTimeScale/gtrs-30.rdf> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#end> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <doi:10.1130/GES00022.1> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Time Ordinal Era"@en .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b13 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b5 .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b12 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b3 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/terms/modified> "2012-07-26"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b7 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#position> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f328d7e9db51545159d47386b57a39930b3 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#component> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#label> "Clock time"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Time Ordinal Reference System"@en .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2000/01/rdf-schema#comment> "This model is related to the model for TORS in ISO 19108:2006, except that boundaries between eras are first class objects, supporting multiple properties, rather than being just time coordinates."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b8 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#start> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2004/02/skos/core#prefLabel> "Era start"@en .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2004/02/skos/core#prefLabel> "Time Ordinal Era Boundary"@en .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b2 .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Previous Era"@en .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b7 .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b14 .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.geosciml.org> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#disjointWith> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b12 .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b6 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#hasTopConcept> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b14 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Time Ordinal Reference System"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#TemporalPosition> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b8 .
+_:f328d7e9db51545159d47386b57a39930b2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://geosphere.gsapubs.org/cgi/doi/10.1130/GES00022.1> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b7 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b9 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#end> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b9 .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#OrdinalEra> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/terms/created> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Next Era"@en .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ReferenceSystem> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b10 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#component> .
 <http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/2004/02/skos/core#prefLabel> "Era end"@en .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b6 .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ClockTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
+_:f328d7e9db51545159d47386b57a39930b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Time Ordinal Era"@en .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2000/01/rdf-schema#label> "Time Ordinal Era Boundary"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <doi:10.1130/GES00022.1> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> .
+_:f328d7e9db51545159d47386b57a39930b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b4 .
+_:f328d7e9db51545159d47386b57a39930b14 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f328d7e9db51545159d47386b57a39930b12 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> .
+_:f328d7e9db51545159d47386b57a39930b6 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#member> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
+_:f328d7e9db51545159d47386b57a39930b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#system> .
+_:f328d7e9db51545159d47386b57a39930b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f328d7e9db51545159d47386b57a39930b9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b12 .
+_:f328d7e9db51545159d47386b57a39930b10 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#component> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b13 .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/elements/1.1/creator> "Simon Jonathan David COX, CSIRO Australia"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ReferenceSystem> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2004/02/skos/core#prefLabel> "Time Ordinal Era Boundary"@en .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal> .
+_:f328d7e9db51545159d47386b57a39930b1 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#start> .
 <http://resource.geosciml.org/ontology/timescale/gtrs-30#member> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b13 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b2 .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b14 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#position> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b1 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#start> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#start> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f87b7a435b3964a6c8c7dd7c9e318a867b11 .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
-_:f87b7a435b3964a6c8c7dd7c9e318a867b1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Positional Uncertainty"@en .
+_:f328d7e9db51545159d47386b57a39930b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ClockTime> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clock time"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f328d7e9db51545159d47386b57a39930b8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/elements/1.1/source> "Simon J.D. Cox and Stephen M. Richard, A formal model for the geologic time scale and global stratotype section and point, compatible with geospatial information transfer standards, Geosphere, 1, 119-137 (2005)"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f328d7e9db51545159d47386b57a39930b5 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+_:f328d7e9db51545159d47386b57a39930b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b3 .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#TemporalPosition> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#topConceptOf> .
+_:f328d7e9db51545159d47386b57a39930b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f328d7e9db51545159d47386b57a39930b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f328d7e9db51545159d47386b57a39930b7 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f328d7e9db51545159d47386b57a39930b9 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#end> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
+_:f328d7e9db51545159d47386b57a39930b6 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2000/01/rdf-schema#label> "Time Ordinal Era"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b11 .
+_:f328d7e9db51545159d47386b57a39930b13 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f328d7e9db51545159d47386b57a39930b2 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#end> .
 <http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/2004/02/skos/core#prefLabel> "Temporal reference system component"@en .
-<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:f328d7e9db51545159d47386b57a39930b10 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dx.doi.org/10.1130/GES00022.1> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2004/02/skos/core#prefLabel> "Era start"@en .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#component> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:f328d7e9db51545159d47386b57a39930b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201208-IGC/GeologicTimeScale/gtrs-30.rdf> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#start> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
+_:f328d7e9db51545159d47386b57a39930b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f328d7e9db51545159d47386b57a39930b11 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f328d7e9db51545159d47386b57a39930b8 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#start> .
+_:f328d7e9db51545159d47386b57a39930b4 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> .
 <http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
+_:f328d7e9db51545159d47386b57a39930b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f328d7e9db51545159d47386b57a39930b1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b7 .
+_:f328d7e9db51545159d47386b57a39930b11 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> .
+_:f328d7e9db51545159d47386b57a39930b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#member> <http://www.w3.org/2004/02/skos/core#prefLabel> "Era member"@en .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2000/01/rdf-schema#comment> "This model is related to the model for TORS in ISO 19108:2006, except that boundaries between eras are first class objects, supporting multiple properties, rather than being just time coordinates."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f328d7e9db51545159d47386b57a39930b12 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201208-Temporal/GeologicTimeScale/gtrs-30.rdf> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/terms/created> "2011"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+_:f328d7e9db51545159d47386b57a39930b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Time Ordinal Reference System"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/terms/modified> "2012-07-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:f328d7e9db51545159d47386b57a39930b4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#positionalUncertainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/2000/01/rdf-schema#range> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#OrdinalReferenceSystem> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b14 .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#OrdinalEra> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#member> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#narrower> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2002/07/owl#imports> <http://def.seegrid.csiro.au/isotc211/iso19109/2005/feature> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.geosciml.org> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#disjointWith> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> <http://www.w3.org/2004/02/skos/core#prefLabel> "Next Era"@en .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#end> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#component> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#hasTopConcept> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#previousEra> <http://www.w3.org/2002/07/owl#inverseOf> <http://resource.geosciml.org/ontology/timescale/gtrs-30#end> .
+_:f328d7e9db51545159d47386b57a39930b13 <http://www.w3.org/2002/07/owl#onProperty> <http://resource.geosciml.org/ontology/timescale/gtrs-30#nextEra> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/elements/1.1/date> "2012-01-19"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/2000/01/rdf-schema#domain> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
+_:f328d7e9db51545159d47386b57a39930b14 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#position> .
+<http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal#ClockTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19108/2006/temporal> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#disjointWith> <http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> .
+_:f328d7e9db51545159d47386b57a39930b5 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b10 .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalReferenceSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f328d7e9db51545159d47386b57a39930b3 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b9 .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEraBoundary> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b5 .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30> <http://purl.org/dc/elements/1.1/description> "An OWL representation of the model for Temporal Ordinal Reference Systems defined in GeoSciML v3."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#TimeOrdinalEra> <http://www.w3.org/2002/07/owl#equivalentClass> _:f328d7e9db51545159d47386b57a39930b1 .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f328d7e9db51545159d47386b57a39930b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://resource.geosciml.org/ontology/timescale/gtrs-30#start> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
 

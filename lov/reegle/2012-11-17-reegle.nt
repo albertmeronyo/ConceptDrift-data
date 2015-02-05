@@ -1,168 +1,168 @@
-<http://reegle.info/schema> <http://purl.org/dc/terms/description> "A vocabulary describing the clean energy data published on http://data.reegle.info."@en .
-<http://reegle.info/schema#energyEfficiency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#Specialisation> <http://www.w3.org/2000/01/rdf-schema#label> "specialisation"@en .
-<http://reegle.info/schema#profile> <http://www.w3.org/2000/01/rdf-schema#range> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#activities> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#Sector> <http://www.w3.org/2000/01/rdf-schema#label> "sector"@en .
-<http://reegle.info/schema#ProjectOutput> <http://www.w3.org/2000/01/rdf-schema#comment> "output summary of a renewable energy & energy efficiency project."@en .
-<http://reegle.info/schema#projectDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#technology> <http://www.w3.org/2000/01/rdf-schema#range> <http://reegle.info/schema#Technology> .
-<http://reegle.info/schema#governmentRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#technology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema> <http://purl.org/vocab/vann/preferredNamespacePrefix> "reegle" .
-<http://reegle.info/schema#activities> <http://www.w3.org/2000/01/rdf-schema#label> "activities"@en .
-<http://reegle.info/schema#regulatoryRoles> <http://www.w3.org/2000/01/rdf-schema#label> "regulatory roles"@en .
 <http://reegle.info/schema#extendNetwork> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#desirability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#energyFramework> <http://www.w3.org/2000/01/rdf-schema#label> "energy framework"@en .
-<http://reegle.info/schema#energyRegulationRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://reegle.info/schema#reliance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#activities> <http://www.w3.org/2000/01/rdf-schema#comment> "activities of the organisation in the renewable energy & energy efficiency sector."@en .
-<http://reegle.info/schema#projectDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#referenceNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema#desirability> <http://www.w3.org/2000/01/rdf-schema#label> "desirability"@en .
-<http://reegle.info/schema#ownership> <http://www.w3.org/2000/01/rdf-schema#label> "ownership"@en .
-<http://reegle.info/schema#renewableEnergy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#governmentAgencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#competition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#sources> <http://www.w3.org/2000/01/rdf-schema#label> "energy sources"@en .
-<http://reegle.info/schema> <http://www.w3.org/2000/01/rdf-schema#comment> "Version 1.1: Added vocabulary metadata and missing labels for some properties."@en .
-<http://reegle.info/schema#energyProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#energyRegulationRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://reegle.info/schema#" .
-<http://reegle.info/schema#desirability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#CountryProfile> <http://www.w3.org/2000/01/rdf-schema#label> "country profle"@en .
-<http://reegle.info/schema#energyFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#organisationType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema#capacityConcerns> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#reliance> <http://www.w3.org/2000/01/rdf-schema#label> "reliance"@en .
-<http://reegle.info/schema#energyRegulationRole> <http://www.w3.org/2000/01/rdf-schema#label> "energy regulation role"@en .
-<http://reegle.info/schema#energyProcedure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#degreeIndependence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#governmentAgencies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://reegle.info/schema#regulatoryBarriers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema> <http://www.w3.org/2002/07/owl#versionInfo> "1.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<http://reegle.info/schema#renewableEnergy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#energyDebates> <http://www.w3.org/2000/01/rdf-schema#label> "energy debates"@en .
-<http://reegle.info/schema#targetAudience> <http://www.w3.org/2000/01/rdf-schema#label> "target audience"@en .
-<http://reegle.info/schema#regulatoryBarriers> <http://www.w3.org/2000/01/rdf-schema#label> "regulatory barriers"@en .
-<http://reegle.info/schema#competition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#activities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#activeIn> <http://www.w3.org/2000/01/rdf-schema#label> "is active in"@en .
-<http://reegle.info/schema#profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://reegle.info/schema#energyRegulator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#extendNetwork> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#referenceNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#energyDebates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#Sector> <http://www.w3.org/2000/01/rdf-schema#comment> "A sector in the field of renewable energy and energy efficiency."@en .
-<http://reegle.info/schema#Sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://reegle.info/schema#regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#funded> <http://www.w3.org/2000/01/rdf-schema#label> "funded"@en .
-<http://reegle.info/schema#specialisation> <http://www.w3.org/2000/01/rdf-schema#label> "specialisation"@en .
-<http://reegle.info/schema#ownership> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#label> "in sector"@en .
-<http://reegle.info/schema#competition> <http://www.w3.org/2000/01/rdf-schema#label> "competition"@en .
-<http://reegle.info/schema#ProjectOutput> <http://www.w3.org/2000/01/rdf-schema#label> "project output"@en .
-<http://reegle.info/schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://reegle.info/schema#organisationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#competition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#desirability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema#activeIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.geonames.org/ontology#Feature> .
-<http://reegle.info/schema#targetAudience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema#regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#capacityConcerns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#energyEfficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#referenceNumber> <http://www.w3.org/2000/01/rdf-schema#label> "reference number\""@en .
-<http://reegle.info/schema#energyFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#specialisation> <http://www.w3.org/2000/01/rdf-schema#range> <http://reegle.info/schema#Specialisation> .
-<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#range> <http://reegle.info/schema#Sector> .
-<http://reegle.info/schema#specialisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://reegle.info/schema#energyStudies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#targetAudience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#reliance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#energyDebates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://reegle.info/schema#projectTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#energyRegulator> <http://www.w3.org/2000/01/rdf-schema#label> "energy regulator"@en .
-<http://reegle.info/schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://reegle.info/schema#projectTitle> <http://www.w3.org/2000/01/rdf-schema#label> "project title"@en .
-<http://reegle.info/schema#activeIn> <http://www.w3.org/2000/01/rdf-schema#comment> "defines the countries an organisation is active in"@en .
-<http://reegle.info/schema> <http://purl.org/dc/terms/modified> "2012-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://reegle.info/schema#funded> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#organisationType> <http://www.w3.org/2000/01/rdf-schema#label> "organisation type"@en .
-<http://reegle.info/schema#renewableEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#sources> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#capacityConcerns> <http://www.w3.org/2000/01/rdf-schema#label> "capacity concerns"@en .
-<http://reegle.info/schema#capacityConcerns> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#sources> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#extendNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#comment> "The sector an organisation is active in."@en .
-<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema#governmentRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#technology> <http://www.w3.org/2000/01/rdf-schema#label> "technology"@en .
-<http://reegle.info/schema#renewableEnergy> <http://www.w3.org/2000/01/rdf-schema#label> "renewable energy"@en .
-<http://reegle.info/schema#projectDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema#projectExpertise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#governmentAgencies> <http://www.w3.org/2000/01/rdf-schema#label> "government agencies"@en .
-<http://reegle.info/schema#ProjectOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://reegle.info/schema#activeIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://reegle.info/schema#profile> <http://www.w3.org/2000/01/rdf-schema#label> "has country profile"@en .
-<http://reegle.info/schema#projectDescription> <http://www.w3.org/2000/01/rdf-schema#label> "project description"@en .
-<http://reegle.info/schema#ownership> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#degreeIndependence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#label> "sector"@en .
-<http://reegle.info/schema#specialisation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema#degreeIndependence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#referenceNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema-datatypes#int> .
-<http://reegle.info/schema#regulatoryBarriers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#energyProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "energy procedure"@en .
-<http://reegle.info/schema#projectTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#ownership> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#regulatoryBarriers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#Technology> <http://www.w3.org/2000/01/rdf-schema#label> "technology"@en .
-<http://reegle.info/schema#governmentRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#reliance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://reegle.info/schema#energyProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#projectExpertise> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#governmentRole> <http://www.w3.org/2000/01/rdf-schema#label> "role of the government"@en .
-<http://reegle.info/schema#funded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#sources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#energyStudies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#energyEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "energy efficiency"@en .
-<http://reegle.info/schema#Specialisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://reegle.info/schema> <http://creativecommons.org/ns#license> <http://www.nationalarchives.gov.uk/doc/open-government-licence> .
 <http://reegle.info/schema#energyDebates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#mission> <http://www.w3.org/2000/01/rdf-schema#label> "mission"@en .
-<http://reegle.info/schema#energyRegulationRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#regulatoryRoles> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#projectExpertise> <http://www.w3.org/2000/01/rdf-schema#label> "project expertise"@en .
-<http://reegle.info/schema#extendNetwork> <http://www.w3.org/2000/01/rdf-schema#label> "extend network"@en .
-<http://reegle.info/schema#targetAudience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#projectTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema#projectExpertise> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
-<http://reegle.info/schema#governmentAgencies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
-<http://reegle.info/schema#regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#label> "regulatory framework"@en .
-<http://reegle.info/schema#CountryProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://reegle.info/schema#regulatoryRoles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#energyFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://reegle.info/schema#energyRegulator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://reegle.info/schema#energyEfficiency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#energyRegulator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema> <http://creativecommons.org/ns#license> <http://www.nationalarchives.gov.uk/doc/open-government-licence> .
-<http://reegle.info/schema#sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#mission> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#regulatoryFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#mission> <http://www.w3.org/2000/01/rdf-schema#comment> "the declared mission of the organisation."@en .
-<http://reegle.info/schema> <http://purl.org/dc/terms/title> "Reegle RDF Schema"@en .
-<http://reegle.info/schema#mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://reegle.info/schema#organisationType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema> <http://purl.org/dc/terms/issued> "2011-12-20"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://reegle.info/schema#regulatoryRoles> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://reegle.info/schema#funded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#targetAudience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#energyRegulationRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://reegle.info/schema#degreeIndependence> <http://www.w3.org/2000/01/rdf-schema#label> "degree of independence"@en .
+<http://reegle.info/schema#degreeIndependence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#degreeIndependence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#targetAudience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#energyRegulationRole> <http://www.w3.org/2000/01/rdf-schema#label> "energy regulation role"@en .
+<http://reegle.info/schema#activeIn> <http://www.w3.org/2000/01/rdf-schema#comment> "defines the countries an organisation is active in"@en .
+<http://reegle.info/schema#ProjectOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://reegle.info/schema#technology> <http://www.w3.org/2000/01/rdf-schema#range> <http://reegle.info/schema#Technology> .
+<http://reegle.info/schema#governmentAgencies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#projectTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#funded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#specialisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://reegle.info/schema#energyRegulationRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
 <http://reegle.info/schema#energyStudies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#funded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema> <http://purl.org/dc/terms/modified> "2012-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://reegle.info/schema#desirability> <http://www.w3.org/2000/01/rdf-schema#label> "desirability"@en .
+<http://reegle.info/schema#energyFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#label> "sector"@en .
+<http://reegle.info/schema#renewableEnergy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#targetAudience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://reegle.info/schema#ownership> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#activities> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#profile> <http://www.w3.org/2000/01/rdf-schema#range> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#regulatoryRoles> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema> <http://purl.org/dc/terms/description> "A vocabulary describing the clean energy data published on http://data.reegle.info."@en .
+<http://reegle.info/schema#governmentRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#referenceNumber> <http://www.w3.org/2000/01/rdf-schema#label> "reference number\""@en .
+<http://reegle.info/schema#funded> <http://www.w3.org/2000/01/rdf-schema#label> "funded"@en .
+<http://reegle.info/schema#projectExpertise> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#projectTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#projectExpertise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#competition> <http://www.w3.org/2000/01/rdf-schema#label> "competition"@en .
+<http://reegle.info/schema#technology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
 <http://reegle.info/schema#energyStudies> <http://www.w3.org/2000/01/rdf-schema#label> "energy debates"@en .
+<http://reegle.info/schema#regulatoryBarriers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#competition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#desirability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#organisationType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#capacityConcerns> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#energyProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "energy procedure"@en .
+<http://reegle.info/schema#energyEfficiency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#energyDebates> <http://www.w3.org/2000/01/rdf-schema#label> "energy debates"@en .
+<http://reegle.info/schema#energyStudies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#competition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#energyRegulator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#Sector> <http://www.w3.org/2000/01/rdf-schema#comment> "A sector in the field of renewable energy and energy efficiency."@en .
+<http://reegle.info/schema#reliance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#targetAudience> <http://www.w3.org/2000/01/rdf-schema#label> "target audience"@en .
+<http://reegle.info/schema#governmentAgencies> <http://www.w3.org/2000/01/rdf-schema#label> "government agencies"@en .
+<http://reegle.info/schema#energyEfficiency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#capacityConcerns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#mission> <http://www.w3.org/2000/01/rdf-schema#label> "mission"@en .
+<http://reegle.info/schema#energyRegulationRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#governmentAgencies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#activeIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.geonames.org/ontology#Feature> .
+<http://reegle.info/schema> <http://purl.org/dc/terms/title> "Reegle RDF Schema"@en .
+<http://reegle.info/schema#ownership> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#reliance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://reegle.info/schema#specialisation> <http://www.w3.org/2000/01/rdf-schema#range> <http://reegle.info/schema#Specialisation> .
+<http://reegle.info/schema#extendNetwork> <http://www.w3.org/2000/01/rdf-schema#label> "extend network"@en .
+<http://reegle.info/schema#energyRegulator> <http://www.w3.org/2000/01/rdf-schema#label> "energy regulator"@en .
+<http://reegle.info/schema#energyEfficiency> <http://www.w3.org/2000/01/rdf-schema#label> "energy efficiency"@en .
+<http://reegle.info/schema#energyProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#activities> <http://www.w3.org/2000/01/rdf-schema#label> "activities"@en .
+<http://reegle.info/schema#CountryProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://reegle.info/schema#reliance> <http://www.w3.org/2000/01/rdf-schema#label> "reliance"@en .
+<http://reegle.info/schema#desirability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#regulatoryBarriers> <http://www.w3.org/2000/01/rdf-schema#label> "regulatory barriers"@en .
+<http://reegle.info/schema#activities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#projectDescription> <http://www.w3.org/2000/01/rdf-schema#label> "project description"@en .
+<http://reegle.info/schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#label> "in sector"@en .
+<http://reegle.info/schema#extendNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#specialisation> <http://www.w3.org/2000/01/rdf-schema#label> "specialisation"@en .
+<http://reegle.info/schema#governmentRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#energyFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://reegle.info/schema> <http://purl.org/dc/terms/issued> "2011-12-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://reegle.info/schema#Sector> <http://www.w3.org/2000/01/rdf-schema#label> "sector"@en .
+<http://reegle.info/schema#Sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://reegle.info/schema#energyStudies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#organisationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://reegle.info/schema#Specialisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#range> <http://reegle.info/schema#Sector> .
+<http://reegle.info/schema#funded> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#sources> <http://www.w3.org/2000/01/rdf-schema#label> "energy sources"@en .
+<http://reegle.info/schema#sources> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#capacityConcerns> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#CountryProfile> <http://www.w3.org/2000/01/rdf-schema#label> "country profle"@en .
+<http://reegle.info/schema#energyDebates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#governmentRole> <http://www.w3.org/2000/01/rdf-schema#label> "role of the government"@en .
+<http://reegle.info/schema#ownership> <http://www.w3.org/2000/01/rdf-schema#label> "ownership"@en .
+<http://reegle.info/schema#activeIn> <http://www.w3.org/2000/01/rdf-schema#label> "is active in"@en .
+<http://reegle.info/schema#ProjectOutput> <http://www.w3.org/2000/01/rdf-schema#comment> "output summary of a renewable energy & energy efficiency project."@en .
+<http://reegle.info/schema#energyDebates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#sources> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#organisationType> <http://www.w3.org/2000/01/rdf-schema#label> "organisation type"@en .
 <http://reegle.info/schema#technology> <http://www.w3.org/2000/01/rdf-schema#comment> "the technologies that are related to a project"@en .
+<http://reegle.info/schema#regulatoryRoles> <http://www.w3.org/2000/01/rdf-schema#label> "regulatory roles"@en .
+<http://reegle.info/schema#profile> <http://www.w3.org/2000/01/rdf-schema#label> "has country profile"@en .
+<http://reegle.info/schema#energyRegulator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#referenceNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema-datatypes#int> .
+<http://reegle.info/schema#regulatoryRoles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#desirability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema> <http://purl.org/vocab/vann/preferredNamespacePrefix> "reegle" .
+<http://reegle.info/schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#comment> "The sector an organisation is active in."@en .
+<http://reegle.info/schema#ownership> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#sources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://reegle.info/schema#" .
+<http://reegle.info/schema#governmentAgencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#mission> <http://www.w3.org/2000/01/rdf-schema#comment> "the declared mission of the organisation."@en .
+<http://reegle.info/schema#projectTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema> <http://www.w3.org/2002/07/owl#versionInfo> "1.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://reegle.info/schema#projectDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#regulatoryFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#referenceNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#projectDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#projectTitle> <http://www.w3.org/2000/01/rdf-schema#label> "project title"@en .
+<http://reegle.info/schema#ProjectOutput> <http://www.w3.org/2000/01/rdf-schema#label> "project output"@en .
+<http://reegle.info/schema#organisationType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#Technology> <http://www.w3.org/2000/01/rdf-schema#label> "technology"@en .
+<http://reegle.info/schema#energyProcedure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#renewableEnergy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#competition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#label> "regulatory framework"@en .
+<http://reegle.info/schema#renewableEnergy> <http://www.w3.org/2000/01/rdf-schema#label> "renewable energy"@en .
+<http://reegle.info/schema#renewableEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#regulatoryRoles> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#Specialisation> <http://www.w3.org/2000/01/rdf-schema#label> "specialisation"@en .
+<http://reegle.info/schema#energyFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#mission> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#governmentRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#activities> <http://www.w3.org/2000/01/rdf-schema#comment> "activities of the organisation in the renewable energy & energy efficiency sector."@en .
+<http://reegle.info/schema#energyFramework> <http://www.w3.org/2000/01/rdf-schema#label> "energy framework"@en .
+<http://reegle.info/schema#technology> <http://www.w3.org/2000/01/rdf-schema#label> "technology"@en .
+<http://reegle.info/schema#degreeIndependence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#extendNetwork> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#energyProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#CountryProfile> .
+<http://reegle.info/schema#specialisation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#regulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#projectExpertise> <http://www.w3.org/2000/01/rdf-schema#label> "project expertise"@en .
+<http://reegle.info/schema#reliance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema#referenceNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#activeIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://reegle.info/schema#regulatoryBarriers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://reegle.info/schema> <http://www.w3.org/2000/01/rdf-schema#comment> "Version 1.1: Added vocabulary metadata and missing labels for some properties."@en .
+<http://reegle.info/schema#projectDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://reegle.info/schema#capacityConcerns> <http://www.w3.org/2000/01/rdf-schema#label> "capacity concerns"@en .
+<http://reegle.info/schema#sector> <http://www.w3.org/2000/01/rdf-schema#domain> <http://reegle.info/schema#ProjectOutput> .
+<http://reegle.info/schema#projectExpertise> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 

@@ -1,113 +1,113 @@
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "access URL" .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "connects a dataset to one of its available distributions" .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#label> "granularity" .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#label> "size" .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#comment> "describe size of resource in bytes" .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> .
 <http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "the main category of the dataset. A dataset can have multiple themes" .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "keyword" .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/extent> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "connects a dataset to one of its available distributions" .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web." .
 <http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset" .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "dataset" .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a specific available form of a dataset. Each dataset might be available in different forms, these forms might represent different formats of the dataset, different endpoints,... Examples of Distribution include a downloadable CSV file, an XLS file representing the dataset, an RSS feed\u2026" .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#label> "Feed" .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#comment> "the size of a distribution" .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Catalog" .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "theme" .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a web service that enables access to the data of a dataset" .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
 <http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "the knowledge organization system (KOS) used to classify catalog's datasets" .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "The data catalog vocabulary" .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "keyword" .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "A  curated collection of metadata about datasets" .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#comment> "describes the level of granularity of data in a dataset. The granularity can be in time, place etc" .
 <http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#label> "size in bytes" .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "points to the location of a distribution. This can be a direct download link, a link to an HTML page containing a link to the actual data, Feed, Web Service etc. the semantic is determined by its domain (Distribution, Feed, WebService, Download)" .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/extent> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribution" .
 <http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
 <http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "links a catalog to its records" .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "theme" .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a specific available form of a dataset. Each dataset might be available in different forms, these forms might represent different formats of the dataset, different endpoints,... Examples of Distribution include a downloadable CSV file, an XLS file representing the dataset, an RSS feed\u2026" .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a downloadable distribution of a dataset" .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "points to the location of a distribution. This can be a direct download link, a link to an HTML page containing a link to the actual data, Feed, Web Service etc. the semantic is determined by its domain (Distribution, Feed, WebService, Download)" .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "a keyword or tag describing the datase" .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#label> "data dictionary" .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribution" .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Dataset> .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a web service that enables access to the data of a dataset" .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "dataset" .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "a dataset that is part of the catalog" .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#comment> "describes the level of granularity of data in a dataset. The granularity can be in time, place etc" .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#CatalogRecord> .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Catalog" .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#comment> "describes the quality of data e.g. precision. This should not be used to describe the data collection characteristics, other more specialized statistical properties can be used instead." .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "themes" .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/modified> "2012-04-24"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "record" .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#label> "granularity" .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of data, published or curated by a single source, and available for access or download in one or more formats" .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A record in a data catalog, describing a single dataset" .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "The data catalog vocabulary" .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#comment> "links a dataset to a dictionary that helps interpreting the data" .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#label> "data quality" .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web." .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#label> "Feed" .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#comment> "represents availability of a dataset as a feed" .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "A  curated collection of metadata about datasets" .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#label> "Download" .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Catalog Record" .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#label> "size" .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#comment> "describe size of resource in bytes" .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
 <http://www.w3.org/ns/dcat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset" .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "access URL" .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a downloadable distribution of a dataset" .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "the main category of the dataset. A dataset can have multiple themes" .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#label> "Web Service" .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A record in a data catalog, describing a single dataset" .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#CatalogRecord> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "a dataset that is part of the catalog" .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "themes" .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of data, published or curated by a single source, and available for access or download in one or more formats" .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution" .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#comment> "the size of a distribution" .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "record" .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#comment> "links a dataset to a dictionary that helps interpreting the data" .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#comment> "represents availability of a dataset as a feed" .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#label> "data dictionary" .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "a keyword or tag describing the datase" .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/modified> "2012-04-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#label> "Download" .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Dataset> .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#comment> "describes the quality of data e.g. precision. This should not be used to describe the data collection characteristics, other more specialized statistical properties can be used instead." .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#label> "size in bytes" .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#label> "data quality" .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 

@@ -1,275 +1,275 @@
-<http://spinrdf.org/spin#_arg3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
-<http://spinrdf.org/spin#_arg2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
-<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/spin#Rule> .
-<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to attach a \"constructor\" to a class. A constructor is a SPARQL CONSTRUCT query or INSERT/DELETE Update operation that can add initial values to the current instance. At execution time, the variable ?this is bound to the current instance. Tools can call constructors of a class and its superclasses when an instance of a class has been created. Constructors will also be used to initialize resources that have received a new rdf:type triple as a result of spin:rules firing."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#SelectTemplates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spinrdf.org/spin#_this> <http://www.w3.org/2000/01/rdf-schema#label> "_this"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb1 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
-<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "A template string for displaying instantiations of a module in human-readable form. The template may contain the argument variable names in curly braces to support substitution. For example, \"The number of values of the {?arg1} property.\"" .
-<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#constraint> <http://www.w3.org/2000/01/rdf-schema#label> "constraint"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb7 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
-<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#comment> "An optional attribute of ConstraintViolations to provide a path expression from the root resource to the value that is invalid. If this is a URI then the path represents the predicate of a subject/predicate combination. Otherwise it should be a blank node of type sp:Path." .
-<http://spinrdf.org/spin#Modules> <http://www.w3.org/2000/01/rdf-schema#label> "Modules"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#RuleProperty> .
-<http://spinrdf.org/spin#eval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Functions> .
-<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link a spin:ConstraintViolation with the query or template call that caused it. This property is typically filled in automatically by the constraint checking engine and does not need to be set manually. However, it can be useful to learn more about the origin of a violation."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#rule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:fa0d57704ddf444d193013e9e874b96feb7 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#command> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link a resource with a SPARQL query or update request (sp:Command)."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#update> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#command> .
-<http://spinrdf.org/spin#_arg5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
-<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#LibraryOntology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://spinrdf.org/spin#Modules> <http://spinrdf.org/spin#constructor> _:fa0d57704ddf444d193013e9e874b96feb5 .
-<http://spinrdf.org/spin#private> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be set to true to indicate that this module shall not be instantiated. Abstract modules are only there to organize other modules into hierarchies." .
-<http://spinrdf.org/spin#SelectTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPIN template that wraps a SELECT query."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#ConstraintViolation> .
-<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/spin#UpdateTemplate> .
-<http://spinrdf.org/spin#ConstructTemplates> <http://www.w3.org/2000/01/rdf-schema#label> "Construct templates"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#AskTemplate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Template> .
-<http://spinrdf.org/spin#Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://spinrdf.org/spin#private> <http://www.w3.org/2000/01/rdf-schema#label> "private"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#MagicProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Function> .
-<http://spinrdf.org/spin#fix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract superclass that can be used to group all spin:MagicProperty instances under a single parent class."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb1 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#comment> "The symbol of a function, e.g. \"=\" for the eq function." .
-<http://spinrdf.org/spin#SelectTemplate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Template> .
-<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#UpdateTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://spinrdf.org/spin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://spinrdf.org/spin#command> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/sp#Command> .
-<http://spinrdf.org/spin#Function> <http://www.w3.org/2000/01/rdf-schema#comment> "Metaclass for functions that can be used in SPARQL expressions (e.g. FILTER or BIND). The function themselves are classes that are instances of this metaclass. Function calls are instances of the function classes, with property values for the arguments."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb6 <http://spinrdf.org/spl#valueType> <http://spinrdf.org/sp#Select> .
-<http://spinrdf.org/spin> <http://www.w3.org/2000/01/rdf-schema#comment> "An RDF Schema that can be used to attach constraints and rules to RDFS classes, and to encapsulate reusable SPARQL queries into functions and templates."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#_arg1> <http://spinrdf.org/sp#varName> "arg1"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#_arg1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
-<http://spinrdf.org/spin#Template> <http://www.w3.org/2000/01/rdf-schema#label> "Template"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#AskTemplates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Templates> .
-<http://spinrdf.org/spin#systemProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#comment> "The return type of a Function, e.g. xsd:string." .
-<http://spinrdf.org/spin#systemProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "An \"abstract\" base property that groups together those system properties that the user will hardly ever need to see in property trees. This property may be dropped in future versions of this ontology - right now it's mainly here for convenience." .
-<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#ConstraintViolation> .
-<http://spinrdf.org/spin#Modules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#LibraryOntology> <http://www.w3.org/2000/01/rdf-schema#comment> "A marker class that can be attached to base URIs (ontologies) to instruct SPIN engines that this ontology only contains a library of SPIN declarations. Library Ontologies should be ignored by SPIN inference engines even if they have been imported by a domain model. For example, a SPIN version of OWL RL may contain all the OWL RL axioms, attached to owl:Thing, but nothing else. However, when executed, these axioms should not be executed over themselves, because we don't want the system to reason about the SPIN triples to speed up things." .
-<http://spinrdf.org/spin#Templates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spinrdf.org/spin#ConstructTemplate> <http://spinrdf.org/spin#constraint> _:fa0d57704ddf444d193013e9e874b96feb2 .
-<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://spinrdf.org/spin#Functions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Modules> .
-<http://spinrdf.org/spin#_this> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
-<http://spinrdf.org/spin#update> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/sp#Update> .
-<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be set to true for SPIN rules and constraints that do not require pre-binding the variable ?this with all members of the associated class. This flag should only be set to true if the WHERE clause is sufficiently strong to only bind instances of the associated class, or its subclasses. In those cases, the engine can greatly improve performance of query execution, because it does not need to add clauses to narrow down the WHERE clause."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#label> "abstract"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb6 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
-<http://spinrdf.org/spin#query> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to point from any resource to a Query." .
-<http://spinrdf.org/spin#update> <http://www.w3.org/2000/01/rdf-schema#label> "update"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb3 <http://www.w3.org/2000/01/rdf-schema#comment> "The ASK query wrapped by this template."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#UpdateTemplates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#UpdateTemplate> .
-<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Module> .
-<http://spinrdf.org/spin#returnType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#violationPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#ConstructTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "Construct template"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb2 <http://www.w3.org/2000/01/rdf-schema#comment> "The CONSTRUCT query wrapped by this template."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#UpdateTemplate> <http://spinrdf.org/spin#constraint> _:fa0d57704ddf444d193013e9e874b96feb4 .
-<http://spinrdf.org/spin#UpdateTemplates> <http://www.w3.org/2000/01/rdf-schema#label> "Update templates"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#label> "return type"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Magic properties"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#ConstructTemplates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spinrdf.org/spin#Module> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract building block of a SPARQL system. A Module can take Arguments as input and applies them on an input RDF Graph. The Arguments should be declared as spin:constraints."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb1 <http://www.w3.org/2000/01/rdf-schema#comment> "the body of the function"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#private> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Function> .
-<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#ConstraintViolation> .
-<http://spinrdf.org/spin#SelectTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "Select template"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#ConstructTemplates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#ConstructTemplate> .
-_:fa0d57704ddf444d193013e9e874b96feb3 <http://spinrdf.org/spl#valueType> <http://spinrdf.org/sp#Ask> .
-<http://spinrdf.org/sp#Construct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Rule> .
 <http://spinrdf.org/spin#RuleProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Rule property"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#RuleProperty> .
-<http://spinrdf.org/spin#ConstructTemplates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Templates> .
+<http://spinrdf.org/spin#_arg3> <http://spinrdf.org/sp#varName> "arg3"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://spinrdf.org/spin#rule> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#command> .
-<http://spinrdf.org/spin#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Module> .
-<http://spinrdf.org/spin#SelectTemplate> <http://spinrdf.org/spin#constraint> _:fa0d57704ddf444d193013e9e874b96feb6 .
-<http://spinrdf.org/spin#Templates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#Template> .
-_:fa0d57704ddf444d193013e9e874b96feb3 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#Template> <http://www.w3.org/2000/01/rdf-schema#comment> "The metaclass of SPIN templates. Templates are classes that are instances of this class. A template represents a reusable SPARQL query or update request that can be parameterized with arguments. Templates can be instantiated in places where normally a SPARQL query or update request is used, in particular as spin:rules and spin:constraints."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#ConstraintViolation> <http://www.w3.org/2000/01/rdf-schema#label> "Constraint violation"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#_arg5> <http://spinrdf.org/sp#varName> "arg5"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#label> "next rule property"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/sp#DeleteWhere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Rule> .
-_:fa0d57704ddf444d193013e9e874b96feb2 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#body> <http://www.w3.org/2000/01/rdf-schema#comment> "The body of a Function or Template. This points to a Query instance. For Functions, this is limited to either ASK or SELECT type queries. If the body is the ASK function then the return value is xsd:boolean. Otherwise, the SELECT query must have a single return variable. The first binding of this SELECT query will be returned as result of the function call." .
-<http://spinrdf.org/spin#Functions> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spinrdf.org/spin#SelectTemplates> <http://www.w3.org/2000/01/rdf-schema#label> "Select templates"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#command> <http://www.w3.org/2000/01/rdf-schema#label> "command"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#SelectTemplates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#SelectTemplate> .
-_:fa0d57704ddf444d193013e9e874b96feb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
-_:fa0d57704ddf444d193013e9e874b96feb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#ConstructDefaultValues> .
-<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#SelectTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#UpdateTemplate> <http://spinrdf.org/spin#constraint> _:f88425b64bcd8436aa965b96b74436130b4 .
+<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#label> "rule property max iteration count"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b7 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
+<http://spinrdf.org/spin#_arg4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
+<http://spinrdf.org/spin#command> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/sp#Command> .
+<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#RuleProperty> .
+<http://spinrdf.org/spin#Modules> <http://www.w3.org/2000/01/rdf-schema#label> "Modules"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#ConstraintViolation> .
+<http://spinrdf.org/spin#Modules> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <http://spinrdf.org/spin#constraint> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#query> .
+<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract superclass that can be used to group all spin:MagicProperty instances under a single parent class."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#MagicProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#_this> <http://www.w3.org/2000/01/rdf-schema#comment> "A system variable representing the current context instance in a rule or constraint." .
+<http://spinrdf.org/spin#LibraryOntology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://spinrdf.org/spin#UpdateTemplates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#UpdateTemplate> .
+<http://spinrdf.org/spin#Modules> <http://spinrdf.org/spin#constructor> _:f88425b64bcd8436aa965b96b74436130b5 .
+_:f88425b64bcd8436aa965b96b74436130b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
+<http://spinrdf.org/spin#Functions> <http://www.w3.org/2000/01/rdf-schema#label> "Functions"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#comment> "The symbol of a function, e.g. \"=\" for the eq function." .
+_:f88425b64bcd8436aa965b96b74436130b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
+<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be attached to spin:rule (or subclasses thereof) to instruct a SPIN rules engine that it shall only execute the rules max times. If no value is specified, then the rules will be executed with no specific limit."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#_arg5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
+_:f88425b64bcd8436aa965b96b74436130b6 <http://spinrdf.org/spl#valueType> <http://spinrdf.org/sp#Select> .
+<http://spinrdf.org/spin#SelectTemplates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://spinrdf.org/spin#Modules> <http://www.w3.org/2000/01/rdf-schema#comment> "An \"artificial\" parent class for all Functions and Templates." .
+<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Module> .
+<http://spinrdf.org/spin#Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f88425b64bcd8436aa965b96b74436130b2 <http://www.w3.org/2000/01/rdf-schema#comment> "The CONSTRUCT query wrapped by this template."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Module> .
+<http://spinrdf.org/spin#UpdateTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#rule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/sp#Construct> .
+<http://spinrdf.org/spin#rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#RuleProperty> .
+<http://spinrdf.org/spin#Templates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Modules> .
+<http://spinrdf.org/spin#ConstructTemplates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Templates> .
+<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#_this> <http://www.w3.org/2000/01/rdf-schema#label> "_this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#_arg2> <http://spinrdf.org/sp#varName> "arg2"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#ConstructDefaultValues> .
+_:f88425b64bcd8436aa965b96b74436130b9 <http://www.w3.org/2000/01/rdf-schema#comment> "The (boolean) operand to negate."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b6 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
+_:f88425b64bcd8436aa965b96b74436130b3 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
+<http://spinrdf.org/spin#Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#Function> <http://spinrdf.org/spin#constraint> _:f88425b64bcd8436aa965b96b74436130b1 .
+<http://spinrdf.org/spin#eval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Functions> .
+<http://spinrdf.org/spin#_arg5> <http://spinrdf.org/sp#varName> "arg5"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#body> <http://www.w3.org/2000/01/rdf-schema#comment> "The body of a Function or Template. This points to a Query instance. For Functions, this is limited to either ASK or SELECT type queries. If the body is the ASK function then the return value is xsd:boolean. Otherwise, the SELECT query must have a single return variable. The first binding of this SELECT query will be returned as result of the function call." .
+<http://spinrdf.org/spin#constraint> <http://www.w3.org/2000/01/rdf-schema#label> "constraint"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#ConstraintViolation> .
+<http://spinrdf.org/sp#DeleteWhere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Rule> .
+_:f88425b64bcd8436aa965b96b74436130b7 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin#AskTemplates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Templates> .
+<http://spinrdf.org/spin#command> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#label> "imports"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#_arg2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
+<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#label> "next rule property"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+_:f88425b64bcd8436aa965b96b74436130b2 <http://spinrdf.org/spl#valueType> <http://spinrdf.org/sp#Construct> .
+<http://spinrdf.org/spin#_this> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
+<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "A template string for displaying instantiations of a module in human-readable form. The template may contain the argument variable names in curly braces to support substitution. For example, \"The number of values of the {?arg1} property.\"" .
+<http://spinrdf.org/spin#AskTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#MagicProperty> .
+<http://spinrdf.org/sp#Construct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Rule> .
+<http://spinrdf.org/spin#_this> <http://spinrdf.org/sp#varName> "this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#AskTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPIN template that wraps an ASK query."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
+<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#ConstraintViolation> .
+<http://spinrdf.org/spin#Rule> <http://www.w3.org/2000/01/rdf-schema#comment> "Groups together the kinds of SPARQL commands that can appear as SPIN rules and constructors: CONSTRUCT, DELETE WHERE and DELETE/INSERT. This class is never to be instantiated directly."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#_arg1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
+<http://spinrdf.org/spin#LibraryOntology> <http://www.w3.org/2000/01/rdf-schema#comment> "A marker class that can be attached to base URIs (ontologies) to instruct SPIN engines that this ontology only contains a library of SPIN declarations. Library Ontologies should be ignored by SPIN inference engines even if they have been imported by a domain model. For example, a SPIN version of OWL RL may contain all the OWL RL axioms, attached to owl:Thing, but nothing else. However, when executed, these axioms should not be executed over themselves, because we don't want the system to reason about the SPIN triples to speed up things." .
+<http://spinrdf.org/spin#UpdateTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "Update template"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#Functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#Function> .
+<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#label> "constructor"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b1 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
+<http://spinrdf.org/spin#query> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#command> .
+<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+_:f88425b64bcd8436aa965b96b74436130b3 <http://www.w3.org/2000/01/rdf-schema#comment> "The ASK query wrapped by this template."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#AskTemplates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all AskTemplates."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#command> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link a resource with a SPARQL query or update request (sp:Command)."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#label> "symbol"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#Functions> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#RuleProperty> .
+<http://spinrdf.org/spin#Templates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://spinrdf.org/spin#ConstructTemplates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://spinrdf.org/spin#RuleProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "The metaclass of spin:rule and its subproperties. spin:RuleProperties can have additional metadata attached to them."^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://spinrdf.org/spin#Function> <http://www.w3.org/2000/01/rdf-schema#label> "Function"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#SelectTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPIN template that wraps a SELECT query."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link a spin:ConstraintViolation with the query or template call that caused it. This property is typically filled in automatically by the constraint checking engine and does not need to be set manually. However, it can be useful to learn more about the origin of a violation."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#MagicProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#fix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#Rule> <http://www.w3.org/2000/01/rdf-schema#label> "Rule"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#MagicProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Magic property"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#systemProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "An \"abstract\" base property that groups together those system properties that the user will hardly ever need to see in property trees. This property may be dropped in future versions of this ontology - right now it's mainly here for convenience." .
+<http://spinrdf.org/spin#Templates> <http://www.w3.org/2000/01/rdf-schema#label> "Templates"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#UpdateTemplates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all UpdateTemplates."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#Template> <http://www.w3.org/2000/01/rdf-schema#label> "Template"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b7 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin#rule> <http://www.w3.org/2000/01/rdf-schema#label> "rule"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b3 <http://spinrdf.org/spl#valueType> <http://spinrdf.org/sp#Ask> .
+<http://spinrdf.org/spin#body> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#command> <http://www.w3.org/2000/01/rdf-schema#label> "command"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b2 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin#UpdateTemplates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://spinrdf.org/spin#Template> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Module> .
 <http://spinrdf.org/spin#eval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#Function> .
-_:fa0d57704ddf444d193013e9e874b96feb4 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:fa0d57704ddf444d193013e9e874b96feb9 <http://www.w3.org/2000/01/rdf-schema#comment> "The (boolean) operand to negate."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://spinrdf.org/spin#constraint> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a class with constraints on its instances. The values of this property are \"axioms\" expressed as CONSTRUCT or ASK queries where the variable ?this refers to the instances of the surrounding class. ASK queries must evaluate to false for each member of this class - returning true means that the instance ?this violates the constraint. CONSTRUCT queries must create instances of spin:ConstraintViolation to provide details on the reason for the violation." .
+<http://spinrdf.org/spin#update> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to point from any resource to an Update."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#ConstructTemplates> <http://www.w3.org/2000/01/rdf-schema#label> "Construct templates"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#query> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/sp#Query> .
+<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/spin#RuleProperty> .
+<http://spinrdf.org/spin#update> <http://www.w3.org/2000/01/rdf-schema#label> "update"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
+<http://spinrdf.org/spin#Module> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract building block of a SPARQL system. A Module can take Arguments as input and applies them on an input RDF Graph. The Arguments should be declared as spin:constraints."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link a ConstraintViolation with one or more UPDATE Templates that would help fix the violation."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to attach a \"constructor\" to a class. A constructor is a SPARQL CONSTRUCT query or INSERT/DELETE Update operation that can add initial values to the current instance. At execution time, the variable ?this is bound to the current instance. Tools can call constructors of a class and its superclasses when an instance of a class has been created. Constructors will also be used to initialize resources that have received a new rdf:type triple as a result of spin:rules firing."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#private> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be set to true to indicate that a SPIN function is only meant to be used as a helper of other functions, but not directly. Among others, this allows user interfaces to filter out private functions. Furthermore, it tells potential users of this function that they should avoid using this function, as it may not be stable."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#ConstraintViolation> <http://www.w3.org/2000/01/rdf-schema#comment> "An object that can be created by spin:constraints to provide information about a constraint violation." .
+<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#label> "abstract"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://spinrdf.org/spin#rule> <http://www.w3.org/2000/01/rdf-schema#comment> "An inferencing rule attached to a class. Rules are expressed as CONSTRUCT queries or INSERT/DELETE operations where the variable ?this will be bound to the current instance of the class. These inferences can be used to derive new values from existing values at the instance."^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://spinrdf.org/spin#AskTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "Ask template"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#_arg4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
-<http://spinrdf.org/spin#command> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#Templates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Modules> .
-<http://spinrdf.org/spin#Rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#returnType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/spin#Rule> .
 <http://spinrdf.org/spin#private> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#command> .
-<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#label> "symbol"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb6 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#label> "violation path"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#imports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#OntologyProperty> .
-<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#label> "this unbound"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#LibraryOntology> <http://www.w3.org/2000/01/rdf-schema#label> "Library ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#AskTemplates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#AskTemplate> .
-<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#constraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#violationSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#UpdateTemplates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-_:fa0d57704ddf444d193013e9e874b96feb4 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
-<http://spinrdf.org/spin#eval> <http://www.w3.org/2000/01/rdf-schema#comment> "Evaluates a given SPIN expression or SELECT or ASK query, and returns its result. The first argument must be the expression in SPIN RDF syntax. All other arguments must come in pairs: first a property name, and then a value. These name/value pairs will be pre-bound variables for the execution of the expression."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#rule> <http://www.w3.org/2000/01/rdf-schema#label> "rule"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#eval> <http://www.w3.org/2000/01/rdf-schema#label> "eval"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#SelectTemplates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all SelectTemplates."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#constructor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/sp#Modify> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Rule> .
-<http://spinrdf.org/spin#Template> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Module> .
-<http://spinrdf.org/spin#_this> <http://www.w3.org/2000/01/rdf-schema#comment> "A system variable representing the current context instance in a rule or constraint." .
-<http://spinrdf.org/spin#Rule> <http://www.w3.org/2000/01/rdf-schema#label> "Rule"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#AskTemplate> <http://spinrdf.org/spin#constraint> _:fa0d57704ddf444d193013e9e874b96feb3 .
-<http://spinrdf.org/spin#ConstraintViolation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:fa0d57704ddf444d193013e9e874b96feb1 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#RuleProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#ConstructTemplates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all ConstructTemplates."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#MagicProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#UpdateTemplates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all UpdateTemplates."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#ConstraintViolation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/sp#Construct> .
-_:fa0d57704ddf444d193013e9e874b96feb2 <http://spinrdf.org/spl#valueType> <http://spinrdf.org/sp#Construct> .
-<http://spinrdf.org/spin#update> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to point from any resource to an Update."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#Module> <http://www.w3.org/2000/01/rdf-schema#label> "Module"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
-<http://spinrdf.org/spin#private> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#body> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/sp#Command> .
-<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#label> "imports"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Function> .
-<http://spinrdf.org/spin#ConstructTemplate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Template> .
-<http://spinrdf.org/spin#AskTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPIN template that wraps an ASK query."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#Templates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all Templates."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#Function> <http://spinrdf.org/spin#constraint> _:fa0d57704ddf444d193013e9e874b96feb1 .
-<http://spinrdf.org/spin#_this> <http://spinrdf.org/sp#varName> "this"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#ConstructTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#MagicProperties> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spinrdf.org/spin#Modules> <http://www.w3.org/2000/01/rdf-schema#comment> "An \"artificial\" parent class for all Functions and Templates." .
-<http://spinrdf.org/spin#UpdateTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "Update template"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb8 <http://www.w3.org/2000/01/rdf-schema#comment> "The first operand to compare."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb2 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#body> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Functions> .
-_:fa0d57704ddf444d193013e9e874b96feb7 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-_:fa0d57704ddf444d193013e9e874b96feb4 <http://spinrdf.org/spl#valueType> <http://spinrdf.org/sp#Update> .
-<http://spinrdf.org/spin> <http://www.w3.org/2000/01/rdf-schema#label> "SPIN Inferencing Vocabulary" .
-<http://spinrdf.org/spin#SelectTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link a ConstraintViolation with one or more UPDATE Templates that would help fix the violation."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#ConstraintViolation> <http://www.w3.org/2000/01/rdf-schema#comment> "An object that can be created by spin:constraints to provide information about a constraint violation." .
-<http://spinrdf.org/spin#_arg3> <http://spinrdf.org/sp#varName> "arg3"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link an RDF graph (usually the instance of owl:Ontology) with a SPIN library to define constraints. SPIN-aware tools should include the definitions from those libraries for constraint checking. Using such libraries is a simpler alternative than explicitly importing them using owl:imports, because it does not force all the SPIN triples into the RDF model."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/spin#RuleProperty> .
-_:fa0d57704ddf444d193013e9e874b96feb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
-<http://spinrdf.org/spin> <http://www.w3.org/2002/07/owl#versionInfo> "1.2.0"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#private> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be set to true to indicate that a SPIN function is only meant to be used as a helper of other functions, but not directly. Among others, this allows user interfaces to filter out private functions. Furthermore, it tells potential users of this function that they should avoid using this function, as it may not be stable."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#label> "violation source"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#UpdateTemplate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Template> .
-<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Template> .
-<http://spinrdf.org/spin#MagicProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#Rule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/sp#Command> .
-<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#UpdateTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPIN template that has an UPDATE command as its body."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#constraint> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a class with constraints on its instances. The values of this property are \"axioms\" expressed as CONSTRUCT or ASK queries where the variable ?this refers to the instances of the surrounding class. ASK queries must evaluate to false for each member of this class - returning true means that the instance ?this violates the constraint. CONSTRUCT queries must create instances of spin:ConstraintViolation to provide details on the reason for the violation." .
-<http://spinrdf.org/spin#_arg4> <http://spinrdf.org/sp#varName> "arg4"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#Rule> <http://www.w3.org/2000/01/rdf-schema#comment> "Groups together the kinds of SPARQL commands that can appear as SPIN rules and constructors: CONSTRUCT, DELETE WHERE and DELETE/INSERT. This class is never to be instantiated directly."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
-_:fa0d57704ddf444d193013e9e874b96feb6 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#systemProperty> <http://www.w3.org/2000/01/rdf-schema#label> "system property"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#label> "fix"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#query> <http://www.w3.org/2000/01/rdf-schema#label> "query"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/2000/01/rdf-schema#comment> "The root resource of the violation (often ?this in the constraint body)." .
-<http://spinrdf.org/spin#constraint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#private> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Function> .
 <http://spinrdf.org/spin> <http://www.w3.org/2002/07/owl#imports> <http://spinrdf.org/sp> .
-_:fa0d57704ddf444d193013e9e874b96feb2 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
-<http://spinrdf.org/spin#Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#update> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#LibraryOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#Functions> <http://www.w3.org/2000/01/rdf-schema#label> "Functions"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#body> <http://www.w3.org/2000/01/rdf-schema#label> "body"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb6 <http://www.w3.org/2000/01/rdf-schema#comment> "The SELECT query wrapped by this template."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#AskTemplates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all AskTemplates."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb4 <http://www.w3.org/2000/01/rdf-schema#comment> "The UPDATE command wrapped by this template."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#RuleProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f88425b64bcd8436aa965b96b74436130b4 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin#ConstructTemplates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#ConstructTemplate> .
+<http://spinrdf.org/spin#AskTemplate> <http://spinrdf.org/spin#constraint> _:f88425b64bcd8436aa965b96b74436130b3 .
+<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/spin#UpdateTemplate> .
+<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#comment> "The return type of a Function, e.g. xsd:string." .
+<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#Modules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://spinrdf.org/spin#violationRoot> <http://www.w3.org/2000/01/rdf-schema#label> "violation root"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#AskTemplates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be attached to spin:rule (or subclasses thereof) to instruct a SPIN rules engine that it shall only execute the rules max times. If no value is specified, then the rules will be executed with no specific limit."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#label> "constructor"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#MagicProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Magic property"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#Template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://spinrdf.org/spin#rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#RuleProperty> .
-<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link two sub-properties of spin:rule (or spin:rule itself) to instruct the SPIN engine to execute one set of rules before another one. The values of the subject property will be executed before those of the object property."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "label template"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://spinrdf.org/spin#symbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://spinrdf.org/spin#SelectTemplates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Templates> .
-_:fa0d57704ddf444d193013e9e874b96feb7 <http://www.w3.org/2000/01/rdf-schema#comment> "the body of the Template"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://spinrdf.org/spin#AskTemplates> <http://www.w3.org/2000/01/rdf-schema#label> "Ask templates"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#Template> <http://spinrdf.org/spin#constraint> _:fa0d57704ddf444d193013e9e874b96feb7 .
+<http://spinrdf.org/spin#SelectTemplate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Template> .
 <http://spinrdf.org/spin#UpdateTemplates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Templates> .
-<http://spinrdf.org/spin#query> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/sp#Query> .
-<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
-<http://spinrdf.org/spin#Templates> <http://www.w3.org/2000/01/rdf-schema#label> "Templates"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#label> "rule property max iteration count"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb4 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#_arg2> <http://spinrdf.org/sp#varName> "arg2"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#Modules> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-_:fa0d57704ddf444d193013e9e874b96feb3 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
-<http://spinrdf.org/spin#Functions> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract base class for all defined functions. This class mainly serves as a shared root so that the various instances of the Function metaclass are grouped together." .
-<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#Functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#Function> .
-<http://spinrdf.org/spin#AskTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:fa0d57704ddf444d193013e9e874b96feb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
-<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Function> .
-<http://spinrdf.org/spin#RuleProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "The metaclass of spin:rule and its subproperties. spin:RuleProperties can have additional metadata attached to them."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:fa0d57704ddf444d193013e9e874b96feb3 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#ConstraintViolation> .
+<http://spinrdf.org/spin> <http://www.w3.org/2002/07/owl#versionInfo> "1.2.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#AskTemplates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#AskTemplate> .
+<http://spinrdf.org/spin#AskTemplates> <http://www.w3.org/2000/01/rdf-schema#label> "Ask templates"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#SelectTemplates> <http://www.w3.org/2000/01/rdf-schema#label> "Select templates"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#RuleProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#label> "violation path"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b6 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin#Module> <http://www.w3.org/2000/01/rdf-schema#label> "Module"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#systemProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#Function> <http://www.w3.org/2000/01/rdf-schema#comment> "Metaclass for functions that can be used in SPARQL expressions (e.g. FILTER or BIND). The function themselves are classes that are instances of this metaclass. Function calls are instances of the function classes, with property values for the arguments."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link two sub-properties of spin:rule (or spin:rule itself) to instruct the SPIN engine to execute one set of rules before another one. The values of the subject property will be executed before those of the object property."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#query> <http://www.w3.org/2000/01/rdf-schema#label> "query"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#ConstraintViolation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://spinrdf.org/spin#constructor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#command> .
+_:f88425b64bcd8436aa965b96b74436130b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
+_:f88425b64bcd8436aa965b96b74436130b4 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
+<http://spinrdf.org/spin#SelectTemplates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Templates> .
+<http://spinrdf.org/spin#ConstraintViolation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#MagicProperties> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://spinrdf.org/spin#eval> <http://www.w3.org/2000/01/rdf-schema#label> "eval"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#AskTemplates> <http://spinrdf.org/spin#abstract> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:f88425b64bcd8436aa965b96b74436130b4 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:f88425b64bcd8436aa965b96b74436130b1 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://spinrdf.org/spin#rule> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/spin#Rule> .
-<http://spinrdf.org/spin#query> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#command> .
-_:fa0d57704ddf444d193013e9e874b96feb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
-<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#MagicProperty> .
+<http://spinrdf.org/spin#ConstructTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "Construct template"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#fix> <http://www.w3.org/2000/01/rdf-schema#label> "fix"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#constraint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/sp#Modify> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Rule> .
+<http://spinrdf.org/spin#SelectTemplate> <http://spinrdf.org/spin#constraint> _:f88425b64bcd8436aa965b96b74436130b6 .
+<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "label template"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#_arg1> <http://spinrdf.org/sp#varName> "arg1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#ConstructTemplates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all ConstructTemplates."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#nextRuleProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#comment> "An optional attribute of ConstraintViolations to provide a path expression from the root resource to the value that is invalid. If this is a URI then the path represents the predicate of a subject/predicate combination. Otherwise it should be a blank node of type sp:Path." .
+<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/2000/01/rdf-schema#label> "Magic properties"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#label> "return type"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#update> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#command> .
+<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#ConstructTemplate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Template> .
+<http://spinrdf.org/spin#LibraryOntology> <http://www.w3.org/2000/01/rdf-schema#label> "Library ontology"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#Template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#systemProperty> <http://www.w3.org/2000/01/rdf-schema#label> "system property"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to link an RDF graph (usually the instance of owl:Ontology) with a SPIN library to define constraints. SPIN-aware tools should include the definitions from those libraries for constraint checking. Using such libraries is a simpler alternative than explicitly importing them using owl:imports, because it does not force all the SPIN triples into the RDF model."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#violationPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f88425b64bcd8436aa965b96b74436130b7 <http://www.w3.org/2000/01/rdf-schema#comment> "the body of the Template"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://spinrdf.org/spin#violationSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f88425b64bcd8436aa965b96b74436130b8 <http://www.w3.org/2000/01/rdf-schema#comment> "The first operand to compare."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#Templates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all Templates."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#violationPath> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#ConstraintViolation> .
+<http://spinrdf.org/spin#body> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/sp#Command> .
+<http://spinrdf.org/spin#body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#Functions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Modules> .
+<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+_:f88425b64bcd8436aa965b96b74436130b3 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin#LibraryOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#AskTemplate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Template> .
+_:f88425b64bcd8436aa965b96b74436130b1 <http://www.w3.org/2000/01/rdf-schema#comment> "the body of the function"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#ConstraintViolation> <http://www.w3.org/2000/01/rdf-schema#label> "Constraint violation"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#Template> <http://www.w3.org/2000/01/rdf-schema#comment> "The metaclass of SPIN templates. Templates are classes that are instances of this class. A template represents a reusable SPARQL query or update request that can be parameterized with arguments. Templates can be instantiated in places where normally a SPARQL query or update request is used, in particular as spin:rules and spin:constraints."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://spinrdf.org/spin#_arg3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/sp#Variable> .
+<http://spinrdf.org/spin#violationSource> <http://www.w3.org/2000/01/rdf-schema#label> "violation source"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#Functions> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract base class for all defined functions. This class mainly serves as a shared root so that the various instances of the Function metaclass are grouped together." .
+<http://spinrdf.org/spin#ConstructTemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#imports> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://spinrdf.org/spin#SelectTemplate> <http://www.w3.org/2000/01/rdf-schema#label> "Select template"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#UpdateTemplates> <http://www.w3.org/2000/01/rdf-schema#label> "Update templates"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b1 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b2 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin> <http://www.w3.org/2000/01/rdf-schema#label> "SPIN Inferencing Vocabulary" .
+<http://spinrdf.org/spin> <http://www.w3.org/2000/01/rdf-schema#comment> "An RDF Schema that can be used to attach constraints and rules to RDFS classes, and to encapsulate reusable SPARQL queries into functions and templates."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be set to true to indicate that this module shall not be instantiated. Abstract modules are only there to organize other modules into hierarchies." .
+<http://spinrdf.org/spin#eval> <http://www.w3.org/2000/01/rdf-schema#comment> "Evaluates a given SPIN expression or SELECT or ASK query, and returns its result. The first argument must be the expression in SPIN RDF syntax. All other arguments must come in pairs: first a property name, and then a value. These name/value pairs will be pre-bound variables for the execution of the expression."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#labelTemplate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Template> .
+_:f88425b64bcd8436aa965b96b74436130b2 <http://spinrdf.org/spl#predicate> <http://spinrdf.org/spin#body> .
+<http://spinrdf.org/spin#query> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used to point from any resource to a Query." .
+<http://spinrdf.org/spin#Template> <http://spinrdf.org/spin#constraint> _:f88425b64bcd8436aa965b96b74436130b7 .
+<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Functions> .
+<http://spinrdf.org/spin#Rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#query> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#private> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://spinrdf.org/spin#private> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#body> <http://www.w3.org/2000/01/rdf-schema#label> "body"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#Rule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/sp#Command> .
+_:f88425b64bcd8436aa965b96b74436130b4 <http://www.w3.org/2000/01/rdf-schema#comment> "The UPDATE command wrapped by this template."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#Templates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#Template> .
+<http://spinrdf.org/spin#constructor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#violationRoot> <http://www.w3.org/2000/01/rdf-schema#comment> "The root resource of the violation (often ?this in the constraint body)." .
+<http://spinrdf.org/spin#abstract> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#symbol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Function> .
+_:f88425b64bcd8436aa965b96b74436130b6 <http://www.w3.org/2000/01/rdf-schema#comment> "The SELECT query wrapped by this template."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b6 <http://spinrdf.org/spl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#label> "this unbound"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#RuleProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://spinrdf.org/spin#thisUnbound> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be set to true for SPIN rules and constraints that do not require pre-binding the variable ?this with all members of the associated class. This flag should only be set to true if the WHERE clause is sufficiently strong to only bind instances of the associated class, or its subclasses. In those cases, the engine can greatly improve performance of query execution, because it does not need to add clauses to narrow down the WHERE clause."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f88425b64bcd8436aa965b96b74436130b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spl#Attribute> .
+<http://spinrdf.org/spin#returnType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://spinrdf.org/spin#Function> .
+<http://spinrdf.org/spin#_arg4> <http://spinrdf.org/sp#varName> "arg4"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#UpdateTemplate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Template> .
+<http://spinrdf.org/spin#imports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#OntologyProperty> .
+<http://spinrdf.org/spin#update> <http://www.w3.org/2000/01/rdf-schema#range> <http://spinrdf.org/sp#Update> .
+_:f88425b64bcd8436aa965b96b74436130b4 <http://spinrdf.org/spl#valueType> <http://spinrdf.org/sp#Update> .
+<http://spinrdf.org/spin#UpdateTemplate> <http://www.w3.org/2000/01/rdf-schema#comment> "A SPIN template that has an UPDATE command as its body."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#SelectTemplates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://spinrdf.org/spin#SelectTemplate> .
+<http://spinrdf.org/spin#ConstructTemplate> <http://spinrdf.org/spin#constraint> _:f88425b64bcd8436aa965b96b74436130b2 .
+<http://spinrdf.org/spin#constraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#SelectTemplates> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested abstract base class for all SelectTemplates."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://spinrdf.org/spin#update> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#MagicProperties> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://spinrdf.org/spin#systemProperty> .
+<http://spinrdf.org/spin#rulePropertyMaxIterationCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://spinrdf.org/spin#MagicProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://spinrdf.org/spin#Function> .
+<http://spinrdf.org/spin#symbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://spinrdf.org/spin#Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:f88425b64bcd8436aa965b96b74436130b3 <http://spinrdf.org/spl#minCount> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
 

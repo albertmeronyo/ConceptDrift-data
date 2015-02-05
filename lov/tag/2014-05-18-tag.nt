@@ -1,104 +1,104 @@
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/elements/1.1/creator> "Richard Newman" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> <http://www.w3.org/2000/01/rdf-schema#label> "Tag"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/elements/1.1/description> "An ontology that describes tags, as used in the popular del.icio.us and Flickr systems, and allows for relationships between tags to be described."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/elements/1.1/contributor> "Seth Russell" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> <http://www.w3.org/2000/01/rdf-schema#label> "tag"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2000/01/rdf-schema#comment> "The object is a Tag which plays a role in the subject Tagging."@en .
-_:fb4df2223e1b6433e997eaffccc4378f9b3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-_:fb4df2223e1b6433e997eaffccc4378f9b2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://xmlns.com/foaf/0.1/maker> <http://www.holygoat.co.uk/foaf.rdf#RichardNewman> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> <http://www.w3.org/2000/01/rdf-schema#label> "tagging"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#sameAs> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#label> "tag name"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> <http://www.w3.org/2000/01/rdf-schema#label> "tagged with tag"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/2000/01/rdf-schema#label> "tagged on"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a tag. Note that we can't relate this to skos:prefLabel because we cannot guarantee that tags have unique labels in a given conceptual scheme. Or can we? DEPRECATED 2005-05-19: redundant 'tag'."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
-_:fb4df2223e1b6433e997eaffccc4378f9b4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fb4df2223e1b6433e997eaffccc4378f9b4 .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://www.w3.org/2000/01/rdf-schema#label> "An ontology for tags."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject Tagging occurred at the subject time and date."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#comment> "The two tags are asserted to be equivalent --- that is, that whenever one is associated with a resource, the other tag can be logically inferred to also be associated. Be very careful with this. I'm not sure if this should be a subproperty of owl:sameAs."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
-_:fb4df2223e1b6433e997eaffccc4378f9b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2000/01/rdf-schema#label> "tagged by"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#label> "restricted tagging"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a tag. Note that we can't relate this to skos:prefLabel because we cannot guarantee that tags have unique labels in a given conceptual scheme. Or can we?"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/terms/modified> "2005-05-19" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/2000/01/rdf-schema#label> "tagged resource"@en .
-_:fb4df2223e1b6433e997eaffccc4378f9b2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#label> "related tag"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2000/01/rdf-schema#label> "associated tag" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The object plays the role of the tagger in the subject Tagging."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject has been tagged with the object tag. This does not assert by who, when, or why the tagging occurred. For that information, use a reified Tagging resource."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#comment> "A Tagging which has precisely one associated resource, and one associated tag."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
 <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
-_:fb4df2223e1b6433e997eaffccc4378f9b1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#label> "tag name"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fb4df2223e1b6433e997eaffccc4378f9b1 .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/terms/issued> "2005-03-23" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> <http://www.w3.org/2004/02/skos/core#definition> "A natural-language concept which is used to annotate another resource."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fb4df2223e1b6433e997eaffccc4378f9b3 .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#comment> "The two tags are asserted as being related. This might be symmetric, but it certainly isn't transitive."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> <http://www.w3.org/2000/01/rdf-schema#comment> "The relationship between a resource and a Tagging. Note, of course, that this allows us to tag tags and taggings themselves..."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject tag applies to the object resource. This does not assert by who, when, or why the tagging occurred. For that information, use a reified Tagging resource."@en .
-_:fb4df2223e1b6433e997eaffccc4378f9b1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
-_:fb4df2223e1b6433e997eaffccc4378f9b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:fb4df2223e1b6433e997eaffccc4378f9b4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/2000/01/rdf-schema#label> "is tag of"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:fb4df2223e1b6433e997eaffccc4378f9b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#label> "equivalent tag"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/elements/1.1/title> "Tag ontology"@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> <http://www.w3.org/2000/01/rdf-schema#comment> "A reified class which defines an instance of a tagging by an agent of a resource with one or more tags."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fb4df2223e1b6433e997eaffccc4378f9b2 .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
-_:fb4df2223e1b6433e997eaffccc4378f9b3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The object is a resource which plays a role in the subject Tagging."@en .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> <http://www.w3.org/2004/02/skos/core#definition> "A natural-language concept which is used to annotate another resource."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/2000/01/rdf-schema#label> "is tag of"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/elements/1.1/creator> "Richard Newman" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+_:fbfd95deadc484004a98a4afeb5178236b2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> .
 <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/elements/1.1/contributor> "Danny Ayers" .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#subject> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
-_:fb4df2223e1b6433e997eaffccc4378f9b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2000/01/rdf-schema#comment> "The object is a Tag which plays a role in the subject Tagging."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
+_:fbfd95deadc484004a98a4afeb5178236b1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
+_:fbfd95deadc484004a98a4afeb5178236b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/elements/1.1/description> "An ontology that describes tags, as used in the popular del.icio.us and Flickr systems, and allows for relationships between tags to be described."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#label> "equivalent tag"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#comment> "The two tags are asserted to be equivalent --- that is, that whenever one is associated with a resource, the other tag can be logically inferred to also be associated. Be very careful with this. I'm not sure if this should be a subproperty of owl:sameAs."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#comment> "A Tagging which has precisely one associated resource, and one associated tag."@en .
+_:fbfd95deadc484004a98a4afeb5178236b1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/2000/01/rdf-schema#label> "tagged resource"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/terms/modified> "2005-12-21" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2000/01/rdf-schema#label> "tagged by"@en .
 <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/terms/modified> "2005-11-27" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#comment> "The two tags are asserted as being related. This might be symmetric, but it certainly isn't transitive."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> <http://www.w3.org/2000/01/rdf-schema#comment> "A reified class which defines an instance of a tagging by an agent of a resource with one or more tags."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/2000/01/rdf-schema#label> "tagged on"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#label> "tag name"@en .
+_:fbfd95deadc484004a98a4afeb5178236b2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> <http://www.w3.org/2000/01/rdf-schema#label> "Tag"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a tag. Note that we can't relate this to skos:prefLabel because we cannot guarantee that tags have unique labels in a given conceptual scheme. Or can we?"@en .
+_:fbfd95deadc484004a98a4afeb5178236b3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:fbfd95deadc484004a98a4afeb5178236b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> <http://www.w3.org/2000/01/rdf-schema#label> "tagging"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fbfd95deadc484004a98a4afeb5178236b3 .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
+_:fbfd95deadc484004a98a4afeb5178236b4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#label> "tag name"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fbfd95deadc484004a98a4afeb5178236b1 .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://xmlns.com/foaf/0.1/maker> <http://www.holygoat.co.uk/foaf.rdf#RichardNewman> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://www.w3.org/2000/01/rdf-schema#label> "An ontology for tags."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "The object plays the role of the tagger in the subject Tagging."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fbfd95deadc484004a98a4afeb5178236b4 .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> <http://www.w3.org/2000/01/rdf-schema#label> "tagged with tag"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> <http://www.w3.org/2000/01/rdf-schema#comment> "The relationship between a resource and a Tagging. Note, of course, that this allows us to tag tags and taggings themselves..."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/terms/modified> "2005-12-21" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#label> "restricted tagging"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#subject> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/RestrictedTagging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fbfd95deadc484004a98a4afeb5178236b2 .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> <http://www.w3.org/2000/01/rdf-schema#label> "associated tag" .
+_:fbfd95deadc484004a98a4afeb5178236b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/terms/modified> "2005-05-19" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject tag applies to the object resource. This does not assert by who, when, or why the tagging occurred. For that information, use a reified Tagging resource."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2000/01/rdf-schema#label> "related tag"@en .
+_:fbfd95deadc484004a98a4afeb5178236b3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/equivalentTag> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#sameAs> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject has been tagged with the object tag. This does not assert by who, when, or why the tagging occurred. For that information, use a reified Tagging resource."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/terms/issued> "2005-03-23" .
+_:fbfd95deadc484004a98a4afeb5178236b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject Tagging occurred at the subject time and date."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/elements/1.1/contributor> "Seth Russell" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The object is a resource which plays a role in the subject Tagging."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/isTagOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedWithTag> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a tag. Note that we can't relate this to skos:prefLabel because we cannot guarantee that tags have unique labels in a given conceptual scheme. Or can we? DEPRECATED 2005-05-19: redundant 'tag'."@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/> <http://purl.org/dc/elements/1.1/title> "Tag ontology"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> <http://www.w3.org/2000/01/rdf-schema#label> "tag"@en .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fbfd95deadc484004a98a4afeb5178236b4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/relatedTag> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tagName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> .
 

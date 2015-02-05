@@ -1,623 +1,623 @@
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un agente (persona, organizaci\u00F3n o software) responsable de la traducci\u00F3n"@es .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#label> "advanced reading"@en .
-<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/contributor> <http://google.com/+Mar\u00EDaPovedaVillal\u00F3n> .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "Traduction"@fr .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal die door een minderheid van de bevolking van een land gesproken wordt, maar niet noodzakelijkerwijs in een specifieke regio"@nl .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Un vocabulaire pour d\u00E9crire l'utilisation des langues par les personnes et les organisations, leur r\u00E9partition g\u00E9ographique et leur statut, ainsi que leur usage dans les documents ou lors des \u00E9v\u00E9nements"@fr .
-<http://www.lingvoj.org/ontology#originalTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can read the language at an advanced level"@en .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua viva"@es .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddeld spraakniveau"@nl .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Project> .
-<http://www.lingvoj.org/ontology#iso2t> <http://purl.org/dc/terms/isReplacedBy> <http://lexvo.org/ontology#iso639P2TCode> .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "buena expresi\u00F3n oral"@es .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de gesproken taal goed begrijpen"@nl .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#advancedSpeaking> .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "An official language of a country, project, organization or event"@en .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua oficial"@es .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "spoken language"@en .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#label> "expert reading"@en .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#label> "bon niveau d'\u00E9criture"@fr .
-<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Dictionaries, thesauri, language courses, translation services"@en .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.lingvoj.org/ontology#officialIn> .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua de la fuente traducida"@es .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "comprensi\u00F3n excelente"@es .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue vivante"@fr .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Taal Ontologie"@nl .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue parl\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.lingvoj.org/olca#rangeIncludes> <http://schema.org/Place> .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne \u00E9crit la langue \u00E0 un niveau moyen"@fr .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate understanding"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linguistics-ontology.org/gold/Language> .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#intermediateWriting> .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#label> "not written"@en .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "goed luisterniveau"@nl .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#label> "no hablado"@es .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate reading"@en .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/title> "Ontolog\u00EDa de lenguajes"@es .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue cible"@fr .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#label> "niet schrijven"@nl .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2000/01/rdf-schema#label> "official language of"@en .
-<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/2000/01/rdf-schema#label> "Language resource"@en .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologie des langues"@fr .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language used for external communication"@en .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal goed lezen"@nl .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#label> "not read"@en .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "minderheidstaal"@nl .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2002/07/owl#equivalentClass> <http://d-nb.info/standards/elementset/gnd#Language> .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#label> "no escrito"@es .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#label> "no comprendido"@es .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne a une compr\u00E9hension \u00E9l\u00E9mentaire de la langue parl\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede leer la lengua a un nivel avanzado"@es .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona no puede hablar la lengua"@es .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/creator> <http://google.com/+BernardVatant> .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "hoofdtaal"@nl .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Een vokabular voor de beschrijving en het gebruik van talen door personen en organisaties, de geografische extensie en status en het gebruik ervan in documenten en tijdens evenmenten"@nl .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language spoken by a minority in some country, but not necessarily in a specific region"@en .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua materna"@es .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne parle la langue \u00E0 un bon niveau"@fr .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "excellente compr\u00E9hension"@fr .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon leest de taal op een gemiddeld niveau"@nl .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
-<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/modified> "2014-01-16" .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Organization> .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility2> .
-<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue support\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue menac\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#label> "goed leesniveau"@nl .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "excellente expression"@fr .
-<http://www.lingvoj.org/ontology#translatedTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2000/01/rdf-schema#label> "langue officielle de"@fr .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "bedreigde taal"@nl .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Spr\u00E5k"@no .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "moedertaal"@nl .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua muerta"@es .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language is endangered at the given date"@en .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon begrijpt de gesproken taal op een gemiddeld niveau"@nl .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue officielle"@fr .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne parle la langue \u00E0 un niveau \u00E9l\u00E9mentaire"@fr .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Place> .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon verstaat de taal in het geheel niet"@nl .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.lingvoj.org/ontology_v2.3.ttl> .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasNativeLanguage> .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#label> "nivel escrito intermedio"@es .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#label> "niet lezen"@nl .
-<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#workingLanguage> .
-<http://www.lingvoj.org/ontology#hasAbility4> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#expertSpeaking> .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Place> .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua original"@es .
-<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "De beschrijving of een vertaling zou de oorspronkelijke bron, de vertaalde bron, de brontaal en de doeltaal moeten bevatten. Het kan ook de vertaler(s), de vertaaldatum en andere relevante informatie, gebruik makend van de eigenschappen ge\u00EBrfd van de generieke Event klasse, bevatten"@nl .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#versionInfo> "v2.3" .
-<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/2000/01/rdf-schema#label> "Ressource linguistique"@fr .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#label> "translator"@en .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://linkedevents.org/ontology/Event> .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "The person has a basic understanding of the spoken language"@en .
-<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource supporting this language"@en .
-<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#nativeLanguage> .
-<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua de la fuente original"@es .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua no tiene ning\u00FAn hablante en la fecha dada"@es .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne a une compr\u00E9hension moyenne de la langue parl\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Deze eigenschap is onafhankelijk van het niveau van spreken, lezen of schrijven"@nl .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.lingvoj.org/olca#rangeIncludes> <http://xmlns.com/foaf/0.1/Project> .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#comment> "De agent (persoon, organisatie of applicatie) verantwoordelijk voor de vertaling"@nl .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expresi\u00F3n oral excelente"@es .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "working language"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Sprache"@de .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility2> .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne lit la langue \u00E0 un niveau excellent"@fr .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Er zijn geen mensen meer die deze taal spreken"@nl .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede escribir la lengua a un nivel avanzado"@es .
-<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2004/02/skos/core#historyNote> "v2.1 : Relaxed domain constraints on several properties, replaced by Ontology Loose Coupling Annotations" .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.lingvoj.org/ontology#livingLanguage> .
-<http://www.lingvoj.org/ontology#originalTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Le titre original est une propri\u00E9t\u00E9 de la ressource originale (utiliser dcterms:title) et non une propri\u00E9t\u00E9 de la Traduction elle-m\u00EAme"@fr .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal gesproken in bepaalde streek van een land"@nl .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#label> "\u00E9criture \u00E9l\u00E9mentaire"@fr .
-<http://www.lingvoj.org/ontology#advancedReading> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility3> .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expression \u00E9l\u00E9mentaire"@fr .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue de la ressource originale"@fr .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#label> "basis schrijfniveau"@nl .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua utilizada para la comunicaci\u00F3n externa"@es .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue parl\u00E9e dans une r\u00E9gion d'un pays"@fr .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal wordt door mensen gesproken op het aangegeven moment"@nl .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue parl\u00E9e par une minorit\u00E9 dans un pays, mais pas n\u00E9cessairement dans une r\u00E9gion sp\u00E9cifique"@fr .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua est\u00E1 en v\u00EDas de extinci\u00F3n en la fecha dada"@es .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "advanced speaking"@en .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#label> "interpr\u00E8te"@fr .
-<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#label> "from country"@en .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language has speakers at the given date"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://lexvo.org/ontology#somewhatSameAs> <http://lexvo.org/ontology#Language> .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language the project or organization uses for internal communication"@en .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lenguaje de trabajo"@es .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal goed schrijven"@nl .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "Vertaling"@nl .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal is bedreigd met uitsterven op de gegeven datum"@nl .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un agent (personne, organisation ou logiciel) responsable de la traduction"@fr .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue parl\u00E9e dans un lieu ou lors d'un \u00E9v\u00E9nement"@fr .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede hablar la lengua a un nivel experto"@es .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona no comprende la lengua hablada"@es .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "basis luisterniveau"@nl .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue historique"@fr .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#label> "basic writing"@en .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue de la ressource traduite"@fr .
-<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Pays d'origine de la langue"@fr .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal van de de bron"@nl .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is independent of the level of fluency, reading or writing ability"@en .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "bonne compr\u00E9hension"@fr .
-<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility3> .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#label> "pays d'origine"@fr .
-<http://www.lingvoj.org/ontology> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.lingvoj.org/ontology#" .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "La description d'une Traduction inclut au minimum la ressource originale, la ressource traduite, la langue d'origine et la langue cible. Elle peut aussi inclure le(s) traducteur(s), la date de traduction, et toute autre information pertinente utilisant les propri\u00E9t\u00E9s de la classe g\u00E9n\u00E9rique Ev\u00E9nement"@fr .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua hist\u00F3rica"@es .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal gebruikt in geschreven of gesproken communicatie tussen mensen of in welke een bron is geschreven of opgenomen. Het is aan te raden instanties te gebruiken gedefinieerd op basis van de ISO 630 codes, zoals in deze voorbeelden"@nl .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expresi\u00F3n oral b\u00E1sica"@es .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "La ressource qui est le r\u00E9sultat de la traduction"@fr .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede escribir la lengua a un nivel intermedio"@es .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can speak the language at an advanced level"@en .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.lingvoj.org/ontology#translator> .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#priorVersion> <http://www.lingvoj.org/ontology_v2.21.ttl> .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.lingvoj.org/olca#rangeIncludes> <http://xmlns.com/foaf/0.1/Organization> .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#label> "nivel de escritura excelente"@es .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#LanguageResource> .
-<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can read the language at a basic level"@en .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "werktaal"@nl .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can write the language at an intermediate level"@en .
-<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua minoritaria"@es .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language of the original ressource"@en .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#label> "tolk"@nl .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2000/01/rdf-schema#label> "lengua oficial de"@es .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal die vroeger in dit gebied gesproken werd, maar wordt nu niet meer gebruikt"@nl .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#basicWriting> .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne n'\u00E9crit pas du tout la langue"@fr .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon schrijft de taal op een gemiddeld niveau"@nl .
-<http://www.lingvoj.org/ontology#Lingvo> <http://purl.org/vocab/vann/example> <http://id.loc.gov/vocabulary/iso639-1/ja> .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne lit la langue \u00E0 un bon niveau"@fr .
-<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#LanguageResource> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u8BED\u8A00"@zh .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona no puede escribir la lengua"@es .
-<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne \u00E9crit la langue \u00E0 un bon niveau"@fr .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#intermediateSpeaking> .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue utilis\u00E9e par l'organisation ou le projet pour sa communication interne"@fr .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Jezyk"@pl .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "main language"@en .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#label> "non \u00E9crite"@fr .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Country> .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "historische taal"@nl .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne a une excellente compr\u00E9hension de la langue parl\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#label> "expert writing"@en .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "Translation"@en .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#intermediateUnderstanding> .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "ressource traduite"@fr .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne parle la langue \u00E0 un niveau moyen"@fr .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne ne comprend pas du tout la langue parl\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.lingvoj.org/olca#rangeIncludes> <http://linkedevents.org/ontology/Event> .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "recurso traducido"@es .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "target language"@en .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne ne parle pas du tout la langue"@fr .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#label> "escritura b\u00E1sica"@es .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "living language"@en .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "advanced understanding"@en .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua hablada"@es .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua tiene hablantes en la fecha dada"@es .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language has no longer any speaker at the given date"@en .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate speaking"@en .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#label> "interpreter"@en .
-<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#label> "oorspronkelijke bron"@nl .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#label> "goed schrijfniveau"@nl .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "basic speaking"@en .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona tiene un nivel avanzado de comprensi\u00F3n de la lengua hablada"@es .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue minoritaire"@fr .
-<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Country> .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#label> "no le\u00EDdo"@es .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "voertaal"@nl .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Un lengua hablada por una minor\u00EDa en alg\u00FAn pa\u00EDs, pero no necesariamente en una regi\u00F3n espec\u00EDfica"@es .
-<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#label> "original resource"@en .
-<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasCommunicationLanguage> .
-<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#label> "language resource"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Spr\u00E5k"@sv .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2004/02/skos/core#historyNote> "v2.2 : Added spanish translations, provided by Mar\u00EDa Poveda Villal\u00F3n" .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "extinct language"@en .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#label> "excellente lecture"@fr .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#label> "non comprise"@fr .
-<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#label> "resource lingusistique"@fr .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "uitstekend spraakniveau"@nl .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne a une bonne compr\u00E9hension de la langue parl\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue de communication"@fr .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#label> "traducteur"@fr .
-<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#label> "int\u00E9rprete"@es .
-<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "La fuente que se traduce"@es .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#basicReading> .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#label> "uitstekend leesniveau"@nl .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette propri\u00E9t\u00E9 est ind\u00E9pendante du niveau de langue parl\u00E9e, lue ou \u00E9crite"@fr .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.lingvoj.org/ontology#officialLanguage> .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#label> "buen nivel de lectura"@es .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent (person or software) responsible of a real-time oral translation"@en .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#comment> "The person does not read at all the language"@en .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal uitstekend spreken"@nl .
-<http://www.lingvoj.org/ontology#basicRreading> <http://www.w3.org/2000/01/rdf-schema#label> "basis leesniveau"@nl .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can write the language at a basic level"@en .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#advancedWriting> .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "native language"@en .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can speak the language at an intermediate level"@en .
-<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "minority language"@en .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#comment> "Un agent (personne ou logiciel) responsable de la traduction orale en temps r\u00E9el"@fr .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#intermediateReading> .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#label> "non parl\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal gebruikt voor externe communicatie"@nl .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Het resultaat van de vertaling"@nl .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue maternelle"@fr .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#incompatibleWith> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility4> .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "basis spraakniveau"@nl .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Dil"@tr .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://linkedevents.org/ontology/Event> .
-<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "type de ressource"@fr .
-<http://www.lingvoj.org/ontology#original_resource> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#label> "advanced writing"@en .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The main language used in the place or language resource "@en .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "compr\u00E9hension \u00E9l\u00E9mentaire"@fr .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal uitstekend schrijven"@nl .
-<http://www.lingvoj.org/ontology#original_resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#Translation> <http://www.lingvoj.org/olca#expectedProperty> <http://purl.org/dc/terms/date> .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Country> .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan eenvoudige taal spreken"@nl .
-<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of a Translation should include original resource, translated resource, original language and target language. It might also include translator(s) and translation date, and relevant other information using properties inherited from the generic Event class"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua utilizada en la comunicaci\u00F3n oral o escrita entre personas, o en la que se escribe o graba un recurso. Se recomienda el uso de las instancias definidas seg\u00FAn los c\u00F3digos ISO 639, como los que aparecen en los ejemplos"@es .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Place> .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can read the language at a intermediate level"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.ontotext.com/proton/protontop#Language> .
-<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/contributor> <http://google.com/+RonaldPoell> .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://www.lingvoj.org/ontology#LanguageResource> .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
-<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/title> "Taal Ontologie"@nl .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can write the language at an advanced level"@en .
-<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede hablar la lengua a un nivel intermedio"@es .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal gebruikt voor interne communicatie door een organisatie of binnen een project"@nl .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue officielle d'un pays, d'une organisation, d'un projet ou d'un \u00E9v\u00E9nement"@fr .
-<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility3> .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona tiene un nivel experto de comprensi\u00F3n de la lengua hablada"@es .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasWorkingLanguage> .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "official language"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#comment> "A language used in spoken or written human communication, or in which a resource is written or recorded. It is recommended to use instances defined on the basis of ISO 639 codes, such as those in examples"@en .
-<http://www.lingvoj.org/ontology#iso1> <http://purl.org/dc/terms/isReplacedBy> <http://lexvo.org/ontology#iso639P1Code> .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon spreekt de taal in het geheel niet"@nl .
-<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "De vertaalde bron"@nl .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "regional language"@en .
-<http://www.lingvoj.org/ontology#iso3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#label> "not understood"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/LinguisticSystem> .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#iso3> <http://purl.org/dc/terms/isReplacedBy> <http://lexvo.org/ontology#iso639P3Code> .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue morte"@fr .
-<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language supported by the language resource"@en .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#label> "buen nivel de escritura"@es .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility1> .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "uitstekend luisterniveau"@nl .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon spreekt de taal op een gemiddeld niveau"@nl .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.lingvoj.org/ontology#supportedLanguage> .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "The Lingvoj Ontology"@en .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "compr\u00E9hension moyenne"@fr .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta propiedad es independiente de el nivel de fluidez o de las habilidades de lectura o escritura"@es .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Project> .
-<http://www.lingvoj.org/ontology#original_resource> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#originalResource> .
-<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue de travail"@fr .
-<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "The person has an advanced understanding of the spoken language"@en .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De meest gebruikte taal op deze plek (land, regio, stad ...)"@nl .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Linguaggio"@it .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en .
-<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language spoken in a region of a country"@en .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede escribir la lengua a un nivel b\u00E1sico"@es .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue utilis\u00E9e pour la communication externe"@fr .
-<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue support\u00E9e par la ressource linguistique"@fr .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Project> .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#advancedReading> .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede escribir la lengua a un nivel experto"@es .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#comment> "De agent (persoon of applicatie) verantwoordelijk voor het tolken"@nl .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddeld leesniveau"@nl .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language spoken in the past in this place, but not used anymore"@en .
-<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#communicationLanguage> .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "The person has an expert understanding of the spoken language"@en .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede hablar la lengua a un nivel avanzado"@es .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Langue"@fr .
-<http://www.lingvoj.org/ontology#originalTitle> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/issued> "2007-09-17" .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#label> "vertaler"@nl .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "resource type"@en .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "The person has an intermediate understanding of the spoken language"@en .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "gesproken taal"@nl .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#comment> "The person does not understand at all the spoken language"@en .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon schrijft de taal in het geheel niet"@nl .
-<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#label> "lecture \u00E9l\u00E9mentaire"@fr .
-<http://www.lingvoj.org/ontology#iso2b> <http://purl.org/dc/terms/isReplacedBy> <http://lexvo.org/ontology#iso639P2BCode> .
-<http://www.lingvoj.org/ontology#translatedTitle> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "historical language"@en .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "streektaal"@nl .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.loc.gov/mads/rdf/v1#Language> .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "communication language"@en .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "basic understanding"@en .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal goed spreken"@nl .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne \u00E9crit la langue \u00E0 un niveau excellent"@fr .
-<http://www.lingvoj.org/ontology#hasAbility4> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#expertReading> .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "vertaalde bron"@nl .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "translated resource"@en .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Un vocabulario para describir la utilizaci\u00F3n de lenguas por parte de personas y organizaciones, su ambito geogr\u00E1fico y su estatus, as\u00ED como su utilizaci\u00F3n en documentos o durante eventos"@es .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#similarProperty> <http://www.telegraphis.net/ontology/geography/geography#officialLanguage> .
-<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#label> "ressource originale"@fr .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#label> "\u00E9criture moyenne"@fr .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "levende taal"@nl .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede leer la lengua a un nivel b\u00E1sico"@es .
-<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The ressource which is translated"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue utilis\u00E9e dans la communication orale ou \u00E9crite entre humains, ou dans laquelle une ressource est \u00E9crite ou enregistr\u00E9e. Il est recommand\u00E9 d'utiliser des instances d\u00E9finies sur la base d'un code ISO 639, comme dans les exemples"@fr .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua ampliamente hablada en un lugar (pa\u00EDs, regi\u00F3n, ciudad...)"@es .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#label> "non lue"@fr .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue n'a plus de locuteurs \u00E0 la date indiqu\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#originalTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "The original title is a property of the original resource (use dcterms:title) and not a property of the Translation itself"@en .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne lit la langue \u00E0 un niveau moyen"@fr .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#label> "basic reading"@en .
-<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#LanguageResource> .
-<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u8A00\u8A9E"@ja .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "kommunikation taal"@nl .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue parl\u00E9e dans le pass\u00E9 dans ce lieu, mais plus utilis\u00E9e aujourd'hui"@fr .
-<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u042F\u0437\u044B\u043A"@ru .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "supported language"@en .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Organization> .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#label> "bon niveau de lecture"@fr .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "buena comprensi\u00F3n"@es .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal gesproken op een bepaalde plek of tijdens een evenement"@nl .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "comprensi\u00F3n b\u00E1sica"@es .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#label> "niet spreken"@nl .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lenguaje de comunicaci\u00F3n"@es .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddeld schrijfniveau"@nl .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language which is spoken in some place or event"@en .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua que el proyecto o la organizaci\u00F3n utiliza para comunicaci\u00F3n interna"@es .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua hablada en una regi\u00F3n o un pa\u00EDs"@es .
-<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Un concept d\u00E9finissant le type de la ressource linguistique"@fr .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "La fuente que resulta de la traducci\u00F3n"@es .
-<http://www.lingvoj.org/ontology#expertReading> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility4> .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#label> "nivel de lectura intermedio"@es .
-<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Country of origin of the language"@en .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility1> .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue r\u00E9gionale"@fr .
-<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#comment> "A concept defining the type of the language resource"@en .
-<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue est menac\u00E9e \u00E0 la date indiqu\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate writing"@en .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility2> .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua en v\u00EDas de extinci\u00F3n"@es .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The ressource which is the result of the translation"@en .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://linkedevents.org/ontology/Event> .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan eenvoudige gesproken taal begrijpen"@nl .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility4> .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.lingvoj.org/> .
-<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#expertWriting> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility4> .
-<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility3> .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#translatedTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "The translated title is a property of the translated resource (use dcterms:title) and not a property of the Translation itself"@en .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua regional"@es .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expert speaking"@en .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon leest de taal in het geheel niet"@nl .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Kieli"@fi .
-<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#label> "lecture moyenne"@fr .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#comment> "Un agente (persona, organizaci\u00F3n o software) responsable de la interpretaci\u00F3n oral"@es .
-<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lingvoj.org/ontology> <http://purl.org/vocab/vann/preferredNamespacePrefix> "lingvo" .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal waarin de bron vertaald is"@nl .
-<http://www.lingvoj.org/ontology#basicReading> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility1> .
-<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Taal"@nl .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua principal"@es .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/title> "Ontologie des langues"@fr .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne ne lit pas du tout la langue"@fr .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "La descripci\u00F3n de una Traducci\u00F3n debe incluir la fuente original, la fuente traducida, la lengua  original y la lengua de  destino. Tambi\u00E9n puede incluir  el o los traductor(es) , la fecha de traducci\u00F3n y otra informaci\u00F3n relevante utilizando propiedades heredadas de la clase generica Event"@es .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#label> "uitstekend schrijfniveau"@nl .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "expert understanding"@en .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#basicSpeaking> .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "bonne expression"@fr .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expression moyenne"@fr .
-<http://www.lingvoj.org/ontology#Lingvo> <http://purl.org/vocab/vann/example> <http://lexvo.org/id/iso639-3/fra> .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language of the translated ressource"@en .
-<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "endangered language"@en .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Organization> .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne \u00E9crit la langue \u00E0 un niveau \u00E9l\u00E9mentaire"@fr .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#label> "not spoken"@en .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#advancedUnderstanding> .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility2> .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue d'origine"@fr .
-<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de gesproken taal uitstekend begrijpen"@nl .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De offici\u00EBle taal van een land, organisatie, prject of evenement"@nl .
-<http://www.lingvoj.org/ontology#iso3> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua oficial en un pa\u00EDs, proyecto, organizaci\u00F3n o evento"@es .
-<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#workingLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Organization> .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "original language"@en .
-<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue poss\u00E8de des locuteurs \u00E0 la date indiqu\u00E9e"@fr .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#basicUnderstanding> .
-<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Project> .
-<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "Traducci\u00F3n"@es .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#label> "lectura b\u00E1sica"@es .
-<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource linguistique pour cette langue"@fr .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "L\u00EDngua"@pt .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "doeltaal"@nl .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Place> .
-<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne lit la langue \u00E0 un niveau \u00E9l\u00E9mentaire"@fr .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can speak the language at an expert level"@en .
-<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne parle la langue \u00E0 niveau excellent"@fr .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Lenguaje"@es .
-<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua hablada en el pasado en este lugar, pero ya no se utiliza"@es .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2004/02/skos/core#historyNote> "v2.21 : Added dutch translations plus 'interpreter' property suggested by Ronald Poell, along with minor corrections" .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#label> "traductor"@es .
-<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#label> "niet verstaan"@nl .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona tiene un nivel intermedio de comprensi\u00F3n de la lengua hablada"@es .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede hablar la lengua a un nivel b\u00E1sico"@es .
-<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent (person, organization or sofware) responsible of the translation"@en .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal uitstekend lezen"@nl .
-<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan eenvoudige taal schrijven"@nl .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#comment> "The person does not write at all the language"@en .
-<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua destino"@es .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
-<http://www.lingvoj.org/ontology#Translation> <http://purl.org/vocab/vann/example> <http://www.lingvoj.org/translations/w3c-recs.rdf#translation-css1-en-to-bg> .
-<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "oorspronkelijke taal"@nl .
-<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "La ressource qui est traduite"@fr .
-<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Dictionnaires, thesaurus, cours de langue, services de traduction"@fr .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#label> "nivel de lectura excelente"@es .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "offici\u00EBle taal"@nl .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Language> .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
-<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona tiene un nivel b\u00E1sico de comprensi\u00F3n de la lengua hablada"@es .
-<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2004/02/skos/core#historyNote> "v2.3 : Added :LanguageResource class, subclasses and properties. Added properties :officialIn :fromCountry" .
-<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#comment> "The person does not speak at all the language"@en .
-<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua que se habla en alg\u00FAn lugar o evento"@es .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Lingvo"@eo .
-<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#basicWriting> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility1> .
 <http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede leer en la lengua a un nivel experto"@es .
-<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/title> "The Lingvoj Ontology"@en .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontolog\u00EDa de lenguajes"@es .
-<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can speak the language at a basic level"@en .
-<http://www.lingvoj.org/ontology#translatedTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Le titre traduit est une propri\u00E9t\u00E9 de la ressource traduite (utiliser dcterms:title) et non une propri\u00E9t\u00E9 de la Traduction elle-m\u00EAme"@fr .
-<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "goed spraakniveau"@nl .
-<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona no puede leer la lengua"@es .
-<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue principale"@fr .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#label> "excellente \u00E9criture"@fr .
-<http://www.lingvoj.org/ontology#basicRreading> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan eenvoudige taal lezen"@nl .
-<http://www.lingvoj.org/ontology#hasAbility4> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#expertUnderstanding> .
-<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
-<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "nivel oral intermedio"@es .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Country> .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can read the language at an advanced level"@en .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal goed spreken"@nl .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Un vocabulario para describir la utilizaci\u00F3n de lenguas por parte de personas y organizaciones, su ambito geogr\u00E1fico y su estatus, as\u00ED como su utilizaci\u00F3n en documentos o durante eventos"@es .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddeld spraakniveau"@nl .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#similarProperty> <http://www.telegraphis.net/ontology/geography/geography#officialLanguage> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#comment> "Un agente (persona, organizaci\u00F3n o software) responsable de la interpretaci\u00F3n oral"@es .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal van de de bron"@nl .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "living language"@en .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lenguaje de trabajo"@es .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate writing"@en .
+<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "bonne expression"@fr .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.lingvoj.org/ontology#livingLanguage> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#incompatibleWith> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#label> "\u00E9criture moyenne"@fr .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#label> "no comprendido"@es .
+<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.lingvoj.org/ontology#" .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language the project or organization uses for internal communication"@en .
+<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal gesproken in bepaalde streek van een land"@nl .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#comment> "The person does not speak at all the language"@en .
+<http://www.lingvoj.org/ontology#basicRreading> <http://www.w3.org/2000/01/rdf-schema#label> "basis leesniveau"@nl .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2000/01/rdf-schema#label> "langue officielle de"@fr .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne a une compr\u00E9hension \u00E9l\u00E9mentaire de la langue parl\u00E9e"@fr .
+<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/creator> <http://google.com/+BernardVatant> .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate speaking"@en .
+<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/contributor> <http://google.com/+RonaldPoell> .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede hablar la lengua a un nivel avanzado"@es .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility2> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u042F\u0437\u044B\u043A"@ru .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal goed schrijven"@nl .
+<http://www.lingvoj.org/ontology#Lingvo> <http://purl.org/vocab/vann/example> <http://lexvo.org/id/iso639-3/fra> .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona no puede escribir la lengua"@es .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede escribir la lengua a un nivel b\u00E1sico"@es .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue maternelle"@fr .
+<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology> <http://purl.org/vocab/vann/preferredNamespacePrefix> "lingvo" .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "comprensi\u00F3n b\u00E1sica"@es .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.lingvoj.org/ontology#officialLanguage> .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal gebruikt voor interne communicatie door een organisatie of binnen een project"@nl .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2002/07/owl#equivalentClass> <http://linguistics-ontology.org/gold/Language> .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne \u00E9crit la langue \u00E0 un niveau moyen"@fr .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of a Translation should include original resource, translated resource, original language and target language. It might also include translator(s) and translation date, and relevant other information using properties inherited from the generic Event class"@en .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "historische taal"@nl .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#label> "no escrito"@es .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "translated resource"@en .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Project> .
+<http://www.lingvoj.org/ontology#translatedTitle> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#label> "nivel escrito intermedio"@es .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "compr\u00E9hension \u00E9l\u00E9mentaire"@fr .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua que el proyecto o la organizaci\u00F3n utiliza para comunicaci\u00F3n interna"@es .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u8BED\u8A00"@zh .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "The person has a basic understanding of the spoken language"@en .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#label> "interpr\u00E8te"@fr .
+<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#LanguageResource> .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language spoken by a minority in some country, but not necessarily in a specific region"@en .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua hablada"@es .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "La ressource qui est le r\u00E9sultat de la traduction"@fr .
+<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#label> "oorspronkelijke bron"@nl .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#comment> "The person does not write at all the language"@en .
+<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/2000/01/rdf-schema#label> "Ressource linguistique"@fr .
+<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "type de ressource"@fr .
+<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Country> .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de gesproken taal uitstekend begrijpen"@nl .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#label> "no hablado"@es .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#label> "non parl\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne ne comprend pas du tout la langue parl\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#iso2b> <http://purl.org/dc/terms/isReplacedBy> <http://lexvo.org/ontology#iso639P2BCode> .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne parle la langue \u00E0 un niveau \u00E9l\u00E9mentaire"@fr .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#label> "not spoken"@en .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2004/02/skos/core#historyNote> "v2.1 : Relaxed domain constraints on several properties, replaced by Ontology Loose Coupling Annotations" .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can write the language at an advanced level"@en .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua utilizada para la comunicaci\u00F3n externa"@es .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue support\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal uitstekend spreken"@nl .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue r\u00E9gionale"@fr .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "advanced understanding"@en .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "kommunikation taal"@nl .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#label> "traductor"@es .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Project> .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "native language"@en .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility3> .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#label> "bon niveau de lecture"@fr .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Language> .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#label> "not understood"@en .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede escribir la lengua a un nivel intermedio"@es .
+<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/title> "Taal Ontologie"@nl .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#label> "goed leesniveau"@nl .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue de la ressource originale"@fr .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language of the translated ressource"@en .
 <http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "comprensi\u00F3n intermedia"@es .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary for describing the use of languages by people and organizations, their geographical scope and status as well as their usage in documents or during events"@en .
-<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can write the language at an expert level"@en .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal die door een minderheid van de bevolking van een land gesproken wordt, maar niet noodzakelijkerwijs in een specifieke regio"@nl .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne \u00E9crit la langue \u00E0 un niveau excellent"@fr .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "bonne compr\u00E9hension"@fr .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://purl.org/vocab/vann/example> <http://id.loc.gov/vocabulary/iso639-1/ja> .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal uitstekend lezen"@nl .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expert speaking"@en .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.lingvoj.org/ontology_v2.3.ttl> .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede escribir la lengua a un nivel avanzado"@es .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#label> "advanced reading"@en .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddeld leesniveau"@nl .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#communicationLanguage> .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#label> "nivel de escritura excelente"@es .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne n'\u00E9crit pas du tout la langue"@fr .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua destino"@es .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua ampliamente hablada en un lugar (pa\u00EDs, regi\u00F3n, ciudad...)"@es .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue morte"@fr .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#label> "traducteur"@fr .
+<http://www.lingvoj.org/ontology#expertReading> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility4> .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#comment> "De agent (persoon, organisatie of applicatie) verantwoordelijk voor de vertaling"@nl .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue minoritaire"@fr .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility4> .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.lingvoj.org/ontology#basicReading> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility1> .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#intermediateUnderstanding> .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de gesproken taal goed begrijpen"@nl .
+<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#label> "nivel de lectura intermedio"@es .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#label> "buen nivel de escritura"@es .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Deze eigenschap is onafhankelijk van het niveau van spreken, lezen of schrijven"@nl .
+<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can read the language at a basic level"@en .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "minority language"@en .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua no tiene ning\u00FAn hablante en la fecha dada"@es .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Project> .
+<http://www.lingvoj.org/ontology#iso3> <http://purl.org/dc/terms/isReplacedBy> <http://lexvo.org/ontology#iso639P3Code> .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua oficial"@es .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne \u00E9crit la langue \u00E0 un niveau \u00E9l\u00E9mentaire"@fr .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#intermediateWriting> .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De offici\u00EBle taal van een land, organisatie, prject of evenement"@nl .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Country> .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue historique"@fr .
+<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede leer la lengua a un nivel avanzado"@es .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Jezyk"@pl .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language has speakers at the given date"@en .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#label> "non \u00E9crite"@fr .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language which is spoken in some place or event"@en .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#label> "not read"@en .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#label> "basic writing"@en .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne ne lit pas du tout la langue"@fr .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal is bedreigd met uitsterven op de gegeven datum"@nl .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "historical language"@en .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "compr\u00E9hension moyenne"@fr .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.lingvoj.org/ontology#supportedLanguage> .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "basis luisterniveau"@nl .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne a une bonne compr\u00E9hension de la langue parl\u00E9e"@fr .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologie des langues"@fr .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent (person or software) responsible of a real-time oral translation"@en .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#comment> "A language used in spoken or written human communication, or in which a resource is written or recorded. It is recommended to use instances defined on the basis of ISO 639 codes, such as those in examples"@en .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.loc.gov/mads/rdf/v1#Language> .
+<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The ressource which is translated"@en .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#basicWriting> .
+<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede hablar la lengua a un nivel b\u00E1sico"@es .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "buena comprensi\u00F3n"@es .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent (person, organization or sofware) responsible of the translation"@en .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#label> "excellente lecture"@fr .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua de la fuente traducida"@es .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue parl\u00E9e dans un lieu ou lors d'un \u00E9v\u00E9nement"@fr .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#intermediateSpeaking> .
+<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#label> "ressource originale"@fr .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua materna"@es .
+<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "communication language"@en .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expression \u00E9l\u00E9mentaire"@fr .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue officielle"@fr .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#label> "expert writing"@en .
+<http://www.lingvoj.org/ontology#Lingvo> <http://lexvo.org/ontology#somewhatSameAs> <http://lexvo.org/ontology#Language> .
+<http://www.lingvoj.org/ontology#advancedReading> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility3> .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Project> .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#label> "bon niveau d'\u00E9criture"@fr .
+<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#label> "lecture \u00E9l\u00E9mentaire"@fr .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua viva"@es .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona no puede hablar la lengua"@es .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne lit la langue \u00E0 un bon niveau"@fr .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "basic speaking"@en .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue est menac\u00E9e \u00E0 la date indiqu\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "main language"@en .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "ressource traduite"@fr .
+<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource linguistique pour cette langue"@fr .
 <http://www.lingvoj.org/ontology#hasAbility4> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#expertWriting> .
-<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can read the language at a expert level"@en .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "Vertaling"@nl .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "excellente expression"@fr .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can write the language at a basic level"@en .
+<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona tiene un nivel avanzado de comprensi\u00F3n de la lengua hablada"@es .
+<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua utilizada en la comunicaci\u00F3n oral o escrita entre personas, o en la que se escribe o graba un recurso. Se recomienda el uso de las instancias definidas seg\u00FAn los c\u00F3digos ISO 639, como los que aparecen en los ejemplos"@es .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#label> "tolk"@nl .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal uitstekend schrijven"@nl .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Taal"@nl .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate reading"@en .
+<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "supported language"@en .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue utilis\u00E9e dans la communication orale ou \u00E9crite entre humains, ou dans laquelle une ressource est \u00E9crite ou enregistr\u00E9e. Il est recommand\u00E9 d'utiliser des instances d\u00E9finies sur la base d'un code ISO 639, comme dans les exemples"@fr .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne a une excellente compr\u00E9hension de la langue parl\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#label> "niet spreken"@nl .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon verstaat de taal in het geheel niet"@nl .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne parle la langue \u00E0 un niveau moyen"@fr .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.lingvoj.org/ontology#original_resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue d'origine"@fr .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Spr\u00E5k"@no .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#advancedSpeaking> .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#label> "niet schrijven"@nl .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expresi\u00F3n oral excelente"@es .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "target language"@en .
+<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#nativeLanguage> .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "regional language"@en .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon schrijft de taal op een gemiddeld niveau"@nl .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "moedertaal"@nl .
+<http://www.lingvoj.org/ontology#originalTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan eenvoudige taal spreken"@nl .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Dil"@tr .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language spoken in a region of a country"@en .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#label> "uitstekend leesniveau"@nl .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede hablar la lengua a un nivel experto"@es .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "basic understanding"@en .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "vertaalde bron"@nl .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue de travail"@fr .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2000/01/rdf-schema#label> "lengua oficial de"@es .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Een vokabular voor de beschrijving en het gebruik van talen door personen en organisaties, de geografische extensie en status en het gebruik ervan in documenten en tijdens evenmenten"@nl .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua muerta"@es .
+<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#label> "niet lezen"@nl .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue officielle d'un pays, d'une organisation, d'un projet ou d'un \u00E9v\u00E9nement"@fr .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#label> "translator"@en .
+<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede leer la lengua a un nivel b\u00E1sico"@es .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility1> .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#label> "int\u00E9rprete"@es .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona no comprende la lengua hablada"@es .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language used for external communication"@en .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#label> "advanced writing"@en .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Country of origin of the language"@en .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua principal"@es .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#label> "escritura b\u00E1sica"@es .
+<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "La ressource qui est traduite"@fr .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua hablada en el pasado en este lugar, pero ya no se utiliza"@es .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#label> "vertaler"@nl .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "excellente compr\u00E9hension"@fr .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#label> "non lue"@fr .
+<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne lit la langue \u00E0 un niveau \u00E9l\u00E9mentaire"@fr .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon spreekt de taal in het geheel niet"@nl .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue utilis\u00E9e pour la communication externe"@fr .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue principale"@fr .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#originalTitle> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon spreekt de taal op een gemiddeld niveau"@nl .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#label> "not written"@en .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility1> .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Het resultaat van de vertaling"@nl .
+<http://www.lingvoj.org/ontology#iso3> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2002/07/owl#equivalentClass> <http://d-nb.info/standards/elementset/gnd#Language> .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lenguaje de comunicaci\u00F3n"@es .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/LinguisticSystem> .
+<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language spoken in the past in this place, but not used anymore"@en .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "The Lingvoj Ontology"@en .
+<http://www.lingvoj.org/ontology#translatedTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue poss\u00E8de des locuteurs \u00E0 la date indiqu\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#comment> "The person does not read at all the language"@en .
+<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue parl\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue vivante"@fr .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De meest gebruikte taal op deze plek (land, regio, stad ...)"@nl .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.ontotext.com/proton/protontop#Language> .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua est\u00E1 en v\u00EDas de extinci\u00F3n en la fecha dada"@es .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.lingvoj.org/> .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua tiene hablantes en la fecha dada"@es .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasCommunicationLanguage> .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#label> "lecture moyenne"@fr .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "La descripci\u00F3n de una Traducci\u00F3n debe incluir la fuente original, la fuente traducida, la lengua  original y la lengua de  destino. Tambi\u00E9n puede incluir  el o los traductor(es) , la fecha de traducci\u00F3n y otra informaci\u00F3n relevante utilizando propiedades heredadas de la clase generica Event"@es .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "gesproken taal"@nl .
+<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue support\u00E9e par la ressource linguistique"@fr .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Lenguaje"@es .
+<http://www.lingvoj.org/ontology#iso3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue de la ressource traduite"@fr .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal wordt door mensen gesproken op het aangegeven moment"@nl .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "buena expresi\u00F3n oral"@es .
+<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#label> "pays d'origine"@fr .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility3> .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "werktaal"@nl .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "De taal waarin de bron vertaald is"@nl .
+<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://www.lingvoj.org/ontology#LanguageResource> .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "comprensi\u00F3n excelente"@es .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://linkedevents.org/ontology/Event> .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#label> "basis schrijfniveau"@nl .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona tiene un nivel b\u00E1sico de comprensi\u00F3n de la lengua hablada"@es .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#label> "no le\u00EDdo"@es .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2004/02/skos/core#historyNote> "v2.21 : Added dutch translations plus 'interpreter' property suggested by Ronald Poell, along with minor corrections" .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal die vroeger in dit gebied gesproken werd, maar wordt nu niet meer gebruikt"@nl .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Place> .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can speak the language at an intermediate level"@en .
+<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#versionInfo> "v2.3" .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.lingvoj.org/olca#rangeIncludes> <http://schema.org/Place> .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua regional"@es .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede hablar la lengua a un nivel intermedio"@es .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "Translation"@en .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#intermediateReading> .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#label> "interpreter"@en .
+<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#label> "resource lingusistique"@fr .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne lit la langue \u00E0 un niveau moyen"@fr .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon schrijft de taal in het geheel niet"@nl .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Langue"@fr .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.lingvoj.org/olca#rangeIncludes> <http://linkedevents.org/ontology/Event> .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expresi\u00F3n oral b\u00E1sica"@es .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "hoofdtaal"@nl .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Place> .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "basis spraakniveau"@nl .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2004/02/skos/core#historyNote> "v2.3 : Added :LanguageResource class, subclasses and properties. Added properties :officialIn :fromCountry" .
+<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "original language"@en .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#label> "goed schrijfniveau"@nl .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan eenvoudige taal schrijven"@nl .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Place> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontolog\u00EDa de lenguajes"@es .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "uitstekend spraakniveau"@nl .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "La fuente que resulta de la traducci\u00F3n"@es .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua hist\u00F3rica"@es .
+<http://www.lingvoj.org/ontology#Translation> <http://www.lingvoj.org/olca#expectedProperty> <http://purl.org/dc/terms/date> .
+<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#workingLanguage> .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue de communication"@fr .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "Traduction"@fr .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#basicSpeaking> .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#label> "buen nivel de lectura"@es .
+<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua en v\u00EDas de extinci\u00F3n"@es .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#comment> "The person does not understand at all the spoken language"@en .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon leest de taal op een gemiddeld niveau"@nl .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#label> "uitstekend schrijfniveau"@nl .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "advanced speaking"@en .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Sprache"@de .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue menac\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://linkedevents.org/ontology/Event> .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.lingvoj.org/ontology#originalTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Le titre original est une propri\u00E9t\u00E9 de la ressource originale (utiliser dcterms:title) et non une propri\u00E9t\u00E9 de la Traduction elle-m\u00EAme"@fr .
+<http://www.lingvoj.org/ontology#iso2t> <http://purl.org/dc/terms/isReplacedBy> <http://lexvo.org/ontology#iso639P2TCode> .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Er zijn geen mensen meer die deze taal spreken"@nl .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "uitstekend luisterniveau"@nl .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne a une compr\u00E9hension moyenne de la langue parl\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#label> "nivel de lectura excelente"@es .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#basicReading> .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette propri\u00E9t\u00E9 est ind\u00E9pendante du niveau de langue parl\u00E9e, lue ou \u00E9crite"@fr .
 <http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#label> "recurso original"@es .
-<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede leer la lengua a un nivel intermedio"@es .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can write the language at an expert level"@en .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasNativeLanguage> .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal gesproken op een bepaalde plek of tijdens een evenement"@nl .
+<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#label> "language resource"@en .
+<http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The main language used in the place or language resource "@en .
+<http://www.lingvoj.org/ontology#Translation> <http://purl.org/vocab/vann/example> <http://www.lingvoj.org/translations/w3c-recs.rdf#translation-css1-en-to-bg> .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua hablada en una regi\u00F3n o un pa\u00EDs"@es .
+<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#hasAbility4> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#expertUnderstanding> .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un agente (persona, organizaci\u00F3n o software) responsable de la traducci\u00F3n"@es .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "nivel oral intermedio"@es .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede escribir la lengua a un nivel experto"@es .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Spr\u00E5k"@sv .
+<http://www.lingvoj.org/ontology#original_resource> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#originalResource> .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#label> "niet verstaan"@nl .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua que se habla en alg\u00FAn lugar o evento"@es .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "oorspronkelijke taal"@nl .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#label> "excellente \u00E9criture"@fr .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal gebruikt in geschreven of gesproken communicatie tussen mensen of in welke een bron is geschreven of opgenomen. Het is aan te raden instanties te gebruiken gedefinieerd op basis van de ISO 630 codes, zoals in deze voorbeelden"@nl .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "endangered language"@en .
+<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "goed spraakniveau"@nl .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona tiene un nivel intermedio de comprensi\u00F3n de la lengua hablada"@es .
+<http://www.lingvoj.org/ontology#basicSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can speak the language at a basic level"@en .
+<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Pays d'origine de la langue"@fr .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.lingvoj.org/ontology#officialIn> .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "The person has an expert understanding of the spoken language"@en .
+<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/title> "Ontolog\u00EDa de lenguajes"@es .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua oficial en un pa\u00EDs, proyecto, organizaci\u00F3n o evento"@es .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#priorVersion> <http://www.lingvoj.org/ontology_v2.21.ttl> .
+<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/contributor> <http://google.com/+Mar\u00EDaPovedaVillal\u00F3n> .
+<http://www.lingvoj.org/ontology#translatedTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "The translated title is a property of the translated resource (use dcterms:title) and not a property of the Translation itself"@en .
+<http://www.lingvoj.org/ontology#basicWriting> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility1> .
+<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#LanguageResource> .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "official language"@en .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility2> .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#label> "expert reading"@en .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "voertaal"@nl .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "streektaal"@nl .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#notWritten> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "bedreigde taal"@nl .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Taal Ontologie"@nl .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#comment> "Un agent (personne ou logiciel) responsable de la traduction orale en temps r\u00E9el"@fr .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne ne parle pas du tout la langue"@fr .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "langue cible"@fr .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#label> "Traducci\u00F3n"@es .
+<http://www.lingvoj.org/ontology#basicRreading> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan eenvoudige taal lezen"@nl .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can speak the language at an expert level"@en .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://linkedevents.org/ontology/Event> .
+<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#comment> "A concept defining the type of the language resource"@en .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate understanding"@en .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#livingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "levende taal"@nl .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "The person has an intermediate understanding of the spoken language"@en .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2000/01/rdf-schema#label> "official language of"@en .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Kieli"@fi .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne lit la langue \u00E0 un niveau excellent"@fr .
+<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "La fuente que se traduce"@es .
+<http://www.lingvoj.org/ontology#advancedReading> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan de taal goed lezen"@nl .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Un vocabulaire pour d\u00E9crire l'utilisation des langues par les personnes et les organisations, leur r\u00E9partition g\u00E9ographique et leur statut, ainsi que leur usage dans les documents ou lors des \u00E9v\u00E9nements"@fr .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2004/02/skos/core#historyNote> "v2.2 : Added spanish translations, provided by Mar\u00EDa Poveda Villal\u00F3n" .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.lingvoj.org/ontology#translator> .
+<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/issued> "2007-09-17" .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can speak the language at an advanced level"@en .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#advancedUnderstanding> .
 <http://www.lingvoj.org/ontology#mainLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue principale utilis\u00E9e dans le lieu ou la ressource linguistique"@fr .
+<http://www.lingvoj.org/ontology#expertSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne parle la langue \u00E0 niveau excellent"@fr .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "doeltaal"@nl .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Un lengua hablada por una minor\u00EDa en alg\u00FAn pa\u00EDs, pero no necesariamente en una regi\u00F3n espec\u00EDfica"@es .
+<http://www.lingvoj.org/ontology#interpreter> <http://www.w3.org/2000/01/rdf-schema#comment> "De agent (persoon of applicatie) verantwoordelijk voor het tolken"@nl .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#original_resource> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.lingvoj.org/ontology#hasAbility4> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#expertReading> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Linguaggio"@it .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can write the language at an intermediate level"@en .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#translator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un agent (personne, organisation ou logiciel) responsable de la traduction"@fr .
+<http://www.lingvoj.org/ontology#supportedLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language supported by the language resource"@en .
+<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "De vertaalde bron"@nl .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u8A00\u8A9E"@ja .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "De beschrijving of een vertaling zou de oorspronkelijke bron, de vertaalde bron, de brontaal en de doeltaal moeten bevatten. Het kan ook de vertaler(s), de vertaaldatum en andere relevante informatie, gebruik makend van de eigenschappen ge\u00EBrfd van de generieke Event klasse, bevatten"@nl .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta propiedad es independiente de el nivel de fluidez o de las habilidades de lectura o escritura"@es .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "offici\u00EBle taal"@nl .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#advancedWriting> .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The ressource which is the result of the translation"@en .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue utilis\u00E9e par l'organisation ou le projet pour sa communication interne"@fr .
+<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#label> "basic reading"@en .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language has no longer any speaker at the given date"@en .
+<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#intermediateWriting> <http://www.w3.org/2000/01/rdf-schema#label> "gemiddeld schrijfniveau"@nl .
+<http://www.lingvoj.org/ontology#Translation> <http://www.w3.org/2000/01/rdf-schema#comment> "La description d'une Traduction inclut au minimum la ressource originale, la ressource traduite, la langue d'origine et la langue cible. Elle peut aussi inclure le(s) traducteur(s), la date de traduction, et toute autre information pertinente utilisant les propri\u00E9t\u00E9s de la classe g\u00E9n\u00E9rique Ev\u00E9nement"@fr .
+<http://www.lingvoj.org/ontology#intermediateSpeaking> <http://www.w3.org/2000/01/rdf-schema#label> "expression moyenne"@fr .
+<http://www.lingvoj.org/ontology#notSpoken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#translatedTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Le titre traduit est une propri\u00E9t\u00E9 de la ressource traduite (utiliser dcterms:title) et non une propri\u00E9t\u00E9 de la Traduction elle-m\u00EAme"@fr .
+<http://www.lingvoj.org/ontology#targetLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona tiene un nivel experto de comprensi\u00F3n de la lengua hablada"@es .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility4> .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#label> "non comprise"@fr .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/modified> "2014-01-16" .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#endangeredLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language is endangered at the given date"@en .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "minderheidstaal"@nl .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "L\u00EDngua"@pt .
+<http://www.lingvoj.org/ontology#expertWriting> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility4> .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is independent of the level of fluency, reading or writing ability"@en .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "extinct language"@en .
+<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#LanguageResource> .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language of the original ressource"@en .
+<http://www.lingvoj.org/ontology#iso1> <http://purl.org/dc/terms/isReplacedBy> <http://lexvo.org/ontology#iso639P1Code> .
+<http://www.lingvoj.org/ontology#translatedResource> <http://www.w3.org/2000/01/rdf-schema#label> "recurso traducido"@es .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "spoken language"@en .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility2> .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasWorkingLanguage> .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#basicUnderstanding> .
+<http://www.lingvoj.org/ontology#regionalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue parl\u00E9e dans une r\u00E9gion d'un pays"@fr .
+<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Dictionaries, thesauri, language courses, translation services"@en .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne \u00E9crit la langue \u00E0 un bon niveau"@fr .
+<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#label> "resource type"@en .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
 <http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "uitgestorven taal"@nl .
+<http://www.lingvoj.org/ontology#advancedSpeaking> <http://www.w3.org/2000/01/rdf-schema#comment> "La personne parle la langue \u00E0 un bon niveau"@fr .
+<http://www.lingvoj.org/ontology#basicReading> <http://www.w3.org/2000/01/rdf-schema#label> "lectura b\u00E1sica"@es .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona no puede leer la lengua"@es .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "goed luisterniveau"@nl .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#label> "expert understanding"@en .
+<http://www.lingvoj.org/ontology#originalResource> <http://www.w3.org/2000/01/rdf-schema#label> "original resource"@en .
+<http://www.lingvoj.org/ontology#intermediateUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon begrijpt de gesproken taal op een gemiddeld niveau"@nl .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#hasAbility4> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#expertSpeaking> .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can read the language at a intermediate level"@en .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://www.w3.org/2000/01/rdf-schema#comment> "La persona puede leer la lengua a un nivel intermedio"@es .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue parl\u00E9e dans le pass\u00E9 dans ce lieu, mais plus utilis\u00E9e aujourd'hui"@fr .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility3> .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.lingvoj.org/olca#rangeIncludes> <http://xmlns.com/foaf/0.1/Project> .
+<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/title> "The Lingvoj Ontology"@en .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue parl\u00E9e par une minorit\u00E9 dans un pays, mais pas n\u00E9cessairement dans une r\u00E9gion sp\u00E9cifique"@fr .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "An official language of a country, project, organization or event"@en .
+<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.lingvoj.org/ontology_v1.3.rdf> .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#label> "\u00E9criture \u00E9l\u00E9mentaire"@fr .
+<http://www.lingvoj.org/ontology#officialLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.lingvoj.org/ontology#basicWriting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#basicUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon kan eenvoudige gesproken taal begrijpen"@nl .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://purl.org/dc/terms/isReplacedBy> <http://www.lingvoj.org/ontology#advancedReading> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary for describing the use of languages by people and organizations, their geographical scope and status as well as their usage in documents or during events"@en .
+<http://www.lingvoj.org/ontology#spokenLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.lingvoj.org/ontology#historicalLanguage> <http://www.lingvoj.org/olca#domainIncludes> <http://schema.org/Place> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Lingvo"@eo .
+<http://www.lingvoj.org/ontology#notRead> <http://www.w3.org/2000/01/rdf-schema#comment> "De persoon leest de taal in het geheel niet"@nl .
+<http://www.lingvoj.org/ontology#advancedWriting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#expertReading> <http://www.w3.org/2000/01/rdf-schema#comment> "The person can read the language at a expert level"@en .
+<http://www.lingvoj.org/ontology#communicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Een taal gebruikt voor externe communicatie"@nl .
+<http://www.lingvoj.org/ontology#originalTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "The original title is a property of the original resource (use dcterms:title) and not a property of the Translation itself"@en .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua minoritaria"@es .
+<http://www.lingvoj.org/ontology#workingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "working language"@en .
+<http://www.lingvoj.org/ontology> <http://purl.org/dc/terms/title> "Ontologie des langues"@fr .
+<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/2000/01/rdf-schema#label> "Language resource"@en .
+<http://www.lingvoj.org/ontology#expertUnderstanding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#intermediateReading> <http://purl.org/dc/terms/replaces> <http://www.lingvoj.org/ontology#hasAbility2> .
+<http://www.lingvoj.org/ontology#expertWriting> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#advancedUnderstanding> <http://www.w3.org/2000/01/rdf-schema#comment> "The person has an advanced understanding of the spoken language"@en .
+<http://www.lingvoj.org/ontology#minorityLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#fromCountry> <http://www.w3.org/2000/01/rdf-schema#label> "from country"@en .
+<http://www.lingvoj.org/ontology#supportingResource> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource supporting this language"@en .
+<http://www.lingvoj.org/ontology#nativeLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "lengua original"@es .
+<http://www.lingvoj.org/ontology#LanguageResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Dictionnaires, thesaurus, cours de langue, services de traduction"@fr .
+<http://www.lingvoj.org/ontology#extinctLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La langue n'a plus de locuteurs \u00E0 la date indiqu\u00E9e"@fr .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#resourceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Un concept d\u00E9finissant le type de la ressource linguistique"@fr .
+<http://www.lingvoj.org/ontology#officialIn> <http://www.lingvoj.org/olca#rangeIncludes> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Translation> .
+<http://www.lingvoj.org/ontology#notUnderstood> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#originalLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "La lengua de la fuente original"@es .
 

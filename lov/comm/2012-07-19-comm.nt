@@ -1,59 +1,59 @@
-<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/2000/01/rdf-schema#label> "Incident address" .
-<http://vocab.resc.info/communication#test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
-<http://vocab.resc.info/communication> <http://purl.org/dc/terms/partOf> <http://vocab.resc.info> .
-<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://vocab.resc.info/communication#dispatchedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.resc.info/communication#DispatchMessage> .
-<http://vocab.resc.info/communication#unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Unit sent to the incident" .
-<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "The address where the incident was reported" .
-<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/2000/01/rdf-schema#label> "DispatchMessage" .
-<http://vocab.resc.info/communication#dispatchedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://vocab.resc.info/communication#unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit" .
-<http://vocab.resc.info/communication#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://vocab.resc.info/communication#bart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://vocab.resc.info/communication#bart> <http://xmlns.com/foaf/0.1/nick> "bart" .
-<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.resc.info/communication#DispatchMessage> .
-<http://vocab.resc.info/communication> <http://purl.org/dc/terms/created> "2012-07-20"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.resc.info/communication#Classification> .
-<http://vocab.resc.info/communication> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://vocab.resc.info/communication#" .
-<http://vocab.resc.info/communication> <http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/Ontology> .
-<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/2000/01/rdf-schema#comment> "Resources of this class describe messages sent by a dispatch to individual units" .
-<http://vocab.resc.info/communication> <http://purl.org/vocab/vann/preferredNamespacePrefix> "comm" .
-<http://vocab.resc.info/communication> <http://xmlns.com/foaf/0.1/homepage> <http://vocab.resc.info/communication.html> .
-<http://vocab.resc.info/communication#Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit" .
-<http://vocab.resc.info/communication#Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://vocab.resc.info/communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.resc.info/communication#incidentLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "The location in geo format where incident is reported" .
-<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://vocab.resc.info/communication#unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.resc.info/communication#Unit> .
-<http://vocab.resc.info/communication#Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.resc.info/communication#Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://vocab.resc.info/communication> <http://purl.org/dc/terms/modified> "2012-07-20"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://vocab.resc.info/communication#test> <http://www.w3.org/2000/01/rdf-schema#label> "test class" .
-<http://vocab.resc.info/communication#unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.resc.info/communication#DispatchMessage> .
-<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Address> .
-<http://vocab.resc.info/communication#Classification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://vocab.resc.info/communication#Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "A Unit which can be send to a incident" .
-<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of classification" .
-<http://vocab.resc.info/communication#rdf> <http://purl.org/dc/terms/FileFormat> "" .
-<http://vocab.resc.info/communication#incidentLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://vocab.resc.info/communication#incidentLocation> <http://www.w3.org/2000/01/rdf-schema#label> "Location" .
-<http://vocab.resc.info/communication#ttl> <http://purl.org/dc/terms/FileFormat> "" .
-<http://vocab.resc.info/communication> <http://purl.org/dc/terms/description> "This vocabulary is intended to describe all the aspects which are needed to communicate incident related information for fire department services" .
-<http://vocab.resc.info/communication> <http://purl.org/dc/elements/1.1/creator> <http://vocab.resc.info/communication#bart> .
+<http://vocab.resc.info/communication> <http://xmlns.com/foaf/0.1/homepage> <http://vocab.resc.info/communication.html> .
+<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/2000/01/rdf-schema#label> "DispatchMessage" .
+<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://vocab.resc.info/communication#incidentLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.resc.info/communication#DispatchMessage> .
-<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.resc.info/communication> <http://purl.org/dc/terms/title> "Vocabulary related to incident communication" .
-<http://vocab.resc.info/communication#Classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.resc.info/communication#Classification> <http://www.w3.org/2000/01/rdf-schema#comment> "The classification of the incident" .
+<http://vocab.resc.info/communication#dispatchedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://vocab.resc.info/communication#Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://vocab.resc.info/communication#bart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://vocab.resc.info/communication#rdf> <http://purl.org/dc/terms/FileFormat> "" .
+<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://vocab.resc.info/communication> <http://purl.org/dc/terms/modified> "2012-07-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.resc.info/communication> <http://purl.org/vocab/vann/preferredNamespacePrefix> "comm" .
 <http://vocab.resc.info/communication> <http://purl.org/dc/terms/status> <http://purl.org/adms/status/UnderDevelopment> .
-<http://vocab.resc.info/communication#Classification> <http://www.w3.org/2000/01/rdf-schema#label> "Classification" .
 <http://vocab.resc.info/communication#test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://vocab.resc.info/communication#dispatchedTo> <http://www.w3.org/2000/01/rdf-schema#label> "Dispatched to" .
 <http://vocab.resc.info/communication#Classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://vocab.resc.info/communication#unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.resc.info/communication#DispatchMessage> .
+<http://vocab.resc.info/communication> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://vocab.resc.info/communication#" .
+<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://vocab.resc.info/communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.resc.info/communication> <http://purl.org/dc/terms/created> "2012-07-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.resc.info/communication#test> <http://www.w3.org/2000/01/rdf-schema#label> "test class" .
+<http://vocab.resc.info/communication#unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Unit sent to the incident" .
+<http://vocab.resc.info/communication#Classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.resc.info/communication#test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of classification" .
+<http://vocab.resc.info/communication#Classification> <http://www.w3.org/2000/01/rdf-schema#comment> "The classification of the incident" .
+<http://vocab.resc.info/communication> <http://purl.org/dc/terms/partOf> <http://vocab.resc.info> .
 <http://vocab.resc.info/communication#classificationType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://vocab.resc.info/communication#unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit" .
+<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/2000/01/rdf-schema#label> "Incident address" .
+<http://vocab.resc.info/communication> <http://purl.org/dc/elements/1.1/creator> <http://vocab.resc.info/communication#bart> .
 <http://vocab.resc.info/communication#dispatchedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "the adress on the P2000 pager network where the message was sent to" .
+<http://vocab.resc.info/communication> <http://purl.org/dc/terms/description> "This vocabulary is intended to describe all the aspects which are needed to communicate incident related information for fire department services" .
+<http://vocab.resc.info/communication#Classification> <http://www.w3.org/2000/01/rdf-schema#label> "Classification" .
+<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "The address where the incident was reported" .
+<http://vocab.resc.info/communication#ttl> <http://purl.org/dc/terms/FileFormat> "" .
+<http://vocab.resc.info/communication> <http://purl.org/dc/terms/title> "Vocabulary related to incident communication" .
+<http://vocab.resc.info/communication#Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit" .
+<http://vocab.resc.info/communication#unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.resc.info/communication#Unit> .
+<http://vocab.resc.info/communication#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://vocab.resc.info/communication#incidentLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "The location in geo format where incident is reported" .
+<http://vocab.resc.info/communication#bart> <http://xmlns.com/foaf/0.1/nick> "bart" .
+<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.resc.info/communication#DispatchMessage> <http://www.w3.org/2000/01/rdf-schema#comment> "Resources of this class describe messages sent by a dispatch to individual units" .
+<http://vocab.resc.info/communication#Classification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://vocab.resc.info/communication#incidentLocation> <http://www.w3.org/2000/01/rdf-schema#label> "Location" .
+<http://vocab.resc.info/communication> <http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/Ontology> .
+<http://vocab.resc.info/communication#Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Address> .
+<http://vocab.resc.info/communication#incidentLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://vocab.resc.info/communication#classificationType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.resc.info/communication#Classification> .
+<http://vocab.resc.info/communication#dispatchedTo> <http://www.w3.org/2000/01/rdf-schema#label> "Dispatched to" .
+<http://vocab.resc.info/communication#dispatchedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.resc.info/communication#DispatchMessage> .
+<http://vocab.resc.info/communication#incidentAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.resc.info/communication#DispatchMessage> .
 

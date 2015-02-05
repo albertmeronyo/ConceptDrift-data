@@ -1,339 +1,339 @@
-_:f564d95cbbf944ab194a43c8e6b510d49b39 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasDisciplineScope' is used to indicate relevance of a set of resources, or a resource itself, to a specific discipline of work or study. Examples of disciplines in the engineering domain are electrical engineering, mechanical engineering and, in the financial domain, risk assessment, investment analysis.  In 'vaem' the property is used as a dimension for characterizing an ontology graph.  The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#acronym> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:acronym' provides a common way to define a commonly used abbreviation on a resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#revisionNumber> "1.2"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasViewpointScope> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.linkedmodel.org/schema/vaem#hasScope> .
-_:f564d95cbbf944ab194a43c8e6b510d49b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#BridgeGraph> .
-<http://www.linkedmodel.org/schema/vaem#hasScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:f564d95cbbf944ab194a43c8e6b510d49b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#CollectionGraph> .
-<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://voag.linkedmodel.org/schema/voag#hasLicenseType> <http://www.w3.org/2000/01/rdf-schema#label> "has license type"@en-us .
-<http://www.linkedmodel.org/schema/vaem#MappingGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-<http://www.linkedmodel.org/schema/vaem#RulesGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-_:f564d95cbbf944ab194a43c8e6b510d49b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b7 .
-<http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.linkedmodel.org/schema/vaem#hasScope> .
-_:f564d95cbbf944ab194a43c8e6b510d49b36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasAspectScope> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.linkedmodel.org/schema/vaem#specificity> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:specificity' is intended to specify the level of detail of an ontology.  The values that can be set for this property are restriced to an integer from 1 to 5. An ontology at level 1 has concepts of more general applicability than one at level 5. By having graphs at different levels of specificity it is possible to support greater modularity for selective imports."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#Viewpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.linkedmodel.org/schema/vaem#Discipline> <http://www.w3.org/2000/01/rdf-schema#label> "Discipline"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b39 .
-_:f564d95cbbf944ab194a43c8e6b510d49b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#RulesGraph> .
-<http://www.linkedmodel.org/schema/vaem#namespace> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:namespace' provides a means to specify the onotlogy URI with which a graph is primarily associated. The intent is to allow multiple graphs to define statements for resources in the same Ontology namespace. For example, a foundation level graph with the base URI of 'http://www.somesite.com/1.0/schema/OurOntology'  may define general  concepts for 'OurOntology'. Another graph with the base URI 'http://www.somesite.com/1.0/schema/level2/OurOntology'  may add more specific details to the same 'OurOntology'. Each of these two graphs would carry the same value for 'vaem:namespace', that is, 'http://www.somesite.com/schema/OurOntology'.    In other words, an ontology URI is the URI associated with the resources of a controlled namespace. On the other hand the graph URIs (the base URIs) identify the graphs that hold resources that make up an ontology."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-_:f564d95cbbf944ab194a43c8e6b510d49b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.linkedmodel.org/schema/vaem#hasAspectScope> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.linkedmodel.org/schema/vaem#hasScope> .
-<http://www.linkedmodel.org/schema/vaem#SchemaGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-_:f564d95cbbf944ab194a43c8e6b510d49b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b34 .
-<http://www.linkedmodel.org/schema/vaem#DataGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Data graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#CollectionGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Collection graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#description> "VAEM stands for \"Vocabulary for Attaching Essential Metadata\". The purpose of VAEM is to provide, by import, a foundation for commonly needed resources when building an ontology. An effort has been made to restrict these resources to a minimal level. In some ways DC, Dublin Core, could have provided such a foundation. Importing DC unfortunately causes \"ontology glut\", through the import of many DC Terms.\n\nVAEM attaches basic metadata properties and dimension properties, such as domain, discipline, aspect and viewpoint, to the 'owl:Ontology' class to fully qualify the ontology.\n\nWhat VAEM regards as 'essential metadata' is data about dates and times, confidentiality, and other characterisitic qualifiers of the ontology, but also references to where a ontology is documented and where to find ontology Governance, Attribution and Provenance. For the latter, some properties from the VOAG ontology are used, notably, 'voag:hasGovernance', 'voag:withAttributionTo', and 'voag:hasLicenceType'.  VAEM also defines classes for representing enumerations and enumerated values."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#MappingGraph> .
-<http://www.linkedmodel.org/schema/vaem#revisionDate> <http://www.w3.org/2000/01/rdf-schema#label> "revision date"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasDomainScope> .
-_:f564d95cbbf944ab194a43c8e6b510d49b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.linkedmodel.org/schema/vaem#ownedBy> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:ownedBy' is a general property that in some cases could have scalar values and in other cases may need to refer to some concept of 'Party'.  For this reason, the  type of this property is set as 'rdf:Property' and the property is rangeless."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#dateCreated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.linkedmodel.org/schema/vaem#dateUnion> .
-_:f564d95cbbf944ab194a43c8e6b510d49b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.linkedmodel.org/schema/vaem#releaseDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.linkedmodel.org/schema/vaem#Viewpoint> <http://www.w3.org/2000/01/rdf-schema#label> "Viewpoint"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#ScriptGraph> .
-<http://www.linkedmodel.org/schema/vaem#revisionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.linkedmodel.org/schema/vaem#url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.linkedmodel.org/schema/vaem#intent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b32 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> "vaem"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/author> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasDomainScope> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.linkedmodel.org/schema/vaem#hasScope> .
-<http://www.linkedmodel.org/schema/vaem#intent> <http://www.w3.org/2000/01/rdf-schema#label> "intent"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> .
-_:f564d95cbbf944ab194a43c8e6b510d49b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#dateCreated> "2011-04-20"^^<http://www.linkedmodel.org/schema/vaem#dateUnion> .
-<http://www.linkedmodel.org/schema/vaem#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#Aspect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Scope> .
-<http://www.linkedmodel.org/schema/vaem#BridgeGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2000/01/rdf-schema#label> "subject"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.linkedmodel.org/schema/vaem#Category> <http://www.linkedmodel.org/schema/vaem#definition> "Category is an abstract class for all concepts whose roles are to characterize other concepts in some manner."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.linkedmodel.org/schema/vaem> <http://voag.linkedmodel.org/schema/voag#hasLicenseType> <http://voag.linkedmodel.org/schema/voag#CC-SHAREALIKE_3PT0-US> .
-<http://www.linkedmodel.org/schema/vaem#ProxyGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-<http://www.linkedmodel.org/schema/vaem#namespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.linkedmodel.org/schema/vaem#releaseDate> <http://www.w3.org/2000/01/rdf-schema#label> "release date"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#RulesGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Rules Graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.linkedmodel.org/schema/vaem#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.linkedmodel.org/schema/vaem#lastUpdated> <http://www.w3.org/2000/01/rdf-schema#label> "last updated"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#revisionDate> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:revisionDate' is intended for general use as the name implies.  The range of the property is 'xsd:dateTime'."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#acronym> <http://www.w3.org/2000/01/rdf-schema#label> "acronym"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b42 .
-<http://www.linkedmodel.org/schema/vaem#hasCatalogEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://voag.linkedmodel.org/schema/voag#hasLicenseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.linkedmodel.org/schema/vaem#hasRole> <http://www.w3.org/2000/01/rdf-schema#label> "has role"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#revision> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f564d95cbbf944ab194a43c8e6b510d49b20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.w3.org/2000/01/rdf-schema#label> "numeric union"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasViewpointScope> <http://www.w3.org/2000/01/rdf-schema#label> "has viewpoint scope"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b3 .
-<http://www.linkedmodel.org/schema/vaem#Scope> <http://www.linkedmodel.org/schema/vaem#definition> "Scope is used indicate a scope of relevance of an ontology. There are no instances of these properties in VAEM. Each context of use will need specific treatment."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.linkedmodel.org/schema/vaem#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2000/01/rdf-schema#label> "description"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasDomainScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasDomainScope' is used to specify how  a set of resources, or an individual resource is grounded in a domain, that is, a subject area of interest. Examples of domains are 'enterprise', 'process', 'organization' and 'system'. In 'lmc' the property is used as a dimension for characterizing an ontology graph. The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://voag.linkedmodel.org/schema/voag#CC-SHAREALIKE_3PT0-US> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://purl.org/dc/elements/1.1/rights> .
-_:f564d95cbbf944ab194a43c8e6b510d49b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b18 .
-<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.linkedmodel.org/schema/vaem#definition> "GraphRole is used to characterize how a graph of resources participates in an ontology set.  For example, a graph can be a schema, vocabulary, dataset, script, or ruleset."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#namespacePrefix> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b40 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/vaem#integer_1to5> .
-<http://www.linkedmodel.org/schema/vaem#Viewpoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Scope> .
-<http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.linkedmodel.org/schema/vaem#Domain> <http://www.w3.org/2000/01/rdf-schema#label> "Domain"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://voag.linkedmodel.org/schema/voag#hasCatalogEntry> <http://www.w3.org/2000/01/rdf-schema#label> "has catalog entry"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#releaseDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.linkedmodel.org/schema/vaem#dateUnion> .
-<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.w3.org/2002/07/owl#oneOf> _:f564d95cbbf944ab194a43c8e6b510d49b22 .
-_:f564d95cbbf944ab194a43c8e6b510d49b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
-<http://www.linkedmodel.org/schema/vaem#id> <http://www.w3.org/2000/01/rdf-schema#label> "id"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b11 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b20 .
-_:f564d95cbbf944ab194a43c8e6b510d49b37 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#revisionNumber> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:revisionNumber' is intended for general use as the name implies."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasScope' is used indicate a scope of relevance of an ontology.  In 'vaem' the property is used as a dimension for characterizing an ontology graph.  The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b31 .
-<http://www.linkedmodel.org/schema/vaem#hasViewpointScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.linkedmodel.org/schema/vaem#Aspect> <http://www.w3.org/2000/01/rdf-schema#label> "Aspect"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> .
-_:f564d95cbbf944ab194a43c8e6b510d49b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#SchemaGraph> .
-<http://www.linkedmodel.org/schema/vaem#name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
-_:f564d95cbbf944ab194a43c8e6b510d49b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#FunctionsGraph> .
-<http://www.linkedmodel.org/schema/vaem#namespacePrefix> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:namespacePrefix' specifes a short handle or label for the URI of an Ontology.  Multiple graphs can define statements for resources in the same Ontololgy namespace. For example, a foundation level graph with the base URI of 'http://www.somesite.com/1.0/schema/OurOntology'  may define general  concepts for 'OurOntology'. Another graph with the base URI 'http://www.somesite.com/1.0/schema/level2/OurOntology'  may add more specific details to the same 'OurOntology'. Each of these two graphs would carry the same value for 'vaem:namespacePrefix', for this example, perhaps, 'ourOntology'."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b36 .
-<http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.linkedmodel.org/schema/vaem#Discipline> <http://www.linkedmodel.org/schema/vaem#definition> "A Discipline is a specific area of work or study. Examples of disciplines in the engineering domain are electrical engineering, mechanical engineering and, in the financial domain, risk assessment, investment analysis.  In 'vaem', 'Discipline' is used as a dimension for characterizing an ontology graph."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b8 .
-<http://www.linkedmodel.org/schema/vaem#Category> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-_:f564d95cbbf944ab194a43c8e6b510d49b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#gYear> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#specificity> "1"^^<http://www.linkedmodel.org/schema/vaem#integer_1to5> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.w3.org/2002/07/owl#versionInfo> "$Id: OSG_vaem-(v1.2).ttl 5016 2011-06-04 11:04:02Z RalphHodgson $"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b19 <http://www.w3.org/2002/07/owl#withRestrictions> _:f564d95cbbf944ab194a43c8e6b510d49b26 .
-<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.linkedmodel.org/schema/vaem#CurationGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Curation graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b36 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#namespace> "http://www.linkedmodel.org/1.2/schema/vaem#"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://www.linkedmodel.org/schema/vaem#timestamp> <http://www.w3.org/2000/01/rdf-schema#label> "timestamp"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#lastUpdated> "$LastChangedDate: 2011-06-04 04:04:02 -0700 (Sat, 04 Jun 2011) $"^^<http://www.linkedmodel.org/schema/vaem#dateUnion> .
-<http://www.linkedmodel.org/schema/vaem#MappingGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Mapping graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#namespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b28 .
-<http://www.linkedmodel.org/schema/vaem#Aspect> <http://www.linkedmodel.org/schema/vaem#definition> "Aspect Scope is used to distinguish among sets of features of a domain or subject area. The term is borrowed from 'aspect-oriented' programming, where it is used to separate concerns. An ontology may be characterized by this dimension so as to parition features that are orthogonal. For example,  in an SBFI systems ontology we can distinguish aspects for 'structure', 'function', 'behavior' and 'interface'."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://voag.linkedmodel.org/schema/voag#withAttributionTo> <http://www.w3.org/2000/01/rdf-schema#label> "with attribution to"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.w3.org/2000/01/rdf-schema#label> "date union"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#description> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b32 .
-_:f564d95cbbf944ab194a43c8e6b510d49b29 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f564d95cbbf944ab194a43c8e6b510d49b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f564d95cbbf944ab194a43c8e6b510d49b4 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f564d95cbbf944ab194a43c8e6b510d49b15 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#CollectionGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b16 <http://www.w3.org/2001/XMLSchema#maxInclusive> "5"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.linkedmodel.org/schema/vaem#revisionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b42 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#id> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:id' is intended for general use as a means to specifiy an identifier. The type of this property is intentionally set to 'rdf:Property' so that use of the property can allow both object and scaler values.  For this reason, the property is rangeless."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasCatalogEntry> <http://www.w3.org/2000/01/rdf-schema#label> "has catalog entry"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Category> .
-_:f564d95cbbf944ab194a43c8e6b510d49b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f564d95cbbf944ab194a43c8e6b510d49b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#ViewGraph> .
-<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.w3.org/2002/07/owl#unionOf> _:f564d95cbbf944ab194a43c8e6b510d49b25 .
-<http://www.linkedmodel.org/schema/vaem#namespace> <http://www.w3.org/2000/01/rdf-schema#label> "namespace"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.linkedmodel.org/schema/vaem#Aspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://purl.org/dc/elements/1.1/title> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b15 .
-<http://www.linkedmodel.org/schema/vaem#specificity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.linkedmodel.org/schema/vaem#integer_1to5> .
-_:f564d95cbbf944ab194a43c8e6b510d49b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b14 .
-<http://www.linkedmodel.org/schema/vaem#MappingGraph> <http://www.linkedmodel.org/schema/vaem#description> "A graph that specifies a transformation of a graph into another graph or graphs. Invariably this is a SPINMap graph using SPARQL Rules (SPIN) to express the transforms."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#Scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f564d95cbbf944ab194a43c8e6b510d49b24 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#hasRole> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'lms:hasRole' is used to characterize how a resource participates in an ontology set.  In 'lmc' the property is used to specify the role that a graph plays, for example, an ontology graph can be a schema, vocabulary, dataset, script, or ruleset."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#VocabularyGraph> <http://www.linkedmodel.org/schema/vaem#description> "An RDF/OWL Graph that is a controlled set of instances."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
-_:f564d95cbbf944ab194a43c8e6b510d49b23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#acronym> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b24 .
-<http://voag.linkedmodel.org/schema/voag#withAttributionTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://www.linkedmodel.org/schema/vaem#timestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b23 .
-<http://www.linkedmodel.org/schema/vaem#hasAspectScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.linkedmodel.org/schema/vaem#intent> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:intent' is used to describe  a statement of purpose. This typically takes the form of desired outcomes."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#DataGraph> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b10 .
-<http://www.linkedmodel.org/schema/vaem#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.linkedmodel.org/schema/vaem#VocabularyGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.linkedmodel.org/schema/vaem#BridgeGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Bridge graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b2 .
-_:f564d95cbbf944ab194a43c8e6b510d49b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#label> "title"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary for Attaching Essential Metadata"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasAspectScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasAspectScope' is used to distinguish among sets of features of a domain or subject area. The term is borrowed from 'aspect-oriented' programming, where it is used to separate concerns. An ontology may be characterized by this dimension so as to parition features that are orthogonal. For example,  in an SBFI systems ontology we can distinguish aspects for 'structure', 'function', 'behavior' and 'interface'.  The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#timestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-_:f564d95cbbf944ab194a43c8e6b510d49b3 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#ViewGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-_:f564d95cbbf944ab194a43c8e6b510d49b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.linkedmodel.org/schema/vaem#dateCreated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f564d95cbbf944ab194a43c8e6b510d49b16 .
-<http://www.linkedmodel.org/schema/vaem#Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.linkedmodel.org/schema/vaem#Scope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Category> .
-<http://www.linkedmodel.org/schema/vaem#description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2000/01/rdf-schema#label> "rights"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.linkedmodel.org/schema/vaem#dateCreated> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:dateCreated' is intended for general use as the name implies.  The range of the property is set as 'vaem:dateUnion' so as to allow a value to have a number of forms from a  year only to a full timestamp."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#lastUpdated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.linkedmodel.org/schema/vaem#namespace> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#hasRole> <http://www.linkedmodel.org/schema/vaem#SchemaGraph> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasDomainScope> .
 <http://www.linkedmodel.org/schema/vaem#ScriptGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-_:f564d95cbbf944ab194a43c8e6b510d49b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b9 .
-<http://www.linkedmodel.org/schema/vaem#url> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:url' is intended for general use as the name implies.  The range of the property is set as an XSD URI."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#specificity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#date> .
-_:f564d95cbbf944ab194a43c8e6b510d49b39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#ownedBy> .
-_:f564d95cbbf944ab194a43c8e6b510d49b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b12 .
-<http://www.linkedmodel.org/schema/vaem> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.linkedmodel.org/1.2/schema/vaem> .
-<http://www.linkedmodel.org/schema/vaem#timestamp> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:timestamp' is intended for general use as the name implies.  The range of the property is an XSD data time."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#releaseDate> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:releaseDate' is intended for general use as the name implies.  The range of the property is set as 'vaem:dateUnion' so as to allow a value to have a number of forms from a  year only to a full timestamp."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasViewpointScope> .
-<http://www.linkedmodel.org/schema/vaem#Scope> <http://www.w3.org/2000/01/rdf-schema#label> "Scope"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b21 .
-<http://voag.linkedmodel.org/schema/voag#hasCatalogEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b13 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b13 .
-<http://www.linkedmodel.org/schema/vaem#description> <http://www.w3.org/2000/01/rdf-schema#label> "description"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasDomainScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.linkedmodel.org/schema/vaem#definition> <http://www.linkedmodel.org/schema/vaem#definition> "A datatype property that can be freely used on any kind of resource. The range of the property is 'xsd:string'."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b35 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.linkedmodel.org/schema/vaem#specificity> <http://www.w3.org/2000/01/rdf-schema#label> "specificity"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#revisionNumber> "1.2"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.linkedmodel.org/schema/vaem#revision> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:revision' is an annotation property intended for general use as the name implies."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.w3.org/2000/01/rdf-schema#label> "Graph role"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#ViewGraph> <http://www.w3.org/2000/01/rdf-schema#label> "View graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b29 .
-_:f564d95cbbf944ab194a43c8e6b510d49b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#ProxyGraph> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#intent> "To provide essential resources and metadata for ontologies and controlled vocabularies so that the provenance, governance and licensing aspects of an ontology can be understand."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b4 .
-<http://www.linkedmodel.org/schema/vaem#revisionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "revision number"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.linkedmodel.org/schema/vaem#VocabularyGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-_:f564d95cbbf944ab194a43c8e6b510d49b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f564d95cbbf944ab194a43c8e6b510d49b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b33 .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#acronym> "VAEM"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#Discipline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Scope> .
-_:f564d95cbbf944ab194a43c8e6b510d49b37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#dateCreated> .
-_:f564d95cbbf944ab194a43c8e6b510d49b32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasRole> .
-<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/2000/01/rdf-schema#label> "integer 1 to 5"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#ScriptGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Script graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b11 .
-<http://www.linkedmodel.org/schema/vaem#hasAspectScope> <http://www.w3.org/2000/01/rdf-schema#label> "has aspect scope"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#CurationGraph> .
-_:f564d95cbbf944ab194a43c8e6b510d49b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b30 .
-<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#intent> .
-_:f564d95cbbf944ab194a43c8e6b510d49b42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#lastUpdated> .
-<http://www.linkedmodel.org/schema/vaem#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b27 .
-_:f564d95cbbf944ab194a43c8e6b510d49b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f564d95cbbf944ab194a43c8e6b510d49b23 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#FunctionsGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-<http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> <http://www.w3.org/2000/01/rdf-schema#label> "has discipline scope"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#specificity> .
-<http://www.linkedmodel.org/schema/vaem#definition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#DataGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-_:f564d95cbbf944ab194a43c8e6b510d49b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b17 .
-<http://www.linkedmodel.org/schema/vaem#revisionNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasDomainScope> <http://www.w3.org/2000/01/rdf-schema#label> "has domain scope"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://voag.linkedmodel.org/schema/voag#hasLicenseType> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b41 .
-_:f564d95cbbf944ab194a43c8e6b510d49b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f564d95cbbf944ab194a43c8e6b510d49b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#VocabularyGraph> .
-<http://www.linkedmodel.org/schema/vaem#Domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.linkedmodel.org/schema/vaem#FunctionsGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Functions graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#SchemaGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Schema graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
-_:f564d95cbbf944ab194a43c8e6b510d49b41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasCatalogEntry> .
-<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.linkedmodel.org/schema/vaem#description> "A datatype that is the union of numeric xsd data types. LMC's 'numericUnion' is equivalent to the xsd specification that uses an xsd:union of memberTypes='xsd:decimal xsd:double xsd:float xsd:integer'."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.linkedmodel.org/schema/vaem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-_:f564d95cbbf944ab194a43c8e6b510d49b10 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#ownedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.linkedmodel.org/schema/vaem#definition> <http://www.w3.org/2000/01/rdf-schema#label> "definition"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#dateCreated> <http://www.w3.org/2000/01/rdf-schema#label> "date created"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#specificity> .
-_:f564d95cbbf944ab194a43c8e6b510d49b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b1 .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b37 .
-_:f564d95cbbf944ab194a43c8e6b510d49b38 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.linkedmodel.org/schema/vaem#description> "A data type that is the union of xsd:date, xsd:dateTime and xsd:gYear. LMC's 'dateUnion' is equivalent to the xsd specification that uses an xsd:union of memberTypes='xsd:date xsd:dateTime xsd:gYear'."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#hasViewpointScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasViewpointScope' is used to denote how a set of resources, or an individual resource, is relevant to a context of use. The term 'viewpoint' is adopted from the ISO RM-ODP specifications and its more recent use in enterprise architecture descriptions.  In 'lmc' the property is used as a dimension for characterizing an ontology graph.  The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> .
-<http://www.linkedmodel.org/schema/vaem#revision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#revisionNumber> .
-<http://www.linkedmodel.org/schema/vaem#CurationGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
-_:f564d95cbbf944ab194a43c8e6b510d49b41 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#lastUpdated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.linkedmodel.org/schema/vaem#dateUnion> .
-_:f564d95cbbf944ab194a43c8e6b510d49b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://www.linkedmodel.org/schema/vaem#Domain> <http://www.linkedmodel.org/schema/vaem#definition> "A domain is a subject area of interest. Examples of domains are 'enterprise', 'process', 'organization' and 'system'. In 'vaem' the notion of 'Domain' is used as a dimension for characterizing an ontology graph."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b38 .
-<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#name> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:name' is intended for general use. In many cases 'rdfs:label' could be used give names to resources. In the case where compliance with a specific naming rule is needed,  'vaem:name' allows  a resource to carry a name that is used in more specific contexts. Making 'vaem:name' a sub-property of 'rdfs:label' allows 'vaem:name' to serve in the same way as an 'rdfs:label'."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f564d95cbbf944ab194a43c8e6b510d49b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2000/01/rdf-schema#label> "contributor"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://www.linkedmodel.org/schema/vaem#definition> "A general property that has multiple uses. In VAEM it is used on owl:Ontology to express dependencies on resources from graphs that are not imported."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/dc/elements/1.1/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.linkedmodel.org/schema/vaem#url> <http://www.w3.org/2000/01/rdf-schema#label> "url"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.linkedmodel.org/schema/vaem#description> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:description' is intended for general use as the name implies.  Unlike 'vaem:definition',  'vaem:description' is an 'owl:DatatypeProperty'. As such it can play a stronger role in the model, for example, as a predicate in an axiom."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://purl.org/dc/elements/1.1/author> <http://www.w3.org/2000/01/rdf-schema#label> "author"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/2002/07/owl#equivalentClass> _:f564d95cbbf944ab194a43c8e6b510d49b19 .
-<http://www.linkedmodel.org/schema/vaem#namespacePrefix> <http://www.w3.org/2000/01/rdf-schema#label> "namespace prefix"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.linkedmodel.org/schema/vaem#hasScope> <http://www.w3.org/2000/01/rdf-schema#label> "has scope"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.linkedmodel.org/schema/vaem#ProxyGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Proxy graph"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#ownedBy> <http://www.w3.org/2000/01/rdf-schema#label> "owned by"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://www.w3.org/2000/01/rdf-schema#label> "uses non-imported resource"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:f564d95cbbf944ab194a43c8e6b510d49b3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#namespace> .
+<http://www.linkedmodel.org/schema/vaem#RulesGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+<http://www.linkedmodel.org/schema/vaem#VocabularyGraph> <http://www.linkedmodel.org/schema/vaem#description> "An RDF/OWL Graph that is a controlled set of instances."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#intent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#hasCatalogEntry> <vaem:VAEM-CatalogEntry> .
-_:f564d95cbbf944ab194a43c8e6b510d49b28 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.w3.org/2002/07/owl#unionOf> _:f564d95cbbf944ab194a43c8e6b510d49b5 .
-_:f564d95cbbf944ab194a43c8e6b510d49b13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasDomainScope> .
-<http://www.linkedmodel.org/schema/vaem#intent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f564d95cbbf944ab194a43c8e6b510d49b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f564d95cbbf944ab194a43c8e6b510d49b6 .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b40 .
-_:f564d95cbbf944ab194a43c8e6b510d49b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f564d95cbbf944ab194a43c8e6b510d49b19 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
-<http://www.linkedmodel.org/schema/vaem#Discipline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f564d95cbbf944ab194a43c8e6b510d49b10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasScope> .
-<http://www.linkedmodel.org/schema/vaem#Viewpoint> <http://www.linkedmodel.org/schema/vaem#definition> "Viewpoint is used to denote how a set of resources, or an individual resource, is relevant to a context of use. The term 'viewpoint' is adopted from the ISO RM-ODP specifications and its more recent use in enterprise architecture descriptions.  In 'lmc' the notion of 'Viewpoint' is used as a dimension for characterizing an ontology graph."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#lastUpdated> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:lastUpdated' is intended for general use as the name implies.  The range of the property is set as 'vaem:dateUnion' so as to allow a value to have a number of forms from a  year only to a full timestamp."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#Category> <http://www.w3.org/2000/01/rdf-schema#label> "Category"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f564d95cbbf944ab194a43c8e6b510d49b35 .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2000/01/rdf-schema#label> "description"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#CollectionGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b23 .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b20 .
+<http://www.linkedmodel.org/schema/vaem#acronym> <http://www.w3.org/2000/01/rdf-schema#label> "acronym"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#VocabularyGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+<http://www.linkedmodel.org/schema/vaem#Scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://purl.org/dc/elements/1.1/rights> .
+<http://www.linkedmodel.org/schema/vaem#namespacePrefix> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b13 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.w3.org/2000/01/rdf-schema#label> "date union"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#acronym> .
+<http://www.linkedmodel.org/schema/vaem#FunctionsGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b19 <http://www.w3.org/2002/07/owl#withRestrictions> _:f8dbf61d78b8f47f6bc94f403756fd8e1b26 .
+<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.linkedmodel.org/schema/vaem#description> "A data type that is the union of xsd:date, xsd:dateTime and xsd:gYear. LMC's 'dateUnion' is equivalent to the xsd specification that uses an xsd:union of memberTypes='xsd:date xsd:dateTime xsd:gYear'."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Domain> <http://www.linkedmodel.org/schema/vaem#definition> "A domain is a subject area of interest. Examples of domains are 'enterprise', 'process', 'organization' and 'system'. In 'vaem' the notion of 'Domain' is used as a dimension for characterizing an ontology graph."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasDomainScope> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.linkedmodel.org/schema/vaem#hasScope> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b36 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#RulesGraph> .
+<http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b11 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://voag.linkedmodel.org/schema/voag#hasCatalogEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.linkedmodel.org/schema/vaem#revision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.linkedmodel.org/schema/vaem#revisionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#SchemaGraph> .
+<http://www.linkedmodel.org/schema/vaem#namespace> <http://www.w3.org/2000/01/rdf-schema#label> "namespace"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b4 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#ownedBy> .
+<http://www.linkedmodel.org/schema/vaem#hasCatalogEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#ScriptGraph> .
+<http://voag.linkedmodel.org/schema/voag#withAttributionTo> <http://www.w3.org/2000/01/rdf-schema#label> "with attribution to"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> <http://www.w3.org/2000/01/rdf-schema#label> "has discipline scope"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b17 .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasDomainScope> .
+<http://www.linkedmodel.org/schema/vaem#hasDomainScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasDomainScope' is used to specify how  a set of resources, or an individual resource is grounded in a domain, that is, a subject area of interest. Examples of domains are 'enterprise', 'process', 'organization' and 'system'. In 'lmc' the property is used as a dimension for characterizing an ontology graph. The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b6 .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#acronym> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:acronym' provides a common way to define a commonly used abbreviation on a resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasAspectScope> .
+<http://www.linkedmodel.org/schema/vaem#dateCreated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.linkedmodel.org/schema/vaem#ViewGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b14 .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b29 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://purl.org/dc/elements/1.1/title> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#specificity> "1"^^<http://www.linkedmodel.org/schema/vaem#integer_1to5> .
+<http://www.linkedmodel.org/schema/vaem#DataGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Data graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasScope' is used indicate a scope of relevance of an ontology.  In 'vaem' the property is used as a dimension for characterizing an ontology graph.  The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b12 .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b10 .
+<http://www.linkedmodel.org/schema/vaem#hasViewpointScope> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.linkedmodel.org/schema/vaem#hasScope> .
+<http://www.linkedmodel.org/schema/vaem#dateUnion> <http://www.w3.org/2002/07/owl#unionOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b5 .
+<http://www.linkedmodel.org/schema/vaem#ownedBy> <http://www.w3.org/2000/01/rdf-schema#label> "owned by"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b11 .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#date> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b35 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://www.linkedmodel.org/schema/vaem#ScriptGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Script graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b30 .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b32 .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b10 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b31 .
+<http://www.linkedmodel.org/schema/vaem#hasAspectScope> <http://www.w3.org/2000/01/rdf-schema#label> "has aspect scope"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#BridgeGraph> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b21 .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasCatalogEntry> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#FunctionsGraph> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b4 .
+<http://www.linkedmodel.org/schema/vaem#hasRole> <http://www.w3.org/2000/01/rdf-schema#label> "has role"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Discipline> <http://www.w3.org/2000/01/rdf-schema#label> "Discipline"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b41 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b39 .
+<http://www.linkedmodel.org/schema/vaem#id> <http://www.w3.org/2000/01/rdf-schema#label> "id"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b1 .
+<http://www.linkedmodel.org/schema/vaem> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.linkedmodel.org/1.2/schema/vaem> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#description> "VAEM stands for \"Vocabulary for Attaching Essential Metadata\". The purpose of VAEM is to provide, by import, a foundation for commonly needed resources when building an ontology. An effort has been made to restrict these resources to a minimal level. In some ways DC, Dublin Core, could have provided such a foundation. Importing DC unfortunately causes \"ontology glut\", through the import of many DC Terms.\n\nVAEM attaches basic metadata properties and dimension properties, such as domain, discipline, aspect and viewpoint, to the 'owl:Ontology' class to fully qualify the ontology.\n\nWhat VAEM regards as 'essential metadata' is data about dates and times, confidentiality, and other characterisitic qualifiers of the ontology, but also references to where a ontology is documented and where to find ontology Governance, Attribution and Provenance. For the latter, some properties from the VOAG ontology are used, notably, 'voag:hasGovernance', 'voag:withAttributionTo', and 'voag:hasLicenceType'.  VAEM also defines classes for representing enumerations and enumerated values."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://voag.linkedmodel.org/schema/voag#hasLicenseType> .
+<http://www.linkedmodel.org/schema/vaem#Viewpoint> <http://www.w3.org/2000/01/rdf-schema#label> "Viewpoint"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://purl.org/dc/elements/1.1/subject> .
-<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://www.linkedmodel.org/schema/vaem#revision> <http://www.w3.org/2000/01/rdf-schema#label> "revision"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.linkedmodel.org/schema/vaem#Domain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Scope> .
+<http://www.linkedmodel.org/schema/vaem#id> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:id' is intended for general use as a means to specifiy an identifier. The type of this property is intentionally set to 'rdf:Property' so that use of the property can allow both object and scaler values.  For this reason, the property is rangeless."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasRole> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#DataGraph> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f8dbf61d78b8f47f6bc94f403756fd8e1b16 .
+<http://www.linkedmodel.org/schema/vaem#releaseDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#description> .
+<http://www.linkedmodel.org/schema/vaem#intent> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:intent' is used to describe  a statement of purpose. This typically takes the form of desired outcomes."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#timestamp> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:timestamp' is intended for general use as the name implies.  The range of the property is an XSD data time."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#lastUpdated> "$LastChangedDate: 2011-06-04 04:04:02 -0700 (Sat, 04 Jun 2011) $"^^<http://www.linkedmodel.org/schema/vaem#dateUnion> .
+<http://www.linkedmodel.org/schema/vaem#revisionNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.linkedmodel.org/schema/vaem#specificity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.linkedmodel.org/schema/vaem#integer_1to5> .
+<http://www.linkedmodel.org/schema/vaem#timestamp> <http://www.w3.org/2000/01/rdf-schema#label> "timestamp"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.linkedmodel.org/schema/vaem#releaseDate> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:releaseDate' is intended for general use as the name implies.  The range of the property is set as 'vaem:dateUnion' so as to allow a value to have a number of forms from a  year only to a full timestamp."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasScope> .
+<http://www.linkedmodel.org/schema/vaem#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b24 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> .
+<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Category> .
+<http://www.linkedmodel.org/schema/vaem#Aspect> <http://www.linkedmodel.org/schema/vaem#definition> "Aspect Scope is used to distinguish among sets of features of a domain or subject area. The term is borrowed from 'aspect-oriented' programming, where it is used to separate concerns. An ontology may be characterized by this dimension so as to parition features that are orthogonal. For example,  in an SBFI systems ontology we can distinguish aspects for 'structure', 'function', 'behavior' and 'interface'."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b19 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://www.linkedmodel.org/schema/vaem#hasViewpointScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://voag.linkedmodel.org/schema/voag#CC-SHAREALIKE_3PT0-US> .
+<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Viewpoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Scope> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2000/01/rdf-schema#label> "rights"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#revisionDate> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:revisionDate' is intended for general use as the name implies.  The range of the property is 'xsd:dateTime'."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#releaseDate> <http://www.w3.org/2000/01/rdf-schema#label> "release date"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.w3.org/2002/07/owl#unionOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b25 .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#specificity> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b37 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.linkedmodel.org/schema/vaem#Domain> <http://www.w3.org/2000/01/rdf-schema#label> "Domain"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#definition> <http://www.linkedmodel.org/schema/vaem#definition> "A datatype property that can be freely used on any kind of resource. The range of the property is 'xsd:string'."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Category> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.linkedmodel.org/schema/vaem#namespace> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:namespace' provides a means to specify the onotlogy URI with which a graph is primarily associated. The intent is to allow multiple graphs to define statements for resources in the same Ontology namespace. For example, a foundation level graph with the base URI of 'http://www.somesite.com/1.0/schema/OurOntology'  may define general  concepts for 'OurOntology'. Another graph with the base URI 'http://www.somesite.com/1.0/schema/level2/OurOntology'  may add more specific details to the same 'OurOntology'. Each of these two graphs would carry the same value for 'vaem:namespace', that is, 'http://www.somesite.com/schema/OurOntology'.    In other words, an ontology URI is the URI associated with the resources of a controlled namespace. On the other hand the graph URIs (the base URIs) identify the graphs that hold resources that make up an ontology."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b36 .
+<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/2000/01/rdf-schema#label> "integer 1 to 5"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> "vaem"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#lastUpdated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.linkedmodel.org/schema/vaem#dateUnion> .
+<http://www.linkedmodel.org/schema/vaem#dateCreated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.linkedmodel.org/schema/vaem#dateUnion> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#acronym> "VAEM"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#ViewGraph> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b15 .
+<http://www.linkedmodel.org/schema/vaem#dateCreated> <http://www.w3.org/2000/01/rdf-schema#label> "date created"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Discipline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.linkedmodel.org/schema/vaem#name> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:name' is intended for general use. In many cases 'rdfs:label' could be used give names to resources. In the case where compliance with a specific naming rule is needed,  'vaem:name' allows  a resource to carry a name that is used in more specific contexts. Making 'vaem:name' a sub-property of 'rdfs:label' allows 'vaem:name' to serve in the same way as an 'rdfs:label'."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#label> "title"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasDomainScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.linkedmodel.org/schema/vaem#MappingGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+<http://www.linkedmodel.org/schema/vaem#BridgeGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Bridge graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#revisionNumber> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:revisionNumber' is intended for general use as the name implies."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#VocabularyGraph> .
+<http://www.linkedmodel.org/schema/vaem#hasScope> <http://www.w3.org/2000/01/rdf-schema#label> "has scope"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.linkedmodel.org/schema/vaem#url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.linkedmodel.org/schema/vaem#definition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#hasRole> <http://www.linkedmodel.org/schema/vaem#SchemaGraph> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.linkedmodel.org/schema/vaem#acronym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.linkedmodel.org/schema/vaem#CurationGraph> <http://www.linkedmodel.org/schema/vaem#definition> "A curation graph is one whose purpose is to hold metadata that is needed to describe, govern and provision another graph. A curation graph will likely use voag and vaem for this purpose. The property 'vaem:curationGraph' is used to link to the graph (or graphs) being curated."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#ProxyGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#revisionNumber> .
+<http://www.linkedmodel.org/schema/vaem#CurationGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b42 .
+<http://www.linkedmodel.org/schema/vaem#description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasAspectScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.linkedmodel.org/schema/vaem#hasViewpointScope> <http://www.w3.org/2000/01/rdf-schema#label> "has viewpoint scope"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasViewpointScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasViewpointScope' is used to denote how a set of resources, or an individual resource, is relevant to a context of use. The term 'viewpoint' is adopted from the ISO RM-ODP specifications and its more recent use in enterprise architecture descriptions.  In 'lmc' the property is used as a dimension for characterizing an ontology graph.  The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b27 .
+<http://www.linkedmodel.org/schema/vaem#Aspect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Scope> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b32 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b18 .
+<http://www.linkedmodel.org/schema/vaem> <http://voag.linkedmodel.org/schema/voag#hasLicenseType> <http://voag.linkedmodel.org/schema/voag#CC-SHAREALIKE_3PT0-US> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#namespace> "http://www.linkedmodel.org/1.2/schema/vaem#"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.linkedmodel.org/schema/vaem#Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.linkedmodel.org/schema/vaem#url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#dateCreated> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.linkedmodel.org/schema/vaem#revisionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "revision number"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.linkedmodel.org/schema/vaem#Domain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Scope> .
+<http://www.linkedmodel.org/schema/vaem#namespacePrefix> <http://www.w3.org/2000/01/rdf-schema#label> "namespace prefix"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#dateCreated> "2011-04-20"^^<http://www.linkedmodel.org/schema/vaem#dateUnion> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/vaem#intent> "To provide essential resources and metadata for ontologies and controlled vocabularies so that the provenance, governance and licensing aspects of an ontology can be understand."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.linkedmodel.org/schema/vaem#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b15 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b37 .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#intent> .
+<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2000/01/rdf-schema#label> "subject"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.linkedmodel.org/schema/vaem#hasScope> .
+<http://www.linkedmodel.org/schema/vaem#ownedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.linkedmodel.org/schema/vaem#namespacePrefix> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:namespacePrefix' specifes a short handle or label for the URI of an Ontology.  Multiple graphs can define statements for resources in the same Ontololgy namespace. For example, a foundation level graph with the base URI of 'http://www.somesite.com/1.0/schema/OurOntology'  may define general  concepts for 'OurOntology'. Another graph with the base URI 'http://www.somesite.com/1.0/schema/level2/OurOntology'  may add more specific details to the same 'OurOntology'. Each of these two graphs would carry the same value for 'vaem:namespacePrefix', for this example, perhaps, 'ourOntology'."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b28 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://www.linkedmodel.org/schema/vaem#definition> "A general property that has multiple uses. In VAEM it is used on owl:Ontology to express dependencies on resources from graphs that are not imported."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#lastUpdated> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b7 .
+<http://www.linkedmodel.org/schema/vaem#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.linkedmodel.org/schema/vaem#description> <http://www.w3.org/2000/01/rdf-schema#label> "description"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.linkedmodel.org/schema/vaem#DataGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+<http://www.linkedmodel.org/schema/vaem#specificity> <http://www.w3.org/2000/01/rdf-schema#label> "specificity"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.linkedmodel.org/schema/vaem#Aspect> <http://www.w3.org/2000/01/rdf-schema#label> "Aspect"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b3 .
+<http://www.linkedmodel.org/schema/vaem#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#MappingGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Mapping graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#VocabularyGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b38 .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b35 .
+<http://www.linkedmodel.org/schema/vaem#Discipline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Scope> .
+<http://voag.linkedmodel.org/schema/voag#hasCatalogEntry> <http://www.w3.org/2000/01/rdf-schema#label> "has catalog entry"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#lastUpdated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.linkedmodel.org/schema/vaem#definition> "GraphRole is used to characterize how a graph of resources participates in an ontology set.  For example, a graph can be a schema, vocabulary, dataset, script, or ruleset."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.w3.org/2002/07/owl#oneOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b22 .
+<http://www.linkedmodel.org/schema/vaem#lastUpdated> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:lastUpdated' is intended for general use as the name implies.  The range of the property is set as 'vaem:dateUnion' so as to allow a value to have a number of forms from a  year only to a full timestamp."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#BridgeGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.linkedmodel.org/schema/vaem#url> <http://www.w3.org/2000/01/rdf-schema#label> "url"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#MappingGraph> <http://www.linkedmodel.org/schema/vaem#description> "A graph that specifies a transformation of a graph into another graph or graphs. Invariably this is a SPINMap graph using SPARQL Rules (SPIN) to express the transforms."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#namespace> .
+<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/2002/07/owl#equivalentClass> _:f8dbf61d78b8f47f6bc94f403756fd8e1b19 .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b24 .
+<http://www.linkedmodel.org/schema/vaem#description> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:description' is intended for general use as the name implies.  Unlike 'vaem:definition',  'vaem:description' is an 'owl:DatatypeProperty'. As such it can play a stronger role in the model, for example, as a predicate in an axiom."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#specificity> .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> .
+<http://www.linkedmodel.org/schema/vaem#Viewpoint> <http://www.linkedmodel.org/schema/vaem#definition> "Viewpoint is used to denote how a set of resources, or an individual resource, is relevant to a context of use. The term 'viewpoint' is adopted from the ISO RM-ODP specifications and its more recent use in enterprise architecture descriptions.  In 'lmc' the notion of 'Viewpoint' is used as a dimension for characterizing an ontology graph."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#revision> <http://www.w3.org/2000/01/rdf-schema#label> "revision"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Scope> <http://www.linkedmodel.org/schema/vaem#definition> "Scope is used indicate a scope of relevance of an ontology. There are no instances of these properties in VAEM. Each context of use will need specific treatment."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Discipline> <http://www.linkedmodel.org/schema/vaem#definition> "A Discipline is a specific area of work or study. Examples of disciplines in the engineering domain are electrical engineering, mechanical engineering and, in the financial domain, risk assessment, investment analysis.  In 'vaem', 'Discipline' is used as a dimension for characterizing an ontology graph."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b13 .
+<http://www.linkedmodel.org/schema/vaem#Scope> <http://www.w3.org/2000/01/rdf-schema#label> "Scope"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasAspectScope> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.linkedmodel.org/schema/vaem#hasScope> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#CollectionGraph> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#hasViewpointScope> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b28 .
+<http://www.linkedmodel.org/schema/vaem#revisionDate> <http://www.w3.org/2000/01/rdf-schema#label> "revision date"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#CurationGraph> .
+<http://www.linkedmodel.org/schema/vaem#namespace> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#MappingGraph> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b8 .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2000/01/rdf-schema#label> "contributor"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://www.linkedmodel.org/schema/vaem#revisionDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/dc/elements/1.1/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.linkedmodel.org/schema/vaem#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#ownedBy> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:ownedBy' is a general property that in some cases could have scalar values and in other cases may need to refer to some concept of 'Party'.  For this reason, the  type of this property is set as 'rdf:Property' and the property is rangeless."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#ProxyGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Proxy graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#CollectionGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Collection graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Viewpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b9 .
+<http://www.linkedmodel.org/schema/vaem#hasDomainScope> <http://www.w3.org/2000/01/rdf-schema#label> "has domain scope"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.linkedmodel.org/schema/vaem#releaseDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.linkedmodel.org/schema/vaem#dateUnion> .
+<http://www.linkedmodel.org/schema/vaem#definition> <http://www.w3.org/2000/01/rdf-schema#label> "definition"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b40 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/vaem#integer_1to5> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b2 .
+<http://www.linkedmodel.org/schema/vaem#hasRole> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'lms:hasRole' is used to characterize how a resource participates in an ontology set.  In 'lmc' the property is used to specify the role that a graph plays, for example, an ontology graph can be a schema, vocabulary, dataset, script, or ruleset."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b23 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.linkedmodel.org/schema/vaem#specificity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://voag.linkedmodel.org/schema/voag#withAttributionTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://www.w3.org/2000/01/rdf-schema#label> "uses non-imported resource"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#intent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.linkedmodel.org/schema/vaem#GraphRole> <http://www.w3.org/2000/01/rdf-schema#label> "Graph role"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Scope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/vaem#Category> .
+<http://www.linkedmodel.org/schema/vaem#RulesGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Rules Graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.linkedmodel.org/schema/vaem#description> "A datatype that is the union of numeric xsd data types. LMC's 'numericUnion' is equivalent to the xsd specification that uses an xsd:union of memberTypes='xsd:decimal xsd:double xsd:float xsd:integer'."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#numericUnion> <http://www.w3.org/2000/01/rdf-schema#label> "numeric union"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#timestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.linkedmodel.org/schema/vaem#url> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:url' is intended for general use as the name implies.  The range of the property is set as an XSD URI."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#revision> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#lastUpdated> <http://www.w3.org/2000/01/rdf-schema#label> "last updated"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b41 .
+<http://www.linkedmodel.org/schema/vaem#hasScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.linkedmodel.org/schema/vaem#ViewGraph> <http://www.w3.org/2000/01/rdf-schema#label> "View graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b16 <http://www.w3.org/2001/XMLSchema#maxInclusive> "5"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.w3.org/2002/07/owl#versionInfo> "$Id: OSG_vaem-(v1.2).ttl 5016 2011-06-04 11:04:02Z RalphHodgson $"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#Aspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.linkedmodel.org/schema/vaem#Domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.linkedmodel.org/schema/vaem#namespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.linkedmodel.org/schema/vaem#hasCatalogEntry> <http://www.w3.org/2000/01/rdf-schema#label> "has catalog entry"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://voag.linkedmodel.org/schema/voag#hasLicenseType> <http://www.w3.org/2000/01/rdf-schema#label> "has license type"@en-us .
+<http://www.linkedmodel.org/schema/vaem#CurationGraph> <http://www.linkedmodel.org/schema/vaem#definition> "A curation graph is one whose purpose is to hold metadata that is needed to describe, govern and provision another graph. A curation graph will likely use voag and vaem for this purpose. The property 'vaem:curationGraph' is used to link to the graph (or graphs) being curated."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#integer_1to5> <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b33 .
+<http://www.linkedmodel.org/schema/vaem#Category> <http://www.linkedmodel.org/schema/vaem#definition> "Category is an abstract class for all concepts whose roles are to characterize other concepts in some manner."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#timestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b39 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b3 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.linkedmodel.org/schema/vaem#hasAspectScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasAspectScope' is used to distinguish among sets of features of a domain or subject area. The term is borrowed from 'aspect-oriented' programming, where it is used to separate concerns. An ontology may be characterized by this dimension so as to parition features that are orthogonal. For example,  in an SBFI systems ontology we can distinguish aspects for 'structure', 'function', 'behavior' and 'interface'.  The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/author> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b29 .
+<http://www.linkedmodel.org/schema/vaem#CurationGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Curation graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b42 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.linkedmodel.org/schema/vaem#intent> <http://www.w3.org/2000/01/rdf-schema#label> "intent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#revisionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.linkedmodel.org/schema/vaem> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary for Attaching Essential Metadata"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/author> <http://www.w3.org/2000/01/rdf-schema#label> "author"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#FunctionsGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Functions graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.linkedmodel.org/schema/vaem#SchemaGraph> <http://www.w3.org/2000/01/rdf-schema#label> "Schema graph"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f8dbf61d78b8f47f6bc94f403756fd8e1b34 .
+<http://www.linkedmodel.org/schema/vaem#hasDisciplineScope> <http://www.linkedmodel.org/schema/vaem#definition> "The property 'vaem:hasDisciplineScope' is used to indicate relevance of a set of resources, or a resource itself, to a specific discipline of work or study. Examples of disciplines in the engineering domain are electrical engineering, mechanical engineering and, in the financial domain, risk assessment, investment analysis.  In 'vaem' the property is used as a dimension for characterizing an ontology graph.  The property is an 'rdf:Property' to allow both scalar and object values."^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b38 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.linkedmodel.org/schema/vaem#ProxyGraph> .
+<http://www.linkedmodel.org/schema/vaem#Category> <http://www.w3.org/2000/01/rdf-schema#label> "Category"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedmodel.org/schema/vaem#SchemaGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphRole> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f8dbf61d78b8f47f6bc94f403756fd8e1b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.linkedmodel.org/schema/vaem#namespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f8dbf61d78b8f47f6bc94f403756fd8e1b40 .
+<http://voag.linkedmodel.org/schema/voag#hasLicenseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 

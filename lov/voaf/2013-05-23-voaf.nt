@@ -1,333 +1,333 @@
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf/v2.2> <http://www.w3.org/2002/07/owl#versionInfo> "2.2" .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf/v2.3/voaf_v2.3.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v2.3/index.html> .
-<http://purl.org/vocommons/voaf/v2.3> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v2.3/voaf_v2.3.rdf> .
-<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#label> "occurrences in datasets"@en .
-<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#comment> "Class used to store the number of occurences of a vocabulary in a particular dataset"@en .
-<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#label> "Espace de vocabulaires"@fr .
-<http://purl.org/vocommons/voaf/v2.0> <http://www.w3.org/2000/01/rdf-schema#comment> "Namespace moved to purl. Introduction of versions using FRBR. voaf:Vocabulary rdfs:subClassOf  frbr:Work. Added labels and comments in French"@en .
-<http://purl.org/vocommons/voaf/v2.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Remplacement de voaf:dataset par un objet permettant d'attacher la notion d'occurrenceet ajout suppl\u00E9mentaire de propri\u00E9t\u00E9s pour repr\u00E9senter les m\u00E9triques d'usage d'\u00E9l\u00E9ments de vocabulaire dans le LOV et le LOD"@fr .
-<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#DatasetOccurrences> .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> .
-<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#specializes> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		PREFIX skos:<http://www.w3.org/2004/02/skos/core#>\n		\n		CONSTRUCT{\n			?vocab1 voaf:specializes ?vocab2\n		}\n		WHERE{\n			{?elem1 rdfs:subPropertyOf ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem1 rdfs:subClassOf ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem1 skos:broadMatch ?elem2. FILTER(!isBlank(?elem2))}\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
-<http://purl.org/vocommons/voaf/v2.1> <http://purl.org/dc/terms/date> "2012-10-15" .
-<http://purl.org/vocommons/voaf> <http://purl.org/vocab/vann/preferredNamespacePrefix> "voaf" .
-<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#label> "reused by vocabularies"@en .
-<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf/v1.0/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf/v2.1/voaf_v2.1.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary defines some subclasses or subproperties of the object vocabulary, or local restrictions on those."@en .
-<http://purl.org/vocommons/voaf#generalizes> <http://purl.org/dc/terms/description> "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n		PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		PREFIX skos:<http://www.w3.org/2004/02/skos/core#>\n		\n		CONSTRUCT{\n			?vocab1 voaf:generalizes ?vocab2\n		}\n		WHERE{\n			{?elem1 skos:narrowMatch ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem2 rdfs:subPropertyOf ?elem1.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:first ?elem2.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:rest ?union2. ?union2 rdf:first ?elem2.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:rest ?union2. ?union2 rdf:rest ?union3. ?union3 rdf:first ?elem2.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:rest ?union2. ?union2 rdf:rest ?union3. ?union3 rdf:rest ?union4. ?union4 rdf:first ?elem2.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:rest ?union2. ?union2 rdf:rest ?union3. ?union3 rdf:rest ?union4. ?union4 rdf:rest ?union5. ?union5 rdf:first ?elem2.}\n			FILTER(!isBlank(?elem2))\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary uses or extends some class or property of the object vocabulary"@en .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary used in the linked data cloud. An instance of voaf:Vocabulary relies on or is used by at least another instance of voaf:Vocabulary"@en .
-<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9pr\u00E9ci\u00E9 depuis la v1.1"@fr .
-<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#label> "Occurrences dans un jeu de donn\u00E9es"@fr .
-<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v1.1> .
-<http://purl.org/vocommons/voaf/v1.0> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b6 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/vocommons/voaf#" .
-<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste des t\u00E2ches pr\u00E9vues par le gestionnaire d'une ressource. Cette propri\u00E9t\u00E9 est destin\u00E9e \u00E0 l'usage des gestionnaires de vocabulaires ou de jeu de donn\u00E9es mais son doamine est ouvert, elle peut \u00EAtre utilis\u00E9e pour n'importe quelle ressource. Utiliser la classe ical:Vtodo pour une description fine des t\u00E2ches : calendrier, priorit\u00E9s etc"@fr .
-<http://purl.org/vocommons/voaf/v2.2> <http://purl.org/dc/terms/date> "2013-04-24" .
-<http://purl.org/vocommons/voaf/v2.1> <http://www.w3.org/2002/07/owl#versionInfo> "2.1" .
-<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "statistiques d'utilisation dans un jeu de donn\u00E9es"@fr .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet d\u00E9clare des \u00E9quivalences de classes ou de propri\u00E9t\u00E9s avec le vocabulaire objet"@fr .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n\n		CONSTRUCT{\n			?vocab1 voaf:metadataVoc ?vocab2\n		}\n		WHERE{\n			?elem1 ?elem2 ?o.\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/vocommons/voaf/v2.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Refined the voaf:dataset to a more complex element with occurrences information and added extra properties to represent metrics of vocabulary elements usage in LOV and LOD"@en .
-<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de vocabulaires utilisant une ressource."@fr .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/vocommons/voaf/v1.1> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9pr\u00E9ciation de voaf:exampleDataset, remplac\u00E9 par voaf:dataset"@fr .
-<http://purl.org/vocommons/voaf/v2.0> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/bernard-vatant> .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://dbpedia.org/resource/Open_Knowledge_Foundation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/title> "Vocabulaire d'un ami"@fr .
-<http://purl.org/vocommons/voaf/v1.1> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v1.1/voaf_v1.1.rdf> .
-<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
-<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#label> "usage in dataset"@en .
-<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/vocommons/voaf/v2.0/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf/v2.3/voaf_v2.3.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#DatasetOccurrences> .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b4 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9pr\u00E9ci\u00E9 depuis la v2.4"@fr .
-<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf/v1.1/voaf_v1.1.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#label> "number of properties"@en .
-<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/vocommons/voaf/v2.0/voaf_v2.0.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf/v1.0/voaf_v1.0.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf/v1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#label> "generalizes"@en .
-<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary declares some equivalent classes or properties with the object vocabulary."@en .
-<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe utilis\u00E9e pour stocker l'information d'occurences d'un vocabulaire dans un jeu de donn\u00E9es"@fr .
-<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of vocabularies using a resource"@en .
-<http://purl.org/vocommons/voaf/v1.0> <http://purl.org/dc/terms/date> "2011-03-11" .
-<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/issued> "2011-03-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://data.semanticweb.org/person/pierre-yves-vandenbussche> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://purl.org/vocommons/voaf/v2.3> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/pierre-yves-vandenbussche> .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "jeu de donn\u00E9es"@fr .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre de propri\u00E9t\u00E9s d\u00E9finies dans l'espace de noms du Vocabulaire. Les propri\u00E9t\u00E9s import\u00E9es d'autres vocabulaires ne sont pas comptabilis\u00E9es."@fr .
-<http://purl.org/vocommons/voaf/v2.0/voaf_v2.0.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v2.0/index.html> .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet utilise le vocabulaire objet pour d\u00E9crire ses m\u00E9tadonn\u00E9es, au niveau global du vocabulaire ou au niveau des \u00E9l\u00E9ments"@fr .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb375b0ae7c8c4cabbe19ecb09716fe40b7 .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#label> "occurrences in vocabularies"@en .
-<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#label> "extends"@en .
-<http://purl.org/vocommons/voaf/v2.0> <http://purl.org/dc/terms/date> "2012-07-03" .
-<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#label> "exemple de jeu de donn\u00E9es"@fr .
-<http://purl.org/vocommons/voaf/v2.1/voaf_v2.1.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v2.1/index.html> .
-<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to assert that two vocabularies are similar in scope and objectives, independently of the fact that they otherwise refer to each other."@en .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#label> "metadata vocabulary"@en .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/bernard-vatant> .
-<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
-<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#label> "r\u00E9utilise"@fr .
-<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
-<http://purl.org/vocommons/voaf#dataset> <http://purl.org/dc/terms/isReplacedBy> <http://purl.org/vocommons/voaf#DatasetOccurrences> .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary"@en .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet contient des d\u00E9clarations de classes disjointes avec le vocabulaire objet"@fr .
-<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of properties defined in the vocabulary namespace. Properties imported from other namespaces are not taken into account."@en .
-<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#label> "used by"@en .
-<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf/v1.1/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#label> "r\u00E9utilis\u00E9 par des vocabulaires"@fr .
-<http://purl.org/vocommons/voaf/v2.2/voaf_v2.2.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Un Espace de vocabulaires d\u00E9finit un regroupement pertinent de vocabulaires, par exemple construits pour des domaines ou objectifs similaires, ou par le m\u00EAme d\u00E9diteur ou le m\u00EAme projet, etc.\n         Un Vocabulaire peut appartenir \u00E0 z\u00E9ro, un ou plusieurs Espace de vocabulaires. Les propri\u00E9t\u00E9s Dublin Core isPartOf et hasPart sont utilis\u00E9es pour relier un Vocabulaire \u00E0 un Espace de vocabulaires."@fr .
-<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
-<http://purl.org/vocommons/voaf/v1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
-<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#label> "occurrences"@fr .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b8 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#DatasetOccurrences> .
-<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/description> "Un vocabulaire de description des vocabulaires RDF et de leurs relations mutuelles"@fr .
-<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated since v1.1"@en .
-<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "usage statistics in a dataset"@en .
-<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/ns/void#Dataset> .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdfs.org/ns/void#vocabulary> .
-<http://purl.org/vocommons/voaf/v1.1/voaf_v1.1.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v1.1/index.html> .
-<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#label> "nombre de classes"@fr .
-<http://purl.org/vocommons/voaf/v2.1/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		PREFIX skos:<http://www.w3.org/2004/02/skos/core#>\n		\n		CONSTRUCT{\n			?vocab1 voaf:hasEquivalencesWith ?vocab2\n		}\n		WHERE{\n			{?elem1 owl:equivalentProperty ?elem2.}\n			UNION{?elem1 owl:sameAs ?elem2.}\n			UNION{?elem1 owl:equivalentClass ?elem2.}\n			UNION{?elem2 owl:equivalentProperty ?elem1.}\n			UNION{?elem2 owl:equivalentClass ?elem1.}\n			UNION{?elem1 skos:exactMatch ?elem2.}\n			UNION{?elem2 skos:exactMatch ?elem1.}\n			FILTER(!isBlank(?elem2))\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		\n		CONSTRUCT{\n			?vocab1 voaf:hasDisjunctionsWith ?vocab2\n		}\n		WHERE{\n			?elem1 owl:disjointWith ?elem2. FILTER(!isBlank(?elem2))\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b6 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocommons/voaf#reliesOn> .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://purl.org/dc/terms/description> "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n		PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		\n		CONSTRUCT{\n		?vocab voaf:propertyNumber ?nbProp\n		}\n		WHERE{\n			SELECT (COUNT(distinct ?prop) AS ?nbProp) ?vocab\n			WHERE{\n				{?prop a rdf:Property.}\n				UNION{?prop a owl:ObjectProperty.}\n				UNION{?prop a owl:DatatypeProperty.}\n				UNION{?prop a owl:AnnotationProperty.}\n				UNION{?prop a owl:FunctionalProperty.}\n				UNION{?prop a owl:OntologyProperty.}\n				UNION{?prop a owl:AsymmetricProperty.}\n				UNION{?prop a owl:InverseFunctionalProperty.}\n				UNION{?prop a owl:IrreflexiveProperty.}\n				UNION{?prop a owl:ReflexiveProperty.}\n				UNION{?prop a owl:SymmetricProperty.}\n				UNION{?prop a owl:TransitiveProperty.}\n				?prop a ?type.\n				FILTER(?type!=owl:DeprecatedProperty)\n				?prop rdfs:isDefinedBy ?vocab.\n				?vocab a voaf:Vocabulary.\n			}GROUP BY ?vocab\n		}" .
-<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v1.0> .
-<http://data.semanticweb.org/person/lise-rozat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#comment> "nombre d'occurrences d'un vocabulaire dans un dataset"@fr .
-<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/vocommons/voaf/v2.3/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v2.3> .
-<http://purl.org/vocommons/voaf/v1.0> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v1.0/voaf_v1.0.rdf> .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:fb375b0ae7c8c4cabbe19ecb09716fe40b2 .
-<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#label> "number of classes"@en .
-<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#comment> "Distinct number of vocabularies reusing a resource."@en .
-<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/title> "Vocabulary of a Friend"@en .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/vocommons/voaf/v2.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ajout de propri\u00E9t\u00E9s pour repr\u00E9senter les m\u00E9triques d'usage d'\u00E9l\u00E9ments de vocabulaire dans le LOV et le LOD"@fr .
-<http://data.semanticweb.org/person/bernard-vatant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://purl.org/vocommons/voaf/v2.1> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v2.1/voaf_v2.1.rdf> .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#label> "similaire"@fr .
-<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#label> "occurences dans des datasets"@fr .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/publisher> <http://dbpedia.org/resource/Open_Knowledge_Foundation> .
-<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#label> "reused by datasets"@en .
+<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes future tasks planned by a resource curator. This property is primarily intended to be used for vocabularies or datasets, but the domain is left open, it can be used for any resource. Use iCalendar Vtodo class and its properties to further describe the task calendar, priorities etc."@en .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2002/07/owl#unionOf> _:f3694ccd0f8c643d49a513fa81753b59bb1 .
 <http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v2.2> .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#label> "relies on"@en .
-<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v2.0> .
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary space defines any relevant grouping of vocabularies e.g., designed for similar purposes or domains, or designed by the same publisher or the same project, etc.\n          A vocabulary can belong to zero, one or more vocabulary spaces.Dublin Core properties isPartOf and hasPart are used to link a vocabulary to a vocabulary space."@en .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://purl.org/vocommons/voaf/v2.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocommons/voaf#usedBy> .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v2.3> .
 <http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/ns/void#Dataset> .
-<http://purl.org/vocommons/voaf/v2.3> <http://purl.org/dc/terms/date> "2013-05-24" .
-<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf/v2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
-<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de jeux de donn\u00E9es utilisant une ressource."@fr .
-<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#label> "r\u00E9utilis\u00E9 par des jeux de donn\u00E9es"@fr .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#label> "nombre de propri\u00E9t\u00E9s"@fr .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#label> "has equivalences with"@en .
-<http://purl.org/vocommons/voaf/v1.0/voaf_v1.0.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v1.0/index.html> .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#label> "dans le jeu de donn\u00E9es"@fr .
+<http://purl.org/vocommons/voaf/v2.3> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/pierre-yves-vandenbussche> .
+<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet d\u00E9finit des sous-classes ou sous-propri\u00E9t\u00E9s du vocabulaire objet"@fr .
 <http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/contributor> <http://data.semanticweb.org/person/lise-rozat> .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf/v1.0> <http://www.w3.org/2000/01/rdf-schema#comment> "First published version"@en .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
-<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v2.1> .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "dataset in which a vocabulary occurred"@en .
-<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#label> "in dataset"@en .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/12/cal/ical#Vtodo> .
-<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary generalizes by some superclasses or superproperties the object vocabulary."@en .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b2 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
-<http://purl.org/vocommons/voaf/v1.1> <http://www.w3.org/2002/07/owl#versionInfo> "1.1" .
-<http://purl.org/vocommons/voaf/v1.1> <http://purl.org/dc/terms/date> "2011-11-16" .
-<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre distinct de jeux de donn\u00E9es reutilisant une resource."@fr .
-<http://purl.org/vocommons/voaf/v2.0> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v2.0/voaf_v2.0.rdf> .
-<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#label> "has disjunctions with"@en .
+<http://purl.org/vocommons/voaf/v1.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Depreciation of voaf:exampleDataset, replaced by voaf:dataset"@en .
+<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#label> "occurrences in datasets"@en .
+<http://purl.org/vocommons/voaf/v1.0/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/vocommons/voaf#" .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary is used by the object vocabulary"@en .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf/v2.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/vocommons/voaf/v2.1> <http://www.w3.org/2002/07/owl#versionInfo> "2.1" .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#label> "utilis\u00E9 par"@fr .
+<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que deux vocabulaires sont similaires dans leur domaine et/ou leurs objectifs, sans \u00EAtre n\u00E9cessairement reli\u00E9s par des r\u00E9f\u00E9rences."@fr .
+<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf> <http://purl.org/vocab/vann/preferredNamespacePrefix> "voaf" .
+<http://purl.org/vocommons/voaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#label> "usage in dataset"@en .
+_:f3694ccd0f8c643d49a513fa81753b59bb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f3694ccd0f8c643d49a513fa81753b59bb6 .
+_:f3694ccd0f8c643d49a513fa81753b59bb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f3694ccd0f8c643d49a513fa81753b59bb2 .
+<http://purl.org/vocommons/voaf/v2.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ajout de propri\u00E9t\u00E9s pour repr\u00E9senter les m\u00E9triques d'usage d'\u00E9l\u00E9ments de vocabulaire dans le LOV et le LOD"@fr .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary extends the expressivity of the object vocabulary by declaring subsumption relationships, using object vocabulary class as domain or range of a subject vocabulary property, defining local restrictions etc ..."@en .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulaire"@fr .
-<http://purl.org/vocommons/voaf/v2.2> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v2.2/voaf_v2.2.rdf> .
-<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2002/07/owl#unionOf> _:fb375b0ae7c8c4cabbe19ecb09716fe40b5 .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b8 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocommons/voaf#usedBy> .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#label> "a des \u00E9quivalences avec"@fr .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#vocabulary> .
+<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/ns/void#Dataset> .
+<http://purl.org/vocommons/voaf/v2.1> <http://purl.org/dc/terms/date> "2012-10-15" .
+<http://purl.org/vocommons/voaf/v1.1> <http://www.w3.org/2002/07/owl#versionInfo> "1.1" .
+<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#label> "to-do list"@en .
+<http://purl.org/vocommons/voaf#exampleDataset> <http://purl.org/dc/terms/isReplacedBy> <http://purl.org/vocommons/voaf#dataset> .
+<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://dbpedia.org/resource/Open_Knowledge_Foundation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://purl.org/vocommons/voaf/v2.0> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v2.0/voaf_v2.0.rdf> .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#label> "has equivalences with"@en .
+<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v2.0> .
+<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#comment> "Distinct number of datasets reusing a resource."@en .
+<http://purl.org/vocommons/voaf/v2.2/voaf_v2.2.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "jeu de donn\u00E9es"@fr .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/title> "Vocabulary of a Friend"@en .
+<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#label> "in dataset"@en .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf/v1.0/voaf_v1.0.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#label> "occurrences in vocabularies"@en .
+<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "Un vocabulaire utilis\u00E9 ou utilisable dans le Web des donn\u00E9es. Une instance de voaf:Vocabulary s'appuie at/ou est utilis\u00E9e par au moins une autre instance of voaf:Vocabulary"@fr .
 <http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#extends> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n\n		CONSTRUCT{\n			?vocab1 voaf:extends ?vocab2\n		}\n		WHERE{\n			{?elem1 owl:inverseOf ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem1 rdfs:domain ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem1 rdfs:range ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem2 rdfs:domain ?elem1. FILTER(!isBlank(?elem1))}\n			UNION{?elem2 rdfs:range ?elem1. FILTER(!isBlank(?elem1))}\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
-<http://purl.org/vocommons/voaf/v2.0> <http://www.w3.org/2002/07/owl#versionInfo> "2.0" .
+<http://purl.org/vocommons/voaf/v2.0> <http://purl.org/dc/terms/date> "2012-07-03" .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#label> "used by"@en .
+<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#label> "occurrences"@en .
+<http://purl.org/vocommons/voaf/v2.3> <http://purl.org/dc/terms/date> "2013-05-24" .
+<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet d\u00E9finit des super-classes ou super-propri\u00E9t\u00E9s du vocabulaire objet"@fr .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/references> .
+<http://purl.org/vocommons/voaf/v1.0> <http://purl.org/dc/terms/date> "2011-03-11" .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/vocommons/voaf/v1.1/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/12/cal/ical#Vtodo> .
+<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/title> "Vocabulaire d'un ami"@fr .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet est utilis\u00E9 par le vocabulaire objet"@fr .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
+<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre distinct de jeux de donn\u00E9es reutilisant une resource."@fr .
+<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf/v1.0> <http://www.w3.org/2000/01/rdf-schema#comment> "First published version"@en .
+<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#label> "similaire"@fr .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
+<http://data.semanticweb.org/person/bernard-vatant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocommons/voaf/v1.1> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9pr\u00E9ciation de voaf:exampleDataset, remplac\u00E9 par voaf:dataset"@fr .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+_:f3694ccd0f8c643d49a513fa81753b59bb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre distinct de vocabulaires reutilisant une resource."@fr .
+<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#label> "reused by vocabularies"@en .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#label> "number of properties"@en .
+<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#DatasetOccurrences> .
+<http://purl.org/vocommons/voaf/v2.1/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		\n		CONSTRUCT{\n			?vocab1 voaf:hasDisjunctionsWith ?vocab2\n		}\n		WHERE{\n			?elem1 owl:disjointWith ?elem2. FILTER(!isBlank(?elem2))\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre de propri\u00E9t\u00E9s d\u00E9finies dans l'espace de noms du Vocabulaire. Les propri\u00E9t\u00E9s import\u00E9es d'autres vocabulaires ne sont pas comptabilis\u00E9es."@fr .
+<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#label> "number of classes"@en .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/vocommons/voaf#reliesOn> .
+<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/description> "A vocabulary to describe linked data vocabularies and their relations."@en .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary generalizes by some superclasses or superproperties the object vocabulary."@en .
+<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary"@en .
+<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#label> "utilisation dans un jeu de donn\u00E9es"@fr .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#label> "nombre de propri\u00E9t\u00E9s"@fr .
+<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://data.semanticweb.org/person/pierre-yves-vandenbussche> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocommons/voaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary declares some equivalent classes or properties with the object vocabulary."@en .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
+<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v2.1> .
+<http://purl.org/vocommons/voaf/v2.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Remplacement de voaf:dataset par un objet permettant d'attacher la notion d'occurrenceet ajout suppl\u00E9mentaire de propri\u00E9t\u00E9s pour repr\u00E9senter les m\u00E9triques d'usage d'\u00E9l\u00E9ments de vocabulaire dans le LOV et le LOD"@fr .
+<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/bernard-vatant> .
+<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v1.0> .
+<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocommons/voaf/v2.0/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+_:f3694ccd0f8c643d49a513fa81753b59bb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f3694ccd0f8c643d49a513fa81753b59bb8 .
+_:f3694ccd0f8c643d49a513fa81753b59bb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet utilise ou \u00E9tend au moins une classe ou propri\u00E9t\u00E9 du vocabulaire objet"@fr .
+<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary space defines any relevant grouping of vocabularies e.g., designed for similar purposes or domains, or designed by the same publisher or the same project, etc.\n          A vocabulary can belong to zero, one or more vocabulary spaces.Dublin Core properties isPartOf and hasPart are used to link a vocabulary to a vocabulary space."@en .
 <http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#label> "similar"@en .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "dataset"@en .
+<http://purl.org/vocommons/voaf/v2.3> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v2.3/voaf_v2.3.rdf> .
+<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#DatasetOccurrences> .
+_:f3694ccd0f8c643d49a513fa81753b59bb4 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		PREFIX skos:<http://www.w3.org/2004/02/skos/core#>\n		\n		CONSTRUCT{\n			?vocab1 voaf:hasEquivalencesWith ?vocab2\n		}\n		WHERE{\n			{?elem1 owl:equivalentProperty ?elem2.}\n			UNION{?elem1 owl:sameAs ?elem2.}\n			UNION{?elem1 owl:equivalentClass ?elem2.}\n			UNION{?elem2 owl:equivalentProperty ?elem1.}\n			UNION{?elem2 owl:equivalentClass ?elem1.}\n			UNION{?elem1 skos:exactMatch ?elem2.}\n			UNION{?elem2 skos:exactMatch ?elem1.}\n			FILTER(!isBlank(?elem2))\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
 <http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary Space"@en .
 <http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/modified> "2013-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of occurrences of a vocabulary in a dataset"@en .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fb375b0ae7c8c4cabbe19ecb09716fe40b3 .
-<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/vocommons/voaf#reliesOn> .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary is used by the object vocabulary"@en .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "dataset"@en .
-<http://purl.org/vocommons/voaf#exampleDataset> <http://purl.org/dc/terms/isReplacedBy> <http://purl.org/vocommons/voaf#dataset> .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre de classes d\u00E9finies dans l'espace de noms du Vocabulaire. Les classes import\u00E9es d'autres vocabulaires ne sont pas comptabilis\u00E9es."@fr .
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf/v2.3> <http://www.w3.org/2002/07/owl#versionInfo> "2.3" .
-<http://purl.org/vocommons/voaf/v2.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Added properties to represent metrics of vocabulary elements usage in LOV and LOD"@en .
-<http://purl.org/vocommons/voaf/v2.0> <http://www.w3.org/2000/01/rdf-schema#comment> "Namespace migr\u00E9 sous purl. Introduction des versions avec FRBR. voaf:Vocabulary rdfs:subClassOf  frbr:Work. Ajout des traductions fran\u00E7aises"@fr .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet utilise ou \u00E9tend au moins une classe ou propri\u00E9t\u00E9 du vocabulaire objet"@fr .
-<http://purl.org/vocommons/voaf/v2.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ajout des requ\u00EAtes pour g\u00E9n\u00E9rer des relations VOAF entre deux vocabulaires"@fr .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "Un vocabulaire utilis\u00E9 ou utilisable dans le Web des donn\u00E9es. Une instance de voaf:Vocabulary s'appuie at/ou est utilis\u00E9e par au moins une autre instance of voaf:Vocabulary"@fr .
-<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet \u00E9tend l'expressivit\u00E9 du vocabulaire objet en d\u00E9clarant des relations de subsomption avec ce dernier, ou en utilisant ses classes comme domaine ou co-domaine d'un propri\u00E9t\u00E9 du vocabulaire sujet, ou en d\u00E9finissant des contraintes locales etc."@fr .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de jeux de donn\u00E9es utilisant une ressource."@fr .
+<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "usage statistics in a dataset"@en .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+_:f3694ccd0f8c643d49a513fa81753b59bb4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocommons/voaf#usedBy> .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocommons/voaf#extends> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n\n		CONSTRUCT{\n			?vocab1 voaf:extends ?vocab2\n		}\n		WHERE{\n			{?elem1 owl:inverseOf ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem1 rdfs:domain ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem1 rdfs:range ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem2 rdfs:domain ?elem1. FILTER(!isBlank(?elem1))}\n			UNION{?elem2 rdfs:range ?elem1. FILTER(!isBlank(?elem1))}\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
 <http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#label> "occurences dans des vocabulaires"@fr .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#label> "utilis\u00E9 par"@fr .
-<http://purl.org/vocommons/voaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#label> "to-do list"@en .
-<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#label> "g\u00E9n\u00E9ralise"@fr .
-<http://purl.org/vocommons/voaf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#label> "a des disjonctions avec"@fr .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf/v2.1> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/pierre-yves-vandenbussche> .
-<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "jeu de donn\u00E9es dans lequel un vocabulaire apparait"@fr .
-<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#label> "occurrences"@en .
-<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que deux vocabulaires sont similaires dans leur domaine et/ou leurs objectifs, sans \u00EAtre n\u00E9cessairement reli\u00E9s par des r\u00E9f\u00E9rences."@fr .
-<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset occurrences"@en .
-<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#label> "specializes"@en .
-<http://purl.org/vocommons/voaf#classNumber> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		\n		CONSTRUCT{\n		?vocab voaf:classNumber ?nbClass\n		}\n		WHERE{\n			SELECT (COUNT(distinct ?class) AS ?nbClass) ?vocab\n			WHERE{\n				{?class a rdfs:Class.}\n				UNION{?class a owl:Class.}\n				?class a ?type.\n				FILTER(?type!=owl:DeprecatedClass)\n				?class rdfs:isDefinedBy ?vocab.\n				?vocab a voaf:Vocabulary.\n			}GROUP BY ?vocab\n		}" .
-<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/vocommons/voaf/v2.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Added desrciption of queries used to infer a particular VOAF relation between two vocabularies"@en .
-<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#label> "utilisation dans un jeu de donn\u00E9es"@fr .
-<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet est utilis\u00E9 par le vocabulaire objet"@fr .
-<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
-<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/vocommons/voaf/v2.2/voaf_v2.2.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v2.2/index.html> .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/issued> "2011-03-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
+<http://purl.org/vocommons/voaf> <http://purl.org/vocab/frbr/core#realization> <http://purl.org/vocommons/voaf/v1.1> .
+<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#label> "dans le jeu de donn\u00E9es"@fr .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of properties defined in the vocabulary namespace. Properties imported from other namespaces are not taken into account."@en .
+<http://purl.org/vocommons/voaf/v1.1> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v1.1/voaf_v1.1.rdf> .
+<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf#dataset> <http://purl.org/dc/terms/isReplacedBy> <http://purl.org/vocommons/voaf#DatasetOccurrences> .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
+_:f3694ccd0f8c643d49a513fa81753b59bb2 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#DatasetOccurrences> .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#label> "a des \u00E9quivalences avec"@fr .
+<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet utilise le vocabulaire objet pour d\u00E9crire ses m\u00E9tadonn\u00E9es, au niveau global du vocabulaire ou au niveau des \u00E9l\u00E9ments"@fr .
+<http://purl.org/vocommons/voaf/v2.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Ajout des requ\u00EAtes pour g\u00E9n\u00E9rer des relations VOAF entre deux vocabulaires"@fr .
+<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary defines some subclasses or subproperties of the object vocabulary, or local restrictions on those."@en .
+<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/modified> "2013-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#label> "metadata vocabulary"@en .
 <http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#label> "vocabulaire de m\u00E9tadonn\u00E9es"@fr .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:fb375b0ae7c8c4cabbe19ecb09716fe40b6 .
-<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#label> "liste des choses \u00E0 faire"@fr .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocommons/voaf#reliesOn> .
-<http://purl.org/vocommons/voaf/v1.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Depreciation of voaf:exampleDataset, replaced by voaf:dataset"@en .
-<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/contributor> <http://data.semanticweb.org/person/pierre-yves-vandenbussche> .
-<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#label> "sp\u00E9cialise"@fr .
-<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://purl.org/vocommons/voaf/v2.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2002/07/owl#unionOf> _:fb375b0ae7c8c4cabbe19ecb09716fe40b1 .
-<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#label> "\u00E9tend"@fr .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
 <http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet d\u00E9finit des super-classes ou super-propri\u00E9t\u00E9s du vocabulaire objet"@fr .
-<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of classes defined in the vocabulary namespace. Classes imported from other namespaces are not taken into account."@en .
-<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-<http://purl.org/vocommons/voaf/v2.2/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
-<http://purl.org/vocommons/voaf> <http://purl.org/vocommons/voaf#exampleDataset> <http://lov.okfn.org/dataset/lov/lov.rdf> .
-<http://purl.org/vocommons/voaf/v2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
-<http://purl.org/vocommons/voaf/v1.0> <http://www.w3.org/2000/01/rdf-schema#comment> "Premi\u00E8re publication"@fr .
-<http://purl.org/vocommons/voaf/v2.2> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/pierre-yves-vandenbussche> .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
-<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary uses the object vocabulary in metadata at global vocabulary level or at element level"@en .
-<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/description> "A vocabulary to describe linked data vocabularies and their relations."@en .
-<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/references> .
-<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#label> "example dataset"@en .
-<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated since v2.4"@en .
-<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
-<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary contains some declaration of disjoint classes with the object vocabulary."@en .
-<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of datasets using a resource."@en .
-<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#comment> "Distinct number of datasets reusing a resource."@en .
-<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:fb375b0ae7c8c4cabbe19ecb09716fe40b4 .
-<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet d\u00E9finit des sous-classes ou sous-propri\u00E9t\u00E9s du vocabulaire objet"@fr .
-<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes future tasks planned by a resource curator. This property is primarily intended to be used for vocabularies or datasets, but the domain is left open, it can be used for any resource. Use iCalendar Vtodo class and its properties to further describe the task calendar, priorities etc."@en .
-<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre distinct de vocabulaires reutilisant une resource."@fr .
-<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/ns/void#Dataset> .
+<http://purl.org/vocommons/voaf/v2.3/voaf_v2.3.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet \u00E9tend l'expressivit\u00E9 du vocabulaire objet en d\u00E9clarant des relations de subsomption avec ce dernier, ou en utilisant ses classes comme domaine ou co-domaine d'un propri\u00E9t\u00E9 du vocabulaire sujet, ou en d\u00E9finissant des contraintes locales etc."@fr .
+<http://purl.org/vocommons/voaf/v1.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/vocommons/voaf/v2.2> <http://www.w3.org/2000/01/rdf-schema#comment> "Added properties to represent metrics of vocabulary elements usage in LOV and LOD"@en .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf/v1.1/voaf_v1.1.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v1.1/index.html> .
+_:f3694ccd0f8c643d49a513fa81753b59bb6 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://purl.org/vocommons/voaf/v2.1/voaf_v2.1.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#comment> "Nombre de vocabulaires utilisant une ressource."@fr .
+_:f3694ccd0f8c643d49a513fa81753b59bb2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocommons/voaf#reliesOn> .
+<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#label> "nombre de classes"@fr .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#comment> "Class used to store the number of occurences of a vocabulary in a particular dataset"@en .
+<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#label> "r\u00E9utilis\u00E9 par des jeux de donn\u00E9es"@fr .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9pr\u00E9ci\u00E9 depuis la v2.4"@fr .
+<http://purl.org/vocommons/voaf/v2.1> <http://www.w3.org/2000/01/rdf-schema#comment> "Added desrciption of queries used to infer a particular VOAF relation between two vocabularies"@en .
+<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf/v1.0/voaf_v1.0.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v1.0/index.html> .
 <http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
-_:fb375b0ae7c8c4cabbe19ecb09716fe40b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:fb375b0ae7c8c4cabbe19ecb09716fe40b8 .
+<http://purl.org/vocommons/voaf/v2.2> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v2.2/voaf_v2.2.rdf> .
+<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to assert that two vocabularies are similar in scope and objectives, independently of the fact that they otherwise refer to each other."@en .
+_:f3694ccd0f8c643d49a513fa81753b59bb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocommons/voaf#reliesOn> .
+<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n\n		CONSTRUCT{\n			?vocab1 voaf:metadataVoc ?vocab2\n		}\n		WHERE{\n			?elem1 ?elem2 ?o.\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
+<http://data.semanticweb.org/person/lise-rozat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> .
+<http://purl.org/vocommons/voaf/v2.3> <http://www.w3.org/2000/01/rdf-schema#comment> "Refined the voaf:dataset to a more complex element with occurrences information and added extra properties to represent metrics of vocabulary elements usage in LOV and LOD"@en .
+<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#label> "reused by datasets"@en .
+<http://purl.org/vocommons/voaf/v2.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated since v1.1"@en .
+<http://purl.org/vocommons/voaf/v2.1> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/pierre-yves-vandenbussche> .
+<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#label> "specializes"@en .
+<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of classes defined in the vocabulary namespace. Classes imported from other namespaces are not taken into account."@en .
+<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#label> "has disjunctions with"@en .
+_:f3694ccd0f8c643d49a513fa81753b59bb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#label> "Occurrences dans un jeu de donn\u00E9es"@fr .
+<http://purl.org/vocommons/voaf/v2.2/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+_:f3694ccd0f8c643d49a513fa81753b59bb6 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocommons/voaf#reliesOn> .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#comment> "A vocabulary used in the linked data cloud. An instance of voaf:Vocabulary relies on or is used by at least another instance of voaf:Vocabulary"@en .
+<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#classNumber> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		\n		CONSTRUCT{\n		?vocab voaf:classNumber ?nbClass\n		}\n		WHERE{\n			SELECT (COUNT(distinct ?class) AS ?nbClass) ?vocab\n			WHERE{\n				{?class a rdfs:Class.}\n				UNION{?class a owl:Class.}\n				?class a ?type.\n				FILTER(?type!=owl:DeprecatedClass)\n				?class rdfs:isDefinedBy ?vocab.\n				?vocab a voaf:Vocabulary.\n			}GROUP BY ?vocab\n		}" .
+<http://purl.org/vocommons/voaf/v2.2> <http://purl.org/dc/terms/date> "2013-04-24" .
+<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#comment> "Distinct number of vocabularies reusing a resource."@en .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdfs.org/ns/void#Dataset> .
+<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#comment> "nombre d'occurrences d'un vocabulaire dans un dataset"@fr .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf/v1.0> <http://www.w3.org/2000/01/rdf-schema#comment> "Premi\u00E8re publication"@fr .
+<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+_:f3694ccd0f8c643d49a513fa81753b59bb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f3694ccd0f8c643d49a513fa81753b59bb7 .
+<http://purl.org/vocommons/voaf/v2.0> <http://www.w3.org/2000/01/rdf-schema#comment> "Namespace moved to purl. Introduction of versions using FRBR. voaf:Vocabulary rdfs:subClassOf  frbr:Work. Added labels and comments in French"@en .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#label> "g\u00E9n\u00E9ralise"@fr .
+<http://purl.org/vocommons/voaf#specializes> <http://purl.org/dc/terms/description> "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		PREFIX skos:<http://www.w3.org/2004/02/skos/core#>\n		\n		CONSTRUCT{\n			?vocab1 voaf:specializes ?vocab2\n		}\n		WHERE{\n			{?elem1 rdfs:subPropertyOf ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem1 rdfs:subClassOf ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem1 skos:broadMatch ?elem2. FILTER(!isBlank(?elem2))}\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
+_:f3694ccd0f8c643d49a513fa81753b59bb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f3694ccd0f8c643d49a513fa81753b59bb3 .
+<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/description> "Un vocabulaire de description des vocabulaires RDF et de leurs relations mutuelles"@fr .
+<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf/v2.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf/v2.2> <http://www.w3.org/2002/07/owl#versionInfo> "2.2" .
+<http://purl.org/vocommons/voaf> <http://purl.org/vocommons/voaf#exampleDataset> <http://lov.okfn.org/dataset/lov/lov.rdf> .
+<http://purl.org/vocommons/voaf/v2.2> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/pierre-yves-vandenbussche> .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulaire"@fr .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#label> "relies on"@en .
+<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+_:f3694ccd0f8c643d49a513fa81753b59bb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f3694ccd0f8c643d49a513fa81753b59bb4 .
+<http://purl.org/vocommons/voaf/v2.0> <http://www.w3.org/2002/07/owl#versionInfo> "2.0" .
+<http://purl.org/vocommons/voaf> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet contient des d\u00E9clarations de classes disjointes avec le vocabulaire objet"@fr .
+<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#label> "r\u00E9utilis\u00E9 par des vocabulaires"@fr .
+<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre de classes d\u00E9finies dans l'espace de noms du Vocabulaire. Les classes import\u00E9es d'autres vocabulaires ne sont pas comptabilis\u00E9es."@fr .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "statistiques d'utilisation dans un jeu de donn\u00E9es"@fr .
+<http://purl.org/vocommons/voaf/v2.0/voaf_v2.0.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v2.0/index.html> .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated" .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdfs.org/ns/void#vocabulary> .
+<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset occurrences"@en .
+<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/contributor> <http://data.semanticweb.org/person/pierre-yves-vandenbussche> .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdfs.org/ns/void#vocabulary> .
+<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf/v2.3/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary contains some declaration of disjoint classes with the object vocabulary."@en .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://purl.org/dc/terms/description> "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n		PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		\n		CONSTRUCT{\n		?vocab voaf:propertyNumber ?nbProp\n		}\n		WHERE{\n			SELECT (COUNT(distinct ?prop) AS ?nbProp) ?vocab\n			WHERE{\n				{?prop a rdf:Property.}\n				UNION{?prop a owl:ObjectProperty.}\n				UNION{?prop a owl:DatatypeProperty.}\n				UNION{?prop a owl:AnnotationProperty.}\n				UNION{?prop a owl:FunctionalProperty.}\n				UNION{?prop a owl:OntologyProperty.}\n				UNION{?prop a owl:AsymmetricProperty.}\n				UNION{?prop a owl:InverseFunctionalProperty.}\n				UNION{?prop a owl:IrreflexiveProperty.}\n				UNION{?prop a owl:ReflexiveProperty.}\n				UNION{?prop a owl:SymmetricProperty.}\n				UNION{?prop a owl:TransitiveProperty.}\n				?prop a ?type.\n				FILTER(?type!=owl:DeprecatedProperty)\n				?prop rdfs:isDefinedBy ?vocab.\n				?vocab a voaf:Vocabulary.\n			}GROUP BY ?vocab\n		}" .
+<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of occurrences of a vocabulary in a dataset"@en .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf#usedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf/v2.0> <http://purl.org/dc/terms/creator> <http://data.semanticweb.org/person/bernard-vatant> .
+<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#label> "Espace de vocabulaires"@fr .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2000/01/rdf-schema#label> "generalizes"@en .
+<http://purl.org/vocommons/voaf/v2.1/voaf_v2.1.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v2.1/index.html> .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf/v2.1> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v2.1/voaf_v2.1.rdf> .
+<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of datasets using a resource."@en .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocommons/voaf#Vocabulary> .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique que le vocabulaire sujet d\u00E9clare des \u00E9quivalences de classes ou de propri\u00E9t\u00E9s avec le vocabulaire objet"@fr .
+<http://purl.org/vocommons/voaf#generalizes> <http://purl.org/dc/terms/description> "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n		PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n		PREFIX owl:<http://www.w3.org/2002/07/owl#>\n		PREFIX voaf:<http://purl.org/vocommons/voaf#>\n		PREFIX skos:<http://www.w3.org/2004/02/skos/core#>\n		\n		CONSTRUCT{\n			?vocab1 voaf:generalizes ?vocab2\n		}\n		WHERE{\n			{?elem1 skos:narrowMatch ?elem2. FILTER(!isBlank(?elem2))}\n			UNION{?elem2 rdfs:subPropertyOf ?elem1.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:first ?elem2.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:rest ?union2. ?union2 rdf:first ?elem2.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:rest ?union2. ?union2 rdf:rest ?union3. ?union3 rdf:first ?elem2.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:rest ?union2. ?union2 rdf:rest ?union3. ?union3 rdf:rest ?union4. ?union4 rdf:first ?elem2.}\n			UNION{?elem1 a owl:Class. ?elem1 owl:unionOf ?union. ?union rdf:rest ?union2. ?union2 rdf:rest ?union3. ?union3 rdf:rest ?union4. ?union4 rdf:rest ?union5. ?union5 rdf:first ?elem2.}\n			FILTER(!isBlank(?elem2))\n			?elem1 rdfs:isDefinedBy ?vocab1.\n			?vocab1 a voaf:Vocabulary.\n			?elem2 rdfs:isDefinedBy ?vocab2.\n			?vocab2 a voaf:Vocabulary.\n			FILTER(?vocab1!=?vocab2)\n		}" .
+<http://purl.org/vocommons/voaf#DatasetOccurrences> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe utilis\u00E9e pour stocker l'information d'occurences d'un vocabulaire dans un jeu de donn\u00E9es"@fr .
+<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocommons/voaf#reusedByVocabularies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/vocommons/voaf> <http://purl.org/dc/terms/publisher> <http://dbpedia.org/resource/Open_Knowledge_Foundation> .
+<http://purl.org/vocommons/voaf#occurrences> <http://www.w3.org/2000/01/rdf-schema#label> "occurrences"@fr .
+<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "jeu de donn\u00E9es dans lequel un vocabulaire apparait"@fr .
+<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#label> "exemple de jeu de donn\u00E9es"@fr .
+<http://purl.org/vocommons/voaf#specializes> <http://www.w3.org/2000/01/rdf-schema#label> "sp\u00E9cialise"@fr .
+<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary uses or extends some class or property of the object vocabulary"@en .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/vocommons/voaf#occurrencesInVocabularies> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of vocabularies using a resource"@en .
+<http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#label> "r\u00E9utilise"@fr .
+<http://purl.org/vocommons/voaf#usageInDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f3694ccd0f8c643d49a513fa81753b59bb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#label> "liste des choses \u00E0 faire"@fr .
+<http://purl.org/vocommons/voaf#VocabularySpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Un Espace de vocabulaires d\u00E9finit un regroupement pertinent de vocabulaires, par exemple construits pour des domaines ou objectifs similaires, ou par le m\u00EAme d\u00E9diteur ou le m\u00EAme projet, etc.\n         Un Vocabulaire peut appartenir \u00E0 z\u00E9ro, un ou plusieurs Espace de vocabulaires. Les propri\u00E9t\u00E9s Dublin Core isPartOf et hasPart sont utilis\u00E9es pour relier un Vocabulaire \u00E0 un Espace de vocabulaires."@fr .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocommons/voaf#Vocabulary> .
+_:f3694ccd0f8c643d49a513fa81753b59bb8 <http://www.w3.org/2002/07/owl#minCardinality> "1" .
+<http://purl.org/vocommons/voaf/v2.0/voaf_v2.0.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf/v2.2/voaf_v2.2.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v2.2/index.html> .
+<http://purl.org/vocommons/voaf/v2.0> <http://www.w3.org/2000/01/rdf-schema#comment> "Namespace migr\u00E9 sous purl. Introduction des versions avec FRBR. voaf:Vocabulary rdfs:subClassOf  frbr:Work. Ajout des traductions fran\u00E7aises"@fr .
+<http://purl.org/vocommons/voaf#similar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf/v1.0> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<http://purl.org/vocommons/voaf/v1.1/voaf_v1.1.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Manifestation> .
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2002/07/owl#unionOf> _:f3694ccd0f8c643d49a513fa81753b59bb5 .
+<http://purl.org/vocommons/voaf/v1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/ns/void#Dataset> .
+<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#label> "\u00E9tend"@fr .
+<http://purl.org/vocommons/voaf#metadataVoc> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject vocabulary uses the object vocabulary in metadata at global vocabulary level or at element level"@en .
+<http://purl.org/vocommons/voaf#propertyNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#hasDisjunctionsWith> <http://www.w3.org/2000/01/rdf-schema#label> "a des disjonctions avec"@fr .
+<http://purl.org/vocommons/voaf/v2.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/vocommons/voaf#hasEquivalencesWith> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://purl.org/vocommons/voaf#reusedByDatasets> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#label> "example dataset"@en .
+<http://purl.org/vocommons/voaf#classNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocommons/voaf> .
+<http://purl.org/vocommons/voaf#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated since v2.4"@en .
+_:f3694ccd0f8c643d49a513fa81753b59bb8 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocommons/voaf#usedBy> .
+<http://purl.org/vocommons/voaf/v2.3> <http://www.w3.org/2002/07/owl#versionInfo> "2.3" .
+<http://purl.org/vocommons/voaf#inDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "dataset in which a vocabulary occurred"@en .
+_:f3694ccd0f8c643d49a513fa81753b59bb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/vocommons/voaf#occurrencesInDatasets> <http://www.w3.org/2000/01/rdf-schema#label> "occurences dans des datasets"@fr .
+<http://purl.org/vocommons/voaf#generalizes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/vocommons/voaf/v1.0> <http://purl.org/vocab/frbr/core#embodiment> <http://purl.org/vocommons/voaf/v1.0/voaf_v1.0.rdf> .
+<http://purl.org/vocommons/voaf#extends> <http://www.w3.org/2000/01/rdf-schema#label> "extends"@en .
+<http://purl.org/vocommons/voaf/v1.1> <http://purl.org/dc/terms/date> "2011-11-16" .
+<http://purl.org/vocommons/voaf#exampleDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9pr\u00E9ci\u00E9 depuis la v1.1"@fr .
+<http://purl.org/vocommons/voaf/v2.3/voaf_v2.3.rdf> <http://purl.org/vocab/frbr/core#alternate> <http://purl.org/vocommons/voaf/v2.3/index.html> .
+<http://purl.org/vocommons/voaf#toDoList> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste des t\u00E2ches pr\u00E9vues par le gestionnaire d'une ressource. Cette propri\u00E9t\u00E9 est destin\u00E9e \u00E0 l'usage des gestionnaires de vocabulaires ou de jeu de donn\u00E9es mais son doamine est ouvert, elle peut \u00EAtre utilis\u00E9e pour n'importe quelle ressource. Utiliser la classe ical:Vtodo pour une description fine des t\u00E2ches : calendrier, priorit\u00E9s etc"@fr .
 

@@ -1,608 +1,608 @@
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b26 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#semiMinorAxis> .
-<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b59 .
-<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#label> "geographic element"@en .
-<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CoordinateOperation> .
-<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b20 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#primeMeridian> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b7 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#coordinateSystem> .
-<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longueur du demi petit axe d'un ellipso\u00EFde."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b31 .
-<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b26 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le syst\u00E8me de coordonn\u00E9es ellipso\u00EFdal"@fr .
-<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude est maximale"@fr .
-<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.eurecom.fr/~atemezin/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#label> "Ellipsoidal CS"@en .
-<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/creator> <http://recherche.ign.fr/labos/cogit/cv.php?prenom=Nathalie&nom=Abadie> .
-<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical CS"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://data.ign.fr/def/ignf#GeodeticCRS> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
-<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.ign.fr/def/ignf#datum> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de r\u00E9f\u00E9rence de coordonn\u00E9es \u00E0 une dimension, associ\u00E9 \u00E0 un r\u00E9f\u00E9rentiel vertical."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b31 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le SRC des donn\u00E9es en sortie d'une op\u00E9ration."@fr .
-<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe les SRC simples qui composent un SRC compos\u00E9."@fr .
-<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.ign.fr/def/ignf#coordinateSystem> .
-<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#SingleCRS> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#label> "Geographic bounding box"@en .
-<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b2 .
-<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique la dimension du SRC des donn\u00E9es en sortie d'une op\u00E9ration."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt#QuantityValue> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b8 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#datum> .
-<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#VerticalCRS> .
-<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/description> "Codes pour la description de syst\u00E8mes de r\u00E9f\u00E9rence de coordonn\u00E9es conforme ISO TC/211. Les traductions fran\u00E7aises des termes et leurs d\u00E9finitions sont pour la plupart issues du glossaire multilingue ISO/TC 211 disponible ici: http://www.isotc211.org/Terminology.htm"@fr .
-<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#label> "method formula"@en .
-<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
-<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://data.ign.fr/def/ignf#> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b17 .
-<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b8 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b22 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#semiMajorAxis> .
-<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#label> "uses Cartesian CS"@en .
-<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9gion de validit\u00E9"@fr .
-<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es ellipso\u00EFdal"@fr .
-<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#label> "aplatissement inverse"@fr .
-<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le syst\u00E8me de coordonn\u00E9es"@fr .
-<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/creator> <http://www.eurecom.fr/~atemezin/> .
-<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#label> "operation version"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b12 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#datum> .
-<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Projected CRS"@en .
-<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Compound CRS"@en .
-<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#VerticalCS> .
-<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le param\u00E8tre"@fr .
-<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le r\u00E9f\u00E9rentiel vertical"@fr .
-<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#Datum> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b32 <http://www.w3.org/2002/07/owl#intersectionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b34 .
-<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#label> "semi minor axis"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b52 <http://www.w3.org/2002/07/owl#intersectionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b53 .
-<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la conversion utilis\u00E9e pour d\u00E9finir un SRC projet\u00E9."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b29 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
-<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#label> "Ellipso\u00EFde"@fr .
-<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b4 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#datum> .
-<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#label> "utilise l'axe"@fr .
-<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#label> "Conversion"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b26 <http://www.w3.org/2002/07/owl#onClass> <http://qudt.org/schema/qudt#QuantityValue> .
-<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleCRS> .
-<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#comment> "Op\u00E9ration par laquelle des coordonn\u00E9es en entr\u00E9e et en sortie sont associ\u00E9es \u00E0 diff\u00E9rents r\u00E9f\u00E9rentiels."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b9 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#baseCRS> .
-<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "uses coordinate system"@en .
-<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#label> "Geodetic datum"@en .
-<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#comment> "Op\u00E9ration par laquelle les coordonn\u00E9es en sortie sont associ\u00E9es au m\u00EAme r\u00E9f\u00E9rentiel que les donn\u00E9es en entr\u00E9e (ex: projection cartographique)."@fr .
-<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt#QuantityValue> .
-<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationMethod> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b29 <http://www.w3.org/2002/07/owl#onClass> <http://qudt.org/schema/qudt#QuantityValue> .
-<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le SRC g\u00E9od\u00E9sique sur lequel repose un SRC projet\u00E9."@fr .
-<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b28 .
-<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleCRS> .
-<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique la version d'une op\u00E9ration appliqu\u00E9e sur des coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/2000/01/rdf-schema#label> "port\u00E9e"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b33 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
-<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#CRS> .
-<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#label> "uses prime meridian"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#label> "semi major axis"@en .
-<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2000/01/rdf-schema#comment> "M\u00E9ridien \u00E0 partir duquel les longitudes d'autres m\u00E9ridiens sont mesur\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b21 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b30 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/2000/01/rdf-schema#label> "Axis"@en .
-<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/2000/01/rdf-schema#label> "scope"@en .
-<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "greenwich longitude"@en .
-<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinate system"@en .
-<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#domain> _:f2e5505b074cd4c97ae98a3f3fd8f0638b41 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b36 .
-<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
-<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b54 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b47 .
-<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b44 <http://www.w3.org/2002/07/owl#intersectionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b45 .
-<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#label> "SRC cible"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b59 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
-<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeodeticCRS> .
-<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CRS> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b22 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b17 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#Ellipsoid> .
-<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#GeodeticCRS> .
-<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#range> _:f2e5505b074cd4c97ae98a3f3fd8f0638b56 .
-<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "M\u00E9thode utilis\u00E9e pour faire une op\u00E9ration sur des coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b11 .
-<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b10 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Ellipsoid> .
-<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b25 .
-<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le syst\u00E8me de coordonn\u00E9es utilis\u00E9 par un SRC."@fr .
-<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleOperation> .
-<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b15 .
-<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#label> "domain of validity"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b51 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt#LengthUnit> .
-<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt#QuantityValue> .
-<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la latitude sud minimale du cadre englobant."@fr .
-<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#label> "demi grand axe"@fr .
-<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b20 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#label> "axis abbreviation"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "R\u00E9f\u00E9rentiel d\u00E9crivant la relation entre un syst\u00E8me de coordonn\u00E9es \u00E0 deux ou trois dimensions et la Terre."@fr .
-<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me cart\u00E9sien de coordonn\u00E9es"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b17 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#VerticalCRS> .
-<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/2000/01/rdf-schema#label> "Extent"@en .
-<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#label> "uses value"@en .
-<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationMethod> .
-<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b33 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b35 .
-<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#GeodeticCRS> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b29 .
-<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le cadre englobant g\u00E9ographique d'une r\u00E9gion de validit\u00E9."@fr .
-<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#Datum> .
-<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#SingleCRS> .
-<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleCRS> .
-<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#label> "uses parameter"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b56 <http://www.w3.org/2002/07/owl#intersectionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b57 .
-<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de coordonn\u00E9es dans lequel la position est sp\u00E9cifi\u00E9e par la latitude g\u00E9od\u00E9sique, la longitude g\u00E9od\u00E9sique et (dans le cas tridimensionnel) la hauteur ellipso\u00EFdale."@fr .
-<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#comment> "M\u00E9tadonn\u00E9es permettant de pr\u00E9ciser, selon la dimension spatiale des coordonn\u00E9es 1D, 2D ou 3D, les \u00E9l\u00E9ments de d\u00E9finition associ\u00E9s au jeu de coordonn\u00E9es: le Syst\u00E8me de R\u00E9f\u00E9rence Terrestre, l'ellipso\u00EFde g\u00E9od\u00E9sique, le m\u00E9ridien origine, le type de coordonn\u00E9es (cart\u00E9siennes g\u00E9ocentriques, planes, g\u00E9ographiques,...), les unit\u00E9s dans lesquelles sont exprim\u00E9es les coordonn\u00E9es, la projection cartographique, le r\u00E9f\u00E9rentiel altim\u00E9trique.(http://geodesie.ign.fr/index.php?page=glossaire)"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b40 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
-<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Ellipsoid> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#OperationParameterValue> .
-<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le m\u00E9ridien origine d'un r\u00E9f\u00E9rentiel g\u00E9od\u00E9sique."@fr .
-<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b1 .
-<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#label> "\u00E9l\u00E9ment g\u00E9ographique"@fr .
-<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rentiel"@fr .
-<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#label> "uses method"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b36 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence combin\u00E9"@fr .
-<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b58 .
-<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique si l'ellipso\u00EFde est une sph\u00E8re."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b15 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#coordinateSystem> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://data.ign.fr/def/ignf#VerticalCS> .
-<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b38 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#label> "Conversion"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b26 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#CoordinateSystem> .
-<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/2000/01/rdf-schema#comment> "Zone ou intervalle de temps dans lequel la r\u00E9f\u00E9rence est valide."@fr .
-<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b12 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b20 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinates reference system"@en .
-<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b22 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/2000/01/rdf-schema#label> "espg identifier"@en .
-<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es vertical"@fr .
-<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence vertical"@fr .
-<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le r\u00E9f\u00E9rentiel g\u00E9od\u00E9sique utilis\u00E9 par un SRC g\u00E9od\u00E9sique."@fr .
-<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#CoordinateSystemAxis> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b7 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#CoordinateSystem> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b38 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
-<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b38 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#southBoundLatitude> .
-<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
-<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#CoordinateSystem> .
-<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le SRC des donn\u00E9es en entr\u00E9e d'une op\u00E9ration."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b50 .
-<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le syst\u00E8me de coordonn\u00E9es ellipso\u00EFdal utilis\u00E9 par un SRC g\u00E9od\u00E9sique."@fr .
-<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b41 <http://www.w3.org/2002/07/owl#unionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b42 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#label> "utilise l'ellipso\u00EFde"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b10 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#SingleCRS> .
-<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#label> "single CRS"@en .
-<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#label> "includes single CRS"@en .
-<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe une valeur utilis\u00E9e par une op\u00E9ration sur des coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#Datum> .
-<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe un axe utilis\u00E9 par un syst\u00E8me de coordonn\u00E9es ellipso\u00EFdal ou cart\u00E9sien."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b43 .
-<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b11 <http://www.w3.org/2002/07/owl#intersectionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b13 .
-<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#label> "source CRS"@en .
-<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#range> _:f2e5505b074cd4c97ae98a3f3fd8f0638b44 .
+_:ffe422675fb344eee859a5004a4577452b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b33 .
 <http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le r\u00E9f\u00E9rentiel g\u00E9od\u00E9sique"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#label> "formule de la m\u00E9thode"@fr .
-<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b6 .
-<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.ign.fr/def/ignf#datum> .
-<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
-<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#GeodeticCRS> .
-<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Systeme de coordonnees"@fr .
-<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationMethod> .
-<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le syst\u00E8me cartesien de coordonn\u00E9es"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://data.ign.fr/def/ignf#Extent> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf> <http://creativecommons.org/ns#license> <http://www.data.gouv.fr/Licence-Ouverte-Open-Licence> .
-<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Zone ou intervalle de temps dans lequel un SRC est valide."@fr .
-<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationMethod> .
-<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b21 <http://www.w3.org/2002/07/owl#intersectionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b23 .
-<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateSystem> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b51 .
-<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#label> "utilise la m\u00E9thode"@fr .
-<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "south bound latitude"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b39 .
-<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#label> "uses geodetic datum"@en .
-<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "west bound longitude"@en .
-<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la port\u00E9e de la r\u00E9f\u00E9rence."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b59 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt#AngleUnit> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#label> "Transformation"@en .
-<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/2000/01/rdf-schema#label> "Operation parameter value"@en .
-<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#PrimeMeridian> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b24 .
-<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#label> "uses Vertical CS"@en .
-<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#label> "uses ellipsoidal CS"@en .
-<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de r\u00E9f\u00E9rence de coordonn\u00E9es"@fr .
-<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence projet\u00E9"@fr .
-<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#label> "d\u00E9fini par conversion"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b16 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b4 .
-<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#label> "Ellipsoid"@en .
-<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/2000/01/rdf-schema#label> "target CRS dimension"@en .
-<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b3 .
-<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CoordinateSystem> .
-<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#GeodeticDatum> .
-<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.ign.fr/def/ignf#coordinateSystem> .
-<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b55 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt#CountingUnit> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b33 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#westBoundLongitude> .
-<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/2000/01/rdf-schema#label> "espace de codage"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b36 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#eastBoundLongitude> .
-<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence geod\u00E9sique"@fr .
-<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#label> "Cartesian CS"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
-<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#label> "defined by conversion"@en .
-<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Op\u00E9ration simple sur les coordonn\u00E9es"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://data.ign.fr/def/ignf#VerticalDatum> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b40 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#northBoundLatitude> .
-<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#label> "uses Axis"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b40 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/issued> "2014-04-09"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/2000/01/rdf-schema#comment> "Param\u00E8tre ou ensemble de param\u00E8tres d\u00E9finissant la position de l'origine, l'\u00E9chelle et l'orientation d'un syst\u00E8me de coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "CRS compos\u00E9 d'un syst\u00E8me de coordonn\u00E9es et d'un r\u00E9f\u00E9rentiel."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b29 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#inverseFlattening> .
-<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la r\u00E8gle ou l'autorit\u00E9 dont r\u00E9sulte la valeur de la r\u00E9f\u00E9rence."@fr .
-<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de coordonn\u00E9e \u00E0 une dimension utilis\u00E9 pour les mesures de hauteur ou de profondeur relatives \u00E0 la gravit\u00E9."@fr .
-<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#PrimeMeridian> .
-<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#range> _:f2e5505b074cd4c97ae98a3f3fd8f0638b52 .
-<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#label> "domaine de validit\u00E9"@fr .
-<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Single coordinate operation"@en .
-<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de r\u00E9f\u00E9rence de coordonn\u00E9es utilisant deux syst\u00E8mes de r\u00E9f\u00E9rence de coordonn\u00E9es simples."@fr .
-<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical CRS"@en .
-<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#label> "uses datum"@en .
-<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/contributor> <http://www.eurecom.fr/~troncy/> .
-<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#label> "demi petit axe"@fr .
-<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2000/01/rdf-schema#label> "M\u00E9ridien origine"@fr .
-<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/2000/01/rdf-schema#label> "M\u00E9thode"@fr .
-<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateSystemAxis> .
-<http://www.eurecom.fr/~troncy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CoordinateSystem> .
-<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b33 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/2000/01/rdf-schema#label> "code space"@en .
-<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b51 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
-<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#ProjectedCRS> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b48 <http://www.w3.org/2002/07/owl#intersectionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b49 .
-<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#SingleCRS> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b3 <http://www.w3.org/2002/07/owl#intersectionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b5 .
-<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longitude est maximale du cadre englobant."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b8 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://data.ign.fr/def/ignf#GeodeticDatum> .
-<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le syst\u00E8me vertical de coordonn\u00E9es"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b31 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Op\u00E9ration sur les coordonn\u00E9es"@fr .
-<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique la dimension du SRC des donn\u00E9es en entr\u00E9e d'une op\u00E9ration."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b10 <http://www.w3.org/2002/07/owl#minCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#ProjectedCRS> .
-<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#label> "source CRS dimension"@en .
-<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/2000/01/rdf-schema#label> "Param\u00E8tre"@fr .
-<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/ignf#ProjectedCRS> .
-<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#OperationParameter> .
-<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le param\u00E8tre auquel est associ\u00E9e une valeur."@fr .
-<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la latitude nord maximale du cadre englobant."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#label> "base CRS"@en .
-<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#Extent> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b2 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b14 .
-<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2000/01/rdf-schema#label> "Prime meridian"@en .
-<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le r\u00E9f\u00E9rentiel vertical utilis\u00E9 par un SRC vertical."@fr .
-<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#label> "Transformation"@fr .
-<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la direction de l'axe."@fr .
-<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/publisher> <http://fr.dbpedia.org/resource/Institut_national_de_l%27information_g%C3%A9ographique_et_foresti%C3%A8re> .
-<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Ellipsoid> .
-<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#EllipsoidalCS> .
-<http://data.ign.fr/def/ignf> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ignf" .
-<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#OperationParameter> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b46 .
-<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b47 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt#LengthUnit> .
-<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence d\u00E9riv\u00E9 par projection cartographique d'un syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence bidimentionnel."@fr .
-<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimension du SRC source"@fr .
-<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#label> "SRC source"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#label> "uses ellipsoid"@en .
-<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#GeodeticCRS> .
-<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#VerticalDatum> .
-<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rentiel g\u00E9od\u00E9sique"@fr .
-<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#label> "direction de l'axe"@fr .
-<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#label> "axis direction"@en .
-<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#label> "param\u00E8tre"@fr .
-<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe un param\u00E8tre utilis\u00E9 par une m\u00E9thode pour faire une op\u00E9ration sur des coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#label> "abr\u00E9viation utilis\u00E9e pour d\u00E9signer l'axe"@fr .
-<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "east bound longitude"@en .
-<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Valeur d'un param\u00E8tre utilis\u00E9 par une m\u00E9thode pour faire une op\u00E9ration sur des coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/2000/01/rdf-schema#label> "identifiant epsg"@fr .
-<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeodeticDatum> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b2 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#CoordinateSystemAxis> .
-<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le m\u00E9ridien origine"@fr .
-<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Extent> .
-<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#comment> "Cadre d\u00E9limitant une zone d'int\u00E9r\u00EAt."@fr .
-<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b10 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#includesSingleCRS> .
-<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b32 .
-<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique la formule utilis\u00E9e par une m\u00E9thode pour faire op\u00E9ration sur des coordonn\u00E9es."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#label> "inclut un simple SRC"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeodeticCRS> .
-<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt#QuantityValue> .
-<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#Ellipsoid> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateSystemAxis> .
-<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude sud minimale"@fr .
-<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude nord maximale"@fr .
-<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le syst\u00E8me de coordonn\u00E9es cart\u00E9sien utilis\u00E9 par un SRC g\u00E9od\u00E9sique ou projet\u00E9."@fr .
-<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "north bound longitude"@en .
-<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#label> "parameter"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b38 .
-<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longitude ouest minimale du cadre englobant."@fr .
-<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/2000/01/rdf-schema#comment> "Param\u00E8tre utilis\u00E9 par une m\u00E9thode pour faire une op\u00E9ration sur des coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe l'ellipso\u00EFde utilis\u00E9 par un r\u00E9f\u00E9rentiel g\u00E9od\u00E9sique."@fr .
-<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#label> "is sphere"@en .
-<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CRS> .
-<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinate operation"@en .
-<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le r\u00E9f\u00E9rentiel"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b19 .
-<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "uses vertical datum"@en .
-<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longitude par rapport au m\u00E9ridien de Greenwich."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b25 <http://www.w3.org/2002/07/owl#unionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b27 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b55 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
-<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CoordinateSystem> .
-<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "R\u00E9f\u00E9rentiel d\u00E9crivant la relation entre les hauteurs ou les profondeurs relatives \u00E0 la gravit\u00E9 et la Terre."@fr .
-<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Geodetic CRS"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b2 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#axis> .
-<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de r\u00E9f\u00E9rence de coordonn\u00E9es associ\u00E9 \u00E0 un r\u00E9f\u00E9rentiel g\u00E9od\u00E9sique."@fr .
-<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le r\u00E9f\u00E9rentiel utilis\u00E9 par un SRC simple."@fr .
-<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la m\u00E9thode utilis\u00E9e par une op\u00E9ration sur des coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/2000/01/rdf-schema#label> "Datum"@en .
-<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#label> "inverse flattening"@en .
-<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/title> "Ontologie des syst\u00E8mes de coordonn\u00E9es"@fr .
+_:ffe422675fb344eee859a5004a4577452b32 <http://www.w3.org/2002/07/owl#intersectionOf> _:ffe422675fb344eee859a5004a4577452b34 .
+<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#label> "uses value"@en .
 <http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#CRS> .
-<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#label> "SRC simple"@fr .
-<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#VerticalCRS> .
-<http://data.ign.fr/def/ignf> <http://www.w3.org/2002/07/owl#versionInfo> "1.1 - 2014-04-09" .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b47 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
-<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b55 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e5505b074cd4c97ae98a3f3fd8f0638b37 .
-<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/2000/01/rdf-schema#comment> "Axe par rapport auquel une coordonn\u00E9es d'un point est sp\u00E9cifi\u00E9e dans un syst\u00E8me de coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b7 .
-<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CompoundCRS> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b1 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#domainOfValidity> .
-<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe l'abr\u00E9viation utilis\u00E9e pour d\u00E9signer l'axe."@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b16 <http://www.w3.org/2002/07/owl#intersectionOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b18 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b36 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
-<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/2000/01/rdf-schema#label> "Axe"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical datum"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:f2e5505b074cd4c97ae98a3f3fd8f0638b40 .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b4 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#Datum> .
-<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f2e5505b074cd4c97ae98a3f3fd8f0638b9 .
-<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#label> "target CRS"@en .
-<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimension du SRC cible"@fr .
-<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
-<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude ouest minimale"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b17 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#ellipsoid> .
-<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longueur du demi grand axe d'un ellipso\u00EFde."@fr .
-<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationParameterValue> .
-<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude par rapport \u00E0 Greenwich"@fr .
-<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#Ellipsoid> .
-<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Ensemble d'axes couvrant un espace de coordonn\u00E9es, et de r\u00E8gles math\u00E9matiques permettant l'affectation de coordonn\u00E9es \u00E0 un point."@fr .
-<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/2000/01/rdf-schema#comment> "Op\u00E9ration math\u00E9matique sur des coordonn\u00E9es dans un SRC source en vue de les convertir vers un SRC cible."@fr .
-<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleOperation> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
-<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#label> "est une sph\u00E8re"@fr .
-<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique l'identifiant EPSG de la ressource."@fr .
-<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
-<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#comment> "Op\u00E9ration non concat\u00E9n\u00E9e sur des coordonn\u00E9es."@fr .
-<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le syst\u00E8me de coordonn\u00E9es vertical utilis\u00E9 par un SRC vertical."@fr .
-<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de coordonn\u00E9es donnant la position des points relativement \u00E0 n axes perpendiculaires deux \u00E0 deux."@fr .
-<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#comment> "Surface de r\u00E9volution engendr\u00E9e par une ellipse tournant autour de son petit axe, d\u00E9finie par le rayon \u00E9quatorial et un param\u00E8tre d'aplatissement, et sensiblement g\u00E9ocentrique. Note : Il s'agit d'un mod\u00E8le math\u00E9matique du g\u00E9o\u00EFde, c'est-\u00E0-dire de la Terre d\u00E9barrass\u00E9e de son relief. Il existe de nombreux ellipso\u00EFdes g\u00E9od\u00E9siques."@fr .
-<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#label> "utilise la valeur"@fr .
-<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#label> "version de l'op\u00E9ration"@fr .
-<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#OperationMethod> .
-<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Ellipsoid> .
-<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://librairies.ignf.fr/geoportail/resources/IGNF.xml> .
-<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#label> "Cadre englobant g\u00E9ographique"@fr .
-<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
-<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeodeticDatum> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b31 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#isSphere> .
-<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
-<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#label> "SRC de base"@fr .
-<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#range> _:f2e5505b074cd4c97ae98a3f3fd8f0638b48 .
-<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#CartesianCS> .
-<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la valeur d'aplatissement inverse d'un ellipso\u00EFde, exprim\u00E9e sous la forme d'un nombre ou d'un ratio (pourcentage, parties par million, etc.)."@fr .
-<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
-<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rentiel vertical"@fr .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/ignf#GeodeticCRS> .
+<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#label> "Geodetic datum"@en .
+<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la conversion utilis\u00E9e pour d\u00E9finir un SRC projet\u00E9."@fr .
+<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ffe422675fb344eee859a5004a4577452b36 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#eastBoundLongitude> .
+<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b2 .
 <http://recherche.ign.fr/labos/cogit/cv.php?prenom=Nathalie&nom=Abadie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Operation method"@en .
+<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le param\u00E8tre auquel est associ\u00E9e une valeur."@fr .
+<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de r\u00E9f\u00E9rence de coordonn\u00E9es utilisant deux syst\u00E8mes de r\u00E9f\u00E9rence de coordonn\u00E9es simples."@fr .
+<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#label> "Ellipsoid"@en .
+<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:ffe422675fb344eee859a5004a4577452b51 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
+<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "uses coordinate system"@en .
+<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le param\u00E8tre"@fr .
+<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#label> "Conversion"@fr .
+<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#label> "direction de l'axe"@fr .
+_:ffe422675fb344eee859a5004a4577452b20 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#primeMeridian> .
+<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9gion de validit\u00E9"@fr .
+<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#label> "method formula"@en .
+<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique la formule utilis\u00E9e par une m\u00E9thode pour faire op\u00E9ration sur des coordonn\u00E9es."@fr .
+<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ffe422675fb344eee859a5004a4577452b40 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+_:ffe422675fb344eee859a5004a4577452b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Ellipsoid> .
+_:ffe422675fb344eee859a5004a4577452b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b15 .
+<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#range> _:ffe422675fb344eee859a5004a4577452b44 .
+_:ffe422675fb344eee859a5004a4577452b33 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/publisher> <http://fr.dbpedia.org/resource/Institut_national_de_l%27information_g%C3%A9ographique_et_foresti%C3%A8re> .
+_:ffe422675fb344eee859a5004a4577452b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b28 .
+<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#GeodeticCRS> .
+<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de r\u00E9f\u00E9rence de coordonn\u00E9es"@fr .
+_:ffe422675fb344eee859a5004a4577452b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b58 .
+_:ffe422675fb344eee859a5004a4577452b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b36 .
+<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#CoordinateSystem> .
+<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique la dimension du SRC des donn\u00E9es en entr\u00E9e d'une op\u00E9ration."@fr .
+<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#Ellipsoid> .
+<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#label> "aplatissement inverse"@fr .
+<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#label> "est une sph\u00E8re"@fr .
+_:ffe422675fb344eee859a5004a4577452b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#CoordinateSystem> .
+<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
+<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#GeodeticCRS> .
+_:ffe422675fb344eee859a5004a4577452b7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimension du SRC cible"@fr .
+_:ffe422675fb344eee859a5004a4577452b9 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#baseCRS> .
+_:ffe422675fb344eee859a5004a4577452b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b50 .
+_:ffe422675fb344eee859a5004a4577452b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b3 .
+<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#label> "includes single CRS"@en .
+<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de coordonn\u00E9e \u00E0 une dimension utilis\u00E9 pour les mesures de hauteur ou de profondeur relatives \u00E0 la gravit\u00E9."@fr .
+<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le SRC g\u00E9od\u00E9sique sur lequel repose un SRC projet\u00E9."@fr .
+<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/2000/01/rdf-schema#label> "Extent"@en .
+<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+_:ffe422675fb344eee859a5004a4577452b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b25 .
+_:ffe422675fb344eee859a5004a4577452b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ffe422675fb344eee859a5004a4577452b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le m\u00E9ridien origine d'un r\u00E9f\u00E9rentiel g\u00E9od\u00E9sique."@fr .
+<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleOperation> .
+<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ffe422675fb344eee859a5004a4577452b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.ign.fr/def/ignf#datum> .
+_:ffe422675fb344eee859a5004a4577452b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b38 .
+_:ffe422675fb344eee859a5004a4577452b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
+<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b32 .
+<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#label> "uses datum"@en .
+<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
+_:ffe422675fb344eee859a5004a4577452b17 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#Ellipsoid> .
+_:ffe422675fb344eee859a5004a4577452b40 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Single coordinate operation"@en .
+<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ffe422675fb344eee859a5004a4577452b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b12 .
+<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#label> "Transformation"@fr .
+_:ffe422675fb344eee859a5004a4577452b21 <http://www.w3.org/2002/07/owl#intersectionOf> _:ffe422675fb344eee859a5004a4577452b23 .
+_:ffe422675fb344eee859a5004a4577452b10 <http://www.w3.org/2002/07/owl#minCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me cart\u00E9sien de coordonn\u00E9es"@fr .
+_:ffe422675fb344eee859a5004a4577452b31 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:ffe422675fb344eee859a5004a4577452b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b51 .
+<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le r\u00E9f\u00E9rentiel vertical utilis\u00E9 par un SRC vertical."@fr .
+<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#label> "domaine de validit\u00E9"@fr .
+<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#label> "source CRS"@en .
+<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#CRS> .
+<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe un param\u00E8tre utilis\u00E9 par une m\u00E9thode pour faire une op\u00E9ration sur des coordonn\u00E9es."@fr .
+<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#label> "uses prime meridian"@en .
+_:ffe422675fb344eee859a5004a4577452b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b8 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#datum> .
+<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ffe422675fb344eee859a5004a4577452b33 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#westBoundLongitude> .
+<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/2000/01/rdf-schema#label> "M\u00E9thode"@fr .
+<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinate operation"@en .
+<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#label> "uses method"@en .
+<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:ffe422675fb344eee859a5004a4577452b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#PrimeMeridian> .
+<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la direction de l'axe."@fr .
+<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ffe422675fb344eee859a5004a4577452b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b10 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#includesSingleCRS> .
+<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#label> "Cartesian CS"@en .
+<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#label> "uses Vertical CS"@en .
+_:ffe422675fb344eee859a5004a4577452b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b46 .
+_:ffe422675fb344eee859a5004a4577452b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b24 .
+<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
+<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/creator> <http://www.eurecom.fr/~atemezin/> .
+<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#Datum> .
+<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#label> "single CRS"@en .
+<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#label> "uses ellipsoidal CS"@en .
+<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Projected CRS"@en .
+<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#comment> "Surface de r\u00E9volution engendr\u00E9e par une ellipse tournant autour de son petit axe, d\u00E9finie par le rayon \u00E9quatorial et un param\u00E8tre d'aplatissement, et sensiblement g\u00E9ocentrique. Note : Il s'agit d'un mod\u00E8le math\u00E9matique du g\u00E9o\u00EFde, c'est-\u00E0-dire de la Terre d\u00E9barrass\u00E9e de son relief. Il existe de nombreux ellipso\u00EFdes g\u00E9od\u00E9siques."@fr .
+<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#OperationParameter> .
+<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#comment> "Op\u00E9ration par laquelle des coordonn\u00E9es en entr\u00E9e et en sortie sont associ\u00E9es \u00E0 diff\u00E9rents r\u00E9f\u00E9rentiels."@fr .
+<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeodeticCRS> .
+<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "CRS compos\u00E9 d'un syst\u00E8me de coordonn\u00E9es et d'un r\u00E9f\u00E9rentiel."@fr .
+<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence projet\u00E9"@fr .
+<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ffe422675fb344eee859a5004a4577452b2 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#CoordinateSystemAxis> .
+<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleOperation> .
+<http://data.ign.fr/def/ignf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/contributor> <http://www.eurecom.fr/~troncy/> .
+<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b29 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:ffe422675fb344eee859a5004a4577452b4 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#datum> .
+<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Ensemble d'axes couvrant un espace de coordonn\u00E9es, et de r\u00E8gles math\u00E9matiques permettant l'affectation de coordonn\u00E9es \u00E0 un point."@fr .
+<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#label> "operation version"@en .
+<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b21 .
+_:ffe422675fb344eee859a5004a4577452b26 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "R\u00E9f\u00E9rentiel d\u00E9crivant la relation entre un syst\u00E8me de coordonn\u00E9es \u00E0 deux ou trois dimensions et la Terre."@fr .
+<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CoordinateSystem> .
+_:ffe422675fb344eee859a5004a4577452b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b4 .
+<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Op\u00E9ration sur les coordonn\u00E9es"@fr .
+<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#OperationParameterValue> .
+<http://data.ign.fr/def/ignf> <http://creativecommons.org/ns#license> <http://www.data.gouv.fr/Licence-Ouverte-Open-Licence> .
+_:ffe422675fb344eee859a5004a4577452b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b6 .
+_:ffe422675fb344eee859a5004a4577452b12 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#datum> .
+_:ffe422675fb344eee859a5004a4577452b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b17 .
+<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimension du SRC source"@fr .
+<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#Ellipsoid> .
+<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#CoordinateSystemAxis> .
+<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#label> "is sphere"@en .
+<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/title> "Ontologie des syst\u00E8mes de coordonn\u00E9es"@fr .
+<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#label> "defined by conversion"@en .
+<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#SingleCRS> .
+_:ffe422675fb344eee859a5004a4577452b22 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#semiMajorAxis> .
+<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longueur du demi grand axe d'un ellipso\u00EFde."@fr .
+_:ffe422675fb344eee859a5004a4577452b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
+<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Zone ou intervalle de temps dans lequel un SRC est valide."@fr .
+<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "south bound latitude"@en .
+<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#domain> _:ffe422675fb344eee859a5004a4577452b41 .
+_:ffe422675fb344eee859a5004a4577452b29 <http://www.w3.org/2002/07/owl#onClass> <http://qudt.org/schema/qudt#QuantityValue> .
+<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:ffe422675fb344eee859a5004a4577452b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b26 .
+_:ffe422675fb344eee859a5004a4577452b55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#label> "utilise l'ellipso\u00EFde"@fr .
+<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationMethod> .
+<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b39 .
+<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b11 <http://www.w3.org/2002/07/owl#intersectionOf> _:ffe422675fb344eee859a5004a4577452b13 .
+<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#label> "source CRS dimension"@en .
+_:ffe422675fb344eee859a5004a4577452b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ignf" .
+<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleCRS> .
+<http://www.eurecom.fr/~troncy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le SRC des donn\u00E9es en sortie d'une op\u00E9ration."@fr .
+<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "M\u00E9thode utilis\u00E9e pour faire une op\u00E9ration sur des coordonn\u00E9es."@fr .
+_:ffe422675fb344eee859a5004a4577452b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b14 .
+_:ffe422675fb344eee859a5004a4577452b1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://data.ign.fr/def/ignf#Extent> .
+_:ffe422675fb344eee859a5004a4577452b41 <http://www.w3.org/2002/07/owl#unionOf> _:ffe422675fb344eee859a5004a4577452b42 .
+<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/2000/01/rdf-schema#label> "Axis"@en .
+_:ffe422675fb344eee859a5004a4577452b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b7 .
+_:ffe422675fb344eee859a5004a4577452b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b31 .
+<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es vertical"@fr .
+<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le syst\u00E8me de coordonn\u00E9es vertical utilis\u00E9 par un SRC vertical."@fr .
+<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le cadre englobant g\u00E9ographique d'une r\u00E9gion de validit\u00E9."@fr .
+<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Systeme de coordonnees"@fr .
+<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/2000/01/rdf-schema#label> "Operation parameter value"@en .
+<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeodeticCRS> .
+<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CompoundCRS> .
+<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b8 .
+<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:ffe422675fb344eee859a5004a4577452b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique l'identifiant EPSG de la ressource."@fr .
+_:ffe422675fb344eee859a5004a4577452b38 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#southBoundLatitude> .
+<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CoordinateSystem> .
+<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CRS> .
+<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#GeodeticCRS> .
+<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ffe422675fb344eee859a5004a4577452b22 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:ffe422675fb344eee859a5004a4577452b1 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#domainOfValidity> .
+<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#label> "inverse flattening"@en .
+<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical CRS"@en .
+_:ffe422675fb344eee859a5004a4577452b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ffe422675fb344eee859a5004a4577452b7 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#CoordinateSystem> .
+<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b10 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#SingleCRS> .
+<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es ellipso\u00EFdal"@fr .
+_:ffe422675fb344eee859a5004a4577452b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b19 .
+<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#VerticalDatum> .
+_:ffe422675fb344eee859a5004a4577452b7 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#coordinateSystem> .
+<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude sud minimale"@fr .
+<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "west bound longitude"@en .
+<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#label> "uses parameter"@en .
+<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Valeur d'un param\u00E8tre utilis\u00E9 par une m\u00E9thode pour faire une op\u00E9ration sur des coordonn\u00E9es."@fr .
+_:ffe422675fb344eee859a5004a4577452b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ffe422675fb344eee859a5004a4577452b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b29 .
+<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#range> _:ffe422675fb344eee859a5004a4577452b48 .
+<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "uses vertical datum"@en .
+<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence geod\u00E9sique"@fr .
+<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/2000/01/rdf-schema#label> "espg identifier"@en .
+_:ffe422675fb344eee859a5004a4577452b2 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#axis> .
+<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ffe422675fb344eee859a5004a4577452b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleCRS> .
+<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#Ellipsoid> <http://www.w3.org/2000/01/rdf-schema#label> "Ellipso\u00EFde"@fr .
+<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ffe422675fb344eee859a5004a4577452b51 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt#LengthUnit> .
+<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence combin\u00E9"@fr .
+<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le syst\u00E8me de coordonn\u00E9es utilis\u00E9 par un SRC."@fr .
+<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:ffe422675fb344eee859a5004a4577452b29 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#inverseFlattening> .
+<http://data.ign.fr/def/ignf#Extent> <http://www.w3.org/2000/01/rdf-schema#comment> "Zone ou intervalle de temps dans lequel la r\u00E9f\u00E9rence est valide."@fr .
+<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la latitude sud minimale du cadre englobant."@fr .
+_:ffe422675fb344eee859a5004a4577452b20 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence vertical"@fr .
+_:ffe422675fb344eee859a5004a4577452b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b43 .
+<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf> <http://www.w3.org/2002/07/owl#versionInfo> "1.1 - 2014-04-09" .
+<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationMethod> .
+<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la m\u00E9thode utilis\u00E9e par une op\u00E9ration sur des coordonn\u00E9es."@fr .
+<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de coordonn\u00E9es dans lequel la position est sp\u00E9cifi\u00E9e par la latitude g\u00E9od\u00E9sique, la longitude g\u00E9od\u00E9sique et (dans le cas tridimensionnel) la hauteur ellipso\u00EFdale."@fr .
+<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#SingleCRS> .
+<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#ProjectedCRS> .
+<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#Extent> .
+_:ffe422675fb344eee859a5004a4577452b16 <http://www.w3.org/2002/07/owl#intersectionOf> _:ffe422675fb344eee859a5004a4577452b18 .
+<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#label> "semi minor axis"@en .
+_:ffe422675fb344eee859a5004a4577452b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt#QuantityValue> .
+<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe un axe utilis\u00E9 par un syst\u00E8me de coordonn\u00E9es ellipso\u00EFdal ou cart\u00E9sien."@fr .
+<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/2000/01/rdf-schema#comment> "Param\u00E8tre utilis\u00E9 par une m\u00E9thode pour faire une op\u00E9ration sur des coordonn\u00E9es."@fr .
+<http://data.ign.fr/def/ignf#usesParameter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ffe422675fb344eee859a5004a4577452b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#range> _:ffe422675fb344eee859a5004a4577452b56 .
+_:ffe422675fb344eee859a5004a4577452b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt#QuantityValue> .
+_:ffe422675fb344eee859a5004a4577452b15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://data.ign.fr/def/ignf#VerticalCS> .
+<http://data.ign.fr/def/ignf#epsgID> <http://www.w3.org/2000/01/rdf-schema#label> "identifiant epsg"@fr .
+<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rentiel"@fr .
+<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#label> "axis abbreviation"@en .
+<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
+<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#label> "SRC cible"@fr .
+_:ffe422675fb344eee859a5004a4577452b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/ignf#GeodeticCRS> .
+<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#label> "base CRS"@en .
+<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/issued> "2014-04-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#VerticalCRS> .
+<http://data.ign.fr/def/ignf> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://librairies.ignf.fr/geoportail/resources/IGNF.xml> .
+<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#label> "Ellipsoidal CS"@en .
+_:ffe422675fb344eee859a5004a4577452b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/2000/01/rdf-schema#label> "code space"@en .
+_:ffe422675fb344eee859a5004a4577452b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b9 .
+<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.ign.fr/def/ignf#coordinateSystem> .
+<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le syst\u00E8me de coordonn\u00E9es"@fr .
+<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de r\u00E9f\u00E9rence de coordonn\u00E9es associ\u00E9 \u00E0 un r\u00E9f\u00E9rentiel g\u00E9od\u00E9sique."@fr .
+<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#range> _:ffe422675fb344eee859a5004a4577452b52 .
+_:ffe422675fb344eee859a5004a4577452b22 <http://www.w3.org/2002/07/owl#onClass> <http://qudt.org/schema/qudt#QuantityValue> .
+<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#label> "inclut un simple SRC"@fr .
+<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#label> "Op\u00E9ration simple sur les coordonn\u00E9es"@fr .
+_:ffe422675fb344eee859a5004a4577452b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b37 .
+<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ffe422675fb344eee859a5004a4577452b53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b54 .
+_:ffe422675fb344eee859a5004a4577452b44 <http://www.w3.org/2002/07/owl#intersectionOf> _:ffe422675fb344eee859a5004a4577452b45 .
+<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "north bound longitude"@en .
+<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#label> "abr\u00E9viation utilis\u00E9e pour d\u00E9signer l'axe"@fr .
+<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b10 .
+<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#label> "SRC source"@fr .
+<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#CartesianCS> .
+<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#label> "Cadre englobant g\u00E9ographique"@fr .
+<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique la version d'une op\u00E9ration appliqu\u00E9e sur des coordonn\u00E9es."@fr .
+_:ffe422675fb344eee859a5004a4577452b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#Transformation> <http://www.w3.org/2000/01/rdf-schema#label> "Transformation"@en .
+_:ffe422675fb344eee859a5004a4577452b12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://data.ign.fr/def/ignf#VerticalDatum> .
+<http://data.ign.fr/def/ignf#EllipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le syst\u00E8me vertical de coordonn\u00E9es"@fr .
+<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/2000/01/rdf-schema#label> "espace de codage"@fr .
+<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#OperationMethod> .
+<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
+<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#label> "demi petit axe"@fr .
+<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#SingleCRS> <http://www.w3.org/2000/01/rdf-schema#label> "SRC simple"@fr .
+<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2000/01/rdf-schema#comment> "M\u00E9ridien \u00E0 partir duquel les longitudes d'autres m\u00E9ridiens sont mesur\u00E9es."@fr .
+_:ffe422675fb344eee859a5004a4577452b47 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt#LengthUnit> .
+<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "greenwich longitude"@en .
+<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#GeodeticCRS> .
+<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/2000/01/rdf-schema#label> "Operation parameter"@en .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b20 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#PrimeMeridian> .
-_:f2e5505b074cd4c97ae98a3f3fd8f0638b22 <http://www.w3.org/2002/07/owl#onClass> <http://qudt.org/schema/qudt#QuantityValue> .
+_:ffe422675fb344eee859a5004a4577452b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b55 .
+<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le r\u00E9f\u00E9rentiel g\u00E9od\u00E9sique utilis\u00E9 par un SRC g\u00E9od\u00E9sique."@fr .
+_:ffe422675fb344eee859a5004a4577452b26 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#semiMinorAxis> .
+<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/2000/01/rdf-schema#comment> "Param\u00E8tre ou ensemble de param\u00E8tres d\u00E9finissant la position de l'origine, l'\u00E9chelle et l'orientation d'un syst\u00E8me de coordonn\u00E9es."@fr .
+<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de r\u00E9f\u00E9rence de coordonn\u00E9es \u00E0 une dimension, associ\u00E9 \u00E0 un r\u00E9f\u00E9rentiel vertical."@fr .
+<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Geodetic CRS"@en .
+_:ffe422675fb344eee859a5004a4577452b33 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude par rapport \u00E0 Greenwich"@fr .
+<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeodeticDatum> .
+<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#label> "\u00E9l\u00E9ment g\u00E9ographique"@fr .
+<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+_:ffe422675fb344eee859a5004a4577452b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b22 .
+<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude nord maximale"@fr .
 <http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.ign.fr/def/ignf#coordinateSystem> .
-<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur de param\u00E8tre"@fr .
+_:ffe422675fb344eee859a5004a4577452b17 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#ellipsoid> .
+<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe l'abr\u00E9viation utilis\u00E9e pour d\u00E9signer l'axe."@fr .
+<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le m\u00E9ridien origine"@fr .
+<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b16 .
+<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical datum"@en .
+<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationMethod> .
+<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CoordinateSystem> .
+_:ffe422675fb344eee859a5004a4577452b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b20 .
+<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ffe422675fb344eee859a5004a4577452b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b59 .
+<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#Datum> .
+_:ffe422675fb344eee859a5004a4577452b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b1 .
+<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longitude ouest minimale du cadre englobant."@fr .
+_:ffe422675fb344eee859a5004a4577452b20 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#PrimeMeridian> .
+<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b3 <http://www.w3.org/2002/07/owl#intersectionOf> _:ffe422675fb344eee859a5004a4577452b5 .
+_:ffe422675fb344eee859a5004a4577452b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longueur du demi petit axe d'un ellipso\u00EFde."@fr .
+<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/creator> <http://recherche.ign.fr/labos/cogit/cv.php?prenom=Nathalie&nom=Abadie> .
+<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique si l'ellipso\u00EFde est une sph\u00E8re."@fr .
+<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#label> "geographic element"@en .
+<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical CS"@en .
+<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#label> "utilise l'axe"@fr .
+<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateSystem> .
+<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence d\u00E9riv\u00E9 par projection cartographique d'un syst\u00E8me de coordonn\u00E9es de r\u00E9f\u00E9rence bidimentionnel."@fr .
+_:ffe422675fb344eee859a5004a4577452b4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/def/ignf#CoordinateOperation> <http://www.w3.org/2000/01/rdf-schema#comment> "Op\u00E9ration math\u00E9matique sur des coordonn\u00E9es dans un SRC source en vue de les convertir vers un SRC cible."@fr .
+<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2000/01/rdf-schema#label> "Prime meridian"@en .
+<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
+_:ffe422675fb344eee859a5004a4577452b55 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt#CountingUnit> .
+<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#SingleCRS> .
+_:ffe422675fb344eee859a5004a4577452b55 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
+<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe l'ellipso\u00EFde utilis\u00E9 par un r\u00E9f\u00E9rentiel g\u00E9od\u00E9sique."@fr .
+<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#comment> "Cadre d\u00E9limitant une zone d'int\u00E9r\u00EAt."@fr .
+<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#label> "semi major axis"@en .
+<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/2000/01/rdf-schema#label> "M\u00E9ridien origine"@fr .
+_:ffe422675fb344eee859a5004a4577452b26 <http://www.w3.org/2002/07/owl#onClass> <http://qudt.org/schema/qudt#QuantityValue> .
+_:ffe422675fb344eee859a5004a4577452b31 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#isSphere> .
+<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#label> "Compound CRS"@en .
+<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#comment> "M\u00E9tadonn\u00E9es permettant de pr\u00E9ciser, selon la dimension spatiale des coordonn\u00E9es 1D, 2D ou 3D, les \u00E9l\u00E9ments de d\u00E9finition associ\u00E9s au jeu de coordonn\u00E9es: le Syst\u00E8me de R\u00E9f\u00E9rence Terrestre, l'ellipso\u00EFde g\u00E9od\u00E9sique, le m\u00E9ridien origine, le type de coordonn\u00E9es (cart\u00E9siennes g\u00E9ocentriques, planes, g\u00E9ographiques,...), les unit\u00E9s dans lesquelles sont exprim\u00E9es les coordonn\u00E9es, la projection cartographique, le r\u00E9f\u00E9rentiel altim\u00E9trique.(http://geodesie.ign.fr/index.php?page=glossaire)"@fr .
+<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le syst\u00E8me de coordonn\u00E9es ellipso\u00EFdal"@fr .
+<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#label> "Conversion"@en .
+_:ffe422675fb344eee859a5004a4577452b31 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ffe422675fb344eee859a5004a4577452b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#OperationParameter> .
+<http://data.ign.fr/def/ignf#isSphere> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Ellipsoid> .
+_:ffe422675fb344eee859a5004a4577452b9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://data.ign.fr/def/ignf#GeodeticCRS> .
+<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#label> "uses geodetic datum"@en .
+<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude ouest minimale"@fr .
+_:ffe422675fb344eee859a5004a4577452b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le r\u00E9f\u00E9rentiel vertical"@fr .
+_:ffe422675fb344eee859a5004a4577452b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b47 .
+_:ffe422675fb344eee859a5004a4577452b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ffe422675fb344eee859a5004a4577452b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ffe422675fb344eee859a5004a4577452b48 <http://www.w3.org/2002/07/owl#intersectionOf> _:ffe422675fb344eee859a5004a4577452b49 .
+<http://data.ign.fr/def/ignf#semiMinorAxis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Ellipsoid> .
+<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.ign.fr/def/ignf#datum> .
+<http://data.ign.fr/def/ignf#Datum> <http://www.w3.org/2000/01/rdf-schema#label> "Datum"@en .
+_:ffe422675fb344eee859a5004a4577452b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#label> "param\u00E8tre"@fr .
+<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ffe422675fb344eee859a5004a4577452b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#ProjectedCRS> .
+<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "R\u00E9f\u00E9rentiel d\u00E9crivant la relation entre les hauteurs ou les profondeurs relatives \u00E0 la gravit\u00E9 et la Terre."@fr .
+_:ffe422675fb344eee859a5004a4577452b8 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://data.ign.fr/def/ignf#GeodeticDatum> .
+<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationMethod> .
+<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ffe422675fb344eee859a5004a4577452b47 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
+_:ffe422675fb344eee859a5004a4577452b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt#QuantityValue> .
+<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#label> "target CRS"@en .
+<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rentiel vertical"@fr .
+_:ffe422675fb344eee859a5004a4577452b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#label> "demi grand axe"@fr .
+<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#label> "utilise la valeur"@fr .
+<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ffe422675fb344eee859a5004a4577452b38 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+_:ffe422675fb344eee859a5004a4577452b17 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/2000/01/rdf-schema#label> "Param\u00E8tre"@fr .
+<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le r\u00E9f\u00E9rentiel"@fr .
+<http://data.ign.fr/def/ignf#greenwichLongitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longitude par rapport au m\u00E9ridien de Greenwich."@fr .
+<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateOperation> .
+<http://data.ign.fr/def/ignf#verticalDatum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#VerticalCRS> .
+<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinate system"@en .
+_:ffe422675fb344eee859a5004a4577452b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/ignf#ProjectedCRS> .
+<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Operation method"@en .
+<http://data.ign.fr/def/ignf#methodFormula> <http://www.w3.org/2000/01/rdf-schema#label> "formule de la m\u00E9thode"@fr .
+_:ffe422675fb344eee859a5004a4577452b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/2000/01/rdf-schema#label> "target CRS dimension"@en .
+_:ffe422675fb344eee859a5004a4577452b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ffe422675fb344eee859a5004a4577452b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b35 .
+<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00E9f\u00E9rentiel g\u00E9od\u00E9sique"@fr .
+<http://data.ign.fr/def/ignf#PrimeMeridian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://data.ign.fr/def/ignf#CartesianCS> <http://www.w3.org/2000/01/rdf-schema#comment> "Syst\u00E8me de coordonn\u00E9es donnant la position des points relativement \u00E0 n axes perpendiculaires deux \u00E0 deux."@fr .
+<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le syst\u00E8me de coordonn\u00E9es cart\u00E9sien utilis\u00E9 par un SRC g\u00E9od\u00E9sique ou projet\u00E9."@fr .
+_:ffe422675fb344eee859a5004a4577452b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/ignf#GeographicBoundingBox> <http://www.w3.org/2000/01/rdf-schema#label> "Geographic bounding box"@en .
+<http://data.ign.fr/def/ignf#axisAbbrev> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateSystemAxis> .
+<http://data.ign.fr/def/ignf#OperationMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CoordinateOperation> .
+_:ffe422675fb344eee859a5004a4577452b40 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#northBoundLatitude> .
+<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#includesSingleCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe les SRC simples qui composent un SRC compos\u00E9."@fr .
+<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la longitude est maximale du cadre englobant."@fr .
+<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#OperationParameterValue> .
+_:ffe422675fb344eee859a5004a4577452b59 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt#unit> .
+<http://data.ign.fr/def/ignf> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/2000/01/rdf-schema#label> "Axe"@fr .
+<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la latitude nord maximale du cadre englobant."@fr .
+<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#VerticalCS> .
+<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#usesValue> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe une valeur utilis\u00E9e par une op\u00E9ration sur des coordonn\u00E9es."@fr .
+<http://data.ign.fr/def/ignf#ellipsoid> <http://www.w3.org/2000/01/rdf-schema#label> "uses ellipsoid"@en .
 <http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.ign.fr/def/ignf#OperationParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#targetCRS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#CoordinateSystemAxis> <http://www.w3.org/2000/01/rdf-schema#comment> "Axe par rapport auquel une coordonn\u00E9es d'un point est sp\u00E9cifi\u00E9e dans un syst\u00E8me de coordonn\u00E9es."@fr .
+<http://data.ign.fr/def/ignf#southBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeographicBoundingBox> .
+<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#geographicElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Extent> .
+_:ffe422675fb344eee859a5004a4577452b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffe422675fb344eee859a5004a4577452b30 .
+<http://data.ign.fr/def/ignf#sourceDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf#parameter> <http://www.w3.org/2000/01/rdf-schema#label> "parameter"@en .
+_:ffe422675fb344eee859a5004a4577452b15 <http://www.w3.org/2002/07/owl#onProperty> <http://data.ign.fr/def/ignf#coordinateSystem> .
+_:ffe422675fb344eee859a5004a4577452b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf#operationVersion> <http://www.w3.org/2000/01/rdf-schema#label> "version de l'op\u00E9ration"@fr .
+_:ffe422675fb344eee859a5004a4577452b36 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#PrimeMeridian> .
+<http://data.ign.fr/def/ignf#GeodeticDatum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#Datum> .
+<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#CoordinateSystemAxis> .
+_:ffe422675fb344eee859a5004a4577452b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#VerticalCS> <http://www.w3.org/2002/07/owl#disjointWith> <http://data.ign.fr/def/ignf#VerticalCRS> .
+_:ffe422675fb344eee859a5004a4577452b52 <http://www.w3.org/2002/07/owl#intersectionOf> _:ffe422675fb344eee859a5004a4577452b53 .
+<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#label> "uses Cartesian CS"@en .
+<http://data.ign.fr/def/ignf#baseCRS> <http://www.w3.org/2000/01/rdf-schema#label> "SRC de base"@fr .
+<http://www.eurecom.fr/~atemezin/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ffe422675fb344eee859a5004a4577452b11 .
+_:ffe422675fb344eee859a5004a4577452b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#Conversion> <http://www.w3.org/2000/01/rdf-schema#comment> "Op\u00E9ration par laquelle les coordonn\u00E9es en sortie sont associ\u00E9es au m\u00EAme r\u00E9f\u00E9rentiel que les donn\u00E9es en entr\u00E9e (ex: projection cartographique)."@fr .
+<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#axis> <http://www.w3.org/2000/01/rdf-schema#label> "uses Axis"@en .
+<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://data.ign.fr/def/ignf#northBoundLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ffe422675fb344eee859a5004a4577452b56 <http://www.w3.org/2002/07/owl#intersectionOf> _:ffe422675fb344eee859a5004a4577452b57 .
+_:ffe422675fb344eee859a5004a4577452b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#CRS> .
+<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le r\u00E9f\u00E9rentiel utilis\u00E9 par un SRC simple."@fr .
+<http://data.ign.fr/def/ignf#westBoundLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/ignf> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://data.ign.fr/def/ignf#> .
+<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/2000/01/rdf-schema#label> "scope"@en .
+_:ffe422675fb344eee859a5004a4577452b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ffe422675fb344eee859a5004a4577452b40 .
+<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le syst\u00E8me de coordonn\u00E9es ellipso\u00EFdal utilis\u00E9 par un SRC g\u00E9od\u00E9sique."@fr .
+<http://data.ign.fr/def/ignf> <http://purl.org/dc/terms/description> "Codes pour la description de syst\u00E8mes de r\u00E9f\u00E9rence de coordonn\u00E9es conforme ISO TC/211. Les traductions fran\u00E7aises des termes et leurs d\u00E9finitions sont pour la plupart issues du glossaire multilingue ISO/TC 211 disponible ici: http://www.isotc211.org/Terminology.htm"@fr .
+<http://data.ign.fr/def/ignf#CompoundCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#axisDirection> <http://www.w3.org/2000/01/rdf-schema#label> "axis direction"@en .
+<http://data.ign.fr/def/ignf#datum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#GeodeticDatum> .
+<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/2000/01/rdf-schema#label> "utilise la m\u00E9thode"@fr .
+<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude est maximale"@fr .
+_:ffe422675fb344eee859a5004a4577452b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#usesMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#VerticalDatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.ign.fr/def/ignf#VerticalCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#coordinateSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+_:ffe422675fb344eee859a5004a4577452b59 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt#AngleUnit> .
+_:ffe422675fb344eee859a5004a4577452b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#eastBoundLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "east bound longitude"@en .
+<http://data.ign.fr/def/ignf#inverseFlattening> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la valeur d'aplatissement inverse d'un ellipso\u00EFde, exprim\u00E9e sous la forme d'un nombre ou d'un ratio (pourcentage, parties par million, etc.)."@fr .
+<http://data.ign.fr/def/ignf#semiMajorAxis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#Ellipsoid> .
+_:ffe422675fb344eee859a5004a4577452b36 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
+<http://data.ign.fr/def/ignf#conversion> <http://www.w3.org/2000/01/rdf-schema#label> "d\u00E9fini par conversion"@fr .
+_:ffe422675fb344eee859a5004a4577452b38 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#ellipsoidalCS> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/ignf#EllipsoidalCS> .
+<http://data.ign.fr/def/ignf#CRS> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinates reference system"@en .
+<http://data.ign.fr/def/ignf#ProjectedCRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ffe422675fb344eee859a5004a4577452b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/ignf#GeodeticCRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/ignf#SingleCRS> .
+<http://data.ign.fr/def/ignf#SingleOperation> <http://www.w3.org/2000/01/rdf-schema#comment> "Op\u00E9ration non concat\u00E9n\u00E9e sur des coordonn\u00E9es."@fr .
+_:ffe422675fb344eee859a5004a4577452b2 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://data.ign.fr/def/ignf#sourceCRS> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe le SRC des donn\u00E9es en entr\u00E9e d'une op\u00E9ration."@fr .
+<http://data.ign.fr/def/ignf#cartesianCS> <http://www.w3.org/2000/01/rdf-schema#label> "utilise le syst\u00E8me cartesien de coordonn\u00E9es"@fr .
+<http://data.ign.fr/def/ignf#CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/ignf> .
+<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la port\u00E9e de la r\u00E9f\u00E9rence."@fr .
+_:ffe422675fb344eee859a5004a4577452b57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt#QuantityValue> .
+<http://data.ign.fr/def/ignf#domainOfValidity> <http://www.w3.org/2000/01/rdf-schema#label> "domain of validity"@en .
+_:ffe422675fb344eee859a5004a4577452b25 <http://www.w3.org/2002/07/owl#unionOf> _:ffe422675fb344eee859a5004a4577452b27 .
+_:ffe422675fb344eee859a5004a4577452b4 <http://www.w3.org/2002/07/owl#onClass> <http://data.ign.fr/def/ignf#Datum> .
+<http://data.ign.fr/def/ignf#primeMeridian> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/ignf#GeodeticDatum> .
+<http://data.ign.fr/def/ignf#OperationParameterValue> <http://www.w3.org/2000/01/rdf-schema#label> "Valeur de param\u00E8tre"@fr .
+<http://data.ign.fr/def/ignf#codeSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00E9signe la r\u00E8gle ou l'autorit\u00E9 dont r\u00E9sulte la valeur de la r\u00E9f\u00E9rence."@fr .
+<http://data.ign.fr/def/ignf#targetDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique la dimension du SRC des donn\u00E9es en sortie d'une op\u00E9ration."@fr .
+<http://data.ign.fr/def/ignf#verticalCS> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.ign.fr/def/ignf#coordinateSystem> .
+<http://data.ign.fr/def/ignf#scope> <http://www.w3.org/2000/01/rdf-schema#label> "port\u00E9e"@fr .
 

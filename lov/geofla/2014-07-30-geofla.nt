@@ -1,336 +1,336 @@
-_:fe8052bb550914306ad270cdf1304ab53b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:fe8052bb550914306ad270cdf1304ab53b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-<http://data.ign.fr/def/geofla#TypeDeCommune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:fe8052bb550914306ad270cdf1304ab53b16 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b17 .
-<http://data.ign.fr/def/geofla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.insee.fr/def/geo#Arrondissement> .
-_:fe8052bb550914306ad270cdf1304ab53b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "subprefecture"@en .
-<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b12 .
-<http://data.ign.fr/def/geofla> <http://creativecommons.org/ns#license> <http://www.data.gouv.fr/Licence-Ouverte-Open-Licence> .
-<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#label> "Canton"@en .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/2004/02/skos/core#definition> "Commune principale d'un \u00C3\u00A9tat, si\u00C3\u00A8ge du gouvernement et de l'administration."@fr .
-<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
-<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
-<http://data.ign.fr/def/geofla#TypeDeCommune> <http://www.w3.org/2000/01/rdf-schema#label> "Type de commune"@fr .
-<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#range> _:fe8052bb550914306ad270cdf1304ab53b52 .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b47 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b48 .
-<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8052bb550914306ad270cdf1304ab53b4 .
-<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/2004/02/skos/core#definition> "Chef-lieu d'un arrondissement fran\u00C3\u00A7ais."@fr .
-<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
-_:fe8052bb550914306ad270cdf1304ab53b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:fe8052bb550914306ad270cdf1304ab53b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b23 .
-<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b38 .
-<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Arrondissement> .
-_:fe8052bb550914306ad270cdf1304ab53b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique du canton"@fr .
-<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the canton"@en .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
-<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Region> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#label> "head office of the capital"@en .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
-<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b16 .
-<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette classe contient l'ensemble des arrondissements (ce sont les arrondissements au sens INSEE, et non les arrondissements municipaux)."@fr .
-<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b47 .
-<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/2004/02/skos/core#prefLabel> "township capital"@en .
-<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8052bb550914306ad270cdf1304ab53b30 .
-<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#comment> "Arrondissement auquel appartient l'unit\u00C3\u00A9 administrative."@fr .
-<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#label> "Unit\u00C3\u00A9 administrative"@fr .
-<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b21 .
-_:fe8052bb550914306ad270cdf1304ab53b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b50 .
-_:fe8052bb550914306ad270cdf1304ab53b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
-<http://recherche.ign.fr/labos/cogit/cv.php?prenom=BÃ©nÃ©dicte&nom=Bucher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:fe8052bb550914306ad270cdf1304ab53b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b37 .
-<http://data.ign.fr/def/geofla#region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#label> "altitude moyenne"@fr .
-<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00C3\u00A9partement auquel appartient l'unit\u00C3\u00A9 administrative"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.semanticweb.org/person/bernard-vatant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:fe8052bb550914306ad270cdf1304ab53b31 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b32 .
-_:fe8052bb550914306ad270cdf1304ab53b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geometrie#Point> .
-_:fe8052bb550914306ad270cdf1304ab53b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-_:fe8052bb550914306ad270cdf1304ab53b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/2004/02/skos/core#prefLabel> "pr\u00C3\u00A9fecture de r\u00C3\u00A9gion"@fr .
-<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b9 .
-<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Canton> .
-<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8052bb550914306ad270cdf1304ab53b28 .
-_:fe8052bb550914306ad270cdf1304ab53b27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#comment> "Chef-lieu de l'unit\u00C3\u00A9 administrative lorsqu'il existe (un canton ne poss\u00C3\u00A8de pas toujours de chef-lieu. Cela arrive dans le cas de cantons situ\u00C3\u00A9s \u00C3  la p\u00C3\u00A9riph\u00C3\u00A9rie d'une ville importante constituant \u00C3  elle seule un canton non pr\u00C3\u00A9cis\u00C3\u00A9.)"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b4 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM3> .
-<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#ArrondissementMunicipal> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/2004/02/skos/core#prefLabel> "simple commune"@en .
-_:fe8052bb550914306ad270cdf1304ab53b51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
-<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b5 .
-<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to department"@en .
-<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to region"@en .
-<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#label> "D\u00C3\u00A9partement"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b38 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b39 .
-_:fe8052bb550914306ad270cdf1304ab53b35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fe8052bb550914306ad270cdf1304ab53b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-_:fe8052bb550914306ad270cdf1304ab53b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
-_:fe8052bb550914306ad270cdf1304ab53b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
-_:fe8052bb550914306ad270cdf1304ab53b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b51 .
-_:fe8052bb550914306ad270cdf1304ab53b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:fe8052bb550914306ad270cdf1304ab53b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-_:fe8052bb550914306ad270cdf1304ab53b21 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b22 .
-_:fe8052bb550914306ad270cdf1304ab53b47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
-<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#comment> "Superficie de la commune en hectares."@fr .
-_:fe8052bb550914306ad270cdf1304ab53b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
-_:fe8052bb550914306ad270cdf1304ab53b2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-_:fe8052bb550914306ad270cdf1304ab53b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b24 .
-_:fe8052bb550914306ad270cdf1304ab53b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
-<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#label> "status"@en .
-<http://data.ign.fr/def/geofla> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
-<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
-_:fe8052bb550914306ad270cdf1304ab53b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the arrondissement"@en .
-<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#comment> "Code g\u00C3\u00A9ographique de l'arrondissement (texte d'un caract\u00C3\u00A8re)."@fr .
-<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette classe contient l'ensemble des d\u00C3\u00A9partements."@fr .
-<http://data.ign.fr/def/geofla#population> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:fe8052bb550914306ad270cdf1304ab53b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b45 .
-<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#label> "Department"@en .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
-<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to arrondisssement"@en .
-<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#label> "mean altitude"@en .
-<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
-_:fe8052bb550914306ad270cdf1304ab53b27 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM4> .
-<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b42 .
-<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-<http://data.ign.fr/def/geofla#TypeDeCommune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fe8052bb550914306ad270cdf1304ab53b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8052bb550914306ad270cdf1304ab53b2 .
-<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to canton"@en .
-<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the department"@en .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/modified> "2014-02-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/2004/02/skos/core#prefLabel> "capitale d'\u00C3\u00A9tat"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#comment> "Code g\u00C3\u00A9ographique de la r\u00C3\u00A9gion (texte de deux caract\u00C3\u00A8res)."@fr .
-<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Arrondissement> .
-<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/contributor> <http://recherche.ign.fr/labos/cogit/cv.php?prenom=B\u00C3\u00A9n\u00C3\u00A9dicte&nom=Bucher> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/liste> <http://www.w3.org/2000/01/rdf-schema#label> "type de commune"@fr .
-<http://data.ign.fr/def/geofla> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://data.ign.fr/def/geofla#> .
-_:fe8052bb550914306ad270cdf1304ab53b52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:fe8052bb550914306ad270cdf1304ab53b30 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM3> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/liste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#label> "appartient \u00C3  la r\u00C3\u00A9gion"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b19 .
-<http://data.ign.fr/def/geofla> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0 - 2013-06-14" .
-_:fe8052bb550914306ad270cdf1304ab53b30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:fe8052bb550914306ad270cdf1304ab53b5 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b6 .
-_:fe8052bb550914306ad270cdf1304ab53b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
-<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b26 <http://www.w3.org/2002/07/owl#hasValue> <http://data.ign.fr/codes/geonto/typedecommune/liste> .
-_:fe8052bb550914306ad270cdf1304ab53b35 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b36 .
-<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8052bb550914306ad270cdf1304ab53b27 .
-<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#label> "Canton"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b46 .
-<http://data.ign.fr/def/geofla> <http://purl.org/vocab/vann/preferredNamespacePrefix> "geofla" .
-<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8052bb550914306ad270cdf1304ab53b3 .
-<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#label> "Arrondissement"@en .
-_:fe8052bb550914306ad270cdf1304ab53b31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8052bb550914306ad270cdf1304ab53b29 .
-_:fe8052bb550914306ad270cdf1304ab53b29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#label> "capital of the administrative subdivision"@en .
-<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Departement> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/2004/02/skos/core#definition> "Chef-lieu d'un d\u00C3\u00A9partement fran\u00C3\u00A7ais."@fr .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/elements/1.1/rights> "Copyright \u00C2\u00A9 2013 IGN" .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/publisher> <http://fr.dbpedia.org/resource/Institut_national_de_l%27information_g%C3%A9ographique_et_foresti%C3%A8re> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/2004/02/skos/core#prefLabel> "pr\u00C3\u00A9fecture de d\u00C3\u00A9partement"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b33 .
-<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.ign.fr/def/bdtopo#EntiteTopographique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#label> "superficie en hectares"@fr .
-<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:fe8052bb550914306ad270cdf1304ab53b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/contributor> <http://data.semanticweb.org/person/bernard-vatant> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/liste> <http://www.w3.org/2000/01/rdf-schema#label> "type of commune"@en .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/title> "Ontologie des unit\u00C3\u00A9s administratives de l'IGN"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
-<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fe8052bb550914306ad270cdf1304ab53b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
-<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the region"@en .
-_:fe8052bb550914306ad270cdf1304ab53b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
-_:fe8052bb550914306ad270cdf1304ab53b1 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM4> .
-_:fe8052bb550914306ad270cdf1304ab53b3 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM1> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
-<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#label> "appartient \u00C3  l'arrondisssement"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#label> "population"@en .
-<http://data.ign.fr/def/geofla#TypeDeCommune> <http://www.w3.org/2000/01/rdf-schema#label> "Type of commune"@en .
-<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Canton> .
-_:fe8052bb550914306ad270cdf1304ab53b43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b44 .
-<http://www.eurecom.fr/~atemezin/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton auquel appartient l'unit\u00C3\u00A9 administrative."@fr .
-_:fe8052bb550914306ad270cdf1304ab53b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/bdtopo#EntiteTopographique> <http://www.w3.org/2000/01/rdf-schema#label> "Entit\u00C3\u00A9 topographique"@fr .
-<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
-<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the commune"@en .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/2004/02/skos/core#definition> "Chef-lieu d'une r\u00C3\u00A9gion fran\u00C3\u00A7aise."@fr .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/2004/02/skos/core#prefLabel> "regional prefecture"@en .
-<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#label> "Commune"@en .
-<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette classe contient l'ensemble des r\u00C3\u00A9gions."@fr .
-<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.insee.fr/def/geo#Commune> .
-_:fe8052bb550914306ad270cdf1304ab53b4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-_:fe8052bb550914306ad270cdf1304ab53b29 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM1> .
-_:fe8052bb550914306ad270cdf1304ab53b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "sous-pr\u00C3\u00A9fecture"@fr .
-<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b20 .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
-<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#label> "Arrondissement"@fr .
-<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
-<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#range> _:fe8052bb550914306ad270cdf1304ab53b26 .
-<http://data.ign.fr/id/codes/geofla/typedecommune/liste> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste des diff\u00C3\u00A9rents r\u00C3\u00B4les pouvant \u00C3\u00AAtre jou\u00C3\u00A9s par une commune dans l'organisation administrative fran\u00C3\u00A7aise, repr\u00C3\u00A9sent\u00C3\u00A9s comme une liste de concepts SKOS."@fr .
-<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Departement> .
-_:fe8052bb550914306ad270cdf1304ab53b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b18 .
-_:fe8052bb550914306ad270cdf1304ab53b45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
-<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative subdivision"@en .
-<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/issued> "2013-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-_:fe8052bb550914306ad270cdf1304ab53b27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:fe8052bb550914306ad270cdf1304ab53b3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
-<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b31 .
-<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
-_:fe8052bb550914306ad270cdf1304ab53b42 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b43 .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/creator> <http://recherche.ign.fr/labos/cogit/cv.php?prenom=Nathalie&nom=Abadie> .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/description> "Ontologie d\u00C3\u00A9crivant le d\u00C3\u00A9coupage administratif de la France m\u00C3\u00A9tropolitaine, des d\u00C3\u00A9partements d'outre mer, ou de la collectivit\u00C3\u00A9  d\u00C3\u00A9partementale de Mayotte, repr\u00C3\u00A9sent\u00C3\u00A9e comme une hi\u00C3\u00A9rarchie de classes OWL"@fr .
+<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb42 .
 <http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/2000/01/rdf-schema#label> "insee identifier of the commune"@en .
-_:fe8052bb550914306ad270cdf1304ab53b26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#comment> "Il s'agit du code g\u00C3\u00A9ographique permettant d'identifier la commune dans son d\u00C3\u00A9partement d'appartenance (texte de trois caract\u00C3\u00A8res)."@fr .
-_:fe8052bb550914306ad270cdf1304ab53b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b8 .
-_:fe8052bb550914306ad270cdf1304ab53b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
-<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fe8052bb550914306ad270cdf1304ab53b1 .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/creator> <http://www.eurecom.fr/~atemezin/> .
-_:fe8052bb550914306ad270cdf1304ab53b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b15 .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/2004/02/skos/core#prefLabel> "commune simple"@fr .
-<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique de l'arrondissement"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
-_:fe8052bb550914306ad270cdf1304ab53b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/2004/02/skos/core#definition> "Chef-lieu d'un canton fran\u00C3\u00A7ais."@fr .
-<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#comment> "Altitude moyenne de la commune en m\u00C3\u00A8tres."@fr .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/2004/02/skos/core#definition> "Commune sans r\u00C3\u00B4le administratif particulier."@fr .
-<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#label> "Commune"@fr .
-<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique de la r\u00C3\u00A9gion"@fr .
-<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#comment> "Code g\u00C3\u00A9ographique du d\u00C3\u00A9partement (texte de deux caract\u00C3\u00A8res)."@fr .
-<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/geofla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-_:fe8052bb550914306ad270cdf1304ab53b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-_:fe8052bb550914306ad270cdf1304ab53b12 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b13 .
-<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/2004/02/skos/core#prefLabel> "prefecture"@en .
-_:fe8052bb550914306ad270cdf1304ab53b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
-_:fe8052bb550914306ad270cdf1304ab53b49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
-<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fe8052bb550914306ad270cdf1304ab53b34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/2004/02/skos/core#prefLabel> "state capital"@en .
-<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#label> "appartient au d\u00C3\u00A9partement"@fr .
-<http://data.ign.fr/def/bdtopo#EntiteTopographique> <http://www.w3.org/2000/01/rdf-schema#label> "Topographic entity"@en .
-_:fe8052bb550914306ad270cdf1304ab53b44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
-<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique du d\u00C3\u00A9partement"@fr .
-<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:fe8052bb550914306ad270cdf1304ab53b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
-<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique de la commune"@fr .
-<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#comment> "Il s'agit du code g\u00C3\u00A9ographique permettant d'identifier le canton dans son d\u00C3\u00A9partement d'appartenance (texte de deux caract\u00C3\u00A8res)."@fr .
-<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette classe contient l'ensemble des communes m\u00C3\u00A9tropolitaines, des 5 d\u00C3\u00A9partements d'outre-mer (Guadeloupe, Martinique, Guyane, La R\u00C3\u00A9union et Mayotte)."@fr .
-_:fe8052bb550914306ad270cdf1304ab53b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/bdtopo#EntiteTopographique> .
-<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Region> .
-_:fe8052bb550914306ad270cdf1304ab53b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
-_:fe8052bb550914306ad270cdf1304ab53b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#label> "chef-lieu de l'unit\u00C3\u00A9 administrative"@fr .
-<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
-<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/2000/01/rdf-schema#label> "num\u00C3\u00A9ro insee de la commune"@fr .
-<http://www.eurecom.fr/~troncy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
-<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
-_:fe8052bb550914306ad270cdf1304ab53b24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b25 .
-_:fe8052bb550914306ad270cdf1304ab53b28 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM2> .
-_:fe8052bb550914306ad270cdf1304ab53b2 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM2> .
-<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
-_:fe8052bb550914306ad270cdf1304ab53b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:fe8052bb550914306ad270cdf1304ab53b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
-_:fe8052bb550914306ad270cdf1304ab53b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b11 .
-<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#label> "si\u00C3\u00A8ge du chef-lieu"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:fe8052bb550914306ad270cdf1304ab53b52 <http://www.w3.org/2002/07/owl#hasValue> <http://data.ign.fr/codes/geonto/typedecommune/liste> .
-_:fe8052bb550914306ad270cdf1304ab53b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-_:fe8052bb550914306ad270cdf1304ab53b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b14 .
-_:fe8052bb550914306ad270cdf1304ab53b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
-<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#comment> "Objet g\u00C3\u00A9ographique r\u00C3\u00A9sultant du d\u00C3\u00A9coupage administratif du territoire fran\u00C3\u00A7ais."@fr .
-<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:fe8052bb550914306ad270cdf1304ab53b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
-_:fe8052bb550914306ad270cdf1304ab53b30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/contributor> <http://www.eurecom.fr/~troncy/> .
-_:fe8052bb550914306ad270cdf1304ab53b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b7 .
-<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#comment> "Chiffre de population sans doubles comptes au dernier recensement, en milliers d'habitants, \u00C3  une d\u00C3\u00A9cimale. "@fr .
-_:fe8052bb550914306ad270cdf1304ab53b9 <http://www.w3.org/2002/07/owl#unionOf> _:fe8052bb550914306ad270cdf1304ab53b10 .
-<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#label> "area in hectares"@en .
-<http://recherche.ign.fr/labos/cogit/cv.php?prenom=Nathalie&nom=Abadie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:fe8052bb550914306ad270cdf1304ab53b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b41 .
-<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/2000/01/rdf-schema#comment> "Il s'agit d'un num\u00C3\u00A9ro de 5 caract\u00C3\u00A8res : le code du d\u00C3\u00A9partement suivi du code g\u00C3\u00A9ographique de la commune. Pour les DOM, le 3\u00C3\u00A8me caract\u00C3\u00A8re est commun au num\u00C3\u00A9ro de d\u00C3\u00A9partement et au num\u00C3\u00A9ro de commune."@fr .
-<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Les cantons contenus dans les diff\u00C3\u00A9rentes bases de donn\u00C3\u00A9es de l'IGN sont des cantons au sens INSEE du terme, appel\u00C3\u00A9s pseudo-cantons. Un pseudo-canton, quant \u00C3  lui, est un regroupement d'une ou plusieurs communes enti\u00C3\u00A8res."@fr .
-_:fe8052bb550914306ad270cdf1304ab53b29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#label> "statut"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b40 .
-<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#comment> "Point qui repr\u00C3\u00A9sente la localisation du si\u00C3\u00A8ge du chef-lieu de l'unit\u00C3\u00A9 administrative."@fr .
-<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#label> "appartient au canton"@fr .
-<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/2004/02/skos/core#prefLabel> "chef-lieu de canton"@fr .
+<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#comment> "Code g\u00C3\u00A9ographique de la r\u00C3\u00A9gion (texte de deux caract\u00C3\u00A8res)."@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+_:fea48f8d50d744c0fae64c318478bf4cfb2 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM2> .
+<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#label> "D\u00C3\u00A9partement"@fr .
+<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fea48f8d50d744c0fae64c318478bf4cfb2 .
+<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to arrondisssement"@en .
+<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette classe contient l'ensemble des arrondissements (ce sont les arrondissements au sens INSEE, et non les arrondissements municipaux)."@fr .
+<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/def/bdtopo#EntiteTopographique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fea48f8d50d744c0fae64c318478bf4cfb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/liste> <http://www.w3.org/2000/01/rdf-schema#label> "type of commune"@en .
+<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "subprefecture"@en .
 <http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
-<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#comment> "R\u00C3\u00A9gion \u00C3  laquelle appartient l'unit\u00C3\u00A9 administrative."@fr .
-<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
-<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.insee.fr/def/geo#CantonOuVille> .
-<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.insee.fr/def/geo#Region> .
-<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#domain> _:fe8052bb550914306ad270cdf1304ab53b35 .
-<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#label> "population"@fr .
-_:fe8052bb550914306ad270cdf1304ab53b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:fe8052bb550914306ad270cdf1304ab53b25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
-_:fe8052bb550914306ad270cdf1304ab53b26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00C3\u00A9gion"@fr .
-<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
+<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#label> "Unit\u00C3\u00A9 administrative"@fr .
+<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#comment> "Les cantons contenus dans les diff\u00C3\u00A9rentes bases de donn\u00C3\u00A9es de l'IGN sont des cantons au sens INSEE du terme, appel\u00C3\u00A9s pseudo-cantons. Un pseudo-canton, quant \u00C3  lui, est un regroupement d'une ou plusieurs communes enti\u00C3\u00A8res."@fr .
+<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb35 .
+_:fea48f8d50d744c0fae64c318478bf4cfb35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fea48f8d50d744c0fae64c318478bf4cfb29 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM1> .
+<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Region> .
+_:fea48f8d50d744c0fae64c318478bf4cfb39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb40 .
+_:fea48f8d50d744c0fae64c318478bf4cfb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/geofla#TypeDeCommune> <http://www.w3.org/2000/01/rdf-schema#label> "Type of commune"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/geofla#TypeDeCommune> <http://www.w3.org/2000/01/rdf-schema#label> "Type de commune"@fr .
+<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
 <http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
-_:fe8052bb550914306ad270cdf1304ab53b33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b34 .
-_:fe8052bb550914306ad270cdf1304ab53b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:fe8052bb550914306ad270cdf1304ab53b48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fe8052bb550914306ad270cdf1304ab53b49 .
+<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#label> "altitude moyenne"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb5 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb6 .
+<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette classe contient l'ensemble des r\u00C3\u00A9gions."@fr .
+<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb38 .
+<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
+<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.insee.fr/def/geo#Region> .
+<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#label> "statut"@fr .
+<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Region> .
+<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/title> "Ontologie des unit\u00C3\u00A9s administratives de l'IGN"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb33 .
+<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to department"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb26 <http://www.w3.org/2002/07/owl#hasValue> <http://data.ign.fr/codes/geonto/typedecommune/liste> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
+_:fea48f8d50d744c0fae64c318478bf4cfb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+_:fea48f8d50d744c0fae64c318478bf4cfb16 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb17 .
+<http://data.semanticweb.org/person/bernard-vatant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
+<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb27 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM4> .
+<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#comment> "Arrondissement auquel appartient l'unit\u00C3\u00A9 administrative."@fr .
+<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/liste> <http://www.w3.org/2000/01/rdf-schema#comment> "Liste des diff\u00C3\u00A9rents r\u00C3\u00B4les pouvant \u00C3\u00AAtre jou\u00C3\u00A9s par une commune dans l'organisation administrative fran\u00C3\u00A7aise, repr\u00C3\u00A9sent\u00C3\u00A9s comme une liste de concepts SKOS."@fr .
+<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#label> "mean altitude"@en .
+<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fea48f8d50d744c0fae64c318478bf4cfb30 .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
+_:fea48f8d50d744c0fae64c318478bf4cfb3 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM1> .
+<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+_:fea48f8d50d744c0fae64c318478bf4cfb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#comment> "Chef-lieu de l'unit\u00C3\u00A9 administrative lorsqu'il existe (un canton ne poss\u00C3\u00A8de pas toujours de chef-lieu. Cela arrive dans le cas de cantons situ\u00C3\u00A9s \u00C3  la p\u00C3\u00A9riph\u00C3\u00A9rie d'une ville importante constituant \u00C3  elle seule un canton non pr\u00C3\u00A9cis\u00C3\u00A9.)"@fr .
+<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the arrondissement"@en .
+<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/2004/02/skos/core#prefLabel> "commune simple"@fr .
 <http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/bdtopo#EntiteTopographique> .
+<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/liste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Departement> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/2004/02/skos/core#prefLabel> "pr\u00C3\u00A9fecture de d\u00C3\u00A9partement"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+<http://data.ign.fr/def/bdtopo#EntiteTopographique> <http://www.w3.org/2000/01/rdf-schema#label> "Entit\u00C3\u00A9 topographique"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+_:fea48f8d50d744c0fae64c318478bf4cfb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/2004/02/skos/core#prefLabel> "township capital"@en .
 <http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.insee.fr/def/geo#Departement> .
+<http://data.ign.fr/def/geofla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Arrondissement> .
+<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique de l'arrondissement"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/2004/02/skos/core#prefLabel> "regional prefecture"@en .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
+<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.insee.fr/def/geo#Arrondissement> .
+<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb21 .
+<http://data.ign.fr/def/geofla> <http://purl.org/vocab/vann/preferredNamespacePrefix> "geofla" .
+<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#label> "Commune"@fr .
+<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb31 .
+<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb9 .
+<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#label> "appartient \u00C3  la r\u00C3\u00A9gion"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb14 .
+_:fea48f8d50d744c0fae64c318478bf4cfb52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#comment> "Superficie de la commune en hectares."@fr .
+<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#range> _:fea48f8d50d744c0fae64c318478bf4cfb26 .
+<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/2004/02/skos/core#definition> "Commune sans r\u00C3\u00B4le administratif particulier."@fr .
+<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
+<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla#region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#comment> "R\u00C3\u00A9gion \u00C3  laquelle appartient l'unit\u00C3\u00A9 administrative."@fr .
+<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
+_:fea48f8d50d744c0fae64c318478bf4cfb2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#comment> "Chiffre de population sans doubles comptes au dernier recensement, en milliers d'habitants, \u00C3  une d\u00C3\u00A9cimale. "@fr .
+<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00C3\u00A9gion"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#label> "chef-lieu de l'unit\u00C3\u00A9 administrative"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fea48f8d50d744c0fae64c318478bf4cfb28 .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/issued> "2013-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/2004/02/skos/core#prefLabel> "state capital"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb20 .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/contributor> <http://recherche.ign.fr/labos/cogit/cv.php?prenom=B\u00C3\u00A9n\u00C3\u00A9dicte&nom=Bucher> .
+_:fea48f8d50d744c0fae64c318478bf4cfb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fea48f8d50d744c0fae64c318478bf4cfb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
+<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#label> "status"@en .
+<http://data.ign.fr/id/codes/geofla/typedecommune/liste> <http://www.w3.org/2000/01/rdf-schema#label> "type de commune"@fr .
+<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.insee.fr/def/geo#CantonOuVille> .
+_:fea48f8d50d744c0fae64c318478bf4cfb28 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM2> .
+_:fea48f8d50d744c0fae64c318478bf4cfb43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb44 .
+_:fea48f8d50d744c0fae64c318478bf4cfb30 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM3> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/2004/02/skos/core#prefLabel> "simple commune"@en .
+<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/description> "Ontologie d\u00C3\u00A9crivant le d\u00C3\u00A9coupage administratif de la France m\u00C3\u00A9tropolitaine, des d\u00C3\u00A9partements d'outre mer, ou de la collectivit\u00C3\u00A9  d\u00C3\u00A9partementale de Mayotte, repr\u00C3\u00A9sent\u00C3\u00A9e comme une hi\u00C3\u00A9rarchie de classes OWL"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique du d\u00C3\u00A9partement"@fr .
+<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#comment> "Code g\u00C3\u00A9ographique de l'arrondissement (texte d'un caract\u00C3\u00A8re)."@fr .
+<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb47 .
+<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette classe contient l'ensemble des d\u00C3\u00A9partements."@fr .
+<http://www.eurecom.fr/~atemezin/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.ign.fr/def/geofla> <http://creativecommons.org/ns#license> <http://www.data.gouv.fr/Licence-Ouverte-Open-Licence> .
+_:fea48f8d50d744c0fae64c318478bf4cfb40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
+_:fea48f8d50d744c0fae64c318478bf4cfb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
+_:fea48f8d50d744c0fae64c318478bf4cfb52 <http://www.w3.org/2002/07/owl#hasValue> <http://data.ign.fr/codes/geonto/typedecommune/liste> .
+<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
+_:fea48f8d50d744c0fae64c318478bf4cfb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#comment> "Il s'agit du code g\u00C3\u00A9ographique permettant d'identifier le canton dans son d\u00C3\u00A9partement d'appartenance (texte de deux caract\u00C3\u00A8res)."@fr .
+<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#comment> "Il s'agit du code g\u00C3\u00A9ographique permettant d'identifier la commune dans son d\u00C3\u00A9partement d'appartenance (texte de trois caract\u00C3\u00A8res)."@fr .
+<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#comment> "Code g\u00C3\u00A9ographique du d\u00C3\u00A9partement (texte de deux caract\u00C3\u00A8res)."@fr .
+<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
+<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+_:fea48f8d50d744c0fae64c318478bf4cfb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
+<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
+_:fea48f8d50d744c0fae64c318478bf4cfb41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fea48f8d50d744c0fae64c318478bf4cfb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
+_:fea48f8d50d744c0fae64c318478bf4cfb47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
+_:fea48f8d50d744c0fae64c318478bf4cfb31 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb32 .
+_:fea48f8d50d744c0fae64c318478bf4cfb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the region"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
+_:fea48f8d50d744c0fae64c318478bf4cfb21 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb22 .
+_:fea48f8d50d744c0fae64c318478bf4cfb38 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb39 .
+_:fea48f8d50d744c0fae64c318478bf4cfb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla#population> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#label> "appartient au d\u00C3\u00A9partement"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb18 .
+<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fea48f8d50d744c0fae64c318478bf4cfb47 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb48 .
+_:fea48f8d50d744c0fae64c318478bf4cfb51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
+_:fea48f8d50d744c0fae64c318478bf4cfb42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/2004/02/skos/core#prefLabel> "chef-lieu de canton"@fr .
+<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/2000/01/rdf-schema#label> "num\u00C3\u00A9ro insee de la commune"@fr .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/creator> <http://recherche.ign.fr/labos/cogit/cv.php?prenom=Nathalie&nom=Abadie> .
+<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#label> "Commune"@en .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/creator> <http://www.eurecom.fr/~atemezin/> .
+_:fea48f8d50d744c0fae64c318478bf4cfb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fea48f8d50d744c0fae64c318478bf4cfb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
+<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fea48f8d50d744c0fae64c318478bf4cfb27 .
+_:fea48f8d50d744c0fae64c318478bf4cfb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fea48f8d50d744c0fae64c318478bf4cfb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:fea48f8d50d744c0fae64c318478bf4cfb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb8 .
+_:fea48f8d50d744c0fae64c318478bf4cfb38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fea48f8d50d744c0fae64c318478bf4cfb9 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb10 .
+_:fea48f8d50d744c0fae64c318478bf4cfb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fea48f8d50d744c0fae64c318478bf4cfb4 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM3> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "sous-pr\u00C3\u00A9fecture"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
+<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb5 .
+<http://data.ign.fr/id/codes/geofla/typedecommune/SousPrefecture> <http://www.w3.org/2004/02/skos/core#definition> "Chef-lieu d'un arrondissement fran\u00C3\u00A7ais."@fr .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fea48f8d50d744c0fae64c318478bf4cfb39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#label> "head office of the capital"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb50 .
+<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Canton> .
+<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb12 .
+_:fea48f8d50d744c0fae64c318478bf4cfb41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
+<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#ArrondissementMunicipal> .
+<http://data.ign.fr/def/geofla#TypeDeCommune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fea48f8d50d744c0fae64c318478bf4cfb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
+_:fea48f8d50d744c0fae64c318478bf4cfb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.ign.fr/def/geofla#UniteAdministrative> .
+_:fea48f8d50d744c0fae64c318478bf4cfb51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fea48f8d50d744c0fae64c318478bf4cfb29 .
+_:fea48f8d50d744c0fae64c318478bf4cfb35 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb36 .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fea48f8d50d744c0fae64c318478bf4cfb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#label> "Arrondissement"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb37 .
+<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
+<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/2000/01/rdf-schema#comment> "Il s'agit d'un num\u00C3\u00A9ro de 5 caract\u00C3\u00A8res : le code du d\u00C3\u00A9partement suivi du code g\u00C3\u00A9ographique de la commune. Pour les DOM, le 3\u00C3\u00A8me caract\u00C3\u00A8re est commun au num\u00C3\u00A9ro de d\u00C3\u00A9partement et au num\u00C3\u00A9ro de commune."@fr .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
+_:fea48f8d50d744c0fae64c318478bf4cfb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.eurecom.fr/~troncy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#label> "si\u00C3\u00A8ge du chef-lieu"@fr .
+<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the commune"@en .
+<http://data.ign.fr/def/geofla#codeArr> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique de la commune"@fr .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/contributor> <http://www.eurecom.fr/~troncy/> .
+<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fea48f8d50d744c0fae64c318478bf4cfb1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geometrie#Point> .
+<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fea48f8d50d744c0fae64c318478bf4cfb1 .
+_:fea48f8d50d744c0fae64c318478bf4cfb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb11 .
+<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CommuneSimple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fea48f8d50d744c0fae64c318478bf4cfb42 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb43 .
+<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#label> "appartient \u00C3  l'arrondisssement"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb12 <http://www.w3.org/2002/07/owl#unionOf> _:fea48f8d50d744c0fae64c318478bf4cfb13 .
+_:fea48f8d50d744c0fae64c318478bf4cfb4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to canton"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb41 .
+<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the canton"@en .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/modified> "2014-02-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:fea48f8d50d744c0fae64c318478bf4cfb46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Departement> .
+_:fea48f8d50d744c0fae64c318478bf4cfb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb15 .
+<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette classe contient l'ensemble des communes m\u00C3\u00A9tropolitaines, des 5 d\u00C3\u00A9partements d'outre-mer (Guadeloupe, Martinique, Guyane, La R\u00C3\u00A9union et Mayotte)."@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
+<http://data.ign.fr/def/geofla#TypeDeCommune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://recherche.ign.fr/labos/cogit/cv.php?prenom=BÃ©nÃ©dicte&nom=Bucher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:fea48f8d50d744c0fae64c318478bf4cfb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/geofla#dpt> <http://www.w3.org/2000/01/rdf-schema#comment> "D\u00C3\u00A9partement auquel appartient l'unit\u00C3\u00A9 administrative"@fr .
+<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/2004/02/skos/core#definition> "Chef-lieu d'un canton fran\u00C3\u00A7ais."@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
+_:fea48f8d50d744c0fae64c318478bf4cfb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fea48f8d50d744c0fae64c318478bf4cfb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb19 .
+_:fea48f8d50d744c0fae64c318478bf4cfb52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/geofla> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://data.ign.fr/def/geofla#> .
+_:fea48f8d50d744c0fae64c318478bf4cfb3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+<http://data.ign.fr/def/geofla#Commune> <http://www.w3.org/2002/07/owl#equivalentClass> <http://rdf.insee.fr/def/geo#Commune> .
+_:fea48f8d50d744c0fae64c318478bf4cfb44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb45 .
+_:fea48f8d50d744c0fae64c318478bf4cfb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+_:fea48f8d50d744c0fae64c318478bf4cfb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#label> "population"@fr .
+<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#comment> "Objet g\u00C3\u00A9ographique r\u00C3\u00A9sultant du d\u00C3\u00A9coupage administratif du territoire fran\u00C3\u00A7ais."@fr .
+<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:fea48f8d50d744c0fae64c318478bf4cfb36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/geofla#numInsee> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#label> "area in hectares"@en .
+<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.ign.fr/def/geofla#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fea48f8d50d744c0fae64c318478bf4cfb3 .
+_:fea48f8d50d744c0fae64c318478bf4cfb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb23 .
+<http://data.ign.fr/def/bdtopo#EntiteTopographique> <http://www.w3.org/2000/01/rdf-schema#label> "Topographic entity"@en .
+<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:fea48f8d50d744c0fae64c318478bf4cfb4 .
+_:fea48f8d50d744c0fae64c318478bf4cfb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Commune> .
+<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#label> "superficie en hectares"@fr .
+<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Canton> .
+<http://data.ign.fr/def/geofla#codeDpt> <http://www.w3.org/2000/01/rdf-schema#label> "geographic code of the department"@en .
+<http://recherche.ign.fr/labos/cogit/cv.php?prenom=Nathalie&nom=Abadie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fea48f8d50d744c0fae64c318478bf4cfb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://data.ign.fr/def/geofla#region> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to region"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
+<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique de la r\u00C3\u00A9gion"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/geofla#TypeDeCommune> .
+<http://data.ign.fr/def/geofla#UniteAdministrative> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative subdivision"@en .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/2004/02/skos/core#definition> "Chef-lieu d'une r\u00C3\u00A9gion fran\u00C3\u00A7aise."@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb7 .
+_:fea48f8d50d744c0fae64c318478bf4cfb37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fea48f8d50d744c0fae64c318478bf4cfb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/2000/01/rdf-schema#label> "capital of the administrative subdivision"@en .
+_:fea48f8d50d744c0fae64c318478bf4cfb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#domain> _:fea48f8d50d744c0fae64c318478bf4cfb16 .
+<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/2004/02/skos/core#definition> "Chef-lieu d'un d\u00C3\u00A9partement fran\u00C3\u00A7ais."@fr .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
+<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.ign.fr/def/geofla#Commune> .
+_:fea48f8d50d744c0fae64c318478bf4cfb26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:fea48f8d50d744c0fae64c318478bf4cfb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb24 .
+<http://data.ign.fr/def/geofla> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://data.ign.fr/def/geofla#codeComm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#label> "appartient au canton"@fr .
+<http://data.ign.fr/def/geofla#cant> <http://www.w3.org/2000/01/rdf-schema#comment> "Canton auquel appartient l'unit\u00C3\u00A9 administrative."@fr .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.ign.fr/id/codes/geofla/typedecommune/liste> .
+<http://data.ign.fr/def/geofla> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0 - 2013-06-14" .
+<http://data.ign.fr/def/geofla#population> <http://www.w3.org/2000/01/rdf-schema#label> "population"@en .
+<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#label> "Department"@en .
+<http://data.ign.fr/def/geofla#codeReg> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/2004/02/skos/core#definition> "Commune principale d'un \u00C3\u00A9tat, si\u00C3\u00A8ge du gouvernement et de l'administration."@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
+<http://data.ign.fr/def/geofla#Arrondissement> <http://www.w3.org/2000/01/rdf-schema#label> "Arrondissement"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
+_:fea48f8d50d744c0fae64c318478bf4cfb33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb34 .
+<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#label> "Canton"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Arrondissement> .
+_:fea48f8d50d744c0fae64c318478bf4cfb1 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#A.ADM4> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/ChefLieuDeCanton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:fea48f8d50d744c0fae64c318478bf4cfb30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+_:fea48f8d50d744c0fae64c318478bf4cfb44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Departement> .
+_:fea48f8d50d744c0fae64c318478bf4cfb45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb46 .
+<http://data.ign.fr/def/geofla#Departement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.ign.fr/def/geofla> .
+_:fea48f8d50d744c0fae64c318478bf4cfb43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://data.ign.fr/def/geofla#Canton> .
+_:fea48f8d50d744c0fae64c318478bf4cfb29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+<http://data.ign.fr/def/geofla#siegeDuChefLieu> <http://www.w3.org/2000/01/rdf-schema#comment> "Point qui repr\u00C3\u00A9sente la localisation du si\u00C3\u00A8ge du chef-lieu de l'unit\u00C3\u00A9 administrative."@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb51 .
+<http://data.ign.fr/def/geofla#superficieHa> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeRegion> <http://www.w3.org/2004/02/skos/core#prefLabel> "pr\u00C3\u00A9fecture de r\u00C3\u00A9gion"@fr .
+<http://data.ign.fr/def/geofla#Canton> <http://www.w3.org/2000/01/rdf-schema#label> "Canton"@en .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/elements/1.1/rights> "Copyright \u00C2\u00A9 2013 IGN" .
+<http://data.ign.fr/def/geofla#arr> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.ign.fr/def/geofla#Arrondissement> .
+<http://data.ign.fr/def/geofla#statut> <http://www.w3.org/2000/01/rdf-schema#range> _:fea48f8d50d744c0fae64c318478bf4cfb52 .
+<http://data.ign.fr/def/geofla#chefLieu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://data.ign.fr/id/codes/geofla/typedecommune/CapitaleDEtat> <http://www.w3.org/2004/02/skos/core#prefLabel> "capitale d'\u00C3\u00A9tat"@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://data.ign.fr/def/geofla#zMoyen> <http://www.w3.org/2000/01/rdf-schema#comment> "Altitude moyenne de la commune en m\u00C3\u00A8tres."@fr .
+_:fea48f8d50d744c0fae64c318478bf4cfb48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb49 .
+<http://data.ign.fr/id/codes/geofla/typedecommune/PrefectureDeDepartement> <http://www.w3.org/2004/02/skos/core#prefLabel> "prefecture"@en .
+<http://data.ign.fr/def/geofla#codeCant> <http://www.w3.org/2000/01/rdf-schema#label> "code g\u00C3\u00A9ographique du canton"@fr .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/contributor> <http://data.semanticweb.org/person/bernard-vatant> .
+<http://data.ign.fr/def/geofla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+_:fea48f8d50d744c0fae64c318478bf4cfb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fea48f8d50d744c0fae64c318478bf4cfb25 .
+<http://data.ign.fr/def/geofla> <http://purl.org/dc/terms/publisher> <http://fr.dbpedia.org/resource/Institut_national_de_l%27information_g%C3%A9ographique_et_foresti%C3%A8re> .
 

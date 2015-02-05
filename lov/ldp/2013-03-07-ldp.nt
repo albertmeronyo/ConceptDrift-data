@@ -1,73 +1,73 @@
-<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Linked Data Platform Container (LDPC) that also conforms to \n	additional patterns and conventions for managing members.  It is distinguished from\n	AggregateContainer by the following behaviors:\n	(1) An CompositeContainer, when deleted, must delete all its members.\n	\n	While every attempt is made to be complete in this list, readers should also\n	refer to the specification defining this ontology." .
-<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2000/01/rdf-schema#label> "Container" .
-<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#label> "containerSortPredicates" .
-<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource that represents a limited set of members of a LDP Container." .
-<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#label> "pageOf" .
-<http://www.w3.org/ns/ldp#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Page> .
-<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#label> "nextPage" .
-<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/2000/01/rdf-schema#label> "Page" .
-<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Page> .
-<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/ldp-ucr/> .
-<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/ldp#Resource> .
-<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/title> "The W3C Linked Data Platform (LDP) Vocabulary" .
-<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "A HTTP-addressable resource with a linked data representation." .
-<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/ldp#Container> .
-<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Container> .
-<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/ldp#Container> .
-<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Page> .
-<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates which resource is the subject for the members of the container." .
-<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Container> .
-<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2000/01/rdf-schema#label> "membershipPredicate" .
-<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/description> "All vocabulary URIs defined in the Linked Data Platform (LDP) namespace." .
-<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2012/ldp> .
-<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology provides an informal representation of the concepts and terms\n	as defined in the LDP specification.  Consult the LDP specification for normative reference." .
-<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/2000/01/rdf-schema#label> "CompositeContainer" .
-<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2000/01/rdf-schema#label> "AggregateContainer" .
-<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2000/01/rdf-schema#comment> "A Linked Data Platform Resource (LDPR) that also conforms to \n	additional patterns and conventions for managing membership.\n	Readers should refer to the specification defining this ontology for the list of \n	behaviors associated with it." .
-<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2011/09/LinkedData/> .
-<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#comment> "List of predicates that indicate the ascending order of the members in a page." .
-<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/ldp/> .
-<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/ldp#Container> .
-<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Linked Data Platform Container (LDPC) that also conforms to \n	additional patterns and conventions for managing members.  It is distinguished from\n	CompositeContainer by the following behaviors:\n	(1) Clients cannot assume that an AggregateContainer, when deleted, deletes its members.\n	\n	While every attempt is made to be complete in this list, readers should also refer \n	to the specification defining this ontology." .
-<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#label> "W3C Linked Data Platform (LDP)" .
-<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource" .
-<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
-<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#label> "membershipSubject" .
-<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#comment> "From a known page, how to indicate the next or last page as rdf:nil." .
-<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Associated a page with its container." .
-<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates which predicate of the container should be used to determine the membership." .
+<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Page> .
+<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "A HTTP-addressable resource with a linked data representation." .
+<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#comment> "List of predicates that indicate the ascending order of the members in a page." .
+<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Linked Data Platform Container (LDPC) that also conforms to \n	additional patterns and conventions for managing members.  It is distinguished from\n	AggregateContainer by the following behaviors:\n	(1) An CompositeContainer, when deleted, must delete all its members.\n	\n	While every attempt is made to be complete in this list, readers should also\n	refer to the specification defining this ontology." .
+<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2012/ldp> .
+<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2011/09/LinkedData/> .
+<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Container> .
+<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#comment> "From a known page, how to indicate the next or last page as rdf:nil." .
+<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource that represents a limited set of members of a LDP Container." .
+<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Page> .
+<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates which resource is the subject for the members of the container." .
+<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/2000/01/rdf-schema#label> "CompositeContainer" .
+<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/ldp#Container> .
+<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/ldp#Container> .
+<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#label> "nextPage" .
+<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/ldp#Resource> .
+<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/ldp#nextPage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Page> .
+<http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/description> "All vocabulary URIs defined in the Linked Data Platform (LDP) namespace." .
+<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2000/01/rdf-schema#comment> "A Linked Data Platform Resource (LDPR) that also conforms to \n	additional patterns and conventions for managing membership.\n	Readers should refer to the specification defining this ontology for the list of \n	behaviors associated with it." .
+<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/ldp/> .
+<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#label> "pageOf" .
+<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Resource" .
+<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Linked Data Platform Container (LDPC) that also conforms to \n	additional patterns and conventions for managing members.  It is distinguished from\n	CompositeContainer by the following behaviors:\n	(1) Clients cannot assume that an AggregateContainer, when deleted, deletes its members.\n	\n	While every attempt is made to be complete in this list, readers should also refer \n	to the specification defining this ontology." .
+<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2000/01/rdf-schema#label> "containerSortPredicates" .
+<http://www.w3.org/ns/ldp#containerSortPredicates> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2000/01/rdf-schema#label> "membershipPredicate" .
+<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/ldp#Container> .
+<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/ldp-ucr/> .
+<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#label> "W3C Linked Data Platform (LDP)" .
+<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/title> "The W3C Linked Data Platform (LDP) Vocabulary" .
+<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#label> "membershipSubject" .
+<http://www.w3.org/ns/ldp#membershipSubject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/ldp#membershipPredicate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/ldp#Container> .
+<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2000/01/rdf-schema#label> "Container" .
+<http://www.w3.org/ns/ldp#AggregateContainer> <http://www.w3.org/2000/01/rdf-schema#label> "AggregateContainer" .
+<http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology provides an informal representation of the concepts and terms\n	as defined in the LDP specification.  Consult the LDP specification for normative reference." .
+<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://www.w3.org/ns/ldp#Page> <http://www.w3.org/2000/01/rdf-schema#label> "Page" .
+<http://www.w3.org/ns/ldp#Container> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#pageOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Associated a page with its container." .
 <http://www.w3.org/ns/ldp#CompositeContainer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
 

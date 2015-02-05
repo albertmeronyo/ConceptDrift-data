@@ -1,262 +1,262 @@
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> .
-_:ff47fb28776c24ae192d04810d929d4fdb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff47fb28776c24ae192d04810d929d4fdb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/source> "ISO 19103:2005"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2002/07/owl#equivalentClass> _:ff47fb28776c24ae192d04810d929d4fdb5 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property is a scaled number"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of rate of change of angular position"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> .
-_:ff47fb28776c24ae192d04810d929d4fdb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:ff47fb28776c24ae192d04810d929d4fdb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#dateTime> .
-_:ff47fb28776c24ae192d04810d929d4fdb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff47fb28776c24ae192d04810d929d4fdb11 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimension"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/created> "2011"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property designates the units of measure or scale for the quantity"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/2000/01/rdf-schema#label> "Acceleration"@en .
-_:ff47fb28776c24ae192d04810d929d4fdb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> .
-_:ff47fb28776c24ae192d04810d929d4fdb22 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/2000/01/rdf-schema#label> "characterString"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2004/02/skos/core#notation> "Volume"^^<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ISOClassName> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "Scale for a number describing size or extent"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of 3-D extent"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/2000/01/rdf-schema#label> "Area" .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> <http://www.w3.org/2000/01/rdf-schema#label> "Velocity" .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/description> "An OWL representation of (some of) the basic types described in ISO 19103:2005, required as primitives in other ontologies based on ISO 19100 series standards."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff47fb28776c24ae192d04810d929d4fdb10 .
-_:ff47fb28776c24ae192d04810d929d4fdb20 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:ff47fb28776c24ae192d04810d929d4fdb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#NCName> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/vocab/vann/preferredNamespacePrefix> "basic"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2000/01/rdf-schema#comment> "The common binary Real finite implementation using base 2. Since such reals can approximate any measure where absolute accuracy is not possible, this form of numeric is most often used for measures. In cases were absolute accuracy is needed, such as currencies, then a decimal representation may be preferred (assuming the currency is decimal, such as the US dollar, British pound, etc.). Where there are no subunits possible, Integer numbers may be preferred.  \n\nCan be thought of as an integer part followed by a fractional part given in multiples of powers of 1/2 (halves)."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-_:ff47fb28776c24ae192d04810d929d4fdb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/2000/01/rdf-schema#label> "unit of measure"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/title> "OWL representation of ISO 19103 (Basic types package)"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-_:ff47fb28776c24ae192d04810d929d4fdb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:ff47fb28776c24ae192d04810d929d4fdb21 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/2000/01/rdf-schema#label> "Mass" .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff47fb28776c24ae192d04810d929d4fdb8 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/2000/01/rdf-schema#comment> "An exact integer value, with no fractional part."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of rate of change of velocity"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> .
-_:ff47fb28776c24ae192d04810d929d4fdb1 <http://www.w3.org/2002/07/owl#unionOf> _:ff47fb28776c24ae192d04810d929d4fdb2 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:ff47fb28776c24ae192d04810d929d4fdb11 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/2000/01/rdf-schema#label> "AngularVelocity"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#label> "Measure"@en .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/2000/01/rdf-schema#label> "date"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> .
-_:ff47fb28776c24ae192d04810d929d4fdb10 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:ff47fb28776c24ae192d04810d929d4fdb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff47fb28776c24ae192d04810d929d4fdb18 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of temporal extent"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff47fb28776c24ae192d04810d929d4fdb9 .
-_:ff47fb28776c24ae192d04810d929d4fdb9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/2000/01/rdf-schema#label> "localName"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#comment> "A vector is a sequence of a fixed length of Numbers. Normally, the numbers represent some measures, and thus vectors are often used where records of Numbers would be more appropriate. In geometry for example, direct positions are given by undistinguished coordinate vectors, which can be interpreted through the use of coordinate reference systems."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/2000/01/rdf-schema#label> "dateTime"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-_:ff47fb28776c24ae192d04810d929d4fdb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
-_:ff47fb28776c24ae192d04810d929d4fdb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of spatial separation along some 1-D manifold"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> <http://www.w3.org/2000/01/rdf-schema#label> "Currency" .
-_:ff47fb28776c24ae192d04810d929d4fdb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff47fb28776c24ae192d04810d929d4fdb4 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2002/07/owl#equivalentClass> _:ff47fb28776c24ae192d04810d929d4fdb12 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/2000/01/rdf-schema#label> "Distance" .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/ISOTC211/HM/basic.rdf> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#comment> "Scaled number"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> .
-_:ff47fb28776c24ae192d04810d929d4fdb11 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of amount of substance"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/2000/01/rdf-schema#label> "integer"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporal position expressed as a time and date"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/2000/01/rdf-schema#comment> "An OWL representation of (some of) the basic types described in ISO 19103:2005, required as primitives in other ontologies based on ISO 19100 series standards. \r\n\r\nThis vocabulary is provisional, pending finalization of ISO 19150-2.\r\n\r\nThe URI stem http://def.seegrid.csiro.au/isotc211/ is temporary. The vocabulary is expected to be ultimately published in the domain http://def.isotc211.org/"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb8 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff47fb28776c24ae192d04810d929d4fdb19 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> <http://www.w3.org/2000/01/rdf-schema#comment> "measure of arc length or rotation"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/2000/01/rdf-schema#label> "Length" .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> <http://www.w3.org/2000/01/rdf-schema#label> "measure"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of force due to a mass in a specific gravitational field"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/2000/01/rdf-schema#label> "decimal"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff47fb28776c24ae192d04810d929d4fdb21 .
 <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2000/01/rdf-schema#label> "Number"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/2000/01/rdf-schema#label> "Time" .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> .
+_:f56f14124b30048539c489ec4812934b4b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+_:f56f14124b30048539c489ec4812934b4b20 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> <http://www.w3.org/2000/01/rdf-schema#label> "Angle" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> .
 <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:ff47fb28776c24ae192d04810d929d4fdb21 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/creator> "Simon Jonathan David COX, CSIRO Australia"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/2000/01/rdf-schema#label> "Scale" .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> .
+_:f56f14124b30048539c489ec4812934b4b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#comment> "Scaled number"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of amount of substance"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/vocab/vann/preferredNamespacePrefix> "basic"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of force due to a mass in a specific gravitational field"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/2000/01/rdf-schema#label> "localName"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/rights> "Copyright \u00A9 2012-2013 CSIRO"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+_:f56f14124b30048539c489ec4812934b4b11 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f56f14124b30048539c489ec4812934b4b10 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/2000/01/rdf-schema#comment> "An OWL representation of (some of) the basic types described in ISO 19103:2005, required as primitives in other ontologies based on ISO 19100 series standards. \r\n\r\nThis vocabulary is provisional, pending finalization of ISO 19150-2.\r\n\r\nThe URI stem http://def.seegrid.csiro.au/isotc211/ is temporary. The vocabulary is expected to be ultimately published in the domain http://def.isotc211.org/"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of temporal extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201311/ISOTC211/HM/basic.rdf> .
+_:f56f14124b30048539c489ec4812934b4b10 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/2000/01/rdf-schema#label> "Weight" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimension"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> <http://www.w3.org/2000/01/rdf-schema#comment> "Numerical values of the vector components"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#date> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> .
+_:f56f14124b30048539c489ec4812934b4b1 <http://www.w3.org/2002/07/owl#unionOf> _:f56f14124b30048539c489ec4812934b4b2 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+_:f56f14124b30048539c489ec4812934b4b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property is a number"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:f56f14124b30048539c489ec4812934b4b19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f56f14124b30048539c489ec4812934b4b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/2000/01/rdf-schema#comment> "The usually finite representation of a decimal number. It differs from the common binary Real implementation in that it can represent 1/10 (one-tenth) without error, while binary real representation can only represent powers of 1/2 (one-half) exactly. Since many currencies are decimal, these representations are preferred in dealing with such moneys. This is also true for mile markers, which are often given in decimals.\r\n\r\nCan be thought of as an integer part followed by a fractional part given in multiples of powers of 1/10 (tenths)."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporal position expressed with precision of days"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f56f14124b30048539c489ec4812934b4b11 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> .
+_:f56f14124b30048539c489ec4812934b4b9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of components in the vector"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+_:f56f14124b30048539c489ec4812934b4b12 <http://www.w3.org/2002/07/owl#unionOf> _:f56f14124b30048539c489ec4812934b4b13 .
+_:f56f14124b30048539c489ec4812934b4b19 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f56f14124b30048539c489ec4812934b4b9 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> .
+_:f56f14124b30048539c489ec4812934b4b22 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#label> "Mesure"@fr .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/2000/01/rdf-schema#label> "boolean"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/2002/07/owl#priorVersion> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201305/ISOTC211/HM/basic.rdf> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+_:f56f14124b30048539c489ec4812934b4b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2004/02/skos/core#notation> "Volume"^^<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ISOClassName> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/2000/01/rdf-schema#label> "dateTime"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/2000/01/rdf-schema#label> "Mass" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/2000/01/rdf-schema#label> "decimal"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2002/07/owl#equivalentClass> _:f56f14124b30048539c489ec4812934b4b16 .
+_:f56f14124b30048539c489ec4812934b4b21 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> .
+_:f56f14124b30048539c489ec4812934b4b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:f56f14124b30048539c489ec4812934b4b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f56f14124b30048539c489ec4812934b4b8 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> <http://www.w3.org/2000/01/rdf-schema#label> "Currency" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2002/07/owl#equivalentClass> _:f56f14124b30048539c489ec4812934b4b12 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2000/01/rdf-schema#label> "realNumber"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> .
+_:f56f14124b30048539c489ec4812934b4b20 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> <http://www.w3.org/2000/01/rdf-schema#label> "ordinates"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> .
+_:f56f14124b30048539c489ec4812934b4b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f56f14124b30048539c489ec4812934b4b14 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+_:f56f14124b30048539c489ec4812934b4b16 <http://www.w3.org/2002/07/owl#unionOf> _:f56f14124b30048539c489ec4812934b4b17 .
+_:f56f14124b30048539c489ec4812934b4b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f56f14124b30048539c489ec4812934b4b21 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> <http://www.w3.org/2000/01/rdf-schema#label> "measure"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#comment> "A vector is a sequence of a fixed length of Numbers. Normally, the numbers represent some measures, and thus vectors are often used where records of Numbers would be more appropriate. In geometry for example, direct positions are given by undistinguished coordinate vectors, which can be interpreted through the use of coordinate reference systems."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/2000/01/rdf-schema#label> "Area" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "Scale for a number describing size or extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/2000/01/rdf-schema#label> "Time" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+_:f56f14124b30048539c489ec4812934b4b17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f56f14124b30048539c489ec4812934b4b18 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/2000/01/rdf-schema#label> "value"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:f56f14124b30048539c489ec4812934b4b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2000/01/rdf-schema#comment> "The set of numbers"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/created> "2011"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#label> "Vector"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2000/01/rdf-schema#comment> "The common binary Real finite implementation using base 2. Since such reals can approximate any measure where absolute accuracy is not possible, this form of numeric is most often used for measures. In cases were absolute accuracy is needed, such as currencies, then a decimal representation may be preferred (assuming the currency is decimal, such as the US dollar, British pound, etc.). Where there are no subunits possible, Integer numbers may be preferred.  \n\nCan be thought of as an integer part followed by a fractional part given in multiples of powers of 1/2 (halves)."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/2000/01/rdf-schema#label> "Length" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/2000/01/rdf-schema#label> "AngularVelocity"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/2000/01/rdf-schema#label> "characterString"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b9 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> .
+_:f56f14124b30048539c489ec4812934b4b18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
+_:f56f14124b30048539c489ec4812934b4b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/2000/01/rdf-schema#comment> "Truth value. Most valuable in the predicate calculus, where items are either True or False, unless they are ill formed."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/2000/01/rdf-schema#label> "integer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2002/07/owl#equivalentClass> _:f56f14124b30048539c489ec4812934b4b1 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> .
+_:f56f14124b30048539c489ec4812934b4b8 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2000/01/rdf-schema#comment> "Note: integer is a specialization of decimal"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> .
+_:f56f14124b30048539c489ec4812934b4b5 <http://www.w3.org/2002/07/owl#unionOf> _:f56f14124b30048539c489ec4812934b4b6 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property designates the units of measure or scale for the quantity"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f56f14124b30048539c489ec4812934b4b22 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Unit of measure"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of rate of change of velocity"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f56f14124b30048539c489ec4812934b4b19 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/2000/01/rdf-schema#label> "Distance" .
+_:f56f14124b30048539c489ec4812934b4b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f56f14124b30048539c489ec4812934b4b15 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of 2-D extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+_:f56f14124b30048539c489ec4812934b4b22 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/description> "An OWL representation of (some of) the basic types described in ISO 19103:2005, required as primitives in other ontologies based on ISO 19100 series standards."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+_:f56f14124b30048539c489ec4812934b4b8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/creator> "Simon Jonathan David COX, CSIRO Australia"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of rate of change of angular position"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name in some local context"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> .
+_:f56f14124b30048539c489ec4812934b4b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of 3-D extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of rate of change of position"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f56f14124b30048539c489ec4812934b4b3 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/2000/01/rdf-schema#label> "date"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b10 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2000/01/rdf-schema#label> "Number"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f56f14124b30048539c489ec4812934b4b4 .
+_:f56f14124b30048539c489ec4812934b4b11 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:f56f14124b30048539c489ec4812934b4b21 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> .
+_:f56f14124b30048539c489ec4812934b4b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/2002/07/owl#disjointWith> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/2000/01/rdf-schema#comment> "sequence of characters"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#NCName> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> <http://www.w3.org/2000/01/rdf-schema#label> "Velocity" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property is a scaled number"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/2000/01/rdf-schema#comment> "Factor by which a representation should be magnified to match the geomstric size of the thing it represents."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f56f14124b30048539c489ec4812934b4b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporal position expressed as a time and date"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f56f14124b30048539c489ec4812934b4b19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#label> "Measure"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/modified> "2013-11-14"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f56f14124b30048539c489ec4812934b4b7 .
+_:f56f14124b30048539c489ec4812934b4b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of 1-D extent"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f56f14124b30048539c489ec4812934b4b20 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/title> "OWL representation of ISO 19103 (Basic types package)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of exchange value"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
+_:f56f14124b30048539c489ec4812934b4b20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2002/07/owl#equivalentClass> _:f56f14124b30048539c489ec4812934b4b5 .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/source> "ISO 19103:2005"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/2000/01/rdf-schema#label> "Acceleration"@en .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of spatial separation along some 1-D manifold"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Angle> <http://www.w3.org/2000/01/rdf-schema#comment> "measure of arc length or rotation"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/2000/01/rdf-schema#label> "unit of measure"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/elements/1.1/rights> "Copyright \u00A9 2012-2013 CSIRO"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
 <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> <http://www.w3.org/2000/01/rdf-schema#label> "ordinates"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.seegrid.csiro.au/subversion/xmml/ontologies/tags/201311/ISOTC211/HM/basic.rdf> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Unit of measure"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-_:ff47fb28776c24ae192d04810d929d4fdb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporal position expressed with precision of days"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/2000/01/rdf-schema#label> "boolean"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of 2-D extent"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/modified> "2013-11-14"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:ff47fb28776c24ae192d04810d929d4fdb5 <http://www.w3.org/2002/07/owl#unionOf> _:ff47fb28776c24ae192d04810d929d4fdb6 .
-_:ff47fb28776c24ae192d04810d929d4fdb10 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of exchange value"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-_:ff47fb28776c24ae192d04810d929d4fdb8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2000/01/rdf-schema#comment> "The set of numbers"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/2000/01/rdf-schema#label> "Weight" .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2002/07/owl#equivalentClass> _:ff47fb28776c24ae192d04810d929d4fdb16 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> <http://www.w3.org/2000/01/rdf-schema#range> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2002/07/owl#equivalentClass> _:ff47fb28776c24ae192d04810d929d4fdb1 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:ff47fb28776c24ae192d04810d929d4fdb19 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> .
-_:ff47fb28776c24ae192d04810d929d4fdb19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:ff47fb28776c24ae192d04810d929d4fdb12 <http://www.w3.org/2002/07/owl#unionOf> _:ff47fb28776c24ae192d04810d929d4fdb13 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Velocity> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of rate of change of position"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff47fb28776c24ae192d04810d929d4fdb3 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#UnitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Real> <http://www.w3.org/2000/01/rdf-schema#label> "realNumber"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-_:ff47fb28776c24ae192d04810d929d4fdb22 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#DateTime> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/2000/01/rdf-schema#label> "value"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Area> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff47fb28776c24ae192d04810d929d4fdb22 .
-_:ff47fb28776c24ae192d04810d929d4fdb9 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2000/01/rdf-schema#comment> "Note: integer is a specialization of decimal"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
-_:ff47fb28776c24ae192d04810d929d4fdb20 <http://www.w3.org/2002/07/owl#onProperty> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> .
-_:ff47fb28776c24ae192d04810d929d4fdb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Acceleration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure of 1-D extent"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#label> "Vector"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/2000/01/rdf-schema#comment> "sequence of characters"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of components in the vector"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Time> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-_:ff47fb28776c24ae192d04810d929d4fdb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/2000/01/rdf-schema#label> "Mesure"@fr .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#LocalName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name in some local context"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f56f14124b30048539c489ec4812934b4b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#string> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/2000/01/rdf-schema#label> "Scale" .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/2000/01/rdf-schema#comment> "An exact integer value, with no fractional part."^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff47fb28776c24ae192d04810d929d4fdb20 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#AngularVelocity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-_:ff47fb28776c24ae192d04810d929d4fdb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> .
-_:ff47fb28776c24ae192d04810d929d4fdb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff47fb28776c24ae192d04810d929d4fdb7 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#dimension> <http://www.w3.org/2000/01/rdf-schema#domain> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Vector> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Date> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#date> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-_:ff47fb28776c24ae192d04810d929d4fdb16 <http://www.w3.org/2002/07/owl#unionOf> _:ff47fb28776c24ae192d04810d929d4fdb17 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Boolean> <http://www.w3.org/2000/01/rdf-schema#comment> "Truth value. Most valuable in the predicate calculus, where items are either True or False, unless they are ill formed."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-_:ff47fb28776c24ae192d04810d929d4fdb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#uom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Length> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Number> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#value> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of this property is a number"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> <http://www.w3.org/2000/01/rdf-schema#comment> "Numerical values of the vector components"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> <http://www.w3.org/2000/01/rdf-schema#comment> "Factor by which a representation should be magnified to match the geomstric size of the thing it represents."^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff47fb28776c24ae192d04810d929d4fdb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#ordinates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> .
-_:ff47fb28776c24ae192d04810d929d4fdb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff47fb28776c24ae192d04810d929d4fdb15 .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Decimal> <http://www.w3.org/2000/01/rdf-schema#comment> "The usually finite representation of a decimal number. It differs from the common binary Real implementation in that it can represent 1/10 (one-tenth) without error, while binary real representation can only represent powers of 1/2 (one-half) exactly. Since many currencies are decimal, these representations are preferred in dealing with such moneys. This is also true for mile markers, which are often given in decimals.\r\n\r\nCan be thought of as an integer part followed by a fractional part given in multiples of powers of 1/10 (tenths)."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Integer> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#CharacterString> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Currency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic> <http://purl.org/dc/terms/hasPart> <http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Scale> .
-_:ff47fb28776c24ae192d04810d929d4fdb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff47fb28776c24ae192d04810d929d4fdb14 .
-_:ff47fb28776c24ae192d04810d929d4fdb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Measure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://def.seegrid.csiro.au/isotc211/iso19103/2005/basic#Distance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f56f14124b30048539c489ec4812934b4b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
 

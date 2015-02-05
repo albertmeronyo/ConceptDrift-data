@@ -1,87 +1,87 @@
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/creator> <http://www.hcklab.org/people/paolo-ciccarese/> .
-<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceFirstAccessedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://purl.org/dc/elements/1.1/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/previousVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "previousVersion - The previous version of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedWithId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFromSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/createdOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedWithId> <http://www.w3.org/2000/01/rdf-schema#comment> "sourceIdentifier - The unique identifier of the encoded information in the original source."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/format> "rdf/xml"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedLastOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedLastOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateBy> <http://www.w3.org/2000/01/rdf-schema#comment> "lastUpdateBy - The actor that updated the resource last."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/curatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/contributedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "importedOn - The date of the import of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceFirstAccessedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "sourceLastAccessedOn - The date when the original source has been first accessed and verified."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/authors> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/contributors> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/createdOn> <http://www.w3.org/2000/01/rdf-schema#comment> "createdOn - The date of creation of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/previousVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/acceptedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/versionNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://swan.mindinformatics.org/ontologies/1.2/pav/acceptedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "acceptedOn - Date of acceptance of the resource. Examples of resources to which a Date Accepted may be relevant are a thesis (accepted by a university department) or an article (accepted by a journal) or a discourse element in the case of swan scientific discourse."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "importedBy - An entity responsible for importing the data from an external source."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/previousVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://swan.mindinformatics.org/ontologies/1.2/pav/curators> <http://www.w3.org/2000/01/rdf-schema#comment> "curators - A list of entities primary responsible for verifying the quality of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/curatedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/contributedBy> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/createdOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "sourceLastAccessedOn - The date when the original source has been last accessed and verified."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/createdBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/publisher> <http://swan.mindinformatics.org> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/authoredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedLastOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/createdBy> <http://www.w3.org/2000/01/rdf-schema#comment> "createdBy - An entity primary responsible for making the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/versionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/curatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "curatedBy - An entity primary responsible for verifying the quality of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/acceptedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceLastAccessedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFirstOn> <http://www.w3.org/2000/01/rdf-schema#comment> "lastImportedOn - The date of the first import of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "submittedOn - Date of submission of the resource. Examples of resources to which a Date Submitted may be relevant are a thesis (submitted to a university department) or an article (submitted to a journal) or a discourse element in the case of swan scientific discourse."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedLastOn> <http://www.w3.org/2000/01/rdf-schema#comment> "lastImportedOn - The date of the last import of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFirstOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceFirstAccessedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/versionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "version - The version of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/language> "en" .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/curators> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/contributors> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/authoredBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/contributedBy> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateOn> <http://www.w3.org/2000/01/rdf-schema#comment> "lastUpdateOn - The date of the last update of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "publishedBy - An entity responsible for making the resource available."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/title> "Provenance, Authoring and Versioning ontology"@en .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/curators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/contributor> "Paolo Ciccarese"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "publishedOn - The date of publishing."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFirstOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFirstOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "submittedOn - Date of submission of the resource. Examples of resources to which a Date Submitted may be relevant are a thesis (submitted to a university department) or an article (submitted to a journal) or a discourse element in the case of swan scientific discourse."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/curators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "submittedBy -"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/authors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "sourceAccessedOn - The date when the original source has been accessed to create the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance, Authoring and Versioning v. 1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFromSource> <http://www.w3.org/2000/01/rdf-schema#comment> "source - The original source of the encoded information (PubMed, UniProt...)."^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav/contributors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/date> "January 13, 2009"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://swan.mindinformatics.org/ontologies/1.2/pav/sourceFirstAccessedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/previousVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "previousVersion - The previous version of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "importedBy - An entity responsible for importing the data from an external source."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "sourceAccessedOn - The date when the original source has been accessed to create the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceLastAccessedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceFirstAccessedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/acceptedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance, Authoring and Versioning v. 1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "submittedBy -"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/createdOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedLastOn> <http://www.w3.org/2000/01/rdf-schema#comment> "lastImportedOn - The date of the last import of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedWithId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceFirstAccessedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "sourceLastAccessedOn - The date when the original source has been first accessed and verified."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedWithId> <http://www.w3.org/2000/01/rdf-schema#comment> "sourceIdentifier - The unique identifier of the encoded information in the original source."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/createdOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/authoredBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/contributedBy> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFirstOn> <http://www.w3.org/2000/01/rdf-schema#comment> "lastImportedOn - The date of the first import of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/language> "en" .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/curatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "curatedBy - An entity primary responsible for verifying the quality of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/curatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/publisher> <http://swan.mindinformatics.org> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFirstOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> .
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/versionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceFirstAccessedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/curatedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/contributedBy> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "importedOn - The date of the import of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/acceptedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "sourceLastAccessedOn - The date when the original source has been last accessed and verified."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateOn> <http://www.w3.org/2000/01/rdf-schema#comment> "lastUpdateOn - The date of the last update of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFirstOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/creator> <http://www.hcklab.org/people/paolo-ciccarese/> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/authoredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedLastOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> .
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "publishedBy - An entity responsible for making the resource available."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFirstOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/versionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "version - The version of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFromSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/contributor> "Paolo Ciccarese"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateBy> <http://www.w3.org/2000/01/rdf-schema#comment> "lastUpdateBy - The actor that updated the resource last."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "publishedOn - The date of publishing."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedLastOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/versionNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/format> "rdf/xml"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/title> "Provenance, Authoring and Versioning ontology"@en .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/curators> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/contributors> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav.owl> <http://purl.org/dc/elements/1.1/date> "January 13, 2009"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceLastAccessedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/createdOn> <http://www.w3.org/2000/01/rdf-schema#comment> "createdOn - The date of creation of the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/lastUpdateBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/contributedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedLastOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/publishedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/authors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/contributors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/submittedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/createdBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/importedFromSource> <http://www.w3.org/2000/01/rdf-schema#comment> "source - The original source of the encoded information (PubMed, UniProt...)."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/sourceAccessedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/createdBy> <http://www.w3.org/2000/01/rdf-schema#comment> "createdBy - An entity primary responsible for making the resource."^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://swan.mindinformatics.org/ontologies/1.2/pav/authors> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://swan.mindinformatics.org/ontologies/1.2/pav/contributors> .
 

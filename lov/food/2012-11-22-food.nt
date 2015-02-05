@@ -1,123 +1,123 @@
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://data.lirmm.fr/ontologies/food#" .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/vocab/vann/preferredNamespacePrefix> "food" .
-<http://data.lirmm.fr/ontologies/food#fran%C3%A7ois> <http://xmlns.com/foaf/0.1/name> "Fran\u00E7ois Scharffe" .
-<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit for the specified quantity" .
-<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://data.lirmm.fr/ontologies/food#FoodProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.lirmm.fr/ontologies/food#rdf> <http://www.w3.org/ns/adms#accessURL> "http://data.lirmm.fr/ontologies/food.rdf" .
-<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Specifies an ingredient contained in the Food object" .
-<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.lirmm.fr/ontologies/food#Dish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.lirmm.fr/ontologies/food#Food> .
-<http://data.lirmm.fr/ontologies/food#percent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/created> "2012-10-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://data.lirmm.fr/ontologies/food#ttl> <http://www.w3.org/ns/adms#accessURL> "http://data.lirmm.fr/ontologies/food.ttl" .
-<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://data.lirmm.fr/ontologies/food#percent> <http://www.w3.org/2000/01/rdf-schema#comment> "Useful in particular for food products" .
-<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food> <http://xmlns.com/foaf/0.1/homepage> <http://data.lirmm.fr/ontologies/food.html> .
-<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.lirmm.fr/ontologies/food#Ingredient> .
-<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data: carbohydrates (in g) per 100g (or 100ml for liquids)" .
-<http://data.lirmm.fr/ontologies/food#percent> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity of ingredient in percentage % of the total amount of ingredients in a Food" .
-<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet> <http://xmlns.com/foaf/0.1/name> "St\u00E9phane Gigandet" .
-<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
-<http://data.lirmm.fr/ontologies/food#NutritionData> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data for a food item (recipe, product or ingredient)" .
-<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/2000/01/rdf-schema#comment> "e.g. 1 clove of garlic -> quantity = 1, unit = clove, ingredient = garlic (or Food object for garlic)" .
-<http://data.lirmm.fr/ontologies/food#rdf> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/publisher> "http://data.lirmm.fr/ontologies/food#LIRMM" .
-<http://data.lirmm.fr/ontologies/food#EmmanuelNauer> <http://xmlns.com/foaf/0.1/homepage> "" .
-<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://data.lirmm.fr/ontologies/food#Dish> <http://www.w3.org/2000/01/rdf-schema#label> "A dish is a food item with a recipe" .
-<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
-<http://data.lirmm.fr/ontologies/food#ttl> <http://purl.org/dc/terms/FileFormat> "" .
-<http://data.lirmm.fr/ontologies/food#Food> <http://www.w3.org/2000/01/rdf-schema#label> "Anything that can be eaten: a basic Food item (e.g. salt), a Dish made with a recipe, a manufactured Food Product" .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/elements/1.1/license> "http://creativecommons.org/licenses/by/3.0/" .
-<http://data.lirmm.fr/ontologies/food#EmmanuelNauer> <http://xmlns.com/foaf/0.1/name> "Emmanuel Nauer" .
-<http://data.lirmm.fr/ontologies/food#code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#FoodProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.lirmm.fr/ontologies/food#Food> .
-<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#energyPer100g> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data: energy (in kJ) per 100g (or 100ml for liquids)" .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/modified> "2012-11-22"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/2000/01/rdf-schema#label> "Food that is an ingredient of another food" .
-<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/2000/01/rdf-schema#label> "Recipe" .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/elements/1.1/creator> <http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet> .
-<http://data.lirmm.fr/ontologies/food#energyPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#NutritionData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/description> "This ontology models the Food domain. It allows to describe ingredients and food products." .
-<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data: proteins (in g) per 100g (or 100ml for liquids)" .
-<http://data.lirmm.fr/ontologies/food#rdf> <http://www.w3.org/ns/adms#status> <http://purl.org/adms/status/Completed> .
-<http://data.lirmm.fr/ontologies/food#rdf> <http://purl.org/dc/terms/FileFormat> "" .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/elements/1.1/creator> <http://data.lirmm.fr/ontologies/food#EmmanuelNauer> .
-<http://data.lirmm.fr/ontologies/food#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://data.lirmm.fr/ontologies/food#ttl> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
-<http://data.lirmm.fr/ontologies/food#rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticDistribution> .
-<http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet> <http://xmlns.com/foaf/0.1/homepage> "" .
-<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.lirmm.fr/ontologies/food#LIRMM> <http://xmlns.com/foaf/0.1/homepage> <http://www.lirmm.fr> .
-<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data: fat (in g) per 100g (or 100ml for liquids)" .
-<http://data.lirmm.fr/ontologies/food#fran%C3%A7ois> <http://xmlns.com/foaf/0.1/homepage> <http://www.scharffe.fr> .
-<http://data.lirmm.fr/ontologies/food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.lirmm.fr/ontologies/food#Food> .
-<http://data.lirmm.fr/ontologies/food#Dish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.lirmm.fr/ontologies/food#FoodProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.lirmm.fr/ontologies/food#LIRMM> <http://xmlns.com/foaf/0.1/name> "LIRMM" .
-<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/partOf> <http://data.lirmm.fr/ontologies> .
-<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/2000/01/rdf-schema#label> "quantity of ingredient in any unit (unit specified in unit)" .
-<http://data.lirmm.fr/ontologies/food#percent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
-<http://data.lirmm.fr/ontologies/food#Ingredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.lirmm.fr/ontologies/food#ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticDistribution> .
-<http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.lirmm.fr/ontologies/food#Ingredient> <http://www.w3.org/2000/01/rdf-schema#label> "An ingredient : a certain quantity of food that is part of another food" .
-<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
-<http://data.lirmm.fr/ontologies/food#Dish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/2000/01/rdf-schema#comment> "Full text of the list of ingredients of a Food item (Product or Dish). May contain more details than what can be listed in the containsIngredient properties." .
-<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/2000/01/rdf-schema#label> "Rank of an ingredient in an ingredient list ordered by quantity (e.g. food products)" .
-<http://data.lirmm.fr/ontologies/food#LIRMM> <http://xmlns.com/foaf/0.1/member> <http://data.lirmm.fr/ontologies/food#fran%C3%A7ois> .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/elements/1.1/creator> <http://data.lirmm.fr/ontologies/food#fran%C3%A7ois> .
-<http://data.lirmm.fr/ontologies/food#energyPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/status> <http://purl.org/adms/status/UnderDevelopment> .
-<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/2000/01/rdf-schema#comment> "e.g. 1 clove of garlic -> quantity = 1, unit = clove, ingredient = garlic (or Food object for garlic)" .
-<http://data.lirmm.fr/ontologies/food#EmmanuelNauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://data.lirmm.fr/ontologies/food#FoodProduct> <http://www.w3.org/2000/01/rdf-schema#label> "A manufactured food product" .
-<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#Food> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/2000/01/rdf-schema#comment> "A recipe as a set of ingredients together with the protocol to prepare the resulting food" .
-<http://data.lirmm.fr/ontologies/food#Ingredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an ingredient line in a recipe (for a Dish) or an ingredient listed in the ingredient list (for a Product).\nWe need to specify a quantity and unit, so the relation is not binary. So the value for the containsIngredient property of a Food object is an object of the IngredientAmount class (instead of a Food object or string directly). See http://www.w3.org/TR/swbp-n-aryRelations/ for details." .
-<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is an object of the class Ingredient so that we can specify the quantity, the unit, and the nature of the ingredient (string or other Food object)\ne.g. 1 clove of garlic -> quantity = 1, unit = clove, ingredient = garlic (or Food object for garlic)" .
-<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
-<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/2000/01/rdf-schema#comment> "String or Food object" .
-<http://data.lirmm.fr/ontologies/food#code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#FoodProduct> .
-<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
-<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/Ontology> .
-<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
-<http://data.lirmm.fr/ontologies/food#NutritionData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.lirmm.fr/ontologies/food#Ingredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/food#Food> <http://www.w3.org/2000/01/rdf-schema#label> "Anything that can be eaten: a basic Food item (e.g. salt), a Dish made with a recipe, a manufactured Food Product" .
+<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/2000/01/rdf-schema#label> "Text of the list of ingredients" .
-<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.lirmm.fr/ontologies/food#LIRMM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
-<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/title> "Food Ontology" .
-<http://data.lirmm.fr/ontologies/food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticAsset> .
+<http://data.lirmm.fr/ontologies/food#ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticDistribution> .
+<http://data.lirmm.fr/ontologies/food#energyPer100g> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data: energy (in kJ) per 100g (or 100ml for liquids)" .
+<http://data.lirmm.fr/ontologies/food#Ingredient> <http://www.w3.org/2000/01/rdf-schema#label> "An ingredient : a certain quantity of food that is part of another food" .
+<http://data.lirmm.fr/ontologies/food#rdf> <http://www.w3.org/ns/adms#accessURL> "http://data.lirmm.fr/ontologies/food.rdf" .
+<http://data.lirmm.fr/ontologies/food#NutritionData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/food#EmmanuelNauer> <http://xmlns.com/foaf/0.1/homepage> "" .
+<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/partOf> <http://data.lirmm.fr/ontologies> .
+<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.lirmm.fr/ontologies/food#Food> .
+<http://data.lirmm.fr/ontologies/food#EmmanuelNauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.lirmm.fr/ontologies/food#rdf> <http://www.w3.org/ns/adms#status> <http://purl.org/adms/status/Completed> .
 <http://data.lirmm.fr/ontologies/food#ttl> <http://www.w3.org/ns/adms#status> <http://purl.org/adms/status/Completed> .
-<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://data.lirmm.fr/ontologies/food#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://data.lirmm.fr/ontologies/food#code> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier: usually a barcode such as EAN-13 (European Article Numbering) or UPC-A (Universal Product Code)" .
-<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
+<http://data.lirmm.fr/ontologies/food#energyPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://data.lirmm.fr/ontologies/food#" .
+<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food#FoodProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://data.lirmm.fr/ontologies/food#fran%C3%A7ois> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
+<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#range> <http://data.lirmm.fr/ontologies/food#Ingredient> .
+<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Value is an object of the class Ingredient so that we can specify the quantity, the unit, and the nature of the ingredient (string or other Food object)\ne.g. 1 clove of garlic -> quantity = 1, unit = clove, ingredient = garlic (or Food object for garlic)" .
+<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.lirmm.fr/ontologies/food#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/food#LIRMM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<http://data.lirmm.fr/ontologies/food#rdf> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#label> "Specifies an ingredient contained in the Food object" .
+<http://data.lirmm.fr/ontologies/food#Dish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/elements/1.1/creator> <http://data.lirmm.fr/ontologies/food#fran%C3%A7ois> .
+<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
+<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.lirmm.fr/ontologies/food#LIRMM> <http://xmlns.com/foaf/0.1/homepage> <http://www.lirmm.fr> .
+<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
+<http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet> <http://xmlns.com/foaf/0.1/homepage> "" .
+<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://data.lirmm.fr/ontologies/food#code> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier: usually a barcode such as EAN-13 (European Article Numbering) or UPC-A (Universal Product Code)" .
+<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
+<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/2000/01/rdf-schema#comment> "e.g. 1 clove of garlic -> quantity = 1, unit = clove, ingredient = garlic (or Food object for garlic)" .
+<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
+<http://data.lirmm.fr/ontologies/food#FoodProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/food#ttl> <http://purl.org/dc/terms/FileFormat> "" .
+<http://data.lirmm.fr/ontologies/food#percent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food#NutritionData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://data.lirmm.fr/ontologies/food#Dish> <http://www.w3.org/2000/01/rdf-schema#label> "A dish is a food item with a recipe" .
+<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data: carbohydrates (in g) per 100g (or 100ml for liquids)" .
+<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit for the specified quantity" .
+<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/2000/01/rdf-schema#label> "Food that is an ingredient of another food" .
+<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
+<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
+<http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.lirmm.fr/ontologies/food> <http://xmlns.com/foaf/0.1/homepage> <http://data.lirmm.fr/ontologies/food.html> .
+<http://data.lirmm.fr/ontologies/food#containsIngredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food#EmmanuelNauer> <http://xmlns.com/foaf/0.1/name> "Emmanuel Nauer" .
+<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
+<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/2000/01/rdf-schema#comment> "e.g. 1 clove of garlic -> quantity = 1, unit = clove, ingredient = garlic (or Food object for garlic)" .
+<http://data.lirmm.fr/ontologies/food#code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#FoodProduct> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/description> "This ontology models the Food domain. It allows to describe ingredients and food products." .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/publisher> "http://data.lirmm.fr/ontologies/food#LIRMM" .
+<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.lirmm.fr/ontologies/food#FoodProduct> <http://www.w3.org/2000/01/rdf-schema#label> "A manufactured food product" .
+<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://data.lirmm.fr/ontologies/food#ttl> <http://www.w3.org/ns/adms#accessURL> "http://data.lirmm.fr/ontologies/food.ttl" .
+<http://data.lirmm.fr/ontologies/food#Ingredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/elements/1.1/license> "http://creativecommons.org/licenses/by/3.0/" .
+<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/elements/1.1/creator> <http://data.lirmm.fr/ontologies/food#EmmanuelNauer> .
+<http://data.lirmm.fr/ontologies/food#FoodProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.lirmm.fr/ontologies/food#Food> .
+<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/created> "2012-10-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/food#Dish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://data.lirmm.fr/ontologies/food#Food> .
+<http://data.lirmm.fr/ontologies/food#rdf> <http://purl.org/dc/terms/FileFormat> "" .
+<http://data.lirmm.fr/ontologies/food#Dish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/food#ttl> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/modified> "2012-11-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/elements/1.1/creator> <http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet> .
+<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data: fat (in g) per 100g (or 100ml for liquids)" .
+<http://data.lirmm.fr/ontologies/food#fatPer100g> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Food> .
+<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/2000/01/rdf-schema#comment> "Full text of the list of ingredients of a Food item (Product or Dish). May contain more details than what can be listed in the containsIngredient properties." .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/status> <http://purl.org/adms/status/UnderDevelopment> .
+<http://data.lirmm.fr/ontologies/food#ingredientListAsText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/title> "Food Ontology" .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/Ontology> .
+<http://data.lirmm.fr/ontologies/food#LIRMM> <http://xmlns.com/foaf/0.1/name> "LIRMM" .
+<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://data.lirmm.fr/ontologies/food#Food> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.lirmm.fr/ontologies/food> <http://purl.org/vocab/vann/preferredNamespacePrefix> "food" .
+<http://data.lirmm.fr/ontologies/food#Ingredient> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an ingredient line in a recipe (for a Dish) or an ingredient listed in the ingredient list (for a Product).\nWe need to specify a quantity and unit, so the relation is not binary. So the value for the containsIngredient property of a Food object is an object of the IngredientAmount class (instead of a Food object or string directly). See http://www.w3.org/TR/swbp-n-aryRelations/ for details." .
+<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/food#percent> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity of ingredient in percentage % of the total amount of ingredients in a Food" .
+<http://data.lirmm.fr/ontologies/food#code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticAsset> .
+<http://data.lirmm.fr/ontologies/food#percent> <http://www.w3.org/2000/01/rdf-schema#comment> "Useful in particular for food products" .
+<http://data.lirmm.fr/ontologies/food#rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticDistribution> .
+<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data: proteins (in g) per 100g (or 100ml for liquids)" .
+<http://data.lirmm.fr/ontologies/food#St%C3%A9phaneGigandet> <http://xmlns.com/foaf/0.1/name> "St\u00E9phane Gigandet" .
+<http://data.lirmm.fr/ontologies/food#fran%C3%A7ois> <http://xmlns.com/foaf/0.1/homepage> <http://www.scharffe.fr> .
+<http://data.lirmm.fr/ontologies/food#fran%C3%A7ois> <http://xmlns.com/foaf/0.1/name> "Fran\u00E7ois Scharffe" .
+<http://data.lirmm.fr/ontologies/food#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.lirmm.fr/ontologies/food#percent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://data.lirmm.fr/ontologies/food#Ingredient> .
+<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/2000/01/rdf-schema#label> "Recipe" .
+<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://data.lirmm.fr/ontologies/food#quantity> <http://www.w3.org/2000/01/rdf-schema#label> "quantity of ingredient in any unit (unit specified in unit)" .
+<http://data.lirmm.fr/ontologies/food#Recipe> <http://www.w3.org/2000/01/rdf-schema#comment> "A recipe as a set of ingredients together with the protocol to prepare the resulting food" .
+<http://data.lirmm.fr/ontologies/food#unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://data.lirmm.fr/ontologies/food#rank> <http://www.w3.org/2000/01/rdf-schema#label> "Rank of an ingredient in an ingredient list ordered by quantity (e.g. food products)" .
+<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food#proteinsPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food#food> <http://www.w3.org/2000/01/rdf-schema#comment> "String or Food object" .
+<http://data.lirmm.fr/ontologies/food#Ingredient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://data.lirmm.fr/ontologies/food#carbohydratesPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://data.lirmm.fr/ontologies/food#LIRMM> <http://xmlns.com/foaf/0.1/member> <http://data.lirmm.fr/ontologies/food#fran%C3%A7ois> .
+<http://data.lirmm.fr/ontologies/food#NutritionData> <http://www.w3.org/2000/01/rdf-schema#label> "Nutrition data for a food item (recipe, product or ingredient)" .
+<http://data.lirmm.fr/ontologies/food#energyPer100g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 

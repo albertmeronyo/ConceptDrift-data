@@ -1,233 +1,233 @@
-<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Organization> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Candidacy> .
-<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de representantes obtenidos (diputados, esca\u00F1os,...) que consigue una candidatura seleccionada"@es .
-<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2000/01/rdf-schema#label> "Candidato"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/2000/01/rdf-schema#comment> "Una formaci\u00F3n pol\u00EDtica que se presenta a una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-_:ff29e1cc2817b400385bd1de1a96eec38b3 <http://purl.org/dc/elements/1.1/creator> "CTIC-CT" .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://www.w3.org/2000/01/rdf-schema#comment> "Una regi\u00F3n o \u00E1rea geogr\u00E1fica donde se lleva a cabo una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-nc-sa/3.0> .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#label> "Votos nulos"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#comment> "Una votaci\u00F3n se realiza sobre un \u00E1rea electoral"@es .
-<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#comment> "Un proceso electoral diferenciado en un periodo de tiempo que incluye una o varias votaciones"@es .
-<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Una votaci\u00F3n espec\u00EDfica, dentro de un proceso electoral, para seleccionar una representaci\u00F3n o dirimir un referendum"@es .
 <http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#label> "Es candidatura de"@es .
+<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Un proceso electoral tiene una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#comment> "Un proceso electoral diferenciado en un periodo de tiempo que incluye una o varias votaciones"@es .
+<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#label> "Votos emitidos"@es .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/creator> "CTIC CT" .
+<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene \u00E1rea electoral"@es .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Candidate> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://www.w3.org/2000/01/rdf-schema#comment> "El objetivo de este vocabulario es la creaci\u00F3n de un esquema que permita definir los contenidos de informaci\u00F3n relacionada con procesos electorales y sus resultados. \n			Se identifican ciertas variables en el dominio de las elecciones, que se modelan a trav\u00E9s de ciertos tipos de datos y de propiedades relacionadas entre los recursos."@es .
+<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#comment> "Una votaci\u00F3n pertenece a un proceso electoral"@es .
+<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
+<event:Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
 <http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de votos en blanco"@es .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Election> .
+<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+_:fb3047efb23644b0c8a839cc1d15640c0b3 <http://purl.org/dc/elements/1.1/date> "2013-01-17" .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/hasFormat> <http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.html> .
+<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Candidacy> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/identifier> "http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117" .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de votos emitidos en una votaci\u00F3n"@es .
 <http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/rights> "CTIC CT - Creative Commons 3.0 (BY-NC-SA)"@es .
+<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2000/01/rdf-schema#label> "Candidato"@es .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/rights> "CTIC CT - Creative Commons 3.0 (BY-NC-SA)"@en .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#comment> "Si la candidatura ha sido seleccionada como resultado de la votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+_:fb3047efb23644b0c8a839cc1d15640c0b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "text/html" .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
 <http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Event> .
+<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#label> "Votos recibidos"@es .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://purl.org/dc/terms/issued> "2013-01-17" .
+<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> .
+<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+_:fb3047efb23644b0c8a839cc1d15640c0b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/IMT> .
+<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://www.w3.org/2000/01/rdf-schema#label> "\u00C1rea electoral"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://open.vocab.org/terms/image> <http://purl.org/ctic/sector-publico/elecciones.png> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> .
+_:fb3047efb23644b0c8a839cc1d15640c0b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/IMT> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#label> "Proceso electoral"@es .
+<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
+<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Party> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:fb3047efb23644b0c8a839cc1d15640c0b3 <http://purl.org/dc/elements/1.1/creator> "CTIC-CT" .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/date> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de votos recibidos por una candidatura en una votaci\u00F3n"@es .
+_:fb3047efb23644b0c8a839cc1d15640c0b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "A\u00F1adidas propiedades para representar porcentuales sobre los resultados y la participaci\u00F3n."@es .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/title> "Vocabulario de Resultados Electorales"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://purl.org/dc/terms/issued> "2013-01-17" .
+<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/2000/01/rdf-schema#comment> "Una formaci\u00F3n pol\u00EDtica que se presenta a una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/isVersionOf> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de votos recibidos por una candidatura en una votaci\u00F3n sobre el total de votantes"@es .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene candidatura"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/2000/01/rdf-schema#label> "Votos en blanco"@es .
+_:fb3047efb23644b0c8a839cc1d15640c0b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "application/rdf+xml" .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://purl.org/dc/terms/issued> "2013-01-17" .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#label> "Votos nulos"@es .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Candidato> .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-nc-sa/3.0> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/hasFormat> <http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.rdf> .
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene candidato"@es .
+<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/elected> .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#label> "Es candidatura de"@es .
+<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/2000/01/rdf-schema#comment> "Una candidatura especifica es de un partido pol\u00EDtico"@es .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://www.w3.org/2004/02/skos/core#historyNote> _:fb3047efb23644b0c8a839cc1d15640c0b3 .
+<http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> .
+<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://purl.org/dc/terms/issued> "2013-01-17" .
+<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://www.w3.org/2000/01/rdf-schema#comment> "Una regi\u00F3n o \u00E1rea geogr\u00E1fica donde se lleva a cabo una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2000/01/rdf-schema#label> "Votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#label> "Partido tiene candidatura"@es .
+<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Organization> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de representantes obtenidos (diputados, esca\u00F1os,...) que consigue una candidatura seleccionada"@es .
+<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> .
+<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#label> "Es candidatura del partido"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de votos recibidos sobre el total de electores"@es .
+<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
+<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#label> "Censo electoral"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> .
+<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de votos nulos en una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de votos nulos"@es .
+_:fb3047efb23644b0c8a839cc1d15640c0b2 <http://www.w3.org/2000/01/rdf-schema#label> "RDF" .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#comment> "Una candidatura pertenece a una votaci\u00F3n espec\u00EDfica"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/replaces> <http://data.fundacionctic.org/vocab/sector-publico/elecciones_20120914> .
+<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Event> .
+<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de personas con derecho a voto en una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.html> <http://purl.org/dc/elements/1.1/format> _:fb3047efb23644b0c8a839cc1d15640c0b1 .
 <http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
 <http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de votos recibidos por una candidatura en una votaci\u00F3n sobre el total de electores"@es .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/ctic/sector-publico/elecciones#" .
-<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2000/01/rdf-schema#label> "Candidatura"@es .
-<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
-_:ff29e1cc2817b400385bd1de1a96eec38b2 <http://www.w3.org/2000/01/rdf-schema#label> "RDF" .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
-<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://www.w3.org/2000/01/rdf-schema#label> "\u00C1rea electoral"@es .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/isVersionOf> <http://purl.org/ctic/sector-publico/elecciones> .
-<event:Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#comment> "Si la candidatura ha sido seleccionada como resultado de la votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Un proceso electoral tiene una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene \u00E1rea electoral"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.rdf> <http://purl.org/dc/elements/1.1/format> _:ff29e1cc2817b400385bd1de1a96eec38b2 .
-<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de personas con derecho a voto en una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene candidatura"@es .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/date> "2012-09-14" .
-<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene candidato"@es .
+<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de participaci\u00F3n"@es .
 <http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#comment> "Una candidatura pertenece a una votaci\u00F3n espec\u00EDfica"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de votos emitidos en una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/2000/01/rdf-schema#label> "Votos en blanco"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#label> "Votos recibidos"@es .
-<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Event> .
-<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/2000/01/rdf-schema#label> "Representantes obtenidos"@es .
-<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Party> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-_:ff29e1cc2817b400385bd1de1a96eec38b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "text/html" .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://purl.org/dc/terms/issued> "2013-01-17" .
-<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#comment> "Un partido pol\u00EDtico puede tener varias candidaturas"@es .
-<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://purl.org/dc/terms/issued> "2013-01-17" .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/creator> "CTIC CT" .
-<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2000/01/rdf-schema#label> "Votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de votos nulos"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de participaci\u00F3n (votos emitidos en relaci\u00F3n al n\u00FAmero de electores) en una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
-<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://purl.org/dc/terms/issued> "2012-09-14" .
 <http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Election> .
-<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#label> "Partido tiene candidatura"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de votos recibidos por una candidatura en una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> .
-<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Partido> .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#comment> "Una candidatura especifica es de un partido pol\u00EDtico"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/vocab/vann/preferredNamespacePrefix> "elec" .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/rights> "CTIC CT - Creative Commons 3.0 (BY-NC-SA)"@en .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/electorate> .
-_:ff29e1cc2817b400385bd1de1a96eec38b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/IMT> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#label> "Es candidatura del partido"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de votos recibidos por una candidatura en una votaci\u00F3n sobre el total de votantes"@es .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#label> "Votos emitidos"@es .
-<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aims.fao.org/aos/geopolitical.owl#territory> .
-<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.html> <http://purl.org/dc/elements/1.1/format> _:ff29e1cc2817b400385bd1de1a96eec38b1 .
-<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de votos nulos respecto a los votos emitidos en una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#label> "Es votaci\u00F3n de"@es .
-_:ff29e1cc2817b400385bd1de1a96eec38b3 <http://purl.org/dc/elements/1.1/date> "2013-01-17" .
-_:ff29e1cc2817b400385bd1de1a96eec38b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "application/rdf+xml" .
-<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/ballotsIssued> .
+<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de votos recibidos por una candidatura en una votaci\u00F3n sobre el total de electores"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de votos recibidos sobre el total de votantes"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://purl.org/dc/terms/issued> "2012-09-14" .
 <http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2000/01/rdf-schema#comment> "Una candidatura para una votaci\u00F3n correspondiente a un partido pol\u00EDtico"@es .
-<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Election> .
+<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Partido> .
+<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de participaci\u00F3n (votos emitidos en relaci\u00F3n al n\u00FAmero de electores) en una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#label> "Es votaci\u00F3n de"@es .
 <http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/issued> "2012-09-14" .
-_:ff29e1cc2817b400385bd1de1a96eec38b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/IMT> .
-<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de votos v\u00E1lidos en una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones> <http://open.vocab.org/terms/image> <http://purl.org/ctic/sector-publico/elecciones.png> .
-<http://purl.org/ctic/sector-publico/elecciones> <http://www.w3.org/2004/02/skos/core#historyNote> _:ff29e1cc2817b400385bd1de1a96eec38b3 .
-<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de votos nulos respecto a los votos emitidos en una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2000/01/rdf-schema#label> "Candidatura"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/ctic/sector-publico/elecciones#" .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de votos en blanco respecto a los votos emitidos en una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#label> "Es seleccionada"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2000/01/rdf-schema#comment> "Candidato de una formaci\u00F3n pol\u00EDtica que se presenta a una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<dctype:Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/2000/01/rdf-schema#label> "Partido pol\u00EDtico"@es .
 <http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> .
-<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://purl.org/dc/terms/issued> "2013-01-17" .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/2000/01/rdf-schema#label> "Votos v\u00E1lidos"@es .
-<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/2000/01/rdf-schema#comment> "Una candidatura especifica es de un partido pol\u00EDtico"@es .
-<http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/hasFormat> <http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.rdf> .
-<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<dctype:Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2000/01/rdf-schema#comment> "Candidato de una formaci\u00F3n pol\u00EDtica que se presenta a una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> .
-<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de votos nulos en una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> .
-<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> .
-<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#comment> "Una votaci\u00F3n puede tener muchas candidaturas"@es .
-<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Event> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidatura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/hasFormat> <http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.html> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/elected> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/candidateVoteCount> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#label> "Censo electoral"@es .
-<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://purl.org/dc/terms/issued> "2012-09-14" .
-_:ff29e1cc2817b400385bd1de1a96eec38b1 <http://www.w3.org/2000/01/rdf-schema#label> "HTML" .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/terms/replaces> <http://data.fundacionctic.org/vocab/sector-publico/elecciones_20120914> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#label> "Es seleccionada"@es .
-_:ff29e1cc2817b400385bd1de1a96eec38b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "A\u00F1adidas propiedades para representar porcentuales sobre los resultados y la participaci\u00F3n."@es .
 <http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de votos en blanco en una votaci\u00F3n"@es .
-<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#comment> "Una votaci\u00F3n pertenece a un proceso electoral"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de votos recibidos sobre el total de votantes"@es .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://www.w3.org/2000/01/rdf-schema#label> "Tiene votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/title> "Vocabulario de Resultados Electorales"@es .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#label> "Proceso electoral"@es .
-<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
-<http://purl.org/ctic/sector-publico/elecciones> <http://www.w3.org/2000/01/rdf-schema#comment> "El objetivo de este vocabulario es la creaci\u00F3n de un esquema que permita definir los contenidos de informaci\u00F3n relacionada con procesos electorales y sus resultados. \n			Se identifican ciertas variables en el dominio de las elecciones, que se modelan a trav\u00E9s de ciertos tipos de datos y de propiedades relacionadas entre los recursos."@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> <http://purl.org/dc/terms/issued> "2012-09-14" .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de votos en blanco respecto a los votos emitidos en una votaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de votos recibidos sobre el total de electores"@es .
-<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
-<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://purl.org/ctic/sector-publico/elecciones#participacion> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de participaci\u00F3n"@es .
-<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Una votaci\u00F3n espec\u00EDfica, dentro de un proceso electoral, para seleccionar una representaci\u00F3n o dirimir un referendum"@es .
-<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones#Candidato> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Candidate> .
-<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
-<http://purl.org/ctic/sector-publico/elecciones#tieneCandidato> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Candidato> .
+_:fb3047efb23644b0c8a839cc1d15640c0b1 <http://www.w3.org/2000/01/rdf-schema#label> "HTML" .
+<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/electorate> .
+<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://www.w3.org/2000/01/rdf-schema#label> "Representantes obtenidos"@es .
+<http://purl.org/ctic/sector-publico/elecciones#AreaElectoral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://aims.fao.org/aos/geopolitical.owl#territory> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 <http://purl.org/ctic/sector-publico/elecciones#participacion> <http://purl.org/dc/terms/issued> "2013-01-17" .
-<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/ballotsIssued> .
-<http://purl.org/ctic/sector-publico/elecciones#Partido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Partido> .
-<http://purl.org/ctic/sector-publico/elecciones#votosNulos> <http://purl.org/dc/terms/issued> "2013-01-17" .
-<http://purl.org/ctic/sector-publico/elecciones#esSeleccionada> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
-<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/dc/elements/1.1/identifier> "http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117" .
-<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Candidatura> .
-<http://purl.org/ctic/sector-publico/elecciones#votosEnBlancoPorcentaje> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/ctic/sector-publico/elecciones#votosPorcentajeSobreElectores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#representantesObtenidos> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> .
+<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/Election> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEnBlanco> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#ProcesoElectoral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Event> .
+<http://purl.org/ctic/sector-publico/elecciones> <http://purl.org/vocab/vann/preferredNamespacePrefix> "elec" .
+<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#comment> "Una votaci\u00F3n puede tener muchas candidaturas"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://purl.org/dc/terms/issued> "2012-09-14" .
+<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/2000/01/rdf-schema#label> "Votos v\u00E1lidos"@es .
+<http://data.fundacionctic.org/vocab/sector-publico/elecciones_20130117.rdf> <http://purl.org/dc/elements/1.1/format> _:fb3047efb23644b0c8a839cc1d15640c0b2 .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Partido> .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDelPartido> <http://www.w3.org/2000/01/rdf-schema#comment> "Una candidatura especifica es de un partido pol\u00EDtico"@es .
+<http://purl.org/ctic/sector-publico/elecciones#Votacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#esVotacionDe> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#tieneVotacion> .
+<http://purl.org/ctic/sector-publico/elecciones#votosValidos> <http://www.w3.org/2000/01/rdf-schema#comment> "N\u00FAmero de votos v\u00E1lidos en una votaci\u00F3n"@es .
+<http://purl.org/ctic/sector-publico/elecciones#tieneCandidatura> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> .
+<http://purl.org/ctic/sector-publico/elecciones#tieneAreaElectoral> <http://www.w3.org/2000/01/rdf-schema#comment> "Una votaci\u00F3n se realiza sobre un \u00E1rea electoral"@es .
+<http://purl.org/ctic/sector-publico/elecciones#censoElectoral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ctic/sector-publico/elecciones> .
+<http://purl.org/ctic/sector-publico/elecciones#votosNulosPorcentaje> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#partidoTieneCandidatura> <http://www.w3.org/2000/01/rdf-schema#comment> "Un partido pol\u00EDtico puede tener varias candidaturas"@es .
+<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ctic/sector-publico/elecciones#esCandidaturaDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ctic/sector-publico/elecciones#Votacion> .
+<http://purl.org/ctic/sector-publico/elecciones#votosRecibidos> <http://www.w3.org/2004/02/skos/core#related> <http://openelectiondata.org/0.1/candidateVoteCount> .
+<http://purl.org/ctic/sector-publico/elecciones#votosEmitidos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 

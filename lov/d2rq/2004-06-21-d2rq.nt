@@ -1,75 +1,75 @@
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ObjectPropertyBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/description> "" .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#propertyBridge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dataStorage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/date> "2004-06-16" .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/subject> "" .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> <http://www.w3.org/2000/01/rdf-schema#comment> "Maps a class in the ontology to its relational representation in a specific database." .
 <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#textColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#username> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#jdbcDriver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriColumn> <http://www.w3.org/2000/01/rdf-schema#comment> "Database column which contains object URIs." .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#belongsToClassMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#propertyBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Used for linking RDFS properties to D2R property bridges." .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dateColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#username> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#classMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#column> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#lang> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#belongsToClassMap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#lang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#refersToClassMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/format> "RDF" .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#column> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ObjectPropertyBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Maps a object property to a column in a specific database." .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#password> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#numericColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract Superclass of DatatypePropertyBridge and ObjectPropertyBridge" .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/publisher> "" .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dataStorage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dataStorage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriPattern> <http://www.w3.org/2000/01/rdf-schema#comment> "Pattern used for URI construction and reversing." .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#pattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#refersToClassMap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#propertyBridge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#bNodeIdColumns> <http://www.w3.org/2000/01/rdf-schema#comment> "Database column or columns which contain the primary key information about an which is identified by an bNode in RDF." .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#join> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#datatype> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> .
 <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#bNodeIdColumns> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#propertyBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ObjectPropertyBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Maps a object property to a column in a specific database." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/title> "" .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#refersToClassMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#lang> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> .
 <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#classMap> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#numericColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#refersToClassMap> <http://www.w3.org/2000/01/rdf-schema#comment> "Has to be used if a join refers to a different classMap." .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#join> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#classMap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ObjectPropertyBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dateColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#belongsToClassMap> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#odbcDSN> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#classMap> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link RDFS or OWL classes to d2r:classMaps." .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Maps a datatype property to a column in a specific database." .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#password> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#bNodeIdColumns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#textColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#jdbcDriver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ObjectPropertyBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#belongsToClassMap> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#password> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#join> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/publisher> "" .
 <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#jdbcDSN> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://www.w3.org/2000/01/rdf-schema#comment> "Database to RDF Query Vocabulary" .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#jdbcDSN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/title> "" .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a database" .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#odbcDSN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriPattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/creator> "Chris Bizer" .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#refersToClassMap> <http://www.w3.org/2000/01/rdf-schema#comment> "Has to be used if a join refers to a different classMap." .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dataStorage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dataStorage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#refersToClassMap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/date> "2004-06-16" .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#numericColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/description> "" .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#refersToClassMap> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ObjectPropertyBridge> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dateColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#belongsToClassMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract Superclass of DatatypePropertyBridge and ObjectPropertyBridge" .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Maps a datatype property to a column in a specific database." .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/format> "RDF" .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#classMap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#belongsToClassMap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/subject> "" .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#username> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#jdbcDSN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#classMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#column> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#odbcDSN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#column> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/elements/1.1/creator> "Chris Bizer" .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#jdbcDriver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#propertyBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Used for linking RDFS properties to D2R property bridges." .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#propertyBridge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#username> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dataStorage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#datatype> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#DatatypePropertyBridge> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#odbcDSN> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#propertyBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#dateColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriPattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#bNodeIdColumns> <http://www.w3.org/2000/01/rdf-schema#comment> "Database column or columns which contain the primary key information about an which is identified by an bNode in RDF." .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#pattern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#numericColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#lang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#bNodeIdColumns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#propertyBridge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a database" .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriColumn> <http://www.w3.org/2000/01/rdf-schema#comment> "Database column which contains object URIs." .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#uriPattern> <http://www.w3.org/2000/01/rdf-schema#comment> "Pattern used for URI construction and reversing." .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ClassMap> <http://www.w3.org/2000/01/rdf-schema#comment> "Maps a class in the ontology to its relational representation in a specific database." .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#ObjectPropertyBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#PropertyBridge> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#classMap> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to link RDFS or OWL classes to d2r:classMaps." .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#join> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#password> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#jdbcDriver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#Database> .
 

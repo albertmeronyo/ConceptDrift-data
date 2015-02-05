@@ -1,220 +1,220 @@
-_:ff96eb1357bb34601a9f2b1d829a7058eb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML content preceding the document type declaration"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlEncoding> .
-<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb2 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#DoctypeDecl> .
-<http://www.w3.org/2008/content#bytes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#Base64Content> .
-<http://www.w3.org/2008/content#systemId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb23 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/2008/content#systemId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#DoctypeDecl> .
-<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLContent> .
-<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/2000/01/rdf-schema#label> "XML rest"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#characterEncoding> <http://www.w3.org/2000/01/rdf-schema#comment> "The character encoding used create a character sequence from a byte\n    sequence or vice versa"@en .
-<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML character encoding"@en .
-<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb8 .
-<http://www.w3.org/2008/content#chars> <http://www.w3.org/2000/01/rdf-schema#comment> "The character sequence of the content"@en .
-<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb29 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlLeadingMisc> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb14 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#label> "Document type declaration"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/2000/01/rdf-schema#label> "XML character encoding"@en .
-<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML version"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content> <http://www.w3.org/2002/07/owl#versionInfo> "Copyright \u00A9 2008 World Wide Web Consortium"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb16 .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb13 .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb4 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb6 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#publicId> .
-<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#DoctypeDecl> .
-<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML declaration"@en .
-<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/2000/01/rdf-schema#label> "XML version"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb16 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#label> "XML declaration"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb13 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#chars> <http://www.w3.org/2000/01/rdf-schema#label> "Character sequence"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlDecl> .
-<http://www.w3.org/2008/content#xmlStandalone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.w3.org/2008/content#characterEncoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#bytes> .
-<http://www.w3.org/2008/content#xmlDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb11 .
-<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb18 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/2008/content#systemId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb20 .
-<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#label> "Base64 content"@en .
-<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/2000/01/rdf-schema#label> "Document type declaration"@en .
-<http://www.w3.org/2008/content#publicId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/2008/content#xmlStandalone> <http://www.w3.org/2000/01/rdf-schema#label> "XML standalone document declaration"@en .
-<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLDecl> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb5 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb14 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlStandalone> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#systemId> .
-<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML content following the document type declaration"@en .
-<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/2008/content#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2011/content.rdfs> .
-<http://www.w3.org/2008/content#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb7 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2008/content#Content> .
-<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#label> "Document type name"@en .
-<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLContent> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#systemId> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb9 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb31 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb10 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb21 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#XMLLiteral> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML content (can be used for XML-wellformed resource)"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#internalSubset> .
-<http://www.w3.org/2008/content#chars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb19 .
-<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/content#DoctypeDecl> .
-<http://www.w3.org/2008/content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb10 .
-<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#label> "Text content"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#doctypeDecl> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#internalSubset> .
-<http://www.w3.org/2008/content#xmlDecl> <http://www.w3.org/2000/01/rdf-schema#label> "XML declaration"@en .
-<http://www.w3.org/2008/content#> <http://www.w3.org/2000/01/rdf-schema#comment> "This has been obsoleted by http://www.w3.org/2011/content.rdfs" .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb5 .
-<http://www.w3.org/2008/content#bytes> <http://www.w3.org/2000/01/rdf-schema#comment> "The Base64 encoded byte sequence of the content"@en .
-<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb1 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb23 .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb6 .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#label> "XML content"@en .
-<http://www.w3.org/2008/content#xmlDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML declaration"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb7 .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb27 .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb3 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlVersion> .
-<http://www.w3.org/2008/content#xmlDecl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLContent> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#doctypeName> .
-<http://www.w3.org/2008/content#chars> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#TextContent> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlStandalone> .
-<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#doctypeName> .
-<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb15 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb24 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
-<http://www.w3.org/2008/content#xmlStandalone> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML standalone document declaration"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlRest> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb31 .
-<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#comment> "The base64 encoded content (can be used for all types of content)"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb22 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2008/content#Content> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlEncoding> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb30 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declaration"@en .
-<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type name"@en .
-<http://www.w3.org/2008/content#Content> <http://www.w3.org/2000/01/rdf-schema#label> "Content"@en .
-<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#publicId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#DoctypeDecl> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlLeadingMisc> .
-<http://www.w3.org/2008/content#bytes> <http://www.w3.org/2000/01/rdf-schema#label> "Base64 encoded byte sequence"@en .
-<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb18 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#doctypeDecl> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#Content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/2008/content#xmlStandalone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLDecl> .
-<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLContent> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#publicId> <http://www.w3.org/2000/01/rdf-schema#label> "Public ID"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLDecl> .
-<http://www.w3.org/2008/content#characterEncoding> <http://www.w3.org/2000/01/rdf-schema#label> "Character encoding"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlVersion> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb25 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb26 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#systemId> <http://www.w3.org/2000/01/rdf-schema#label> "System ID"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlDecl> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#publicId> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declarations's public identifier"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb21 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb9 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb27 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#label> "Internal DTD subset"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb11 .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb28 .
+<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb17 .
+_:f36f76ed51fcb421c85602405f7edaddfb29 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
 <http://www.w3.org/2008/content#xmlDecl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/content#XMLDecl> .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb22 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb28 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb29 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#publicId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb12 .
-<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#comment> "The internal subset of the DTD"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb4 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#chars> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb11 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#bytes> .
-<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb30 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb17 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb20 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb32 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlRest> .
-<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declaration"@en .
-<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb32 .
+<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb7 .
+_:f36f76ed51fcb421c85602405f7edaddfb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML version"@en .
+<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#label> "XML declaration"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlRest> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML content (can be used for XML-wellformed resource)"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#doctypeDecl> .
+_:f36f76ed51fcb421c85602405f7edaddfb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb8 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:f36f76ed51fcb421c85602405f7edaddfb9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
+_:f36f76ed51fcb421c85602405f7edaddfb30 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlDecl> .
+_:f36f76ed51fcb421c85602405f7edaddfb29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlRest> .
+_:f36f76ed51fcb421c85602405f7edaddfb30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlVersion> .
+<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#label> "Base64 content"@en .
+<http://www.w3.org/2008/content#chars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f36f76ed51fcb421c85602405f7edaddfb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
+<http://www.w3.org/2008/content#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2011/content.rdfs> .
+<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#label> "Document type name"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb13 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb23 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb11 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlDecl> .
+<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declaration"@en .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#label> "Document type declaration"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb10 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb25 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb27 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML content preceding the document type declaration"@en .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb21 .
+_:f36f76ed51fcb421c85602405f7edaddfb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb9 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#characterEncoding> <http://www.w3.org/2000/01/rdf-schema#comment> "The character encoding used create a character sequence from a byte\n    sequence or vice versa"@en .
+<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/content#DoctypeDecl> .
+_:f36f76ed51fcb421c85602405f7edaddfb24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
 <http://www.w3.org/2008/content#xmlStandalone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#Content> <http://www.w3.org/2000/01/rdf-schema#comment> "The message body content"@en .
-_:ff96eb1357bb34601a9f2b1d829a7058eb12 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#XMLLiteral> .
-<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#systemId> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declarations's system identifier (typed: xsd:anyURI)"@en .
-<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb17 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
-<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb24 .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb26 .
-<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#comment> "The text content (can be used for non-XML-wellformed text resources)"@en .
-<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/2000/01/rdf-schema#label> "XML leading misc"@en .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb28 .
-<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb15 .
-_:ff96eb1357bb34601a9f2b1d829a7058eb7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#chars> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb2 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#publicId> .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb3 .
+<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#label> "Text content"@en .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb19 .
+_:f36f76ed51fcb421c85602405f7edaddfb12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLContent> .
+_:f36f76ed51fcb421c85602405f7edaddfb15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlEncoding> .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb20 .
+_:f36f76ed51fcb421c85602405f7edaddfb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb5 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f36f76ed51fcb421c85602405f7edaddfb12 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb1 .
+_:f36f76ed51fcb421c85602405f7edaddfb21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#publicId> .
+_:f36f76ed51fcb421c85602405f7edaddfb23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#chars> .
+_:f36f76ed51fcb421c85602405f7edaddfb5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#publicId> .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declaration"@en .
+<http://www.w3.org/2008/content#> <http://www.w3.org/2000/01/rdf-schema#comment> "This has been obsoleted by http://www.w3.org/2011/content.rdfs" .
+_:f36f76ed51fcb421c85602405f7edaddfb14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlVersion> .
+<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/2000/01/rdf-schema#label> "XML rest"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2008/content#Content> .
+<http://www.w3.org/2008/content#Content> <http://www.w3.org/2000/01/rdf-schema#label> "Content"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb7 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#publicId> <http://www.w3.org/2000/01/rdf-schema#label> "Public ID"@en .
+<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f36f76ed51fcb421c85602405f7edaddfb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb32 .
+<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#comment> "The base64 encoded content (can be used for all types of content)"@en .
+<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb27 .
+_:f36f76ed51fcb421c85602405f7edaddfb8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
+_:f36f76ed51fcb421c85602405f7edaddfb24 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb12 .
+<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#DoctypeDecl> .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb6 .
 <http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2008/content#Content> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb8 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
-_:ff96eb1357bb34601a9f2b1d829a7058eb26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ff96eb1357bb34601a9f2b1d829a7058eb25 .
+_:f36f76ed51fcb421c85602405f7edaddfb3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#xmlDecl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLContent> .
+_:f36f76ed51fcb421c85602405f7edaddfb32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#doctypeDecl> .
+<http://www.w3.org/2008/content#xmlStandalone> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML standalone document declaration"@en .
+<http://www.w3.org/2008/content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/2008/content#xmlStandalone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLDecl> .
+_:f36f76ed51fcb421c85602405f7edaddfb20 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:f36f76ed51fcb421c85602405f7edaddfb26 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/content> <http://www.w3.org/2002/07/owl#versionInfo> "Copyright \u00A9 2008 World Wide Web Consortium"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#DoctypeDecl> .
+<http://www.w3.org/2008/content#systemId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f36f76ed51fcb421c85602405f7edaddfb7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#chars> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb29 .
+<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLContent> .
+<http://www.w3.org/2008/content#publicId> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declarations's public identifier"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#XMLLiteral> .
+<http://www.w3.org/2008/content#Content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb13 .
+<http://www.w3.org/2008/content#chars> <http://www.w3.org/2000/01/rdf-schema#comment> "The character sequence of the content"@en .
+<http://www.w3.org/2008/content#chars> <http://www.w3.org/2000/01/rdf-schema#label> "Character sequence"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb32 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2008/content#publicId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2008/content#systemId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#DoctypeDecl> .
+_:f36f76ed51fcb421c85602405f7edaddfb25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb9 .
+_:f36f76ed51fcb421c85602405f7edaddfb18 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb10 .
+<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#comment> "The text content (can be used for non-XML-wellformed text resources)"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#doctypeName> .
+_:f36f76ed51fcb421c85602405f7edaddfb12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlLeadingMisc> .
+_:f36f76ed51fcb421c85602405f7edaddfb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb30 .
+_:f36f76ed51fcb421c85602405f7edaddfb14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#systemId> .
+_:f36f76ed51fcb421c85602405f7edaddfb2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
+_:f36f76ed51fcb421c85602405f7edaddfb21 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#internalSubset> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb26 .
+_:f36f76ed51fcb421c85602405f7edaddfb28 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#comment> "The internal subset of the DTD"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb5 .
+<http://www.w3.org/2008/content#Content> <http://www.w3.org/2000/01/rdf-schema#comment> "The message body content"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb8 .
+<http://www.w3.org/2008/content#characterEncoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb18 .
+_:f36f76ed51fcb421c85602405f7edaddfb3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#xmlStandalone> <http://www.w3.org/2000/01/rdf-schema#label> "XML standalone document declaration"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlStandalone> .
+<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLContent> .
+<http://www.w3.org/2008/content#chars> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#TextContent> .
+<http://www.w3.org/2008/content#characterEncoding> <http://www.w3.org/2000/01/rdf-schema#label> "Character encoding"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#xmlDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb4 .
+_:f36f76ed51fcb421c85602405f7edaddfb22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#publicId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2008/content#Content> .
+<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2008/content#Base64Content> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb2 .
+<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb14 .
+<http://www.w3.org/2008/content#systemId> <http://www.w3.org/2000/01/rdf-schema#label> "System ID"@en .
+<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb23 .
+<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f36f76ed51fcb421c85602405f7edaddfb15 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLDecl> .
+_:f36f76ed51fcb421c85602405f7edaddfb6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#systemId> .
+<http://www.w3.org/2008/content#doctypeDecl> <http://www.w3.org/2000/01/rdf-schema#label> "Document type declaration"@en .
+<http://www.w3.org/2008/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb22 .
+<http://www.w3.org/2008/content#publicId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#DoctypeDecl> .
+_:f36f76ed51fcb421c85602405f7edaddfb1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#bytes> .
+_:f36f76ed51fcb421c85602405f7edaddfb27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#bytes> .
+_:f36f76ed51fcb421c85602405f7edaddfb31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlEncoding> .
+_:f36f76ed51fcb421c85602405f7edaddfb18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#characterEncoding> .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb25 .
+<http://www.w3.org/2008/content#XMLContent> <http://www.w3.org/2000/01/rdf-schema#label> "XML content"@en .
+<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/2000/01/rdf-schema#label> "XML character encoding"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlStandalone> .
+<http://www.w3.org/2008/content#bytes> <http://www.w3.org/2000/01/rdf-schema#comment> "The Base64 encoded byte sequence of the content"@en .
+<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML declaration"@en .
+<http://www.w3.org/2008/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type name"@en .
+<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/2000/01/rdf-schema#label> "XML version"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#xmlLeadingMisc> .
+_:f36f76ed51fcb421c85602405f7edaddfb20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#internalSubset> .
+<http://www.w3.org/2008/content#xmlDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML declaration"@en .
+<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+_:f36f76ed51fcb421c85602405f7edaddfb19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#systemId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:f36f76ed51fcb421c85602405f7edaddfb6 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#systemId> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declarations's system identifier (typed: xsd:anyURI)"@en .
+<http://www.w3.org/2008/content#TextContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb24 .
+_:f36f76ed51fcb421c85602405f7edaddfb2 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#label> "Internal DTD subset"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:f36f76ed51fcb421c85602405f7edaddfb7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#xmlVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#XMLDecl> .
+_:f36f76ed51fcb421c85602405f7edaddfb19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb14 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#xmlLeadingMisc> <http://www.w3.org/2000/01/rdf-schema#label> "XML leading misc"@en .
+<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb15 .
+_:f36f76ed51fcb421c85602405f7edaddfb31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:f36f76ed51fcb421c85602405f7edaddfb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#bytes> <http://www.w3.org/2000/01/rdf-schema#label> "Base64 encoded byte sequence"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb16 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#bytes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/content#Base64Content> .
+_:f36f76ed51fcb421c85602405f7edaddfb17 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb31 .
+<http://www.w3.org/2008/content#xmlEncoding> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML character encoding"@en .
+_:f36f76ed51fcb421c85602405f7edaddfb30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#XMLLiteral> .
+_:f36f76ed51fcb421c85602405f7edaddfb19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/content#doctypeName> .
+<http://www.w3.org/2008/content#xmlStandalone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:f36f76ed51fcb421c85602405f7edaddfb31 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3.org/2008/content#xmlDecl> <http://www.w3.org/2000/01/rdf-schema#label> "XML declaration"@en .
+<http://www.w3.org/2008/content#xmlRest> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML content following the document type declaration"@en .
+<http://www.w3.org/2008/content#XMLDecl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:f36f76ed51fcb421c85602405f7edaddfb16 .
+_:f36f76ed51fcb421c85602405f7edaddfb4 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:f36f76ed51fcb421c85602405f7edaddfb22 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
 

@@ -1,113 +1,113 @@
-<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "communication language"@en .
-<http://www.lingvoj.org/ontology#iso3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#comment> "As defined by http://en.wikipedia.org/wiki/Wikipedia:Babel"@en .
-<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://downlode.org/rdf/iso-639/schema#alpha2> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.lingvoj.org/ontology#iso1> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Spr\u00E5k"@no .
-<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-2B code"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u8BED\u8A00"@zh .
-<http://xmlns.com/foaf/0.1/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Taal"@nl .
-<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-_:fc43b111a5c4d48248e67e8de2c96a846b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Organization> .
-_:fc43b111a5c4d48248e67e8de2c96a846b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:fc43b111a5c4d48248e67e8de2c96a846b4 <http://www.w3.org/2002/07/owl#unionOf> _:fc43b111a5c4d48248e67e8de2c96a846b5 .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate level language"@en .
-<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "working language"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Spr\u00E5k"@sv .
-<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#label> "near-native language"@en .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://downlode.org/rdf/iso-639/schema#alpha2> .
 <http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language the organization or project uses to communicate externally."@en .
-<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://psi.oasis-open.org/iso/639/#code-a3b> .
-<http://www.lingvoj.org/ontology#iso3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-_:fc43b111a5c4d48248e67e8de2c96a846b1 <http://www.w3.org/2002/07/owl#unionOf> _:fc43b111a5c4d48248e67e8de2c96a846b2 .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "L\u00EDngua"@pt .
-_:fc43b111a5c4d48248e67e8de2c96a846b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Project> .
-_:fc43b111a5c4d48248e67e8de2c96a846b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-_:fc43b111a5c4d48248e67e8de2c96a846b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "native language"@en .
-<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:fc43b111a5c4d48248e67e8de2c96a846b1 .
-<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Lingvoj Ontology" .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#comment> "As defined by http://en.wikipedia.org/wiki/Wikipedia:Babel"@en .
-<http://psi.oasis-open.org/iso/639/#code-a3b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-1 code"@en .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#versionInfo> "version 1.0 - september 2007" .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Lenguaje"@es .
-<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "J\u0119zyk"@pl .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2002/07/owl#versionInfo> "version 1.0 - september 2007" .
+<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://downlode.org/rdf/iso-639/schema#alpha2> .
+<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://psi.oasis-open.org/iso/639/#code-a3t> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u042F\u0437\u044B\u043A"@ru .
+_:f459e15615d74427b9902b3afd2f73e5ab3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Project> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Dil"@tr .
+_:f459e15615d74427b9902b3afd2f73e5ab2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f459e15615d74427b9902b3afd2f73e5ab3 .
+<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:f459e15615d74427b9902b3afd2f73e5ab4 .
+<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:f459e15615d74427b9902b3afd2f73e5ab4 .
+<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f459e15615d74427b9902b3afd2f73e5ab2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-2B code"@en .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://psi.oasis-open.org/iso/639/#code-a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2000/01/rdf-schema#label> "professional language"@en .
+<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+_:f459e15615d74427b9902b3afd2f73e5ab1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "L\u00EDngua"@pt .
+<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
 <http://www.lingvoj.org/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en .
-<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:fc43b111a5c4d48248e67e8de2c96a846b1 .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Kieli"@fi .
-<http://downlode.org/rdf/iso-639/schema#alpha2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology for using languages as resources" .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Linguaggio"@it .
-<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://psi.oasis-open.org/iso/639/#code-a3t> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Sprache"@de .
-<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Langue"@fr .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#comment> "As defined by http://en.wikipedia.org/wiki/Wikipedia:Babel"@en .
-_:fc43b111a5c4d48248e67e8de2c96a846b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f459e15615d74427b9902b3afd2f73e5ab6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#comment> "As defined by http://en.wikipedia.org/wiki/Wikipedia:Babel"@en .
 <http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://psi.oasis-open.org/iso/639/#code-a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://psi.oasis-open.org/iso/639/#code-a3b> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.lingvoj.org/ontology#iso2b> .
-<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u8A00\u8A9E"@ja .
-<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#label> "basic level language"@en .
-<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:fc43b111a5c4d48248e67e8de2c96a846b4 .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#comment> "As defined by http://en.wikipedia.org/wiki/Wikipedia:Babel"@en .
-<http://psi.oasis-open.org/iso/639/#code-a3t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "member language"@en .
 <http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2000/01/rdf-schema#comment> "ISO 639-2 terminological code"@en .
-<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language used by some member(s) of the organization or project."@en .
-<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#label> "advanced level language"@en .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u042F\u0437\u044B\u043A"@ru .
-_:fc43b111a5c4d48248e67e8de2c96a846b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Project> .
-<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2000/01/rdf-schema#comment> "ISO 639-2 bibliographic code"@en .
-<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://psi.oasis-open.org/iso/639/#code-a2> .
+<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+_:f459e15615d74427b9902b3afd2f73e5ab1 <http://www.w3.org/2002/07/owl#unionOf> _:f459e15615d74427b9902b3afd2f73e5ab2 .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://downlode.org/rdf/iso-639/schema#alpha2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Linguaggio"@it .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Sprache"@de .
+<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
 <http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2000/01/rdf-schema#comment> "As defined by http://en.wikipedia.org/wiki/Wikipedia:Babel"@en .
-<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:fc43b111a5c4d48248e67e8de2c96a846b4 .
-<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
-<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/2000/01/rdf-schema#label> "professional language"@en .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#label> "basic level language"@en .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f459e15615d74427b9902b3afd2f73e5ab5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:f459e15615d74427b9902b3afd2f73e5ab1 .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Lenguaje"@es .
+<http://www.lingvoj.org/ontology#hasAbility5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://psi.oasis-open.org/iso/639/#code-a3b> .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#label> "advanced level language"@en .
+<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2000/01/rdf-schema#comment> "ISO 639-2 bibliographic code"@en .
+<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "native language"@en .
 <http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Lingvo"@eo .
-<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-2T code"@en .
-<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-_:fc43b111a5c4d48248e67e8de2c96a846b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fc43b111a5c4d48248e67e8de2c96a846b6 .
-<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Dil"@tr .
-_:fc43b111a5c4d48248e67e8de2c96a846b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Organization> .
-<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:fc43b111a5c4d48248e67e8de2c96a846b1 .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u8BED\u8A00"@zh .
+<http://www.lingvoj.org/ontology#iso3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "communication language"@en .
+<http://psi.oasis-open.org/iso/639/#code-a3b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-1 code"@en .
+_:f459e15615d74427b9902b3afd2f73e5ab5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f459e15615d74427b9902b3afd2f73e5ab6 .
+<http://psi.oasis-open.org/iso/639/#code-a3b> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.lingvoj.org/ontology#iso2b> .
+<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:f459e15615d74427b9902b3afd2f73e5ab4 .
 <http://psi.oasis-open.org/iso/639/#code-a3t> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.lingvoj.org/ontology#iso2t> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Kieli"@fi .
+<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-2T code"@en .
+<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#label> "intermediate level language"@en .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology for using languages as resources" .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Langue"@fr .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:f459e15615d74427b9902b3afd2f73e5ab4 <http://www.w3.org/2002/07/owl#unionOf> _:f459e15615d74427b9902b3afd2f73e5ab5 .
 <http://www.lingvoj.org/ontology#iso3> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-3 code"@en .
-<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:fc43b111a5c4d48248e67e8de2c96a846b4 .
-<http://psi.oasis-open.org/iso/639/#code-a2> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.lingvoj.org/ontology#iso1> .
-_:fc43b111a5c4d48248e67e8de2c96a846b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fc43b111a5c4d48248e67e8de2c96a846b3 .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/ontology#iso1> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://psi.oasis-open.org/iso/639/#code-a2> .
+<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Lingvoj Ontology" .
+<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:f459e15615d74427b9902b3afd2f73e5ab4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Taal"@nl .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Spr\u00E5k"@no .
+<http://psi.oasis-open.org/iso/639/#code-a3t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:f459e15615d74427b9902b3afd2f73e5ab3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:f459e15615d74427b9902b3afd2f73e5ab1 .
+<http://www.lingvoj.org/ontology#hasNativeLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "\u8A00\u8A9E"@ja .
+<http://www.lingvoj.org/ontology#iso2b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language used by some member(s) of the organization or project."@en .
+<http://www.lingvoj.org/ontology#iso2t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/ontology#hasMemberLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "member language"@en .
 <http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://downlode.org/rdf/iso-639/schema#alpha2> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.lingvoj.org/ontology#iso1> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#label> "near-native language"@en .
+<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
 <http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language the project or organization uses for internal communication."@en .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://psi.oasis-open.org/iso/639/#code-a2> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.lingvoj.org/ontology#iso1> .
+_:f459e15615d74427b9902b3afd2f73e5ab6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Project> .
+<http://www.lingvoj.org/ontology#hasAbility3> <http://www.w3.org/2000/01/rdf-schema#comment> "As defined by http://en.wikipedia.org/wiki/Wikipedia:Babel"@en .
+<http://www.lingvoj.org/ontology#hasAbility2> <http://www.w3.org/2000/01/rdf-schema#comment> "As defined by http://en.wikipedia.org/wiki/Wikipedia:Babel"@en .
+<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#hasAbility4> <http://www.w3.org/2000/01/rdf-schema#comment> "As defined by http://en.wikipedia.org/wiki/Wikipedia:Babel"@en .
+<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "A language the organization or project uses to communicate externally."@en .
+<http://www.lingvoj.org/ontology#Lingvo> <http://www.w3.org/2000/01/rdf-schema#label> "Spr\u00E5k"@sv .
+<http://www.lingvoj.org/ontology#iso3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#hasAbility1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.lingvoj.org/ontology#Lingvo> .
+<http://www.lingvoj.org/ontology#hasCommunicationLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> _:f459e15615d74427b9902b3afd2f73e5ab1 .
+<http://www.lingvoj.org/ontology#hasWorkingLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "working language"@en .
 

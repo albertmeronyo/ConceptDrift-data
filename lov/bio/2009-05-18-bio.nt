@@ -1,81 +1,81 @@
-<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#label> "Key words"@en .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/rights> "Copyright \u00A9 2002-2004 Ian Davis and David Galbraith" .
-<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://iandavis.com/id/me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/description> "This document describes a vocabulary for describing biographical information about people, both living and dead. It has been designed to be compatible with both RDF and non-RDF XML formats such as FOAF, RSS 1.0 and RSS 2.0. It contains terms useful for finding out more about people and their backgrounds and has some cross-over into genealogical information."@en .
-<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#comment> "A birth event."@en .
-<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/bio/0.1/Event> .
-<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/requires> <http://web.resource.org/cc/Notice> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/example> <http://purl.org/vocab/bio/0.1/bio-example-rss10-20040303.html> .
-<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#comment> "An event associated with a person."@en .
-<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/creator> "David Galbraith" .
-<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#comment> "The place of an event."@en .
-<http://iandavis.com/id/me> <http://xmlns.com/foaf/0.1/name> "Ian Davis" .
-<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/requires> <http://web.resource.org/cc/Attribution> .
-<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#comment> "A one-line biography of the person."@en .
-<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> .
-<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/creator> <http://iandavis.com/id/me> .
-<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
-<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/DerivativeWorks> .
-<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/bio/0.1/Event> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/vocab/bio/0.1/" .
-<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "A general event, i.e. something that the person participated in."@en .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://web.resource.org/cc/license> <http://creativecommons.org/licenses/by/1.0/> .
-<http://purl.org/vocab/bio/0.1/bio-example-rss10-20040303.html> <http://purl.org/dc/terms/title> "Using With RSS 1.0" .
 <http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/Reproduction> .
-<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/bio/0.1/Event> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/title> "BIO: A vocabulary for biographical information" .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/example> <http://purl.org/vocab/bio/0.1/bio-example-foaf-20040303.html> .
-<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
-<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#label> "Marriage"@en .
-<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://purl.org/vocab/bio/0.1/bio-example-rss20-20040303.html> <http://purl.org/dc/terms/title> "Using With RSS 2.0" .
-<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/Distribution> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/changes> <http://purl.org/vocab/bio/0.1/bio-changes-20040305.html> .
-<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/date> "2009-05-19" .
-<http://purl.org/vocab/bio/0.1/date> <http://purl.org/vocab/vann/usageNote> <http://purl.org/vocab/bio/0.1/date-usage-20040303.html> .
-<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
-<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/subject> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/terms/type> <http://purl.org/dc/dcmitype/Text> .
-<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
-<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
-<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#comment> "A death event."@en .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/identifier> "http://purl.org/vocab/bio/0.1/bio-vocab-20040305" .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/example> <http://purl.org/vocab/bio/0.1/bio-example-html-20040303.html> .
-<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://purl.org/vocab/bio/0.1/bio-example-html-20040303.html> <http://purl.org/dc/terms/title> "Using With HTML" .
-<http://creativecommons.org/licenses/by/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://web.resource.org/cc/License> .
-<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
-<http://purl.org/vocab/bio/0.1/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://web.resource.org/cc/Work> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/example> <http://purl.org/vocab/bio/0.1/bio-example-rss20-20040303.html> .
-<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
-<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of an event."@en .
-<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
-<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "bio" .
-<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
-<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/bio/0.1/Event> .
-<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
-<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#label> "One-line bio"@en .
 <http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
-<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
-<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/bio/0.1/Event> .
-<http://purl.org/vocab/bio/0.1/bio-example-foaf-20040303.html> <http://purl.org/dc/terms/title> "Using With FOAF" .
-<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#label> "Birth"@en .
-<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#label> "Death"@en .
-<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#label> "One-line bio"@en .
+<http://purl.org/vocab/bio/0.1/date> <http://purl.org/vocab/vann/usageNote> <http://purl.org/vocab/bio/0.1/date-usage-20040303.html> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/DerivativeWorks> .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#label> "Key words"@en .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/creator> "David Galbraith" .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/requires> <http://web.resource.org/cc/Notice> .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/Distribution> .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/example> <http://purl.org/vocab/bio/0.1/bio-example-rss10-20040303.html> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/creator> <http://iandavis.com/id/me> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/identifier> "http://purl.org/vocab/bio/0.1/bio-vocab-20040305" .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/requires> <http://web.resource.org/cc/Attribution> .
+<http://iandavis.com/id/me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/bio-example-html-20040303.html> <http://purl.org/dc/terms/title> "Using With HTML" .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#comment> "A death event."@en .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/subject> .
 <http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#comment> "A comma delimited list of key words that describe this person."@en .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/example> <http://purl.org/vocab/bio/0.1/bio-example-rss20-20040303.html> .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#label> "Death"@en .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#label> "Birth"@en .
+<http://iandavis.com/id/me> <http://xmlns.com/foaf/0.1/name> "Ian Davis" .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#comment> "The date of an event."@en .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/date> "2009-05-19" .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/2000/01/rdf-schema#comment> "The place of an event."@en .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://web.resource.org/cc/license> <http://creativecommons.org/licenses/by/1.0/> .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#comment> "An event associated with a person."@en .
+<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/vocab/bio/0.1/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://purl.org/dc/terms/type> <http://purl.org/dc/dcmitype/Text> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/description> "This document describes a vocabulary for describing biographical information about people, both living and dead. It has been designed to be compatible with both RDF and non-RDF XML formats such as FOAF, RSS 1.0 and RSS 2.0. It contains terms useful for finding out more about people and their backgrounds and has some cross-over into genealogical information."@en .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/changes> <http://purl.org/vocab/bio/0.1/bio-changes-20040305.html> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/example> <http://purl.org/vocab/bio/0.1/bio-example-foaf-20040303.html> .
 <http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#comment> "A marriage event."@en .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/bio/0.1/Event> .
+<http://creativecommons.org/licenses/by/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://web.resource.org/cc/License> .
+<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "A general event, i.e. something that the person participated in."@en .
+<http://purl.org/vocab/bio/0.1/Death> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/title> "BIO: A vocabulary for biographical information" .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#comment> "A one-line biography of the person."@en .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/vocab/bio/0.1/bio-example-rss20-20040303.html> <http://purl.org/dc/terms/title> "Using With RSS 2.0" .
+<http://purl.org/vocab/bio/0.1/bio-example-foaf-20040303.html> <http://purl.org/dc/terms/title> "Using With FOAF" .
+<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/bio/0.1/Event> .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/Marriage> <http://www.w3.org/2000/01/rdf-schema#label> "Marriage"@en .
+<http://purl.org/vocab/bio/0.1/event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/dc/terms/rights> "Copyright \u00A9 2002-2004 Ian Davis and David Galbraith" .
+<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/vocab/bio/0.1/bio-example-rss10-20040303.html> <http://purl.org/dc/terms/title> "Using With RSS 1.0" .
+<http://purl.org/vocab/bio/0.1/keywords> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/vocab/bio/0.1/date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/vocab/bio/0.1/" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://web.resource.org/cc/Work> .
+<http://purl.org/vocab/bio/0.1/olb> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/bio/0.1/> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/example> <http://purl.org/vocab/bio/0.1/bio-example-html-20040303.html> .
+<http://purl.org/vocab/bio/0.1/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "bio" .
+<http://purl.org/vocab/bio/0.1/Birth> <http://www.w3.org/2000/01/rdf-schema#comment> "A birth event."@en .
 

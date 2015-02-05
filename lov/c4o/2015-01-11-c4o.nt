@@ -1,195 +1,195 @@
-<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking a publication entity to the property c40:GlobalCitationCount that specify how many times a work has been cited by others, according to a particular information source on a particular date."@en .
-_:ub107bL222C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub107bL223C40 .
-<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#comment> "A property used to assert the connection between an in-text reference pointer and the bibliographic reference it points to."@en .
-<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/rights> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en .
-<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "has global citation frequency"@en .
-<http://purl.org/spar/c4o/SingleReferencePointerList> <http://purl.org/dc/elements/1.1/description> "A single reference pointer list pertains only to one bibliographic reference.\n\nNote that this semantic constraint is handled by the combined use of a particular restriction of this class, i.e. that the list pertains to exactly one owl:Thing, and that the following SWRL rule applies:\n\nc4o:InTextReferencePointerList(?l), c4o:denotes(?p, ?r), swan:item(?l, ?i), swan:itemContent(?i, ?p) -> c4o:pertainsTo(?l, ?r)"@en .
-<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/c4o/GlobalCitationCount> .
-<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub107bL206C26 .
-<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/GlobalCitationCount> .
-<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub107bL189C26 .
-_:ub107bL206C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/pertainsTo> .
-<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/c4o/InTextReferencePointerList> .
-<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-_:ub107bL240C27 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl#r> .
-<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/GlobalCitationCount> .
-_:ub107bL210C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://purl.org/spar/c4o/GlobalCitationCount> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/spar/c4o/InTextReferencePointer> .
-<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub107bL210C26 .
-<http://purl.org/spar/c4o/InTextReferencePointer> <http://purl.org/dc/elements/1.1/description> "An in-text reference pointer is a textual device denoting a single bibliographic reference that is embedded in the text of a document within the context of a particular sentence."@en .
-<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:ub107bL206C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#label> "has global count source"@en .
-_:ub107bL217C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub107bL218C27 .
-<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A property used to assert the connection between a bibliographic reference and the in-text reference pointer that points to it."@en .
-<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/2000/01/rdf-schema#comment> "A property allowing one FRBR expression to be declared to be of rhetorical relevance to another, for instance that the textual context of a particular in-text reference pointer in one document is relevant to a section of text within the published document that is referenced by the bibliographic reference denoted by the in-text reference pointer, and vice versa that the converse relevance also exists."@en .
-<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/vocab/vann/preferredNamespaceURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:f26b8137020414ec28705ae064cd893c9b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ub104bL20C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/pertainsTo> .
 <http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/title> "C4O, the Citation Counting and Context Characterization Ontology"@en .
-_:ub107bL239C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:ub107bL156C69 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/hasContent> .
-<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#comment> "It is used to specify the textual content of a particular FRBR expression."@en .
-_:f26b8137020414ec28705ae064cd893c9b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub107bL156C69 .
-_:ub107bL218C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-<http://purl.org/spar/c4o> <http://www.w3.org/2000/01/rdf-schema#comment> "The Citation Counting and Context Characterization Ontology (C4O) is an ontology for characterizing the number and contexts of bibliographic citations.  It forms part of SPAR, a suite of Semantic Publishing and Referencing Ontologies."@en .
-<http://purl.org/vocab/frbr/core#Endeavour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:ub107bL194C26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is denoted by"@en .
-<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/c4o/InTextReferencePointerList> <http://purl.org/dc/elements/1.1/description> "An in-text reference pointer list can contains only in-text reference pointer list items and it always pertains to one or more bibliographic references."@en .
-<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#label> "in-text reference pointer list"@en .
-_:ub107bL228C40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:ub107bL43C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://www.w3.org/2000/01/rdf-schema#comment> "This class describes all the list items that must be used in the context of an in-text reference pointer list."@en .
-<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:ub107bL229C53 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/spar/c4o/denotes> .
-<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/c4o/InTextReferencePointer> .
-_:ub107bL223C40 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl#p> .
-<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/2000/01/rdf-schema#comment> "An integer defining the value of the global citation count of a cited entity recorded from a named bibliographic information source on a particular date."@en .
-<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/2000/01/rdf-schema#label> "has global count date"@en .
-<http://purl.org/spar/c4o/GlobalCitationCount> <http://www.w3.org/2000/01/rdf-schema#label> "global citation count"@en .
-<http://purl.org/spar/c4o/hasContext> <http://purl.org/dc/elements/1.1/description> "Any FRBR expression that constitutes the range of this property can have at most one particular literal textual content specified through the property c4o:hasContent."@en .
-<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://www.w3.org/2000/01/rdf-schema#label> "in-text reference pointer list item"@en .
-<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#label> "in-text reference pointer"@en .
-<http://purl.org/spar/c4o> <http://www.w3.org/2002/07/owl#versionInfo> "1.1.1"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The property linking an in-text reference pointer list to the bibliographic reference or references denoted by the in-text reference pointers within that list."@en .
-<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:ub107bL156C69 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/creator> "David Shotton"^^<http://www.w3.org/2001/XMLSchema#string> .
-_:ub107bL229C53 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl#r> .
-<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/c4o/denotes> .
-_:ub107bL189C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/denotes> .
-_:ub107bL216C1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
-<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/2002/07/owl#topDataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/date> "2013-05-11" .
-<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/2000/01/rdf-schema#label> "is relevant to"@en .
-<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "has in text citation frequency"@en .
-<http://purl.org/spar/c4o/BibliographicInformationSource> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic information source"@en .
-_:ub107bL239C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:ub107bL43C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/itemContent> .
-_:ub107bL223C40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://purl.org/spar/c4o> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/spar/biro> .
-<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://purl.org/dc/elements/1.1/description> "An in-text reference pointer list item can contain only a single in-text reference pointer.\n\nNote that, as specified through the hasKey assertion, such a list cannot contain more than one item containing the same in-text reference pointer entity."@en .
-<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/InTextReferencePointer> .
-<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/frbr/core#Expression> .
-_:ub107bL223C40 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/co/element> .
-<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/biro/BibliographicReference> .
-<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://purl.org/vocab/vann/preferredNamespaceURI> <http://www.w3.org/2000/01/rdf-schema#label> "http://purl.org/vocab/vann/preferredNamespaceURI" .
-<http://purl.org/spar/c4o/denotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#label> "has content"@en .
-<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which the global citation count of the cited entity was recorded from a named bibliographic information source."@en .
-_:ub107bL156C69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/c4o/BibliographicInformationSource> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/spar/c4o/GlobalCitationCount> .
-_:ub107bL240C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-_:ub107bL206C26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/spar/biro/BibliographicReference> .
-<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/biro/BibliographicReference> .
-<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#comment> "An in-text reference pointer list that pertains to exactly one bibliographic reference."@en .
-<http://purl.org/spar/c4o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<urn:swrl#l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
-<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/InTextReferencePointer> .
-_:ub107bL43C26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/c4o/InTextReferencePointer> .
-_:ub107bL228C40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-<http://www.semanticweb.org/owlapi#nodeID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:ub107bL189C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:ub107bL189C26 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:ub107bL218C27 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.org/spar/c4o/InTextReferencePointerList> .
-_:ub107bL239C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub107bL240C27 .
-<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Expression> .
-_:ub107bL240C27 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/spar/c4o/pertainsTo> .
-<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/List> .
-_:ub107bL222C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ub107bL228C40 .
-<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/GlobalCitationCount> .
-_:ub107bL210C26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/c4o/InTextReferencePointerListItem> .
-_:ub107bL20C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking the property c40:GlobalCitationCount to the bibliographic information source providing the global citation count information for a particular publication on a particular date."@en .
-<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/biro/BibliographicReference> .
-<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:ub107bL228C40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub107bL229C53 .
-_:f26b8137020414ec28705ae064cd893c9b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f26b8137020414ec28705ae064cd893c9b2 .
-<http://purl.org/spar/c4o/GlobalCitationCount> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of times a work has been cited globally, as determined from a particular bibliographic information source on a particular date."@en .
-<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#range> _:ub107bL155C29 .
-<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<urn:swrl#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
-<urn:swrl#p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
-<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub107bL194C26 .
-<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows one to specify how many separate in-text reference pointers exist within the text of a citing document that all denote the same single bibliographic reference to a cited document (i.e how many distinct textual contexts exist within the citing document from which a citation is made to a particular document). "@en .
-_:ub107bL222C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#label> "single reference pointer list"@en .
-<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/description> "C4O, the Citation Counting and Context Characterization Ontology (C4O) allows the characterization of bibliographic citations in terms of their number and their context.\n\nIt provides the ontological structures to permit the number of in-text citations of a cited source (i.e. the number of in-text reference pointers to a single reference in the citing article\u00E2\u20AC\u2122s reference list) to be recorded, and also the number of citations a cited entity has received globally, as determined by a bibliographic information resource such as Google Scholar, Scopus or Web of Knowledge on a particular date. \n\nMoreover, it enables ontological descriptions of the context within the citing document in which an in-text reference pointer appears, and permits that context to be related to relevant textual passages in the cited document.\n"@en .
-_:ub107bL217C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-<http://purl.org/spar/c4o> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is available at http://purl.org/spar/c4o, and uses the namespace prefix c4o.  Other SPAR ontologies are described at http://purl.org/spar/."@en .
-_:ub107bL216C1 <http://www.w3.org/2003/11/swrl#body> _:ub107bL217C14 .
-<http://purl.org/spar/c4o/BibliographicInformationSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#comment> "The in-text reference pointer is a textual element, usually embedded at the end of a phrase or sentence within the text of a document, that denotes a specific bibliographic reference present in the reference list of that document. For example, if the item in the reference list is: \n\n4.  Ko AI, Reis MG, Ribeiro Dourado CM, Johnson WD Jr, Riley LW (1999). Urban epidemic of severe leptospirosis in Brazil. Salvador Leptospirosis Study Group. Lancet 354: 820-825.\n\nthe in-text reference pointer to this paper in a journal article may be manifested in a number of ways:	\n\nNumerically, for example by using the numeral 4 in superscript or between square brackets, thus: [4].  Such numerical in-text \nreference pointers are frequently aggregated, e.g. [4, 5, 6-9].  In such cases, the missing pointers to references 7 and 8 are inferred (and should be added explicitly to the XML mark-up at this point in the text!). \n\nOr by use of the author names (or the first author's name plus et al.) and the publication year in parentheses, thus: (Ko et al., 1999). \n\nOr, less commonly, by the use of a code, e.g. by specifying the first surname letter of the first three author of the cited work followed by the last two digits of the year of publication, this string of characters being enclosed within square brackets, thus: [KRR99]."@en .
-_:ub107bL210C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/item> .
-<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/c4o/BibliographicInformationSource> .
-<http://purl.org/spar/c4o/GlobalCitationCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:ub107bL223C40 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl#l> .
-_:ub107bL217C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ub107bL222C27 .
-<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub107bL20C26 .
-<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/InTextReferencePointerList> .
-<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-_:ub107bL240C27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl#l> .
-_:ub107bL194C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/c4o/BibliographicInformationSource> <http://www.w3.org/2000/01/rdf-schema#comment> "A source of information about bibliographic citations, such as Google Scholar, Web of Science or Scopus."@en .
-_:f26b8137020414ec28705ae064cd893c9b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#Expression> .
-_:ub107bL216C1 <http://www.w3.org/2003/11/swrl#head> _:ub107bL239C14 .
-<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
-<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#label> "denotes"@en .
-<http://purl.org/vocab/frbr/core#Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/description> <https://svn.code.sf.net/p/sempublishing/code/C4O/CitationCounting%20module.png> .
+_:ub104bL156C69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/ListItem> .
-<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/2000/01/rdf-schema#label> "pertains to"@en .
-<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Expression> .
-<http://purl.org/spar/c4o/InTextReferencePointer> <http://purl.org/dc/elements/1.1/description> <https://svn.code.sf.net/p/sempublishing/code/C4O/InTextReferencePointer%20module.png> .
-_:ub107bL189C26 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/spar/biro/BibliographicReference> .
-_:ub107bL229C53 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl#p> .
-_:ub107bL20C26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/c4o/BibliographicInformationSource> <http://www.w3.org/2000/01/rdf-schema#label> "bibliographic information source"@en .
+_:ub104bL217C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub104bL206C26 .
+<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/biro/BibliographicReference> .
 <http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/biro/BibliographicReference> .
-_:ub107bL229C53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
-<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
-<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to indicate the textual context (e.g. a sentence or a paragraph) of a particular in-text reference pointer, this context providing the rhetorical motivation for the existence of that citation."@en .
-<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#label> "has context"@en .
-<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#comment> "A list containing only in-text reference pointers denoting the specific bibliographic references to which the list pertains."@en .
-<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:ub107bL20C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/pertainsTo> .
+<http://purl.org/spar/c4o/GlobalCitationCount> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of times a work has been cited globally, as determined from a particular bibliographic information source on a particular date."@en .
+_:ff59bc223271f495b87720b9ec0b906fbb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub104bL156C69 .
+<http://purl.org/spar/c4o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking the property c40:GlobalCitationCount to the bibliographic information source providing the global citation count information for a particular publication on a particular date."@en .
 <http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Endeavour> .
-<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-_:ub107bL194C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/hasContext> .
-<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ub104bL206C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/pertainsTo> .
+<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/c4o/InTextReferencePointer> .
+_:ub104bL223C40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:ub104bL228C40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
 <http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/2000/01/rdf-schema#label> "has global count value"@en .
-<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:ub107bL155C29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:ub107bL218C27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl#l> .
+_:ub104bL194C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub104bL223C40 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl#p> .
+<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/c4o/GlobalCitationCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ub104bL189C26 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/frbr/core#Expression> .
+_:ub104bL43C26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/c4o/InTextReferencePointer> .
+_:ub104bL216C1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#comment> "A list containing only in-text reference pointers denoting the specific bibliographic references to which the list pertains."@en .
+_:ub104bL155C29 <http://www.w3.org/2002/07/owl#intersectionOf> _:ff59bc223271f495b87720b9ec0b906fbb1 .
+_:ub104bL156C69 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/hasContent> .
+<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "has global citation frequency"@en .
+<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/c4o/GlobalCitationCount> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/spar/c4o/InTextReferencePointer> .
+<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/spar/c4o/BibliographicInformationSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#label> "single reference pointer list"@en .
+<http://purl.org/spar/c4o/SingleReferencePointerList> <http://purl.org/dc/elements/1.1/description> "A single reference pointer list pertains only to one bibliographic reference.\n\nNote that this semantic constraint is handled by the combined use of a particular restriction of this class, i.e. that the list pertains to exactly one owl:Thing, and that the following SWRL rule applies:\n\nc4o:InTextReferencePointerList(?l), c4o:denotes(?p, ?r), swan:item(?l, ?i), swan:itemContent(?i, ?p) -> c4o:pertainsTo(?l, ?r)"@en .
+<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+_:ub104bL206C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/biro/BibliographicReference> .
+_:ub104bL210C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/item> .
+<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used to indicate the textual context (e.g. a sentence or a paragraph) of a particular in-text reference pointer, this context providing the rhetorical motivation for the existence of that citation."@en .
+_:ub104bL240C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/description> "C4O, the Citation Counting and Context Characterization Ontology (C4O) allows the characterization of bibliographic citations in terms of their number and their context.\n\nIt provides the ontological structures to permit the number of in-text citations of a cited source (i.e. the number of in-text reference pointers to a single reference in the citing article\u00E2\u20AC\u2122s reference list) to be recorded, and also the number of citations a cited entity has received globally, as determined by a bibliographic information resource such as Google Scholar, Scopus or Web of Knowledge on a particular date. \n\nMoreover, it enables ontological descriptions of the context within the citing document in which an in-text reference pointer appears, and permits that context to be related to relevant textual passages in the cited document.\n"@en .
+<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/biro/BibliographicReference> .
+<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#label> "has context"@en .
+<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/c4o/BibliographicInformationSource> .
+<http://purl.org/spar/c4o/GlobalCitationCount> <http://www.w3.org/2000/01/rdf-schema#label> "global citation count"@en .
+<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#range> _:ub104bL155C29 .
+<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/2000/01/rdf-schema#label> "is relevant to"@en .
+<http://purl.org/spar/c4o/hasContext> <http://purl.org/dc/elements/1.1/description> "Any FRBR expression that constitutes the range of this property can have at most one particular literal textual content specified through the property c4o:hasContent."@en .
+_:ub104bL228C40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub104bL229C53 .
+_:ub104bL229C53 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl#p> .
+_:ub104bL43C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/co/itemContent> .
+<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:ub104bL218C27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl#l> .
+<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/2000/01/rdf-schema#label> "has global count date"@en .
+_:ub104bL239C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub104bL240C27 .
+<http://purl.org/spar/c4o> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is available at http://purl.org/spar/c4o, and uses the namespace prefix c4o.  Other SPAR ontologies are described at http://purl.org/spar/."@en .
+<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/2000/01/rdf-schema#label> "has global count value"@en .
+_:ub104bL194C26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:ub104bL20C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub104bL217C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub104bL218C27 .
+<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:ub104bL210C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub104bL20C26 .
+<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/co/List> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/2000/01/rdf-schema#comment> "A property allowing one FRBR expression to be declared to be of rhetorical relevance to another, for instance that the textual context of a particular in-text reference pointer in one document is relevant to a section of text within the published document that is referenced by the bibliographic reference denoted by the in-text reference pointer, and vice versa that the converse relevance also exists."@en .
+_:ub104bL189C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/denotes> .
+_:ub104bL229C53 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl#r> .
+_:ub104bL194C26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/c4o/hasContext> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/c4o> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/spar/biro> .
+<http://purl.org/spar/c4o/InTextReferencePointer> <http://purl.org/dc/elements/1.1/description> <https://svn.code.sf.net/p/sempublishing/code/C4O/InTextReferencePointer%20module.png> .
+<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub104bL194C26 .
+<http://www.w3.org/2002/07/owl#topDataProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:ff59bc223271f495b87720b9ec0b906fbb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#comment> "It is used to specify the textual content of a particular FRBR expression."@en .
+_:ub104bL210C26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/c4o/InTextReferencePointerListItem> .
+<http://purl.org/vocab/vann/preferredNamespaceURI> <http://www.w3.org/2000/01/rdf-schema#label> "http://purl.org/vocab/vann/preferredNamespaceURI" .
+<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/2000/01/rdf-schema#comment> "An integer defining the value of the global citation count of a cited entity recorded from a named bibliographic information source on a particular date."@en .
+<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/GlobalCitationCount> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/GlobalCitationCount> .
+_:ub104bL229C53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:ff59bc223271f495b87720b9ec0b906fbb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/description> <https://svn.code.sf.net/p/sempublishing/code/C4O/CitationCounting%20module.png> .
+<http://purl.org/vocab/vann/preferredNamespaceURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#comment> "The in-text reference pointer is a textual element, usually embedded at the end of a phrase or sentence within the text of a document, that denotes a specific bibliographic reference present in the reference list of that document. For example, if the item in the reference list is: \n\n4.  Ko AI, Reis MG, Ribeiro Dourado CM, Johnson WD Jr, Riley LW (1999). Urban epidemic of severe leptospirosis in Brazil. Salvador Leptospirosis Study Group. Lancet 354: 820-825.\n\nthe in-text reference pointer to this paper in a journal article may be manifested in a number of ways:	\n\nNumerically, for example by using the numeral 4 in superscript or between square brackets, thus: [4].  Such numerical in-text \nreference pointers are frequently aggregated, e.g. [4, 5, 6-9].  In such cases, the missing pointers to references 7 and 8 are inferred (and should be added explicitly to the XML mark-up at this point in the text!). \n\nOr by use of the author names (or the first author's name plus et al.) and the publication year in parentheses, thus: (Ko et al., 1999). \n\nOr, less commonly, by the use of a code, e.g. by specifying the first surname letter of the first three author of the cited work followed by the last two digits of the year of publication, this string of characters being enclosed within square brackets, thus: [KRR99]."@en .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:ub104bL155C29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ub104bL239C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:ub104bL216C1 <http://www.w3.org/2003/11/swrl#head> _:ub104bL239C14 .
+<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/c4o/BibliographicInformationSource> <http://www.w3.org/2000/01/rdf-schema#comment> "A source of information about bibliographic citations, such as Google Scholar, Web of Science or Scopus."@en .
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/owlapi#nodeID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/c4o/InTextReferencePointer> <http://purl.org/dc/elements/1.1/description> "An in-text reference pointer is a textual device denoting a single bibliographic reference that is embedded in the text of a document within the context of a particular sentence."@en .
+<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "A property linking a publication entity to the property c40:GlobalCitationCount that specify how many times a work has been cited by others, according to a particular information source on a particular date."@en .
+_:ff59bc223271f495b87720b9ec0b906fbb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff59bc223271f495b87720b9ec0b906fbb2 .
+<http://purl.org/spar/c4o/BibliographicInformationSource> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/spar/c4o/GlobalCitationCount> .
+_:ub104bL218C27 <http://www.w3.org/2003/11/swrl#classPredicate> <http://purl.org/spar/c4o/InTextReferencePointerList> .
+<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/c4o/GlobalCitationCount> .
+_:ub104bL218C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#label> "in-text reference pointer list"@en .
+<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Expression> .
+<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub104bL210C26 .
+<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/creator> "David Shotton"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://purl.org/spar/c4o/BibliographicInformationSource> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.org/spar/c4o/InTextReferencePointer> .
-_:ub107bL155C29 <http://www.w3.org/2002/07/owl#intersectionOf> _:f26b8137020414ec28705ae064cd893c9b1 .
-<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub107bL43C26 .
+<http://purl.org/spar/c4o/hasGlobalCountValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://purl.org/spar/c4o/denotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<urn:swrl#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/GlobalCitationCount> .
+<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#comment> "A property used to assert the connection between an in-text reference pointer and the bibliographic reference it points to."@en .
+_:ub104bL240C27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl#l> .
+<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub104bL43C26 .
+<http://purl.org/spar/c4o/InTextReferencePointerList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:ub104bL239C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/InTextReferencePointer> .
+_:ub104bL222C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ub104bL228C40 .
+<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/spar/c4o/hasContext> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/InTextReferencePointer> .
+<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://www.w3.org/2000/01/rdf-schema#comment> "This class describes all the list items that must be used in the context of an in-text reference pointer list."@en .
+_:ub104bL189C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/c4o/hasGlobalCitationFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ub104bL20C26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<urn:swrl#l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://www.w3.org/2000/01/rdf-schema#label> "in-text reference pointer list item"@en .
+_:ub104bL222C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+<http://purl.org/spar/c4o> <http://www.w3.org/2002/07/owl#versionInfo> "1.1.1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is denoted by"@en .
+<urn:swrl#p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/date> "2013-05-11" .
+_:ub104bL189C26 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/spar/biro/BibliographicReference> .
+<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/2000/01/rdf-schema#label> "pertains to"@en .
+<http://purl.org/vocab/frbr/core#Endeavour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/c4o> <http://purl.org/dc/elements/1.1/rights> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en .
+_:ub104bL228C40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/spar/c4o/isRelevantTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:ub104bL229C53 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/spar/c4o/denotes> .
+<http://purl.org/spar/c4o> <http://www.w3.org/2000/01/rdf-schema#comment> "The Citation Counting and Context Characterization Ontology (C4O) is an ontology for characterizing the number and contexts of bibliographic citations.  It forms part of SPAR, a suite of Semantic Publishing and Referencing Ontologies."@en .
+<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A property used to assert the connection between a bibliographic reference and the in-text reference pointer that points to it."@en .
+_:ub104bL156C69 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#comment> "An in-text reference pointer list that pertains to exactly one bibliographic reference."@en .
+<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "This property allows one to specify how many separate in-text reference pointers exist within the text of a citing document that all denote the same single bibliographic reference to a cited document (i.e how many distinct textual contexts exist within the citing document from which a citation is made to a particular document). "@en .
+<http://purl.org/vocab/frbr/core#Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The property linking an in-text reference pointer list to the bibliographic reference or references denoted by the in-text reference pointers within that list."@en .
+<http://purl.org/spar/c4o/isDenotedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/c4o/denotes> .
+<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#label> "in-text reference pointer"@en .
+_:ub104bL223C40 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl#l> .
+<http://purl.org/spar/c4o/hasContent> <http://www.w3.org/2000/01/rdf-schema#label> "has content"@en .
+_:ub104bL43C26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/c4o/InTextReferencePointer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:ub104bL189C26 .
+<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "has in text citation frequency"@en .
+_:ub104bL240C27 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/spar/c4o/pertainsTo> .
+<http://purl.org/spar/c4o/hasInTextCitationFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ub104bL216C1 <http://www.w3.org/2003/11/swrl#body> _:ub104bL217C14 .
+_:ub104bL206C26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/spar/biro/BibliographicReference> .
+<http://purl.org/spar/c4o/hasGlobalCountSource> <http://www.w3.org/2000/01/rdf-schema#label> "has global count source"@en .
+<http://purl.org/spar/c4o/denotes> <http://www.w3.org/2000/01/rdf-schema#label> "denotes"@en .
+<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://purl.org/spar/c4o/InTextReferencePointerListItem> <http://purl.org/dc/elements/1.1/description> "An in-text reference pointer list item can contain only a single in-text reference pointer.\n\nNote that, as specified through the hasKey assertion, such a list cannot contain more than one item containing the same in-text reference pointer entity."@en .
+<http://purl.org/spar/c4o/pertainsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/c4o/InTextReferencePointerList> .
+_:ub104bL222C27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:ub104bL223C40 .
+<http://purl.org/spar/c4o/SingleReferencePointerList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/c4o/InTextReferencePointerList> .
+_:ub104bL217C14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ub104bL222C27 .
+<http://purl.org/spar/c4o/hasGlobalCountDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which the global citation count of the cited entity was recorded from a named bibliographic information source."@en .
+_:ub104bL240C27 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl#r> .
+<http://purl.org/spar/c4o/InTextReferencePointerList> <http://purl.org/dc/elements/1.1/description> "An in-text reference pointer list can contains only in-text reference pointer list items and it always pertains to one or more bibliographic references."@en .
+_:ub104bL223C40 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://purl.org/co/element> .
+<http://purl.org/spar/biro/BibliographicReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 
