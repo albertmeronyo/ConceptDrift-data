@@ -34,7 +34,8 @@ class LOVVersions:
             if "versions" in lov_json.keys():
                 self.versions[vocab] = []
                 for ver in lov_json["versions"]:
-                    self.versions[vocab].append( (ver["issued"], ver["fileURL"]) )
+                    if len(ver["fileURL"]) > 0:
+                        self.versions[vocab].append( (ver["issued"], ver["fileURL"]) )
 
     def getVersions(self):
         '''

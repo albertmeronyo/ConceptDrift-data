@@ -38,7 +38,7 @@ class LOVDSGenerator:
         Generates datasets out of URIs in config.ini's dump_file
         '''
         for voc, vers in self.jDump.iteritems():
-            if len(vers) >= 3:
+            if len() >= 3:
                 for ver in sorted(vers, key=lambda v: v[0]):
                     dirname = voc
                     uri = ver[1]
