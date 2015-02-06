@@ -1,0 +1,336 @@
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2000/01/rdf-schema#label> "Cemetery"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Cenotaph> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Cenotaph> <http://www.w3.org/2000/01/rdf-schema#label> "Cenotaph"@en .
+<http://rdf.muninn-project.org/ontologies/graves#commemorates> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://rdf.muninn-project.org/ontologies/graves#id> <http://www.w3.org/2000/01/rdf-schema#label> "ID"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Grab aus einer oder mehreren Personen."@de .
+<http://rdf.muninn-project.org/ontologies/graves#obfuscated> <http://www.w3.org/2000/01/rdf-schema#comment> "The precision of the location informaton has been degraded but the data owner has the original information."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Dig_site> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/2000/01/rdf-schema#label> "Titre du Monument"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#commemorates> <http://www.w3.org/2000/01/rdf-schema#label> "Comm\u00E9more"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#moved_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Crypt> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Plaque> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> .
+<http://rdf.muninn-project.org/ontologies/graves#Crypt> <http://www.w3.org/2000/01/rdf-schema#label> "Crypte"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#contains_grave> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/2002/07/owl#disjointWith> <http://rdf.muninn-project.org/ontologies/graves#Partial_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nom du cimeti\u00E8re."@fr .
+_:N89cbe3df1b4b48169a32199906a568c1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.muninn-project.org/ontologies/graves#Dig_site> <http://www.w3.org/2000/01/rdf-schema#label> "Arch\u00E4ologische Ausgrabungsst\u00E4tte"@de .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Grave> .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/2000/01/rdf-schema#label> "Titel des Denkmals"@de .
+<http://rdf.muninn-project.org/ontologies/graves#moved_from> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Sarcophagus> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Name des Friedhofs."@de .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/2000/01/rdf-schema#label> "Commemorated by"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Remains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#commemorates> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/muninn#person> .
+<http://rdf.muninn-project.org/ontologies/graves#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#remains_in> <http://www.w3.org/2000/01/rdf-schema#label> "bleibt, sind in Grab"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Remains> <http://www.w3.org/2000/01/rdf-schema#label> "Restes Humains"@fr .
+<http://rdf.muninn-project.org/ontologies/graves> <http://www.w3.org/2002/07/owl#versionInfo> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://rdf.muninn-project.org/ontologies/graves#Monument> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#commemorates> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#moved_to> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#comment> "Emplacement en terme de longitude, latitude ou attribut geonames ou addresse physique."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#grave_in> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdf.muninn-project.org/ontologies/graves#contains_grave> .
+<http://rdf.muninn-project.org/ontologies/graves#Remains> <http://www.w3.org/2000/01/rdf-schema#label> "Die \u00DCberreste eines Menschen."@de .
+<http://rdf.muninn-project.org/ontologies/graves#moved_from> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Headstone> <http://www.w3.org/2000/01/rdf-schema#label> "Headstone"@en .
+<http://rdf.muninn-project.org/ontologies/graves#when_moved> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#moved_from> .
+<http://rdf.muninn-project.org/ontologies/graves#Partial_remains> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#moved_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> .
+<http://rdf.muninn-project.org/ontologies/graves#Partial_remains> <http://www.w3.org/2000/01/rdf-schema#comment> "Set to True, False or nil (explicit don't know)."@en .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/muninn_location#location> .
+<http://rdf.muninn-project.org/ontologies/graves#Monument> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical feature commemorating something or someone."@en .
+<http://rdf.muninn-project.org/ontologies/graves#id> <http://www.w3.org/2000/01/rdf-schema#comment> "Local ID number for non linked open data processing."@en .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#Statue> <http://www.w3.org/2000/01/rdf-schema#label> "Statue"@de .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Container of human remains"@en .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2000/01/rdf-schema#label> "\u00C9pitaphe"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Burial_mound> <http://www.w3.org/2000/01/rdf-schema#label> "Burial_mound"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Headstone> <http://www.w3.org/2000/01/rdf-schema#label> "Pierre Tombale"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Ashes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#has_remains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves> <http://www.w3.org/2000/01/rdf-schema#label> "The Muninn Graves Ontology"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Tombstone> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Tumulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Cenotaph> <http://www.w3.org/2002/07/owl#disjointWith> <http://rdf.muninn-project.org/ontologies/graves#Tombstone> .
+<http://rdf.muninn-project.org/ontologies/graves#Dig_site> <http://www.w3.org/2000/01/rdf-schema#comment> "Un site arch\u00E9ologiques sous le controle d'un groupe de recherche o\u00F9 des fouilles prennent place."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#label> "Emplacement"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Cenotaph> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Burial_mound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#moved_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#Plaque> <http://www.w3.org/2000/01/rdf-schema#label> "Commemorative plaque"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Headstone> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2000/01/rdf-schema#comment> "True if the grave contains more than the remains of one person. This limit is arbitrary and needs debate."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Dig_site> <http://www.w3.org/2000/01/rdf-schema#label> "Archaeological dig site"@en .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/2000/01/rdf-schema#comment> "A place holder for any information related to the identity of the remains."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> <http://www.w3.org/2000/01/rdf-schema#label> "Dead people"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/2000/01/rdf-schema#label> "Ein Skelett complet."@de .
+<http://rdf.muninn-project.org/ontologies/graves#moved_from> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> .
+<http://rdf.muninn-project.org/ontologies/graves#moved_from> <http://www.w3.org/2000/01/rdf-schema#comment> "Use this to relate a grave or remains to its original instance elsewhere. Use this for disinterments."@en .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/2000/01/rdf-schema#comment> "der Name der Person / Personen ist / sind durch die Denkmal geehrt."@de .
+<http://rdf.muninn-project.org/ontologies/graves#moved_from> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdf.muninn-project.org/ontologies/graves#moved_to> .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/2000/01/rdf-schema#comment> "Diese Eigenschaft bezieht sich auf die Tatsache, dass der K\u00F6rper all der gro\u00DFen Knochen des menschlichen Skeletts enth\u00E4lt, obwohl einige kleine Knochen fehlt. Die Knochen eines Mitglieds des menschlichen K\u00F6rpers, ohne ein Skelett oder Sch\u00E4del-Klassen nicht in dieser Eigenschaft werden."@de .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/2000/01/rdf-schema#label> "Monument person name"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Shrine> <http://www.w3.org/2000/01/rdf-schema#label> "Schrein"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2000/01/rdf-schema#comment> "Une collection de tombes dans une unit\u00E9e administrative (et non pas un charnier)."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Crypt> <http://www.w3.org/2000/01/rdf-schema#label> "Krypta"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Plaque> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#grave_in> <http://www.w3.org/2000/01/rdf-schema#label> "Tombeau contenue par"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/2000/01/rdf-schema#comment> "der Name des Denkmals, die nicht mit dem Namen auf dem Denkmal zu verwechseln beizutreten."@de .
+<http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Shrine> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Gravestone> <http://www.w3.org/2000/01/rdf-schema#label> "Pierre Tombale"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Mass_grave" .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2000/01/rdf-schema#label> "Mass Grave"@en .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nom de la personne/des personnes qui est/sont honor\u00E9 par le monument."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#commemorates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Dig_site> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> .
+<http://rdf.muninn-project.org/ontologies/graves#Remains> <http://www.w3.org/2000/01/rdf-schema#label> "Human remains"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Burial_mound> <http://www.w3.org/2002/07/owl#sameAs> "#Tumulus" .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is meant to record that all of the larger bones of the skeleton were present. A body part seperatly buried or a skeleton missing a cranium would not be an instance of this property."@en .
+<http://rdf.muninn-project.org/ontologies/graves#when_moved> <http://www.w3.org/2000/01/rdf-schema#label> "Moved on"@en .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/muninn#person> .
+<http://rdf.muninn-project.org/ontologies/graves#has_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Person hat, bleibt"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic class to unify all containers of human remains."@en .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Gravestone> <http://www.w3.org/2000/01/rdf-schema#label> "Grabstein"@de .
+<http://rdf.muninn-project.org/ontologies/graves#commemorates> <http://www.w3.org/2000/01/rdf-schema#comment> "Records any information as to the Person or Group being commemorated. Not suitable for Events."@en .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Une reference a l'identit\u00E9 de la personne a qui la depouille appartient."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nom du monument, \u00E0 ne pas confondre avec le nom inscris sur le monument."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2000/01/rdf-schema#comment> "The short text honoring the deceased person or persons."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2000/01/rdf-schema#comment> "Vrai si la tombe contient plus d'un corps. Cette limite est arbitraire et doit \u00EAtre discut\u00E9."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the person(s) being honored by the monument."@en .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/2000/01/rdf-schema#label> "Un squelette complet."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#moved_to> <http://www.w3.org/2000/01/rdf-schema#label> "Moved from"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Cenotaph> <http://www.w3.org/2000/01/rdf-schema#label> "Kenotaph"@de .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#comment> "Location in terms of longitude, latitude or geonames or street address."@en .
+<http://rdf.muninn-project.org/ontologies/graves#remains_in> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdf.muninn-project.org/ontologies/graves#contains_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#contains_grave> <http://www.w3.org/2000/01/rdf-schema#label> "Grab enthielt in"@de .
+<http://rdf.muninn-project.org/ontologies/graves#remains_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#has_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Person has remains"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Sarcophagus> <http://www.w3.org/2000/01/rdf-schema#label> "Sarcophage"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.muninn-project.org/ontologies/graves#Headstone> <http://www.w3.org/2002/07/owl#sameAs> <http://rdf.muninn-project.org/ontologies/graves#Tombstone> .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2000/01/rdf-schema#label> "Beinhaus"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette propri\u00E9t\u00E9 rapporte le fait que la d\u00E9pouille comprend tout les gros os du squelette humain, m\u00EAme si quelques petit os manque. Les os d'un membre du corps humain ou un squelette sans crane ne serait pas classes dans cette propri\u00E9t\u00E9."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#when_moved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Epitaph" .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Mass_grave" .
+_:N35d5eb3ce35a49099d793e685ad5a357 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Headstone> <http://www.w3.org/2000/01/rdf-schema#comment> "Convinience class - redirects to #tombstone."@en .
+<http://rdf.muninn-project.org/ontologies/graves#obfuscated> <http://www.w3.org/2000/01/rdf-schema#label> "Location obfuscated"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/2000/01/rdf-schema#comment> "Vrai si la tombe ne contient pas de depouille."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/2002/07/owl#subClassOf> _:N89cbe3df1b4b48169a32199906a568c1 .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Sarcophagus> <http://www.w3.org/2000/01/rdf-schema#label> "Sarkophag"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Cenotaph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> .
+<http://rdf.muninn-project.org/ontologies/graves#contains_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Contient les restes"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#grave_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Partial_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Partial remains"@en .
+<http://rdf.muninn-project.org/ontologies/graves#contains_remains> <http://www.w3.org/2000/01/rdf-schema#label> "enth\u00E4lt die \u00DCberreste"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine generische Klasse f\u00FCr alle Container von menschlichen \u00DCberresten zu vereinheitlichen."@de .
+<http://rdf.muninn-project.org/ontologies/graves#moved_from> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Ashes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N89cbe3df1b4b48169a32199906a568c1 <http://www.w3.org/2002/07/owl#maxCardinality> "0"^^<xsd:integer> .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/2000/01/rdf-schema#comment> "True if the grave contains no humain remains."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/2000/01/rdf-schema#label> "Grave"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Plaque> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/2000/01/rdf-schema#comment> "A single or mass grave with the remains of human beings."@en .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdf.muninn-project.org/ontologies/graves#commemorates> .
+<http://rdf.muninn-project.org/ontologies/graves#commemorates> <http://www.w3.org/2000/01/rdf-schema#label> "Commemorates"@en .
+<http://rdf.muninn-project.org/ontologies/graves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Verweis auf die Identit\u00E4t der Person, die den K\u00F6rper geh\u00F6rt."@de .
+<http://rdf.muninn-project.org/ontologies/graves#grave_in> <http://www.w3.org/2000/01/rdf-schema#label> "Grave contained by"@en .
+<http://rdf.muninn-project.org/ontologies/graves#contains_grave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/2000/01/rdf-schema#label> "Remains of this Person"@en .
+<http://rdf.muninn-project.org/ontologies/graves#when_moved> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#when_moved> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#moved_to> .
+<http://rdf.muninn-project.org/ontologies/graves#id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2000/01/rdf-schema#comment> "True, wenn das Grab enth\u00E4lt mehr als ein K\u00F6rper. Diese Grenze ist willk\u00FCrlich und sollte diskutiert werden."@de .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/2000/01/rdf-schema#label> "Die \u00DCberreste dieser Person"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Tumulus> <http://www.w3.org/2000/01/rdf-schema#label> "Tumulus"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Tumulus> <http://www.w3.org/2000/01/rdf-schema#label> "H\u00FCgelgrab"@de .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#comment> "Lage in Bezug auf L\u00E4nge, Breite oder Attribut geonames oder physikalische Adresse."@de .
+<http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Tumulus> <http://www.w3.org/2000/01/rdf-schema#comment> "Tumulus is actually the Latin word, but unclear what the appropriate English label is here."@en .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/2000/01/rdf-schema#label> "Name des Friedhofs"@de .
+<http://rdf.muninn-project.org/ontologies/graves#remains_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Records any information as to the Person or Group being commemorated. Not suitable for Events."@en .
+<http://rdf.muninn-project.org/ontologies/graves#remains_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#label> "Lage"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Gravestone> <http://www.w3.org/2002/07/owl#sameAs> <http://rdf.muninn-project.org/ontologies/graves#Tombstone> .
+<http://rdf.muninn-project.org/ontologies/graves#id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Container von menschlichen \u00DCberresten"@de .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2000/01/rdf-schema#label> "Epitaph"@de .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/2000/01/rdf-schema#label> "Nom de la personne"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.geonames.org/ontology> .
+<http://rdf.muninn-project.org/ontologies/graves#Dig_site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Partial_remains> <http://www.w3.org/2000/01/rdf-schema#subClass> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#moved_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Use this to relate a grave or remains to its original instance elsewhere. Use this for disinterments."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Sarcophagus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/2000/01/rdf-schema#label> "Empty Grave"@en .
+<http://rdf.muninn-project.org/ontologies/graves> <http://www.w3.org/2000/01/rdf-schema#comment> "The Muninn Graves Ontology is meants to deal with the remains of human beings."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Statue> <http://www.w3.org/2000/01/rdf-schema#label> "Statue"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Gravestone> <http://www.w3.org/2000/01/rdf-schema#comment> "Convinience class - redirects to #tombstone."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Cenotaph> <http://www.w3.org/2000/01/rdf-schema#label> "C\u00E9notaphe"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Partial_remains> <http://www.w3.org/2000/01/rdf-schema#comment> "Vielleicht True (Wahr), False (Falsch) oder null (erkl\u00E4rt unbekannt)."@de .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://rdf.muninn-project.org/ontologies/graves#commemorates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/2000/01/rdf-schema#label> "erinnert"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Shrine> <http://www.w3.org/2000/01/rdf-schema#label> "Sanctuaire"@fr .
+_:N35d5eb3ce35a49099d793e685ad5a357 <http://www.w3.org/2002/07/owl#onProperty> <http://rdf.muninn-project.org/ontologies/graves#contains_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Plaque> <http://www.w3.org/2000/01/rdf-schema#label> "Gedenktafel"@de .
+<http://rdf.muninn-project.org/ontologies/graves#id> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#obfuscated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Location> .
+<http://rdf.muninn-project.org/ontologies/graves#Gravestone> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Ashes> <http://www.w3.org/2000/01/rdf-schema#subClass> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#contains_remains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of graves in a single administrative unit. Distinct from a mass-grave."@en .
+<http://rdf.muninn-project.org/ontologies/graves#grave_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2000/01/rdf-schema#label> "Epitaph"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Tombstone> <http://www.w3.org/2000/01/rdf-schema#label> "Tombstone"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2000/01/rdf-schema#label> "Charnier"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Sarcophagus> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Headstone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#monument_name> <http://www.w3.org/2000/01/rdf-schema#label> "Name der Person"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Statue> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Remains> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Statue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/2000/01/rdf-schema#label> "Cemetery Name"@en .
+<http://rdf.muninn-project.org/ontologies/graves#moved_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Shrine> <http://www.w3.org/2000/01/rdf-schema#label> "Shrine"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Gravestone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/2000/01/rdf-schema#label> "Grab"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Plaque> <http://www.w3.org/2000/01/rdf-schema#comment> "A plaque commemorating a deceased person."@en .
+<http://rdf.muninn-project.org/ontologies/graves#contains_remains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the monument; distinct from the inscription on it."@en .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2003/01/geo/wgs84_pos> .
+<http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> <http://www.w3.org/2000/01/rdf-schema#label> "Gens mort"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#when_moved> <http://www.w3.org/2000/01/rdf-schema#label> "Date or interval when the objects were moved."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> <http://www.w3.org/2000/01/rdf-schema#label> "Menschen starben"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Ashes> <http://www.w3.org/2000/01/rdf-schema#label> "Streute die Asche eines menschlichen K\u00F6rpers. Die Asche kann teilweise oder vollst\u00E4ndig."@de .
+<http://rdf.muninn-project.org/ontologies/graves#Headstone> <http://www.w3.org/2000/01/rdf-schema#label> "Grabstein"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Dig_site> <http://www.w3.org/2000/01/rdf-schema#label> "Site de fouilles arch\u00E9ologiques"@fr .
+<http://rdf.muninn-project.org/ontologies/graves> <http://purl.org/dc/elements/1.1/description> "The Muninn Graves Ontology is meants to deal with the remainsl of human beings." .
+<http://rdf.muninn-project.org/ontologies/graves#Tumulus> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#Ashes> <http://www.w3.org/2000/01/rdf-schema#label> "Les cendres dispers\u00E9es d'un corps humain. Les cendres peuvent \u00EAtre partielle or compl\u00E8te."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2000/01/rdf-schema#label> "Cimeti\u00E8re"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#obfuscated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#Partial_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Teilweise bleibt"@de .
+<http://rdf.muninn-project.org/ontologies/graves#obfuscated> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#commemorated_by> <http://www.w3.org/2000/01/rdf-schema#label> "Comm\u00E9mor\u00E9 par"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Sarcophagus> <http://www.w3.org/2000/01/rdf-schema#label> "Sarcophagus"@en .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/2000/01/rdf-schema#label> "Les restes de cette personne"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Dig_site> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine arch\u00E4ologische Ausgrabungsst\u00E4tte unter der Kontrolle von einer Arbeitsgruppe, wo Ausgrabungen stattfinden."@de .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Grabinschrift, auf einem Grabstein gesetzt, der diese in das Grab gelobt."@de .
+<http://rdf.muninn-project.org/ontologies/graves#id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/2000/01/rdf-schema#label> "Tombe vide"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#contains_remains> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#grave_in> <http://www.w3.org/2000/01/rdf-schema#label> "Tomb durch enthaltenen"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Shrine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves> <http://www.w3.org/2002/07/owl#imports> <http://rdf.muninn-project.org/ontologies/muninn_locations.owl> .
+<http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> <http://www.w3.org/2000/01/rdf-schema#comment> "Une classe g\u00E9n\u00E9rique pour tout les restes humains."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#moved_from> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Empty_grave> <http://www.w3.org/2000/01/rdf-schema#label> "?"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Partial_remains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#when_moved> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/TR/owl-time#TemporalEntity> .
+<http://rdf.muninn-project.org/ontologies/graves#Crypt> <http://www.w3.org/2000/01/rdf-schema#label> "Crypt"@en .
+<http://rdf.muninn-project.org/ontologies/graves#contains_grave> <http://www.w3.org/2000/01/rdf-schema#label> "Contient tombeau"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2002/07/owl#disjointWith> <http://rdf.muninn-project.org/ontologies/graves#Mass_grave> .
+<http://rdf.muninn-project.org/ontologies/graves#Plaque> <http://www.w3.org/2000/01/rdf-schema#label> "Plaque comm\u00E9morative"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Sammlung von Gr\u00E4bern in einer administrativen Einheit (keine Masse)."@de .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#remains_in> <http://www.w3.org/2000/01/rdf-schema#label> "Les restes dans la tombe"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Ashes> <http://www.w3.org/2000/01/rdf-schema#label> "Human Ashes"@en .
+<http://rdf.muninn-project.org/ontologies/graves#has_remains> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdf.muninn-project.org/ontologies/graves#remains_of> .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.muninn-project.org/ontologies/graves#grave_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> .
+<http://rdf.muninn-project.org/ontologies/graves#contains_grave> <http://www.w3.org/2000/01/rdf-schema#label> "contains grave"@en .
+<http://rdf.muninn-project.org/ontologies/graves#has_remains> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#Tombstone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N89cbe3df1b4b48169a32199906a568c1 <http://www.w3.org/2002/07/owl#onProperty> <http://rdf.muninn-project.org/ontologies/graves#contains_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#has_remains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/muninn#person> .
+_:N35d5eb3ce35a49099d793e685ad5a357 <http://www.w3.org/2002/07/owl#minCardinality> "2"^^<xsd:nonNegativeInteger> .
+<http://rdf.muninn-project.org/ontologies/graves#moved_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/muninn#person> .
+<http://rdf.muninn-project.org/ontologies/graves#has_remains> <http://www.w3.org/2000/01/rdf-schema#label> "La personne a ces restes"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/2000/01/rdf-schema#comment> "Une tombe d'une ou de plusieurs personne."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Statue> <http://www.w3.org/2000/01/rdf-schema#label> "Statue"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves#Tombstone> <http://www.w3.org/2002/07/owl#subClassOf> <http://rdf.muninn-project.org/ontologies/graves#Monument> .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/2000/01/rdf-schema#label> "Nom du Cimeti\u00E8re"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#moved_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.muninn-project.org/ontologies/graves#Remains> .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the cemetery."@en .
+<http://rdf.muninn-project.org/ontologies/graves#site_name> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#moved_from> <http://www.w3.org/2000/01/rdf-schema#label> "Moved from"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Skeleton> <http://www.w3.org/2000/01/rdf-schema#label> "Skeleton."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Grave" .
+<http://rdf.muninn-project.org/ontologies/graves#remains_in> <http://www.w3.org/2000/01/rdf-schema#label> "Remains are in Grave"@en .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Mass_grave> <http://www.w3.org/2002/07/owl#subClassOf> _:N35d5eb3ce35a49099d793e685ad5a357 .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/resource/Cemetery" .
+<http://rdf.muninn-project.org/ontologies/graves#Partial_remains> <http://www.w3.org/2000/01/rdf-schema#comment> "Peut-\u00EAtre True (vrai), False (Faux) or nil (Declar\u00E9 inconnue)."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#epitaph> <http://www.w3.org/2000/01/rdf-schema#comment> "Une inscription fun\u00E9raire, plac\u00E9e sur une pierre tombale, qui \u00E9loge les personne(s) dans la tombe."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/2000/01/rdf-schema#label> "Monument title"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Un contenant pour des restes humains."@fr .
+<http://rdf.muninn-project.org/ontologies/graves#commemorates> <http://www.w3.org/2000/01/rdf-schema#label> "erinnert"@de .
+<http://rdf.muninn-project.org/ontologies/graves#monument_title> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<http://rdf.muninn-project.org/ontologies/graves#Crypt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.muninn-project.org/ontologies/graves> <http://purl.org/dc/elements/1.1/title> "The Muninn Graves Ontology" .
+<http://rdf.muninn-project.org/ontologies/graves#Dig_site> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical location under the administration of an Archaeological organization where graves are being exhumed."@en .
+<http://rdf.muninn-project.org/ontologies/graves#Tombstone> <http://www.w3.org/2000/01/rdf-schema#label> "Pierre Tombale"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Grave> <http://www.w3.org/2000/01/rdf-schema#label> "Tombe"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Tumulus> <http://www.w3.org/2000/01/rdf-schema#label> "Tumulus"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Partial_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Morceau de squelette"@fr .
+<http://rdf.muninn-project.org/ontologies/graves#Tombstone> <http://www.w3.org/2000/01/rdf-schema#label> "Grabstein"@de .
+<http://rdf.muninn-project.org/ontologies/graves#has_remains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://rdf.muninn-project.org/ontologies/graves#Cemetery> <http://www.w3.org/2000/01/rdf-schema#label> "Friedhof"@de .
+<http://rdf.muninn-project.org/ontologies/graves#Dead_people_place> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical and administrative place with dead people in it. Of the non-zombie kind."@en .
+<http://rdf.muninn-project.org/ontologies/graves#contains_remains> <http://www.w3.org/2000/01/rdf-schema#label> "Grave contains remains"@en .
+<http://rdf.muninn-project.org/ontologies/graves#Gravestone> <http://www.w3.org/2000/01/rdf-schema#label> "Gravestone"@en .
+<http://rdf.muninn-project.org/ontologies/graves#contains_grave> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.muninn-project.org/ontologies/graves#Container_for_human_remains> .
+<http://rdf.muninn-project.org/ontologies/graves#remains_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+

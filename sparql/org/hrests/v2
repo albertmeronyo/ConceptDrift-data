@@ -1,0 +1,36 @@
+<http://purl.org/hrests/v2#URITemplate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/hrests/v2#AuthenticationCredential> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/hrests/v2#MediaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2008/http-methods#Method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/hrests/v2#Method> .
+<http://purl.org/hrests/v2.n3> <http://xmlns.com/foaf/0.1/topic> <http://purl.org/hrests/v2#> .
+<http://www.w3.org/2008/http-methods#Method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/hrests/v2#isGroundedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/msm/v2#MessagePart> .
+<http://purl.org/hrests/v2#OutputFormatParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/hrests/v2.n3> <http://purl.org/dc/terms/hasFormat> "text/rdf+n3" .
+<http://purl.org/hrests/v2#isGroundedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/hrests/v2#acceptsContentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/hrests/v2.n3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> .
+<http://purl.org/hrests/v2#hasComment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> .
+<http://purl.org/hrests/v2#hasAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/hrests/v2#URITemplate> .
+<http://purl.org/hrests/v2#hasMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/hrests/v2#Method> .
+<http://purl.org/hrests/v2#> <http://purl.org/dc/terms/created> "2010-03-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/hrests/v2#automaticallyExtractedDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/hrests/v2#hasComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/hrests/v2#producesContentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/hrests/v2.n3> <http://xmlns.com/foaf/0.1/primaryTopic> <http://purl.org/hrests/v2#> .
+<http://purl.org/hrests/v2#producesContentType> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/hrests/v2#MediaType> .
+<http://purl.org/hrests/v2#> <http://www.w3.org/2000/01/rdf-schema#label> "Web API Grounding Model" .
+<http://purl.org/hrests/v2> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2008/http-methods> .
+<http://purl.org/hrests/v2#hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/hrests/v2#acceptsContentType> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/hrests/v2#MediaType> .
+<http://purl.org/hrests/v2#> <http://purl.org/dc/terms/description> "This is a description of the Web API Grounding Model, a simple model for capturing Web API details relevant for invocation support" .
+<http://purl.org/hrests/v2#hasMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/hrests/v2#automaticallyExtractedDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal> .
+<http://purl.org/hrests/v2#hasMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/msm/v2#Operation> .
+<http://purl.org/hrests/v2#> <http://purl.org/dc/terms/modified> "2011-12-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/hrests/v2> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/msm/v2> .
+<http://purl.org/hrests/v2.n3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://purl.org/hrests/v2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/hrests/v2#> <http://purl.org/dc/terms/modified> "2012-03-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/hrests/v2#> <http://www.w3.org/2002/07/owl#versionInfo> "2" .
+
