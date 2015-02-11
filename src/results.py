@@ -5,7 +5,7 @@
 import sys
 import csv
 
-inFile = open(sys.argv[1]), 'r')
+inFile = open(sys.argv[1], 'r')
 
 results = []
 
