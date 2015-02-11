@@ -24,7 +24,7 @@ for i,line in enumerate(data):
             if data[i+2].split()[0] == "Weighted":
                 results.append([exp] + [line] + ["10CV"] + data[i+2].split()[2:9])
 
-with open('results.csv', 'wb') as outFile:
+with open(sys.argv[2], 'wb') as outFile:
     writer = csv.writer(outFile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     for line in results:
         writer.writerow(line)
