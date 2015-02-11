@@ -17,4 +17,9 @@ for i,line in enumerate(inFile.readlines()):
         if line[i+2].split()[0] == "Weighted":
             results.append([line + line[i+2].split()[2:9]])
 
+with open('results.csv') as outFile:
+    writer = csv.writer(outFile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    for line in results:
+        writer.writerow(line)
+
     
