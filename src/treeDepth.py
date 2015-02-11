@@ -33,7 +33,7 @@ def treeDepthC(h, n):
     else:
         for child in h[n]:
             depths = []
-            depths.append(treeDepth(h, child))
+            depths.append(treeDepthC(h, child))
             return max(depths) + 1
 
 if __name__ == "__main__":
