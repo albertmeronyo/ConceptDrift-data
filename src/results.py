@@ -6,10 +6,11 @@ import sys
 import csv
 
 inFile = open(sys.argv[1], 'r')
+data = inFile.readlines()
 
 results = []
 
-for i,line in enumerate(inFile.readlines()):
+for i,line in enumerate(data):
     if line.split()[0] == 'java':
         # Look if next lines contain results
         if line[i+1].split()[0] == "Weighted":
